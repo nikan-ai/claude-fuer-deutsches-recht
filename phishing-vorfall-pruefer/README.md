@@ -5,69 +5,120 @@
 
 Freistehender Phishing-Vorfall-Prüfer für Online-Banking: BGB Paragraf 675u, Paragraf 675v, Paragraf 675w, pushTAN, Call-ID-Spoofing, grobe Fahrlässigkeit, Beweislast, Bankpflichten, Schlichtung und Klage.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`phishing-vorfall-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/phishing-vorfall-pruefer.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/phishing-vorfall-pruefer.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/phishing-vorfall-pruefer-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/phishing-vorfall-pruefer-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/phishing-vorfall-pruefer.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/phishing-vorfall-pruefer.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Phishing-Vorfall-Prüfer:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`phishing-vorfall-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/phishing-vorfall-pruefer.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/phishing-vorfall-pruefer/phishing-vorfall-pruefer-werkstatt.md" download><code>phishing-vorfall-pruefer-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/phishing-vorfall-pruefer/phishing-vorfall-pruefer-schnellstart.md" download><code>phishing-vorfall-pruefer-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Phishing-Vorfall Mayer ./. Sparkasse Berlin: [Gesamt-PDF](../testakten/phishing-vorfall-mayer-sparkasse-berlin/gesamt-pdf/phishing-vorfall-mayer-sparkasse-berlin_gesamt.pdf), [`testakte-phishing-vorfall-mayer-sparkasse-berlin.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-phishing-vorfall-mayer-sparkasse-berlin.zip), [`testakte-phishing-vorfall-mayer-sparkasse-berlin-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-phishing-vorfall-mayer-sparkasse-berlin-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`phishing-vorfall-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/phishing-vorfall-pruefer.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`phishing-vorfall-pruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/phishing-vorfall-pruefer-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`phishing-vorfall-pruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/phishing-vorfall-pruefer-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Kunigunde Rabenstein und die nicht erstattete Zahlung](../testakten/phishing-kleinanzeigen-rabenstein-halle/README.md) | [Gesamt-PDF](../testakten/phishing-kleinanzeigen-rabenstein-halle/gesamt-pdf/phishing-kleinanzeigen-rabenstein-halle_gesamt.pdf) | [`testakte-phishing-kleinanzeigen-rabenstein-halle.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-phishing-kleinanzeigen-rabenstein-halle.zip) | [`testakte-phishing-kleinanzeigen-rabenstein-halle-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/phishing-v445.35.4/testakte-phishing-kleinanzeigen-rabenstein-halle-einzelpdfs.zip) |
+| [Akte Phishing-Vorfall Mayer ./. Sparkasse Berlin](../testakten/phishing-vorfall-mayer-sparkasse-berlin/README.md) | [Gesamt-PDF](../testakten/phishing-vorfall-mayer-sparkasse-berlin/gesamt-pdf/phishing-vorfall-mayer-sparkasse-berlin_gesamt.pdf) | [`testakte-phishing-vorfall-mayer-sparkasse-berlin.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-phishing-vorfall-mayer-sparkasse-berlin.zip) | [`testakte-phishing-vorfall-mayer-sparkasse-berlin-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-phishing-vorfall-mayer-sparkasse-berlin-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
-Freistehendes Plugin für anwaltliche Prüfung von Online-Banking-Phishing, pushTAN-/photoTAN-Vorfällen, Call-ID-Spoofing, gefälschten Bankhotlines, Social Engineering und streitigen Erstattungsansprüchen gegen Zahlungsdienstleister.
+## Fachlicher Arbeitsablauf
 
-Das Plugin arbeitet entlang des typischen Mandats:
+Das Plugin führt vom gemeldeten Vorfall zur Bankaufforderung, Beweissicherung und gegebenenfalls zum Klageentwurf. Es trennt die Zustimmung zum Zahlungsvorgang, die unverzügliche Erstattung und den möglichen späteren Rückgriff der Bank.
 
-1. Intake: Konto, Zahlungsinstrument, Schaden, Autorisierung, Sperr- und Anzeigeverlauf.
-2. Rechtsrahmen: § 675u BGB, § 675v BGB, § 675w BGB, § 675l BGB, § 676b BGB und § 55 ZAG.
-3. Beweisprüfung: TAN-Dialog, App-Screens, Banklogs, IP-Adressen, Device-Binding, SCA, Transaktionsmonitoring, Warnhinweise.
-4. Risikomatrix: nicht autorisierter Zahlungsvorgang, grobe Fahrlässigkeit, Bankpflichtverletzung, Mitverschulden/Quotelung, Ombudsmann oder Klage.
-5. Output: Erstbewertung, Bankaufforderung, Ombudsmann-Antrag, Klagegerüst, Beweisantritts- und Log-Anforderung.
+1. Kontobelastung, tatsächliche Freigabeanzeigen sowie Meldungs- und Sperrzeiten aus den Unterlagen rekonstruieren.
+2. Die Autorisierung nach § 675j BGB und die Nachweise nach § 675w BGB prüfen; eine technische Authentifizierung nicht als Kundenentscheidung voraussetzen.
+3. Bei nicht autorisierter Zahlung die Erstattung nach § 675u BGB verfolgen. Behauptete grobe Fahrlässigkeit verschiebt diese Prüfung nicht bis zum Ende eines Haftungsstreits.
+4. Einen begründeten Betrugsverdacht gegen den Zahler und die schriftliche Behördenmitteilung als besondere Ausnahme gesondert prüfen.
+5. Den späteren Gegenanspruch nach § 675v BGB mit Beweislast, Kausalität und Haftungsgrenzen untersuchen. Eine Erstattung beendet diese Prüfung nicht automatisch.
+6. Den bestellten Brief oder Schriftsatz vollständig ausformulieren, mit den tatsächlich vorhandenen Anlagen abgleichen und zur menschlichen Prüfung vorlegen.
 
-## Inhalt
+Rechtsstand dieser Ergänzung: **16. Oktober 2026**. Die [Quellenkarte zu EuGH C-70/25](references/eugh-c-70-25-tukowiecka.md) erläutert die gelesenen Randnummern und die Grenzen des Urteils. Die Entscheidung betrifft nicht automatisch jede täuschungsbedingt vom Kunden selbst autorisierte Überweisung. Sie stellt auch keine endgültige Haftungsfreiheit und kein allgemeines Aufrechnungsverbot fest.
 
-- `skills/phishing-vorfall-pruefen/SKILL.md` - geführter Hauptworkflow.
-- `references/rechtsrahmen.md` - Arbeitsrahmen mit amtlichen Normlinks.
-- `assets/checklisten/` - Intake, Beweis- und Logmatrix, grobe-Fahrlässigkeit-Ampel.
-- `assets/vorlagen/` - Bankaufforderung, Ombudsmann-Antrag, Klagegerüst.
-- `scripts/phishing_case_gate.py` - kleines Offline-Gate für strukturierte Fallbewertung.
+## Praktischer Einstieg
 
-## Arbeitsprinzip
+Für den vollständigen Ablauf den [Hauptworkflow](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/pruefen/FACHINHALT.md) oder die Werkstatt verwenden. Mit der Akte Rabenstein beginnen: „Prüfen Sie die 700-Euro-Belastung und die Antwort der Bank. Erstellen Sie ein begründetes Erstattungsverlangen; untersuchen Sie einen möglichen Rückgriff getrennt. Verwenden Sie nur belegte Anlagen.“
 
-Das Plugin entscheidet keinen Fall automatisch. Es zwingt zur sauberen Trennung:
+Die ältere Akte Mayer bleibt erhalten. Die Akte Rabenstein enthält 28 Originaldateien: sechs Word-Dokumente, zehn PDF-Belege, zehn E-Mails mit echten Anhängen und zwei Excel-Arbeitsmappen. Die 85 Euro aus der Verkaufsanzeige und eine Apothekenrückzahlung gehören nicht zur streitigen 700-Euro-Belastung. Der genaue SMS-Wortlaut ist bewusst offen; die Akte ersetzt fehlende Beweise nicht durch eine Musterlösung.
 
-- Hat der Kunde den konkreten Zahlungsvorgang autorisiert?
-- Liegt ein Einwand aus § 675v BGB vor?
-- Was ist bewiesen, was nur behauptet?
-- Welche Banklogs müssen verlangt werden?
-- Ist Schlichtung, Teilvergleich oder Klage der bessere nächste Schritt?
+## Hilfsdateien und Lesefassungen
 
-Alle rechtlichen Bewertungen sind Arbeitsentwürfe und müssen durch eine qualifizierte Person geprüft werden.
+- [Rechtsrahmen](references/rechtsrahmen.md) und [Entscheidungsanker](references/eugh-c-70-25-tukowiecka.md).
+- [Bankaufforderung](assets/vorlagen/aufforderung-an-bank.md), [Klageentwurf](assets/vorlagen/klagegeruest.md) und [Schlichtungsantrag](assets/vorlagen/ombudsmann-antrag.md).
+- [Offline-Auswertung](scripts/README_phishing_case_gate.md): ordnet Belege und offene Prüfungen; keine automatische Haftungsquote oder Prozessfreigabe.
+- [Werkstatt als PDF](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/phishing-v445.35.4/phishing-vorfall-pruefer-werkstatt.pdf) und [Mini-Prompt als PDF](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/phishing-v445.35.4/phishing-vorfall-pruefer-schnellstart.pdf).
+
+Komponentenfassung **445.35.4**: [Release und Downloads](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/phishing-v445.35.4), [Prüfumfang](../quality/phishing-vorfall-pruefer/README.md). Die allgemeinen Sammelarchive werden durch dieses Komponentenrelease nicht nachträglich verändert.
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **61 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `freistehender-erstpruefung-und-mandatsziel`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `675v-quellenkarte`, `bankpflichten-beweislast-bgb`, `beweislast-mandantenkommunikation-entscheidungsvorlage`, `phishing-mit-geschaeftskonto`, `phishing-tatbestand-beweis-und-belege`, `pushtan-compliance-dokumentation-und-akte`, `quellen-livecheck`, `spezial-675v-livequellen-und-rechtsprechungscheck`, `spezial-pruefer-dokumentenmatrix-und-lueckenliste`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `arbeitnehmer-haftung-bgb-675u-phish-ceo`, `online-risikoampel-und-gegenargumente`, `phish-banking-trojaner-haftung-spezial`, `phishing-bgb-675u-haftung`, `phishing-praeventionscheckliste-strafanzeige`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `aufsicht-bafin-bank-strategie-banking-app`, `phishing-bank-strategie`, `phishing-tan-verfahren-vergleich` |
-| 5. Verfahren, Behörde und Gericht | `banking-behoerden-gericht-und-registerweg`, `bgb-schriftsatz-brief-und-memo-bausteine`, `klage-fristennotiz-vorfall-phish-banking`, `phishing-zivilklage-bank`, `versicherer-cyber-phishing-vorfall-zivilklage`, `vorfall-fristen-form-und-zustaendigkeit` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `fahrlaessigkeit-fehlerkatalog`, `spezial-fahrlaessigkeit-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `675u-675w-banking`, `675w-zahlen-schwellen-und-berechnung`, `bea-notfall-bgb-675v-erstkontakt-mandant`, `call-interessen-faelle-freistehender`, `faelle-abschlussprodukt-und-uebergabe`, `grobe-online-phishing`, `phish-ceo-fraud-konzern-spezial`, `phish-incident-meldepflichten-arten-erkennen`, `phish-meldepflichten-leitfaden`, `phishing-arten-erkennen`, `phishing-banking-app-malware`, `phishing-bgb-675v-grobfahrlaessig`, `phishing-erstkontakt-mandant`, `phishing-faelle-rentner-kryptowaehrung`, `phishing-kryptowaehrung-recovery`, `phishing-strafanzeige-vorbereiten`, `phishing-supply-chain-bec`, `phishing-tan`, ... plus 5 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Sofortsicherung | [`sofortsicherung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/sofortsicherung-bearbeiten/SKILL.md) |
+| 3. Zahlungskette | [`zahlungskette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/zahlungskette-bearbeiten/SKILL.md) |
+| 4. Anspruch und Gegenanspruch | [`anspruch-und-gegenanspruch-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/anspruch-und-gegenanspruch-bearbeiten/SKILL.md) |
+| 5. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -75,69 +126,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 60 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `675u-675w-banking` | Wenn es um 675U: Verhandlung, Vergleich und Eskalation in Phishing-Vorfall-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `675v-quellenkarte` | Wenn es um 675v Quellenkarte in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `675w-zahlen-schwellen-und-berechnung` | Wenn es um 675W: Zahlen, Schwellenwerte und Berechnung in Phishing-Vorfall-Prüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Phishing-Vorfall-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitnehmer-haftung-bgb-675u-phish-ceo` | Wenn es um Phishing + Arbeitnehmerhaftung in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsicht-bafin-bank-strategie-banking-app` | Wenn es um BaFin-Beschwerde gegen Bank in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `banking-behoerden-gericht-und-registerweg` | Wenn es um Banking: Behörden-, Gerichts- oder Registerweg in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bankpflichten-beweislast-bgb` | Wenn es um Bankpflichten: Beweislast, Darlegungslast und Substantiierung in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bea-notfall-bgb-675v-erstkontakt-mandant` | Wenn es um beA-Notfall bei Anwalts-PC in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweislast-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Beweislast: Mandantenkommunikation und Entscheidungsvorlage in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bgb-schriftsatz-brief-und-memo-bausteine` | Wenn es um BGB: Schriftsatz-, Brief- und Memo-Bausteine in Phishing-Vorfall-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `call-interessen-faelle-freistehender` | Wenn es um Call: Mehrparteienkonflikt und Interessenmatrix in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Phishing-Vorfall-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `faelle-abschlussprodukt-und-uebergabe` | Wenn es um Faelle: Abschlussprodukt und Übergabe in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrlaessigkeit-fehlerkatalog` | Wenn es um Fahrlaessigkeit Fehlerkatalog in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freistehender-erstpruefung-und-mandatsziel` | Wenn es um Freistehender: Erstprüfung, Rollenklärung und Mandatsziel in Phishing-Vorfall-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grobe-online-phishing` | Wenn es um Grobe: Formular, Portal und Einreichungslogik in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klage-fristennotiz-vorfall-phish-banking` | Wenn es um Klage: Fristennotiz und nächster Schritt in Phishing-Vorfall-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `online-risikoampel-und-gegenargumente` | Wenn es um Online: Risikoampel, Gegenargumente und Verteidigungslinien in Phishing-Vorfall-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phish-banking-trojaner-haftung-spezial` | Wenn es um Phish: Banking-Trojaner Haftung in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `phish-ceo-fraud-konzern-spezial` | Wenn es um Phish: CEO-Fraud Konzern in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phish-incident-meldepflichten-arten-erkennen` | Wenn es um Phish: Incident-Triage in Phishing-Vorfall-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phish-meldepflichten-leitfaden` | Wenn es um Phish: Meldepflichten in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-arten-erkennen` | Wenn es um Phishing-Arten erkennen in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-bank-strategie` | Wenn es um Anschreiben an die Bank in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-banking-app-malware` | Wenn es um Banking-App-Malware-Faelle in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-bgb-675u-haftung` | Wenn es um Paragraf 675u BGB Prüfraster in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `phishing-bgb-675v-grobfahrlaessig` | Wenn es um Paragraf 675v Grobfahrlaessigkeitspruefung in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-erstkontakt-mandant` | Wenn es um Phishing: Erstkontakt Mandant in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `phishing-faelle-rentner-kryptowaehrung` | Wenn es um Phishing-Faelle aelterer Mandanten in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-kryptowaehrung-recovery` | Wenn es um Phishing mit Kryptowaehrung in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `phishing-mit-geschaeftskonto` | Wenn es um Phishing gegen Geschäftskonto in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-praeventionscheckliste-strafanzeige` | Wenn es um Phishing-Praevention in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-strafanzeige-vorbereiten` | Wenn es um Strafanzeige Paragraf 263a StGB in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `phishing-supply-chain-bec` | Wenn es um BEC/Rechnungs-Phishing in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-tan` | Wenn es um Mandantenkommunikation in Phishing-Vorfall-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `phishing-tan-verfahren-vergleich` | Wenn es um TAN-Verfahren und Haftung in Phishing-Vorfall-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `phishing-tatbestand-beweis-und-belege` | Wenn es um Phishing: Tatbestandsmerkmale, Beweisfragen und Beleglage in Phishing-Vorfall-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `phishing-versicherer-cyber` | Wenn es um Cyberversicherung pruefen in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `phishing-zivilklage-bank` | Wenn es um Zivilklage gegen Bank in Phishing-Vorfall-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `pruefen` | Wenn es um Phishing-Vorfall Prüfen in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pushtan-compliance-dokumentation-und-akte` | Wenn es um Pushtan: Compliance-Dokumentation und Aktenvermerk in Phishing-Vorfall-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `pushtan-schlichtung-sonderfall` | Wenn es um Prüfer: Dokumentenmatrix, Lückenliste und Nachforderung in Phishing-Vorfall-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schlichtung-sonderfall-und-edge-case` | Wenn es um Schlichtung: Sonderfall und Edge-Case-Prüfung in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-675v-livequellen-und-rechtsprechungscheck` | Wenn es um 675V: Livequellen- und Rechtsprechungscheck in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-fahrlaessigkeit-red-team-und-qualitaetskontrolle` | Wenn es um Fahrlaessigkeit: Red-Team und Qualitätskontrolle in Phishing-Vorfall-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pruefer-dokumentenmatrix-und-lueckenliste` | Wenn es um Pruefer: Dokumentenmatrix, Lückenliste und Nachforderung in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spoofing-internationaler-bezug-und-schnittstellen` | Wenn es um Spoofing: Internationaler Bezug und Schnittstellen in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Phishing Vorfall Prüfer — Allgemein in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `versicherer-cyber-phishing-vorfall-zivilklage` | Wenn es um Cyberversicherung prüfen in Phishing-Vorfall-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `vorfall-fristen-form-und-zustaendigkeit` | Wenn es um Vorfall: Fristen, Form, Zuständigkeit und Rechtsweg in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Phishing-Vorfall-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Phishing-Vorfall-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Phishing-Vorfall-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Phishing-Vorfall-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Phishing-Vorfall-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`anspruch-und-gegenanspruch-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/anspruch-und-gegenanspruch-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Anspruch und Gegenanspruch: Erstattung nach BGB Paragraf 675u, Anzeigeobliegenheit, Autorisierung, grobe Fahrlässigkeit, starke Kundenauthentifizierung und mögliche Anspruchskürzung g... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/anspruch-und-gegenanspruch-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erk... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Arbeitsprodukt: Reklamation mit Frist, Beleganforderung, Schlichtungsantrag, Strafanzeige-Sachverhalt, Klageentwurf oder bankseitige Erwiderung ausformulieren. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Phishing-Vorfall-Prüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/einstieg-routing/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Phishing Vorfall Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`sofortsicherung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/sofortsicherung-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Sofortsicherung: Konto und Zugänge sperren, Bankanzeige, Rückrufversuch, Polizei, Geräte- und Kommunikationsbelege sowie Fristen dokumentieren. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/sofortsicherung-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Phishing-Vorfall-Prüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| [`zahlungskette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/zahlungskette-bearbeiten/SKILL.md) | Für Phishing und nicht autorisierte Zahlungsvorgänge: Zahlungskette: jede Buchung nach Betrag, Empfänger, Zeitpunkt, Auftrag, Autorisierung, Gerät, TAN-Anzeige, Freigabeschritt und Rückholung einzeln erfassen. Vollständige Fachanweisunge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=phishing-vorfall-pruefer/skills/zahlungskette-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

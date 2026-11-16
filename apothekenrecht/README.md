@@ -5,20 +5,66 @@
 
 Super-Plugin für Apothekenrecht: Betriebserlaubnis, ApBetrO, Versand, E-Rezept, BtM, Retaxation, Aufsicht und Compliance.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`apothekenrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/apothekenrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/apothekenrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/apothekenrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/apothekenrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/apothekenrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/apothekenrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Apothekenrecht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`apothekenrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/apothekenrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/apothekenrecht/apothekenrecht-werkstatt.md" download><code>apothekenrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/apothekenrecht/apothekenrecht-schnellstart.md" download><code>apothekenrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`apothekenrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/apothekenrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`apothekenrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/apothekenrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`apothekenrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/apothekenrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Apothekenrecht: Retaxation und Kühlkette in Bremen](../testakten/apothekenrecht-retaxation-kuehlkette-bremen/README.md) | [Gesamt-PDF](../testakten/apothekenrecht-retaxation-kuehlkette-bremen/gesamt-pdf/apothekenrecht-retaxation-kuehlkette-bremen_gesamt.pdf) | [`testakte-apothekenrecht-retaxation-kuehlkette-bremen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-apothekenrecht-retaxation-kuehlkette-bremen.zip) | [`testakte-apothekenrecht-retaxation-kuehlkette-bremen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-apothekenrecht-retaxation-kuehlkette-bremen-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,11 +73,11 @@ Super-Plugin für Apothekenrecht: Betriebserlaubnis, ApBetrO, Versand, E-Rezept,
 ## Wofür dieses Plugin da ist
 Apothekenrecht zwischen ApoG, ApBetrO, AMG, AMPreisV, SGB V, HWG, BtMG, Datenschutz, Aufsicht, Versandhandel, E-Rezept und Apothekenpraxis.
 
-Das Plugin ist als Arbeitswerkzeug gedacht: Es startet mit einem Kaltstart-Interview, sortiert Unterlagen, prüft Fristen und routet dann in Spezial-Skills. Es soll Anfänger an die Hand nehmen und Profis schnell zu belastbaren Outputs bringen.
+Das Plugin bearbeitet Abgabe, Retaxation und Aufsichtsfragen aus den vorhandenen Rezepten, Abrechnungen und Betriebsunterlagen. Ein klarer Auftrag führt direkt zur Erwiderung, Betriebsanweisung oder Vertragsprüfung. Nur entscheidende Lücken lösen Rückfragen aus; nach der Antwort wird der begonnene Text fortgeführt.
 
 ## Typischer Workflow
-1. **Allgemein-Skill starten:** Rolle, Ziel, Frist, Unterlagen und gewünschtes Ergebnis klären.
-2. **Dokumente einlesen:** Verträge, Bescheide, Rechnungen, Tabellen, Registerdaten, Behördenpost oder Screenshots strukturieren.
+1. Vorliegende Verordnung, Retaxation oder Behördenpost lesen und den beauftragten Vorgang bestimmen.
+2. Rolle, maßgeblichen Abgabezeitpunkt, Frist und fehlenden Nachweis nur erfragen, soweit dies die nächste Entscheidung verändert. Unabhängige Teile weiterbearbeiten.
 3. **Spezial-Skill wählen:** Das Plugin schlägt den passenden Skill vor und erklärt, welches Ergebnis damit entsteht.
 4. **Live-Quellen prüfen:** Normtext, Behördenseite, EU-Text, Formular oder frei zugängliche Rechtsprechung aktualisieren.
 5. **Output erzeugen:** Memo, Antrag, Stellungnahme, Vertragsklausel, Berechnung, Checkliste oder Mandantenbrief.
@@ -57,22 +103,29 @@ Dieses Plugin soll keine nicht prüfbaren Fundstellen produzieren. Bei unsichere
 ## Lizenz
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **66 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `apothekenbetrieb-dokumentenintake`, `erlaubnis-filialverbund-routing`, `kaltstart-apothekenrecht`, `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `btm-rezept-betaeubungsmittel-dokumentation`, `cannabis-medizinalcannabis-abgabe-dokumentation`, `datenschutz-in-apotheke-gesundheitsdaten` |
-| 3. Prüfung, Anspruch und Subsumtion | `amts-medikationsanalyse`, `arzneimittelpruefung-ausgangsstoffe-pruefprotokoll`, `lieferengpaesse-austausch-livecheck-apog`, `livecheck-apog-apbetro-amg`, `rezeptur-plausibilitaetspruefung-herstellungsanweisung` |
-| 4. Gestaltung, Strategie und Verhandlung | `compliance-audit-apothekenverbund`, `heimversorgung-versorgungsvertrag-mietvertrag`, `mietvertrag-apothekenstandort-konkurrenzschutz`, `substitution-rabattvertrag-aut-idem` |
-| 5. Verfahren, Behörde und Gericht | `beanstandung-durch-aufsichtsbehoerde-anhoerung`, `blutprodukte-haemophilie-registerpflicht`, `output-behoerdenbrief-sop-mandantenmemo` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `btm-rezeptur-audit-apothekenverbund`, `qualitaetsmanagement-qms-raeume-ausstattung` |
-| 8. Spezialmodule und Schnittstellen | `apothekenbetriebsordnung-grundpflichten`, `apothekenerlaubnis-apog-persoenliche-voraussetzungen`, `apothekenrevision-vorbereitung`, `apothekenuebliche-waren-abgrenzung`, `arzneimittelabgabe-verschreibungspflicht`, `arzneimittelrisiken-rueckruf-aufsicht`, `aufsicht-anhoerung-ordnungswidrigkeit`, `beschwerdemanagement-patient-blutprodukte`, `defektur-100er-dienstbereitschaft-notdienst`, `dienstbereitschaft-notdienst-schliessung`, `digitale-plattformen-marktplatz-apothekenrecht`, `e-rezept-erlaubnis-filialverbund`, `filialapotheke-hauptapotheke-leitung-vertretung`, `fremd-mehrbesitzverbot-gefahrstoffe`, `gefahrstoffe-chemikalien-ausgangsstoffe`, `hygiene-pandemie-infektionsschutz`, `impfleistungen-apotheken-import-einzelimport`, `import-einzelimport-73-amg`, ... plus 26 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/kaltstart-triage/SKILL.md) |
+| 2. Betrieb und Rolle | [`betrieb-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betrieb-und-rolle-bearbeiten/SKILL.md) |
+| 3. Produkt und Vorgang | [`produkt-und-vorgang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/produkt-und-vorgang-bearbeiten/SKILL.md) |
+| 4. Betriebsablauf und Nachweis | [`betriebsablauf-und-nachweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betriebsablauf-und-nachweis-bearbeiten/SKILL.md) |
+| 5. Leistungs- und Aufsichtsweg | [`leistungs-und-aufsichtsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/leistungs-und-aufsichtsweg-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -80,74 +133,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 65 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `amts-medikationsanalyse` | Wenn es um AMTS Medikationsanalyse Beratungspflicht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `apothekenbetrieb-dokumentenintake` | Wenn es um Apothekenbetrieb Dokumentenintake in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `apothekenbetriebsordnung-grundpflichten` | Wenn es um Apothekenbetriebsordnung Grundpflichten in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `apothekenerlaubnis-apog-persoenliche-voraussetzungen` | Wenn es um Apothekenerlaubnis ApoG persönliche Voraussetzungen in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `apothekenrevision-vorbereitung` | Wenn es um Apothekenrevision Vorbereitung Antwort in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `apothekenuebliche-waren-abgrenzung` | Wenn es um Apothekenübliche Waren Abgrenzung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `arzneimittelabgabe-verschreibungspflicht` | Wenn es um Arzneimittelabgabe Verschreibungspflicht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `arzneimittelpruefung-ausgangsstoffe-pruefprotokoll` | Wenn es um Arzneimittelprüfung Ausgangsstoffe Prüfprotokoll in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arzneimittelrisiken-rueckruf-aufsicht` | Wenn es um Arzneimittelrisiken Rückruf Chargenrückverfolgung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `aufsicht-anhoerung-ordnungswidrigkeit` | Wenn es um Aufsicht Anhörung Ordnungswidrigkeit in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beanstandung-durch-aufsichtsbehoerde-anhoerung` | Wenn es um Beanstandung durch Aufsichtsbehörde Anhörung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beschwerdemanagement-patient-blutprodukte` | Wenn es um Beschwerdemanagement Patient Kunden in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `blutprodukte-haemophilie-registerpflicht` | Wenn es um Blutprodukte Hämophilie Registerpflicht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `btm-rezept-betaeubungsmittel-dokumentation` | Wenn es um BtM-Rezept Betäubungsmittel Dokumentation in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `btm-rezeptur-audit-apothekenverbund` | Wenn es um BtM Rezeptur AMTS Schnellcheck in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cannabis-medizinalcannabis-abgabe-dokumentation` | Wenn es um Cannabis Medizinalcannabis Abgabe Dokumentation in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `compliance-audit-apothekenverbund` | Wenn es um Compliance-Audit Apothekenverbund in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenschutz-in-apotheke-gesundheitsdaten` | Wenn es um Datenschutz in Apotheke Gesundheitsdaten in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `defektur-100er-dienstbereitschaft-notdienst` | Wenn es um Defektur 100er-Regel Qualitätssicherung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `dienstbereitschaft-notdienst-schliessung` | Wenn es um Dienstbereitschaft Notdienst Schließung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `digitale-plattformen-marktplatz-apothekenrecht` | Wenn es um Digitale Plattformen Marktplatz Apothekenrecht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `e-rezept-erlaubnis-filialverbund` | Wenn es um E-Rezept TI Gematik Apothekenprozess in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `erlaubnis-filialverbund-routing` | Wenn es um Erlaubnis Filialverbund Routing in Apothekenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `filialapotheke-hauptapotheke-leitung-vertretung` | Wenn es um Filialapotheke Hauptapotheke Leitung Vertretung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `fremd-mehrbesitzverbot-gefahrstoffe` | Wenn es um Fremd- und Mehrbesitzverbot Apothekenrecht in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `gefahrstoffe-chemikalien-ausgangsstoffe` | Wenn es um Gefahrstoffe Chemikalien Ausgangsstoffe in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `heimversorgung-versorgungsvertrag-mietvertrag` | Wenn es um Heimversorgung Versorgungsvertrag in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `hygiene-pandemie-infektionsschutz` | Wenn es um Hygiene Pandemie Infektionsschutz in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `impfleistungen-apotheken-import-einzelimport` | Wenn es um Impfleistungen in Apotheken in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `import-einzelimport-73-amg` | Wenn es um Import Einzelimport Paragraf 73 AMG in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `inhaberwechsel-kauf-apothekenbetrieb` | Wenn es um Inhaberwechsel Kauf Apothekenbetrieb in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kaltstart-apothekenrecht` | Wenn es um Kaltstart Apothekenrecht in Apothekenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Apothekenrecht — Allgemein in Apothekenrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kooperation-arzt-krankenhausversorgung` | Wenn es um Kooperation Arzt Apotheke Antikorruption in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `krankenhausversorgung-krankenhausapotheke` | Wenn es um Krankenhausversorgung Krankenhausapotheke in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kuehlkette-temperaturmonitoring-gdp` | Wenn es um Kühlkette Temperaturmonitoring GDP in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `lieferengpaesse-austausch-livecheck-apog` | Wenn es um Lieferengpässe Austausch Dokumentation in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `livecheck-apog-apbetro-amg` | Wenn es um Livecheck ApoG ApBetrO AMG in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mietvertrag-apothekenstandort-konkurrenzschutz` | Wenn es um Mietvertrag Apothekenstandort Konkurrenzschutz in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `notfallkontrazeption-beratung` | Wenn es um Notfallkontrazeption Beratung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `onlinewerbung-hwg-owi-strafrisiken-personal` | Wenn es um Onlinewerbung HWG Apotheken in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `output-behoerdenbrief-sop-mandantenmemo` | Wenn es um Output Behördenbrief SOP Mandantenmemo in Apothekenrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `owi-strafrisiken-apog-amg-btmg` | Wenn es um OWi Strafrisiken ApoG AMG BtMG in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `personal-pharmazeutisch-nichtpharmazeutisch-vertretung` | Wenn es um Personal pharmazeutisch nichtpharmazeutisch Vertretung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `pharmazeutische-dienstleistungen-preisangaben` | Wenn es um Pharmazeutische Dienstleistungen Vergütung in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `preisangaben-e-commerce-apotheke` | Wenn es um Preisangaben E-Commerce Apotheke in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `preisbindung-arzneimittel-ampreisv` | Wenn es um Preisbindung Arzneimittel AMPreisV in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `qualitaetsmanagement-qms-raeume-ausstattung` | Wenn es um Qualitätsmanagement QMS SOPs in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `raeume-ausstattung-rezeptur-defektur-labor` | Wenn es um Räume Ausstattung Rezeptur Defektur Labor in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `rechnung-retaxation-krankenkasse` | Wenn es um Rechnung Retaxation Krankenkasse in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `retaxationsabwehr-nullretax` | Wenn es um Retaxationsabwehr Nullretax Risiko in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rezeptsammelstelle-botendienst-versandhandel` | Wenn es um Rezeptsammelstelle Botendienst Versandhandel in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rezeptur-plausibilitaetspruefung-herstellungsanweisung` | Wenn es um Rezeptur Plausibilitätsprüfung Herstellungsanweisung in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schiedsstellen-krankenkassen-schweigepflicht` | Wenn es um Schiedsstellen Krankenkassen Apotheke in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `schweigepflicht-berufsrecht-pta-approbation` | Wenn es um Schweigepflicht Berufsrecht PTA Approbation in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `securpharm-faelschungsschutz` | Wenn es um Securpharm Fälschungsschutz in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `skonti-boni-t-rezept-telepharmazie-grenzen` | Wenn es um Skonti Boni Rabatte Zuweisungsverbot in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `substitution-rabattvertrag-aut-idem` | Wenn es um Substitution Rabattvertrag Aut-idem in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `t-rezept-besondere-arzneimittel` | Wenn es um T-Rezept besondere Arzneimittel in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `telepharmazie-grenzen-chancen` | Wenn es um Telepharmazie Grenzen Chancen in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `tierarzneimittel-apothekenabgabe-versand-ab-2026` | Wenn es um Tierarzneimittel Apothekenabgabe Versand ab 2026 in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `versandhandel-e-versandhandelserlaubnis-eu` | Wenn es um Versandhandel und E-Rezept Intake in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `versandhandelserlaubnis-eu-versandapotheke` | Wenn es um Versandhandelserlaubnis EU Versandapotheke in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `versorgung-pflegeheim-schnittstelle` | Wenn es um Versorgung Pflegeheim Schnittstelle in Apothekenrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `widerruf-ruecknahme-ruhen-apothekenerlaubnis` | Wenn es um Widerruf Ruecknahme Ruhen Apothekenerlaubnis in Apothekenrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Arbeitsprodukt: Erlaubnis- oder Anzeigeunterlage, SOP, Versorgungsvertrag, Retaxationswiderspruch, Aufsichtsantwort oder Maßnahmenplan erstellen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`betrieb-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betrieb-und-rolle-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Betrieb und Rolle: Inhaber, Erlaubnis, Filiale, Leitung, Personal, Verantwortlichkeit und konkrete Betriebsstätte feststellen. Vollständige Fachanweisungen und lokale Vorlagen wer... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betrieb-und-rolle-bearbeiten/SKILL.md) |
+| [`betriebsablauf-und-nachweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betriebsablauf-und-nachweis-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Betriebsablauf und Nachweis: Beschaffung, Prüfung, Lagerung, Herstellung, Beratung, Abgabe, Dokumentation und Rückruf nachvollziehen. Vollständige Fachanweisungen und lokale Vorla... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/betriebsablauf-und-nachweis-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Apothekenrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/kaltstart-triage/SKILL.md) | Für Apothekenrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/kaltstart-triage/SKILL.md) |
+| [`leistungs-und-aufsichtsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/leistungs-und-aufsichtsweg-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Leistungs- und Aufsichtsweg: SGB-V-Abgabe, Retaxation, Erlaubnis, Anzeige, Beanstandung, Ordnungsverfügung oder Strafbezug trennen. Vollständige Fachanweisungen und lokale Vorlage... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/leistungs-und-aufsichtsweg-bearbeiten/SKILL.md) |
+| [`produkt-und-vorgang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/produkt-und-vorgang-bearbeiten/SKILL.md) | Für Apotheken-, Arzneimittelabgabe- und Versorgungsrecht: Produkt und Vorgang: Arzneimittel, Rezeptur, Defektur, Verschreibung, Abgabe, Substitution, Import, Versand oder Heimversorgung einordnen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=apothekenrecht/skills/produkt-und-vorgang-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

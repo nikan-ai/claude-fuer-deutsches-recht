@@ -5,20 +5,67 @@
 
 Studium und Referendariat – Prüfungsgespräch nach AG-Tradition, Subsumtionslehre, Methodenlehre (Zivilrecht, Strafrecht, Öffentliches Recht), Rechtsgeschichte, Lernstrategien, Lösungsschemata, Gutachtenstil, Klausurkorrektur, Lernplanung.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`jurastudium.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/jurastudium.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/jurastudium.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/jurastudium-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/jurastudium-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/jurastudium.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/jurastudium.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Jurastudium-Plugin:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`jurastudium.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/jurastudium.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/jurastudium/jurastudium-werkstatt.md" download><code>jurastudium-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/jurastudium/jurastudium-schnellstart.md" download><code>jurastudium-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Examensbegleitung Roosendaal-Tinnefeld — 1. Staatsexamen Bonn, Frühjahr 2027: [Gesamt-PDF](../testakten/jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027/gesamt-pdf/jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027_gesamt.pdf), [`testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027.zip), [`testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027-einzelpdfs.zip); Akte Jana Mondsee - Drittversuch, digitale Systeme-Vorwurf und Masterarbeit: [Gesamt-PDF](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/gesamt-pdf/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee_gesamt.pdf), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip), [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`jurastudium.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/jurastudium.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`jurastudium-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/jurastudium-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`jurastudium-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/jurastudium-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Examensbegleitung Roosendaal-Tinnefeld — 1. Staatsexamen Bonn, Frühjahr 2027](../testakten/jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027/README.md) | [Gesamt-PDF](../testakten/jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027/gesamt-pdf/jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027_gesamt.pdf) | [`testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027.zip) | [`testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-jurastudium-leitfaden-1-staatsexamen-roosendaal-bonn-vorbereitung-2027-einzelpdfs.zip) |
+| [Akte Jana Mondsee - Drittversuch, digitale Systeme-Vorwurf und Masterarbeit](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/README.md) | [Gesamt-PDF](../testakten/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee/gesamt-pdf/pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee_gesamt.pdf) | [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee.zip) | [`testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-pruefungsrecht-drittversuch-ki-taeuschung-masterarbeit-mondsee-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -35,10 +82,10 @@ Jurastudierende ab dem 1. Semester bis zum 2. Staatsexamen:
 
 ## Erster Start: Kaltstart
 
-Dieser Schritt dreht sich um dich: Fachsemester, Bundesland, JAG-Anforderungen, Lernstil (Drill oder Erklärung). Bringe Material mit: eigene Gliederungen, benotete Klausuren, alte Examsklausuren (vor allem vom eigenen JPA), Seminarunterlagen, Vorlesungsskripte. Zehn bis zwanzig Positionen sind das Ziel; darunter wird das Lernprofil als `WENIG MATERIAL` markiert und nachgelagerte Skills sind dünner.
+Eine konkrete Lernfrage, dein eigener Lösungsversuch oder eine Klausur genügt zum Start. Das Plugin liest vorhandenes Material und beginnt direkt mit der gewünschten Erklärung, Übung oder Rückmeldung; nur dafür entscheidende Angaben werden nachgefragt. Ein ausführlicheres Lernprofil zu Semester, Bundesland und Lernstil ist optional. Es gibt keine Mindestmenge an Unterlagen. Neue Antworten führen die begonnene Übung weiter, statt erneut ein Aufnahmegespräch auszulösen.
 
 ```
-/jurastudium:jurastudium-kaltstart-interview
+/jurastudium:fallfrage-bearbeiten Thema: kaltstart-interview
 ```
 
 ## Skills
@@ -47,27 +94,27 @@ Jeder Skill wird als `/jurastudium:<skill-name>` aufgerufen.
 
 | Skill | Funktion |
 |---|---|
-| `/jurastudium:jurastudium-kaltstart-interview` | Über-dich-Interview + Materialaufnahme – Fachsemester, Bundesland, JAG, Lernstil, Materialien |
+| `/jurastudium:fallfrage-bearbeiten Thema: kaltstart-interview` | Über-dich-Interview + Materialaufnahme – Fachsemester, Bundesland, JAG, Lernstil, Materialien |
 | `/jurastudium:pruefungsgespraech-ag [Rechtsgebiet]` | Prüfungsgespräch nach AG-Tradition – das Plugin fragt, du antwortest, es hakt nach. Gibt keine Antwort vor. |
 | `/jurastudium:fall-zusammenfassung [Sachverhalt/Fall]` | Fallbearbeitung im Gutachtenstil (Obersatz – Definition – Subsumtion – Ergebnis) |
-| `/jurastudium:gliederungs-baukasten [Rechtsgebiet]` | Lern-Outline / Strukturen pro Rechtsgebiet aufbauen oder erweitern |
-| `/jurastudium:examensvorbereitung-fragen [Rechtsgebiet]` | Examensvorbereitungs-Fragen für 1. und 2. StEx, Bundesland-spezifisch nach JAG; kennzeichnet h.M. vs. Mindermeinung |
+| `/jurastudium:fallfrage-bearbeiten Thema: gliederungs-baukasten [Rechtsgebiet]` | Lern-Outline / Strukturen pro Rechtsgebiet aufbauen oder erweitern |
+| `/jurastudium:fallfrage-bearbeiten Thema: examensvorbereitung-fragen [Rechtsgebiet]` | Examensvorbereitungs-Fragen für 1. und 2. StEx, Bundesland-spezifisch nach JAG; kennzeichnet h.M. vs. Mindermeinung |
 | `/jurastudium:karteikarten [Rechtsgebiet]` | Karteikarten generieren oder abfragen; Leitner-Stapel; fachgebietsweise Markdown; `--session <n>`-Modus |
-| `/jurastudium:lernplan` | Langfristigen Lernplan erstellen oder anpassen – Phasen, Schwächefächer, adaptiver Tagesplan aus Sitzungshistorie |
-| `/jurastudium:lernsitzung <Rechtsgebiet> <n>` | Fokussierte N-Fragen-Sitzung zu einem Rechtsgebiet; aktualisiert den Lernplan mit Ergebnissen |
-| `/jurastudium:gutachten-uebung` | Gutachten bewerten – Aufbau, Obersatz, Subsumtion, Ergebnis, Zitierweise. Protokolliert Muster über Sitzungen. Schreibt nie um. |
+| `/jurastudium:fallfrage-bearbeiten Thema: lernplan` | Langfristigen Lernplan erstellen oder anpassen – Phasen, Schwächefächer, adaptiver Tagesplan aus Sitzungshistorie |
+| `/jurastudium:fallfrage-bearbeiten Thema: lernsitzung <Rechtsgebiet> <n>` | Fokussierte N-Fragen-Sitzung zu einem Rechtsgebiet; aktualisiert den Lernplan mit Ergebnissen |
+| `/jurastudium:arbeitsprodukt-bearbeiten Thema: gutachten-uebung` | Gutachten bewerten – Aufbau, Obersatz, Subsumtion, Ergebnis, Zitierweise. Protokolliert Muster über Sitzungen. Schreibt nie um. |
 | `/jurastudium:ag-vorbereitung [Fall/Thema]` | AG-/Seminar-Vorbereitung – Professorenfragen vorhersagen und einüben |
-| `/jurastudium:juristisches-schreiben [Pfad oder Text]` | Strukturfeedback auf jeden Entwurf – schreibt nie um, nie |
-| `/jurastudium:examens-prognose [Fach/Kurs]` | Vergangene Examsklausuren analysieren; Prognose für die nächste Prüfung; JPA-Statistik |
-| `/jurastudium:subsumtionslehre [Norm/Sachverhalt]` | Subsumtion als Königsdisziplin üben – Trennung Obersatz/Definition/Subsumtion/Ergebnis, Pushback bei Subsumtionssprüngen, vorweggenommener Würdigung und vermischtem Stil |
-| `/jurastudium:methodenlehre-grundlagen [Norm]` | Vier Auslegungsmethoden (Savigny), Analogie, teleologische Reduktion, verfassungs- und unionsrechtskonforme Auslegung – mit Argumentationslast |
-| `/jurastudium:methodenlehre-zivilrecht [Fall]` | AGL-Reihenfolge, Konkurrenzen, Auslegung von Willenserklärungen (§§ 133, 157 BGB), Auslegung von AGB – Drill-Modus |
-| `/jurastudium:methodenlehre-strafrecht [Sachverhalt]` | Dreistufiger Verbrechensaufbau, Trennung objektiver/subjektiver Tatbestand, Konkurrenzen, Analogieverbot Art. 103 II GG |
+| `/jurastudium:subsumtion-bearbeiten Thema: juristisches-schreiben [Pfad oder Text]` | Strukturfeedback auf jeden Entwurf – schreibt nie um, nie |
+| `/jurastudium:fallfrage-bearbeiten Thema: examens-prognose [Fach/Kurs]` | Vergangene Examsklausuren analysieren; Prognose für die nächste Prüfung; JPA-Statistik |
+| `/jurastudium:subsumtion-bearbeiten Thema: subsumtionslehre [Norm/Sachverhalt]` | Subsumtion als Königsdisziplin üben – Trennung Obersatz/Definition/Subsumtion/Ergebnis, Pushback bei Subsumtionssprüngen, vorweggenommener Würdigung und vermischtem Stil |
+| `/jurastudium:fallfrage-bearbeiten Thema: methodenlehre-grundlagen [Norm]` | Vier Auslegungsmethoden (Savigny), Analogie, teleologische Reduktion, verfassungs- und unionsrechtskonforme Auslegung – mit Argumentationslast |
+| `/jurastudium:fallfrage-bearbeiten Thema: methodenlehre-zivilrecht [Fall]` | AGL-Reihenfolge, Konkurrenzen, Auslegung von Willenserklärungen (§§ 133, 157 BGB), Auslegung von AGB – Drill-Modus |
+| `/jurastudium:fallfrage-bearbeiten Thema: methodenlehre-strafrecht [Sachverhalt]` | Dreistufiger Verbrechensaufbau, Trennung objektiver/subjektiver Tatbestand, Konkurrenzen, Analogieverbot Art. 103 II GG |
 | `/jurastudium:methodenlehre-oeffentliches-recht [Fall]` | Schichtenprüfung der Grundrechte, Verhältnismäßigkeit, Ermessen, VA-Qualität, Klageart, Vorrang des Unionsrechts |
-| `/jurastudium:rechtsgeschichte [Epoche/Thema]` | Fünf historische Linien: römisches Recht und BGB-Genese, NS-Unrechtsjustiz und Radbruchsche Formel, SED-Unrecht und Mauerschützen, GG 1949, Unionsrecht von EGKS bis Lissabon |
+| `/jurastudium:fallfrage-bearbeiten Thema: rechtsgeschichte [Epoche/Thema]` | Fünf historische Linien: römisches Recht und BGB-Genese, NS-Unrechtsjustiz und Radbruchsche Formel, SED-Unrecht und Mauerschützen, GG 1949, Unionsrecht von EGKS bis Lissabon |
 | `/jurastudium:lernstrategien` | Evidenzbasierte Lernmethoden für Jura – aktiver Abruf, Spaced Repetition, Interleaving, Elaboration, Klausurtaktik unter Zeitdruck |
-| `/jurastudium:tatbestaende-lernen [§ / Rechtsgebiet]` | Tatbestände zerlegen, Definitionen abrufbar machen, Streitstände am Merkmal verankern; integriert mit `karteikarten` |
-| `/jurastudium:loesungsschemata [Norm/Rechtsgebiet]` | Klassische Schemata (Anspruchsprüfung, Verbrechensaufbau, Grundrechtsprüfung, EBV, Bereicherung) – mit ehrlichem Disclaimer: nicht dogmatisch zwingend, aber Verständniskatalysator; whatever works |
+| `/jurastudium:subsumtion-bearbeiten Thema: tatbestaende-lernen [§ / Rechtsgebiet]` | Tatbestände zerlegen, Definitionen abrufbar machen, Streitstände am Merkmal verankern; integriert mit `karteikarten` |
+| `/jurastudium:fallfrage-bearbeiten Thema: loesungsschemata [Norm/Rechtsgebiet]` | Klassische Schemata (Anspruchsprüfung, Verbrechensaufbau, Grundrechtsprüfung, EBV, Bereicherung) – mit ehrlichem Disclaimer: nicht dogmatisch zwingend, aber Verständniskatalysator; whatever works |
 
 ## Was "Lernmodus" bedeutet
 
@@ -146,28 +193,33 @@ Dein Lernprofil unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/jura
 
 ## Hinweise
 
-- Drill-Modus oder Erklärungs-Modus wird beim Kaltstart festgelegt; du kannst pro Sitzung wechseln.
-- Fallbearbeitungen und Gliederungen verwenden **dein** Format. Wenn du eigene Gliederungen hast, weise Kaltstart darauf hin.
+- Drill oder Erklärung wird aus deinem Auftrag übernommen; nur bei Unklarheit wird nachgefragt. Du kannst während der Sitzung wechseln.
+- Fallbearbeitungen und Gliederungsfeedback orientieren sich an deinem vorhandenen Format. Eigene Gliederungen können unmittelbar zum konkreten Auftrag gegeben werden; der Lernmodus bleibt erhalten.
 - Examensvorbereitung zielt auf deine Schwächfächer gemäß Lernprofil. Das Plugin kommt immer wieder auf sie zurück.
 - Jeder inhaltlich erzeugende Skill markiert Unsicherheiten. Vertrau den Markierungen mehr als ihrer Abwesenheit – eine unmarkierte Regelaussage ist etwas, woran der Skill sicher ist; prüfe trotzdem deine Quelle vor dem Examen.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **58 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-router`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `studium-erstpruefung-und-mandatsziel`, `workflow-anschluss-skills-router`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `gutachten-uebung`, `gutachtenstil-internationaler-bezug-und-schnittstellen`, `klausurkorrektur-formular-portal-und-einreichung`, `oeffentliches-quellenkarte`, `quellen-livecheck`, `rechtsquellen-beweislast-darlegungslast`, `referendariat-tatbestand-beweis-und-belege`, `spezial-oeffentliches-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `lernstrategien-livecheck-sonderfall`, `livecheck-sonderfall-und-edge-case`, `pruefungsgespraech-ag-rechtsgeschichte`, `pruefungsgespraech-fristen-form-und-zustaendigkeit`, `pruefungsgespraech-muendlich`, `spezial-pruefungsgespraech-fristen-form-und-zustaendigkeit`, `strafrecht-studium-subsumtionslehre`, `subsumtionslehre`, `subsumtionslehre-risikoampel-und-gegenargumente`, `tradition-zivilrecht-subsumtionslehre` |
-| 4. Gestaltung, Strategie und Verhandlung | `jus-studienplan-bauleiter`, `karteikarten-lernplan-lernsitzung`, `lernplan`, `lernstrategien-loesungsschemata-methodenlehre` |
-| 5. Verfahren, Behörde und Gericht | `zivilrecht-schriftsatz-brief-und-memo-bausteine` |
-| 6. Ergebnis, Schreiben und Kommunikation | `juristisches-schreiben`, `juristisches-schreiben-jus`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `klausurkorrektur-lernplanung-red-team-korrektur`, `lernplanung-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `ag-vorbereitung-examens-prognose`, `examens-prognose`, `examensvorbereitung-fragen`, `fall-zusammenfassung-gliederungs-baukasten`, `gliederungs-baukasten`, `jus-klausurtraining-leitfaden`, `jus-referendariat-stationen-staatsexamen`, `jus-staatsexamen-vorbereitung-spezial`, `lernsitzung`, `loesungsschemata`, `loesungsschemata-mehrparteien-konflikt-und-interessen`, `methodenlehre-grundlagen`, `methodenlehre-oeffentliches-strafrecht`, `methodenlehre-rechtsgeschichte-referendariat`, `methodenlehre-strafrecht`, `methodenlehre-zivilrecht`, `rechtsgeschichte`, `rechtsgeschichte-zahlen-schwellen-und-berechnung`, ... plus 1 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Fallfrage | [`fallfrage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/fallfrage-bearbeiten/SKILL.md) |
+| 3. Subsumtion | [`subsumtion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/subsumtion-bearbeiten/SKILL.md) |
+| 4. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 5. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -175,67 +227,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `ag-vorbereitung-examens-prognose` | Wenn es um AG/Seminar-Vorbereitung (Cold-Call-Prep) in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-router` | Wenn es um Jurastudium — Allgemein in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `examens-prognose` | Wenn es um Examensprognose / JPA-Statistik in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `examensvorbereitung-fragen` | Wenn es um Examensvorbereitungs-Fragen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fall-zusammenfassung-gliederungs-baukasten` | Wenn es um Fallbearbeitung im Gutachtenstil in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gliederungs-baukasten` | Wenn es um Lernstruktur-Builder in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gutachten-uebung` | Wenn es um Gutachtenstil-Übung in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gutachtenstil-internationaler-bezug-und-schnittstellen` | Wenn es um Gutachtenstil: Internationaler Bezug und Schnittstellen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `juristisches-schreiben` | Wenn es um Juristisches Schreiben in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `juristisches-schreiben-jus` | Wenn es um Lernprofil anpassen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jus-klausurtraining-leitfaden` | Wenn es um JuS: Klausurtraining in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jus-referendariat-stationen-staatsexamen` | Wenn es um JuS: Referendariat-Stationen in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `jus-staatsexamen-vorbereitung-spezial` | Wenn es um JuS: Staatsexamen-Vorbereitung in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jus-studienplan-bauleiter` | Wenn es um JuS: Studienplan Bauleiter in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-interview` | Wenn es um Erstes Einrichtungsgespräch (Kaltstart-Interview) in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `karteikarten-lernplan-lernsitzung` | Wenn es um Karteikarten-Drill in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausurkorrektur-formular-portal-und-einreichung` | Wenn es um Klausurkorrektur: Formular, Portal und Einreichungslogik in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausurkorrektur-lernplanung-red-team-korrektur` | Wenn es um Jurastudium: Mandantenkommunikation und Entscheidungsvorlage in Jurastudium geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lernplan` | Wenn es um Staatsexamen-Lernplan in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lernplanung-red-team-und-qualitaetskontrolle` | Wenn es um Lernplanung: Red-Team und Qualitätskontrolle in Jurastudium geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lernsitzung` | Wenn es um Lerneinheit in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lernstrategien-livecheck-sonderfall` | Wenn es um Lernstrategien: Compliance-Dokumentation und Aktenvermerk in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `lernstrategien-loesungsschemata-methodenlehre` | Wenn es um Lernstrategien für Jura in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `livecheck-sonderfall-und-edge-case` | Wenn es um Livecheck: Sonderfall und Edge-Case-Prüfung in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `loesungsschemata` | Wenn es um Lösungsschemata in Jurastudium geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `loesungsschemata-mehrparteien-konflikt-und-interessen` | Wenn es um Loesungsschemata: Mehrparteienkonflikt und Interessenmatrix in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `methodenlehre-grundlagen` | Wenn es um Methodenlehre — Grundlagen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `methodenlehre-oeffentliches-strafrecht` | Wenn es um Methodenlehre — Öffentliches Recht in Jurastudium geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `methodenlehre-rechtsgeschichte-referendariat` | Wenn es um Methodenlehre: Behörden-, Gerichts- oder Registerweg in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `methodenlehre-strafrecht` | Wenn es um Methodenlehre — Strafrecht in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `methodenlehre-zivilrecht` | Wenn es um Methodenlehre — Zivilrecht in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `oeffentliches-quellenkarte` | Wenn es um Oeffentliches Quellenkarte in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefungsgespraech-ag-rechtsgeschichte` | Wenn es um Prüfungsgespräch nach AG-Tradition in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefungsgespraech-fristen-form-und-zustaendigkeit` | Wenn es um Prüfungsgespraech: Fristen, Form, Zuständigkeit und Rechtsweg in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefungsgespraech-muendlich` | Wenn es um Fristen- und Risikoampel in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Jurastudium geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rechtsgeschichte` | Wenn es um Rechtsgeschichte für Juristen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsgeschichte-zahlen-schwellen-und-berechnung` | Wenn es um Rechtsgeschichte: Zahlen, Schwellenwerte und Berechnung in Jurastudium geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `rechtsquellen-beweislast-darlegungslast` | Wenn es um Rechtsquellen: Beweislast, Darlegungslast und Substantiierung in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `referendariat-tatbestand-beweis-und-belege` | Wenn es um Referendariat: Tatbestandsmerkmale, Beweisfragen und Beleglage in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `spezial-oeffentliches-livequellen-und-rechtsprechungscheck` | Wenn es um Oeffentliches: Livequellen- und Rechtsprechungscheck in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pruefungsgespraech-fristen-form-und-zustaendigkeit` | Wenn es um Pruefungsgespraech: Fristen, Form, Zuständigkeit und Rechtsweg in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafrecht-studium-subsumtionslehre` | Wenn es um Strafrecht: Verhandlung, Vergleich und Eskalation in Jurastudium geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `studium-erstpruefung-und-mandatsziel` | Wenn es um Studium: Erstprüfung, Rollenklärung und Mandatsziel in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `subsumtionslehre` | Wenn es um Subsumtionslehre in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `subsumtionslehre-risikoampel-und-gegenargumente` | Wenn es um Subsumtionslehre: Risikoampel, Gegenargumente und Verteidigungslinien in Jurastudium geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tatbestaende-lernen` | Wenn es um Tatbestaende Lernen in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tradition-zivilrecht-subsumtionslehre` | Wenn es um Tradition: Dokumentenmatrix, Lückenliste und Nachforderung in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-anschluss-skills-router` | Wenn es um Anschluss-Skills Router in Jurastudium geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Jurastudium geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Jurastudium geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zivilrecht-schriftsatz-brief-und-memo-bausteine` | Wenn es um Zivilrecht: Schriftsatz-, Brief- und Memo-Bausteine in Jurastudium geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Ausbildung im Jurastudium: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Ausbildung im Jurastudium: Arbeitsprodukt: Gutachten, Hausarbeit mit Fußnoten oder Lernübersicht in bewertungssicherer Form ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Jurastudium. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/einstieg-routing/SKILL.md) |
+| [`fallfrage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/fallfrage-bearbeiten/SKILL.md) | Ausbildung im Jurastudium: Fallfrage: Aufgabenstellung, Bearbeitervermerk, Rollenzuweisung und begehrte Rechtsfolge exakt erfassen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/fallfrage-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Jurastudium ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/juristischer-argumentationskern/SKILL.md) |
+| [`subsumtion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/subsumtion-bearbeiten/SKILL.md) | Ausbildung im Jurastudium: Subsumtion: Obersatz, Definition, Subsumtion, Ergebnis je Merkmal in ganzen Sätzen durchführen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/subsumtion-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Ausbildung im Jurastudium: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Jurastudium. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jurastudium/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

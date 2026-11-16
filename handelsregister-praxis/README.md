@@ -5,20 +5,66 @@
 
 Praxisplugin für den Umgang mit dem Handelsregister: Anmeldung, Registergericht, Rechtspfleger, Registerrichter, Beanstandung, Zwischenverfügung, Beschwerde, Gesellschafterliste, Kapitalmaßnahmen, Firma, Vertretung, Prokura, Löschung, Insolvenzvermerk und registerfeste Nachweise.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`handelsregister-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/handelsregister-praxis.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/handelsregister-praxis.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/handelsregister-praxis-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/handelsregister-praxis-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/handelsregister-praxis.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/handelsregister-praxis.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Handelsregister Praxis:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`handelsregister-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/handelsregister-praxis.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/handelsregister-praxis/handelsregister-praxis-werkstatt.md" download><code>handelsregister-praxis-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/handelsregister-praxis/handelsregister-praxis-schnellstart.md" download><code>handelsregister-praxis-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Rabenhof Sensorik GmbH - Registergericht Charlottenburg, HRB 246810 B: [Gesamt-PDF](../testakten/handelsregister-registergericht-rabenhof-gmbh-2026/gesamt-pdf/handelsregister-registergericht-rabenhof-gmbh-2026_gesamt.pdf), [`testakte-handelsregister-registergericht-rabenhof-gmbh-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsregister-registergericht-rabenhof-gmbh-2026.zip), [`testakte-handelsregister-registergericht-rabenhof-gmbh-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsregister-registergericht-rabenhof-gmbh-2026-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`handelsregister-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/handelsregister-praxis.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`handelsregister-praxis-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/handelsregister-praxis-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`handelsregister-praxis-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/handelsregister-praxis-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Rabenhof Sensorik GmbH - Registergericht Charlottenburg, HRB 246810 B](../testakten/handelsregister-registergericht-rabenhof-gmbh-2026/README.md) | [Gesamt-PDF](../testakten/handelsregister-registergericht-rabenhof-gmbh-2026/gesamt-pdf/handelsregister-registergericht-rabenhof-gmbh-2026_gesamt.pdf) | [`testakte-handelsregister-registergericht-rabenhof-gmbh-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-handelsregister-registergericht-rabenhof-gmbh-2026.zip) | [`testakte-handelsregister-registergericht-rabenhof-gmbh-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-handelsregister-registergericht-rabenhof-gmbh-2026-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du eine Handelsregistersache praktisch vorbereiten: Anmeldung, Vertretungsnachweis, Gesellschafterliste, Eintragungshindernis, Zwischenverfügung, Registerbeschwerde oder Vollzug.
@@ -26,11 +72,11 @@ Ein Registergerichts-Cockpit für Gesellschaftsrechtler, Notariate, Kanzleien un
 
 ## Wofür dieses Plugin da ist
 
-Dieses Plugin ist ein Praxiswerkzeug. Es fragt zuerst die Lage ab, baut dann eine Dokumenten- und Vollzugsmatrix und erzeugt schließlich das konkrete Arbeitsprodukt: Nachreichung, Beanstandungsantwort, Beschwerdegerüst, Mandantenbrief, Checkliste, Fristenlog oder Vertrags-/Urkundenreview. Es ersetzt keine Berufsträgerentscheidung, aber es verhindert, dass ein formeller Nachweis, ein Rang, eine Abteilung-II-Belastung oder eine Registerfolge in der Hektik untergeht.
+Das Plugin bearbeitet den konkreten Registervorgang anhand von Registerauszug, Beschluss, Anmeldung und Gerichtsschreiben. Ergebnis ist etwa eine vollständige Beanstandungsantwort, Nachreichung oder ein Anmeldungsentwurf mit zutreffender Vertretungs- und Nachweisgrundlage. Interne Prüfübersicht, notarielle Einreichung und tatsächliche Registereintragung bleiben getrennt.
 
 ## Kaltstart
 
-Starte mit dem allgemeinen Skill `handelsregister-allgemeiner-kaltstart`. Lade danach möglichst den aktuellen Register- oder Grundbuchauszug, das Gerichtsschreiben, die Anmeldung/Bewilligung, den Vertragsentwurf und vorhandene Anlagen hoch. Das Plugin sortiert erst, dann prüft es.
+Gib die vorhandenen Registerunterlagen und den Auftrag direkt dazu. Rechtsträger, Maßnahme und Verfahrensstand werden daraus entnommen; nur entscheidende fehlende Angaben werden nachgefragt. Ein klarer Entwurfsauftrag benötigt kein vorgeschaltetes Allgemein-Interview. Neue Beschlüsse oder Nachweise werden im bestehenden Entwurf an der betroffenen Stelle eingearbeitet.
 
 ## Quellen- und Halluzinationsschutz
 
@@ -55,22 +101,30 @@ Starte mit dem allgemeinen Skill `handelsregister-allgemeiner-kaltstart`. Lade d
 - Beschwerde- oder Eilrechtsschutz-Skizze
 - Liste fehlender Originale, Nachweise und Formmängel
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **78 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-routing`, `registerrecht-mandatsannahme-notarferne` |
-| 2. Unterlagen, Sachverhalt und Quellen | `chronologischer-registerauszug`, `ki-registerakte-nachlass`, `registerakte-schnellscan-registerauszug-lesen`, `registerauszug-lesen`, `registerbeweis-im-prozess`, `registergericht-rollen-datenschutz`, `registergericht-und-datenschutz`, `registerrecht-registerzeichen-und-aktenzeichen` |
-| 3. Prüfung, Anspruch und Subsumtion | `firma-firmenbildung-formwechsel-registercheck`, `formwechsel-registercheck`, `verschmelzung-gmbh-registercheck` |
-| 4. Gestaltung, Strategie und Verhandlung | `eintragung-prozessvergleich-registerfolge`, `gesellschafterlistenstreit-eilstrategie-gmbh`, `internationaler-registervergleich` |
-| 5. Verfahren, Behörde und Gericht | `amtsloeschung-familienloeschung-registerblatt`, `beanstandung-zwischenverfuegung`, `closing-handelregister-einstweiliger`, `einstweiliger-rechtsschutz-registerstreit`, `famfg-beschwerde-registersache`, `frist-und-vollzugslog-register`, `genossenschaft-registerschnittstelle`, `gmbh-co-kg-registerdoppelvollzug`, `insolvenzvermerk-registereintrag`, `nachlass-und-testamentsvollstrecker-register`, `notar-registergericht-kommunikation`, `online-abruf-registerportal-unternehmensregister`, `partg-partgmbb-register`, `rechtsabteilung-kapitalerhoehung-und-zwischenverfuegung`, `rechtsabteilung-mopeg-gesellschaftsregister-und-ohg-sprung`, `rechtsprechung-register-frist-vollzugslog`, `rechtsschein-innenstreit-register`, `register-mandantenbrief`, ... plus 18 weitere |
-| 6. Ergebnis, Schreiben und Kommunikation | `fehlerhafte-eintragung-berichtigung`, `rechtsabteilung-insolvenzvermerk` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `register-qualitaetsgate-vor-einreichung`, `unternehmensgegenstand-beanstandung` |
-| 8. Spezialmodule und Schnittstellen | `auslandsurkunden-apostille-legalisation-uebersetzung`, `bekanntmachungen-monitoring`, `erlaubnispflichtige-taetigkeit-famfg`, `gmbh-geschaeftsfuehrerbestellung-abberufung`, `gmbh-gesellschafterliste-paragraph-gruendung`, `gmbh-gruendung-erstanmeldung`, `gmbh-kapitalerhoehung-bareinlage`, `gmbh-kapitalerhoehung-sacheinlage`, `gmbh-kapitalherabsetzung-und-schutzjahr`, `gmbh-liquidation-und-loeschung`, `gmbh-satzungsaenderung-handelsvollmacht-nicht`, `handelsvollmacht-nicht-eintragungsfaehig`, `hgb-publizitaet-paragraph-15`, `kg-kommanditist-eintritt-austritt-haftsumme`, `ohg-kg-online-abruf-partg-partgmbb`, `prokura-eintragung-rechtsabteilung`, `rechtsabteilung-geschaeftsfuehrerbestellung-mit-auslandsbezug`, `rechtsabteilung-gesellschafterliste-nach-streit-und-ev`, ... plus 3 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Gründung und Gesellschaftsvertrag | [`gruendung-und-gesellschaftsvertrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/gruendung-und-gesellschaftsvertrag-bearbeiten/SKILL.md) |
+| 3. Organe und Vertretung | [`organe-und-vertretung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/organe-und-vertretung-bearbeiten/SKILL.md) |
+| 4. Kapital und Strukturmaßnahmen | [`kapital-und-strukturmassnahmen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/kapital-und-strukturmassnahmen-bearbeiten/SKILL.md) |
+| 5. Register und Vollzug | [`register-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/register-und-vollzug-bearbeiten/SKILL.md) |
+| 6. Haftung und Gesellschaftsstreit | [`haftung-und-gesellschaftsstreit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/haftung-und-gesellschaftsstreit-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -78,86 +132,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 77 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `amtsloeschung-familienloeschung-registerblatt` | Wenn es um Amtslöschung und Registerbereinigung in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `auslandsurkunden-apostille-legalisation-uebersetzung` | Wenn es um Auslandsurkunden registerfest machen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beanstandung-zwischenverfuegung` | Wenn es um Beanstandung und Zwischenverfügung beantworten in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bekanntmachungen-monitoring` | Wenn es um Registerbekanntmachungen überwachen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chronologischer-registerauszug` | Wenn es um Chronologischen Auszug auswerten in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `closing-handelregister-einstweiliger` | Wenn es um Registervollzug im Closing in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstweiliger-rechtsschutz-registerstreit` | Wenn es um Eilrechtsschutz bei Registerstillstand in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `eintragung-prozessvergleich-registerfolge` | Wenn es um Prozessvergleich mit Registerfolge in Handelsregister Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `erlaubnispflichtige-taetigkeit-famfg` | Wenn es um Erlaubnispflichten und Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `famfg-beschwerde-registersache` | Wenn es um Beschwerde in Registersachen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fehlerhafte-eintragung-berichtigung` | Wenn es um Fehlerhafte Eintragung korrigieren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `firma-firmenbildung-formwechsel-registercheck` | Wenn es um Firma und Firmenbeanstandung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `formwechsel-registercheck` | Wenn es um Formwechsel Registercheck in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `frist-und-vollzugslog-register` | Wenn es um Fristen- und Vollzugslog in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `genossenschaft-registerschnittstelle` | Wenn es um Genossenschaftsregister-Schnittstelle in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gesellschafterlistenstreit-eilstrategie-gmbh` | Wenn es um Gesellschafterlistenstreit strategisch führen in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `gmbh-co-kg-registerdoppelvollzug` | Wenn es um GmbH & Co. KG Doppelvollzug in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gmbh-geschaeftsfuehrerbestellung-abberufung` | Wenn es um Geschäftsführerwechsel in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gmbh-gesellschafterliste-paragraph-gruendung` | Wenn es um Gesellschafterliste und Widerspruch in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `gmbh-gruendung-erstanmeldung` | Wenn es um GmbH/UG-Erstanmeldung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `gmbh-kapitalerhoehung-bareinlage` | Wenn es um Barkapitalerhöhung in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gmbh-kapitalerhoehung-sacheinlage` | Wenn es um Sachkapitalerhöhung in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gmbh-kapitalherabsetzung-und-schutzjahr` | Wenn es um Kapitalherabsetzung in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `gmbh-liquidation-und-loeschung` | Wenn es um Liquidation und Löschung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `gmbh-satzungsaenderung-handelsvollmacht-nicht` | Wenn es um Satzungsänderung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `handelsvollmacht-nicht-eintragungsfaehig` | Wenn es um Handlungsvollmacht richtig abgrenzen in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `hgb-publizitaet-paragraph-15` | Wenn es um Publizität und Vertrauen auf das Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenzvermerk-registereintrag` | Wenn es um Insolvenzvermerk im Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `internationaler-registervergleich` | Wenn es um Ausländische Register verstehen in Handelsregister Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `kaltstart-routing` | Wenn es um Kaltstart-Interview und Registerfahrplan in Handelsregister Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kg-kommanditist-eintritt-austritt-haftsumme` | Wenn es um Kommanditist und Haftsumme in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ki-registerakte-nachlass` | Wenn es um digitale Werkzeuge-Halluzinationsschutz in Registerakten in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `nachlass-und-testamentsvollstrecker-register` | Wenn es um Nachlassvertretung im Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notar-registergericht-kommunikation` | Wenn es um Notar und Registergericht steuern in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `ohg-kg-online-abruf-partg-partgmbb` | Wenn es um GbR/eGbR zu OHG/KG in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `online-abruf-registerportal-unternehmensregister` | Wenn es um Registerabruf richtig dokumentieren in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `partg-partgmbb-register` | Wenn es um PartG/PartG mbB in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prokura-eintragung-rechtsabteilung` | Wenn es um Prokura anmelden und löschen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-geschaeftsfuehrerbestellung-mit-auslandsbezug` | Wenn es um Rechtsabteilung: Geschäftsführerbestellung mit Auslandsbezug in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständi... |
-| `rechtsabteilung-gesellschafterliste-nach-streit-und-ev` | Wenn es um Rechtsabteilung: Gesellschafterliste nach Streit und EV in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweisc... |
-| `rechtsabteilung-insolvenzvermerk` | Wenn es um Rechtsabteilung: Insolvenzvermerk und ausländischer Trustee in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachw... |
-| `rechtsabteilung-kapitalerhoehung-und-zwischenverfuegung` | Wenn es um Rechtsabteilung: Kapitalerhöhung und Zwischenverfügung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Ris... |
-| `rechtsabteilung-mopeg-gesellschaftsregister-und-ohg-sprung` | Wenn es um Rechtsabteilung: MoPeG-Gesellschaftsregister und OHG-Sprung in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachw... |
-| `rechtsprechung-register-frist-vollzugslog` | Wenn es um Rechtsprechung nur verifiziert nutzen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsschein-innenstreit-register` | Wenn es um Innenstreit trotz Registerschein in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `register-mandantenbrief` | Wenn es um Mandantenbrief Registerstand in Handelsregister Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `register-qualitaetsgate-vor-einreichung` | Wenn es um Quality Gate vor Einreichung in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerakte-schnellscan-registerauszug-lesen` | Wenn es um Registerakte in 10 Minuten sortieren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerauszug-lesen` | Wenn es um Handelsregisterauszug lesen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerbeweis-im-prozess` | Wenn es um Registerbeweis im Zivilprozess in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registergericht-rollen-datenschutz` | Wenn es um Rechtspfleger, Registerrichter, Geschäftsstelle in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `registergericht-und-datenschutz` | Wenn es um Datenschutz im Registerverfahren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerkosten-und-notarkosten` | Wenn es um Kosten und Gebühren antizipieren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-aktiengesellschaft-vorstand` | Wenn es um AG: Vorstand/Aufsichtsrat anmelden in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-beschlussmaengel-und-registervollzug` | Wenn es um Beschlussmängel im Registervollzug in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `registerrecht-digitalgruendung` | Wenn es um Online-Gründung und DiRUG in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-fehlende-einzahlung-fehlerhafte` | Wenn es um Einzahlungsrisiko Stammkapital in Handelsregister Praxis geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `registerrecht-fehlerhafte-geschaeftsfuehreradresse` | Wenn es um Private Daten im Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-kapitalgesellschaft-co-kg-komplementaerwechsel` | Wenn es um Komplementärwechsel in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-mandatsannahme-notarferne` | Wenn es um Kanzlei ohne Notarvollzug in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-niederlassung-registergericht` | Wenn es um Niederlassung und Filiale in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-registergericht-telefonat-protokoll` | Wenn es um Registertelefonat protokollieren in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-registerzeichen-und-aktenzeichen` | Wenn es um Registerzeichen verstehen in Handelsregister Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `registerrecht-scheinloeschung` | Wenn es um Nachtragsliquidation in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-se-und-europaeische-gesellschaft` | Wenn es um SE Registervollzug in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerrecht-umbenennung-rebranding` | Wenn es um Rebranding im Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registersperre-closing-sitz-inlandsanschrift` | Wenn es um Registersperre als Deal-Risiko in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sitz-inlandsanschrift-und-geschaeftsanschrift` | Wenn es um Sitz, Geschäftsanschrift, Zustellung in Handelsregister Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `todesfall-gesellschafter-register` | Wenn es um Todesfall eines Gesellschafters in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `transparenzregister-schnittstelle-umwandlung` | Wenn es um Transparenzregister-Schnittstelle in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umwandlung-registervollzug` | Wenn es um Umwandlung im Register in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umzug-registerbezirk-amtsloeschung` | Wenn es um Sitzverlegung und Registerbezirk in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unternehmensgegenstand-beanstandung` | Wenn es um Unternehmensgegenstand entwerfen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verein-registerschnittstelle-verschmelzung` | Wenn es um Vereinsregister-Schnittstelle in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `verschmelzung-gmbh-registercheck` | Wenn es um Verschmelzung GmbH Registercheck in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `vollmacht-und-anmeldung-oeffentliche-beglaubigung` | Wenn es um Anmeldung und Vollmacht formfest machen in Handelsregister Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zweigniederlassung-auslaendische-gesellschaft` | Wenn es um Zweigniederlassung Auslaendische Gesellschaft in Handelsregister Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Handelsregister Praxis: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`gruendung-und-gesellschaftsvertrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/gruendung-und-gesellschaftsvertrag-bearbeiten/SKILL.md) | Handelsregister Praxis: Gründung und Gesellschaftsvertrag: Rechtsform, Kapital, Satzung, Beteiligung und Vollzug bis zum abgestimmten Gründungstext führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/gruendung-und-gesellschaftsvertrag-bearbeiten/SKILL.md) |
+| [`haftung-und-gesellschaftsstreit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/haftung-und-gesellschaftsstreit-bearbeiten/SKILL.md) | Handelsregister Praxis: Haftung und Gesellschaftsstreit: Pflichtverletzung, Anspruchsinhaber, Darlegung, Eilrechtsschutz und Einigung zu einem begründeten Arbeitsprodukt führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/haftung-und-gesellschaftsstreit-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Handelsregister Praxis ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kapital-und-strukturmassnahmen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/kapital-und-strukturmassnahmen-bearbeiten/SKILL.md) | Handelsregister Praxis: Kapital und Strukturmaßnahmen: Finanzierung, Kapitalerhaltung, Umwandlung, Übertragung und Ausscheiden mit den Vertrags- und Registerunterlagen abgleichen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/kapital-und-strukturmassnahmen-bearbeiten/SKILL.md) |
+| [`organe-und-vertretung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/organe-und-vertretung-bearbeiten/SKILL.md) | Handelsregister Praxis: Organe und Vertretung: Geschäftsführung, Aufsichtsrat, Bestellung, Abberufung, Vollmacht und Vertretungsmacht anhand der Beschlüsse prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/organe-und-vertretung-bearbeiten/SKILL.md) |
+| [`register-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/register-und-vollzug-bearbeiten/SKILL.md) | Handelsregister Praxis: Register und Vollzug: Anmeldung, Gesellschafterliste, Publizität, Nachweise und Zwischenverfügung bis zum einreichbaren Dokument bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/register-und-vollzug-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Handelsregister Praxis: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsregister-praxis/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

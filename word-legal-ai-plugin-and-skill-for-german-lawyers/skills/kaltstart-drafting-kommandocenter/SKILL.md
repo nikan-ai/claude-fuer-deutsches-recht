@@ -1,66 +1,46 @@
 ---
 name: kaltstart-drafting-kommandocenter
-description: "Wenn es um Kaltstart-Drafting-Kommandocenter in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Überführt Term Sheet, Vorentwurf oder Partnerkommentare in einen konkreten Schreibauftrag und eine vollständige juristische Fassung. Klärt nur entscheidende Vorgaben, verzweigt nach Vertrag, Schriftsatz oder Brief und setzt Antworten unmittelbar im Dokument um."
 ---
 
-# Kaltstart-Drafting-Kommandocenter
+# 1. Vom Eingangsmaterial zur vollständigen Fassung
 
-## Direktstart: lesen, entscheiden, liefern
+Lies das Term Sheet, den Entwurf oder die Kommentare, bevor du Fragen stellst. Übernimm Dokumenttyp, Parteirolle, Empfänger, Sprache und Frist aus dem vorhandenen Auftrag. Fehlt nur das Ausgabeformat, halte nicht die gesamte inhaltliche Bearbeitung an.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1.1. Bearbeitungsweg bestimmen
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Ein Erstentwurf setzt die belegten Vorgaben in vollständige Regelungen um. Eine Überarbeitung erhält die nicht betroffenen Teile. Bei gegnerischen Änderungen unterscheiden sich rechtliche Einwände, wirtschaftliche Verhandlungspunkte und reine Stilfragen. Bei Word-Finalisierung bleiben nicht beauftragte Rechtsänderungen aus.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Für einen Schriftsatz Antrag, Sachverhalt und Beweise verbinden; für einen Mandantenbrief Ergebnis und Handlungsempfehlung verständlich erklären. Bei englischen Fassungen Rechtsordnung und Adressatenkreis beachten, nicht automatisch fremdes Recht übernehmen.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.2. Entscheidung einholen und einarbeiten
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Bei einem widersprüchlichen Partnerkommentar zeige die betroffene Klausel und frage nach der gewollten Alternative. Fehlt eine Anlage, benenne sie konkret. Bereits bestimmte Teile ausarbeiten.
 
-## Startfragen
+Nach Antwort die Entscheidung in Text, Definitionen und Anlagen übernehmen. Danach die vollständige neue Fassung liefern; nicht wieder mit einer Mandatsmatrix beginnen. Neue erhebliche Unklarheiten gezielt klären, statt nach einer einzigen Frage abzubrechen.
 
-Stelle höchstens fünf Fragen. Wenn der Nutzer schon genug geliefert hat, überspringe Fragen und arbeite.
+## 1.3. Dokument fertigstellen
 
-1. **Dokumenttyp:** Vertrag, Klausel, Schriftsatz, Anwaltsschreiben, Mandantenmemo, Partner-Update, Redline, Word-Finalisierung oder englischer Text?
-2. **Rolle:** Klägerseite, Beklagtenseite, Käufer, Verkäufer, Arbeitgeber, Arbeitnehmer, Vermieter, Mieter, Bank, Gründer, Investor, Behörde oder neutraler Entwurf?
-3. **Stadium:** Erstentwurf, Überarbeitung, Review Gegenseite, Partnerkommentar, Mandantenfassung, Unterschriftsfassung, beA/PDF-Versand?
-4. **Adressat und Stil:** Gericht, Mandant, Gegenseite, Partnerin, Behörde, US/UK-Gegenseite; Großkanzlei, Boutique, Kleinkanzlei, nüchterne Inhouse-Sprache?
-5. **Deadline und Risiko:** sofort, heute, diese Woche; niedrig, mittel, hoch; gibt es eine Frist, ein Gericht, eine Unterschrift oder einen Deal-Closing-Druck?
+Saubere Lesefassung, kommentierte Fassung oder echte Redline gemäß Auftrag erstellen. Original erhalten, Änderungen nachvollziehbar halten und Formatvorlagen, dezimale Gliederung, Verweise sowie Seitenumbrüche prüfen. Nicht vorhandene Export- oder Revisionsfunktionen offen benennen.
 
-## Sofortdiagnose
+Das Endprodukt ist das bestellte Dokument. Interne Quellenfragen und Freigabehinweise stehen getrennt daneben. Kein Versand oder Anerkenntnis ohne ausdrücklichen Auftrag; ohne Dateiexport vollständigen Text liefern.
 
-Erzeuge nach den Startfragen eine knappe Mandatsmatrix:
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
 
-| Feld | Einordnung |
-|---|---|
-| Dokumenttyp | ... |
-| Arbeitsmodus | Erstentwurf / Review / Redline / Finalisierung |
-| Adressat | ... |
-| Stilprofil | Großkanzlei / Boutique / Kleinkanzlei / Inhouse / Gericht |
-| Rechts- und Sprachraum | deutsches Recht deutsch / deutsches Recht englisch / US/UK-orientiert |
-| Risiko | niedrig / mittel / hoch |
-| Nächster Output | Gliederung / Klausel / Memo / Markup-Plan / Word-Check |
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
 
-## Skill-Routing
+**Leitfrage für Dokumenten- und Vorlagenworkflow:** Wie wird aus dem vorhandenen Material ein für den Empfänger verwendbares Ergebnis?
 
-| Lage | Nächste Skills |
-|---|---|
-| Unklarer Auftrag | `orientierung-drafting-triage`, dann passender Fachmodul |
-| Stil noch unklar | `deutscher-kanzleistil-kalibrieren`, `stil-und-ton-juristische-texte` |
-| Word-Dokument chaotisch | `word-dokument-finish-und-layout`, `finaler-writing-quality-gate` |
-| Partnerkommentare im Dokument | `partner-kommentar-umsetzen`, `revisions-prozess-redlines-comparison` |
-| Schriftsatz soll richterlesbar werden | `schriftsatz-ueberarbeiten-richterlesbar`, `argumentationsarchitektur-schreiben` |
-| Mandantenmemo oder Partnerupdate | `mandantenmemo-und-partner-update`, `gutachten-memo-internes-drafting` |
-| Deutscher Vertrag auf Englisch | `englischer-vertrag-deutsches-recht`, `bilingual-drafting-deutsch-englisch` |
-| US/UK-Text aus deutscher Anwaltsperspektive | `us-uk-legal-writing-für-deutsche`, `bilingual-drafting-deutsch-englisch` |
-| Finale Fassung vor Versand | `finaler-writing-quality-gate`, `word-dokument-finish-und-layout` |
+**Erste Ansicht:** Zeige die kurze Verarbeitungskette von Eingangsdatei über konkrete Änderung bis zum Ergebnis. Bei Texten nutze eine verständliche Vorher-nachher-Ansicht; bei Dokumentpaketen einen nachvollziehbaren Anlagen- oder Versionsstand.
 
-## Qualitätsmaßstab
+**Sinnvolle Interaktion:** Eine Auswahl auf Absatz, Datei oder Zielgruppe soll genau die betroffene Ausgabe fortschreiben. Zeige eine echte Vorschau nur, wenn die Datei tatsächlich erzeugt und geöffnet wurde.
 
-- Kein leerer Rat wie "Bitte laden Sie weitere Informationen hoch", wenn aus dem Auftrag schon ein sinnvolles Gerüst gebaut werden kann.
-- Keine falsche Genauigkeit. Bei unsicherem Sachverhalt mit Annahmen arbeiten und diese offen markieren.
-- Keine Platzhalterlawine. Höchstens wenige eckige Platzhalter, die wirklich ausgefüllt werden müssen.
-- Immer den nächsten konkreten Arbeitsschritt nennen.
+**Datengrundlage:** Eingangsdatei und Fassung, Empfänger, gewünschtes Ergebnis, Änderung, Beleg oder Vorlage und tatsächlicher Exportstatus. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** die fertige angeforderte Datei oder, bei fehlendem Export, ihr vollständig verwendbarer Inhalt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

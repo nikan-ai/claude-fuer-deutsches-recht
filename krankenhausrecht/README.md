@@ -5,20 +5,66 @@
 
 Super-Plugin für deutsches Krankenhausrecht: Planung, Finanzierung, Entgelte, Reform, Qualität, MD-Prüfung, Klinikbetrieb und Rechtsstreit.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`krankenhausrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/krankenhausrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/krankenhausrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/krankenhausrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/krankenhausrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/krankenhausrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/krankenhausrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Krankenhausrecht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`krankenhausrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/krankenhausrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/krankenhausrecht/krankenhausrecht-werkstatt.md" download><code>krankenhausrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/krankenhausrecht/krankenhausrecht-schnellstart.md" download><code>krankenhausrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`krankenhausrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/krankenhausrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`krankenhausrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/krankenhausrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`krankenhausrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/krankenhausrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Krankenhausrecht: MD-Prüfung einer Intensivabrechnung in Halle](../testakten/krankenhausrecht-md-intensivabrechnung-halle/README.md) | [Gesamt-PDF](../testakten/krankenhausrecht-md-intensivabrechnung-halle/gesamt-pdf/krankenhausrecht-md-intensivabrechnung-halle_gesamt.pdf) | [`testakte-krankenhausrecht-md-intensivabrechnung-halle.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-krankenhausrecht-md-intensivabrechnung-halle.zip) | [`testakte-krankenhausrecht-md-intensivabrechnung-halle-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-krankenhausrecht-md-intensivabrechnung-halle-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,10 +73,10 @@ Super-Plugin für deutsches Krankenhausrecht: Planung, Finanzierung, Entgelte, R
 ## Wofür dieses Plugin da ist
 Krankenhausrecht zwischen KHG, KHEntgG, SGB V, Landeskrankenhausrecht, G-BA-Vorgaben, Krankenhausreform, MD-Prüfung, Budgetverhandlung und Klinik-Compliance.
 
-Das Plugin ist als Arbeitswerkzeug gedacht: Es startet mit einem Kaltstart-Interview, sortiert Unterlagen, prüft Fristen und routet dann in Spezial-Skills. Es soll Anfänger an die Hand nehmen und Profis schnell zu belastbaren Outputs bringen.
+Das Plugin liest Planungsbescheid, Abrechnungsunterlagen, MD-Mitteilung oder Vertrag zuerst und trennt daraus Krankenhausplanung, Finanzierung, Vergütung und Organisation. Ein klarer Auftrag führt direkt zum beauftragten Schreiben oder Prüfvermerk. Nur entscheidende Lücken zu Behandlungszeitraum, Verfahrensstand oder Frist werden nachgefragt; nachgereichte Unterlagen werden in denselben Arbeitsstand eingearbeitet.
 
 ## Typischer Workflow
-1. **Allgemein-Skill starten:** Rolle, Ziel, Frist, Unterlagen und gewünschtes Ergebnis klären.
+1. Vorhandene Unterlagen auswerten und den konkreten Auftrag zuordnen; Rolle, Zeitraum oder Frist nur bei entscheidenden Lücken nachfragen.
 2. **Dokumente einlesen:** Verträge, Bescheide, Rechnungen, Tabellen, Registerdaten, Behördenpost oder Screenshots strukturieren.
 3. **Spezial-Skill wählen:** Das Plugin schlägt den passenden Skill vor und erklärt, welches Ergebnis damit entsteht.
 4. **Live-Quellen prüfen:** Normtext, Behördenseite, EU-Text, Formular oder frei zugängliche Rechtsprechung aktualisieren.
@@ -57,23 +103,30 @@ Dieses Plugin soll keine nicht prüfbaren Fundstellen produzieren. Bei unsichere
 ## Lizenz
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **69 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-krankenhausrecht`, `kaltstart-triage`, `qualitaets-und-strukturvorgaben-intake`, `triage-notaufnahme-ueberlastung-dokumentation`, `triage-notaufnahme-vergaberecht-krankenhaus` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aufbewahrung-beweislast-dora-it`, `belegarzt-honorar-patientenrechte`, `datenschutz-krankenhaus-patientenakte-forschung`, `haftpflichtfall-krankenhaus-gutachtenstrategie`, `klage-klinikakten-bescheide-klinikverbund`, `klinikakten-und-bescheide-sortieren`, `livequellen-g-ba-bmg-land-pruefen` |
-| 3. Prüfung, Anspruch und Subsumtion | `geburtshilfe-haftung-hebammen-schnittstelle`, `md-pruefung-krankenhausabrechnung-pruefverfahrensvereinbarung`, `patientenbeschwerde-und-risikomanagement`, `strukturpruefung-ops-telemedizin-krankenhaus` |
-| 4. Gestaltung, Strategie und Verhandlung | `compliance-system-klinik-einkauf-forschung-spenden`, `khentgg-budgetverhandlung-drg-pepp-abgrenzung`, `klinikverbund-fusion-kartell-vergabe-planungsrecht`, `krankenhaus-mvz-gruendung-zulassung-compliance`, `krankenhausfinanzierungsgesetz-khg-grundstruktur`, `landeskrankenhausplan-aufnahme-herausnahme-aenderung`, `patientenrechte-behandlungsvertrag-aufklaerung`, `planfeststellungsbescheid-rechtsbehelf-und-eilrechtsschutz`, `planung-budget-md-krankenhausabrechnung`, `transplantationsrecht-koordination` |
-| 5. Verfahren, Behörde und Gericht | `output-vorstandsvorlage-behoerdenbrief-klage`, `schiedsstellenverfahren-krankenhausentgelt` |
-| 6. Ergebnis, Schreiben und Kommunikation | `barrierefreiheit-krankenhauskommunikation`, `qualitaetsbericht-veroeffentlichungspflichten` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `leistungsgruppen-qualitaetskriterien`, `mindestmengen-g-ba-qualitaetssicherung`, `psychiatrie-psychkg-qualitaets` |
-| 8. Spezialmodule und Schnittstellen | `ambulantes-operieren-arbeitszeit`, `arbeitszeit-bereitschaftsdienst-rufdienst`, `blutprodukte-transfusionsrecht-system-klinik`, `dora-und-it-dienstleister-soweit-einschlaegig`, `entlassmanagement-39-abs-1a-sgb-v`, `forschung-studien-gewaltschutz`, `gewaltschutz-sicherheitsdienst-hausverbot`, `hybrid-drg-insolvenz-intensivmedizin-beatmung`, `insolvenz-eines-krankenhauses-versorgungssicherung`, `intensivmedizin-beatmung-verlegung`, `investitionsfoerderung-einzelfoerderung`, `kinder-und-jugendmedizin-besondere-versorgung`, `kommunale-klinik-krankenhaus-mvz`, `krankenhausapotheke-arzneimittelversorgung`, `krankenhausdigitalisierung-khzg`, `krankenhaushygiene-ifsg-landesrecht`, `krankenhausreform-leistungsgruppen`, `krankenhausseelsorge-besuchsrecht-hausrecht`, ... plus 17 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/kaltstart-triage/SKILL.md) |
+| 2. Krankenhaus und Versorgungsauftrag | [`krankenhaus-und-versorgungsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/krankenhaus-und-versorgungsauftrag-bearbeiten/SKILL.md) |
+| 3. Planung und Qualität | [`planung-und-qualitaet-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/planung-und-qualitaet-bearbeiten/SKILL.md) |
+| 4. Finanzierung und Entgelt | [`finanzierung-und-entgelt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/finanzierung-und-entgelt-bearbeiten/SKILL.md) |
+| 5. Betrieb und Aufsicht | [`betrieb-und-aufsicht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/betrieb-und-aufsicht-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -81,77 +134,28 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 68 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `ambulantes-operieren-arbeitszeit` | Wenn es um Ambulantes Operieren Paragraf 115b SGB V in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `arbeitszeit-bereitschaftsdienst-rufdienst` | Wenn es um Arbeitszeit Bereitschaftsdienst Rufdienst in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `aufbewahrung-beweislast-dora-it` | Wenn es um Dokumentation Aufbewahrung Beweislast in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreiheit-krankenhauskommunikation` | Wenn es um Barrierefreiheit Krankenhauskommunikation in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `belegarzt-honorar-patientenrechte` | Wenn es um Belegarzt Honorar und Krankenhausvertrag in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `blutprodukte-transfusionsrecht-system-klinik` | Wenn es um Blutprodukte Transfusionsrecht Dokumentation in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `compliance-system-klinik-einkauf-forschung-spenden` | Wenn es um Compliance-System Klinik Einkauf Forschung Spenden in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenschutz-krankenhaus-patientenakte-forschung` | Wenn es um Datenschutz Krankenhaus Patientenakte Forschung in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `dora-und-it-dienstleister-soweit-einschlaegig` | Wenn es um DORA und IT-Dienstleister soweit einschlägig in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `entlassmanagement-39-abs-1a-sgb-v` | Wenn es um Entlassmanagement Paragraf 39 Abs. 1a SGB V in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `forschung-studien-gewaltschutz` | Wenn es um Forschung Studien Ethikkommission Datenschutz in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `geburtshilfe-haftung-hebammen-schnittstelle` | Wenn es um Geburtshilfe Haftung Hebammen Schnittstelle in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `gewaltschutz-sicherheitsdienst-hausverbot` | Wenn es um Gewaltschutz Sicherheitsdienst Hausverbot in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `haftpflichtfall-krankenhaus-gutachtenstrategie` | Wenn es um Haftpflichtfall Krankenhaus Gutachtenstrategie in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `hybrid-drg-insolvenz-intensivmedizin-beatmung` | Wenn es um Hybrid-DRG Paragraf 115f SGB V in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenz-eines-krankenhauses-versorgungssicherung` | Wenn es um Insolvenz eines Krankenhauses Versorgungssicherung in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `intensivmedizin-beatmung-verlegung` | Wenn es um Intensivmedizin Beatmung Verlegung in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `investitionsfoerderung-einzelfoerderung` | Wenn es um Investitionsfoerderung Einzelfoerderung Pauschalfoerderung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anla... |
-| `kaltstart-krankenhausrecht` | Wenn es um Kaltstart Krankenhausrecht in Krankenhausrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Krankenhausrecht — Allgemein in Krankenhausrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `khentgg-budgetverhandlung-drg-pepp-abgrenzung` | Wenn es um KHEntgG Budgetverhandlung DRG PEPP Abgrenzung in Krankenhausrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `kinder-und-jugendmedizin-besondere-versorgung` | Wenn es um Kinder- und Jugendmedizin besondere Versorgung in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `klage-klinikakten-bescheide-klinikverbund` | Wenn es um Klage gegen Budgetbescheid oder Schiedsstellenentscheidung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anla... |
-| `klinikakten-und-bescheide-sortieren` | Wenn es um Klinikakten und Bescheide sortieren in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `klinikverbund-fusion-kartell-vergabe-planungsrecht` | Wenn es um Klinikverbund Fusion Kartell Vergabe Planungsrecht in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kommunale-klinik-krankenhaus-mvz` | Wenn es um Kommunale Klinik Beihilfe und EU-Beihilfen in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `krankenhaus-mvz-gruendung-zulassung-compliance` | Wenn es um Krankenhaus-MVZ Gründung Zulassung Compliance in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `krankenhausapotheke-arzneimittelversorgung` | Wenn es um Krankenhausapotheke Arzneimittelversorgung in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `krankenhausdigitalisierung-khzg` | Wenn es um Krankenhausdigitalisierung KHZG IT-Sicherheit in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `krankenhausfinanzierungsgesetz-khg-grundstruktur` | Wenn es um Krankenhausfinanzierungsgesetz KHG Grundstruktur in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `krankenhaushygiene-ifsg-landesrecht` | Wenn es um Krankenhaushygiene IfSG Landesrecht in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `krankenhausreform-leistungsgruppen` | Wenn es um Krankenhausreform Leistungsgruppen Routing in Krankenhausrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `krankenhausseelsorge-besuchsrecht-hausrecht` | Wenn es um Krankenhausseelsorge Besuchsrecht Hausrecht in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kritis-krankenhaus-bsi-gesetz-nis2` | Wenn es um KRITIS Krankenhaus BSI-Gesetz NIS2 in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `landesaufsicht-krankenhausaufsicht` | Wenn es um Landesaufsicht Krankenhausaufsicht Beanstandung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `landeskrankenhausplan-aufnahme-herausnahme-aenderung` | Wenn es um Landeskrankenhausplan Aufnahme Herausnahme Änderung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `landesrecht-und-bundesrecht-trennen` | Wenn es um Landesrecht und Bundesrecht trennen in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `leistungsgruppen-qualitaetskriterien` | Wenn es um Leistungsgruppen und Qualitaetskriterien Reformlogik in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `livequellen-g-ba-bmg-land-pruefen` | Wenn es um Livequellen G-BA BMG Land prüfen in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `md-pruefung-krankenhausabrechnung-pruefverfahrensvereinbarung` | Wenn es um MD-Prüfung Krankenhausabrechnung Prüfverfahrensvereinbarung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anl... |
-| `medizinprodukterecht-betreiberpflichten-mdr-mpbetreibv` | Wenn es um Medizinprodukterecht Betreiberpflichten MDR MPBetreibV in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `mindestmengen-g-ba-qualitaetssicherung` | Wenn es um Mindestmengen G-BA Qualitaetssicherung in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `notfallstufen-sicherstellungszuschlaege` | Wenn es um Notfallstufen und Sicherstellungszuschlaege in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `output-vorstandsvorlage-behoerdenbrief-klage` | Wenn es um Output Vorstandsvorlage Behördenbrief Klage in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `patientenbeschwerde-und-risikomanagement` | Wenn es um Patientenbeschwerde und Risikomanagement in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `patientenrechte-behandlungsvertrag-aufklaerung` | Wenn es um Patientenrechte Behandlungsvertrag Aufklaerung in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `personaluntergrenzen-pflege-ppugv` | Wenn es um Personaluntergrenzen Pflege PpUGV in Krankenhausrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `pflegebudget-vereinbarung` | Wenn es um Pflegebudget Vereinbarung Nachweis Risiken in Krankenhausrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `planfeststellungsbescheid-rechtsbehelf-und-eilrechtsschutz` | Wenn es um Planfeststellungsbescheid Rechtsbehelf und Eilrechtsschutz in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `planung-budget-md-krankenhausabrechnung` | Wenn es um Fristen Planung Budget MD Schiedsstelle in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `privatisierung-betriebsuebergang-traegerwechsel` | Wenn es um Privatisierung Betriebsübergang Trägerwechsel in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `psychiatrie-psychkg-qualitaets` | Wenn es um Psychiatrie PsychKG Unterbringung Fixierung in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `qualitaets-und-strukturvorgaben-intake` | Wenn es um Qualitäts- und Strukturvorgaben Intake in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `qualitaetsbericht-veroeffentlichungspflichten` | Wenn es um Qualitätsbericht Veröffentlichungspflichten in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rettungsdienst-schnittstelle` | Wenn es um Rettungsdienst Schnittstelle Aufnahme Pflicht in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `schiedsstellenverfahren-krankenhausentgelt` | Wenn es um Schiedsstellenverfahren Krankenhausentgelt in Krankenhausrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `sektorenuebergreifende-versorgung-level-ii-klinik` | Wenn es um Sektorenuebergreifende Versorgung Level Ii Klinik in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `strahlenschutz-radiologie-nuklearmedizin` | Wenn es um Strahlenschutz Radiologie Nuklearmedizin in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `strukturpruefung-ops-telemedizin-krankenhaus` | Wenn es um Strukturprüfung OPS und MD in Krankenhausrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `telemedizin-im-krankenhaus-und-fernbehandlung` | Wenn es um Telemedizin im Krankenhaus und Fernbehandlung in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `transplantationsrecht-koordination` | Wenn es um Transplantationsrecht Koordination in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `triage-notaufnahme-ueberlastung-dokumentation` | Wenn es um Triage Notaufnahme Ueberlastung Dokumentation in Krankenhausrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächst... |
-| `triage-notaufnahme-vergaberecht-krankenhaus` | Wenn es um Triage Notaufnahme Überlastung Dokumentation in Krankenhausrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `vergaberecht-krankenhaus-einkauf-bau-it` | Wenn es um Vergaberecht Krankenhaus Einkauf Bau IT in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vorhalteverguetung-leistungsgruppen-krankenhausreform` | Wenn es um Vorhalteverguetung Leistungsgruppen Krankenhausreform in Krankenhausrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `wahlleistungsvereinbarung-chefarzt-zentren` | Wenn es um Wahlleistungsvereinbarung Chefarzt Leistungskette in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `zentren-zuschlaege-besondere-aufgaben` | Wenn es um Zentren Zuschläge besondere Aufgaben in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `zuweiserverguetung-antikorruption-299a-299b-stgb` | Wenn es um Zuweiservergütung Antikorruption Paragrafen 299a 299b StGB in Krankenhausrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Hand... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Arbeitsprodukt: Planantrag, Auswahlvermerk, Budgetposition, Schiedsstellenantrag, Aufsichtsantwort oder gerichtlicher Antrag erstellen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`betrieb-und-aufsicht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/betrieb-und-aufsicht-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Betrieb und Aufsicht: Organisation, Hygiene, Notfallversorgung, Meldeweg, Qualitätsabweichung und aufsichtsrechtliche Maßnahme trennen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/betrieb-und-aufsicht-bearbeiten/SKILL.md) |
+| [`finanzierung-und-entgelt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/finanzierung-und-entgelt-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Finanzierung und Entgelt: Investition, Betriebskosten, Budget, Erlös, Zu- oder Abschlag, Prüfung, Verhandlung und Schiedsstelle ordnen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/finanzierung-und-entgelt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Krankenhausrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/kaltstart-triage/SKILL.md) | Für Krankenhausrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/kaltstart-triage/SKILL.md) |
+| [`krankenhaus-und-versorgungsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/krankenhaus-und-versorgungsauftrag-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Krankenhaus und Versorgungsauftrag: Träger, Standort, Fachabteilung, Planstatus, Zulassung, Leistungsgruppe und Einzugsgebiet feststellen. Vollständige Fachanweisungen und lok... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/krankenhaus-und-versorgungsauftrag-bearbeiten/SKILL.md) |
+| [`planung-und-qualitaet-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/planung-und-qualitaet-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Planung und Qualität: Bedarf, Erreichbarkeit, Fallzahlen, Personal, Struktur, Kooperation, Prognose und Auswahlentscheidung prüfen. Vollständige Fachanweisungen und lokale Vor... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/planung-und-qualitaet-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Krankenhausplanung, -finanzierung und Krankenhausbetrieb: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanw... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=krankenhausrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Klären Sie, wer das KI-System beschafft, in medizinische Abläufe einbindet und ändert. Dokumentierte klinische Verantwortlichkeiten und KI-Anbieterrollen müssen am realen Ablauf geprüft werden.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

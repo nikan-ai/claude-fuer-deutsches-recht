@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Anwalts-Dashboard Fachanwalt Versicherungsrecht in Fachanwalt Versicherungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Anwalts-Dashboard Fachanwalt Versicherungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Anwalts-Dashboard Fachanwalt Versicherungsrecht
@@ -15,7 +15,7 @@ description: "Wenn es um Anwalts-Dashboard Fachanwalt Versicherungsrecht in Fach
 | --- | --- | --- |
 | Rolle | Wen vertrete ich? (Mandant · Gegenseite · Mehrere) | Mandantenmail, Vertretungsbestellung |
 | Verfahrensstand | Vorprozessual · außergerichtlich · Klage · Rechtsmittel · Vollstreckung | Vorhandene Schriftsätze, Eingangsstempel |
-| Eilfrist | **§ 12 VVG: 1 Monat** (a. F.) ist überholt; Klagefrist gibt es nicht mehr. Aber: § 195 BGB Verjährung 3 Jahre. § 28 IV VVG: Obliegenheitsverletzung — Belehrungspflicht des Versicherers. § 19 VVG: Anzeigepflicht vorvertraglich; Rücktritt 1 Monat ab Kenntnis. § 14 VVG: Fälligkeit nach Erhebung der nötigen Erhebungen. | Frist aus Zugangs-/Kenntnisdatum berechnen |
+| Eilfrist | Die frühere sechsmonatige Klagefrist aus Paragraf 12 Absatz 3 VVG alter Fassung ist seit 2008 entfallen; der heutige Paragraf 12 VVG regelt die Versicherungsperiode. Regelmäßig gelten die Paragrafen 195 und 199 BGB; die Anspruchsanmeldung kann nach Paragraf 15 VVG hemmen. Daneben Police, AVB, Anzeige- und Gestaltungsfristen jeweils getrennt prüfen. | Frist aus Entstehung, Fälligkeit, Zugang und Kenntnis berechnen |
 | Hauptanspruch | Versicherungsleistung aus jeweiligem Vertrag (BU, D&O, RS, Kasko, Haftpflicht, KH); §§ 1, 100, 115 VVG; § 86 VVG Regress; § 28 VVG Obliegenheitsverletzung; § 19 VVG Anzeigepflicht; § 215 VVG Gerichtsstand. | Sachverhaltsabgleich mit Tatbestandsmerkmalen |
 | Zuständigkeit | § 215 VVG: Wohnsitz Versicherungsnehmer (zwingend für Verbraucher). Sonst §§ 12, 17 ZPO. Bei BU/PKV häufig LG (Streitwert). | Gesetz, Vertrag, Gerichtsstandsklausel |
 
@@ -62,3 +62,23 @@ Wenn die Akte die Frage selbst beantwortet, **diese überspringen** und direkt d
 ## Hinweis
 
 Diese Triage ist Ihre Vorbereitung, nicht Ihre Entscheidung. Sie führen das Mandat; der Skill liefert die Karte. Quellenhygiene nach `references/quellenhygiene.md`, Zitierform nach `references/zitierweise.md`. Die Konvention dieses Einstiegs-Dashboards steht in `references/anwalts-dashboard-konvention.md`.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Versicherungsrecht:** Welche Formulierung erfüllt das Geschäftsziel und was ändert die Alternative?
+
+**Erste Ansicht:** Stelle betroffene Klauseln nebeneinander: vorhandene Fassung, vorgeschlagener Text, konkrete Rechts- oder Kostenfolge und offener Verhandlungspunkt.
+
+**Sinnvolle Interaktion:** Lasse eine tatsächlich angebotene Klauselvariante auswählen; übernimm die Wahl in den fortgeführten Entwurf und prüfe Verweisungen, Definitionen und Folgeklauseln. Eine Risikofarbe ersetzt keine Erläuterung.
+
+**Datengrundlage:** Dokumentversion, Klauselnummer, Wortlaut, Geschäftsziel, Beleg für die Sachannahme und Rechtsquelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** vollständig ausformulierte Vertragsfassung oder Verhandlungsantwort mit gesonderter Änderungsübersicht. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

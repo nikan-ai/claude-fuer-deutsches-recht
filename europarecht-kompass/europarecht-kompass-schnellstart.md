@@ -1,68 +1,47 @@
-Wenn du das hier öffnest, willst du einen unionsrechtlichen Fall nach Anwendungsbereich, Wirkung, Vorrang, Grundfreiheit, Rechtsschutz und nationaler Umsetzung ordnen.
+# 1 Unionsrechtlichen Fall bis zum bestellten Ergebnis bearbeiten
 
-# Europarecht Kompass — Schnellstart
+Lies Entscheidungen, Normfassungen und Verträge und liefere die bestellte Beratung, Umsetzungsklausel oder Vorlageanregung. Welche konkrete Rechtsfolge trägt das Unionsrecht im Streit? Artikel 288 AEUV verlangt die Unterscheidung der Rechtsakte. EuGH, Urteil vom 24.06.2019, C-573/17, Popławski, Rn. 60 bis 68: Vorrang erzeugt keine fehlende unmittelbare Wirkung; eine Richtlinie allein begründet keine zusätzliche Pflicht eines Privaten. Der Ausgangsfall betrifft einen Rahmenbeschluss. Konforme Auslegung und andere unmittelbar wirksame Normen gesondert prüfen; ein Gutachten ist keine beauftragte Direktklage.
 
-Ziel: Freistehendes Europarecht-Plugin gegen deutsche Denkfehler: Vorrang, unmittelbare Wirkung, Richtlinien, Verordnungen, Charta, Grundfreiheiten, Beihilfen, Vorlageverfahren und EU-Drafting. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1 Anwendungsbereich bestimmen
 
-## 1. Schnellmodus
+Stelle konkrete Unionsnorm, Rechtsakt, Maßnahme, Mitgliedstaat oder Organ und maßgeblichen Zeitpunkt fest. Prüfe sachlichen, persönlichen, räumlichen und zeitlichen Anwendungsbereich. Binnenmarktbezug und Durchführung von Unionsrecht sind nicht dieselbe Frage.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Eingabe biete Richtlinienwirkung im Streit, Marktzugangsbeschränkung oder Umsetzung einer Unionsvorgabe an. Dateien ohne Auftrag still lesen, dann das Ziel klären; keine Normübersicht ausgeben. Bei klarem Auftrag direkt ausarbeiten. Folgeantwort „Der Gegner ist ein privates Unternehmen“ verändert Wirkung und Anspruchsbegründung, nicht nur die Parteibezeichnung. Nur entscheidende Lücken fragen; keine Plugin-Dateien voraussetzen.
 
-## 2. Direktstart
+## 1.2 Wirkung der konkreten Norm prüfen
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Unterscheide Primärrecht, Verordnung, Richtlinie, Beschluss und unverbindliche Hinweise nach Artikel 288 AEUV. Bei Richtlinien Bestimmung, Umsetzungsfrist, nationale Umsetzung und Parteienverhältnis getrennt prüfen. Eine Richtlinie als solche begründet keine unmittelbaren Pflichten zulasten Privater. Vorrang allein ersetzt fehlende unmittelbare Wirkung nicht und ist nicht mit Nichtigkeit der nationalen Norm gleichzusetzen.
 
-## 3. Kernroute
+Verlangt der Mandant allein aus einer Richtlinie zusätzliche Pflichten eines privaten Vertragspartners, wende EuGH, Urteil vom 24.06.2019, C-573/17, [Popławski, Randnummern 60 bis 68](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62017CJ0573), an: Vorrang erzeugt keine fehlende unmittelbare Wirkung; daraus allein folgt kein Zahlungs- oder Unterlassungsanspruch. Prüfe unionsrechtskonforme Auslegung mit ihren Grenzen, eigenständig anwendbare Unionsnormen und Staatshaftung getrennt. Der Ausgangsfall betraf Rahmenbeschlüsse; seine ausdrücklichen Aussagen zu Richtlinien schließen nicht jede andere unionsrechtliche Wirkung im Privatrecht aus.
 
-1. Unionsbezug: Beteiligte, Maßnahme, Mitgliedstaat, Organ, Rechtsakt, Binnenmarktbezug und zeitlicher Anwendungsbereich feststellen.
-2. Normwirkung: Primärrecht, Verordnung, Richtlinie, Beschluss, unmittelbare Wirkung, richtlinienkonforme Auslegung und Anwendungsvorrang trennen.
-3. Materielle Prüfung: Grundfreiheit, Diskriminierung, Beschränkung, Rechtfertigung, Verhältnismäßigkeit, Wettbewerb oder Beihilfe aufbauen.
-4. Rechtsschutz: nationales Verfahren, Vorlagefrage, Kommissionsverfahren, Unionsklage, Frist und vorläufigen Rechtsschutz bestimmen.
-5. Arbeitsprodukt: Europarechtsmemo, Vorlagefragen, Umsetzungscheck, Verhältnismäßigkeitsmatrix, Stellungnahme oder Schriftsatzbaustein erstellen.
-6. Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg: Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen.
+Fehlt die maßgebliche Fassung, fordere die bezeichnete Entscheidung oder den Änderungsakt nach. Ist die staatliche Einordnung des Gegenübers unklar, frage nach Trägerschaft und Aufgaben. Nach Antwort die rechtliche Einordnung überprüfen und die betroffenen Ausführungen neu fassen, statt die Angabe ungeprüft als Beweis zu behandeln.
 
-## 4. Fallkarte
+## 1.3 Materielle Frage ausarbeiten
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | EUV Artikel 4 Absatz 3 und Artikel 5; EUV Artikel 19 und AEUV Artikel 267; AEUV Artikel 18, Artikel 34 bis Artikel 36, Artikel 45, Artikel 49 |
-| Rechtsprechung | EuGH, Urteil vom 05.02.1963 - 26/62; EuGH, Urteil vom 15.07.1964 - 6/64 |
-| Tatbestand | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen |
-| Beweislast | Wer sich auf Unionsrecht beruft, belegt Anwendungsbereich und anspruchstragende Tatsachen; Staat oder Organ trägt Rechtfertigung, Ausnahme und Verhältnismäßigkeit |
-| Rechtsfolge | Wirkungsmatrix, Grundfreiheitenprüfung, Vorlagefrage, Umsetzungscheck, Stellungnahme oder Rechtsschutzvermerk |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei Grundfreiheiten die konkrete Beschränkung oder Diskriminierung, Rechtfertigung und Verhältnismäßigkeit prüfen. Artikel 18, Artikel 34 bis 36, Artikel 45, 49, 56 und 63 AEUV nach betroffener Tätigkeit zuordnen. Nachweise zum grenzüberschreitenden Vorgang und zu geltend gemachten Rechtfertigungsgründen konkret benennen; keine pauschale Beweislastregel für alle unionsrechtlichen Verfahren verwenden.
 
-## 5. Einsatzfelder
+Bei Charta-Fragen zuerst Artikel 51 GRCh, dann betroffenes Recht und Artikel 52 GRCh prüfen. Ohne einschlägige Durchführung von Unionsrecht keine Bindung nationaler Stellen allein aus einem entfernten EU-Bezug ableiten.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| EuGH-Klagearten und Rechtsschutz | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vertragsverletzung und Durchsetzung | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Rechtsquellen: Beweislast, Darlegungslast und Substantiierung | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Europarecht-Kompass — Allgemein | Unionsnorm, Rechtsakt, Anwendungsbereich, unmittelbare Wirkung, Vorrang, Rechtfertigung und Rechtsschutzroute trennen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Kartellverbot, Missbrauchskontrolle und Beihilfe nach Artikeln 101, 102 und 107 AEUV auseinanderhalten. Bei Förderung Bewilligung, Begünstigung und beihilfenrechtliche Grundlage anhand der Unterlagen prüfen. Fehlt die tragende Förderregel, genau diese nachfordern; nach Eingang die Bewertung und gegebenenfalls beauftragte Klausel aktualisieren.
 
-## 6. Anker
+## 1.4 Rechtsschutz passend wählen
 
-- EUV Artikel 4 Absatz 3 und Artikel 5: loyale Zusammenarbeit, Einzelermächtigung, Subsidiarität und Verhältnismäßigkeit.
-- EUV Artikel 19 und AEUV Artikel 267: wirksamer Rechtsschutz und Vorabentscheidungsverfahren.
-- AEUV Artikel 18, Artikel 34 bis Artikel 36, Artikel 45, Artikel 49, Artikel 56 und Artikel 63: Diskriminierungsverbot und Grundfreiheiten.
-- AEUV Artikel 101, Artikel 102 und Artikel 107: Kartellverbot, Missbrauchskontrolle und Beihilfenverbot.
-- Art. 263 AEUV — Nichtigkeitsklage; Fristen; Klagebefugnis privilegierter/nicht-privilegierter Klager: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 265 AEUV — Untaetigkeitsklage; Voraussetzungen: vorherige Aufforderung + 2 Monate Nichtreagieren: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 268 AEUV iVm Art. 340 AEUV — Amtshaftungsklage; hinreichend qualifizierter Rechtsverstoß; Schaden; Kausalität: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Art. 267 AEUV — Vorabentscheidungsverfahren als indirekter Rechtsschutz-Weg für Private: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- EuGH, Urteil vom 05.02.1963 - 26/62: Van Gend en Loos zur unmittelbaren Wirkung hinreichend klarer und unbedingter unionsrechtlicher Bestimmungen.
-- EuGH, Urteil vom 15.07.1964 - 6/64: Costa gegen ENEL zum Vorrang des Unionsrechts gegenüber entgegenstehendem nationalem Recht.
+Prüfe nationalen Rechtsschutz und gegebenenfalls Artikel 267 AEUV vor einer pauschalen Empfehlung zur Direktklage. Eine Vorlageanregung muss die Unionsnorm, nationale Konfliktlage, Entscheidungserheblichkeit und konkrete Auslegungs- oder Gültigkeitsfrage erkennen lassen. Vorlagebefugnis und Vorlagepflicht gesondert prüfen.
 
-## 7. Antwortform
+Bei Artikel 263 AEUV Klagegegenstand, Klagebefugnis und Fristauslöser feststellen. Nationale Frist und unionsgerichtliche Frist nicht vermischen. Für andere Wege, etwa Untätigkeit, Staatshaftung oder Kommissionsbeschwerde, die jeweiligen Voraussetzungen prüfen; eine Beschwerde ersetzt nicht automatisch gerichtlichen Rechtsschutz.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Wirkungsmatrix: Unionsnorm, Rechtsakt, Bestimmtheit, Frist, Adressatenverhältnis, nationale Kollisionsnorm und Rechtsfolge; Grundfreiheitenprüfung: Schutzbereich, Beschränkung, Diskriminierung, Rechtfertigungsgrund, Geeignetheit, Erforderlichkeit und Angemessenheit.
+## 1.5 Nach Antworten weiterarbeiten
 
-## 8. Stop
+Fehlt ein entscheidender Beleg, liefere die unabhängigen Teile und benenne den noch offenen Schluss. Frage nach der konkreten Normfassung, Organisationsunterlage oder tatsächlichen Rechtfertigungsgrundlage. Nach Antwort Anwendungsbereich, Wirkung oder Argumentation aktualisieren und das verlangte Dokument fertigschreiben.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Weitere kurze Runden sind zulässig, wenn neue Antworten entscheidende Lücken zeigen; bereits Beantwortetes nicht wiederholen. Eine Materialnachlieferung ist nicht automatisch ein vollständiger rechtlicher Nachweis. Keine ungeprüfte Annahme in einen Behörden- oder Mandantenbrief als Tatsache übernehmen.
+
+## 1.6 Quellen und Ausgabe
+
+Artikel 4 Absatz 3 und Artikel 5 EUV für Zusammenarbeit und Kompetenzfragen sowie Artikel 19 EUV für Rechtsschutz nur bei konkretem Bezug einsetzen. Tragende Normfassungen und zusätzliche Entscheidungen zur jeweiligen Grundfreiheit, Beihilfe oder Haftung amtlich verifizieren; Popławski beantwortet diese materiellen Fragen nicht.
+
+Liefere eine ausformulierte Antwort auf die konkrete Frage. Normvergleiche oder Berechnungen nur ergänzen, soweit nötig; interne Prüftabellen sind kein Pflichtprodukt. Quellenstatus und Recherchegrenzen getrennt vom Mandantenbrief notieren. Werkstatt und weitere Skills sind optional; diese Anleitung ist eigenständig. Keine Vorlage, Klage, Notifikation oder sonstige Außenhandlung ohne ausdrückliche Freigabe. Dezimale Gliederung; beim Export Times New Roman 11 pt.
+
+## 1.7 Technische Grenzen
+
+Nur zugängliche Unterlagen und Werkzeuge verwenden; fehlende Teile konkret benennen. Technische Hindernisse lassen nur den abhängigen Schluss offen, nicht die übrige Bearbeitung. Ohne Export den vollständigen Text liefern und keine nicht erfolgte Prüfung oder Dateierzeugung behaupten.

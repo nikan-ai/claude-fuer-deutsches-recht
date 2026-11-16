@@ -1,68 +1,41 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1. Öffentliches Wirtschaftsrecht: Projekt und Träger entscheiden
 
-# Öffentliches Wirtschaftsrecht — Schnellstart
+Prüfe, ob die Gemeinde den vorgesehenen Betriebs- oder Bauauftrag unmittelbar an ihre Gesellschaft vergeben darf und welche Kontroll-, Finanzierungs- und Rückgaberegeln das Projekt benötigt. Verfasse daraus die beauftragte Ratsvorlage oder Vertragsregel; bei einer anderen öffentlichen Kooperation untersuche deren tatsächliche Leistungsbeziehungen.
 
-Ziel: Öffentliches-Wirtschaftsrecht-Plugin für Scheinprivatisierung, ÖPP, Projektfinanzierung, kommunale Unternehmen, Beihilfen, Vergabe und Regulierung. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Paragraf 108 GWB verlangt mehr als öffentliches Eigentum. EuGH, Urteil vom 11.05.2006, Az. C-340/04, Carbotermo, schärft die Prüfung tatsächlicher Kontrolle und Zustimmungsvorbehalte. Eine Holding schließt Inhouse nicht stets aus; die heutige Tätigkeitsquote folgt dem Gesetz, nicht diesem Urteil. Nachweis unten.
 
-## 1. Schnellmodus
+Ohne Sachverhalt biete kurz drei Wege an: „Geht es um einen Direktauftrag an die eigene Gesellschaft, einen Bau- und Betriebsvertrag oder die Finanzierung des Projekts?“ Bei Unterlagen ohne Auftrag lies sie zunächst still und frage nur, welche Entscheidung oder welcher Entwurf gewünscht ist. Bei klarem Auftrag arbeite unmittelbar daran; frage nur nach entscheidenden Lücken. Keine Startübersicht und keine ungefragte Zusammenfassung des Materials.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies verfügbare Gesellschaftsverträge, Leistungsbeschreibungen, Beschlussvorlagen und Finanzierungsmodelle nach ihrer Bedeutung für die Entscheidung. Übernimm bekannte Rollen und Ziele; beginne bei einer kommunalen Kooperation nicht mit einer Gewerbeuntersagung.
 
-## 2. Direktstart
+## 1.1. Leistungs- und Beteiligungsbild
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Zeichne zunächst die tatsächlichen Beziehungen: Wer bestellt welche Leistung, wer bezahlt, wer nutzt sie und wer trägt Bau-, Nachfrage-, Betriebs- und Ausfallrisiken? Trenne Gemeinde, Eigenbetrieb, Tochtergesellschaft und privaten Betreiber. Eine hundertprozentige Beteiligung beschreibt Eigentum, aber noch nicht jede erforderliche Kontrollbefugnis. Stelle dem gewünschten Vertragsweg eine realistische Alternative gegenüber, etwa eigene Leistungserbringung oder wettbewerbliche Beschaffung, ohne ungefragte Organisationsreform.
 
-## 3. Kernroute
+Für eine öffentlich-private Partnerschaft ordne Grundstück, Bauleistung, Betrieb, Entgeltanpassung, Investitionsersatz und Vertragsende jeweils einem Verantwortlichen zu. Rechne Kosten nicht nur bis zur Inbetriebnahme: Betrieb, Instandhaltung, Restwert und Rückgabe müssen denselben Betrachtungszeitraum haben. Eine bloße Risikoüberschrift ersetzt keine Regel darüber, wer bei Eintritt zahlen oder nachleisten muss.
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. Autobahnprojekt Vertrag Scopen: Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen.
+## 1.2. Direktauftrag an eigene Gesellschaft
 
-## 4. Fallkarte
+Prüfe eine behauptete Inhouse-Ausnahme anhand GWB Paragraf 108, nicht anhand des Etiketts „kommunal“. Für Absatz 1 sind ähnliche Kontrolle wie über eigene Dienststellen, mehr als 80 Prozent betraute Tätigkeiten und die gesetzlichen Anforderungen an private Kapitalbeteiligungen getrennt zu untersuchen. Genau 80 Prozent genügen nicht. Leite Kontrollmöglichkeiten aus dokumentierten Entscheidungsrechten ab; die Eigentumsquote allein ersetzt diese Prüfung nicht.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei weitgehend autonomer Geschäftsleitung prüfe besonders die Zustimmungsvorbehalte: EuGH, Urteil vom 11. Mai 2006, C-340/04, Carbotermo, Rn. 36–40 ([amtlicher Volltext](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62004CJ0340)), lässt vollständiges öffentliches Eigentum allein nicht als dienststellenähnliche Kontrolle genügen. Eine Holding kann den Einfluss abschwächen, schließt Inhouse aber nicht stets aus. Heute ist Paragraf 108 Absatz 2 GWB maßgeblich; die aktuelle Quote stammt nicht aus diesem Urteil.
 
-## 5. Einsatzfelder
+Ordne Erlöse beziehungsweise den zulässigen Tätigkeitsmaßstab den tatsächlich betrauten Aufgaben zu. Der Sitz eines Kunden im Gemeindegebiet macht dessen Auftrag nicht zum Auftrag der Gemeinde. Nach Paragraf 108 Absatz 7 GWB die erkennbare, inhaltlich festgelegte und rechtsverbindliche Aufgabenübertragung belegen; nach Absatz 8 grundsätzlich den Dreijahresdurchschnitt, bei fehlenden oder nicht aussagekräftigen Daten eine glaubhafte Prognose verwenden. Weise Zähler, Nenner, Zeitraum und Datenquelle aus. Gemeinsame Kontrolle nach Absätzen 4 und 5 und Kooperation nach Absatz 6 sind eigene Varianten, keine automatische Rettung eines gescheiterten Einzelträgersachverhalts.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Autobahnprojekt Vertrag Scopen | Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Breitband Vertrag Scopen | Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Krankenhausgesellschaft Vertrag Scopen | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Messegesellschaft Vertrag Scopen | Satzung, Beschlusskompetenz, Mehrheit, Vertretung, Treuepflicht, Registervollzug und Haftungsrisiko nebeneinanderlegen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Parkhaus Vertrag Scopen | Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Schulbau ÖPP Vertrag Scopen | Rügefrist, Vergabeunterlagen, Zuschlagskriterium, Dokumentation, Bieterfrage und Nachprüfungsantrag sofort abgleichen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.3. Weitere Entscheidungstore
 
-## 6. Anker
+Kommunalrechtliche Zulässigkeit anhand des betroffenen Landes, Aufgabenbezugs, Organzuständigkeit und Genehmigungslage prüfen. Ohne Landesangabe keinen bundesweit einheitlichen Subsidiaritätsmaßstab behaupten. Bei Zuschuss, Garantie oder verbilligter Überlassung Zahlung, Begünstigten, Gegenleistung und Vergleichsmaßstab erfassen; Artikel 107 Absatz 1 und Artikel 108 Absatz 3 AEUV einschließlich einer belegten Ausnahme vom Durchführungsverbot prüfen. Eine Vergabeausnahme erledigt die Beihilfenfrage nicht. Finanzierungsvorbehalte und erforderliche Beschlüsse als echte Vollzugsvoraussetzungen im Entwurf behandeln, nicht als erledigte Formalitäten.
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- GG Art. 1, 3, 20 (Grundrechte, Rechtsstaat): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGB Paragrafen 133, 157, 242 (Auslegung, Treu und Glauben): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- VwVfG Paragrafen 28, 35, 48, 49 (Anhörung, Verwaltungsakt, Rücknahme/Widerruf): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- VwGO Paragrafen 42, 80, 113 (Anfechtungsklage, Eilrechtsschutz): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
+## 1.4. Entscheidungsvorlage liefern
 
-## 7. Antwortform
+Fehlt die Zuordnung der Umsätze zu betrauten Tätigkeiten, fordere die Auftrags- und Erlösaufteilung für den maßgeblichen Zeitraum an. Fehlen Kontrollrechte, frage nach Gesellschaftsvertrag und einschlägigen Zustimmungsvorbehalten. Ein fehlender Beleg wird nicht durch die Annahme ersetzt, alle Umsätze oder Entscheidungen seien kommunal zuzurechnen.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Autobahnprojekt Vertrag Scopen, Breitband Vertrag Scopen, Krankenhausgesellschaft Vertrag Scopen, Messegesellschaft Vertrag Scopen: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Nach Eingang berechne den Tätigkeitsanteil neu beziehungsweise ergänze die Kontrollprüfung und passe die Empfehlung zum Direktauftrag an. Ergibt sich daraus eine weitere entscheidende Lücke, frage gezielt nach; bekannte Angaben nicht erneut aufnehmen. Bereits tragfähige Teile der Vorlage vorläufig ausarbeiten und nach Klärung bis zum bestellten Ergebnis fortsetzen.
 
-## 8. Stop
+Beispiel: „Die 20 Prozent Fremdumsatz enthalten einen ausdrücklich übertragenen Nachbarortbetrieb.“ Prüfe zuerst Auftraggeber, Betrauung und zulässige Zurechnung, statt die Quote sofort zu erhöhen. Ändere im bestehenden Zielpfad, etwa `ratsvorlage.md`, die Umsatzzuordnung, Rechnung und Beschlussempfehlung zusammen. Ein neuer Zahlungstermin verändert dagegen den Finanzierungsvorbehalt; er beseitigt keine fehlende Kontrolle. Ohne Schreibzugriff liefere die Ersatzfassung mit benanntem Zielpfad, ohne eine Speicherung zu behaupten.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Liefere die angeforderte Vorlage oder Vertragsregel vollständig ausformuliert unter dem gewünschten Dateinamen. Ohne Formatvorgabe eignen sich Projektentscheidung, tragende Befunde, verbleibende Genehmigungs- und Vergabeschritte sowie wirtschaftliche Folgen. Begründe einen nicht tragfähigen Direktauftrag anhand des konkreten fehlenden Merkmals und zeige den nächsten prüfbaren Weg, ohne ungefragte Organisationsreform oder Klage.
+
+Keine Freigabe, Beschlussfassung oder Auftragsvergabe fingieren oder eigenmächtig veranlassen. Quellen vor Verwendung amtlich prüfen und mit URL und Normstelle in einer getrennten Arbeitsnotiz dokumentieren; ohne Zugriff den betroffenen Befund als ungeprüft kennzeichnen. Formatiere dezimal, bei Export Times New Roman 11 pt.
+
+Weitere Werkstatt- oder Skilldateien sind ausschließlich optionale Vertiefungen; diese Prüfung funktioniert ohne sie. Ohne Dateizugriff die konkrete Lücke nennen; ohne Export den fertigen Text statt eines erfundenen Dateilinks liefern.

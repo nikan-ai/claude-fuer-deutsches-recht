@@ -1,6 +1,6 @@
 ---
 name: dokumente-rendern-urteil-docx
-description: "Wenn es um Urteil rendern - DOCX und PDF im Gerichtslayout in Urteilsbauer und Relationsmacher geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Urteil rendern - DOCX und PDF im Gerichtslayout: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Urteil rendern - DOCX und PDF im Gerichtslayout
@@ -13,10 +13,6 @@ Erzeugt aus strukturierten Markdown-Bausteinen ein lieferfertiges Urteil im Layo
 2. Welches Ausgabeformat — nur DOCX oder DOCX und PDF (LibreOffice soffice nötig)?
 3. Sind alle Eingabedateien vorhanden (rubrum.yaml, tenor.md, tatbestand.md, entscheidungsgruende.md)?
 4. Welche Tenor-Variante soll übernommen werden, wenn mehrere vorliegen?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -115,9 +111,4 @@ Ausgabe: `Urteil-{Aktenzeichen}.docx` (und `.pdf` wenn `soffice` verfügbar).
 
 `pip install python-docx pyyaml`. Für PDF: LibreOffice (`soffice`).
 
-<!-- AUDIT 27.05.2026 | bundle_053
-Geprüft: BGH VI ZR 559/16 (NOT_FOUND auf dejure.org)
-Ersatz: BGH I ZR 90/14, GRUR 2016, 860 (verifiziert auf dejure.org)
-Thema: § 315 ZPO Verhinderungsgrund Richterunterschrift — thematisch passend
-Hinweis: BGH V ZB 68/19 (NJW 2020, 3661) in derselben Sektion ebenfalls NOT_FOUND; nicht im Bundle-Scope, zur Nachprüfung vorgemerkt.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,28 +5,74 @@
 
 Selbstvertretung vor dem Amtsgericht ohne Anwalt: Anfänger-Workflow, Fristen, Zuständigkeit, Paragraf23 GVG/Paragraf511 ZPO-Grenzen, Klage/Erwiderung/Replik, Beweise, PKH, Termin, Sanity-Check, Rechtsprechungschat, Berufung.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`selbstvertreter-amtsgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/selbstvertreter-amtsgericht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/selbstvertreter-amtsgericht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/selbstvertreter-amtsgericht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/selbstvertreter-amtsgericht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für selbstvertreter-amtsgericht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`selbstvertreter-amtsgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/selbstvertreter-amtsgericht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-werkstatt.md" download><code>selbstvertreter-amtsgericht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-schnellstart.md" download><code>selbstvertreter-amtsgericht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Selbstvertreter Amtsgericht — Küchentisch Kaufpreis: [Gesamt-PDF](../testakten/selbstvertreter-amtsgericht-kuechentisch-kaufpreis/gesamt-pdf/selbstvertreter-amtsgericht-kuechentisch-kaufpreis_gesamt.pdf), [`testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis.zip), [`testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`selbstvertreter-amtsgericht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/selbstvertreter-amtsgericht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`selbstvertreter-amtsgericht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`selbstvertreter-amtsgericht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/selbstvertreter-amtsgericht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Akte Selbstvertreter Amtsgericht — Küchentisch Kaufpreis](../testakten/selbstvertreter-amtsgericht-kuechentisch-kaufpreis/README.md) | [Gesamt-PDF](../testakten/selbstvertreter-amtsgericht-kuechentisch-kaufpreis/gesamt-pdf/selbstvertreter-amtsgericht-kuechentisch-kaufpreis_gesamt.pdf) | [`testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis.zip) | [`testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-selbstvertreter-amtsgericht-kuechentisch-kaufpreis-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 ## Für wen?
 
-- Sie wollen eine Geldforderung bis zur Wertgrenze des § 23 Nr. 1 GVG einklagen (seit 01.01.2026: **10.000 EUR**, Anhebung von 5.000 EUR durch das Justizstandort-Stärkungsgesetz).
+- Sie wollen eine Geldforderung bis zur Wertgrenze des Paragrafen 23 Nummer 1 GVG einklagen (seit 01.01.2026: 10.000 EUR). Besondere Zuständigkeiten bleiben gesondert zu prüfen.
 - Sie sind verklagt worden und wollen sich selbst verteidigen.
-- Sie wollen Mietsachen, Reisemängel, Familienunterhalt oder andere AG-typische Streitigkeiten betreiben.
+- Sie wollen eine Wohnraummietsache, Reisemängel oder einen anderen Zivilstreit bearbeiten. Familienunterhalt ist dagegen eine Familiensache: Dort gelten eigene Verfahrensregeln und grundsätzlich Anwaltszwang nach Paragraf 114 FamFG; Ausnahmen müssen konkret geprüft werden.
 - Sie wollen vor einer möglichen Mandatierung verstehen, was rechtlich passiert.
 
 ## Was kann das Plugin?
@@ -57,7 +103,7 @@ Es liefert Skills zu:
 - Direkte Schritt-für-Schritt-Anleitungen.
 - Ehrlicher Hinweis, wo verifiziert werden muss (Reform-Lage, Aktenzeichen, Fundstellen).
 
-## Was das Plugin **nicht** macht
+## Was das Plugin nicht macht
 
 - Keine Garantie, dass Sie gewinnen.
 - Keine anwaltliche Mandatsführung. Bei komplexen Fällen, hohem Risiko, Landgericht, Familiengericht, Berufung oder unklarer Zustellung empfiehlt das Plugin deutlich Rechtsantragsstelle, Beratungshilfe, PKH oder Anwalt — siehe Skill `wann-doch-anwalt-grenzfaelle`.
@@ -65,23 +111,33 @@ Es liefert Skills zu:
 
 ## Einstieg
 
+Gezielter Quellenabgleich vom 16.10.2026: [Paragraf 23 GVG](https://www.gesetze-im-internet.de/gvg/__23.html) zur Zuständigkeit, [Paragraf 511 ZPO](https://www.gesetze-im-internet.de/zpo/__511.html) zur Berufungsbeschwer über 1.000 EUR oder Zulassung und [Paragraf 47 EGZPO](https://www.gesetze-im-internet.de/zpoeg/__47.html) zum Übergangsrecht wurden gelesen. Die Beschwer ist nicht mit dem Streitwert gleichzusetzen. Für Familienunterhalt wurden [Paragrafen 112 und 114 FamFG](https://www.gesetze-im-internet.de/famfg/BJNR258700008.html) einschließlich der Vertretungsausnahmen abgeglichen. Das ist keine vollständige Prüfung aller Fristen oder Skills.
+
 Starten Sie mit `anfaenger-workflow-amtsgericht`, wenn Sie geführt werden möchten. Nutzen Sie `orientierung-selbstvertreter-amtsgericht`, wenn Sie nur eine schnelle Triage wollen, und `sanity-check-selbstvertretung-amtsgericht`, bevor etwas an das Gericht geht.
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **90 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-triage`, `orientierung-selbstvertreter-amtsgericht` |
-| 2. Unterlagen, Sachverhalt und Quellen | `augenscheinsbeweis-371-zpo`, `beweislast-grundregel-wer-was`, `beweismittel-vorab-sammeln-checkliste`, `dokumenten-erzeugung-pdf-laien-amtsgericht`, `kein-beweis-folgen-laienwarnung`, `klageschrift-beweisangebote-einbauen-373-zpo`, `muendliche-verhandlung-akten-griffbereit`, `sachverstaendigenbeweis-402-zpo`, `urkundenbeweis-415-ff-zpo`, `zeugenbeweis-373-ff-zpo` |
-| 3. Prüfung, Anspruch und Subsumtion | `anspruchsgrundlage-finden-laienhilfe`, `klageerwiderung-checkliste-alle-punkte`, `kostenrisiko-streitwert-berechnen-gkg`, `sanity-check-selbstvertretung-amtsgericht`, `tatbestand-zerlegen-anspruchspruefung-laien`, `terminvorbereitung-checkliste`, `vorabklaerung-erfolgsaussichten-selbstcheck`, `zulassungsgrenzen-check-amtsgericht` |
-| 4. Gestaltung, Strategie und Verhandlung | `klageschrift-tatsachenvortrag-strukturieren`, `vergleich-richtervorschlag-278-ii-zpo`, `video-verhandlung-128a-zpo`, `vollstreckungsklausel-724-zpo` |
-| 5. Verfahren, Behörde und Gericht | `anfaenger-workflow-amtsgericht`, `anlagen-formatieren-k1-k2-pdf-amtsgericht`, `aussergerichtliche-mahnung-286-bgb`, `beratungshilfe-aussergerichtlich-brh`, `berufung-amtsgericht-511-zpo`, `einreichung-rechtsantragsstelle-selbst`, `fristbeginn-zustellung-protokollieren`, `fristen-berechnen-187-188-bgb`, `fristen-buch-fuehren-laien`, `fristverlaengerung-antrag-225-zpo`, `gegnerische-vollstreckung-abwehr`, `gerichtskostenvorschuss-12-gkg`, `klage-streitwert-angabe-3-zpo`, `klage-vereinfachtes-verfahren-495a-zpo`, `klage-zusammenstellen-komplettes-bundle`, `klage-zusammenstellen-komplettes-bundle-amtsgericht`, `klageerwiderung-fristen-274-zpo`, `klageerwiderung-replik-anlagen-b1-b2`, ... plus 22 weitere |
-| 7. Kontrolle, Qualität und Gegenprüfung | `typische-laien-fehler` |
-| 8. Spezialmodule und Schnittstellen | `anwaltszwang-pruefen-78-zpo`, `ausnahmen-streitwertgrenze-23-nr-2-gvg`, `berufungs-zulassung-niedrig-streitwert`, `dolmetscher-185-gvg`, `duplik-nach-replik`, `eidesstattliche-versicherung-294-zpo`, `einreden-aktiv-geltend-machen`, `einreichung-130a-zpo-elektronisch-buerger`, `einreichung-fax-und-grenzen`, `einreichung-mein-justizpostfach-mjp-2024`, `einreichung-papierform-mit-abschriften`, `kostenfestsetzung-103-104-zpo`, `ladung-termin-216-zpo`, `oertliche-zustaendigkeit-12-37-zpo`, `parteivernehmung-445-ff-zpo`, `pkh-bewilligung-ablehnung-folgen`, `pkh-ratenzahlung-bewilligung`, `prozesskostenhilfe-pkh-114-zpo`, ... plus 6 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/kaltstart-triage/SKILL.md) |
+| 2. Prozessroute | [`prozessroute-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/prozessroute-bearbeiten/SKILL.md) |
+| 3. Antrag und Streitgegenstand | [`antrag-und-streitgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/antrag-und-streitgegenstand-bearbeiten/SKILL.md) |
+| 4. Relation | [`relation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/relation-bearbeiten/SKILL.md) |
+| 5. Beweis | [`beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/beweis-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -89,98 +145,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 89 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anfaenger-workflow-amtsgericht` | Wenn es um Anfänger-Amtsgericht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anlagen-formatieren-k1-k2-pdf-amtsgericht` | Wenn es um Anlagen formatieren — K1, K2 oben rechts, Schrift 12pt in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung u... |
-| `anspruchsgrundlage-finden-laienhilfe` | Wenn es um Welche Norm traegt Ihren Anspruch? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `anwaltszwang-pruefen-78-zpo` | Wenn es um Brauche ich vor dem Amtsgericht einen Anwalt? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `augenscheinsbeweis-371-zpo` | Wenn es um Augenscheinsbeweis: Wenn das Gericht selbst sehen muss in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ausnahmen-streitwertgrenze-23-nr-2-gvg` | Wenn es um Wann ist das Amtsgericht **immer** zuständig (egal wie hoch der Streitwert)? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsp... |
-| `aussergerichtliche-mahnung-286-bgb` | Wenn es um Mahnen Sie zuerst — bevor Sie klagen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `beratungshilfe-aussergerichtlich-brh` | Wenn es um Beratungshilfe: Anwalt vor Klage (fast) umsonst in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anla... |
-| `berufung-amtsgericht-511-zpo` | Wenn es um Berufung gegen AG-Urteil: Was geht und was nicht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `berufungs-zulassung-niedrig-streitwert` | Wenn es um Berufungs-Zulassung bei Beschwer bis 1.000 EUR in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweislast-grundregel-wer-was` | Wenn es um Wer beweist was? Die Beweislast im Zivilprozess in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `beweismittel-vorab-sammeln-checkliste` | Wenn es um Sammeln Sie Beweise — bevor Sie klagen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `dokumenten-erzeugung-pdf-laien-amtsgericht` | Wenn es um PDF-Erzeugung für Ihre Klage — von Word bis Scanner-App in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung... |
-| `dolmetscher-185-gvg` | Wenn es um Dolmetscher im Verfahren in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `duplik-nach-replik` | Wenn es um Duplik: Antwort des Beklagten auf die Replik in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eidesstattliche-versicherung-294-zpo` | Wenn es um Eidesstattliche Versicherung: nur Glaubhaftmachung, kein Beweis! in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `einreden-aktiv-geltend-machen` | Wenn es um Einreden: Sie müssen sie erheben! in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `einreichung-130a-zpo-elektronisch-buerger` | Wenn es um Elektronische Einreichung nach Paragraf 130a ZPO in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einreichung-fax-und-grenzen` | Wenn es um Einreichung per Fax — was noch geht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einreichung-mein-justizpostfach-mjp-2024` | Wenn es um Mein Justizpostfach (MJP): elektronisch beim Gericht einreichen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einreichung-papierform-mit-abschriften` | Wenn es um Klage in Papierform einreichen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `einreichung-rechtsantragsstelle-selbst` | Wenn es um Die Rechtsantragsstelle als Hilfe für Buerger in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlage... |
-| `fristbeginn-zustellung-protokollieren` | Wenn es um Wann beginnt die Frist? Zustellung protokollieren in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-berechnen-187-188-bgb` | Wenn es um Fristen richtig berechnen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-buch-fuehren-laien` | Wenn es um Ein eigenes Fristen-Buch fuehren in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristverlaengerung-antrag-225-zpo` | Wenn es um Eine Frist verlaengern: Antrag richtig stellen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gegnerische-vollstreckung-abwehr` | Wenn es um Wenn Sie verlieren: Vollstreckung abwehren oder mildern in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gerichtskostenvorschuss-12-gkg` | Wenn es um Gerichtskostenvorschuss: Klage wird erst nach Zahlung zugestellt in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Be... |
-| `kaltstart-triage` | Wenn es um Kaltstart Triage in selbstvertreter-amtsgericht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kein-beweis-folgen-laienwarnung` | Wenn es um Was passiert, wenn Sie eine Tatsache **nicht** beweisen können? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `klage-streitwert-angabe-3-zpo` | Wenn es um Streitwert in der Klage angeben in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klage-vereinfachtes-verfahren-495a-zpo` | Wenn es um Vereinfachtes Verfahren bis 1.000 EUR (Paragraf 495a ZPO) in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründun... |
-| `klage-zusammenstellen-komplettes-bundle` | Wenn es um Klage komplett zusammenstellen — Schritt für Schritt in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und... |
-| `klage-zusammenstellen-komplettes-bundle-amtsgericht` | Wenn es um Klage und Anlagen als komplettes Paket für das Amtsgericht in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründu... |
-| `klageerwiderung-checkliste-alle-punkte` | Wenn es um Klageerwiderung: jeden Punkt der Klage beantworten in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und A... |
-| `klageerwiderung-fristen-274-zpo` | Wenn es um Sie sind verklagt: Welche Fristen laufen? in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klageerwiderung-replik-anlagen-b1-b2` | Wenn es um Anlagen in Klageerwiderung und Replik — die Nummerierung fortfuehren in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen... |
-| `klageerwiderung-replik-anlagen-b1-b2-fortlaufend` | Wenn es um Anlagen-Nummerierung in Klageerwiderung und Replik korrekt fortführen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträge... |
-| `klageschrift-anlagen-bezeichnen` | Wenn es um Anlagen zur Klage richtig bezeichnen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klageschrift-anschreiben-an-gericht-laien` | Wenn es um Wie schreibe ich foermlich ans Amtsgericht? in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `klageschrift-antrag-bestimmt-formulieren` | Wenn es um Den Klageantrag richtig formulieren in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klageschrift-beweisangebote-einbauen-373-zpo` | Wenn es um Beweisantraege richtig in die Klage einbauen in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagen... |
-| `klageschrift-pflichtbestandteile-253-zpo` | Wenn es um So bauen Sie eine Klageschrift auf in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klageschrift-tatsachenvortrag-strukturieren` | Wenn es um Den Sachverhalt richtig in die Klage schreiben in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlag... |
-| `kostenfestsetzung-103-104-zpo` | Wenn es um Kostenfestsetzung: Bei Erfolg Geld zurueckholen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kostenrisiko-streitwert-berechnen-gkg` | Wenn es um Was kostet eine Klage vor dem Amtsgericht? in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlo... |
-| `ladung-termin-216-zpo` | Wenn es um Was steht in einer Termin-Ladung? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `mahnverfahren-688-ff-zpo-vor-klage` | Wenn es um Mahnbescheid statt Klage: schnell und billig in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagen... |
-| `muendliche-verhandlung-akten-griffbereit` | Wenn es um In den Termin gehen — Akten griffbereit, Notizen parat in selbstvertreter-amtsgericht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `nachgereichter-schriftsatz-296a-zpo` | Wenn es um Nachgereichter Schriftsatz nach Schluss der Verhandlung in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung... |
-| `oertliche-zustaendigkeit-12-37-zpo` | Wenn es um Welches Amtsgericht ist oertlich zuständig? in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `online-verfahren-11-buch-zpo-experimentell` | Wenn es um Online-Verfahren — das neue digitale Zivilverfahren in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `orientierung-selbstvertreter-amtsgericht` | Wenn es um Orientierung: Sie wollen sich selbst vor dem Amtsgericht vertreten in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `parteivernehmung-445-ff-zpo` | Wenn es um Parteivernehmung: Wenn Sie selbst aussagen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pkh-bewilligung-ablehnung-folgen` | Wenn es um Wenn PKH bewilligt oder abgelehnt wird in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `pkh-ratenzahlung-bewilligung` | Wenn es um PKH mit Ratenzahlung in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prozesskostenhilfe-pkh-114-zpo` | Wenn es um Prozesskostenhilfe (PKH): Klage trotz Geldknappheit in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und... |
-| `rechtsmittelfrist-517-zpo` | Wenn es um Berufungsfrist: 1 Monat — keine Verlaengerung in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsprechungschat-amtsgericht` | Wenn es um Rechtsprechungschat Amtsgericht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `replik-auf-klageerwiderung-systematik` | Wenn es um Replik: Wie Sie als Kläger auf die Klageerwiderung antworten in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begrün... |
-| `richterlicher-hinweis-139-zpo-reaktion` | Wenn es um Richterlicher Hinweis nach Paragraf 139 ZPO: Was tun? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `sachliche-zustaendigkeit-amtsgericht-23-gvg` | Wenn es um Ist das Amtsgericht für Ihren Fall sachlich zuständig? in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `sachverstaendigenbeweis-402-zpo` | Wenn es um Sachverstaendigenbeweis: Wenn Fachfrage entscheidet in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `saeumnis-im-termin-330-zpo` | Wenn es um Saeumnis im Termin: Konsequenzen und was Sie tun können in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `saeumnis-vermeiden-330-ff-zpo` | Wenn es um Versaeumnisurteil verhindern und ggf. einlegen in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- u... |
-| `sanity-check-selbstvertretung-amtsgericht` | Wenn es um Sanity-Check Selbstvertretung Amtsgericht in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `substantiiertes-bestreiten-138-iv-zpo` | Wenn es um Bestreiten muss substantiiert sein — wie es geht in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tatbestand-zerlegen-anspruchspruefung-laien` | Wenn es um Den Tatbestand zerlegen: Jedes Merkmal beweisen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `terminvorbereitung-checkliste` | Wenn es um Termin im Amtsgericht: So bereiten Sie sich vor in selbstvertreter-amtsgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `typische-laien-fehler` | Wenn es um Die haeufigsten Fehler — und wie Sie sie vermeiden in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urkundenbeweis-415-ff-zpo` | Wenn es um Urkundenbeweis: Schriftliche Dokumente als Beweis in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urteil-pruefen-313-zpo` | Wenn es um Das schriftliche Urteil prüfen in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urteil-rechtskraft-705-zpo` | Wenn es um Rechtskraft des Urteils in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urteilsverkuendung-310-zpo` | Wenn es um Urteilsverkuendung: So endet das Verfahren in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbrauchergerichtsstand-29c-zpo` | Wenn es um Verbrauchergerichtsstand: Klagen am eigenen Wohnsitz in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und... |
-| `vergleich-richtervorschlag-278-ii-zpo` | Wenn es um Vergleich: Das Gericht schlaegt einen Vergleich vor — annehmen oder nicht? in selbstvertreter-amtsgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationsli... |
-| `verhalten-gerichtssaal-laienleitfaden` | Wenn es um Verhalten im Gerichtssaal: Praktischer Leitfaden in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verjaehrungsfrist-pruefen-195-bgb` | Wenn es um Ist Ihre Forderung schon verjaehrt? in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `video-verhandlung-128a-zpo` | Wenn es um Video-Verhandlung nach Paragraf 128a ZPO in selbstvertreter-amtsgericht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vollstreckungsklausel-724-zpo` | Wenn es um Vollstreckungsklausel: Damit das Urteil vollstreckbar wird in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vorabklaerung-erfolgsaussichten-selbstcheck` | Wenn es um Sollten Sie wirklich klagen? Ein ehrlicher Selbstcheck in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung u... |
-| `wann-doch-anwalt-grenzfaelle` | Wenn es um Wann ist es Zeit, doch einen Anwalt zu nehmen? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risike... |
-| `widerklage-33-zpo` | Wenn es um Widerklage: Eigener Angriff gegen den Kläger in selbstvertreter-amtsgericht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagen... |
-| `wiedereinsetzung-frist-233-zpo` | Wenn es um Wiedereinsetzung: Wenn Sie eine Frist versaeumt haben in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugenbeweis-373-ff-zpo` | Wenn es um Zeugenbeweis: Wer kann was bezeugen? in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `zulassungsgrenzen-check-amtsgericht` | Wenn es um Zulassungsgrenzen-Check Amtsgericht in selbstvertreter-amtsgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweis... |
-| `zurechnungsproblem-versand-durch-dritte` | Wenn es um Risiko: Versand durch Dritte (Boten, Bekannte, Familie) in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zwangsvollstreckung-querverweis-02` | Wenn es um Zwangsvollstreckung: Nutzen Sie den Substitutionsagenten in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zwangsvollstreckung-querverweis-substitutionsagent` | Wenn es um Querverweis zum Substitutionsagenten für die Zwangsvollstreckung nach Urteil in selbstvertreter-amtsgericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofor... |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`antrag-und-streitgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/antrag-und-streitgegenstand-bearbeiten/SKILL.md) | Selbstvertretung vor dem Amtsgericht: Antrag und Streitgegenstand: Klageziel, Lebenssachverhalt, Haupt- und Hilfsanträge, Nebenforderungen und Erledigung trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/antrag-und-streitgegenstand-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Selbstvertretung vor dem Amtsgericht: Arbeitsprodukt: Klageschrift, Klageerwiderung, Hinweisverfügung, Beschluss, Urteil, Tenor, Anlagenverzeichnis oder Fristenblatt erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/beweis-bearbeiten/SKILL.md) | Selbstvertretung vor dem Amtsgericht: Beweis: Beweisthema, Beweismittel, Substantiierung, Beweislast, Beweiswürdigung und Beweisbeschluss aus der Akte entwickeln. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/beweis-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Selbstvertreter Amtsgericht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/kaltstart-triage/SKILL.md) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: selbstvertreter-amtsgericht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/kaltstart-triage/SKILL.md) |
+| [`prozessroute-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/prozessroute-bearbeiten/SKILL.md) | Selbstvertretung vor dem Amtsgericht: Prozessroute: Gericht, Rechtsweg, Zuständigkeit, Streitwert, Frist, Einreichungsweg und Verfahrensstand sichern. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/prozessroute-bearbeiten/SKILL.md) |
+| [`relation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/relation-bearbeiten/SKILL.md) | Für Zivilprozess und Relation: Relation: Klägerstation auf Schlüssigkeit, Beklagtenstation auf Erheblichkeit, Replik auf Durchschlag und Beweisstation auf Beweislast prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/relation-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Selbstvertretung vor dem Amtsgericht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=selbstvertreter-amtsgericht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -5,30 +5,78 @@
 
 Assistent für Anwaltskanzleien zur Erstantwort auf Mandantenanfragen per E-Mail: dankt förmlich übernimmt die Anrede aus der eingehenden E-Mail nennt die telefonische Terminvergabe bittet um Sachverhalt per E-Mail oder bietet eine Telefon-Transkription mit DSGVO-Einwilligungshinweis an.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`mandantenanfragen-assistent.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/mandantenanfragen-assistent.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/mandantenanfragen-assistent.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/mandantenanfragen-assistent-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/mandantenanfragen-assistent-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/mandantenanfragen-assistent.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/mandantenanfragen-assistent.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für mandantenanfragen-assistent:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`mandantenanfragen-assistent.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/mandantenanfragen-assistent.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/mandantenanfragen-assistent/mandantenanfragen-assistent-werkstatt.md" download><code>mandantenanfragen-assistent-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/mandantenanfragen-assistent/mandantenanfragen-assistent-schnellstart.md" download><code>mandantenanfragen-assistent-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Mandantenanfragen Q2/2026 — Kanzlei Roosendaal & Tannenfels, Köln: [Gesamt-PDF](../testakten/mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026/gesamt-pdf/mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026_gesamt.pdf), [`testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026.zip), [`testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`mandantenanfragen-assistent.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/mandantenanfragen-assistent.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`mandantenanfragen-assistent-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/mandantenanfragen-assistent-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`mandantenanfragen-assistent-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/mandantenanfragen-assistent-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Mandantenanfragen Q2/2026 — Kanzlei Roosendaal & Tannenfels, Köln](../testakten/mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026/README.md) | [Gesamt-PDF](../testakten/mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026/gesamt-pdf/mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026_gesamt.pdf) | [`testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026.zip) | [`testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-mandantenanfragen-kanzlei-roosendaal-koeln-erstkontakt-q2-2026-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
-**Version:** 3.2.1
+Paketstand: siehe [aktuellen Release](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest).
 **Author:** Klotzkette
 **Lizenz:** Apache-2.0 OR MIT
 
 ---
 
-Assistent für Anwaltskanzleien zur automatisierten Erstantwort auf eingehende Mandantenanfragen per E-Mail. Das Plugin dankt formell für die Anfrage, übernimmt die exakte Anrede aus der eingehenden Mail, weist auf die telefonische Terminvergabe hin und bittet um eine Sachverhaltszusammenfassung per E-Mail. Für Personen, die nicht schreiben können oder möchten, bietet es einen automatisierten Transkriptionsservice an — mit DSGVO-konformem Einwilligungshinweis.
+Der Assistent entwirft für Anwaltskanzleien vollständige Erstantworten auf eingehende E-Mails. Er liest die Anfrage und vorhandene Anlagen zuerst, spricht die anfragende Person an und übernimmt nicht versehentlich den Namen der angeschriebenen Kanzleiperson. Er fragt nur fehlende Unterlagen nach, berücksichtigt berichtete Dringlichkeit und setzt eine bereits beschlossene Mandatsabsage direkt um. Terminvergabe, Mandatsannahme, Fristübernahme und Versand werden nicht durch den Entwurf bewirkt.
+
+Ein Transkriptionsangebot erscheint nur, wenn die Kanzlei diesen Dienst tatsächlich eingerichtet und für den konkreten Einsatz freigegeben hat. Das Plugin stellt keinen Telefondienst bereit; ein Einwilligungstext allein belegt auch keine datenschutzrechtliche Zulässigkeit.
 
 ---
 
@@ -36,26 +84,28 @@ Assistent für Anwaltskanzleien zur automatisierten Erstantwort auf eingehende M
 
 1. ZIP aus dem Release herunterladen.
 2. Plugin-Umgebung öffnen.
-3. **Customize Plugins** bzw. **Personal plugins** öffnen.
-4. **Install from .zip** wählen und `mandantenanfragen-assistent.zip` hochladen.
+3. **Customize → Plugins** bzw. **Personal plugins** öffnen.
+4. **Upload plugin** wählen und `mandantenanfragen-assistent.zip` hochladen.
 5. Mit einem konkreten Auftrag starten, zum Beispiel: `Beantworte diese Mandantenanfrage: [E-Mail einfügen]`
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json` und `skills/` enthalten.
 
 ---
 
-## Skills-Übersicht (15 Skills)
+## Ausgewählte Arbeitswege
+
+Die Auswahl zeigt typische Mandantenanfragen. Alle Skills mit Kurzbeschreibungen und Downloads stehen in der [vollständigen Skill-Liste](../skills-index/mandantenanfragen-assistent.md).
 
 | # | Skill-Name | Beschreibung | Lade-Trigger (Beispiele) |
 |---|---|---|---|
 | 1 | `anfrage-eingang-parser` | Extrahiert aus der Eingangsmail: Anrede, Name, E-Mail, Kontaktdaten, Sachverhaltsfetzen, Dringlichkeitssignale | "Anfrage auswerten", "E-Mail analysieren", "Kontaktdaten extrahieren" |
-| 2 | `anrede-uebernehmen` | Übernimmt die EXAKTE Anrede aus der Eingangsmail; Heuristiken für Titel, Doppelnamen, Adelsprädikat, kirchliche Titel, Ehepaar | "Anrede übernehmen", "formelle Anrede", "Titel erkennen" |
+| 2 | `anrede-uebernehmen` | Bildet die passende Antwortanrede aus belegtem Absender, Namen und Titel; verwechselt Absender und angeschriebene Kanzleiperson nicht | "Anrede übernehmen", "formelle Anrede", "Titel erkennen" |
 | 3 | `erstantwort-generator` | Hauptskill: erstellt die vollständige formelle Erstantwort-Mail mit allen Bausteinen | "Erstantwort schreiben", "Antwortmail erstellen", "Eingangsbestätigung" |
 | 4 | `telefon-konfiguration` | Verwaltet Kanzlei-Kontaktdaten (Sekretariat + Transkriptionsservice) aus `kanzlei.json` und setzt sie in Templates ein | "Telefonnummer konfigurieren", "kanzlei.json bearbeiten" |
 | 5 | `transkriptionsdienst-erklaerung` | Formuliert den Hinweis auf den automatisierten Transkriptionsservice: Ablauf, Datenschutz, Einwilligungserfordernis | "Transkriptionsservice erklären", "kann nicht schreiben" |
 | 6 | `einwilligung-hinweis-datenschutz` | DSGVO-konforme Einwilligungsklausel für die Sprachaufnahme (Art. 6 Abs. 1 lit. a DSGVO, Art. 13 DSGVO) | "DSGVO Einwilligung formulieren", "Datenschutz Transkription" |
-| 7 | `mandatsverhaeltnis-hinweis` | Formuliert den Disclaimer: kein Mandatsverhältnis, keine Rechtsberatung, keine Pflichten der Kanzlei | "kein Mandat Hinweis", "Disclaimer Erstanfrage" |
-| 8 | `vertraulichkeit-erinnerung` | Hinweis auf anwaltliche Schweigepflicht § 43a Abs. 2 BRAO — gilt erst ab Mandatsbegründung | "Schweigepflicht Anwalt", "wann gilt Verschwiegenheit" |
+| 7 | `mandatsverhaeltnis-hinweis` | Grenzt Eingangsbestätigung, Mandatsannahme und Fristübernahme ab; kein pauschaler Ausschluss gesetzlicher Pflichten | "kein Mandat Hinweis", "Disclaimer Erstanfrage" |
+| 8 | `vertraulichkeit-erinnerung` | Verschwiegenheit nach Paragraf 43a Absatz 2 BRAO knüpft an die Berufsausübung an, nicht erst an den Mandatsvertrag | "Schweigepflicht Anwalt", "wann gilt Verschwiegenheit" |
 | 9 | `folgekorrespondenz-vorbereiten` | Erstellt Skeleton-Eintrag für CRM/Akte: Name, Mail, Telefon, Anliegen, Dringlichkeit, Konfliktcheck-Status | "CRM Eintrag erstellen", "Akte anlegen" |
 | 10 | `spam-und-massen-anfrage-filter` | Erkennt Spam-Muster: 419-Scams, Massen-Anfragen, Phishing, Recruiter-Mails; kennzeichnet zur Aussortierung | "Spam prüfen", "verdächtige Anfrage", "Scam-Mail" |
 | 11 | `dringlichkeitsmarker` | Erkennt Fristen und Eile-Signale; setzt Stufe HOCH/MITTEL/NIEDRIG; bei HOCH: Sofortanruf des Anwalts erforderlich | "Dringlichkeit prüfen", "Frist erkannt", "Eilbedarf" |
@@ -127,28 +177,40 @@ Das Plugin enthält keine Rechtsberatung. Alle Musterschreiben sind unverbindlic
 
 Berufsrechtliche Grundlagen: §§ 43 ff. BRAO, §§ 1 ff. BORA, RVG, DSGVO.
 
+Gebührenabgleich vom 16.10.2026: [Paragraf 34 Absatz 1 RVG](https://www.gesetze-im-internet.de/rvg/__34.html) und [Nummer 7008 VV RVG](https://www.gesetze-im-internet.de/rvg/anlage_1.html) wurden amtlich gelesen. Die 190-EUR-Grenze betrifft das erste Beratungsgespräch mit einem Verbraucher ohne Gebührenvereinbarung; sie ist weder ein stets geschuldeter Pauschalpreis noch ein Bruttopreis. Umsatzsteuer soweit anfallend und erstattungsfähige Auslagen sind getrennt zu prüfen. Diese Qualifikation gilt auch für die kurzen Normhinweise in den Fachskills.
+
+Quellenabgleich vom 16.10.2026: [Paragraf 43a Absatz 2 BRAO](https://www.gesetze-im-internet.de/brao/__43a.html) erfasst beruflich bekannt gewordene Informationen und setzt keinen bereits geschlossenen Mandatsvertrag voraus. Vertraulichkeit bei beruflichen Erstanfragen ist deshalb nicht bloß freiwillige Diskretion. [Paragraf 44 BRAO](https://www.gesetze-im-internet.de/brao/__44.html) verlangt die unverzügliche Erklärung einer gewollten Ablehnung; er verpflichtet nicht zur unverzüglichen Annahme. Beide amtlichen Normtexte wurden gelesen. Damit sind weder sämtliche Pflichten im Einzelfall noch die übrigen Berufsrechts- und Datenschutzangaben neu verifiziert.
+
 ---
 
 ## Lizenz
 
 Apache-2.0 OR MIT — siehe [LICENSE](../LICENSE), [LICENSE-APACHE](../LICENSE-APACHE), [LICENSE-MIT](../LICENSE-MIT)
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anfrage-eingang-parser`, `anschluss-routing`, `anwaltskanzleien-erstpruefung-und-mandatsziel`, `dokumente-intake`, `e-mail-erstantwort-und-terminrouting`, `einstieg-routing`, `manda-erstkontakt-triagebogen-bauleiter`, `manda-mandatsablehnung-rechtsschutz`, `mandantenanfragen-anfrage-eingang-anrede`, `mandatsverhaeltnis-hinweis`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `eingehenden-quellenkarte`, `einwilligung-hinweis-datenschutz`, `ma-erstvermerk-mandantenakte`, `mail-dokumentenmatrix-und-lueckenliste`, `nennt-sachverhalt-telefon`, `quellen-livecheck`, `sachverhalt-formular-portal-und-einreichung`, `spezial-eingehenden-livequellen-und-rechtsprechungscheck`, `transkription-beweislast-und-darlegungslast`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `folgekorrespondenz-vorbereiten-konfliktcheck`, `konfliktcheck-vorab`, `ma-konfliktcheck-konzern`, `manda-erstgespraechsleitfaden-checkliste`, `workflow-fristen-und-risikoampel` |
-| 5. Verfahren, Behörde und Gericht | `einwilligungshinweis-fristennotiz-und-naechster-schritt`, `foermlich-behoerden-gericht-und-registerweg` |
-| 6. Ergebnis, Schreiben und Kommunikation | `erstantwort-foermlich-mail`, `erstantwort-generator`, `mandantenkommunikation-redteam`, `mehrsprachige-antwort-muster-erstantwort-spam`, `muster-erstantwort`, `output-waehlen`, `telefon-mandantenkommunikation-entscheidungsvorlage` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `bietet-fehlerkatalog`, `spezial-bietet-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `anrede-anwaltskanzleien-bittet`, `anrede-uebernehmen`, `bittet-internationaler-bezug-und-schnittstellen`, `dankt-dsgvo-sonderfall-e-mail`, `dringlichkeitsmarker-einwilligung-hinweis`, `dsgvo-sonderfall-und-edge-case`, `ma-aufnahmegespraech-leitfaden`, `ma-einfuehrung-erstkontakt`, `ma-mandant-manda-erstgespraechsleitfaden`, `manda-rechtsschutz-eintrittsanfrage-spezial`, `spam-und-massen-anfrage-filter`, `telefon-konfiguration`, `telefonische-terminvergabe-interessen`, `terminvergabe-mehrparteien-konflikt-und-interessen`, `transkriptionsdienst-erklaerung`, `uebernimmt-telefon-konfiguration`, `vertraulichkeit-erinnerung` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Auftrag und Adressat | [`auftrag-und-adressat-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/auftrag-und-adressat-bearbeiten/SKILL.md) |
+| 3. Sachverhalt | [`sachverhalt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/sachverhalt-bearbeiten/SKILL.md) |
+| 4. Normstruktur | [`normstruktur-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/normstruktur-bearbeiten/SKILL.md) |
+| 5. Subsumtion und Gegenprobe | [`subsumtion-und-gegenprobe-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/subsumtion-und-gegenprobe-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -156,67 +218,21 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anfrage-eingang-parser` | Wenn es um Anfrage-Eingang-Parser in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anrede-anwaltskanzleien-bittet` | Wenn es um Anrede: Verhandlung, Vergleich und Eskalation in mandantenanfragen-assistent geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `anrede-uebernehmen` | Wenn es um Anrede-Übernehmen in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `anwaltskanzleien-erstpruefung-und-mandatsziel` | Wenn es um Anwaltskanzleien: Erstprüfung, Rollenklärung und Mandatsziel in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `bietet-fehlerkatalog` | Wenn es um Bietet Fehlerkatalog in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bittet-internationaler-bezug-und-schnittstellen` | Wenn es um Bittet: Internationaler Bezug und Schnittstellen in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dankt-dsgvo-sonderfall-e-mail` | Wenn es um Dankt: Risikoampel, Gegenargumente und Verteidigungslinien in mandantenanfragen-assistent geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dringlichkeitsmarker-einwilligung-hinweis` | Wenn es um Dringlichkeitsmarker in mandantenanfragen-assistent geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dsgvo-sonderfall-und-edge-case` | Wenn es um DSGVO: Sonderfall und Edge-Case-Prüfung in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `e-mail-erstantwort-und-terminrouting` | Wenn es um E-Mail-Erstantwort, Terminrouting und Mandatsannahmehinweis in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Schnittstellenkarte mit Kollisions-, Zust... |
-| `eingehenden-quellenkarte` | Wenn es um Eingehenden Quellenkarte in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einwilligung-hinweis-datenschutz` | Wenn es um Einwilligung-Hinweis-Datenschutz in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einwilligungshinweis-fristennotiz-und-naechster-schritt` | Wenn es um Einwilligungshinweis: Fristennotiz und nächster Schritt in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erstantwort-foermlich-mail` | Wenn es um Erstantwort: Tatbestandsmerkmale, Beweisfragen und Beleglage in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `erstantwort-generator` | Wenn es um Erstantwort-Generator in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `foermlich-behoerden-gericht-und-registerweg` | Wenn es um Foermlich: Behörden-, Gerichts- oder Registerweg in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `folgekorrespondenz-vorbereiten-konfliktcheck` | Wenn es um Folgekorrespondenz-Vorbereiten in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `konfliktcheck-vorab` | Wenn es um Konfliktcheck-Vorab in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ma-aufnahmegespraech-leitfaden` | Wenn es um Aufnahmegespraechs-Leitfaden in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `ma-einfuehrung-erstkontakt` | Wenn es um Erstkontakt: Typen in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ma-erstvermerk-mandantenakte` | Wenn es um Erstvermerk Mandantenakte in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `ma-konfliktcheck-konzern` | Wenn es um Konfliktcheck im Konzern in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `ma-mandant-manda-erstgespraechsleitfaden` | Wenn es um Mandant mit Betreuung in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mail-dokumentenmatrix-und-lueckenliste` | Wenn es um Mail: Dokumentenmatrix, Lückenliste und Nachforderung in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `manda-erstgespraechsleitfaden-checkliste` | Wenn es um Manda: Erstgespraechsleitfaden in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `manda-erstkontakt-triagebogen-bauleiter` | Wenn es um Manda: Triagebogen Erstkontakt in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `manda-mandatsablehnung-rechtsschutz` | Wenn es um Manda: Mandatsablehnung COI in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `manda-rechtsschutz-eintrittsanfrage-spezial` | Wenn es um Manda: RS-Eintrittsanfrage in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `mandantenanfragen-anfrage-eingang-anrede` | Wenn es um Mandantenanfragen: Fristen, Form, Zuständigkeit und Rechtsweg in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkommunikation-redteam` | Wenn es um Mandantenkommunikation in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `mandatsverhaeltnis-hinweis` | Wenn es um Mandatsverhältnis-Hinweis in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mehrsprachige-antwort-muster-erstantwort-spam` | Wenn es um Mehrsprachige-Antwort in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `muster-erstantwort` | Wenn es um Muster-Erstantwort in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nennt-sachverhalt-telefon` | Wenn es um Nennt: Zahlen, Schwellenwerte und Berechnung in mandantenanfragen-assistent geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `output-waehlen` | Wenn es um Output wählen in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in mandantenanfragen-assistent geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `sachverhalt-formular-portal-und-einreichung` | Wenn es um Sachverhalt: Formular, Portal und Einreichungslogik in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spam-und-massen-anfrage-filter` | Wenn es um Spam-und-Massen-Anfrage-Filter in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-bietet-red-team-und-qualitaetskontrolle` | Wenn es um Bietet: Red-Team und Qualitätskontrolle in mandantenanfragen-assistent geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-eingehenden-livequellen-und-rechtsprechungscheck` | Wenn es um Eingehenden: Livequellen- und Rechtsprechungscheck in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Mandantenanfragen-Assistent — Allgemein in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `telefon-konfiguration` | Wenn es um Telefon-Konfiguration in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `telefon-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Telefon: Mandantenkommunikation und Entscheidungsvorlage in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `telefonische-terminvergabe-interessen` | Wenn es um Telefonische: Compliance-Dokumentation und Aktenvermerk in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `terminvergabe-mehrparteien-konflikt-und-interessen` | Wenn es um Terminvergabe: Mehrparteienkonflikt und Interessenmatrix in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `transkription-beweislast-und-darlegungslast` | Wenn es um Transkription: Beweislast, Darlegungslast und Substantiierung in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `transkriptionsdienst-erklaerung` | Wenn es um Transkriptionsdienst-Erklärung in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `uebernimmt-telefon-konfiguration` | Wenn es um Uebernimmt: Schriftsatz-, Brief- und Memo-Bausteine in mandantenanfragen-assistent geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und... |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertraulichkeit-erinnerung` | Wenn es um Sekretariat muss wissen ab wann die Anwaltsschwiegepflicht gilt in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in mandantenanfragen-assistent geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in mandantenanfragen-assistent geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in mandantenanfragen-assistent geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in mandantenanfragen-assistent geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Arbeitsprodukt: Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief, Entscheidungsbaum oder Zitierkontrolle vollständig ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`auftrag-und-adressat-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/auftrag-und-adressat-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Auftrag und Adressat: Rechtsfrage, gewünschtes Produkt, Empfänger, Frist und Entscheidungsschwelle in einem Satz festlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/auftrag-und-adressat-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: mandantenanfragen-assistent. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/einstieg-routing/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Mandantenanfragen Assistent ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/juristischer-argumentationskern/SKILL.md) |
+| [`normstruktur-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/normstruktur-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Normstruktur: Anspruchsgrundlage oder Prüfungsmaßstab in Tatbestandsmerkmale, Rechtsfolge, Einwendungen und Beweislast zerlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/normstruktur-bearbeiten/SKILL.md) |
+| [`sachverhalt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/sachverhalt-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Sachverhalt: Chronologie, Beteiligte, Dokumentfundstellen, unstreitige Tatsachen, Behauptungen und Lücken sauber trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/sachverhalt-bearbeiten/SKILL.md) |
+| [`subsumtion-und-gegenprobe-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/subsumtion-und-gegenprobe-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Subsumtion und Gegenprobe: für jedes Merkmal Tatsache, Beleg, Schluss, stärkstes Gegenargument und Gegenbeweis ausweisen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/subsumtion-und-gegenprobe-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Anwaltschaftliche Mandantenanfragen: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: mandantenanfragen-assistent. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mandantenanfragen-assistent/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

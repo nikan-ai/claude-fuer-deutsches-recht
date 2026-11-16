@@ -1,5 +1,7 @@
 # Portable Eval-Harness — Drop-In für beliebige Legal-AI-Repos
 
+[Repository-Start](../../README.md) · [Testakten](../../testakten/README.md) · [Qualitätsstandard](../../testakten/QUALITAETSSTANDARD.md)
+
 Bringe den Klotzkette/Harvey-LAB-Style-Bewertungsrahmen in dein eigenes Repo.
 
 ## Was du bekommst
@@ -121,7 +123,7 @@ checks:
 
   - id: r02-paragraf-613a
     check_type: text_contains
-    description: "$ 613a BGB-Klausel enthalten"
+    description: "Paragraf 613a BGB-Klausel enthalten"
     path: "vertrag.md"
     contains: "613a"
 

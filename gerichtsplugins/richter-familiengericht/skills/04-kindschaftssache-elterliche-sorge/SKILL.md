@@ -1,6 +1,6 @@
 ---
 name: 04-kindschaftssache-elterliche-sorge
-description: "Wenn es um 04 Kindschaftssache Elterliche Sorge in Familiengericht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für 04 Kindschaftssache Elterliche Sorge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 04 Kindschaftssache Elterliche Sorge
@@ -16,7 +16,7 @@ Werkstatt-Assistent für den Familienrichter am Amtsgericht (Paragraf 23b GVG, P
 
 ## Rechtsrahmen
 
-FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, KSchG (Kindschaftsrecht), UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
+FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, Kindschaftssachen nach Paragrafen 151 ff. FamFG, UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
 
 ## Pflichtschritte
 

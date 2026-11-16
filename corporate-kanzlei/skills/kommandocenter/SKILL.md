@@ -1,6 +1,6 @@
 ---
 name: kommandocenter
-description: "Wenn es um Deal-Kommandocenter — Corporate/M&A in Corporate-Kanzlei geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Kommandocenter; Arbeitsfeld: Corporate-Kanzlei."
+description: "Für Deal-Kommandocenter — Corporate/M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Corporate-Kanzlei. Route: kommandocenter."
 ---
 
 # Deal-Kommandocenter — Corporate/M&A
@@ -25,7 +25,7 @@ Typische Auslöser:
 - "Mach daraus eine Beschlussvorlage, Partnernotiz, Mandantenmail oder Organunterlage."
 - "Welche Register-, Beschluss-, Compliance- oder Fristpunkte fehlen noch?"
 
-Nicht dieser Skill ist vorrangig, wenn zuerst die Gesellschaftsakte selbst angelegt, die Mandatsrolle bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/corporate-kanzlei:corporate-kanzlei-kommandocenter` oder `/corporate-kanzlei:corporate-kanzlei-matter-file`. Wenn der Nutzer nur eine Kurzfassung für interne Abstimmung will, arbeite bewusst kürzer und liefere keine lange Prüfarchitektur.
+Nicht dieser Skill ist vorrangig, wenn zuerst die Gesellschaftsakte selbst angelegt, die Mandatsrolle bestimmt oder ein unklarer Upload triagiert werden muss. Dann beginne mit `/corporate-kanzlei:kommandocenter` oder `/corporate-kanzlei:transaktion-und-struktur-bearbeiten Thema: matter-file`. Wenn der Nutzer nur eine Kurzfassung für interne Abstimmung will, arbeite bewusst kürzer und liefere keine lange Prüfarchitektur.
 
 ## Voraussetzungen und Kontext laden
 Lies zuerst, falls vorhanden, den Matter-Workspace unter `~/.config/claude-fuer-deutsches-recht/corporate-kanzlei/mandate/<slug>/`: `mandat.md`, `history.md`, `chronologie.md`, `fristen.yaml` und den aktuellen Dokumentenlog. Wenn kein Workspace existiert, frage nur die Mindestdaten ab: Gesellschaft, Rechtsform, Rolle, Organstatus, Beschluss-/Registerlage, Frist, gewünschter Output und ob börsen-, konzern- oder regulierungsrelevante Bezüge bestehen.
@@ -60,9 +60,9 @@ Arbeite mit diesen Variablen: `gesellschaft`, `rolle`, `organ`, `beschlussdatum`
 - DSGVO Art. 5, 6, 25 und 32 für Datenminimierung, Rollen und Sicherheit.
 - BGB §§ 611a, 675 und 280 für Beratungs- und Haftungsrahmen.
 
-**3. Organpflichten und Business Judgment.** Bei Geschäftsleitungs-, Aufsichtsrats- oder Beiratsentscheidungen ist zu fragen, ob die Entscheidung auf angemessener Informationsgrundlage, ohne sachfremde Interessen und zum Wohl der Gesellschaft vorbereitet ist. Für Organverantwortung: BGH, 21.04.1997 - II ZR 175/95, ARAG/Garmenbeck, https://dejure.org/1997,161 `[dejure.org]`.
+**3. Organ- und Zuständigkeitsprüfung.** Nur wenn der konkrete Arbeitsschritt eine Organentscheidung vorbereitet, Zuständigkeit, Zustimmungsvorbehalte, Interessenkonflikte, Informationsgrundlage und Dokumentation prüfen. Der fachlich passende Haftungs- oder Board-Paper-Skill liefert die dafür einschlägige Rechtsprechung; ARAG/Garmenbeck ist kein Universalanker.
 
-**4. Register- und Gesellschafterlistenlogik.** Bei GmbH-Anteilen, Einziehung, Vollmachtskette oder Beschlussfähigkeit ist § 16 GmbHG gesondert zu prüfen. Zur Legitimationswirkung der Gesellschafterliste: BGH, 20.11.2018 - II ZR 12/17, https://dejure.org/2018,47817 `[BGH-Datenbank/dejure.org]`.
+**4. Register- und Gesellschafterlistenlogik.** Nur bei GmbH-Anteilen, Einziehung, Vollmachtskette oder streitiger Legitimation Paragraf 16 und 40 GmbHG sowie Registerstand und materielle Berechtigung getrennt prüfen. Ohne solche Title- oder Legitimationsfrage diesen Prüfstrang auslassen.
 
 **5. Vollzugshindernisse.** Wenn Fusionskontrolle, AWV/FDI, MAR, GwG, Sanktionen, Bankzustimmung, Satzungszustimmung oder branchenspezifische Genehmigungen berührt sind, muss das Ergebnis lauten: Anmeldung erforderlich? Vollzugsverbot? Registerhindernis? Beschlussmangel? Long-Stop-Date gefährdet? Bußgeld-, Nichtigkeits- oder Haftungsfolge?
 
@@ -90,10 +90,10 @@ Nutze nur frei prüfbare Quellen oder vom Nutzer bereitgestellte/lizenzierte Que
 
 ## Hand-Off zu anderen Skills
 Nach diesem Skill weiter mit:
-- `/corporate-kanzlei:corporate-kanzlei-deal-intake` - wenn ein neues Corporate- oder Transaktionsmandat vollständig aufgenommen werden muss.
-- `/corporate-kanzlei:corporate-kanzlei-matter-file` - wenn Gesellschaftsprofil, Workstreams, Fristen und Dokumentenlog in eine laufende Akte geschrieben werden sollen.
-- `/corporate-kanzlei:corporate-kanzlei-steps-plan-pmo` - wenn Termine, Beschlüsse, CPs, Freigaben und Owner in einen belastbaren Plan müssen.
-- `/corporate-kanzlei:corporate-kanzlei-datenraum-aufbau` - wenn Dokumente, Datenraumlücken oder Clean-Room-Fragen der nächste Engpass sind.
+- `/corporate-kanzlei:transaktion-und-struktur-bearbeiten Thema: deal-intake` - wenn ein neues Corporate- oder Transaktionsmandat vollständig aufgenommen werden muss.
+- `/corporate-kanzlei:transaktion-und-struktur-bearbeiten Thema: matter-file` - wenn Gesellschaftsprofil, Workstreams, Fristen und Dokumentenlog in eine laufende Akte geschrieben werden sollen.
+- `/corporate-kanzlei:transaktion-und-struktur-bearbeiten Thema: steps-plan-pmo` - wenn Termine, Beschlüsse, CPs, Freigaben und Owner in einen belastbaren Plan müssen.
+- `/corporate-kanzlei:due-diligence-und-risikopruefung-bearbeiten Thema: datenraum-aufbau` - wenn Dokumente, Datenraumlücken oder Clean-Room-Fragen der nächste Engpass sind.
 
 ## Was dieser Arbeitsgang nicht macht
 - Er ersetzt keine Partner-, Organ- oder Mandantenentscheidung über Beschluss, Signing, Registeranmeldung oder Closing.
@@ -120,16 +120,12 @@ Vor Mandatsarbeit sind Interessenkonflikte nach § 43a BRAO und § 3 BORA, Versc
 
 ## Zentrale Normen
 
-- **§ 15a InsO** — Insolvenzantragspflicht; Frist 6 Wochen (Überschuldung) / 3 Wochen (Zahlungsunfähigkeit).
+- **Paragraf 15a InsO** — Insolvenzantrag ohne schuldhaftes Zögern; höchstens sechs Wochen bei Überschuldung und drei Wochen bei Zahlungsunfähigkeit.
 - **§§ 17-19 InsO** — Insolvenztatbestände; Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit, Überschuldung.
 - **Art. 7 ECMR / § 36 GWB** — Fusionskontrolle; Vollzugsverbot vor Freigabe.
 - **§ 40 AWG / §§ 55 ff. AWV** — Außenwirtschaftsrechtliche Investitionsprüfung (FDI); Vollzugsverbote.
 - **Art. 17 MAR / § 26 WpHG** — Ad-hoc-Pflicht; Insiderinformation im M&A-Prozess.
 - **§§ 2 ff. StaRUG** — Restrukturierungsrahmen; Anzeigepflicht und Planverfahren bei drohender Zahlungsunfähigkeit.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Deal-Routing-Matrix
 
@@ -219,5 +215,26 @@ FREIGABEGRAD: [Entwurf / Freigegeben durch Partner / Vertraulich — nur intern]
 - § 40 AWG; §§ 55 ff. AWV (FDI-Investitionsprüfung)
 - Art. 17 MAR; § 26 WpHG (Insiderinformation)
 - §§ 2 ff. StaRUG (Restrukturierungsanzeige)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für M&A, Beteiligungs- und Finanzierungstransaktionen:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

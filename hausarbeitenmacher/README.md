@@ -5,20 +5,66 @@
 
 Didaktisches Plugin für juristische Hausarbeiten und Seminararbeiten. Führt sokratisch durch Zivilrecht öffentliches Recht Strafrecht mit Ausflügen in Europarecht und Rechtstheorie. Adressaten-Strategie ohne Schleimerei. Liefert keine fertigen Lösungen sondern führt zur eigenen Subsumtion.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hausarbeitenmacher.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/hausarbeitenmacher.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/hausarbeitenmacher.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/hausarbeitenmacher.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für hausarbeitenmacher — Didaktisches Plugin für juristische Hausarbeiten und Seminararbeiten:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: das bestellte Aufbau-, Subsumtions- oder Quellenfeedback, keine fertige abgabefähige Fremdleistung. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/hausarbeitenmacher.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hausarbeitenmacher/hausarbeitenmacher-werkstatt.md" download><code>hausarbeitenmacher-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hausarbeitenmacher/hausarbeitenmacher-schnellstart.md" download><code>hausarbeitenmacher-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Hausarbeit BGB Übung Fortgeschrittene — Pohlmann / Leipzig / SS 26: [Gesamt-PDF](../testakten/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung/gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf), [`testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip), [`testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hausarbeitenmacher.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`hausarbeitenmacher-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`hausarbeitenmacher-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Hausarbeit BGB Übung Fortgeschrittene — Pohlmann / Leipzig / SS 26](../testakten/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung/README.md) | [Gesamt-PDF](../testakten/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung/gesamt-pdf/hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung_gesamt.pdf) | [`testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-ergaenzung-v1.0.0/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung.zip) | [`testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-hausarbeit-bgb-uebung-fortgeschrittene-pohlmann-leipzig-ss26-vertragsbruch-aufrechnung-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,8 +73,8 @@ Freistehendes Plugin für Studenten der Rechtswissenschaft, das durch das Erstel
 ## Installation
 
 1. Plugin-Umgebung öffnen.
-2. **Customize Plugins** bzw. **Personal plugins** wählen.
-3. **Install from .zip** und `hausarbeitenmacher.zip` hochladen.
+2. **Customize → Plugins** bzw. **Personal plugins** wählen.
+3. **Upload plugin** und `hausarbeitenmacher.zip` hochladen.
 4. Mit einer konkreten Aufgabenstellung starten, zum Beispiel: `Hilf mir bei einer Hausarbeit. Sachverhalt folgt.`
 
 Alternativ via Marketplace:
@@ -42,9 +88,9 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 
 ## Mandatsperspektive
 
-**Du als Studenten oder Studentenr.** Du gibst Deine Aufgabenstellung ein und gehst Schritt für Schritt durch die Lösung. Das Plugin
+Du als Studentin oder Student gibst die Aufgabenstellung und gegebenenfalls deinen Entwurf dazu. Das Plugin beginnt direkt mit der gewünschten Lernhilfe und setzt nach deiner Antwort an derselben Stelle fort. Es
 
-- fragt zu Beginn nach der **Lehrkraft** und entwickelt eine Adressaten-Strategie ohne Schleimerei,
+- entnimmt Bearbeitungsvorgaben den Unterlagen und fragt nur nach entscheidenden Lücken; die Lehrkraft muss nicht für jede Lernfrage benannt werden,
 - unterscheidet **Hausarbeit (Korrekturassistent)** und **Seminararbeit (persönliche Lektüre + Vortrag)**,
 - analysiert Deine Aufgabenstellung,
 - sortiert Dich in das passende Fachgebiet (Zivilrecht, Öffentliches Recht, Strafrecht — oder mehrere),
@@ -58,7 +104,7 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 
 ## Adressaten-Strategie statt Schleimerei
 
-Zu Beginn fragt das Plugin: **Von welchem Lehrstuhl stammt die Aufgabe?**
+Eine lehrstuhlbezogene Vertiefung ist optional. Für Gliederungsfeedback, Subsumtionsübungen oder die Erklärung einer Norm wird kein vorgeschaltetes Lehrkraft-Interview verlangt.
 
 Wenn Du die Lehrkraft nennst, schlägt das Plugin eine kurze Recherche zu deren Auffassung vor (Publikationen, Kommentar-Bearbeitungen, Aufsätze). Dann kommt die ehrliche Komplizen-Frage:
 
@@ -68,10 +114,10 @@ Das Plugin empfiehlt **die saubere Lösung**. Selbst wenn Du der Lehrkraft am En
 
 ## Aufbau
 
-Der Lebenszyklus einer Arbeit läuft in fünf Phasen:
+Die folgenden Phasen zeigen einen möglichen Arbeitsplan, keine Pflichtreihenfolge. Bei bereits vorhandenem Entwurf wird der passende Arbeitsschritt direkt gewählt; Zeitangaben werden an Abgabetermin und Arbeitsstand angepasst:
 
 ```
-Phase 0 — Adressaten-Klärung (Stunde 1)
+Optionale Adressaten-Klärung (nur bei Bedarf)
   └─ Lehrkraft? → Hausarbeit oder Seminararbeit?
      → Adressaten-Strategie (kein Schleim, aber kluge Argumentation)
 
@@ -101,7 +147,7 @@ Phase D — Schreiben, Reflektieren, Polieren (Tag 31-40)
 
 ## Enthaltene Skills (23)
 
-### Phase 0 — Adressaten-Klärung (2 Skills)
+### Optionale Adressaten-Klärung (2 Skills)
 
 | Slug | Beschreibung |
 |---|---|
@@ -172,7 +218,6 @@ Beispiele für den Ton:
 
 - *"Hmm. § 985 BGB als erste Anspruchsgrundlage. Mutig. Was hat denn der gute alte Vertrag Dir je angetan?"*
 - *"Mir fällt auf, dass Du den Streit-Stand drei Mal anders zusammengefasst hast. Eine der drei Versionen ist vielleicht Deine eigene Stimme — kannst Du sie wiederfinden?"*
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Niemals herablassend, niemals zynisch, niemals besserwisserisch.** Bei Frust oder Lebensbelastung der lernenden Person wechselt das Plugin sofort in den klassisch warm-fragenden Modus zurück.
 
@@ -235,23 +280,30 @@ Sämtliche Zitierweise-Vorgaben folgen `references/zitierweise.md` des übergeor
 
 Eine Arbeit, die die Lehrkraft beeindruckt, **gerade weil Du gegen sie argumentiert hast** — aber mit so guten Argumenten, dass sie es Dir nicht übel nimmt, sondern respektiert. Das ist die Königsklasse. Sie ist erlernbar.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `didaktisches-erstpruefung-und-mandatsziel`, `dokumente-intake`, `einstieg-routing`, `fachgebiet-routing-zivil-oeffentlich-straf`, `hausarbeit-start`, `hausarbeit-workflow-start`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `adressaten-formular-portal-und-einreichung`, `gutachtenstil-vs-haus-fussnotenstil`, `haus-literaturrecherche-leitfaden`, `hausarbeit-quellenrecherche-rspr-literatur`, `juristische-liefert-beweislast-rechtstheorie`, `liefert-beweislast-und-darlegungslast`, `oeffentliches-quellenkarte`, `quellen-livecheck`, `quellenrecherche-rechtsprechung-literatur`, `seminararbeiten-dokumentenmatrix-und-lueckenliste`, `spezial-oeffentliches-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `fuehrt-risikoampel-und-gegenargumente`, `haus-plagiatscheck-themaeingrenzung`, `strafrecht-tatbestand-rechtswidrigkeit-schuld`, `subsumtion-schritt-verfassungsrecht`, `verfassungsrecht-grundrechtspruefung`, `zivilrecht-anspruchsgrundlagen-pruefung` |
-| 4. Gestaltung, Strategie und Verhandlung | `bearbeitungsplan-erstellen`, `gliederung-mit-tiefenstruktur`, `professor-erkennen-und-strategie`, `strategie-fehlerkatalog`, `zivilrecht-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `durch-schriftsatz-brief-und-memo-bausteine`, `hausarbeiten-fristen-form-und-zustaendigkeit`, `sokratisch-behoerden-gericht-und-registerweg`, `spezial-durch-schriftsatz-brief-und-memo-bausteine` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `behutsame-frech-haeufige-fehler`, `haeufige-fehler-vermeiden`, `selbstkontrolle-vor-abgabe`, `spezial-strategie-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `aufgabenstellung-erfassen-fachgebiet`, `ausfluegen-didaktisches-durch`, `europarecht-anwendbarkeit-hausarbeiten`, `europarecht-interessen-fertigen-sonderfall`, `fertigen-sonderfall-und-edge-case`, `haus-fussnotenstil-spezial`, `haus-themaeingrenzung-bauleiter`, `meinungsstreit-darstellen`, `methodenlehre-auslegung-oeffentliches`, `oeffentliches-recht-statthaft-zulaessig-begruendet`, `rechtstheorie-internationaler-bezug-und-schnittstellen`, `rechtstheorie-rechtsphilosophie-seminararbeit`, `schleimerei-seminararbeiten-sokratisch`, `seminararbeit-modus`, `strafrecht-zivilrecht-rechtswidrigkeit`, `zitierweise-jura-fundstellen` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Fallfrage | [`fallfrage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/fallfrage-bearbeiten/SKILL.md) |
+| 3. Aufbau | [`aufbau-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/aufbau-bearbeiten/SKILL.md) |
+| 4. Subsumtion | [`subsumtion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/subsumtion-bearbeiten/SKILL.md) |
+| 5. Streitstand | [`streitstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/streitstand-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -259,68 +311,31 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `adressaten-formular-portal-und-einreichung` | Wenn es um Adressaten: Formular, Portal und Einreichungslogik in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit So... |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufgabenstellung-erfassen-fachgebiet` | Wenn es um Aufgabenstellung erfassen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ausfluegen-didaktisches-durch` | Wenn es um Ausfluegen: Compliance-Dokumentation und Aktenvermerk in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Pr... |
-| `bearbeitungsplan-erstellen` | Wenn es um Bearbeitungs-Plan erstellen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `behutsame-frech-haeufige-fehler` | Wenn es um Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoamp... |
-| `didaktisches-erstpruefung-und-mandatsziel` | Wenn es um Didaktisches: Erstprüfung, Rollenklärung und Mandatsziel in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Ri... |
-| `dokumente-intake` | Wenn es um Dokumentenintake in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `durch-schriftsatz-brief-und-memo-bausteine` | Wenn es um Schriftsatz-, Brief- und Memo-Bausteine (Hausarbeiten) in hausarbeitenmacher — Didaktisches Plugin für juristische geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwu... |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `europarecht-anwendbarkeit-hausarbeiten` | Wenn es um Europarecht — Anwendbarkeit, Vorrang, Vorabentscheidung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel m... |
-| `europarecht-interessen-fertigen-sonderfall` | Wenn es um Europarecht: Mehrparteienkonflikt und Interessenmatrix in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mi... |
-| `fachgebiet-routing-zivil-oeffentlich-straf` | Wenn es um Fachgebiet-Routing: Zivilrecht — Öffentliches Recht — Strafrecht in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen... |
-| `fertigen-sonderfall-und-edge-case` | Wenn es um Fertigen: Sonderfall und Edge-Case-Prüfung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschr... |
-| `fuehrt-risikoampel-und-gegenargumente` | Wenn es um Fuehrt: Risikoampel, Gegenargumente und Verteidigungslinien in hausarbeitenmacher — Didaktisches Plugin für juristische geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risi... |
-| `gliederung-mit-tiefenstruktur` | Wenn es um Gliederung mit Tiefen-Struktur in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gutachtenstil-vs-haus-fussnotenstil` | Wenn es um Gutachtenstil und Urteilsstil in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haeufige-fehler-vermeiden` | Wenn es um Häufige Fehler vermeiden — Top-20 in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haus-fussnotenstil-spezial` | Wenn es um Haus: Fussnotenstil in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haus-literaturrecherche-leitfaden` | Wenn es um Haus: Literaturrecherche in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haus-plagiatscheck-themaeingrenzung` | Wenn es um Haus: Plagiatscheck Eigenstaendigkeit in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haus-themaeingrenzung-bauleiter` | Wenn es um Haus: Themaeingrenzung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausarbeit-quellenrecherche-rspr-literatur` | Wenn es um Fristen- und Risikoampel in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausarbeit-start` | Wenn es um Hausarbeitenmacher — Allgemein in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausarbeit-workflow-start` | Wenn es um Master-Hausarbeiten- und Seminararbeitenmacher in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `hausarbeiten-fristen-form-und-zustaendigkeit` | Wenn es um Hausarbeiten: Fristen, Form, Zuständigkeit und Rechtsweg in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel... |
-| `juristische-liefert-beweislast-rechtstheorie` | Wenn es um Juristische: Tatbestandsmerkmale, Beweisfragen und Beleglage in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierun... |
-| `liefert-beweislast-und-darlegungslast` | Wenn es um Liefert: Beweislast, Darlegungslast und Substantiierung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel m... |
-| `meinungsstreit-darstellen` | Wenn es um Meinungsstreit darstellen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `methodenlehre-auslegung-oeffentliches` | Wenn es um Methodenlehre und Auslegung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `oeffentliches-quellenkarte` | Wenn es um Oeffentliches Quellenkarte in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `oeffentliches-recht-statthaft-zulaessig-begruendet` | Wenn es um Öffentliches Recht — Statthaftigkeit, Zulässigkeit, Begründetheit in hausarbeitenmacher — Didaktisches Plugin für juristische geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen-... |
-| `output-waehlen` | Wenn es um Output wählen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `professor-erkennen-und-strategie` | Wenn es um Professor erkennen und Strategie wählen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargum... |
-| `quellenrecherche-rechtsprechung-literatur` | Wenn es um Quellen-Recherche — Rechtsprechung und Literatur in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofo... |
-| `rechtstheorie-internationaler-bezug-und-schnittstellen` | Wenn es um Rechtstheorie: Internationaler Bezug und Schnittstellen in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel m... |
-| `rechtstheorie-rechtsphilosophie-seminararbeit` | Wenn es um Rechtstheorie und Rechtsphilosophie — Anbindung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofor... |
-| `schleimerei-seminararbeiten-sokratisch` | Wenn es um Schleimerei: Mandantenkommunikation und Entscheidungsvorlage in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoam... |
-| `selbstkontrolle-vor-abgabe` | Wenn es um Selbst-Kontrolle vor Abgabe in hausarbeitenmacher — Didaktisches Plugin für juristische geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `seminararbeit-modus` | Wenn es um Seminararbeit-Modus in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `seminararbeiten-dokumentenmatrix-und-lueckenliste` | Wenn es um Seminararbeiten: Dokumentenmatrix, Lückenliste und Nachforderung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachf... |
-| `sokratisch-behoerden-gericht-und-registerweg` | Wenn es um Sokratisch: Behörden-, Gerichts- oder Registerweg in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sof... |
-| `spezial-durch-schriftsatz-brief-und-memo-bausteine` | Wenn es um Durch: Schriftsatz-, Brief- und Memo-Bausteine in hausarbeitenmacher — Didaktisches Plugin für juristische geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit A... |
-| `spezial-oeffentliches-livequellen-und-rechtsprechungscheck` | Wenn es um Oeffentliches: Livequellen- und Rechtsprechungscheck in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `spezial-strategie-red-team-und-qualitaetskontrolle` | Wenn es um Strategie: Red-Team und Qualitätskontrolle in hausarbeitenmacher — Didaktisches Plugin für juristische geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofor... |
-| `strafrecht-tatbestand-rechtswidrigkeit-schuld` | Wenn es um Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und... |
-| `strafrecht-zivilrecht-rechtswidrigkeit` | Wenn es um Strafrecht: Zahlen, Schwellenwerte und Berechnung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwelle... |
-| `strategie-fehlerkatalog` | Wenn es um Strategie Fehlerkatalog in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `subsumtion-schritt-verfassungsrecht` | Wenn es um Subsumtion Schritt für Schritt in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verfassungsrecht-grundrechtspruefung` | Wenn es um Verfassungsrecht — Grundrechts-Prüfung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in hausarbeitenmacher — Didaktisches Plugin für juristische geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in hausarbeitenmacher — Didaktisches Plugin für juristische geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zitierweise-jura-fundstellen` | Wenn es um Zitierweise in der juristischen Hausarbeit in hausarbeitenmacher — Didaktisches Plugin für juristische geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `zivilrecht-anspruchsgrundlagen-pruefung` | Wenn es um Zivilrecht Anspruchsgrundlagen Prüfung in hausarbeitenmacher — Didaktisches Plugin für juristische geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zivilrecht-verhandlung-vergleich-und-eskalation` | Wenn es um Zivilrecht: Verhandlung, Vergleich und Eskalation in hausarbeitenmacher — Didaktisches Plugin für juristische geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalatio... |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Arbeitsprodukt: Gutachten, Hausarbeit mit Fußnoten oder Lernübersicht in bewertungssicherer Form ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`aufbau-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/aufbau-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Aufbau: Anspruchsgrundlagen in sinnvoller Reihenfolge, Hilfsgutachten und Schwerpunktsetzung anlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/aufbau-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: hausarbeitenmacher — Didaktisches Plugin für juristische. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/einstieg-routing/SKILL.md) |
+| [`fallfrage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/fallfrage-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Fallfrage: Aufgabenstellung, Bearbeitervermerk, Rollenzuweisung und begehrte Rechtsfolge exakt erfassen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/fallfrage-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Hausarbeitenmacher ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) |
+| [`streitstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/streitstand-bearbeiten/SKILL.md) | Für Juristische Ausbildung und Falllösung: Streitstand: Meinungen mit Argumenten darstellen, entscheiden und nur entscheidungserheblich vertiefen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/streitstand-bearbeiten/SKILL.md) |
+| [`subsumtion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/subsumtion-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Subsumtion: Obersatz, Definition, Subsumtion, Ergebnis je Merkmal in ganzen Sätzen durchführen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/subsumtion-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: hausarbeitenmacher — Didaktisches Plugin für juristische. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Benennen Sie die geprüfte Fassung der Verordnung und den Sachverhaltszeitpunkt. Eine 2024 formulierte Fallfrage darf nicht stillschweigend mit späterem Übergangsrecht gelöst werden; unterscheiden Sie Originalfall und Variante.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

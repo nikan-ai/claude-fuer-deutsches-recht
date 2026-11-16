@@ -5,22 +5,71 @@
 
 Erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwälten und Syndikus-Anwälten. Beruht auf BRAO, BORA, DSGVO, KI-Verordnung sowie BRAK- und DAV-Hinweisen.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`ki-richtlinie-kanzleien.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/ki-richtlinie-kanzleien.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/ki-richtlinie-kanzleien.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/ki-richtlinie-kanzleien.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/ki-richtlinie-kanzleien.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für KI-Richtlinie für Kanzleien und Rechtsabteilungen:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`ki-richtlinie-kanzleien.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/ki-richtlinie-kanzleien.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-werkstatt.md" download><code>ki-richtlinie-kanzleien-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-schnellstart.md" download><code>ki-richtlinie-kanzleien-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | digitale Systeme-Richtlinie Musterkanzlei: [Gesamt-PDF](../testakten/ki-richtlinie-musterkanzlei/gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf), [`testakte-ki-richtlinie-musterkanzlei.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-richtlinie-musterkanzlei.zip), [`testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`ki-richtlinie-kanzleien.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/ki-richtlinie-kanzleien.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`ki-richtlinie-kanzleien-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`ki-richtlinie-kanzleien-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/ki-richtlinie-kanzleien-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Organisationsakte König, Brehm & Partner](../testakten/ki-richtlinie-musterkanzlei/README.md) | [Gesamt-PDF](../testakten/ki-richtlinie-musterkanzlei/gesamt-pdf/ki-richtlinie-musterkanzlei_gesamt.pdf) | [`testakte-ki-richtlinie-musterkanzlei.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-ki-richtlinie-musterkanzlei.zip) | [`testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-ki-richtlinie-musterkanzlei-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
+Rechtsstand 10. September 2026: Die Richtlinienarbeit verwendet Kompetenzförderung ohne erfundene Zertifikatspflicht. Berufsrecht, Datenschutz, Veröffentlichungen und betriebliche Freigabe bleiben getrennte Prüfungen. [Rechtsstandkarte lesen](./references/digitaler-omnibus-2026.md) · <a href="https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/references/digitaler-omnibus-2026.md" download>MD herunterladen</a>.
+
+English: The updated workflows distinguish enacted law, future application dates and pending proposals. The reference note identifies official sources and the competent supervisory authority for each route.
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 Dieses Plugin erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwälten sowie Syndikus-Anwältinnen und Syndikus-Anwälten. Es beruht auf BRAO, BORA, DSGVO, KI-Verordnung sowie den Hinweisen der BRAK (Dezember 2024) und der DAV-Stellungnahme Nr. 32/2025.
 
@@ -29,11 +78,13 @@ Dieses Plugin erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlini
 ## Direkter Download
 
 **Plugin:**
-[ki-richtlinie-kanzleien.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/ki-richtlinie-kanzleien.zip)
+[ki-richtlinie-kanzleien.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/ki-richtlinie-kanzleien.zip)
 
 ---
 
-## Alle 27 Skills
+## Ausgewählte Arbeitswege
+
+Diese Auswahl ordnet die Kernaufgaben. Alle weiteren Skills und ihre Einzel-Downloads stehen in der [vollständigen Skill-Liste](../skills-index/ki-richtlinie-kanzleien.md).
 
 | Skill | Beschreibung |
 |---|---|
@@ -45,7 +96,7 @@ Dieses Plugin erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlini
 | `urheberrecht-bausteine` | § 2 Abs. 2 UrhG, § 5 UrhG amtliche Werke, Upload-Regeln, Lizenzbedingungen juristischer Datenbanken |
 | `geschgehg-bausteine` | Geschäftsgeheimnisschutz beim KI-Einsatz, § 1 Abs. 3 Nr. 1 GeschGehG, Verhältnis zu § 203 StGB |
 | `ki-vo-betreiber-pflichten` | Art. 3 Nr. 4 Betreiber, Art. 4 KI-Kompetenz, Hochrisiko-Abgrenzung Anhang III Nr. 8.a, Art. 50 Abs. 4 Kennzeichnung |
-| `ki-vo-hochrisiko-personalwesen` | Hochrisiko-KI im Personalwesen ab 2. August 2026: Anhang III Nr. 4, Pflichten und Betriebsratsrechte |
+| `ki-vo-hochrisiko-personalwesen` | Hochrisiko-KI im Personalwesen nach Artikel 6 Absatz 2 und Anhang III Nummer 4: Kapitel III Abschnitte 1 bis 3, außer Artikel 6 Absatz 5, ab 2. Dezember 2027 nach Artikel 113 Absatz 3 Buchstabe c Ziffer i; Betriebsratsrechte gesondert prüfen |
 | Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | `schatten-ki-aufdeckung` | Methoden zur Erkennung verdeckter KI-Nutzung und konstruktiver Umgang: Stilanalyse, Anlaufstelle, Amnestie |
 | `compliance-regelsatz-erstellen` | Standardisierter Zehn-Gebote-Regelsatz für den KI-Einsatz in der Kanzlei |
@@ -56,13 +107,15 @@ Dieses Plugin erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlini
 | `halluzinations-handhabung` | Quellenprüfungspflicht, OLG Koblenz, AG Köln 02.07.2025, Vier-Augen-Prinzip, Prüfprotokoll |
 | `automatisierte-entscheidungen-art-22-dsgvo` | Verbot ausschließlich automatisierter Entscheidungen, Ausnahmen, Anwendung auf Kanzleiprozesse |
 | `bias-und-diskriminierung-pruefung` | Bias-Quellen in KI-Systemen, AGG-Relevanz bei Bewerberauswahl, Prüfverfahren |
-| `ki-kompetenz-erwerb-plan` | Schulungsplan nach Art. 4 KI-VO: drei Module, Sandbox, Dokumentation, jährliche Aktualisierung |
+| `ki-kompetenz-erwerb-plan` | Maßnahmen zur Kompetenzförderung nach Artikel 4 KI-VO; Modulzahl, Sandbox und jährliche Wiederholung nur als bedarfsgerechter interner Standard, nicht als gesetzlich festgelegtes Programm |
 | `dokumentationspflichten-protokoll` | Beweissichere Protokollierung von KI-Inputs und -Outputs; Prüfprotokoll, Handakten-Dokumentation |
 | `kennzeichnungspflichten-veroeffentlichungen` | Art. 50 Abs. 4 KI-VO: Kanzlei-Blogs, Pressemitteilungen, Schriftsätze; redaktionelle Verantwortung als Ausnahme |
 | `prompting-leitfaden` | Vier-Elemente-Methode für juristische Prompts: Ziel, Format, Kontext, Beispiel; Tipps und Tricks |
 | `richtlinien-update-zyklus` | Halbjährliches Review plus Trigger-Liste für sofortige Updates bei neuer Rechtslage |
 | `musterklauseln-it-vertrag` | § 43e-BRAO-Vereinbarung, Training-Opt-out, Löschpflichten, Auditrechte, Haftungsregelung |
 | `literatur-und-quellen` | Pflicht-Literatur und offene Aktualisierungsliste: BRAK, DAV, EU-FAQ, BNetzA |
+
+Artikel 4 und Artikel 113 sind in der Fassung von Artikel 1 Nummern 5 und 40 der [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de) zugrunde zu legen. Der spätere Anwendungsbeginn der genannten Hochrisiko-Regeln verschiebt nicht sämtliche KI-Pflichten oder bestehende arbeitsrechtliche Anforderungen.
 
 ---
 
@@ -100,22 +153,29 @@ Transfer (USA) und der § 43e-BRAO-Vertragsdokumentation.
 
 *Version 3.3.0 | Autor: Klotzkette | Lizenz: MIT*
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **60 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `nutzung-mandatsdaten`, `pflegt-erstpruefung-und-mandatsziel`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `berufsrechtskonforme-tatbestand-beweis-und-belege`, `brao-quellenkarte`, `dokumentationspflichten-protokoll-dsgvo`, `dsgvo-compliance-dokumentation-und-akte`, `kanzleien-dokumentenmatrix-und-lueckenliste`, `literatur-quellen-prompting-leitfaden-rdg`, `quellen-livecheck`, `spezial-brao-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `kanzlei-kontext-analyse`, `rdg-pruefung-chatbot`, `vo-hochrisiko-kirk-fortbildung-bauleiter`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `auftragsverarbeitungsvertrag-pruefen`, `beruht-verhandlung-vergleich-und-eskalation`, `compliance-regelsatz-erstellen`, `dsgvo-compliance-bausteine`, `ki-kompetenz-erwerb-plan`, `musterklauseln-it-vertrag` |
-| 5. Verfahren, Behörde und Gericht | `syndikus-schriftsatz-brief-und-memo-bausteine` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `richtlinie-fehlerkatalog`, `spezial-richtlinie-red-team-und-qualitaetskontrolle` |
-| 8. Spezialmodule und Schnittstellen | `anonymisierung-pseudonymisierung`, `anwaelten-berufsrechtskonforme-beruht`, `automatisierte-entscheidungen-art-22-dsgvo`, `berufsrecht-bausteine`, `bias-diskriminierung-regelsatz-erstellen`, `bora-brak-dsgvo`, `brak-internationaler-bezug-und-schnittstellen`, `dienstleister-due-diligence`, `executive-summary-1-pager-template`, `executive-summary-bausteine`, `geschgehg-halluzinations-handhabung-kanzlei`, `halluzinations-handhabung`, `hinweisen-kanzleien-pflegt`, `kennzeichnungspflichten-veroeffentlichungen`, `ki-vo-betreiber-pflichten`, `kirk-fortbildung-pflicht-spezial`, `kirk-ki-richtlinie-bauleiter`, `kirk-leitfaden-prompts-kr-executive`, ... plus 9 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Mandat eröffnen | [`mandat-eroeffnen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-eroeffnen-bearbeiten/SKILL.md) |
+| 3. Fristen und Zuständigkeit | [`fristen-und-zustaendigkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/fristen-und-zustaendigkeit-bearbeiten/SKILL.md) |
+| 4. Bearbeitung steuern | [`bearbeitung-steuern-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/bearbeitung-steuern-bearbeiten/SKILL.md) |
+| 5. Mandat abschließen | [`mandat-abschliessen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-abschliessen-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -123,68 +183,28 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anonymisierung-pseudonymisierung` | Wenn es um Anonymisierung und Pseudonymisierung in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anwaelten-berufsrechtskonforme-beruht` | Wenn es um Anwaelten: Behörden-, Gerichts- oder Registerweg in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `auftragsverarbeitungsvertrag-pruefen` | Wenn es um Auftragsverarbeitungsvertrag prüfen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `automatisierte-entscheidungen-art-22-dsgvo` | Wenn es um Automatisierte Entscheidungen Art. 22 DSGVO in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunk... |
-| `berufsrecht-bausteine` | Wenn es um Berufsrecht-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `berufsrechtskonforme-tatbestand-beweis-und-belege` | Wenn es um Berufsrechtskonforme Tatbestand Beweis Und Belege in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `beruht-verhandlung-vergleich-und-eskalation` | Wenn es um Beruht: Verhandlung, Vergleich und Eskalation in diesem Spezialbereich geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `bias-diskriminierung-regelsatz-erstellen` | Wenn es um Bias und Diskriminierung Prüfung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `bora-brak-dsgvo` | Wenn es um Bora: Zahlen, Schwellenwerte und Berechnung in diesem Spezialbereich geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `brak-internationaler-bezug-und-schnittstellen` | Wenn es um Brak: Internationaler Bezug und Schnittstellen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `brao-quellenkarte` | Wenn es um Brao Quellenkarte in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `compliance-regelsatz-erstellen` | Wenn es um Compliance-Regelsatz erstellen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dienstleister-due-diligence` | Wenn es um Dienstleister Due Diligence in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumentationspflichten-protokoll-dsgvo` | Wenn es um Dokumentationspflichten Protokoll in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dsgvo-compliance-bausteine` | Wenn es um DSGVO-Compliance-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `dsgvo-compliance-dokumentation-und-akte` | Wenn es um DSGVO: Compliance-Dokumentation und Aktenvermerk in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `executive-summary-1-pager-template` | Wenn es um Executive Summary 1-Pager Template in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `executive-summary-bausteine` | Wenn es um Executive Summary Bausteine in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `geschgehg-halluzinations-handhabung-kanzlei` | Wenn es um GeschGehG-Bausteine in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `halluzinations-handhabung` | Wenn es um Halluzinations-Handhabung in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `hinweisen-kanzleien-pflegt` | Wenn es um Hinweisen: Formular, Portal und Einreichungslogik in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kanzlei-kontext-analyse` | Wenn es um Kanzlei-Kontext-Analyse in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kanzleien-dokumentenmatrix-und-lueckenliste` | Wenn es um Kanzleien: Dokumentenmatrix, Lückenliste und Nachforderung in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `kennzeichnungspflichten-veroeffentlichungen` | Wenn es um Kennzeichnungspflichten für Veröffentlichungen in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `ki-kompetenz-erwerb-plan` | Wenn es um digitale Werkzeuge-Kompetenz Erwerb Plan in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `ki-vo-betreiber-pflichten` | Wenn es um europäischer Technikregulierungsrahmen Betreiber-Pflichten in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kirk-fortbildung-pflicht-spezial` | Wenn es um KIRK: Fortbildung digitale Werkzeuge-Pflicht in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kirk-ki-richtlinie-bauleiter` | Wenn es um KIRK: digitale Werkzeuge-Richtlinie Bauleiter in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kirk-leitfaden-prompts-kr-executive` | Wenn es um KIRK: Mandantenkommunikation in diesem Spezialbereich geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `kirk-prompts-templates-versionierung-spezial` | Wenn es um KIRK: Prompts Versionierung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `literatur-quellen-prompting-leitfaden-rdg` | Wenn es um Literatur und Quellen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `musterklauseln-it-vertrag` | Wenn es um Musterklauseln IT-Vertrag in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `nutzung-mandatsdaten` | Wenn es um Nutzungsrichtlinie: Fristen, Form, Zuständigkeit und Rechtsweg in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pflegt-erstpruefung-und-mandatsziel` | Wenn es um Pflegt: Erstprüfung, Rollenklärung und Mandatsziel in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prompting-leitfaden` | Wenn es um Prompting-Leitfaden in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `rdg-pruefung-chatbot` | Wenn es um RDG-Prüfung Chatbot in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilungen-syndikus-verordnung` | Wenn es um Rechtsabteilungen: Risikoampel, Gegenargumente und Verteidigungslinien in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschrit... |
-| `richtlinie-fehlerkatalog` | Wenn es um Richtlinie Fehlerkatalog in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `richtlinien-skelett-update-schatten` | Wenn es um Richtlinien-Skelett erzeugen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `richtlinien-update-zyklus` | Wenn es um Richtlinien-Update-Zyklus in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `schatten-ki-aufdeckung` | Wenn es um Schatten-digitale Werkzeuge Aufdeckung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `spezial-brao-livequellen-und-rechtsprechungscheck` | Wenn es um Brao: Livequellen- und Rechtsprechungscheck in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-richtlinie-red-team-und-qualitaetskontrolle` | Wenn es um Richtlinie: Red-Team und Qualitätskontrolle in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um digitale Werkzeuge-Richtlinie für Kanzleien und Rechtsabteilungen — Allgemein in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widersp... |
-| `syndikus-schriftsatz-brief-und-memo-bausteine` | Wenn es um Syndikus: Schriftsatz-, Brief- und Memo-Bausteine in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `transparenz-mandanten-urheberrecht` | Wenn es um Transparenz gegenüber Mandanten in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urheberrecht-bausteine` | Wenn es um Urheberrecht-Bausteine in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `verordnung-mehrparteien-konflikt-und-interessen` | Wenn es um Verordnung: Mehrparteienkonflikt und Interessenmatrix in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vo-hochrisiko-kirk-fortbildung-bauleiter` | Wenn es um europäischer Technikregulierungsrahmen Hochrisiko Personalwesen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Kanzleirichtlinien für digitale Werkzeuge geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Kanzleirichtlinien für digitale Werkzeuge geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`bearbeitung-steuern-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/bearbeitung-steuern-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Bearbeitung steuern: Arbeitsauftrag, Dokumentstand, Freigabe, Vieraugenkontrolle, Budget, offene Punkte und Mandantenentscheidung führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/bearbeitung-steuern-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/einstieg-routing/SKILL.md) |
+| [`fristen-und-zustaendigkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/fristen-und-zustaendigkeit-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Fristen und Zuständigkeit: Eingang, Bekanntgabe, Fristart, Fristende, Kalender, Verantwortlicher und Vertretung doppelt dokumentieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/fristen-und-zustaendigkeit-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn eine Systemrichtlinie für Kanzleien tragfähig begründet werden muss; verbindet Einsatzfall, Berufspflicht, technische Kontrolle, Verantwortlichkeit, stärkste Gegenposition und konkrete Regelungsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/juristischer-argumentationskern/SKILL.md) |
+| [`mandat-abschliessen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-abschliessen-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Mandat abschließen: Ergebnis, offene Vollstreckung, Rechnung, Fremdgeld, Rückgabe, Aufbewahrung und Wiedervorlage dokumentieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-abschliessen-bearbeiten/SKILL.md) |
+| [`mandat-eroeffnen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-eroeffnen-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Mandat eröffnen: Beteiligte, Gegenstand, Gegner, Interessenkontrolle, Identität, Vollmacht, Umfang und Vergütung sichern. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/mandat-eroeffnen-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | KI-Richtlinie für Kanzleien und Rechtsabteilungen: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-richtlinie-kanzleien/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

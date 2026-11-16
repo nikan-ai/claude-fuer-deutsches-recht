@@ -5,20 +5,66 @@
 
 Kleines, hilfreiches Plugin für Verbraucher: E-Commerce, Kaufrecht, Reparaturen, kleine Dienstleistungen, Rechnungen, Inkasso, Plattformen, Behördenbriefe und Gerichtspost verständlich einordnen und vorsichtig reagieren.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`verbraucher-rechtsstaat-alltag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/verbraucher-rechtsstaat-alltag.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/verbraucher-rechtsstaat-alltag.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/verbraucher-rechtsstaat-alltag.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/verbraucher-rechtsstaat-alltag.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Verbraucher im Rechtsstaat Alltag:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verbraucher-rechtsstaat-alltag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/verbraucher-rechtsstaat-alltag.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-werkstatt.md" download><code>verbraucher-rechtsstaat-alltag-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-schnellstart.md" download><code>verbraucher-rechtsstaat-alltag-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Kaufrecht — Wallbox, Firmware und Lastmanagement in Essen: [Gesamt-PDF](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/gesamt-pdf/kaufrecht-wallbox-firmware-lastmanagement-essen_gesamt.pdf), [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip), [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verbraucher-rechtsstaat-alltag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/verbraucher-rechtsstaat-alltag.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`verbraucher-rechtsstaat-alltag-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`verbraucher-rechtsstaat-alltag-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/verbraucher-rechtsstaat-alltag-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Kaufrecht — Wallbox, Firmware und Lastmanagement in Essen](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/README.md) | [Gesamt-PDF](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/gesamt-pdf/kaufrecht-wallbox-firmware-lastmanagement-essen_gesamt.pdf) | [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip) | [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -42,29 +88,36 @@ Der Allgemein-Skill startet kurz, sortiert Rolle, Verfahrensstand, Frist, Unterl
 
 ## Installation
 
-ZIP aus dem aktuellen Release laden und in Plugin-Umgebung oder Cowork über Customize Plugins installieren.
+ZIP aus dem aktuellen Release laden und in Plugin-Umgebung oder Cowork über Customize → Plugins installieren.
 
 ## Lizenz
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **67 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `dokumentenintake-und-aktenlog`, `kaltstart-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `behoerdenformular-verstehen-bescheid`, `datenschutz-auskunft-loeschung`, `kleiner-kauf-konto-gesperrt-mandanten`, `konto-gesperrt-bank`, `paket-verloren-plattformkonto-sperre-probeabo`, `plattformkonto-sperre`, `quellen-rspr-fristen`, `rechnung-quittung-beleg` |
-| 3. Prüfung, Anspruch und Subsumtion | `gerichtspost-familiengericht-laiencheck`, `gerichtspost-laiencheck`, `online-bewertung-abmahnung` |
-| 4. Gestaltung, Strategie und Verhandlung | `vergleichsangebot-pruefen`, `vertrag-unterschrieben-abo-falle` |
-| 5. Verfahren, Behörde und Gericht | `baubehoerde-nachbarbrief`, `bescheid-brief-verstehen`, `frist-und-zustaendigkeit-cockpit`, `fristkalender-laie`, `gerichtlicher-mahnbescheid-laie`, `inkasso-mahnung-vollstreckung`, `kindergeld-kinderzuschlag-bescheid`, `schriftsatz-vermerk-und-mustertext`, `schulbehoerde-ordnungsmassnahme` |
-| 6. Ergebnis, Schreiben und Kommunikation | `inkasso-brief-erste-hilfe`, `jugendamt-schreiben-verstehen`, `mandanten-oder-beteiligtenkommunikation`, `reise-flug-reparatur-statt-vermerk-mustertext` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `red-team-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `abo-falle-kuendigung`, `abo-kuendigung-fitness-streaming`, `arzt-rechnung-bankentgelte-zustimmungsfiktion`, `bankentgelte-zustimmungsfiktion`, `ecommerce-kauf-fahrradreparatur`, `entscheidungsvorlage`, `fahrradreparatur-dienstleistung`, `fahrradreparatur-nachbesserung-fake-shop`, `fake-shop-und-chargeback`, `fitnessstudio-rueckzahlung-schliessung`, `garantie-vs-gebrauchtkauf-privat`, `gebrauchtkauf-privat-maengel`, `handwerkerrechnung-zu-hoch`, `hotel-maengel-inkasso-erste-mahnung`, `inkassokosten-konzerninkasso-jugendamt`, `kita-platz-kleinanzeige-betrug-kleine`, `kleinanzeige-betrug`, `kleine-dienstleistung-schlecht`, ... plus 19 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Vertrag und Vertriebsweg | [`vertrag-und-vertriebsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/vertrag-und-vertriebsweg-bearbeiten/SKILL.md) |
+| 3. Fristen | [`fristen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/fristen-bearbeiten/SKILL.md) |
+| 4. Klausel- und Pflichtenprüfung | [`klausel-und-pflichtenpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/klausel-und-pflichtenpruefung-bearbeiten/SKILL.md) |
+| 5. Durchsetzungsweg | [`durchsetzungsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/durchsetzungsweg-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -72,75 +125,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 66 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abo-falle-kuendigung` | Wenn es um Abo-Falle und Kündigung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `abo-kuendigung-fitness-streaming` | Wenn es um Abo-Kündigung Fitness und Streaming in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `arzt-rechnung-bankentgelte-zustimmungsfiktion` | Wenn es um Arztrechnung GOÄ für Laien in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bankentgelte-zustimmungsfiktion` | Wenn es um Bankentgelte Und Zustimmungsfiktion in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `baubehoerde-nachbarbrief` | Wenn es um Baubehörde und Nachbarbrief in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `behoerdenformular-verstehen-bescheid` | Wenn es um Behördenformular verstehen in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bescheid-brief-verstehen` | Wenn es um Bescheid oder Brief verstehen in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-auskunft-loeschung` | Wenn es um Datenschutz Auskunft und Löschung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumentenintake-und-aktenlog` | Wenn es um Dokumentenintake und Aktenlog in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ecommerce-kauf-fahrradreparatur` | Wenn es um E-Commerce Kauf und Widerruf in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `entscheidungsvorlage` | Wenn es um Entscheidungsvorlage in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrradreparatur-dienstleistung` | Wenn es um Fahrradreparatur und kleine Dienstleistungen in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrradreparatur-nachbesserung-fake-shop` | Wenn es um Fahrradreparatur und Nachbesserung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fake-shop-und-chargeback` | Wenn es um Fake-Shop und Chargeback in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fitnessstudio-rueckzahlung-schliessung` | Wenn es um Fitnessstudio Rückzahlung Schließung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `frist-und-zustaendigkeit-cockpit` | Wenn es um Fristen- und Zuständigkeitscockpit in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristkalender-laie` | Wenn es um Fristkalender für Laien in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `garantie-vs-gebrauchtkauf-privat` | Wenn es um Garantie versus Gewährleistung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gebrauchtkauf-privat-maengel` | Wenn es um Gebrauchtkauf privat mit Mängeln in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `gerichtlicher-mahnbescheid-laie` | Wenn es um Gerichtlicher Mahnbescheid für Laien in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gerichtspost-familiengericht-laiencheck` | Wenn es um Gerichtspost Familiengericht verstehen in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `gerichtspost-laiencheck` | Wenn es um Gerichtspost Laiencheck in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handwerkerrechnung-zu-hoch` | Wenn es um Handwerkerrechnung zu hoch in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hotel-maengel-inkasso-erste-mahnung` | Wenn es um Hotelmängel und Bewertung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `inkasso-brief-erste-hilfe` | Wenn es um Inkasso-Brief erste Hilfe in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `inkasso-mahnung-vollstreckung` | Wenn es um Inkasso, Mahnung und Vollstreckung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `inkassokosten-konzerninkasso-jugendamt` | Wenn es um Inkassokosten Konzerninkasso Verzug in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `jugendamt-schreiben-verstehen` | Wenn es um Jugendamt-Schreiben verstehen in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-routing` | Wenn es um Allgemeiner Kaltstart und Routing in Verbraucher im Rechtsstaat Alltag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kindergeld-kinderzuschlag-bescheid` | Wenn es um Kindergeld und Kinderzuschlag Bescheid in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kita-platz-kleinanzeige-betrug-kleine` | Wenn es um Kita-Platz abgelehnt in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kleinanzeige-betrug` | Wenn es um Kleinanzeige Betrug in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kleine-dienstleistung-schlecht` | Wenn es um Kleine Dienstleistung schlecht in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachwei... |
-| `kleiner-kauf-konto-gesperrt-mandanten` | Wenn es um Kleiner Kauf und Mängelrechte in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konto-gesperrt-bank` | Wenn es um Konto gesperrt durch Bank in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandanten-oder-beteiligtenkommunikation` | Wenn es um Beteiligtenkommunikation in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mietkaution-rueckzahlung-mitgliedschaft` | Wenn es um Mietkaution Rückzahlung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mitgliedschaft-verein-streit` | Wenn es um Mitgliedschaft im Verein Streit in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nebenkostenabrechnung-verbraucher` | Wenn es um Nebenkostenabrechnung Verbraucher in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `online-bestellbutton-zahlungspflicht` | Wenn es um Online-Bestellbutton Und Zahlungspflicht in Verbraucher im Rechtsstaat Alltag geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `online-bewertung-abmahnung` | Wenn es um Online-Bewertung und Abmahnung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `online-shop-liefert-nicht` | Wenn es um Online-Shop liefert nicht in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `paket-verloren-plattformkonto-sperre-probeabo` | Wenn es um Paket verloren oder beim Nachbarn in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plattformkonto-sperre` | Wenn es um Plattformkonto gesperrt in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `probeabo-widerruf-kuendigung` | Wenn es um Probeabo Widerruf Kündigung in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `protokoll-nachbereitung-rechnung` | Wenn es um Protokoll und Nachbereitung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-rspr-fristen` | Wenn es um Quellen- und Rechtsprechungscheck in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechnung-ohne-auftrag` | Wenn es um Rechnung ohne Auftrag in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechnung-quittung-beleg` | Wenn es um Rechnung, Quittung und Beleg in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `red-team-qualitygate` | Wenn es um Red-Team-Qualitygate in Verbraucher im Rechtsstaat Alltag geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `reise-flug-reparatur-statt-vermerk-mustertext` | Wenn es um Reise, Flug und Zug Problem in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `reparatur-statt-neukauf-right-to-repair` | Wenn es um Reparatur statt Neukauf und Right to Repair in Verbraucher im Rechtsstaat Alltag geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `schriftsatz-vermerk-und-mustertext` | Wenn es um Schriftsatz, Vermerk und Mustertext in Verbraucher im Rechtsstaat Alltag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schufa-eintrag-scoring-negativeintrag` | Wenn es um SCHUFA-Eintrag prüfen in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schufa-scoring-negativeintrag-dsgvo` | Wenn es um SCHUFA Scoring Negativeintrag DSGVO in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schulbehoerde-ordnungsmassnahme` | Wenn es um Schulbehörde Ordnungsmaßnahme in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sitzungs-terminvorbereitung-strom-gas-telefon` | Wenn es um Sitzungs- und Terminvorbereitung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strom-gas-preiserhoehung` | Wenn es um Strom- und Gaspreiserhöhung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `telefon-internet-stoerung` | Wenn es um Telefon und Internet Störung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unfall-fahrrad-verbraucherschlichtung` | Wenn es um Kleiner Unfall Fahrrad und Auto in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucherschlichtung` | Wenn es um Verbraucherschlichtung in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vergleichsangebot-pruefen` | Wenn es um Vergleichsangebot prüfen in Verbraucher im Rechtsstaat Alltag geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `versicherung-lehnt-vorladung-polizei-zahnarzt` | Wenn es um Versicherung lehnt ab in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertrag-unterschrieben-abo-falle` | Wenn es um Vertrag unterschrieben und bereut in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vorladung-polizei-zeuge-beschuldigter` | Wenn es um Vorladung Polizei: Zeuge oder Beschuldigter in Verbraucher im Rechtsstaat Alltag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits... |
-| `zahnarzt-kostenvoranschlag` | Wenn es um Zahnarzt Kostenvoranschlag in Verbraucher im Rechtsstaat Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Arbeitsprodukt: Widerrufserklärung, Anspruchsschreiben, Abmahnung, Klage oder Klauselgutachten ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`durchsetzungsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/durchsetzungsweg-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Durchsetzungsweg: Individualanspruch, Musterfeststellung, Verbandsabmahnung oder Unterlassungsklage wählen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/durchsetzungsweg-bearbeiten/SKILL.md) |
+| [`fristen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/fristen-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Fristen: Widerruf, Gewährleistung, Verjährung und Abmahnfristen kalendarisch sichern. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/fristen-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Verbraucher Rechtsstaat Alltag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/juristischer-argumentationskern/SKILL.md) |
+| [`klausel-und-pflichtenpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/klausel-und-pflichtenpruefung-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Klausel- und Pflichtenprüfung: Einbeziehung, Transparenz, Leitbildabweichung und Informationspflichten getrennt prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/klausel-und-pflichtenpruefung-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vertrag-und-vertriebsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/vertrag-und-vertriebsweg-bearbeiten/SKILL.md) | Rechtlicher Alltag von Verbrauchern: Vertrag und Vertriebsweg: Vertragstyp, Verbrauchereigenschaft, Vertriebssituation und Belehrungslage feststellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucher-rechtsstaat-alltag/skills/vertrag-und-vertriebsweg-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

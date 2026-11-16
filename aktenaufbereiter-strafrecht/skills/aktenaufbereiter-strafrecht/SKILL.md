@@ -1,18 +1,15 @@
 ---
 name: aktenaufbereiter-strafrecht
-description: "Wenn es um Aktenaufbereiter Strafrecht in Aktenaufbereiter Strafrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Aktenaufbereiter Strafrecht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Aktenaufbereiter Strafrecht
 
 ## Leitidee
 
-Quod non est in actis non est in mundo. Wer die Akte nicht
-beherrscht beherrscht den Fall nicht. Strafakten umfassen hunderte
-bis zehntausende Seiten. Der Skill übernimmt die mechanische
-Erfassungs- und Strukturierungsarbeit — die manchmal wissenschaftliche
-Mitarbeiter oder Referendare leisten — und liefert Tabellen die in
-Excel weiterverwendbar sind.
+Erfasse und strukturiere den Inhalt umfangreicher Strafakten in
+Tabellen, die in Excel weiterverwendbar sind. Ordne Informationen
+so, dass sich die zugehörigen Aktenstellen wiederfinden lassen.
 
 Der Skill ersetzt NICHT die eigene Aktenlektüre. Er ist kein
 agentisches System das selbständig verteidigt. Er ist ein Werkzeug
@@ -55,11 +52,8 @@ Prozessrollen: Beschuldigter Zeuge Geschaedigter Sachverständiger
 Polizeibeamter Richter Staatsanwalt Verteidiger Nebenkläger
 sonstiger Beteiligter.
 
-Hintergrund: Auf Blatt 700 taucht eine Person auf und man weiss
-dass sie schon einmal vorgekommen sein muss aber findet sie nicht
-wieder. Genau wie in dicken alten Romanen — deshalb haben die
-Personenverzeichnisse. Und deshalb braucht man sie auch für
-Strafakten.
+Das Personenverzeichnis dient dazu, frühere Erwähnungen einer
+Person auch in umfangreichen Akten gezielt wiederzufinden.
 
 ### 3. Tatkomplex- und Vorwurfsverzeichnis
 
@@ -205,11 +199,9 @@ Verlage hingegen schon — Lizenzsituation prüfen.
 
 ## Pragmatismus
 
-Der Skill ist ein Quick Win. Er ersetzt nicht die Welt — er
-beschleunigt das bisherige Verfahren. Wer Chronologien in Excel
-führt führt sie weiter — nur eben schneller und vollständiger.
-Wer im Mandantengespräch präzise auf Blatt 312 zugreifen können
-muss findet die Stelle in Sekunden statt in Minuten.
+Führe vorhandene Excel-Chronologien fort und ergänze sie um die
+neuen Akteninhalte. Die Fundstellen sollen im Mandantengespräch
+und bei der weiteren Bearbeitung gezielt auffindbar sein.
 
 ## Werkzeug: `werkzeuge/aktenuebersicht_template.xlsx`
 
@@ -223,7 +215,7 @@ Die Vorlage ersetzt nicht die Aktenführung im Kanzleisystem, sondern strukturie
 
 ## Rechtsprechung zur Aktenaufbereitung und Verwertungsverboten (Stand Mai 2026)
 
-- BVerfG 23.09.2025 — 2 BvR 625/25: Verwertbarkeit von Informationen aus der Überwachung einer ANOM-Kommunikation; Akten müssen die Auswertungs- und Authentifizierungskette nachvollziehbar machen. Offene Fundstelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=23.09.2025&Aktenzeichen=2+BvR+625/25
+- BVerfG, Beschluss vom 23. September 2025, 2 BvR 625/25: Die Verfassungsbeschwerde gegen eine auf ANOM-Daten gestützte Verurteilung wurde nicht zur Entscheidung angenommen; nach dem dortigen Vortrag bestanden keine verfassungsrechtlichen Bedenken gegen die Verwertung. Die Entscheidung begründet keine allgemeine Pflicht zu einer bestimmten Auswertungs- oder Authentifizierungsdokumentation. Der Aktenaufbereiter kennzeichnet Herkunft, Übermittlung, Zuordnung und Authentizität deshalb als tatsächliche Prüfspur und trennt vorhandene Belege von offenen Nachforderungen. Amtliche Quelle: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html
 - BGH (GSSt) 03.02.2025 — GSSt 1/24 (KCanG): Beim Cannabis-Komplex Mengenangaben und Auswertungs-Protokolle in der Akte gezielt auf sanktionsfreie Eigenkonsummengen prüfen; daraus folgen Beweisverwertungs- und Tatverdachtsfragen. Offene Fundstelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Text=GSSt+1/24
 - Beweisverwertungsverbote nach §§ 136a, 100a–100e, 105 StPO: ständige Maßstabsentscheidungen vor Verwendung in dejure.org / openjur.de live verifizieren.
 
@@ -235,25 +227,3 @@ Die Vorlage ersetzt nicht die Aktenführung im Kanzleisystem, sondern strukturie
 - § 105 StPO — richterlicher Vorbehalt bei Durchsuchung; fehlende Anordnung fuehrt zum Verwertungsverbot
 - § 100a-100e StPO — TKU: Anordnungsvoraussetzungen, Katalogstraftaten, Verwendungsbeschrankung
 - § 108 StPO — Zufallsfunde; eingeschraenkte Verwertung
-
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 46b StGB
-- § 203 StGB
-- § 46 StGB
-- § 73a StGB
-- § 73c StGB
-- § 73e StGB
-- § 46a StGB
-- § 49 StGB
-- § 47 StGB
-- Art. 6 EMRK
-- § 27 StGB
-- § 244a StGB
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)

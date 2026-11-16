@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Zitierweise deutsches Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Zitierweise deutsches Recht."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Zitierweise Deutsches Recht** vom ersten Sachverhalt zu
 
 ## Fachlandkarte dieses Plugins
 
-- `aktenzeichen-schriftsatz-brief-und-memo-bausteine` — Aktenzeichen Schriftsatz Brief und Memo Bausteine
-- `aufsatz-interessen` — Aufsatz Interessen
-- `aufsatz-interessen-beckrs-blindzitate` — Aufsatz Interessen Beckrs Blindzitate
-- `beckrs-zahlen-schwellen-und-berechnung` — Beckrs Zahlen Schwellen und Berechnung
-- `blindzitate-internationaler-bezug-und-schnittstellen` — Blindzitate Internationaler Bezug und Schnittstellen
-- `chronologie-und-belegmatrix` — Chronologie und Belegmatrix
-- `datum-entscheidungsform-spezial-gericht` — Datum Entscheidungsform Spezial Gericht
-- `entscheidungsform-risikoampel-und-gegenargumente` — Entscheidungsform Risikoampel und Gegenargumente
-- `fristen-und-risikoampel` — Fristen und Risikoampel
-- `gericht-dokumentenmatrix-und-lueckenliste` — Gericht Dokumentenmatrix und Lueckenliste
-- `hauszitierweise-juristische-kommentar` — Hauszitierweise Juristische Kommentar
-- `juristische-erstpruefung-und-mandatsziel` — Juristische Erstpruefung und Mandatsziel
-- `kaltstart-triage` — Kaltstart Triage
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `rechtsprechung-verifizieren-bearbeiten` (Fachthema: aktenzeichen-schriftsatz-brief-und-memo-bausteine) — Aktenzeichen Schriftsatz Brief und Memo Bausteine
+- `literatur-fundstellen-bearbeiten` (Fachthema: aufsatz-interessen) — Aufsatz Interessen
+- `literatur-fundstellen-bearbeiten` (Fachthema: aufsatz-interessen-beckrs-blindzitate) — Aufsatz Interessen Beckrs Blindzitate
+- `quellenzugang-blindzitate-bearbeiten` (Fachthema: beckrs-zahlen-schwellen-und-berechnung) — Beckrs Zahlen Schwellen und Berechnung
+- `internationale-online-quellen-bearbeiten` (Fachthema: blindzitate-internationaler-bezug-und-schnittstellen) — Blindzitate Internationaler Bezug und Schnittstellen
+- `auftrag-belegbestand-bearbeiten` (Fachthema: chronologie-und-belegmatrix) — Chronologie und Belegmatrix
+- `rechtsprechung-verifizieren-bearbeiten` (Fachthema: datum-entscheidungsform-spezial-gericht) — Datum Entscheidungsform Spezial Gericht
+- `rechtsprechung-verifizieren-bearbeiten` (Fachthema: entscheidungsform-risikoampel-und-gegenargumente) — Entscheidungsform Risikoampel und Gegenargumente
+- `auftrag-belegbestand-bearbeiten` (Fachthema: fristen-und-risikoampel) — Fristen und Risikoampel
+- `auftrag-belegbestand-bearbeiten` (Fachthema: gericht-dokumentenmatrix-und-lueckenliste) — Gericht Dokumentenmatrix und Lueckenliste
+- `literatur-fundstellen-bearbeiten` (Fachthema: hauszitierweise-juristische-kommentar) — Hauszitierweise Juristische Kommentar
+- `auftrag-belegbestand-bearbeiten` (Fachthema: juristische-erstpruefung-und-mandatsziel) — Juristische Erstpruefung und Mandatsziel
+- `auftrag-belegbestand-bearbeiten` (Fachthema: kaltstart-triage) — Kaltstart Triage
+- `auftrag-belegbestand-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `auftrag-belegbestand-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Regelungs- und Quellenanker
 
@@ -55,3 +55,23 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Juristische Methodik und Arbeitstechnik:** Welche Quelle trägt welche Aussage und wo beginnt eine eigene Folgerung?
+
+**Erste Ansicht:** Zeige eine Quellenkarte mit Originalaussage, genauer Fundstelle, zeitlichem und sachlichem Kontext sowie abgeleiteter Aussage. Eine Rezeptions- oder Argumentationslinie braucht belegte Verbindungen.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann Originaltext, Übersetzung und eigene Einordnung gegenüberstellen. Nicht verifizierte Zitate bleiben offen; weder fehlende Textstellen noch historische Übergänge ergänzen.
+
+**Datengrundlage:** Quelle, Fassung, Datum, genaue Textstelle, Aussage, Übertragungsschritt und Aussagegrenze. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** quellengebundene Analyse, Überprüfung oder ausformulierter Argumentationsabschnitt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

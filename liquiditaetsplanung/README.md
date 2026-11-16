@@ -1,24 +1,90 @@
-# Liquiditätsplanung — Power-Plugin
+<!-- decimal-headings -->
+
+[Oberordner Insolvenzrecht – alle eigenständigen Plugins nach Aufgabe](../insolvenzrecht-plugins/README.md)
+
+<!-- decimal-anchor --> <a id="liquiditätsplanung--power-plugin"></a>
+
+# 1. Liquiditätsplanung — Power-Plugin
 
 <!-- BEGIN direkt-loslegen (autogen) -->
-## Was ist das hier?
+<!-- decimal-anchor --> <a id="was-ist-das-hier"></a>
+
+Aktueller Quellenabgleich: [geprüfte Entscheidungen, Anwendung und Grenzen vom 15. November 2026](references/rechtsprechungsabgleich-2026-11-15.md).
+
+## 1.1. Was ist das hier?
 
 Liquiditätsplanung nach deutschem Recht: 3-Wochen-Vorschau, 13/26/52-Wochen-Forecast, Excel-Export, Quote/Lücken-Ampel, Dokumentationspaket und Schnittstellen zu Fortbestehensprognose und Insolvenzrecht. Rechtsprechung nur nach Live-Verifikation.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+<!-- decimal-anchor --> <a id="welche-datei-wofür--which-file-should-i-use"></a>
 
-## Downloads
+## 1.2. Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`liquiditaetsplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.2/liquiditaetsplanung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/liquiditaetsplanung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/liquiditaetsplanung-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/liquiditaetsplanung-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/liquiditaetsplanung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+<!-- decimal-anchor --> <a id="in-30-sekunden-starten"></a>
+
+## 1.3. In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/liquiditaetsplanung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Liquiditätsplanung — Power-Plugin:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
+
+<!-- decimal-anchor --> <a id="downloads"></a>
+
+## 1.4. Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`liquiditaetsplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/liquiditaetsplanung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/liquiditaetsplanung/liquiditaetsplanung-werkstatt.md" download><code>liquiditaetsplanung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/liquiditaetsplanung/liquiditaetsplanung-schnellstart.md" download><code>liquiditaetsplanung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Edelholz Manufaktur Berlin GmbH — Liquiditäts- und Steuerakte: [Gesamt-PDF](../testakten/edelholz-manufaktur-berlin-liquiditaet/gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf), [`testakte-edelholz-manufaktur-berlin-liquiditaet.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-edelholz-manufaktur-berlin-liquiditaet.zip), [`testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip); Forschungszulage Riedblick Sensorik GmbH: [Gesamt-PDF](../testakten/forschungszulage-sensorik-startup-taunus/gesamt-pdf/forschungszulage-sensorik-startup-taunus_gesamt.pdf), [`testakte-forschungszulage-sensorik-startup-taunus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-forschungszulage-sensorik-startup-taunus.zip), [`testakte-forschungszulage-sensorik-startup-taunus-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-forschungszulage-sensorik-startup-taunus-einzelpdfs.zip); Fortbestehensprognose Paragrafix GmbH: [Gesamt-PDF](../testakten/fortbestehensprognose-paragrafix-gmbh/gesamt-pdf/fortbestehensprognose-paragrafix-gmbh_gesamt.pdf), [`testakte-fortbestehensprognose-paragrafix-gmbh.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-fortbestehensprognose-paragrafix-gmbh.zip), [`testakte-fortbestehensprognose-paragrafix-gmbh-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-fortbestehensprognose-paragrafix-gmbh-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`liquiditaetsplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.2/liquiditaetsplanung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`liquiditaetsplanung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/liquiditaetsplanung-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`liquiditaetsplanung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/liquiditaetsplanung-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [3 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+<!-- decimal-anchor --> <a id="zugeordnete-testakten"></a>
+
+## 1.5. Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Edelholz Manufaktur Berlin GmbH — Liquiditäts- und Steuerakte](../testakten/edelholz-manufaktur-berlin-liquiditaet/README.md) | [Gesamt-PDF](../testakten/edelholz-manufaktur-berlin-liquiditaet/gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf) | [`testakte-edelholz-manufaktur-berlin-liquiditaet.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-edelholz-manufaktur-berlin-liquiditaet.zip) | [`testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip) |
+| [Forschungszulage Riedblick Sensorik GmbH](../testakten/forschungszulage-sensorik-startup-taunus/README.md) | [Gesamt-PDF](../testakten/forschungszulage-sensorik-startup-taunus/gesamt-pdf/forschungszulage-sensorik-startup-taunus_gesamt.pdf) | [`testakte-forschungszulage-sensorik-startup-taunus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-forschungszulage-sensorik-startup-taunus.zip) | [`testakte-forschungszulage-sensorik-startup-taunus-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-forschungszulage-sensorik-startup-taunus-einzelpdfs.zip) |
+| [Fortbestehensprognose Paragrafix GmbH](../testakten/fortbestehensprognose-paragrafix-gmbh/README.md) | [Gesamt-PDF](../testakten/fortbestehensprognose-paragrafix-gmbh/gesamt-pdf/fortbestehensprognose-paragrafix-gmbh_gesamt.pdf) | [`testakte-fortbestehensprognose-paragrafix-gmbh.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-fortbestehensprognose-paragrafix-gmbh.zip) | [`testakte-fortbestehensprognose-paragrafix-gmbh-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-fortbestehensprognose-paragrafix-gmbh-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du eine belastbare Liquiditätsplanung aufstellen und drohende Zahlungsunfähigkeit frühzeitig erkennen.
@@ -26,170 +92,119 @@ Wenn du das hier öffnest, willst du eine belastbare Liquiditätsplanung aufstel
 
 ---
 
-## Was ist drin
+<!-- decimal-anchor --> <a id="was-ist-drin"></a>
 
-Vier Fachskills plus Allgemein-Skill, alle fachlich autark:
+## 1.6. Was ist drin
 
-| Skill | Zweck | Horizont |
+Die wichtigsten Fachrouten innerhalb der 74 Fachmodulen und 12 auswählbaren Skills:
+
+| Skill | Arbeitsprodukt | Maßgeblicher Zeitraum |
 | --- | --- | --- |
-| `idw-s6-integrierte-sanierungsplanung` | Brücke von Liquiditätsvorschau zu Sanierungskonzept: GuV, Planbilanz, Maßnahmenlog, Annahmenregister, Sensitivitäten und Sanierungsfähigkeits-Ampel. | 12-24 Monate |
-| `liquiditaetsvorschau-3wochen` | Wochenaktuelle Vorprüfung § 17 InsO (Freitag-Stichtag), Verhältnis zu offenen Forderungen, Ampel. | 3 Wochen |
-| `liquiditaetsvorschau-3-6-12-monate` | Rollierende Planung mit Sensitivität (Best/Base/Worst), Fortbestehensprognose nach § 19 InsO und Übergabe in die Sanierungsplanung. | 13 / 26 / 52 Wochen |
-| `liquiditaetsvorschau-insolvenzrechtlich` | Gerichtsfeste Liquiditätsbilanz nach BGH-Schema (Passiva II zwingend, Volumeneffekt der Quote, titulierte Forderungen mit Nennwert). | Stichtagsbezogen |
+| `liquiditaetsvorschau-3wochen` | Belegte Planung mit getrenntem Stichtagsstatus und rechtlicher Einordnung. | Tatsächlicher Stichtag und kalendergenaues Dreiwochenfenster. |
+| `liquiditaetsvorschau-insolvenzrechtlich` | Status/Bilanz, Nachweismethode, Indizien und begründete Subsumtion. | Stichtags- und verfahrensbezogen. |
+| `liquiditaetsvorschau-3-6-12-monate` | Rollierende Vorschau mit Fortbestehens- und Sanierungsprüfung im beauftragten Umfang. | Operativ 13/26/52 Wochen; § 19 zwölf Kalendermonate; § 18 in aller Regel 24 Monate. |
+| `idw-s6-integrierte-sanierungsplanung` | Verbindung zu GuV, Planbilanz, Maßnahmen und nachhaltiger Sanierungsfähigkeit. | Dem konkreten Sanierungsauftrag entsprechend. |
 
-## Ergebnisformate
+<!-- decimal-anchor --> <a id="ergebnisse-und-datenquellen"></a>
 
-Jeder Skill liefert standardmäßig eine **Excel-Tabelle** nach der hinterlegten Vorlage (`assets/excel/Liquiditaetsplan-Wochenbasis.xlsx`, KW-Spalten × Kategorien-Zeilen, Freitag als Wochenstichtag). Zusätzlich auf Wahl:
+## 1.7. Ergebnisse und Datenquellen
 
-- **Interaktives HTML-Padlet** (`assets/padlet/liquiditaets-padlet.html`) — single-file, autark, rechnet die Ampel live nach BGH-Schema, speichert in `localStorage`, exportiert/importiert JSON.
-- **Markdown-Artefakt** (`assets/markdown/liquiditaets-artefakt-vorlage.md`) — Tabellen, Indizienliste, Kurzfazit; wird bei jeder Folgemeldung neu geschrieben.
-- **Memo** im Gutachtenstil (DOCX oder Markdown) — **nur auf ausdrückliche Anfrage**.
+Das beauftragte Format geht vor. Für eine bearbeitbare Planung steht die [Excel-Vorlage](assets/excel/Liquiditaetsplan-Wochenbasis.xlsx) bereit. Das [HTML-Rechenblatt](assets/padlet/liquiditaets-padlet.html) und die [Markdown-Vorlage](assets/markdown/liquiditaets-artefakt-vorlage.md) unterstützen bei Bedarf weitere Arbeitsweisen. Ohne Tabellenexport wird eine nachvollziehbare Tabelle geliefert; eine nicht erzeugte Datei wird nicht behauptet.
 
-Die Skills fragen einmal am Anfang nach Format und merken sich die Antwort.
+Vorliegende Bankauszüge, OPOS, Kredit- und Stundungsunterlagen zuerst auswerten. Betrag, Fälligkeit, Zahlungstag, Verfügbarkeit und Belegstelle verbinden; OCR-Zahlen und Salden kontrollieren. Nur entscheidende Lücken erfragen und Antworten in Rechnung und beauftragtem Dokument verarbeiten. Bankzugänge nur verwenden, wenn verfügbar und entsprechend autorisiert.
 
-## Banking
+<!-- decimal-anchor --> <a id="insolvenzrechtliche-prüfung"></a>
 
-Jeder Skill fragt einmal nach der Datenquelle:
+## 1.8. Insolvenzrechtliche Prüfung
 
-1. **Manuell** im Padlet/Artefakt/Chat.
-2. **Datei-Import** — CAMT.053, MT940, CSV-Bankexport, DATEV-OPOS.
-3. **Connector** — PSD2/FinTS oder verfügbare Anbieter (per `list_external_tools`).
+Die operative Wochenrechnung bleibt Anfangsbestand plus Einzahlungen minus Auszahlungen. Daneben stehen vier getrennte Statusfelder für Aktiva I/II und Passiva I/II. Passiva I werden nicht aus sämtlichen Ausgaben der ersten Kalenderwoche abgeleitet; Zahlungen auf Altschulden dürfen nicht nochmals als neue Passiva II erscheinen.
 
-Mandatsgeheimnis (§§ 203/204 StGB, § 43e BRAO) und Drittlandtransfer (DSGVO Art. 44 ff.) werden adressiert.
+Bei der zeitraumbezogenen Bilanzmethode gilt `Lücke = max(0, PI + PII − AI − AII)` und `Quote = Lücke / (PI + PII)`, sofern der Nenner positiv ist. Das vollständige Dreiwochenfenster und unterwöchige Fälligkeiten müssen stimmen. Tabellen und Rechenfarben ersetzen keine rechtliche Entscheidung. Unbekannte Eingaben sind nicht null; ein leeres Rechenblatt bedeutet keine Entwarnung.
 
-## BGH-Schema (Passiva II)
+Die [Prüfregeln zu §§ 17–19 InsO](references/insolvenzpruefung.md) behandeln insbesondere:
 
-```
-Aktiva I   = Bank + Kasse + freier zugesagter Kontokorrent (Stichtag)
-Aktiva II  = Σ Einzahlungen KW t..t+2
-Passiva I  = am Stichtag fällig, eingefordert, nicht echt gestundet
-Passiva II = binnen 3 Wochen fällig (KW t+1 + KW t+2)
+- Zehnprozentregel mit beiden Ausnahmen und Zahlungseinstellung als eigenständigen Nachweisweg; keine automatische Entscheidung aus der Zahl von Warnzeichen.
+- Unterschied zwischen Wochenplan, Stichtagsstatus, Liquiditätsbilanz und anderen zulässigen Darlegungswegen.
+- Streitige Verbindlichkeiten und Vollstreckungstitel; eigene Forderungen werden nicht durch einen Titel sofort zu Liquidität.
+- Zwölfmonats-Fortbestehensprognose, eigenständigen Überschuldungsstatus und in aller Regel 24 Monate für drohende Zahlungsunfähigkeit.
+- Rangrücktritt nach konkretem Wortlaut und Finanzierung ohne pauschale Gleichsetzung von weichem Patronat, einklagbarem Anspruch und tatsächlichem Zufluss.
+- Objektiven Eintritt, Antragsfristen und Aktualisierung nach neuen Belegen.
 
-Lücke abs. = max(0, (Passiva I + Passiva II) − (Aktiva I + Aktiva II))
-Quote      = Lücke abs. ÷ (Passiva I + Passiva II)
-```
+<!-- decimal-anchor --> <a id="geprüfte-rechtsprechung-und-abgleich"></a>
 
-**Ampel**: 🟢 Quote < 10 % und Liquidität KW t+2 ≥ 0 und < 2 Indizien. 🟡 Quote ≥ 10 %, KW t+2 ≥ 0, < 2 Indizien (schließbar). 🔴 sonst — § 17 InsO indiziert.
+## 1.9. Geprüfte Rechtsprechung und Abgleich
 
-## Leitentscheidungen und Livecheck
+**Prüfstand 28.09.2026:** Die fünf im überlassenen Fachkapitel genannten Urteile – IX ZR 123/04, IX ZR 228/03, II ZR 88/16, IX ZR 133/14 und II ZR 84/20 – sind in Datum, Aktenzeichen und Themenzuordnung bestätigt. Hinzu kommen sechs bereits relevante neuere Entscheidungen zu Nachweismethoden, Indizien, Darlegung und Titeln. Die [Entscheidungskarte](references/rechtsprechung/INDEX.md) führt **elf Entscheidungen**, ihre amtlichen Volltexte und genaue Anwendungsgrenzen sowie den ergänzenden Berichtigungsbeschluss auf.
 
-Diese Entscheidungen sind als frei prüfbare Arbeitsanker gedacht; vor einer Mandatsausgabe immer Gericht, Datum, Aktenzeichen, Randnummer/Sachverhalt und Aussage anhand einer amtlichen oder frei zugänglichen Quelle nachziehen.
+Die Überlegungen zu Belegen, rollierender Planung, gezielten Rückfragen, Szenarien und Weiterarbeit waren weitgehend vorhanden. Präzisiert wurden insbesondere die Insolvenzmethodik, die Behandlung von Rangrücktritt und Drittmitteln sowie die Rechenhilfen. Werkstatt und Mini wurden entsprechend aktualisiert; die Skillzahl bleibt unverändert. Der Mini bleibt unter 7.500 UTF-8-Bytes.
 
-1. **BGH, Urteil vom 24.05.2005 - IX ZR 123/04**: Abgrenzung Zahlungsstockung/Zahlungsunfähigkeit; Liquiditätslücke von 10 Prozent oder mehr regelmäßig kritisch, wenn sie nicht kurzfristig nahezu vollständig geschlossen werden kann.
-2. **BGH, Urteil vom 19.12.2017 - II ZR 88/16**: Liquiditätsstatus und Liquiditätsbilanz; Einbeziehung der innerhalb von drei Wochen fällig werdenden Verbindlichkeiten (Passiva II) in die Prüfung des § 17 InsO.
-3. **BGH, Urteil vom 28.06.2022 - II ZR 112/21**: Zahlungsunfähigkeit kann mit geordneter Liquiditätsgegenüberstellung und Buchhaltungsunterlagen dargelegt werden; keine mechanische Scheingenauigkeit, sondern belegbare Zahlenbasis.
-4. **Aktualitätsregel**: Keine BeckRS-, juris-, Kommentar- oder Aufsatzfundstellen aus Modellwissen. Wenn weitere Rechtsprechung gebraucht wird, erst live über `bundesgerichtshof.de`, `dejure.org` oder eine vom Nutzer bereitgestellte Quelle verifizieren.
+Der [Prüfbericht mit drei ausgearbeiteten Grenzfällen und Rechentests](../quality/liquiditaetsplanung/abgleich-2026-09-28/README.md) trennt Quellenabgleich, redaktionelle Prüfung und tatsächlich ausgeführte Tests.
 
-Berufsständischer Hintergrund: Methodenrahmen zu Insolvenzeröffnungsgründen und Sanierungskonzepten; nicht als Ersatz für Gesetz, Rechtsprechung und konkrete Subsumtion zitieren.
+Ein Wochenetikett wie „KW 22“ legt allein keinen taggenauen Eintritt fest. Negatives handelsbilanzielles Eigenkapital, verrechnet mit einem Darlehen, ist kein vollständiger Überschuldungsstatus. Das Fachkapitel wird nicht als Arbeitsakte oder Originaldatei mitveröffentlicht.
 
-## Lizenz
+<!-- decimal-anchor --> <a id="lizenz"></a>
+
+## 1.10. Lizenz
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
-## Quellen-Disclaimer
+<!-- decimal-anchor --> <a id="quellen-disclaimer"></a>
+
+## 1.11. Quellen-Disclaimer
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **12 auswählbare Skills**. Die **74 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
-## Orientierung nach Arbeitslogik
+<!-- decimal-anchor --> <a id="orientierung-nach-arbeitslogik"></a>
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+## 1.12. Orientierung nach Arbeitslogik
+
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `eingangsdaten-checkliste`, `eingangsdaten-idw-s6-liqp`, `einstieg-routing`, `kaltstart-triage`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `chronologie-und-belegmatrix`, `deutschem-dokumentationspaket-excel`, `deutschem-tatbestandsmerkmale-beweisfragen`, `dokumentationspaket-bank`, `insolvenzrecht-formular-portal`, `interessen-verifikation-beweislast-vorschau`, `liqp-warenkredit-skonto-szenarien-spezial`, `liquiditaetsstatus-quellenbelege`, `liquiditaetsstatus-quellenbelege-live-quote`, `luecken-quellenkarte`, `quellen-livecheck`, `spezial-luecken-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `verifikation-beweislast-darlegungslast`, `vorschau-dokumentenmatrix-lueckenliste`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `forecast-risikoampel-gegenargumente`, `fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `forecast-wochenplanung`, `idw-s6-integrierte-sanierungsplanung`, `leasing-lp-restrukturierungsplan-starug`, `quote-verhandlung-vergleich-eskalation`, `restrukturierungsplan-starug`, `stundungs-strategie` |
-| 5. Verfahren, Behörde und Gericht | `ausgabengruppen-fristennotiz-naechster`, `wochen-fristen-form-zustaendigkeit-rechtsweg` |
-| 6. Ergebnis, Schreiben und Kommunikation | `live-mandantenkommunikation`, `mandantenkommunikation`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `mandantenkommunikation-redteam-qualitygate`, `rechtsprechung-fehlerkatalog`, `redteam-qualitygate`, `spezial-rechtsprechung-red-team-und-qualitaetskontrolle` |
-| 8. Spezialmodule und Schnittstellen | `ampel-zahlen-schwellenwerte-berechnung`, `ausgabengruppen-systematik`, `bei-drohender-zahlungsunfaehigkeit`, `bei-eingetretener-zahlungsunfaehigkeit`, `cash-pooling-konzern`, `drohender-zahlungsunfaehigkeit`, `excel`, `export`, `export-forecast-fortbestehensprognose`, `fortbestehensprognose-international`, `fuer-bankgespraech`, `grundbegriffe-cashflow`, `grundbegriffe-cashflow-kreditlinien`, `insolvenzrecht-liqui-sonderfall`, `kreditlinien-pruefen`, `liqp-bankenreporting-leitfaden`, `liqp-liquiditaetspool-cash-pooling-spezial`, `liqp-liquiditaetspool-cash-rollende-13wochen`, ... plus 14 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/juristischer-argumentationskern/SKILL.md), [`liquiditaetsvorschau-3-6-12-monate`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3-6-12-monate/SKILL.md), [`liquiditaetsvorschau-3wochen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3wochen/SKILL.md), [`liquiditaetsvorschau-insolvenzrechtlich`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-insolvenzrechtlich/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Datenbasis, Konten und Liquiditätsstatus | [`status-daten-konten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/status-daten-konten-bearbeiten/SKILL.md) |
+| 3. Rollierende Planung und Szenarien | [`rollierende-planung-szenarien-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/rollierende-planung-szenarien-bearbeiten/SKILL.md) |
+| 4. Finanzierung, Cash Pool und Stundung | [`finanzierung-cashpool-stundung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/finanzierung-cashpool-stundung-bearbeiten/SKILL.md) |
+| 5. Insolvenzreife, Fortbestehen und Sanierung | [`insolvenzreife-fortbestehen-sanierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/insolvenzreife-fortbestehen-sanierung-bearbeiten/SKILL.md) |
+| 6. Bankbericht, Kommunikation und Export | [`bankbericht-kommunikation-export-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/bankbericht-kommunikation-export-bearbeiten/SKILL.md) |
+| 7. Planungsqualität und Quellenkontrolle | [`planung-qualitaet-quellen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/planung-qualitaet-quellen-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Überblick
+<!-- decimal-anchor --> <a id="alle-skills-im-überblick"></a>
 
-Automatisch generierte Komplett-Liste aller 73 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+## 1.13. Alle Skills im Überblick
 
-| Skill | Beschreibung |
-| --- | --- |
-| `ampel-zahlen-schwellenwerte-berechnung` | Wenn es um Ampel: Zahlen, Schwellenwerte und Berechnung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Liquiditätsplanung — Power geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `ausgabengruppen-fristennotiz-naechster` | Wenn es um Ausgabengruppen: Fristennotiz und nächster Schritt in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ausgabengruppen-systematik` | Wenn es um Liqui: Ausgabengruppen in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `bei-drohender-zahlungsunfaehigkeit` | Wenn es um Liqui: drohende ZU in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bei-eingetretener-zahlungsunfaehigkeit` | Wenn es um Liqui: eingetretene ZU in Liquiditätsplanung — Power geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `cash-pooling-konzern` | Wenn es um Cash-Pooling im Konzern in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix Liquiditätsplanung in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `deutschem-dokumentationspaket-excel` | Wenn es um Deutschem Dokumentationspaket Excel in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `deutschem-tatbestandsmerkmale-beweisfragen` | Wenn es um Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumentationspaket-bank` | Wenn es um Dokumentationspaket: Compliance-Dokumentation und Aktenvermerk in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drohender-zahlungsunfaehigkeit` | Wenn es um Liqui Drohender Zahlungsunfaehigkeit in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eingangsdaten-checkliste` | Wenn es um Liqui: Eingangsdaten-Checkliste in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `eingangsdaten-idw-s6-liqp` | Wenn es um Liqui Eingangsdaten IDW S6 Liqp in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Liquiditätsplanung — Power geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `excel` | Wenn es um Excel: Behörden-, Gerichts- oder Registerweg in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `export` | Wenn es um Export: Schriftsatz-, Brief- und Memo-Bausteine in Liquiditätsplanung — Power geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `export-forecast-fortbestehensprognose` | Wenn es um Export Forecast Fortbestehensprognose in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `forecast-risikoampel-gegenargumente` | Wenn es um Forecast: Risikoampel, Gegenargumente und Verteidigungslinien in Liquiditätsplanung — Power geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `forecast-wochenplanung` | Wenn es um Liquiditaetsplanung: Erstprüfung, Rollenklärung und Mandatsziel in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fortbestehensprognose-international` | Wenn es um Fortbestehensprognose: Internationaler Bezug und Schnittstellen in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel Liquiditätsplanung in Liquiditätsplanung — Power geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fuer-bankgespraech` | Wenn es um Liqui für Bankgespraech in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `grundbegriffe-cashflow` | Wenn es um Liquiditaetsplanung: Grundbegriffe in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbegriffe-cashflow-kreditlinien` | Wenn es um Liqui Grundbegriffe Cashflow Kreditlinien in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `idw-s6-integrierte-sanierungsplanung` | Wenn es um Integrierte Sanierungsplanung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenzrecht-formular-portal` | Wenn es um Insolvenzrecht: Formular, Portal und Einreichungslogik in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenzrecht-liqui-sonderfall` | Wenn es um Insolvenzrecht Liqui Sonderfall in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `interessen-verifikation-beweislast-vorschau` | Wenn es um Interessen Verifikation Beweislast Vorschau in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Kaltstart Triage in Liquiditätsplanung — Power geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kreditlinien-pruefen` | Wenn es um Liqui: Kreditlinien in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `leasing-lp-restrukturierungsplan-starug` | Wenn es um Liqui Leasing LP Restrukturierungsplan Starug in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liqp-bankenreporting-leitfaden` | Wenn es um LiqP: Bankenreporting in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liqp-liquiditaetspool-cash-pooling-spezial` | Wenn es um LiqP: Cash-Pooling Spezial in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liqp-liquiditaetspool-cash-rollende-13wochen` | Wenn es um Liqp Liquiditaetspool Cash Rollende 13wochen in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liqp-rollende-13wochen-bauleiter` | Wenn es um LiqP: 13-Wochen-Plan Bauleiter in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liqp-warenkredit-skonto-szenarien-spezial` | Wenn es um LiqP: Warenkredit Skonto in Liquiditätsplanung — Power geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `liqui-fuer-bankgespraech` | Wenn es um Liqui fuer Bankgespraech in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `liquiditaetsstatus-quellenbelege` | Wenn es um Liquiditätsstatus nur aus belastbaren Quellenbelegen in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfra... |
-| `liquiditaetsstatus-quellenbelege-live-quote` | Wenn es um Liquiditaetsstatus Quellenbelege Live Quote in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `liquiditaetsvorschau-3-6-12-monate` | Wenn es um Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (Paragrafen 17. 19 InsO) in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt... |
-| `liquiditaetsvorschau-3wochen` | Wenn es um Drei-Wochen-Liquiditätsvorschau (Paragraf 17 InsO, wochenaktuell) in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `liquiditaetsvorschau-insolvenzrechtlich` | Wenn es um Insolvenzrechtliche Liquiditätsbilanz und Liquiditätsvorschau in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfp... |
-| `live-mandantenkommunikation` | Wenn es um Live: Mandantenkommunikation und Entscheidungsvorlage in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `luecken-quellenkarte` | Wenn es um Luecken Quellenkarte in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `mahnstufen-debitoren` | Wenn es um Liqui: Debitorenseite in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkommunikation` | Wenn es um Mandantenkommunikation Liquiditätsplanung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Liquiditätskommunikation Red-Team und Quality-Gate in Liquiditätsplanung — Power geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `mit-leasing-und-lp` | Wenn es um Liqui mit Leasing in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `output-waehlen` | Wenn es um Output wählen in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `quote-verhandlung-vergleich-eskalation` | Wenn es um Quote: Verhandlung, Vergleich und Eskalation in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsprechung-fehlerkatalog` | Wenn es um Rechtsprechung Fehlerkatalog in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Liquiditätsplanung — Power geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `restrukturierungsplan-starug` | Wenn es um Liqui im StaRUG-Plan in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `saisonalitaet-erkennen` | Wenn es um Liqui: Saisonalitaet in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `schnittstellen-mehrparteienkonflikt` | Wenn es um Schnittstellen: Mehrparteienkonflikt und Interessenmatrix in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sondereffekt-grossauftrag` | Wenn es um Sondereffekt Grossauftrag in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `sondereffekt-grossauftrag-stundungs` | Wenn es um Liqui Sondereffekt Grossauftrag Stundungs in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sonderfall-edge-case` | Wenn es um Liqui: Sonderfall und Edge-Case-Prüfung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-luecken-livequellen-und-rechtsprechungscheck` | Wenn es um Luecken: Livequellen- und Rechtsprechungscheck in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-rechtsprechung-red-team-und-qualitaetskontrolle` | Wenn es um Rechtsprechung: Red-Team und Qualitätskontrolle in Liquiditätsplanung — Power geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Start, Chronologie und Fristen Liquiditätsvorschau in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `stundungs-strategie` | Wenn es um Stundungs-Strategie in Liquiditätsplanung — Power geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `szenarien-aufbauen` | Wenn es um Liqui-Szenarien in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verifikation-beweislast-darlegungslast` | Wenn es um Verifikation: Beweislast, Darlegungslast und Substantiierung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vorschau-dokumentenmatrix-lueckenliste` | Wenn es um Vorschau: Dokumentenmatrix, Lückenliste und Nachforderung in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wochen-fristen-form-zustaendigkeit-rechtsweg` | Wenn es um Wochen: Fristen, Form, Zuständigkeit und Rechtsweg in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wochen-liqui-ausgabengruppen-cash` | Wenn es um Wochen Liqui Ausgabengruppen Cash in Liquiditätsplanung — Power geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Liquiditätsplanung — Power geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Liquiditätsplanung — Power geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+Automatisch generierte Komplett-Liste aller 12 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
+
+English: Complete list of all 12 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`bankbericht-kommunikation-export-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/bankbericht-kommunikation-export-bearbeiten/SKILL.md) | Ergebnisse als prüfbare Tabellen, Bankbericht und verständliche Mandantenentscheidung ausgeben. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/bankbericht-kommunikation-export-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Liquiditätsplanung — Power. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/einstieg-routing/SKILL.md) |
+| [`finanzierung-cashpool-stundung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/finanzierung-cashpool-stundung-bearbeiten/SKILL.md) | Kreditlinien, Leasing, Cash Pool, Debitorenmaßnahmen und Zahlungsvereinbarungen auf Verfügbarkeit und Wirkung prüfen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/finanzierung-cashpool-stundung-bearbeiten/SKILL.md) |
+| [`insolvenzreife-fortbestehen-sanierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/insolvenzreife-fortbestehen-sanierung-bearbeiten/SKILL.md) | Finanzplanung von Insolvenzreifestatus und Fortbestehensprognose trennen und notwendige Sanierungsschritte ableiten. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/insolvenzreife-fortbestehen-sanierung-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Liquiditätsplanung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`liquiditaetsvorschau-3-6-12-monate`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3-6-12-monate/SKILL.md) | Erstellt rollierende Liquiditätspläne über 13 bis 52 Wochen und grenzt die Fortbestehensprognose nach Paragraf 19 InsO von der Prognose nach Paragraf 18 InsO ab. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3-6-12-monate/SKILL.md) |
+| [`liquiditaetsvorschau-3wochen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3wochen/SKILL.md) | Erstellt eine Dreiwochenplanung und einen belegten Status zur Prüfung der Zahlungsunfähigkeit. Trennt Zahlungsbedarf, Datenlücken, Indizien und rechtliche Bewertung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-3wochen/SKILL.md) |
+| [`liquiditaetsvorschau-insolvenzrechtlich`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-insolvenzrechtlich/SKILL.md) | Prüft Zahlungsunfähigkeit aus Status, Liquiditätsbilanz oder Zahlungseinstellung mit Belegen und Gegenargumenten. Grenzt Überschuldung, Prognose und Antragspflichten ab. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/liquiditaetsvorschau-insolvenzrechtlich/SKILL.md) |
+| [`planung-qualitaet-quellen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/planung-qualitaet-quellen-bearbeiten/SKILL.md) | Beleglücken, Fristen, Annahmen, Berechnungsfehler und rechtliche Quellen vor Freigabe kontrollieren. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/planung-qualitaet-quellen-bearbeiten/SKILL.md) |
+| [`rollierende-planung-szenarien-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/rollierende-planung-szenarien-bearbeiten/SKILL.md) | Einzahlungen, Auszahlungen, Saisonalität und Sonderaufträge in einer rollierenden Wochen- und Monatsplanung berechnen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/rollierende-planung-szenarien-bearbeiten/SKILL.md) |
+| [`status-daten-konten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/status-daten-konten-bearbeiten/SKILL.md) | Banken, offene Posten, Fälligkeiten und Quellenbelege zu einer belastbaren Ausgangsbasis abstimmen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/status-daten-konten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Liquiditätsplanung — Power. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=liquiditaetsplanung/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

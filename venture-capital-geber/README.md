@@ -5,20 +5,66 @@
 
 VC-Geber-Plugin für deutsche Venture-Capital-Investoren, Family Offices, Angels und junge VCs: Sourcing, Deal-Tracking, Wandeldarlehen, SAFE, Pre-Seed, Series A/B, Cap Table, Follow-on, Portfolio-Updates, KAGB/BaFin-Grenzen, EU/CH/UK/US-Brücken und legitime Deal-Taktik.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`venture-capital-geber.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/venture-capital-geber.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/venture-capital-geber.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/venture-capital-geber-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/venture-capital-geber-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/venture-capital-geber.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/venture-capital-geber.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Venture Capital Geber:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`venture-capital-geber.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/venture-capital-geber.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/venture-capital-geber/venture-capital-geber-werkstatt.md" download><code>venture-capital-geber-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/venture-capital-geber/venture-capital-geber-schnellstart.md" download><code>venture-capital-geber-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Nebelstern Ventures - Berliner VC-Pipeline, Wandeldarlehen und Follow-on-Chaos: [Gesamt-PDF](../testakten/venture-capital-geber-nebelstern-portfolio-berlin/gesamt-pdf/venture-capital-geber-nebelstern-portfolio-berlin_gesamt.pdf), [`testakte-venture-capital-geber-nebelstern-portfolio-berlin.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-venture-capital-geber-nebelstern-portfolio-berlin.zip), [`testakte-venture-capital-geber-nebelstern-portfolio-berlin-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-venture-capital-geber-nebelstern-portfolio-berlin-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`venture-capital-geber.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/venture-capital-geber.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`venture-capital-geber-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/venture-capital-geber-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`venture-capital-geber-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/venture-capital-geber-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Nebelstern Ventures - Berliner VC-Pipeline, Wandeldarlehen und Follow-on-Chaos](../testakten/venture-capital-geber-nebelstern-portfolio-berlin/README.md) | [Gesamt-PDF](../testakten/venture-capital-geber-nebelstern-portfolio-berlin/gesamt-pdf/venture-capital-geber-nebelstern-portfolio-berlin_gesamt.pdf) | [`testakte-venture-capital-geber-nebelstern-portfolio-berlin.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-venture-capital-geber-nebelstern-portfolio-berlin.zip) | [`testakte-venture-capital-geber-nebelstern-portfolio-berlin-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-venture-capital-geber-nebelstern-portfolio-berlin-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -28,7 +74,7 @@ Es ist bewusst als **junger VC im Maschinenraum** gedacht: freundlich, schnell, 
 
 ## Starten
 
-Beginne mit `venture-capital-geber-allgemein` oder `vc-001-kaltstart-vc-cockpit`. Das Plugin fragt zuerst:
+Starten Sie mit `kaltstart-vc-cockpit` und Pitchdeck, Cap Table oder Term Sheet. Bei einem konkreten Auftrag entsteht unmittelbar das bestellte Screening, Verhandlungsmemo oder die Follow-on-Prüfung. Die folgenden Punkte dienen der internen Einordnung; nur entscheidende fehlende Angaben werden nachgefragt:
 
 1. Wer bist du: Angel, Family Office, Fonds, SPV, Club Deal, Corporate VC oder Scout?
 2. Was liegt vor: Pitchdeck, Founder Update, Cap Table, Wandeldarlehen, Term Sheet, Datenraum, E-Mail, WhatsApp, Notarentwurf, Registerauszug oder bloß Bauchgefühl?
@@ -63,20 +109,33 @@ Rechtliche Schwellen und aktuelle Aufsichtsfragen werden nicht geraten. Das Plug
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **12 auswählbare Skills**. Die **106 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `deal-triage-score`, `founder-update-intake`, `kaltstart-triage`, `kaltstart-vc-cockpit`, `ma-sale-startup`, `swiss-ag-startup-investment` |
-| 3. Prüfung, Anspruch und Subsumtion | `kagb-aif-bafin-grenzcheck`, `pitchdeck-und-teaser-analyse` |
-| 5. Verfahren, Behörde und Gericht | `gwg-ubo-transparenzregister`, `notar-register-closing` |
-| 6. Ergebnis, Schreiben und Kommunikation | `follow-on-ic-memo`, `ic-memo-generator`, `output-generator-pack` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `fdi-und-fusionskontrolle-bei-minderheit`, `qualitygate-no-hallucinations` |
-| 8. Spezialmodule und Schnittstellen | `angelsyndikat-lead-investor`, `anti-dilution-down-round`, `arbeitsrecht-founder-team`, `board-observer-und-beirat`, `board-pack-auswertung`, `bridge-round-inside-round`, `cap-table-grundlagen`, `capital-call-internal-budget`, `climate-energy-und-deep-tech`, `co-investor-coordination`, `competitive-intelligence-lawful`, `consent-request-pass-email-rechtsabteilung`, `consumer-ecommerce-platform`, `corporate-vc-conflicts`, `data-ai-und-cyber-dd`, `data-room-index-vc`, `deal-sourcing-thesis`, `defense-dual-use-fdi`, ... plus 72 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/kaltstart-triage/SKILL.md) |
+| 2. Investitionsziel und Auswahl | [`investitionsziel-und-auswahl-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsziel-und-auswahl-bearbeiten/SKILL.md) |
+| 3. Due Diligence und Sektor | [`due-diligence-und-sektor-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/due-diligence-und-sektor-bearbeiten/SKILL.md) |
+| 4. Runde Bewertung und Beteiligung | [`runde-bewertung-und-beteiligung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/runde-bewertung-und-beteiligung-bearbeiten/SKILL.md) |
+| 5. Finanzierungsvertrag und Vollzug | [`finanzierungsvertrag-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/finanzierungsvertrag-und-vollzug-bearbeiten/SKILL.md) |
+| 6. Founder Team und Rechte | [`founder-team-und-rechte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/founder-team-und-rechte-bearbeiten/SKILL.md) |
+| 7. Governance und Portfoliosteuerung | [`governance-und-portfoliosteuerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/governance-und-portfoliosteuerung-bearbeiten/SKILL.md) |
+| 8. Fonds Regulierung und Ausland | [`fonds-regulierung-und-ausland-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/fonds-regulierung-und-ausland-bearbeiten/SKILL.md) |
+| 9. Krise Exit und Streit | [`krise-exit-und-streit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/krise-exit-und-streit-bearbeiten/SKILL.md) |
+| 10. Investitionsentscheidung und Kommunikation | [`investitionsentscheidung-und-kommunikation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsentscheidung-und-kommunikation-bearbeiten/SKILL.md) |
+| 11. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -84,114 +143,31 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 105 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 12 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `angelsyndikat-lead-investor` | Wenn es um Angel-Syndikat und Lead Investor in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anti-dilution-down-round` | Wenn es um Anti-Dilution und Down Round in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitsrecht-founder-team` | Wenn es um Arbeitsrecht und Founder Team in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `board-observer-und-beirat` | Wenn es um Board Observer und Beirat in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `board-pack-auswertung` | Wenn es um Board-Pack-Auswertung in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `bridge-round-inside-round` | Wenn es um Bridge Round und Inside Round in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cap-table-grundlagen` | Wenn es um Cap Table Grundlagen in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `capital-call-internal-budget` | Wenn es um Interner Capital Call und Budget in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `climate-energy-und-deep-tech` | Wenn es um Climate, Energy und Deep Tech in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `co-investor-coordination` | Wenn es um Co-Investoren koordinieren in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `competitive-intelligence-lawful` | Wenn es um Lawful Competitive Intelligence in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `consent-request-pass-email-rechtsabteilung` | Wenn es um Consent Request Workflow in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `consumer-ecommerce-platform` | Wenn es um Consumer, E-Commerce und Plattformen in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `corporate-vc-conflicts` | Wenn es um Corporate VC und Konflikte in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `data-ai-und-cyber-dd` | Wenn es um Data, digitale Werkzeuge und Cyber DD in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `data-room-index-vc` | Wenn es um Datenraum-Index VC in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deal-sourcing-thesis` | Wenn es um Deal-Sourcing und Investmentthese in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deal-triage-score` | Wenn es um Deal-Triage-Score in Venture Capital Geber geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `defense-dual-use-fdi` | Wenn es um Defense, Dual Use und FDI in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `delaware-flip-us-holdco` | Wenn es um Delaware Flip und US-HoldCo in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `direktinvestment-spv-club-deal` | Wenn es um Direktinvestment, SPV oder Club Deal in Venture Capital Geber geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `document-version-control` | Wenn es um Dokumenten- und Versionskontrolle in Venture Capital Geber geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drag-tag-rofr-transfer` | Wenn es um Drag, Tag, ROFR und Transfers in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `esg-impact-venture` | Wenn es um ESG, Impact und Mission in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `euveca-eltif-und-vc-fonds` | Wenn es um EuVECA, ELTIF und VC-Fonds in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `exit-readiness` | Wenn es um Exit Readiness in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fdi-und-fusionskontrolle-bei-minderheit` | Wenn es um FDI und Fusionskontrolle bei Minderheit in Venture Capital Geber geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `financial-model-runway` | Wenn es um Financial Model, Burn und Runway in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fintech-crypto-regulated-target` | Wenn es um FinTech, Crypto und regulierte Targets in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `follow-on-ic-memo` | Wenn es um Follow-on IC Memo in Venture Capital Geber geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `follow-on-reserve-strategy` | Wenn es um Follow-on-Reserve-Strategie in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-ask-response` | Wenn es um Founder Ask Response in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-ip-chain` | Wenn es um Founder-IP und Rechtekette in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-konflikt-und-abberufung` | Wenn es um Founder-Konflikt und Abberufung in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-reference-calls` | Wenn es um Founder Reference Calls in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-update-intake` | Wenn es um Founder-Update Intake in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-update-prompt` | Wenn es um Founder-Update-Anfrage in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `founder-vesting-leaver` | Wenn es um Founder Vesting und Leaver in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `funds-flow-wire` | Wenn es um Funds Flow und Zahlungen in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `gmbh-kapitalerhoehung-notar-shareholder-agreement-investment` | Wenn es um GmbH-Kapitalerhöhung und Notar in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grants-forschungszulage` | Wenn es um Fördermittel und Forschungszulage in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gwg-ubo-transparenzregister` | Wenn es um UBO und Transparenzregister in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `health-medtech-biotech` | Wenn es um Health, MedTech und Biotech in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ic-memo-generator` | Wenn es um Investment Committee Memo in Venture Capital Geber geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `information-rights-reporting` | Wenn es um Information Rights und Reporting in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `inside-information-und-marktmissbrauch` | Wenn es um Inside Information und Marktmissbrauch in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvency-runway-crisis` | Wenn es um Insolvenz, Runway und Krise in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `international-eu-schweiz` | Wenn es um EU und Schweiz Cross-Border in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `investment-committee-minutes-task-reminder-system` | Wenn es um Investment Committee Minutes in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `investor-reporting-ans-family-office` | Wenn es um Investor Reporting ans Family Office in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `investorprofil-family-office-fonds-angel` | Wenn es um Investorprofil: Family Office, Fonds, Angel in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kagb-aif-bafin-grenzcheck` | Wenn es um KAGB/AIF/BaFin-Grenzcheck in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Kaltstart und Fallrouting in Venture Capital Geber geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-vc-cockpit` | Wenn es um VC-Kaltstart-Cockpit in Venture Capital Geber geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kpi-pack-standard` | Wenn es um KPI-Pack Standard in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kyc-aml-sanctions-investor` | Wenn es um KYC, AML und Sanktionen in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `legitime-deal-taktik` | Wenn es um Legitime Deal-Taktik und rote Linien in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `liquidation-preference-waterfall-anti-dilution-down` | Wenn es um Liquidation Preference und Waterfall in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ma-sale-startup` | Wenn es um M&A Sale Startup in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `market-sizing-commercial-thesis` | Wenn es um Market Sizing und Commercial Thesis in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mfn-side-letter` | Wenn es um MFN und Side Letter in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nda-und-confidentiality-vc` | Wenn es um NDA und Vertraulichkeit im VC-Deal in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notar-register-closing` | Wenn es um Notar, Register und Closing in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `open-source-software-dd` | Wenn es um Open Source und Software-DD in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-generator-pack` | Wenn es um Output Generator Pack in Venture Capital Geber geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `pass-email-und-feedback` | Wenn es um Absage und Feedback in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pipeline-crm-kanban` | Wenn es um Pipeline-CRM und Kanban in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pitchdeck-und-teaser-analyse` | Wenn es um Pitchdeck- und Teaser-Analyse in Venture Capital Geber geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `portfolio-dashboard` | Wenn es um Portfolio Dashboard in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `portfolio-rechtsabteilung-data-down` | Wenn es um Portfolio Legal Calendar in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pre-seed-seed-runde` | Wenn es um Pre-Seed und Seed Runde in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `press-reputation-social-media` | Wenn es um Presse, Reputation und Social Media in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pro-rata-super-pro-rata` | Wenn es um Pro rata und Super pro rata in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `protective-provisions-veto` | Wenn es um Protective Provisions und Vetorechte in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `public-funding-state-aid` | Wenn es um Public Funding und Beihilfe in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `qualitygate-no-hallucinations` | Wenn es um Qualitygate gegen Halluzinationen in Venture Capital Geber geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quarterly-portfolio-recap` | Wenn es um Quarterly Portfolio Recap in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-data-room-update-und-insider-governance` | Wenn es um Rechtsabteilung: Data Room Update und Insider-Governance in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `rechtsabteilung-down-round-und-anti-dilution` | Wenn es um Rechtsabteilung: Down Round und Anti-Dilution in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `rechtsabteilung-founder-vesting-und-leaver-streit` | Wenn es um Rechtsabteilung: Founder Vesting und Leaver-Streit in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `rechtsabteilung-investor-consent-matters-ohne-organblockade` | Wenn es um Rechtsabteilung: Investor Consent Matters ohne Organblockade in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `rechtsabteilung-safe-wandeldarlehen-rookie-modus-begriffe` | Wenn es um Rechtsabteilung: SAFE und Wandeldarlehen nach deutschem Recht in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `relationship-map` | Wenn es um Relationship Map in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rookie-modus-vc-begriffe` | Wenn es um Rookie-Modus Venture Capital in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `runway-und-milestone-monitor` | Wenn es um Runway und Milestone Monitor in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `safe-kiss-deutsche-adaption` | Wenn es um SAFE/KISS deutsche Adaption in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `scout-advisor-agreements-angelsyndikat-lead-investor` | Wenn es um Scout- und Advisor Agreements in Venture Capital Geber geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `secondary-sale` | Wenn es um Secondary Sale in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `series-a-term-sheet` | Wenn es um Series-A-Term-Sheet in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `series-b-und-growth-runde` | Wenn es um Series B und Growth-Runde in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `shareholder-agreement-investment-agreement` | Wenn es um SHA und Investment Agreement in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `shareholder-dispute` | Wenn es um Gesellschafterstreit im Portfolio in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `swiss-ag-startup-investment` | Wenn es um Schweizer Startup-Investment in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `task-reminder-system` | Wenn es um Task- und Reminder-System in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tax-investor-portfolio` | Wenn es um Steuerliche Investor- und Portfoliothemen in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tech-product-dd-fuer-vcs` | Wenn es um Tech/Product-DD für VCs in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `troubled-portfolio-rescue` | Wenn es um Troubled Portfolio Rescue in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `uk-us-deal-docs-verstehen` | Wenn es um UK/US Deal Docs verstehen in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `us-securities-accredited-investor` | Wenn es um US Securities und Accredited Investor in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `valuation-pre-post-money` | Wenn es um Pre-Money, Post-Money und Bewertung in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vc-097-tokenisierung-digital-shares` | Wenn es um Vc 097 Tokenisierung Digital Shares in Venture Capital Geber geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `venture-debt` | Wenn es um Venture Debt in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vsop-esop-und-mitarbeiterbeteiligung` | Wenn es um VSOP/ESOP und Mitarbeiterbeteiligung in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wandeldarlehen-deutschland` | Wenn es um Wandeldarlehen Deutschland in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `watchlist-und-wiedervorlage` | Wenn es um Watchlist und Wiedervorlage in Venture Capital Geber geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 12 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Venture-Capital-Investoren: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`due-diligence-und-sektor-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/due-diligence-und-sektor-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Due Diligence und Sektor: Regulatorische, technische und rechtliche Prüfung auf Zielunternehmen und Sektor zuschneiden. Vollständige Fachanweisungen und lokale Vorlagen werden geziel... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/due-diligence-und-sektor-bearbeiten/SKILL.md) |
+| [`finanzierungsvertrag-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/finanzierungsvertrag-und-vollzug-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Finanzierungsvertrag und Vollzug: Finanzierung, Wandlung, Beteiligungsvertrag, Beschluss und Vollzug bis zur verwendbaren Fassung führen. Vollständige Fachanweisungen und lokale Vorl... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/finanzierungsvertrag-und-vollzug-bearbeiten/SKILL.md) |
+| [`fonds-regulierung-und-ausland-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/fonds-regulierung-und-ausland-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Fonds Regulierung und Ausland: Fondsstruktur, Aufsicht, Identität, Investitionsprüfung, Steuern und Auslandsbezug getrennt bearbeiten. Vollständige Fachanweisungen und lokale Vorlage... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/fonds-regulierung-und-ausland-bearbeiten/SKILL.md) |
+| [`founder-team-und-rechte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/founder-team-und-rechte-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Founder Team und Rechte: Team, Rechtekette, Beteiligung, Vesting, Ausscheiden und Konflikte mit Gesellschaftsrecht verbinden. Vollständige Fachanweisungen und lokale Vorlagen werden... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/founder-team-und-rechte-bearbeiten/SKILL.md) |
+| [`governance-und-portfoliosteuerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/governance-und-portfoliosteuerung-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Governance und Portfoliosteuerung: Governance, Information, Zustimmung, Reporting und Fortschritt auf die tatsächliche Beteiligung abstimmen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/governance-und-portfoliosteuerung-bearbeiten/SKILL.md) |
+| [`investitionsentscheidung-und-kommunikation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsentscheidung-und-kommunikation-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Investitionsentscheidung und Kommunikation: Entscheidungsvorlage, Beschluss, Kommunikation und offene Aufgaben aus demselben belegten Stand erstellen. Vollständige Fachanweisungen un... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsentscheidung-und-kommunikation-bearbeiten/SKILL.md) |
+| [`investitionsziel-und-auswahl-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsziel-und-auswahl-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Investitionsziel und Auswahl: Investorenprofil, Geschäftsidee, Auswahl und Marktannahmen anhand der Unterlagen bewerten. Vollständige Fachanweisungen und lokale Vorlagen werden gezie... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/investitionsziel-und-auswahl-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Venture Capital Geber ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/kaltstart-triage/SKILL.md) | Für Kaltstart und Fallrouting: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/kaltstart-triage/SKILL.md) |
+| [`krise-exit-und-streit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/krise-exit-und-streit-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Krise Exit und Streit: Krise, Folgefinanzierung, Exit, Übertragung und Gesellschafterstreit mit den Rechten der Beteiligten prüfen. Vollständige Fachanweisungen und lokale Vorlagen w... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/krise-exit-und-streit-bearbeiten/SKILL.md) |
+| [`runde-bewertung-und-beteiligung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/runde-bewertung-und-beteiligung-bearbeiten/SKILL.md) | Für M&A, Beteiligungs- und Finanzierungstransaktionen: Runde Bewertung und Beteiligung: Runde, Bewertung, Anteil, Verwässerung und Erlösverteilung rechnerisch und vertraglich abstimmen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=venture-capital-geber/skills/runde-bewertung-und-beteiligung-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Verbinden Sie Aussagen zur Produktreife mit belastbaren Systemtests, Rollen und geltenden Pflichtenterminen. Ein ISO-Zertifikat des Dienstleisters darf keine unbeschränkte Garantie des Startups begründen.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

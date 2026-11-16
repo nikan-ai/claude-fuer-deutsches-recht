@@ -1,6 +1,6 @@
 ---
 name: kommandocenter
-description: "Wenn es um Zwangsvollstreckung – Kommandocenter in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Zwangsvollstreckung – Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Zwangsvollstreckung – Kommandocenter
@@ -19,10 +19,6 @@ description: "Wenn es um Zwangsvollstreckung – Kommandocenter in Zwangsvollstr
 2. Welches Vollstreckungsziel wird verfolgt (Geld, Räumung, Herausgabe, Handlung)?
 3. Sind Vermögenswerte bekannt (Konto, Arbeitgeber, Grundbesitz)?
 4. Ist der Schuldner in Insolvenz — § 89 InsO Vollstreckungsverbot prüfen?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -49,26 +45,26 @@ Niemand darf vollstrecken, ohne **alle drei** Säulen geprüft zu haben:
 2. **Klausel** § 724 ZPO – vollstreckbare Ausfertigung mit Klauselvermerk (Ausnahme: Vollstreckungsbescheid, der die Klausel von Gesetzes wegen trägt § 796 Abs. 1 ZPO; Tabellenauszug § 201 Abs. 2 InsO).
 3. **Zustellung** § 750 ZPO – Titel mit Klausel ist dem Schuldner vor der Vollstreckung zugestellt worden (Wartefrist 2 Wochen für Klauselzustellung bei Klauseln nach §§ 726 ff. ZPO).
 
-Wenn auch nur eine Säule fehlt: **STOPP**. Der Skill bricht die Vollstreckung ab und ruft `zv-titel-klausel-zustellung`.
+Wenn auch nur eine Säule fehlt: **STOPP**. Der Skill bricht die Vollstreckung ab und ruft `titel-klausel-zustellung`.
 
 ## Routing-Tabelle
 
 | Wenn vorhanden / gewünscht | Lade Skill |
 | --- | --- |
 | Forderung noch ohne Titel | `forderungsmanagement-klagewerkstatt/inkasso-zahlungsklage-ersteller` (anderes Plugin) |
-| Antrag auf Mahnbescheid | `zv-mahnbescheid-online` |
-| Mahnbescheid liegt vor, kein Widerspruch | `zv-vollstreckungsbescheid-folge` |
-| Vollstreckungsbescheid in Hand, Konto bekannt | `zv-pfueb-bank` |
-| Lohnforderung gepfändet werden soll | `zv-pfueb-arbeitsentgelt` |
-| Forderung gegen Mieter, Finanzamt, Krankenkasse | `zv-pfueb-mieter-finanzamt` |
-| Kein Vermögen bekannt | `zv-vermoegensauskunft-gv` oder `zv-kontensuche-drittschuldner` |
-| Notarielle Urkunde mit Grundschuld vorhanden | `zv-notarielle-urkunde-grundschuld` |
-| Vollstreckung in Immobilie | `zv-zvg-antrag-glaeubiger` |
-| Tabellenauszug aus aufgehobenem oder beendetem Insolvenzverfahren | `zv-tabellenauszug-201-inso` |
-| Mobile Pfändung vor Ort | `zv-mobiliar-gv-auftrag` |
-| Räumung von Wohn- oder Geschäftsraum | `zv-raeumung-885` |
-| Schuldnerseite: Vollstreckung wehren | `zv-abwehr-schuldner` |
-| Pfändungsfreigrenze berechnen | `zv-pfaendungstabelle-2025` |
+| Antrag auf Mahnbescheid | `mahnbescheid-online-mobiliar-gv` |
+| Mahnbescheid liegt vor, kein Widerspruch | `vollstreckungsbescheid-zv` |
+| Vollstreckungsbescheid in Hand, Konto bekannt | `pfueb-bank` |
+| Lohnforderung gepfändet werden soll | `pfueb-arbeitsentgelt` |
+| Forderung gegen Mieter, Finanzamt, Krankenkasse | `pfueb-802l-arbeit` |
+| Kein Vermögen bekannt | `vermoegensauskunft-gv` oder `kontensuche-drittschuldner` |
+| Notarielle Urkunde mit Grundschuld vorhanden | `notarielle-urkunde-grundschuld` |
+| Vollstreckung in Immobilie | `zvg-antrag-glaeubiger` |
+| Tabellenauszug aus aufgehobenem oder beendetem Insolvenzverfahren | `tabellenauszug-201-inso` |
+| Mobile Pfändung vor Ort | `mobiliar-gv-auftrag` |
+| Räumung von Wohn- oder Geschäftsraum | `raeumung-tabellenauszug-inso` |
+| Schuldnerseite: Vollstreckung wehren | `abwehr-schuldner` |
+| Pfändungsfreigrenze berechnen | `pfaendungstabelle-pfueb-arbeitsentgelt` |
 
 ## Reform-Stand 2026/2027 (ZVollstrDigitG)
 
@@ -79,15 +75,37 @@ Das Gesetz zur weiteren Digitalisierung der Zwangsvollstreckung (BGBl. 2026 I Nr
 3. **Pflicht für Kreditinstitute**: ab 1.6.2027 müssen Banken einen sicheren elektronischen Übermittlungsweg eröffnen nach Paragraf 173 Absatz 2 Nummer 1 ZPO n.F.; vorher freiwillig.
 4. **Paragraf 840 ZPO Drittschuldnererklärung**: Postzustellung zusätzlich zur Gerichtsvollzieherzustellung und elektronischen Zustellung.
 
-Stand 27.6.2026: Das Gesetz ist im BGBl. 2026 I Nr. 152 verkündet. Für operative Details `zv-elektronische-zustellung-2027` und `zv-pfueb-bank` nutzen.
+Das Gesetz vom 20. Mai 2026 wurde am 26. Mai 2026 im BGBl. 2026 I Nr. 152 verkündet. Für operative Details `elektronische-zustellung-eu` und `pfueb-bank` nutzen.
 
 ## Qualitätsgates
 
 - Niemals Folge-Skill laden, wenn eine der drei Säulen rot ist.
 - Niemals Mobiliar- oder Forderungspfändung empfehlen, wenn Schuldner in Insolvenz – dann § 89 InsO Vollstreckungsverbot greift.
 - Niemals Sperrfrist § 802d ZPO (zwei Jahre Vermögensauskunft) ignorieren.
-- Bei Verbraucher: stets Pfändungsfreigrenze nach Tabelle 1.7.2025 mitdenken.
+- Bei einer natürlichen Person die seit 1. Juli 2026 geltende Pfändungstabelle, gesetzliche Unterhaltspflichten und gerichtliche Abweichungen erfassen; P-Konto-Schutz getrennt nach Paragrafen 899 ff. ZPO prüfen.
 
 ## Arbeitsstil
 
 Disziplinarisch, klar, ohne juristisches Wortgeklingel. Wenn Säulen wackeln, ist das die einzige Botschaft. Wenn der Schuldner offensichtlich vermögenslos ist, sagt der Skill das frühzeitig und schickt nicht in eine teure Mobiliarvollstreckung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Zwangsvollstreckung:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

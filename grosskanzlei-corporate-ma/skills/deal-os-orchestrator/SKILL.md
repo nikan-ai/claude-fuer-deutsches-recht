@@ -1,6 +1,6 @@
 ---
 name: deal-os-orchestrator
-description: "Wenn es um Deal Os Orchestrator in Großkanzlei Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Deal Os Orchestrator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Deal-OS-Orchestrator für große Corporate- und M&A-Mandate: steuert Deal-Phase, Rolle, Fristen, Workstreams, Risikoampeln, Padlet-Canvas, Tabellenmatrix, Junior-Fuehrung und naechste Deliverables aus einer Hand.
@@ -21,7 +21,6 @@ description: "Wenn es um Deal Os Orchestrator in Großkanzlei Corporate/M&A geht
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
 - **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Deal-OS Orchestrator` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Rechtsprechungsanker:** BGH, 21.04.1997 - II ZR 175/95 für Organpflichten und Informationsgrundlage; BGH, 20.11.2018 - II ZR 12/17 für Listen- und Legitimationsfragen. Weitere Entscheidungen nur mit frei prüfbarer Quelle.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
@@ -66,3 +65,23 @@ Vor Ausgabe immer prüfen:
 - Sind Annahmen von gesicherten Tatsachen getrennt?
 - Gibt es mindestens einen konkreten naechsten Schritt?
 - Sind Tabellen, Klauseln oder Memos so formatiert, dass ein Deal-Team sofort weiterarbeiten kann?
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für M&A, Beteiligungs- und Finanzierungstransaktionen:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

@@ -1,7 +1,9 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Kaltstart Triage in Arbeitszeugnis-Analyse geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Arbeitszeugnis-Analyse."
 ---
+
+# Hochgeladenes Arbeitszeugnis einordnen und prüfen
 
 ## Wenn nur ein Zeugnis hochgeladen wird
 
@@ -57,7 +59,6 @@ Wähle einen dieser Wege und sage dem Nutzer, welchen Weg du nimmst.
 - **Paragraf 109 GewO:** Anspruch auf einfaches oder qualifiziertes Zeugnis; bei qualifiziertem Zeugnis Angaben zu Leistung und Verhalten.
 - **Paragraf 16 BBiG:** Ausbildungszeugnis; auf Verlangen auch Angaben zu Verhalten und Leistung.
 - **Wahrheit vor Wohlwollen:** Ein gutes Zeugnis darf nicht unwahr sein. Wohlwollen steuert die Ausdrucksweise, ersetzt aber keine Tatsachen.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Geheimcode:** Nicht jede unglückliche Formulierung ist automatisch ein unzulässiger Code. Prüfe den objektiven Empfängerhorizont und den Gesamtzusammenhang.
 - **Keine Mathematik-Illusion:** Ampel, Note und Drift sind Arbeitsinstrumente. Die Ausgabe muss als begründete Spanne erscheinen, nicht als Scheingenauigkeit.
@@ -125,7 +126,7 @@ Für Schulung und Regression eignet sich die Arbeitsakte `arbeitszeugnis-analyse
 | **BAG, Urt. v. 20.02.2001 - 9 AZR 44/00** | Beginn der staendigen Linie: kein Anspruch auf Schlussformel mit Dank und guten Wuenschen; Fehlen kein unzulaessiges Geheimzeichen. | bundesarbeitsgericht.de / dejure.org |
 | **BAG, Urt. v. 11.12.2012 - 9 AZR 227/11** | Kein Anspruch auf Dank/Wuensche; bei unzufriedener Mandantschaft mit erteilter Schlussformel ist nur ein Zeugnis OHNE Schlussformel einklagbar - keine Umformulierung. | bundesarbeitsgericht.de / dejure.org |
 | **BAG, Urt. v. 25.01.2022 - 9 AZR 146/21** | Bestaetigung der Linie; Abwaegung mit Meinungsfreiheit des Arbeitgebers (Art. 5 I GG). | bundesarbeitsgericht.de / dejure.org |
-| **BAG, Urt. v. 06.06.2023 - 9 AZR 272/22** | Massregelungsverbot $ 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in spaeterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswuensche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Versäumnisurt. v. 06.06.2023 - 9 AZR 272/22** | Maßregelungsverbot Paragraf 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in späterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswünsche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
 
 
 ## Sofortstart und Rueckfrage-Disziplin
@@ -137,3 +138,23 @@ Für Schulung und Regression eignet sich die Arbeitsakte `arbeitszeugnis-analyse
 3. **Hoechstens eine Rueckfrage**, und nur bei echtem Verstaendnisblocker (Text unleserlich, zwei Zeugnisse vermischt, Sprache unklar). Mehrere offene Punkte in **eine einzige gebuendelte Rueckfrage** packen - niemals seriell nachfragen.
 4. **Wuenschefragen ans Ende.** Ob der Nutzer auch ein Aufforderungsschreiben oder eine Klagestrategie will, wird nicht vorab gefragt, sondern am Schluss der Analyse als Option angeboten ("Auf Wunsch erstelle ich daraus das Aufforderungsschreiben.").
 5. **Rollenvermutung:** Ohne anderslautende Angabe wird angenommen, dass der Einsender die beurteilte Person ist (Arbeitnehmerperspektive).
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Arbeitszeugnisrecht:** Wie wird aus dem vorhandenen Material ein für den Empfänger verwendbares Ergebnis?
+
+**Erste Ansicht:** Zeige die kurze Verarbeitungskette von Eingangsdatei über konkrete Änderung bis zum Ergebnis. Bei Texten nutze eine verständliche Vorher-nachher-Ansicht; bei Dokumentpaketen einen nachvollziehbaren Anlagen- oder Versionsstand.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Absatz, Datei oder Zielgruppe soll genau die betroffene Ausgabe fortschreiben. Zeige eine echte Vorschau nur, wenn die Datei tatsächlich erzeugt und geöffnet wurde.
+
+**Datengrundlage:** Eingangsdatei und Fassung, Empfänger, gewünschtes Ergebnis, Änderung, Beleg oder Vorlage und tatsächlicher Exportstatus. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** die fertige angeforderte Datei oder, bei fehlendem Export, ihr vollständig verwendbarer Inhalt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

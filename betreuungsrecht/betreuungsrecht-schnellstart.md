@@ -1,68 +1,46 @@
-Wenn du das hier öffnest, willst du eine Betreuungssache nach Erforderlichkeit, Aufgabenbereich, Wunsch, Genehmigung, Vermögensschutz und Gerichtsschritt ordnen.
+# 1. Betreuung aus Bedarf, Wunsch und Nachweis bearbeiten
 
-# Betreuungsrecht — Schnellstart
+Kläre rechtliche Unterstützung, Vertretungsbefugnis und Vermögensstand; erstelle das verlangte Verzeichnis, Gerichtsschreiben oder die Beratung aus Beschlüssen, Vollmachten und Belegen. Wünsche und erforderliche Unterstützung bestimmen nach Paragraf 1821 BGB das Vorgehen.
 
-Ziel: Betreuungsrechtliche Skills für ehrenamtliche Familienbetreuer, Berufs- und Vereinsbetreuer: Kaltstart, Scan-Akte, Kalender, Gerichtskommunikation, Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Wunschermittlung, Kontoanalyse und Schutzplan nach BtOG und BGB. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Bei Angehörigenbetreuung verlangt BVerfG, 31.03.2021, 1 BvR 413/20, konkrete Eignungsgründe und Prüfung unterstützender Hilfen; kein absoluter Vorrang. Altfall am heutigen Recht messen; Nachweis unten.
 
-## 1. Schnellmodus
+Material zuerst lesen; Angehörigeneigenschaft belegt keine Vertretungsmacht. Ohne Auftrag passende Dokumentwege anbieten, sonst direkt ausarbeiten. Nur entscheidende Lücken fragen. Neue Angaben zu Wohnwunsch oder Erbschaft ändern Alternativenprüfung oder Stichtagsbestand und anschließend das Dokument; Bekanntes nicht erneut erheben.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+## 1.1 Unterstützung vor Stellvertretung
 
-## 2. Direktstart
+Prüfe bei Bestellung oder Erweiterung den konkreten rechtlichen Unterstützungsbedarf und andere Hilfen nach [Paragraf 1814 BGB](https://www.gesetze-im-internet.de/bgb/__1814.html). Eine Diagnose allein beschreibt noch keinen Aufgabenbereich. Trenne tatsächliche Alltagshilfe von rechtlicher Vertretung und berücksichtige vorhandene Vollmachten. Eine Betreuung darf nicht allein aus Bequemlichkeit für Dritte erweitert werden.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Nach [Paragraf 1821 BGB](https://www.gesetze-im-internet.de/bgb/__1821.html) sind Wünsche festzustellen und rechtliche Selbstbesorgung zu unterstützen; Vertretungsmacht nur soweit erforderlich einsetzen. Unterscheide aktuellen Wunsch, frühere Äußerung und lediglich vermutete Präferenz von Angehörigen. Prüfe eine Abweichung anhand der gesetzlichen Voraussetzungen, nicht anhand eigener Vorstellungen eines vernünftigen Lebens. Dokumentiere Gesprächsinhalt und Quelle, ohne ein Gespräch zu erfinden.
 
-## 3. Kernroute
+Fehlt ein belastbarer Wunsch, frage nach konkreter Äußerung und Verständigungsmöglichkeit. Bearbeite unabhängig gesicherte Angaben vorläufig weiter. Nach der Antwort passe Unterstützungsbedarf, Alternativen und den bestellten Text an. Zeigt sich ein weiterer entscheidender Widerspruch, kläre ihn gezielt nach, ohne beantwortete Fragen zu wiederholen.
 
-1. Person und Verfahren: Betroffener, Betreuer, Vollmacht, Verfahrensstand, Anhörung, Gutachten und Eilbedarf erfassen.
-2. Erforderlichkeit und Aufgabenbereich: Unterstützungsbedarf, andere Hilfen, Wunsch, Einwilligungsfähigkeit und konkrete Angelegenheit trennen.
-3. Entscheidung und Genehmigung: Vertretungsmacht, Ausschluss, Gesundheit, Unterbringung, Wohnung, Vermögen und Grundstücksgeschäft prüfen.
-4. Rechnungs- und Berichtswesen: Vermögensverzeichnis, Belege, Kontobewegungen, Jahresbericht, Vergütung und Fristen nachvollziehbar aufbauen.
-5. Arbeitsprodukt: Antrag, Stellungnahme, Genehmigungsvorlage, Jahresbericht, Vermögensübersicht, Schutzplan oder Gerichtsschreiben erstellen.
-6. Fristen- und Risikoampel: Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen.
+Soll ein gewünschter Angehöriger als Betreuer abgelehnt oder ausgewechselt werden, verlange konkrete Eignungstatsachen und prüfe Hilfen für den betroffenen Aufgabenbereich: BVerfG, Beschluss vom 31.03.2021 - 1 BvR 413/20, Randnummern 34 bis 35 ([amtliche Gründe](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210331_1bvr041320.html)). Die bloß bessere Eignung eines Fremden genügt nicht; bei erheblichen Gefahren durch fehlende Eignung kann ein Wechsel geboten sein. Die Entscheidung zum früheren Recht ist heute mit Paragrafen 1816, 1817 und 1868 BGB anzuwenden, nicht als uneingeschränkter Angehörigenvorrang.
 
-## 4. Fallkarte
+BGH, Beschluss vom 29.07.2026 – XII ZB 171/26, Rn. 5–11: Auf Betreuerauswahl beschränkte Beschwerde greift die Betreuung selbst nicht an. Ein bestellter Verfahrenspfleger bleibt bis zur Aufhebung seiner Bestellung zu beteiligen, auch bei anwaltlicher Vertretung. Vor einer Anhörungsrüge Ladung, Protokoll und Aufhebungsbeschluss prüfen; keine automatische Gesamtaufhebung.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 1814 und Paragraf 1815; BGB Paragraf 1821; BGB Paragraf 1823 und Paragraf 1824 |
-| Rechtsprechung | BGH, Beschluss vom 06.07.2011 - XII ZB 80/11; BVerfG, Beschluss vom 31.03.2021 - 1 BvR 413/20 |
-| Tatbestand | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen |
-| Beweislast | Gericht ermittelt von Amts wegen; Betreuer und Behörde dokumentieren Bedarf, Wunsch, mildere Hilfe, Vertretungsmacht und Genehmigungstatsachen |
-| Rechtsfolge | Aufgabenmatrix, Gerichtsantrag, Genehmigungsvorlage, Vermögensübersicht, Jahresbericht oder Schutzplan |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.2 Konkrete Handlung und Genehmigung
 
-## 5. Einsatzfelder
+Vergleiche die geplante Entscheidung mit dem Beschluss: Gesundheit, Wohnung, Vermögen oder anderer Aufgabenbereich. Vertretungsmacht, Einwilligungsfähigkeit und gerichtliche Genehmigung sind verschiedene Fragen. Ein Vermögensauftrag gibt nicht automatisch jede gesundheitsbezogene Befugnis. Bei Eilrisiken kläre die konkret gefährdete Person oder Rechtsposition und den gesetzlich passenden Eilweg.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Fristen- und Risikoampel | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Jahresbericht: Tatbestandsmerkmale, Beweisfragen und Beleglage | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Kalender, Reminder und Fristenmanagement | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Kontodaten- und Vertragsverdacht-Prüfung | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vermögensverzeichnis: Fristen, Form, Zuständigkeit und Rechtsweg | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Zwangsbehandlung: Beweislast, Darlegungslast und Substantiierung | Angelegenheit, Erforderlichkeit, Wunsch, Vertretungsmacht, Genehmigung, Beleg und Gerichtsschritt konkret bestimmen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Prüfe Genehmigungen für die beabsichtigte Maßnahme nach aktuellen amtlichen Normen; übertrage keine alten Paragrafenzuordnungen. Benenne benötigte Tatsachen, Alternativen, Wunsch und Entscheidungsdruck. Ein bereits vorbereiteter Vertrag ist keine gerichtliche Genehmigung. Kündigung, Auszahlung oder medizinische Zustimmung niemals als erteilt darstellen, solange lediglich ein Entwurf vorliegt.
 
-## 6. Anker
+## 1.3 Vermögensverzeichnis mit richtigem Stichtag
 
-- BGB Paragraf 1814 und Paragraf 1815: Voraussetzungen, Erforderlichkeit und konkrete Aufgabenbereiche der Betreuung.
-- BGB Paragraf 1821: Pflichten des Betreuers, Wunschbefolgung und unterstützte Entscheidungsfindung.
-- BGB Paragraf 1823 und Paragraf 1824: Vertretungsmacht und gesetzliche Ausschlüsse.
-- BGB Paragraf 1829 bis Paragraf 1834: ärztliche Maßnahmen, Sterilisation, Unterbringung und freiheitsentziehende Maßnahmen.
-- Paragraf 1821 Abs. 1 BGB — Wunschbindung auch in Vermögensfragen: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 1823 BGB — Vertretungsmacht: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 1835 BGB — Aufwendungsersatz: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 1838 BGB — Vermögenssorge: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH, Beschluss vom 06.07.2011 - XII ZB 80/11: Erforderlichkeit verlangt tatrichterliche Feststellungen zum objektiven Betreuungsbedarf und zu den konkret benötigten Aufgabenbereichen in der gegenwärtigen Lebenssituation.
-- BVerfG, Beschluss vom 31.03.2021 - 1 BvR 413/20: Das Selbstbestimmungsrecht prägt die Betreuerauswahl; auch ein aus Außensicht unvernünftiger Wunsch darf nicht allein deshalb übergangen werden.
+[Paragraf 1835 BGB](https://www.gesetze-im-internet.de/bgb/__1835.html) regelt das Vermögensverzeichnis bei Vermögensverwaltung. Maßgeblich ist der Zeitpunkt der Bestellung. Erfasse Vermögenspositionen, Verbindlichkeiten sowie regelmäßige Einnahmen und Ausgaben getrennt und belege die Angaben. Später hinzugekommenes Vermögen ist als Ergänzung zu behandeln, nicht rückwirkend als Anfangsbestand. Ein aktueller Kontostand darf den Bestellungsstichtag nicht stillschweigend ersetzen.
 
-## 7. Antwortform
+Rechne Konten, Bargeld, Forderungen, Eigentumsanteile und Schulden nachvollziehbar zusammen. Kontoauszug und Sparbuch können dieselbe Position belegen; vermeide Doppelzählungen. Monatliche Rente ist kein zusätzlicher Vermögensbestand, sofern sie bereits im Kontosaldo enthalten ist. Unsicherer Eigentumsanteil oder fehlender Beleg bleibt sichtbar. Eine Richtigkeits- und Vollständigkeitsversicherung ist als vom Betreuer zu prüfender Erklärungstext vorzubereiten, nicht als bereits abgegeben zu behaupten.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Aufgabenmatrix: Angelegenheit, Unterstützungsbedarf, vorhandene Hilfe, Wunsch, Vertretungsbedarf, Genehmigung und nächster Schritt; Gerichtsantrag: Anlass, konkrete Gefahr oder Bedarf, Tatsachenbelege, beantragter Aufgabenbereich, mildere Mittel und Eilbedürftigkeit.
+Fehlt der Auszug zum Bestellungsstichtag, fordere genau diesen Zeitraum an. Nach Eingang gleiche Saldo und Bewegungen ab, korrigiere die betroffenen Summen und vervollständige das Verzeichnis. Ein heutiger Kontostand oder eine Schätzung darf nicht als belegtes Anfangsvermögen erscheinen.
 
-## 8. Stop
+## 1.4 Bericht und Abschluss
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Trenne Anfangsverzeichnis, Rechnungslegung nach Paragraf 1865 BGB, persönlichen Bericht nach Paragraf 1863 BGB und Aufwendungs- oder Vergütungsantrag. Für den angeforderten Zeitraum ordne Maßnahmen, Kontakte, Wünsche, Veränderungen und noch erforderliche Betreuung den tatsächlichen Belegen zu. Keine standardisierte positive Entwicklung erfinden. Verweise im Gerichtsschreiben auf die konkret beigefügten oder noch fehlenden Nachweise.
+
+Bei einer entscheidenden Lücke liefere einen gekennzeichneten Teilstand und den konkret benötigten nächsten Beitrag. Nach dessen Eingang aktualisiere Rechnung, Genehmigungsprüfung oder Berichtsabschnitt und arbeite bis zum bestellten Dokument weiter; keine ungefragten Anträge bei bloßem Beratungsauftrag. Quellenstatus und technische Prüfvermerke gesondert halten, nicht in das Gerichtsschreiben kopieren.
+
+Quellen amtlich und ältere Entscheidungen am heutigen Recht prüfen. Referenzen sind optional. Vollständige Sätze, dezimale Gliederung, Times New Roman 11 pt beim Export; sonst Text und Tabellen ohne erfundene Dateilinks. Ungelesene Unterlagen benennen; Aktenbestand beweist keine Vollständigkeit. Externe Handlungen nur mit Befugnis und Freigabe.
+
+Altbelege: Erstelle Excel mit Buchungen, Belegfundstellen, Kontensalden und offenen Fragen. Eliminiere interne Umbuchungen; Bargeldabhebung ist kein Verbrauchsnachweis. Entwirf je Befund das passende Anschreiben.
+
+
+Bei nicht autorisierten Zahlungen Bankanzeige nicht bis zum Abschluss der Abrechnung verschieben. [EuGH, 15.10.2026, C-70/25](https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE), Rn. 31–42, 45–47, 52: unverzügliche Erstattung trotz Vorwurfs grober Fahrlässigkeit; Regress gesondert prüfen. Ausnahme: begründeter Betrugsverdacht gegen den Zahler mit schriftlicher Behördenmitteilung. Betreuung beweist keine fehlende Zustimmung; Erstattung nicht doppelt buchen.

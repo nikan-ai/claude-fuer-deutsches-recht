@@ -5,20 +5,68 @@
 
 Word Legal AI for German Lawyers: Kaltstart, Kanzleistil, makrofreies Word-Finish, Verträge, Schriftsätze, Memos, Redlines, Klauselbibliothek, Defensive Drafting, Term Sheet, DE-EN Bilingual, US/UK Legal Writing und englische Verträge nach deutschem Recht.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`word-legal-ai-plugin-and-skill-for-german-lawyers.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/word-legal-ai-plugin-and-skill-for-german-lawyers.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/word-legal-ai-plugin-and-skill-for-german-lawyers.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/word-legal-ai-plugin-and-skill-for-german-lawyers.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/word-legal-ai-plugin-and-skill-for-german-lawyers.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Word Legal AI Plugin and Skill for German Lawyers:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`word-legal-ai-plugin-and-skill-for-german-lawyers.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/word-legal-ai-plugin-and-skill-for-german-lawyers.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md" download><code>word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md" download><code>word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Drafting-Werkstatt — Asset-Deal / SPV / Grundstück Volkenrath Energie SE (Share-Deal und Pivot): [Gesamt-PDF](../testakten/drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben/gesamt-pdf/drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben_gesamt.pdf), [`testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben.zip), [`testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben-einzelpdfs.zip); Falkenried & Partner mbB — Managementakte Q2/2026: [Gesamt-PDF](../testakten/kanzlei-management-falkenried-partnerkreis-q2-2026/gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf), [`testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip), [`testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip); Urheberrecht Musik-Songstreit Auerbach: [Gesamt-PDF](../testakten/urheberrecht-musik-ki-songstreit-auerbach/gesamt-pdf/urheberrecht-musik-ki-songstreit-auerbach_gesamt.pdf), [`testakte-urheberrecht-musik-ki-songstreit-auerbach.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urheberrecht-musik-ki-songstreit-auerbach.zip), [`testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`word-legal-ai-plugin-and-skill-for-german-lawyers.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/word-legal-ai-plugin-and-skill-for-german-lawyers.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/word-legal-ai-plugin-and-skill-for-german-lawyers-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [3 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Drafting-Werkstatt — Asset-Deal / SPV / Grundstück Volkenrath Energie SE (Share-Deal und Pivot)](../testakten/drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben/README.md) | [Gesamt-PDF](../testakten/drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben/gesamt-pdf/drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben_gesamt.pdf) | [`testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben.zip) | [`testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-drafting-werkstatt-asset-deal-spv-grundstueck-volkenrath-energie-share-deal-und-pivot-anwaltsschreiben-einzelpdfs.zip) |
+| [Falkenried & Partner mbB — Managementakte Q2/2026](../testakten/kanzlei-management-falkenried-partnerkreis-q2-2026/README.md) | [Gesamt-PDF](../testakten/kanzlei-management-falkenried-partnerkreis-q2-2026/gesamt-pdf/kanzlei-management-falkenried-partnerkreis-q2-2026_gesamt.pdf) | [`testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026.zip) | [`testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kanzlei-management-falkenried-partnerkreis-q2-2026-einzelpdfs.zip) |
+| [Urheberrecht Musik-Songstreit Auerbach](../testakten/urheberrecht-musik-ki-songstreit-auerbach/README.md) | [Gesamt-PDF](../testakten/urheberrecht-musik-ki-songstreit-auerbach/gesamt-pdf/urheberrecht-musik-ki-songstreit-auerbach_gesamt.pdf) | [`testakte-urheberrecht-musik-ki-songstreit-auerbach.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-urheberrecht-musik-ki-songstreit-auerbach.zip) | [`testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -41,7 +89,7 @@ Juristisches Drafting ist Handwerk. Es lebt von wiederkehrenden Mustern, saubere
 
 Das Plugin enthält bewusst **keinen** Makro-, VBA- oder Word-Automatisierungs-Skill. Es soll beim Schreiben, Prüfen und Finalisieren helfen, nicht zur Office-Programmierung abbiegen.
 
-Das Plugin verzichtet bewusst auf eine fertige Testakte. Es ist ein Werkzeug zum **Üben, Strukturieren und Generieren** – nicht zum Abarbeiten eines vorgegebenen Mandats.
+Das Plugin arbeitet mit Ihren auftragsbezogenen Dokumenten oder den oben verlinkten Übungsakten. Die Übungen sind optional; ein konkreter Schreibauftrag wird nicht durch ein vorgegebenes Testmandat ersetzt.
 
 ## Adressat
 
@@ -127,25 +175,27 @@ Das Plugin gliedert sich in acht Skill-Blöcke:
 - **Standardstil:** Urteilsstil für operative Klauseln und Schriftsätze; Gutachtenstil ausschließlich in internen Memos und Gutachten.
 - **Sprache:** Deutsch, Sie-Form. Englische Begriffe nur, wenn etabliert (Letter of Intent, Term Sheet, Due Diligence, Discovery) und kurz erklärt.
 - **Quellen:** Belegpflicht nach `references/zitierweise.md`. Keine Präjudizienbindungs-Argumentation. Rechtsprechung mit Gericht, Datum, Aktenzeichen, Fundstelle.
-- **Mandantengeheimnis:** § 43a II BRAO, § 203 StGB. Keine Mandantendaten in Tools ohne Auftragsverarbeitungsvertrag.
+- **Mandantengeheimnis:** Paragraf 43a Absatz 2 BRAO und Paragraf 203 StGB beachten. Dienstleisterzugang nach Paragraf 43e BRAO und Datenschutzrolle getrennt prüfen; ein Auftragsverarbeitungsvertrag ist bei Auftragsverarbeitung erforderlich, aber allein keine Freigabe für Geheimniszugang oder Drittlandtransfer.
+
+Quellenstichprobe 16.10.2026: Der amtlich indexierte [Text von Paragraf 43e BRAO](https://www.gesetze-im-internet.de/brao/BJNR005650959.html#BJNR005650959BJNE017100000) bestätigt die eigenständigen Anforderungen an Erforderlichkeit, Auswahl und vertragliche Verschwiegenheit. Der direkte Einzelnormabruf scheiterte; kein konkreter Anbieter und kein vollständiger Datenschutzfall wurden neu geprüft.
 
 ## Installation
 
 | Plugin | Direkt-Download |
 | --- | --- |
-| Word Legal AI Plugin and Skill for German Lawyers (`word-legal-ai-plugin-and-skill-for-german-lawyers`, dieses Plugin) | [word-legal-ai-plugin-and-skill-for-german-lawyers.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/word-legal-ai-plugin-and-skill-for-german-lawyers.zip) |
+| Word Legal AI Plugin and Skill for German Lawyers (`word-legal-ai-plugin-and-skill-for-german-lawyers`, dieses Plugin) | [word-legal-ai-plugin-and-skill-for-german-lawyers.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/word-legal-ai-plugin-and-skill-for-german-lawyers.zip) |
 
 Die URL ist stabil und zeigt immer auf die neueste Version. Alle weiteren Plugins sind unter [Releases · latest](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest) genauso einzeln verfügbar.
 
 ### Installation in der Plugin-Umgebung
 
 1. ZIP herunterladen (Link oben).
-2. Plugin-Menü öffnen, `Install from .zip` wählen und die Datei auswählen.
-3. Fertig. Skills sind sofort verfügbar.
+2. Plugin-Menü öffnen, `Upload plugin` wählen und die Datei auswählen.
+3. Plugin aktivieren und eine neue Aufgabe öffnen; den passenden Skill ausdrücklich auswählen.
 
 ## Verwendung
 
-Aktivieren Sie das Plugin `word-legal-ai-plugin-and-skill-for-german-lawyers` in Plugin-Umgebung oder Cowork. Die Skills sind über ihre Namen direkt ansprechbar (zum Beispiel `definitionen-klauseln-stringent`). Beginnen Sie bei diffusen Schreibaufträgen mit `kaltstart-drafting-kommandocenter`; bei bereits erkennbarem Dokumenttyp mit `orientierung-drafting-triage`. Beide Skills leiten in die passenden Spezial-Skills weiter.
+Aktivieren Sie das Plugin `word-legal-ai-plugin-and-skill-for-german-lawyers` in Plugin-Umgebung oder Cowork. Die Skills sind über ihre Namen direkt ansprechbar (zum Beispiel `definitionen-klauseln-stringent`). Beginnen Sie bei diffusen Schreibaufträgen mit `kaltstart-drafting-kommandocenter`; bei bereits erkennbarem Dokumenttyp mit `orientierung-drafting-partner-kommentar`. Bereits vorliegende Unterlagen werden zuerst ausgewertet; die Fachschritte führen zum bestellten Text, nicht zu einer erneuten allgemeinen Mandatsaufnahme.
 
 ## Lizenz
 
@@ -155,23 +205,29 @@ Apache-2.0 OR MIT. Siehe `LICENSE-APACHE` und `LICENSE-MIT` im Repository-Wurzel
 
 Dieses Plugin folgt der einheitlichen Versionierung des Repositories `claude-fuer-deutsches-recht`. Die aktuelle Version steht in `.claude-plugin/plugin.json`.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **53 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-drafting-kommandocenter`, `kaltstart-risikoampel-und-gegenargumente`, `orientierung-drafting-partner-kommentar`, `workflow-kaltstart-und-routing`, `writing-dokumente-intake`, `writing-einstieg-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `dokumentarchitektur-vertrag-englischer`, `gutachten-internes-ip-rechteuebertragung`, `legal-tatbestand-beweis-und-belege`, `verweis-querverweis-dokument-finish`, `word-dokument-finish-und-layout`, `workflow-unterlagen-lueckenliste`, `writing-unterlagen-luecken` |
-| 3. Prüfung, Anspruch und Subsumtion | `anspruchsgrundlage-rechtsfolge-b2b-klauseln`, `haftungsausschluss-haftungsbegrenzung` |
-| 4. Gestaltung, Strategie und Verhandlung | `agb-konforme-klauseln-305-310-bgb`, `b2b-vs-b2c-klausel-strategie`, `boilerplate-klauseln-definitionen`, `definitionen-klauseln-stringent`, `englischer-vertrag-deutsches-recht`, `klausel-bibliothek-kuendigungsklauseln`, `kuendigungsklauseln-und-vertragsbeendigung`, `term-sheet-vertragsstrafe-bgb`, `vertragsstrafe-339-bgb` |
-| 5. Verfahren, Behörde und Gericht | `anwaltsschreiben-aussergerichtlich`, `bedingungen-aufschiebend-aufloesend-fristen`, `klage-drafting-mandantenmemo-partner`, `klageerwiderung-substantiiertes-bestreiten`, `schriftsatz-ueberarbeiten-richterlesbar` |
-| 6. Ergebnis, Schreiben und Kommunikation | `argumentationsarchitektur-schreiben`, `mandantenmemo-und-partner-update` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `entwurfscheck-aktenabgleich-red-team` |
-| 8. Spezialmodule und Schnittstellen | `bedingungen-aufschiebend`, `bilingual-drafting-cowork-cloud`, `bilinguales-writing-englische-vertraege`, `cowork-cloud-kollaboration-drafting`, `defensive-drafting-deutscher-kanzleistil`, `deutscher-kanzleistil-kalibrieren`, `drafting-prinzipien-finaler-writing`, `englische-vertraege-deutsches-recht`, `finaler-writing-quality-gate`, `force-majeure-geheimhaltung-nda`, `geheimhaltung-nda-vertraulichkeit`, `german-agb-konforme`, `ip-rechteuebertragung-und-lizenzen`, `lawyers-legal`, `partner-kommentar-umsetzen`, `revisions-prozess-ueberarbeiten-richterlesbar`, `stil-und-ton-juristische-texte`, `transparenzgebot-bgb-us-uk`, ... plus 2 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-drafting-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/kaltstart-drafting-kommandocenter/SKILL.md) |
+| 2. Dokumentauftrag, Empfänger und Kanzleistil | [`auftrag-stil-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/auftrag-stil-bearbeiten/SKILL.md) |
+| 3. Verträge und Klauseln ausformulieren | [`vertrag-klausel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/vertrag-klausel-bearbeiten/SKILL.md) |
+| 4. Schriftsätze und anwaltliche Argumentation | [`schriftsatz-argumentation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/schriftsatz-argumentation-bearbeiten/SKILL.md) |
+| 5. Englische und zweisprachige Rechtsdokumente | [`englisch-zweisprachig-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/englisch-zweisprachig-bearbeiten/SKILL.md) |
+| 6. Kommentare, Überarbeitung und Zusammenarbeit | [`revision-kooperation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/revision-kooperation-bearbeiten/SKILL.md) |
+| 7. Layout, Querverweise und geprüfte Endfassung | [`layout-nachweise-endfassung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/layout-nachweise-endfassung-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -179,61 +235,27 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 52 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `agb-konforme-klauseln-305-310-bgb` | Wenn es um AGB-konforme Klauseln nach Paragrafen 305-310 BGB in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anspruchsgrundlage-rechtsfolge-b2b-klauseln` | Wenn es um Anspruchsgrundlage und Rechtsfolgen-Klauseln in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anwaltsschreiben-aussergerichtlich` | Wenn es um Anwaltsschreiben aussergerichtlich in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `argumentationsarchitektur-schreiben` | Wenn es um Argumentationsarchitektur Schreiben in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `b2b-vs-b2c-klausel-strategie` | Wenn es um B2B vs. B2C Klauselstrategie in Word-Workflows für deutsche Juristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `bedingungen-aufschiebend` | Wenn es um Fristen- und Risikoampel in Word-Workflows für deutsche Juristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bedingungen-aufschiebend-aufloesend-fristen` | Wenn es um Bedingungen aufschiebend, aufloesend, Fristen in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bilingual-drafting-cowork-cloud` | Wenn es um Bilinguales Drafting Deutsch-Englisch in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `bilinguales-writing-englische-vertraege` | Wenn es um Bilinguales Legal Writing für deutsche Anwälte in Word-Workflows für deutsche Juristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachwei... |
-| `boilerplate-klauseln-definitionen` | Wenn es um Boilerplate-Klauseln: Katalog mit Mustertexten in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `cowork-cloud-kollaboration-drafting` | Wenn es um Cowork und Cloud-Kollaboration im Drafting in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `defensive-drafting-deutscher-kanzleistil` | Wenn es um Defensive Drafting und Fallen-Erkennung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `definitionen-klauseln-stringent` | Wenn es um Definitionen-Klauseln stringent in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `deutscher-kanzleistil-kalibrieren` | Wenn es um Deutscher Kanzleistil Kalibrieren in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumentarchitektur-vertrag-englischer` | Wenn es um Dokumentarchitektur: Vertrag und Schriftsatz in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `drafting-prinzipien-finaler-writing` | Wenn es um Drafting-Prinzipien: Klarheit, Bestimmtheit, Praezision in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `englische-vertraege-deutsches-recht` | Wenn es um Englische Verträge nach deutschem Recht stil- und risikofest formulieren in Word-Workflows für deutsche Juristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Z... |
-| `englischer-vertrag-deutsches-recht` | Wenn es um Englischer Vertrag nach Deutschem Recht in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `entwurfscheck-aktenabgleich-red-team` | Wenn es um Entwurfscheck, Aktenabgleich und Red Team in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `finaler-writing-quality-gate` | Wenn es um Finaler Writing Quality Gate in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `force-majeure-geheimhaltung-nda` | Wenn es um Force Majeure und Paragraf 313 BGB (Wegfall der Geschäftsgrundlage) in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `geheimhaltung-nda-vertraulichkeit` | Wenn es um Geheimhaltung, NDA und Vertraulichkeit in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `german-agb-konforme` | Wenn es um German: Fristen, Form, Zuständigkeit und Rechtsweg in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gutachten-internes-ip-rechteuebertragung` | Wenn es um Gutachten und internes Memo in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `haftungsausschluss-haftungsbegrenzung` | Wenn es um Haftungsausschluss und Haftungsbegrenzung in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `ip-rechteuebertragung-und-lizenzen` | Wenn es um IP-Rechteübertragung und Lizenzen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kaltstart-drafting-kommandocenter` | Wenn es um Kaltstart-Drafting-Kommandocenter in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-risikoampel-und-gegenargumente` | Wenn es um Kaltstart: Risikoampel, Gegenargumente und Verteidigungslinien in Word-Workflows für deutsche Juristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit... |
-| `klage-drafting-mandantenmemo-partner` | Wenn es um Klage-Drafting nach Paragraf 253 ZPO in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klageerwiderung-substantiiertes-bestreiten` | Wenn es um Klageerwiderung und substantiiertes Bestreiten in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `klausel-bibliothek-kuendigungsklauseln` | Wenn es um Klauselbibliothek-Katalog in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kuendigungsklauseln-und-vertragsbeendigung` | Wenn es um Kündigungsklauseln und Vertragsbeendigung in diesem Spezialbereich geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lawyers-legal` | Wenn es um Lawyers: Dokumentenmatrix, Lückenliste und Nachforderung in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `legal-tatbestand-beweis-und-belege` | Wenn es um Legal: Tatbestandsmerkmale, Beweisfragen und Beleglage in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `mandantenmemo-und-partner-update` | Wenn es um Mandantenmemo und Partner-Update in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `orientierung-drafting-partner-kommentar` | Wenn es um Orientierung und Drafting-Triage in diesem Spezialbereich geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `partner-kommentar-umsetzen` | Wenn es um Partner-Kommentar Umsetzen in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `revisions-prozess-ueberarbeiten-richterlesbar` | Wenn es um Revisions-Prozess: Redlines und Compare-Workflow in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `schriftsatz-ueberarbeiten-richterlesbar` | Wenn es um Schriftsatz Richterlesbar Überarbeiten in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `stil-und-ton-juristische-texte` | Wenn es um Stil und Ton juristischer Texte in diesem Spezialbereich geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `term-sheet-vertragsstrafe-bgb` | Wenn es um Term Sheet zu Vertrag in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `transparenzgebot-bgb-us-uk` | Wenn es um Transparenzgebot nach Paragraf 307 I S. 2 BGB in Word-Workflows für deutsche Juristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten... |
-| `us-uk-legal-writing-fuer-deutsche` | Wenn es um US/UK Legal Writing für Deutsche in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vertragsstrafe-339-bgb` | Wenn es um Vertragsstrafe nach Paragrafen 339-345 BGB in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `verweis-querverweis-dokument-finish` | Wenn es um Verweis- und Querverweis-Technik in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `word-dokument-finish-und-layout` | Wenn es um Word-Dokument Finish und Layout in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `word-stil-ton` | Wenn es um Word: Erstprüfung, Rollenklärung und Mandatsziel in diesem Spezialbereich geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Word-Workflows für deutsche Juristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Word-Workflows für deutsche Juristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `writing-dokumente-intake` | Wenn es um Dokumentenintake in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `writing-einstieg-routing` | Wenn es um Einstieg und Routing in Word-Workflows für deutsche Juristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `writing-unterlagen-luecken` | Wenn es um Unterlagen und Lücken in diesem Spezialbereich geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`auftrag-stil-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/auftrag-stil-bearbeiten/SKILL.md) | Lies Ausgangstext und Auftrag, bestimme Dokumenttyp und Empfänger und übernimm den gewünschten Kanzleistil ohne den Rechtsgehalt zu verändern. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag gelesen und zusamme... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/auftrag-stil-bearbeiten/SKILL.md) |
+| [`englisch-zweisprachig-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/englisch-zweisprachig-bearbeiten/SKILL.md) | Verfasse oder überarbeite englische und zweisprachige Fassungen mit funktionsgerechter Terminologie; deutsches und fremdes Recht nicht gleichsetzen. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag gelesen und z... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/englisch-zweisprachig-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn im Word-Dokumentenworkflow ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition, Version und Ausgabeziel. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-drafting-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/kaltstart-drafting-kommandocenter/SKILL.md) | Überführt Term Sheet, Vorentwurf oder Partnerkommentare in einen konkreten Schreibauftrag und eine vollständige juristische Fassung. Klärt nur entscheidende Vorgaben, verzweigt nach Vertrag, Schriftsatz oder Brief und setzt Antworten unm... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/kaltstart-drafting-kommandocenter/SKILL.md) |
+| [`layout-nachweise-endfassung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/layout-nachweise-endfassung-bearbeiten/SKILL.md) | Prüfe Gliederung, Verweise, Belegtreue, Dateiformat und Vollständigkeit und liefere das beauftragte fertige Dokument oder Memo. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag gelesen und zusammengeführt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/layout-nachweise-endfassung-bearbeiten/SKILL.md) |
+| [`revision-kooperation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/revision-kooperation-bearbeiten/SKILL.md) | Arbeite Partnerkommentare und Rückmeldungen kontrolliert in denselben Entwurf ein, stelle Änderungen nachvollziehbar dar und erhalte den Versionszusammenhang. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag gel... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/revision-kooperation-bearbeiten/SKILL.md) |
+| [`schriftsatz-argumentation-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/schriftsatz-argumentation-bearbeiten/SKILL.md) | Entwickle aus Aktenbelegen und Rechtsgrundlage einen vollständig formulierten Schriftsatz oder ein anwaltliches Schreiben mit konkretem Antrag und Gegenposition. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/schriftsatz-argumentation-bearbeiten/SKILL.md) |
+| [`vertrag-klausel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/vertrag-klausel-bearbeiten/SKILL.md) | Gestalte konkrete Vertragsbestimmungen zu Leistung, Haftung, Beendigung, Sicherung und Nebenpflichten und prüfe ihre Einordnung nach deutschem Recht. Die zugeordneten Fachmodule und Vorlagen werden nach dem konkreten Auftrag gelesen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=word-legal-ai-plugin-and-skill-for-german-lawyers/skills/vertrag-klausel-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Trennen Sie interne Entwurfsarbeit, Veröffentlichung und unmittelbaren Mandantendialog. Artikel 50 enthält funktionsabhängige Pflichten und keine pauschale Kennzeichnungspflicht für jeden intern mit KI bearbeiteten Schriftsatz.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

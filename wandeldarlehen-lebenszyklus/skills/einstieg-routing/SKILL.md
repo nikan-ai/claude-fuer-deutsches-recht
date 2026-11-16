@@ -1,15 +1,15 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Wandeldarlehen-Lebenszyklus geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Wandeldarlehen-Lebenszyklus."
 ---
 
-# Einstieg und Routing
+# 1. Wandeldarlehen und Bearbeitungsauftrag einordnen
 
-## Einsatzlage
+## 1.1. Auftrag
 
-Dieser Einstieg routet **Wandeldarlehen Lebenszyklus** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Lies Vertrag, Nachträge und Unterlagen zum Wandelereignis und bearbeite die beauftragte Vertrags-, Rechen- oder Vollzugsfrage. Bereits bekannte Parteirollen, Konditionen und Termine nicht erneut abfragen.
 
-## Fachlandkarte dieses Plugins
+## 1.2. Optionale Vertiefungen
 
 - `begleitet-erstpruefung-und-mandatsziel` — Begleitet Erstpruefung und Mandatsziel
 - `beurkundungserfordernis-pruefung` — Beurkundungserfordernis Prüfung
@@ -27,16 +27,35 @@ Dieser Einstieg routet **Wandeldarlehen Lebenszyklus** vom ersten Sachverhalt zu
 - `dokumente-intake` — Dokumente Intake
 - `output-waehlen` — Output Waehlen
 
-## Arbeitsweg
+## 1.3. Vom Vertragsstand zum Ergebnis
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Wandeldarlehen Lebenszyklus sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Bestimme aus dem Material Gesellschaft, Darlehensgeber, Vertragsfassung, Auszahlung und aktuelles Ereignis. Bei offenem Auftrag kläre, ob ein Vertragsentwurf, eine Wandlungsrechnung oder Unterlagen für das Notariat benötigt werden.
+2. Prüfe Ausübungsfrist und Zugang anhand der Klausel und Nachricht. Trenne die vertragliche Wandlungserklärung von Beschluss, Übernahmeerklärung und Registervollzug.
+3. Fehlt etwa die Definition des vollverwässerten Nenners, frage nach Optionspool und weiteren Darlehen. Berechne belegte Teile vorläufig weiter; eine angenommene Poolgröße ist keine feststehende Vertragsgröße.
+4. Nach der Antwort aktualisiere Preis, neue Anteile, Beteiligungsquoten und betroffene Texte. Bei einer neu erkennbaren entscheidenden Lücke gezielt nachfragen; sonst bis zum bestellten Dokument fortsetzen.
 
-## Qualitätsanker
+## 1.4. Quellen und Ausgabe
 
-- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
-- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
-- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+Tragende Normen und Rechtsprechung anhand überprüfbarer Quellen sichern; `references/quellenhygiene.md` und `references/zitierweise.md` können ergänzend herangezogen werden. Kein Quellenstatusprotokoll in den Empfängerbrief aufnehmen. Die genannten Spezialskills sind optional und ersetzen nicht die Weiterbearbeitung.
+
+Liefere den bestellten Vertrag, Beschluss oder Brief in vollständigen Sätzen, die Rechnung mit Formeln und Belegen. Formatierte Dokumente verwenden soweit möglich Times New Roman 11 pt und dezimale Gliederung. Keine Erklärung, Zahlung oder Registeranmeldung ohne ausdrückliche Freigabe veranlassen; eine Rechentabelle bestätigt keine wirksam entstandene Beteiligung.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für M&A, Beteiligungs- und Finanzierungstransaktionen:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

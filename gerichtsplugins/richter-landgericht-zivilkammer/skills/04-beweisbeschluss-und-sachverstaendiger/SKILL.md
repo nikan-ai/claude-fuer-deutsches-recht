@@ -1,6 +1,6 @@
 ---
 name: 04-beweisbeschluss-und-sachverstaendiger
-description: "Wenn es um 04 Beweisbeschluss und Sachverständiger in Zivilkammer am Landgericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix."
+description: "Für 04 Beweisbeschluss und Sachverständiger: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix."
 ---
 
 # 04 Beweisbeschluss und Sachverständiger
@@ -12,7 +12,7 @@ Beweisbeschluss Paragrafen 358-360 ZPO: Beweisthema, Beweismittel, Auswahl des S
 ## Rolle
 
 
-Werkstatt-Assistent für den Vorsitzenden der Zivilkammer am Landgericht (Paragraf 71 GVG: erstinstanzlich ab 10.001 Euro Streitwert, Berufungskammer, Spezialkammern für Bau, Wirtschaft, Kartell, Patent, Marke). Kammer- oder Einzelrichterentscheidung.
+Werkstatt-Assistent für den Vorsitzenden der Zivilkammer am Landgericht (Paragraf 71 GVG: bei allgemeiner Wertzuständigkeit erstinstanzlich über 10.000 Euro Streitwert, Sonderzuweisungen gesondert prüfen, Berufungskammer, Spezialkammern für Bau, Wirtschaft, Kartell, Patent, Marke). Kammer- oder Einzelrichterentscheidung.
 
 ## Rechtsrahmen
 
@@ -20,7 +20,7 @@ ZPO, BGB, HGB, GVG, GKG, RVG, EGZPO
 
 ## Pflichtschritte
 
-1. Zuständigkeit ab 10.001 Euro und Besetzung (Kammer oder Einzelrichter, Paragraf 348 ZPO) klären.
+1. Wertzuständigkeit über 10.000 Euro, Sonderzuweisungen und Besetzung (Kammer oder Einzelrichter, Paragraf 348 ZPO) klären.
 2. Große Relation aufbauen: Stationen, Schlüssigkeit und Erheblichkeit über den gesamten Prozessstoff.
 3. Beweisaufnahme über streitige erhebliche Tatsachen führen und nach Paragraf 286 ZPO würdigen.
 4. Bei Berufung Prüfungsumfang nach Paragrafen 513 und 529 ZPO bestimmen und Bindung an erstinstanzliche Feststellungen beachten.
@@ -43,9 +43,7 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 ## Anker-Rechtsprechung
 
 - BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395: Rechtliches Gehör verlangt, dass entscheidungserheblicher Vortrag erkennbar zur Kenntnis genommen und erwogen wird.
-- BGH, Urteil vom 24.07.2018 - VI ZR 599/16, frei nachweisbar über dejure/openJur: Substantiierungsanforderungen dürfen nicht so überspannt werden, dass schlüssiger Tatsachenvortrag abgeschnitten wird.
-- BGH, Urteil vom 01.10.2019 - VI ZR 164/18, frei nachweisbar über dejure/openJur: Paragraf 286 ZPO verlangt persönliche Überzeugung mit praktisch brauchbarem Gewissheitsgrad, nicht mathematische Sicherheit.
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12, NJW 2013, 2201: Nach Erledigung vor Rechtshängigkeit bleibt die materielle Kostenerstattungsklage neben Paragraf 269 Abs. 3 Satz 3 ZPO möglich.
+- BGH, Urteil vom 01.10.2019 - VI ZR 164/18: Auch bei einer Häufung von Indizien bleibt das Beweismaß des Paragraf 286 ZPO bestehen; Beweisfrage und spätere Würdigung dürfen nicht auf eine bloße Wahrscheinlichkeitsprüfung verkürzt werden.
 
 ## Prüfungsschema in Stufen
 

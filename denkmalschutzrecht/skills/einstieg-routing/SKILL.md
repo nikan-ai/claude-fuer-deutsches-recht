@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg — Routing im Denkmalschutzrecht in Denkmalschutzrecht — Bundesweiter Rahmen und sechzehn geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg — Routing im Denkmalschutzrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Einstieg — Routing im Denkmalschutzrecht
@@ -14,11 +14,9 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage nach fehlender Belegenheit oder dem konkreten Schutz- und Planungsstand, soweit dies nicht aus den Unterlagen hervorgeht. Nach Eingang Landesrecht und geplanten Eingriff erneut prüfen und die bestellte Bewertung oder Maßnahmenbeschreibung fortführen. Zeigt etwa ein Befund eine weitere entscheidende Lücke, frage gezielt nach; keine erneute Aufnahme. Unbelegte Tatsachen nicht als feststehend behandeln.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Zweck und Anwendungsfall
 
@@ -48,7 +46,7 @@ Anwendbares Landesgesetz immer aus der amtlichen Landesgesetz-Datenbank zitieren
 
 ## Ausgabeformat
 
-Eine knappe Routing-Notiz mit den Punkten Belegenheit, Landesgesetz, Schutzstatus, Rolle, Frage, Frist, Empfehlung für den nächsten Skill.
+Bei bloßem Einstieg die entscheidende offene Frage zum Objekt klären; bei vorhandenem Auftrag das gewünschte Gutachten, den Antrag oder die Behördenantwort ausarbeiten. Eine vorläufige Einordnung nach neuen Belegen bis zum bestellten Ergebnis fortführen. Spezialskills dienen der Vertiefung, nicht dem Abbruch mit einer Empfehlung. Quellenstatus gesondert notieren; externe Handlungen nur nach Freigabe.
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
 > **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
@@ -61,3 +59,23 @@ Eine knappe Routing-Notiz mit den Punkten Belegenheit, Landesgesetz, Schutzstatu
 ## Beispiel
 
 Mandantin Müller-Schenk besitzt ein 1898 errichtetes Eckwohnhaus in München-Schwabing, eingetragen in die Denkmalliste, plant Innenausbau und Dachterrasse. Routing: Belegenheit Bayern, Landesgesetz BayDSchG, Schutzstatus eingetragen, Rolle Eigentümerin, Begehren Erlaubnis nach Art. 6 BayDSchG, Frist offen. Nächster Skill: `denkmalschutz-bayern-baydschg` und `erlaubnis-pflichtige-massnahmen`.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Denkmalschutz- und Denkmalpflegerecht der Länder:** Welche Abhängigkeit zwischen Bedarf, Planung, Ausführung und Nachweis verursacht das Problem?
+
+**Erste Ansicht:** Zeige Projektabschnitte oder Bauteile mit Bedarf, Planstand, Abhängigkeit, Termin, Kostenbezug und Beleg. Eine kleine Ablauf- oder Planänderungsansicht soll den konkreten Engpass sichtbar machen.
+
+**Sinnvolle Interaktion:** Wähle Bauteil, Planstand oder belegte Terminvariante und aktualisiere die betroffenen Positionen, Folgearbeiten und Schreiben. Eine schematische Skizze darf keine vermessene oder freigegebene Planung vortäuschen.
+
+**Datengrundlage:** Bauteil oder Leistung, Menge und Einheit, Planversion, Verantwortlicher, Terminbasis und Originalunterlage. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** nachvollziehbarer Projektvermerk mit dem bestellten Leistungs-, Nachtrags-, Anzeige- oder Abstimmungstext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

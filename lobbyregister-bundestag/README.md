@@ -3,22 +3,70 @@
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
-Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstößen und Fristen nach LobbyRG.
+Lobbyregister-Bundestag-Superplugin mit neun aktiven Skills und erhaltenen Fachmodulen für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstößen und Fristen nach LobbyRG.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`lobbyregister-bundestag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/lobbyregister-bundestag.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/lobbyregister-bundestag.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/lobbyregister-bundestag-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/lobbyregister-bundestag-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/lobbyregister-bundestag.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/lobbyregister-bundestag.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Lobbyregister Bundestag:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`lobbyregister-bundestag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/lobbyregister-bundestag.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/lobbyregister-bundestag/lobbyregister-bundestag-werkstatt.md" download><code>lobbyregister-bundestag-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/lobbyregister-bundestag/lobbyregister-bundestag-schnellstart.md" download><code>lobbyregister-bundestag-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Lobbyregister: Bürgerinitiative Waldmoor 2030: [Gesamt-PDF](../testakten/lobbyregister-buergerinitiative-waldmoor/gesamt-pdf/lobbyregister-buergerinitiative-waldmoor_gesamt.pdf), [`testakte-lobbyregister-buergerinitiative-waldmoor.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-buergerinitiative-waldmoor.zip), [`testakte-lobbyregister-buergerinitiative-waldmoor-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-buergerinitiative-waldmoor-einzelpdfs.zip); Akte Lobbyregister: Emerald Liffey Bank plc / Zweigniederlassung Frankfurt: [Gesamt-PDF](../testakten/lobbyregister-dublin-bank-frankfurt-branch/gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf), [`testakte-lobbyregister-dublin-bank-frankfurt-branch.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip), [`testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip); Akte Lobbyregister: Spreebogen Regulatory GmbH / Wasserstoffpaket: [Gesamt-PDF](../testakten/lobbyregister-public-affairs-agentur-wasserstoff/gesamt-pdf/lobbyregister-public-affairs-agentur-wasserstoff_gesamt.pdf), [`testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip), [`testakte-lobbyregister-public-affairs-agentur-wasserstoff-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lobbyregister-public-affairs-agentur-wasserstoff-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`lobbyregister-bundestag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/lobbyregister-bundestag.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`lobbyregister-bundestag-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/lobbyregister-bundestag-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`lobbyregister-bundestag-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/lobbyregister-bundestag-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [3 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Akte Lobbyregister: Bürgerinitiative Waldmoor 2030](../testakten/lobbyregister-buergerinitiative-waldmoor/README.md) | [Gesamt-PDF](../testakten/lobbyregister-buergerinitiative-waldmoor/gesamt-pdf/lobbyregister-buergerinitiative-waldmoor_gesamt.pdf) | [`testakte-lobbyregister-buergerinitiative-waldmoor.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-lobbyregister-buergerinitiative-waldmoor.zip) | [`testakte-lobbyregister-buergerinitiative-waldmoor-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-buergerinitiative-waldmoor-einzelpdfs.zip) |
+| [Akte Lobbyregister: Emerald Liffey Bank plc / Zweigniederlassung Frankfurt](../testakten/lobbyregister-dublin-bank-frankfurt-branch/README.md) | [Gesamt-PDF](../testakten/lobbyregister-dublin-bank-frankfurt-branch/gesamt-pdf/lobbyregister-dublin-bank-frankfurt-branch_gesamt.pdf) | [`testakte-lobbyregister-dublin-bank-frankfurt-branch.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-lobbyregister-dublin-bank-frankfurt-branch.zip) | [`testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-dublin-bank-frankfurt-branch-einzelpdfs.zip) |
+| [Akte Lobbyregister: Spreebogen Regulatory GmbH / Wasserstoffpaket](../testakten/lobbyregister-public-affairs-agentur-wasserstoff/README.md) | [Gesamt-PDF](../testakten/lobbyregister-public-affairs-agentur-wasserstoff/gesamt-pdf/lobbyregister-public-affairs-agentur-wasserstoff_gesamt.pdf) | [`testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-lobbyregister-public-affairs-agentur-wasserstoff.zip) | [`testakte-lobbyregister-public-affairs-agentur-wasserstoff-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lobbyregister-public-affairs-agentur-wasserstoff-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du Registrierungspflicht, Ausnahmen, Auftraggeber, Regelungsvorhaben, Finanzangaben, Stellungnahmen, Aktualisierungspflichten und Portalangaben nach dem Lobbyregistergesetz sauber steuern.
@@ -32,7 +80,7 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 2. Neue Sache mit `lobbyregister-kommandocenter` oder `end-to-end-registrierungswizard` starten.
 3. Organisation, geplante Kontakte, Auftraggeber, Regelungsvorhaben, Fristen, Portalstatus und vorhandene Unterlagen nennen.
 4. Das Plugin routet zu Pflichtcheck, Ausnahmen, Portalangaben, Finanzdaten, Stellungnahmen, Updates, Verhaltenskodex oder Meldung.
-5. Am Ende immer das Qualitätsgate verlangen: Pflichtgrund, Ausnahmen, Datenfelder, Fristen, Freigaben, offene Annahmen und nächste Portalaktion.
+5. Vor Abgabe prüft das Plugin selbst Pflichtgrund, Ausnahmen, Datenfelder, Fristen und Freigaben. Es liefert den vollständig beauftragten Register- oder Stellungnahmetext und benennt offene Annahmen getrennt; der Nutzer muss die Abschlussprüfung nicht zusätzlich bestellen. Eine vorbereitete Portalaktion gilt nicht als bereits ausgeführt.
 
 ## Enthaltene Skills
 
@@ -155,20 +203,30 @@ die Regelungsvorhaben und erstelle am Ende eine Registrierungsmappe mit
 Fristenkalender und Offenlegungsbausteinen fuer Erstkontakte.
 ```
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **53 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `freiwillige-registrierung-fremdmandat`, `fremdmandat-agenturfall`, `intake-mandat-lobbyregister`, `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `benachrichtigungskonto-monitor`, `bestaetigungsdokument-freigabe`, `betraute-personen-datenschutz`, `datenschutz-nichtoeffentliche-angaben`, `dokumentationsakte-revisionsspur-drehtuer`, `lobbyregister-hauptfinanzierungsquellen-angaben`, `stellungnahmen-gutachten-suche-open`, `visitenkarte-und-nachweise` |
-| 3. Prüfung, Anspruch und Subsumtion | `nicht-aktualisiert-risiko`, `registereintrag-finalcheck-registerfuehrende` |
-| 5. Verfahren, Behörde und Gericht | `anonymisierung-schutzantrag-auftraggeber`, `bussgeld-pruefverfahren-quartalsmonitor`, `fristen-und-quartalsmonitor`, `interne-lobbyregister-richtlinie`, `lobbyregister-kommandocenter`, `registerfuehrende-stelle-kontakt` |
-| 6. Ergebnis, Schreiben und Kommunikation | `jahresabschluss-rechenschaftsbericht-konzern` |
-| 8. Spezialmodule und Schnittstellen | `account-rollen-regelungsvorhaben-erfassen`, `adressatenkreis-bundestag-bundesregierung`, `aktualisierung-unverzueglich-adressatenkreis`, `auftraggeber-ermitteln`, `ausnahmen-bundesregierung-bundestag`, `ausnahmen-bundestag`, `drehtuer-angaben`, `end-to-erstkontakt-offenlegung`, `erstkontakt-offenlegung`, `erstregistrierung-ausfuellen`, `finanzaufwendungen-berechnen`, `fruehere-interessenvertretung`, `geschaeftsjahresaktualisierung`, `hauptstadtrepraesentanz`, `hausausweis-anhoerung-interessen`, `hausausweis-und-anhoerung`, `interessen-und-vorhabenbereiche`, `interessenvertretung-begriff-interne`, ... plus 13 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/juristischer-argumentationskern/SKILL.md), [`lobbyregister-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/lobbyregister-kommandocenter/SKILL.md) |
+| 2. Kontakt und Adressat | [`kontakt-und-adressat-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/kontakt-und-adressat-bearbeiten/SKILL.md) |
+| 3. Pflicht und Ausnahme | [`pflicht-und-ausnahme-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/pflicht-und-ausnahme-bearbeiten/SKILL.md) |
+| 4. Registerinhalt | [`registerinhalt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/registerinhalt-bearbeiten/SKILL.md) |
+| 5. Verhalten und Nachweis | [`verhalten-und-nachweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/verhalten-und-nachweis-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -176,61 +234,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 52 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `account-rollen-regelungsvorhaben-erfassen` | Wenn es um Portal-Account und Rollen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `adressatenkreis-bundestag-bundesregierung` | Wenn es um Adressatenkreis Bundestag und Bundesregierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `aktualisierung-unverzueglich-adressatenkreis` | Wenn es um Unverzuegliche Aktualisierung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `anonymisierung-schutzantrag-auftraggeber` | Wenn es um Anonymisierung und Schutzantrag in Lobbyregister Bundestag geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `auftraggeber-ermitteln` | Wenn es um Auftraggeber ermitteln in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ausnahmen-bundesregierung-bundestag` | Wenn es um Ausnahmen Bundesregierung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ausnahmen-bundestag` | Wenn es um Ausnahmen Bundestag in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `benachrichtigungskonto-monitor` | Wenn es um Benachrichtigungskonto Monitor in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bestaetigungsdokument-freigabe` | Wenn es um Bestaetigungsdokument und Freigabe in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `betraute-personen-datenschutz` | Wenn es um Betraute Personen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bussgeld-pruefverfahren-quartalsmonitor` | Wenn es um Bussgeld und Pruefverfahren in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-nichtoeffentliche-angaben` | Wenn es um Datenschutz und nicht öffentliche Angaben in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumentationsakte-revisionsspur-drehtuer` | Wenn es um Dokumentationsakte und Revisionsspur in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `drehtuer-angaben` | Wenn es um Drehtuer-Angaben in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `end-to-erstkontakt-offenlegung` | Wenn es um End-to-End Registrierungswizard in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erstkontakt-offenlegung` | Wenn es um Erstkontakt Offenlegung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erstregistrierung-ausfuellen` | Wenn es um Erstregistrierung ausfuellen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `finanzaufwendungen-berechnen` | Wenn es um Finanzaufwendungen berechnen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freiwillige-registrierung-fremdmandat` | Wenn es um Freiwillige Registrierung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fremdmandat-agenturfall` | Wenn es um Fremdmandat und Agenturfall in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-und-quartalsmonitor` | Wenn es um Fristen- und Quartalsmonitor in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fruehere-interessenvertretung` | Wenn es um Exit und fruehere Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächst... |
-| `geschaeftsjahresaktualisierung` | Wenn es um Geschaeftsjahresaktualisierung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hauptstadtrepraesentanz` | Wenn es um Hauptstadtrepraesentanz in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausausweis-anhoerung-interessen` | Wenn es um Hausausweis und Anhörung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausausweis-und-anhoerung` | Wenn es um Hausausweis und Anhoerung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `intake-mandat-lobbyregister` | Wenn es um Mandats- und Projekt-Intake in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `interessen-und-vorhabenbereiche` | Wenn es um Interessen- und Vorhabenbereiche in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `interessenvertretung-begriff-interne` | Wenn es um Begriff der Interessenvertretung in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `interne-lobbyregister-richtlinie` | Wenn es um Interne Lobbyregister-Richtlinie in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jahresabschluss-rechenschaftsbericht-konzern` | Wenn es um Jahresabschluss und Rechenschaftsbericht in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `kaltstart-triage` | Wenn es um Kaltstart Triage in Lobbyregister Bundestag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konzern-netzwerk-plattform` | Wenn es um Konzern, Netzwerk und Plattform in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lobbyregister-hauptfinanzierungsquellen-angaben` | Wenn es um Hauptfinanzierungsquellen in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `lobbyregister-kommandocenter` | Wenn es um Lobbyregister-Kommandocenter in Lobbyregister Bundestag geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `mitgliedschaften-mitgliederzahl-nicht` | Wenn es um Mitgliedschaften und Mitgliederzahl in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nicht-aktualisiert-risiko` | Wenn es um Nicht-aktualisiert Risiko in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `oeffentliche-zuwendungen-personen` | Wenn es um Oeffentliche Zuwendungen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `personen-organisationstyp` | Wenn es um Personen- und Organisationstyp in Lobbyregister Bundestag geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `regelungsvorhaben-erfassen` | Wenn es um Regelungsvorhaben erfassen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registereintrag-finalcheck-registerfuehrende` | Wenn es um Registereintrag Finalcheck in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerfuehrende-stelle-kontakt` | Wenn es um Registerfuehrende Stelle Kontakt in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registrierungspflicht-schenkungen-sponsoring` | Wenn es um Registrierungspflicht und Schwellen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schenkungen-sponsoring` | Wenn es um Schenkungen und Sponsoring in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stellungnahmen-gutachten-suche-open` | Wenn es um Stellungnahmen und Gutachten Upload in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `suche-open-data-monitor` | Wenn es um Suche und Open-Data-Monitor in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `taetigkeitsbeschreibung-unterauftragnehmer` | Wenn es um Taetigkeitsbeschreibung in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterauftragnehmer-erfassen` | Wenn es um Unterauftragnehmer erfassen in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verhaltenskodex-integritaet-verstoesse-melden` | Wenn es um Verhaltenskodex und Integritaet in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `verstoesse-melden` | Wenn es um Verstoesse melden in Lobbyregister Bundestag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertretungsberechtigte-personen-visitenkarte` | Wenn es um Vertretungsberechtigte Personen in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `visitenkarte-und-nachweise` | Wenn es um Visitenkarte und Nachweise in Lobbyregister Bundestag geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Arbeitsprodukt: Registermatrix, Aktualisierungstext, Fristenblatt, Vorstandsmemo oder Bußgeldverteidigung erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag einge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Lobbyregister Bundestag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kontakt-und-adressat-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/kontakt-und-adressat-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Kontakt und Adressat: Bundestag, Bundesregierung, Ministerium, Referat, Abgeordneter oder Mitarbeiterebene bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag eing... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/kontakt-und-adressat-bearbeiten/SKILL.md) |
+| [`lobbyregister-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/lobbyregister-kommandocenter/SKILL.md) | Für Lobbyregister-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/lobbyregister-kommandocenter/SKILL.md) |
+| [`pflicht-und-ausnahme-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/pflicht-und-ausnahme-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Pflicht und Ausnahme: Interessenvertretung, Schwellen, Bagatellen, Mandatsgeheimnis, Arbeitsrecht und Verbändeausnahme trennen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Au... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/pflicht-und-ausnahme-bearbeiten/SKILL.md) |
+| [`registerinhalt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/registerinhalt-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Registerinhalt: Mandant, Regelungsvorhaben, Finanzangaben, Zuwendungen, Auftraggeberkette und Aktualisierung prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag einge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/registerinhalt-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale Vorlagen werden ge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`verhalten-und-nachweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/verhalten-und-nachweis-bearbeiten/SKILL.md) | Für Lobbyregisterrecht: Verhalten und Nachweis: Kodex, Kontaktvermerk, Unterlagen, Freigabe, interne Verantwortlichkeit und Fristen sichern. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag einge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lobbyregister-bundestag/skills/verhalten-und-nachweis-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

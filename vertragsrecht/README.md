@@ -5,24 +5,77 @@
 
 Vertragsrecht – Lieferanten- und Vertriebsverträge, AGB Paragrafen 305 ff. BGB, NDA, SaaS-/MSA-Review, Renewal-Tracking, Eskalations-Routing, Business-Zusammenfassungen.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`vertragsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/vertragsrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/vertragsrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/vertragsrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/vertragsrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/vertragsrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/vertragsrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Vertragsrecht-Plugin:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`vertragsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/vertragsrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/vertragsrecht/vertragsrecht-werkstatt.md" download><code>vertragsrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/vertragsrecht/vertragsrecht-schnellstart.md" download><code>vertragsrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Nordstern MedTech Vertrieb - Provision, Buchauszug und Ausgleich: [Gesamt-PDF](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf), [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip), [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip); Akte Campus Rheinbogen - Berufung, Senat und Drittmittel: [Gesamt-PDF](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip), [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip); Mandatsbeziehung Nordstern BioTherapeutics — Kanzlei Falkenried: [Gesamt-PDF](../testakten/mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech/gesamt-pdf/mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech_gesamt.pdf), [`testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech.zip), [`testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech-einzelpdfs.zip); Akte Vellbruck Robotics GmbH — Roboterflotte AtlasCare / LumaMove / Werkbank C7: [Gesamt-PDF](../testakten/robotikrecht-roboterflotte-vellbruck-muenchen/gesamt-pdf/robotikrecht-roboterflotte-vellbruck-muenchen_gesamt.pdf), [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip), [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-robotikrecht-roboterflotte-vellbruck-muenchen-einzelpdfs.zip); Akte LG Regensburg — Sieglinger gegen Burgwald Energietechnik GmbH: [Gesamt-PDF](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/gesamt-pdf/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger_gesamt.pdf), [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip), [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip); Codeforst / Sonnenklee - RouteLuchs: [Gesamt-PDF](../testakten/softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen/gesamt-pdf/softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen_gesamt.pdf), [`testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen.zip), [`testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`vertragsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/vertragsrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`vertragsrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/vertragsrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`vertragsrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/vertragsrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [8 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BGB: Hochzeitslocation, Schwesterbestellung und abgesagte Feier in Dresden](../testakten/bgb-vollmacht-hochzeitslocation-dresden/README.md) | [Gesamt-PDF](../testakten/bgb-vollmacht-hochzeitslocation-dresden/gesamt-pdf/bgb-vollmacht-hochzeitslocation-dresden_gesamt.pdf) | [`testakte-bgb-vollmacht-hochzeitslocation-dresden.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-vollmacht-hochzeitslocation-dresden.zip) | [`testakte-bgb-vollmacht-hochzeitslocation-dresden-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-vollmacht-hochzeitslocation-dresden-einzelpdfs.zip) |
+| [Akte Nordstern MedTech Vertrieb - Provision, Buchauszug und Ausgleich](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/README.md) | [Gesamt-PDF](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf) | [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip) | [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip) |
+| [Akte Campus Rheinbogen - Berufung, Senat und Drittmittel](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/README.md) | [Gesamt-PDF](../testakten/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen/gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf) | [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen.zip) | [`testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen-einzelpdfs.zip) |
+| [Mandatsbeziehung Nordstern BioTherapeutics — Kanzlei Falkenried](../testakten/mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech/README.md) | [Gesamt-PDF](../testakten/mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech/gesamt-pdf/mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech_gesamt.pdf) | [`testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech.zip) | [`testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-mandatsbeziehung-kanzlei-rechtsabteilung-nordstern-biotech-einzelpdfs.zip) |
+| [Akte Vellbruck Robotics GmbH — Roboterflotte AtlasCare / LumaMove / Werkbank C7](../testakten/robotikrecht-roboterflotte-vellbruck-muenchen/README.md) | [Gesamt-PDF](../testakten/robotikrecht-roboterflotte-vellbruck-muenchen/gesamt-pdf/robotikrecht-roboterflotte-vellbruck-muenchen_gesamt.pdf) | [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-robotikrecht-roboterflotte-vellbruck-muenchen.zip) | [`testakte-robotikrecht-roboterflotte-vellbruck-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-robotikrecht-roboterflotte-vellbruck-muenchen-einzelpdfs.zip) |
+| [Sieglinger gegen Burgwald Energietechnik GmbH](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/README.md) | [Gesamt-PDF](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/gesamt-pdf/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger_gesamt.pdf) | [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip) | [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip) |
+| [Codeforst / Sonnenklee - RouteLuchs](../testakten/softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen/README.md) | [Gesamt-PDF](../testakten/softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen/gesamt-pdf/softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen_gesamt.pdf) | [`testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen.zip) | [`testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-softwarerecht-saas-ki-lizenzstreit-codeforst-muenchen-einzelpdfs.zip) |
+| [Tonfenster und Blattwinkel in Freiburg](../testakten/vertragserstellung-ladenkooperation-keramik-freiburg/README.md) | [Gesamt-PDF](../testakten/vertragserstellung-ladenkooperation-keramik-freiburg/gesamt-pdf/vertragserstellung-ladenkooperation-keramik-freiburg_gesamt.pdf) | [`testakte-vertragserstellung-ladenkooperation-keramik-freiburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-vertragserstellung-ladenkooperation-keramik-freiburg.zip) | [`testakte-vertragserstellung-ladenkooperation-keramik-freiburg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-vertragserstellung-ladenkooperation-keramik-freiburg-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
-Arbeitsabläufe für innerbetriebliche Rechtsabteilungen und Kanzleien im deutschen Vertragsrecht: Lieferanten- und Dienstleisterverträge, NDA-/Geheimhaltungsvereinbarungen, SaaS-/MSA-Prüfungen, Vertragsfristen-Tracking, Eskalationssteuerung und mandantengerechte Zusammenfassungen. Das Plugin erlernt den **eigenen Vorgehensleitfaden** der Rechtsabteilung durch ein einmaliges Ersteinrichtungs-Interview – keine Standardlösung von der Stange.
+Arbeitsabläufe für innerbetriebliche Rechtsabteilungen und Kanzleien im deutschen Vertragsrecht: Lieferanten- und Dienstleisterverträge, NDA-/Geheimhaltungsvereinbarungen, SaaS-/MSA-Prüfungen, Vertragsfristen-Tracking, Eskalationssteuerung und mandantengerechte Zusammenfassungen. Ein vorhandener Vorgehensleitfaden wird berücksichtigt; seine Einrichtung ist optional und keine Voraussetzung für die Prüfung eines vorgelegten Vertrags.
 
 **Jede Ausgabe ist ein Entwurf zur anwaltlichen Prüfung – zitiert, gekennzeichnet und abgestuft – keine abschließende Rechtsberatung.** Das Plugin liest die Dokumente, wendet den Vorgehensleitfaden an, identifiziert Abweichungen und erstellt das Prüfvermerk. Ein Rechtsanwalt prüft, verifiziert und entscheidet. Quellen werden nach Herkunft gekennzeichnet, damit der Prüfer weiß, welche Zitate aus einem Recherche-Tool stammen und welche zu prüfen sind. Vertraulichkeitshinweise werden konservativ gesetzt, damit keine unbeabsichtigte Preisgabe erfolgt. Folgenreiche Handlungen – Einreichung, Versand, Unterzeichnung – stehen unter ausdrücklichem Bestätigungsvorbehalt.
 
@@ -37,12 +90,12 @@ Arbeitsabläufe für innerbetriebliche Rechtsabteilungen und Kanzleien im deutsc
 
 ## Erste Nutzung: das Ersteinrichtungs-Interview
 
-Bei der ersten Nutzung führt das Plugin ein ca. zehnminütiges Gespräch, um zu erfahren, wie die Rechtsabteilung tatsächlich arbeitet. Es fragt nach den Positionen im Vorgehensleitfaden, Eskalationsregeln und den typischen Problemen im Tagesgeschäft. Anschließend werden 5–10 bereits unterzeichnete Verträge erbeten (mehr ist besser; 20 Verträge ergeben ein klareres Muster), um die eigenen Positionen in der Praxis zu erkennen.
+Bei einem konkreten Auftrag liest das Plugin zuerst Vertrag, Nachträge und verfügbare Vorgaben und fragt nur nach entscheidenden Lücken. Wer zusätzlich einen dauerhaften Vorgehensleitfaden aufbauen möchte, kann mit `kaltstart-interview` die eigenen Positionen und Eskalationsregeln festhalten. Dafür genügen gezielt ausgewählte, erforderliche und berechtigt bereitgestellte Beispiele; eine Sammlung von fünf bis zwanzig Mandatsverträgen ist keine Startbedingung.
 
-Das Erlernte wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` gespeichert – ein Klartextdokument über die Rechtsabteilung, das jede Funktion liest, bevor sie tätig wird. Das Dokument wird direkt bearbeitet, keine Konfigurationsdatei.
+Eine ausdrücklich gewünschte dauerhafte Ablage kann bei vorhandenem Schreibzugriff in `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` erfolgen. Ohne Zugriff liefert das Plugin den Leitfaden als Text und verwendet die verfügbaren Vorgaben im laufenden Auftrag; es behauptet weder eine Speicherung noch die automatische Verfügbarkeit in späteren Sitzungen.
 
 ```
-/vertragsrecht:vertragsrecht-kaltstart-interview
+/vertragsrecht:abschluss-parteien-und-auslegung-bearbeiten Thema: kaltstart-interview
 ```
 
 **Seite des Mandanten.** Früh in der Einrichtung wird gefragt, ob ein **Verkäufer-Vorgehensleitfaden** (das Unternehmen verkauft Produkte/Dienstleistungen; eigenes Muster), ein **Käufer-Vorgehensleitfaden** (das Unternehmen kauft bei Lieferanten; deren Muster) oder beides aufgebaut werden soll. Die Antwort kehrt nahezu jede Position im Vorgehensleitfaden um – Haftungsgrenzen, Freistellungsrichtung, Kündigungsrechte, IP-Zuordnung – daher ist sie von grundlegender Bedeutung.
@@ -51,12 +104,12 @@ Das Erlernte wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertr
 
 | Befehl | Funktion |
 |---|---|
-| `/vertragsrecht:vertragsrecht-kaltstart-interview` | Ersteinrichtungs-Interview durchführen oder wiederholen |
-| `/vertragsrecht:vertragspruefung [Datei]` | Vertrag gegen den Vorgehensleitfaden prüfen |
+| `/vertragsrecht:abschluss-parteien-und-auslegung-bearbeiten Thema: kaltstart-interview` | Ersteinrichtungs-Interview durchführen oder wiederholen |
+| `/vertragsrecht:abschluss-parteien-und-auslegung-bearbeiten Thema: vertragspruefung [Datei]` | Vertrag gegen den Vorgehensleitfaden prüfen |
 | `/vertragsrecht:vertragsverlaengerungs-monitor` | Welche Verträge laufen in 90 Tagen aus und bis wann muss die Kündigung eingehen? |
-| `/vertragsrecht:eskalations-marker` | Eskalationspfad ermitteln und Vorlage formulieren |
+| `/vertragsrecht:leistung-verguetung-und-abwicklung-bearbeiten Thema: eskalations-marker` | Eskalationspfad ermitteln und Vorlage formulieren |
 | `/vertragsrecht:aenderungs-historie [Datei(en)]` | Vertragsänderungen über Basisvertrag und alle Nachträge nachverfolgen |
-| `/vertragsrecht:pruefungsvorschlaege` | Ausstehende Aktualisierungen des Vorgehensleitfadens aus dem Monitor-Agenten durcharbeiten |
+| `/vertragsrecht:leistung-verguetung-und-abwicklung-bearbeiten Thema: pruefungsvorschlaege` | Ausstehende Aktualisierungen des Vorgehensleitfadens aus dem Monitor-Agenten durcharbeiten |
 | `/vertragsrecht:vertragsrecht-mandat-arbeitsbereich` | Akten verwalten (nur Kanzleinutzung mit mehreren Mandanten) |
 
 ## Skills
@@ -65,9 +118,9 @@ Das Erlernte wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertr
 |---|---|
 | **ersteinrichtung** | Interview, das `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` schreibt |
 | **lieferantenvertrag-prüfung** | Vollständige Abweichungsanalyse gegen den Vorgehensleitfaden mit Klausel-Redlines (§§ 631, 611 BGB; LkSG) |
-| **nda-prüfung** | Schnelle GRÜN/GELB/ROT-Triage (§§ 17 ff. GeschGehG, § 241 II BGB) |
+| **nda-prüfung** | Geheimnisbegriff und Schutzmaßnahmen nach Paragraf 2 sowie Nutzungs- und Offenlegungsverbote nach Paragraf 4 GeschGehG; vertragliche Pflichten gesondert prüfen. |
 | **saas-msa-prüfung** | SaaS-/MSA-spezifische Prüfung: AGB, Datenschutz Art. 28 DSGVO, Haftung, Preiseskalation |
-| **vertragsverlängerungs-monitor** | Register der Kündigungsfristen; zeigt Fristen gemäß § 309 Nr. 9 BGB |
+| **vertragsverlängerungs-monitor** | Vertragliche Fristen erfassen und AGB-Kontrolle trennen: Paragraf 309 Nummer 9 BGB im einschlägigen Verbrauchervertrag; im Unternehmerverkehr Paragrafen 307 und 310 Absatz 1 BGB, keine automatische Übertragung. |
 | **eskalation** | Eskalationsmatrix aus dem Vorgehensleitfaden, Vorlage für Genehmigungsanfrage |
 | **stakeholder-zusammenfassung** | Zweisprachige Nicht-Juristen-Fassung eines Rechtsgutachtens |
 | **änderungs-historie** | Änderungen über Basisvertrag und Nachträge zusammenfassen oder Klausel zurückverfolgen |
@@ -75,7 +128,7 @@ Das Erlernte wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertr
 
 ## Befehle vs. terminierte Agenten
 
-Die obigen Befehle werden auf Abruf ausgeführt – für die aktive Bearbeitung eines Vorgangs. Die Agenten laufen planmäßig im Hintergrund.
+Die obigen Befehle bearbeiten einen Vorgang auf Abruf. Die folgenden Takte sind Einrichtungsvorschläge: Hintergrundläufe setzen eine verfügbare Terminierungsfunktion und einen ausdrücklichen Auftrag voraus. Die Plugin-Installation allein richtet keine Überwachung ein; ohne Terminierung ist der jeweilige Prüflauf manuell auszulösen.
 
 | Agent | Beobachtet | Standard-Takt |
 |---|---|---|
@@ -99,7 +152,7 @@ Integrierte Konnektoren (`.mcp.json`):
 ### 1. Interview durchführen
 
 ```
-/vertragsrecht:vertragsrecht-kaltstart-interview
+/vertragsrecht:abschluss-parteien-und-auslegung-bearbeiten Thema: kaltstart-interview
 ```
 
 Dauer: ca. 10 Minuten. 5–10 unterzeichnete Verträge bereithalten (mehr ist besser, 20 ergibt ein klareres Muster).
@@ -109,7 +162,7 @@ Die Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-rec
 ### 2. Vertrag prüfen
 
 ```
-/vertragsrecht:vertragspruefung lieferanten-msa.pdf
+/vertragsrecht:abschluss-parteien-und-auslegung-bearbeiten Thema: vertragspruefung lieferanten-msa.pdf
 ```
 
 Ausgabe: Abweichungsprotokoll gegen den Vorgehensleitfaden mit konkreten Redline-Formulierungen und namentlich genanntem Genehmiger.
@@ -164,22 +217,29 @@ vertragsrecht/
 - Das Fristen-Tracking erfasst nur Verträge, die über dieses Plugin geprüft oder aus dem CLM einmalig importiert wurden. Vor der Installation unterzeichnete Verträge erfordern einen einmaligen Erstimport.
 - **Berufsrechtlicher Hinweis:** Jede Ausgabe ist ein Arbeitsentwurf. Die anwaltliche Verschwiegenheitspflicht (§ 43a Abs. 2 BRAO, § 203 StGB) ist bei jeder Weitergabe zu beachten.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-router`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `mandat-arbeitsbereich-vr-einfuehrung`, `renewal-review-routing`, `routing-zahlen-schwellen-und-berechnung`, `vertragsmandat-workspace-kontexttrennung`, `vertragsrecht-erstpruefung-und-mandatsziel`, `workflow-anschluss-skills-router`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `business-compliance-dokumentation-und-akte`, `eskalations-quellenkarte`, `lieferanten-tatbestand-beweis-und-belege`, `quellen-livecheck`, `rahmenvertrag-beweislast-vertragsrecht-vert`, `rechtsquellen`, `spezial-eskalations-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `agb-pruefung`, `fristen-risikoampel-mandantenkommunikation`, `lieferantenvertrag-pruefung`, `nda-pruefungsvorschlaege-saas-msa`, `pruefungsvorschlaege`, `saas-msa-pruefung`, `vert-vertragsschluss-vertragspruefung`, `vertragspruefung` |
-| 4. Gestaltung, Strategie und Verhandlung | `tracking-verhandlung-vergleich-und-eskalation`, `vert-rahmenvertrag-einzelabrufe-spezial`, `vertragsverlaengerungs-monitor`, `vr-einfuehrung-vertragstypen-bgb` |
-| 5. Verfahren, Behörde und Gericht | `fristennotiz-naechster-vertriebsvertraege`, `review-behoerden-gericht-und-registerweg`, `vertriebsvertraege-fristen-form-und-zustaendigkeit` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen`, `vert-mandantenkommunikation-entscheidungsvorlage`, `workflow-mandantenkommunikation` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `fernabsatz-lieferanten-red-team`, `pruefung-red-team-und-qualitaetskontrolle`, `spezial-pruefung-red-team-und-qualitaetskontrolle`, `vert-agb-kontrolle-leistungsstoerungen-leitfaden`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `abmahnung-uwg`, `aenderungs-historie-agb-eskalations-marker`, `anpassen`, `bgb-business-einzelabrufe-sonderfall`, `einzelabrufe-sonderfall-und-edge-case`, `eskalations-marker`, `nda-durchsetzer`, `saas-tracking-vert`, `stakeholder-zusammenfassung`, `vert-leistungsstoerungen-leitfaden`, `vr-agb-recht-grundzuege`, `vr-leistungsstoerungen-widerruf-fernabsatz`, `widerruf-fernabsatz`, `widerruf-zusammenfassungen-interessen`, `zusammenfassungen-mehrparteien-konflikt-und-interessen` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/juristischer-argumentationskern/SKILL.md), [`vertragsverlaengerungs-monitor`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/vertragsverlaengerungs-monitor/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Abschluss Parteien und Auslegung | [`abschluss-parteien-und-auslegung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/abschluss-parteien-und-auslegung-bearbeiten/SKILL.md) |
+| 3. Leistung Vergütung und Abwicklung | [`leistung-verguetung-und-abwicklung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/leistung-verguetung-und-abwicklung-bearbeiten/SKILL.md) |
+| 4. Geheimnis Daten und Rechte | [`geheimnis-daten-und-rechte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/geheimnis-daten-und-rechte-bearbeiten/SKILL.md) |
+| 5. Haftung Sicherheiten und Störung | [`haftung-sicherheiten-und-stoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/haftung-sicherheiten-und-stoerung-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -187,68 +247,21 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abmahnung-uwg` | Wenn es um UWG-Abmahnung – Erstellung und Prüfung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aenderungs-historie-agb-eskalations-marker` | Wenn es um Nachtragsverwaltung in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `agb-pruefung` | Wenn es um AGB-Prüfung – Einbeziehung und Inhaltskontrolle in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `anpassen` | Wenn es um Kanzleiprofil anpassen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-router` | Wenn es um Vertragsrecht — Allgemein in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bgb-business-einzelabrufe-sonderfall` | Wenn es um BGB: Dokumentenmatrix, Lückenliste und Nachforderung in Vertragsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `business-compliance-dokumentation-und-akte` | Wenn es um Business: Compliance-Dokumentation und Aktenvermerk in Vertragsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einzelabrufe-sonderfall-und-edge-case` | Wenn es um Einzelabrufe: Sonderfall und Edge-Case-Prüfung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eskalations-marker` | Wenn es um Eskalationsregeln in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `eskalations-quellenkarte` | Wenn es um Eskalations Quellenkarte in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `fernabsatz-lieferanten-red-team` | Wenn es um Fernabsatz: Formular, Portal und Einreichungslogik in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-risikoampel-mandantenkommunikation` | Wenn es um Fristen- und Risikoampel in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristennotiz-naechster-vertriebsvertraege` | Wenn es um Anpassen: Fristennotiz und nächster Schritt in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-interview` | Wenn es um Erstgespräch Vertragsrecht — Mandatsaufnahme in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lieferanten-tatbestand-beweis-und-belege` | Wenn es um Lieferanten: Tatbestandsmerkmale, Beweisfragen und Beleglage in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `lieferantenvertrag-pruefung` | Wenn es um Lieferanten-/Dienstleistervertrag-Prüfung in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `mandat-arbeitsbereich-vr-einfuehrung` | Wenn es um Mandatsarbeitsbereich Vertragsrecht in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nda-durchsetzer` | Wenn es um NDA-Durchsetzer — Redline der Gegenseite im Änderungsmodus + strukturierte Analyse in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nda-pruefungsvorschlaege-saas-msa` | Wenn es um NDA-/Geheimhaltungsvereinbarung-Prüfung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Vertragsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefung-red-team-und-qualitaetskontrolle` | Wenn es um Prüfung: Red-Team und Qualitätskontrolle in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefungsvorschlaege` | Wenn es um Playbook-Vorschläge prüfen und genehmigen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Vertragsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rahmenvertrag-beweislast-vertragsrecht-vert` | Wenn es um Rahmenvertrag: Beweislast, Darlegungslast und Substantiierung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsquellen` | Wenn es um Rechtsquellen: Abschlussprodukt und Übergabe in Vertragsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `renewal-review-routing` | Wenn es um Renewal: Schriftsatz-, Brief- und Memo-Bausteine in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `review-behoerden-gericht-und-registerweg` | Wenn es um Review: Behörden-, Gerichts- oder Registerweg in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `routing-zahlen-schwellen-und-berechnung` | Wenn es um Routing: Zahlen, Schwellenwerte und Berechnung in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `saas-msa-pruefung` | Wenn es um SaaS-/MSA-Prüfung in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `saas-tracking-vert` | Wenn es um Saas: Risikoampel, Gegenargumente und Verteidigungslinien in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-eskalations-livequellen-und-rechtsprechungscheck` | Wenn es um Eskalations: Livequellen- und Rechtsprechungscheck in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pruefung-red-team-und-qualitaetskontrolle` | Wenn es um Pruefung: Red-Team und Qualitätskontrolle in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stakeholder-zusammenfassung` | Wenn es um Mandantenzusammenfassung Vertragsrecht in Vertragsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `tracking-verhandlung-vergleich-und-eskalation` | Wenn es um Tracking: Verhandlung, Vergleich und Eskalation in Vertragsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vert-agb-kontrolle-leistungsstoerungen-leitfaden` | Wenn es um Vert: AGB-Kontrolle B2B in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vert-leistungsstoerungen-leitfaden` | Wenn es um Vert: Leistungsstoerungen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vert-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Vert: Mandantenkommunikation und Entscheidungsvorlage in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vert-rahmenvertrag-einzelabrufe-spezial` | Wenn es um Vert: Rahmenvertrag Einzelabrufe in Vertragsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vert-vertragsschluss-vertragspruefung` | Wenn es um Vert: Vertragsschluss Bauleiter in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragsmandat-workspace-kontexttrennung` | Wenn es um Mandatsworkspace, Kontexttrennung und Fristensteuerung Vertragsrecht in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragspruefung` | Wenn es um Vertragsanalyse und Klauselkontrolle in Vertragsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragsrecht-erstpruefung-und-mandatsziel` | Wenn es um Vertragsrecht: Erstprüfung, Rollenklärung und Mandatsziel in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragsverlaengerungs-monitor` | Wenn es um Verlängerungstracker in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertriebsvertraege-fristen-form-und-zustaendigkeit` | Wenn es um Vertriebsvertraege: Fristen, Form, Zuständigkeit und Rechtsweg in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vr-agb-recht-grundzuege` | Wenn es um Vertragsrecht: AGB-Recht in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vr-einfuehrung-vertragstypen-bgb` | Wenn es um Vertragsrecht: BGB-Typen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vr-leistungsstoerungen-widerruf-fernabsatz` | Wenn es um Vertragsrecht: Leistungsstoerungen in Vertragsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `widerruf-fernabsatz` | Wenn es um Widerruf im Fernabsatz- und Außergeschäftsraumvertrag in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `widerruf-zusammenfassungen-interessen` | Wenn es um Widerruf: Internationaler Bezug und Schnittstellen in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-anschluss-skills-router` | Wenn es um Anschluss-Skills Router in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Vertragsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Vertragsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-mandantenkommunikation` | Wenn es um Mandantenkommunikation in Vertragsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Vertragsrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Vertragsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zusammenfassungen-mehrparteien-konflikt-und-interessen` | Wenn es um Zusammenfassungen: Mehrparteienkonflikt und Interessenmatrix in Vertragsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`abschluss-parteien-und-auslegung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/abschluss-parteien-und-auslegung-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Abschluss Parteien und Auslegung: Vertragspartner, Abschluss, Vollmacht, Form und maßgeblichen Inhalt anhand des Fassungsverlaufs prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/abschluss-parteien-und-auslegung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Vertragsrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/einstieg-routing/SKILL.md) |
+| [`geheimnis-daten-und-rechte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/geheimnis-daten-und-rechte-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Geheimnis Daten und Rechte: Geheimnisse, Daten, Nutzungsrechte und Weitergabe im tatsächlichen Geschäftsvorgang absichern. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/geheimnis-daten-und-rechte-bearbeiten/SKILL.md) |
+| [`haftung-sicherheiten-und-stoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/haftung-sicherheiten-und-stoerung-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Haftung Sicherheiten und Störung: Haftung, Mängel, Sicherheit, Leistungsstörung und wirtschaftliche Risikozuordnung gestalten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/haftung-sicherheiten-und-stoerung-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Vertragsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`leistung-verguetung-und-abwicklung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/leistung-verguetung-und-abwicklung-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Leistung Vergütung und Abwicklung: Leistung, Gegenleistung, Abnahme, laufende Pflichten und Abrechnung konkret ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/leistung-verguetung-und-abwicklung-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Vertragsrechtliche Mandatsbearbeitung: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vertragsverlaengerungs-monitor`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/vertragsverlaengerungs-monitor/SKILL.md) | Für Verlängerungstracker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/vertragsverlaengerungs-monitor/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Vertragsrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=vertragsrecht/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

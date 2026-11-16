@@ -1,5 +1,7 @@
 # Mandatsaufnahme-Vorlagen nach Rechtsgebiet
 
+[Mandatsaufnahme-Skill](../../FACHINHALT.md) · [Plugin-README](../../../../README.md) · [Repository-Start](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/README.md)
+
 Wird bei der Ersteinrichtung mit den Aufnahmeformularen der Lehrperson befüllt. Liegen keine eigenen Formulare vor, verwendet `/mandatsaufnahme` die Standard-Fragekataloge aus `mandatsaufnahme/SKILL.md` Schritt 2.
 
 Ein Dokument pro Rechtsgebiet, das die Beratungsstelle bearbeitet:

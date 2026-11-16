@@ -5,20 +5,66 @@
 
 Freistehendes Common-Law-Plugin für deutsche Wirtschaftsjuristen: UK/US-False-Friends, Vertragsbegriffe, Consideration, Suretyship, Indemnity, UCC, Precedent, Discovery und bilinguale Drafting-Reviews.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`common-law-kompass.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/common-law-kompass.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/common-law-kompass.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/common-law-kompass-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/common-law-kompass-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/common-law-kompass.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/common-law-kompass.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Common-Law-Kompass für deutsche Wirtschaftsjuristen:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`common-law-kompass.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/common-law-kompass.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/common-law-kompass/common-law-kompass-werkstatt.md" download><code>common-law-kompass-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/common-law-kompass/common-law-kompass-schnellstart.md" download><code>common-law-kompass-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Common-Law-Kompass: Crossborder Supply & License Agreement: [Gesamt-PDF](../testakten/common-law-kompass-crossborder-contract/gesamt-pdf/common-law-kompass-crossborder-contract_gesamt.pdf), [`testakte-common-law-kompass-crossborder-contract.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-common-law-kompass-crossborder-contract.zip), [`testakte-common-law-kompass-crossborder-contract-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-common-law-kompass-crossborder-contract-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`common-law-kompass.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/common-law-kompass.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`common-law-kompass-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/common-law-kompass-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`common-law-kompass-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/common-law-kompass-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Crossborder Supply and License Agreement](../testakten/common-law-kompass-crossborder-contract/README.md) | [Gesamt-PDF](../testakten/common-law-kompass-crossborder-contract/gesamt-pdf/common-law-kompass-crossborder-contract_gesamt.pdf) | [`testakte-common-law-kompass-crossborder-contract.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-common-law-kompass-crossborder-contract.zip) | [`testakte-common-law-kompass-crossborder-contract-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-common-law-kompass-crossborder-contract-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du einen grenzüberschreitenden Fall sortieren: anwendbares Recht, Zuständigkeit und Durchsetzung klären und ein verwertbares Arbeitsprodukt bauen.
@@ -74,6 +120,8 @@ Dieses Plugin ist **vollständig freistehend**. Es benötigt keine anderen Plugi
 
 ## Offizielle Startquellen
 
+Gezielter Abgleich vom 16.10.2026 für die Mandantenübersicht: [Paragraf 142 ZPO](https://www.gesetze-im-internet.de/zpo/__142.html) und [Paragraf 144 ZPO](https://www.gesetze-im-internet.de/zpo/__144.html) betreffen gerichtliche Vorlage- und Beweisanordnungen, keine allgemeine vorprozessuale Discovery. Im [amtlichen FRCP-Text vom 01.12.2025](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-civil-procedure.pdf) wurden Rule 26(d) und Rule 27(a) gelesen: Discovery im anhängigen Bundesprozess vor dem Trial ist von begrenzter Beweissicherung vor Klage zu unterscheiden. Das ist keine US-Vollrecherche; einzelstaatliches Recht, englische Disclosure-Regeln und andere Vergleichsbegriffe wurden nicht neu verifiziert.
+
 - UK Supreme Court
 - Arnold v Britton, UKSC contract interpretation
 - Wood v Capita, UKSC contract interpretation
@@ -85,22 +133,30 @@ Dieses Plugin ist **vollständig freistehend**. Es benötigt keine anderen Plugi
 - Uniform Law Commission: UCC
 - U.S. Supreme Court
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `drafting-interessen-explainer-beweislast`, `explainer-beweislast-und-darlegungslast`, `precedent-quellenkarte`, `quality-formular-portal-und-einreichung`, `quellen-livecheck`, `spezial-precedent-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `wirtschaftsjuristen-tatbestand-beweis-und-belege`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `cl-mandantenuebersicht-cl-prozesskostenrisiko`, `cl-prozesskostenrisiko-each-party-bears-own`, `rechtsvergleichender-begriffscheck-reviews`, `vertragsbegriffe-risikoampel-und-gegenargumente`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `cl-vertragsklauseln-vertragsbegriffe-cl`, `indemnity-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `consideration-behoerden-gericht-und-registerweg`, `false-fristen-form-und-zustaendigkeit`, `suretyship-schriftsatz-brief-und-memo-bausteine` |
-| 6. Ergebnis, Schreiben und Kommunikation | `client-mandantenkommunikation-entscheidungsvorlage`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `bilingual-contract-review`, `gate-fehlerkatalog`, `reviews-internationaler-bezug-und-schnittstellen`, `spezial-gate-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `begriffe-uebersetzung-bilingual-contract`, `bilinguale-client-commercial-sonderfall`, `cl-discovery-doc-production-spezial`, `cl-spezial-precedent-vs-statute`, `client-explainer`, `commercial-sonderfall-und-edge-case`, `common-consideration-discovery`, `contract-formation-false-friends-governing`, `discovery-zahlen-schwellen-und-berechnung`, `false-friends`, `false-friends-contracts`, `false-friends-scanner`, `friends-indemnity-quality`, `governing-law-jurisdiction`, `humor-coach-interpretation-precedent-common`, `interpretation-precedent`, `kommandocenter`, `litigation-discovery-ma-commercial-quality`, ... plus 8 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/juristischer-argumentationskern/SKILL.md), [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/kommandocenter/SKILL.md) |
+| 2. Rechtsraum und Quelle | [`rechtsraum-und-quelle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/rechtsraum-und-quelle-bearbeiten/SKILL.md) |
+| 3. Begriff und Funktion | [`begriff-und-funktion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/begriff-und-funktion-bearbeiten/SKILL.md) |
+| 4. Vertragstechnik | [`vertragstechnik-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/vertragstechnik-bearbeiten/SKILL.md) |
+| 5. Prozess und Beweis | [`prozess-und-beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/prozess-und-beweis-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -108,67 +164,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 58 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `begriffe-uebersetzung-bilingual-contract` | Wenn es um Begriffs- und Übersetzungswerkstatt in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründ... |
-| `bilingual-contract-review` | Wenn es um Bilingual Contract Review in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `bilinguale-client-commercial-sonderfall` | Wenn es um Bilinguale: Compliance-Dokumentation und Aktenvermerk in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpun... |
-| `cl-discovery-doc-production-spezial` | Wenn es um Common Law: Discovery-Spezial in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `cl-mandantenuebersicht-cl-prozesskostenrisiko` | Wenn es um Common Law: Mandantenuebersicht EN in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `cl-prozesskostenrisiko-each-party-bears-own` | Wenn es um Common Law: Each-party-bears-own in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cl-spezial-precedent-vs-statute` | Wenn es um Common Law: Precedent gegen Statute in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpu... |
-| `cl-vertragsklauseln-vertragsbegriffe-cl` | Wenn es um Common Law: Vertragsklauseln in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `client-explainer` | Wenn es um Mandanten-Erklärer in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `client-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Client: Mandantenkommunikation und Entscheidungsvorlage in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit So... |
-| `commercial-sonderfall-und-edge-case` | Wenn es um Commercial: Sonderfall und Edge-Case-Prüfung in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `common-consideration-discovery` | Wenn es um Common: Erstprüfung, Rollenklärung und Mandatsziel in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Soforts... |
-| `consideration-behoerden-gericht-und-registerweg` | Wenn es um Consideration: Behörden-, Gerichts- oder Registerweg in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofor... |
-| `contract-formation-false-friends-governing` | Wenn es um Contract Formation und Consideration in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `discovery-zahlen-schwellen-und-berechnung` | Wenn es um Discovery: Zahlen, Schwellenwerte und Berechnung in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Ann... |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drafting-interessen-explainer-beweislast` | Wenn es um Drafting: Mehrparteienkonflikt und Interessenmatrix in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `explainer-beweislast-und-darlegungslast` | Wenn es um Explainer: Beweislast, Darlegungslast und Substantiierung in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `false-friends` | Wenn es um Mandantenkommunikation in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `false-friends-contracts` | Wenn es um False Friends in Common-Law-Verträgen in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und N... |
-| `false-friends-scanner` | Wenn es um False-Friends-Scanner in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlage... |
-| `false-fristen-form-und-zustaendigkeit` | Wenn es um False: Fristen, Form, Zuständigkeit und Rechtsweg in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortsc... |
-| `friends-indemnity-quality` | Wenn es um Friends: Dokumentenmatrix, Lückenliste und Nachforderung in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `gate-fehlerkatalog` | Wenn es um Gate Fehlerkatalog in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `governing-law-jurisdiction` | Wenn es um Governing Law, Jurisdiction und Forum in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `humor-coach-interpretation-precedent-common` | Wenn es um Low-Key Late-Night Coach in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `indemnity-verhandlung-vergleich-und-eskalation` | Wenn es um Indemnity: Verhandlung, Vergleich und Eskalation in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslini... |
-| `interpretation-precedent` | Wenn es um Interpretation und Precedent in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommandocenter` | Wenn es um Common-Law-Kommandocenter in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `litigation-discovery-ma-commercial-quality` | Wenn es um Litigation, Discovery und Evidence in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ma-commercial-drafting` | Wenn es um M&A und Commercial Drafting in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `precedent-quellenkarte` | Wenn es um Precedent Quellenkarte in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `quality-formular-portal-und-einreichung` | Wenn es um Quality: Formular, Portal und Einreichungslogik in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschr... |
-| `quality-gate` | Wenn es um Common-Law-Qualitätstor in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits-... |
-| `rechtsvergleichender-begriffscheck-reviews` | Wenn es um Rechtsvergleichender Begriffscheck für deutsche Juristen in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit... |
-| `remedies-damages-representations-warranties` | Wenn es um Remedies, Damages und Equity in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfr... |
-| `representations-warranties-covenants` | Wenn es um Representations, Warranties und Covenants in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `reviews-internationaler-bezug-und-schnittstellen` | Wenn es um Reviews: Internationaler Bezug und Schnittstellen in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortsc... |
-| `simulation-negotiation` | Wenn es um Simulation und Verhandlungstraining in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `spezial-gate-red-team-und-qualitaetskontrolle` | Wenn es um Gate: Red-Team und Qualitätskontrolle in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-precedent-livequellen-und-rechtsprechungscheck` | Wenn es um Precedent: Livequellen- und Rechtsprechungscheck in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortsch... |
-| `start-chronologie-fristen` | Wenn es um Common-Law-Kompass — Allgemein in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `surety-guarantee-indemnity-ucc-sales` | Wenn es um Surety, Guarantee und Indemnity in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `suretyship-schriftsatz-brief-und-memo-bausteine` | Wenn es um Suretyship: Schriftsatz-, Brief- und Memo-Bausteine in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit A... |
-| `ucc-sales-goods` | Wenn es um UCC und Sale of Goods in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `us-vs-uk-drafting` | Wenn es um UK vs US Drafting in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragsbegriffe-risikoampel-und-gegenargumente` | Wenn es um Vertragsbegriffe: Risikoampel, Gegenargumente und Verteidigungslinien in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und... |
-| `wirtschaftsjuristen-tatbestand-beweis-und-belege` | Wenn es um Wirtschaftsjuristen: Tatbestandsmerkmale, Beweisfragen und Beleglage in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiie... |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Common-Law-Kompass für deutsche Wirtschaftsjuristen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vo... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Arbeitsprodukt: bilingualer Clause Mark-up, Jurisdiktionsmemo, Discovery-Plan, Client Explainer oder Verhandlungsposition erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gez... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`begriff-und-funktion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/begriff-und-funktion-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Begriff und Funktion: Originalbegriff im Vertrags- oder Prozesskontext erklären, deutsche false friends markieren und Rechtsfolge benennen. Vollständige Fachanweisungen und lokale Vorlagen wer... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/begriff-und-funktion-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Common Law Kompass ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/kommandocenter/SKILL.md) | Für Common-Law-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/kommandocenter/SKILL.md) |
+| [`prozess-und-beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/prozess-und-beweis-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Prozess und Beweis: pleading standard, disclosure oder discovery, privilege, witness evidence, expert evidence, costs und enforcement ordnen. Vollständige Fachanweisungen und lokale Vorlagen w... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/prozess-und-beweis-bearbeiten/SKILL.md) |
+| [`rechtsraum-und-quelle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/rechtsraum-und-quelle-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Rechtsraum und Quelle: Staat, Bundesstaat, Gericht, Datum, Primärquelle, Bindungswirkung und mögliche Abweichung feststellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt na... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/rechtsraum-und-quelle-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und loka... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vertragstechnik-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/vertragstechnik-bearbeiten/SKILL.md) | Für Common-Law-Vertrags- und Prozesskompass: Vertragstechnik: operative Pflicht, Risikozuweisung, knowledge qualifier, disclosure, remedy, limitation und Durchsetzbarkeit abgleichen. Vollständige Fachanweisungen und lokale Vorlagen werde... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=common-law-kompass/skills/vertragstechnik-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

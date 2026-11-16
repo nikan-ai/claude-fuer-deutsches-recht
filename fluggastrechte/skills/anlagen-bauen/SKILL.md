@@ -1,6 +1,6 @@
 ---
 name: anlagen-bauen
-description: "Wenn es um Fluggastrechte — Anlagen bauen in Fluggastrechte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Fluggastrechte — Anlagen bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Fluggastrechte — Anlagen bauen
@@ -124,10 +124,6 @@ Der Skill stoppt mit einer klaren Frage zurück an den Mandanten / die Sekretari
 
 Die Schreiben-Skills (`forderungsschreiben-erste-stufe`, `forderungsschreiben-mahnung`, `klage-amtsgericht-fluggast`) rufen diesen Skill **automatisch** am Ende ihrer Arbeit auf, sobald ein Belege-Ordner im Mandatsverzeichnis vorhanden ist. Der Nutzer kann das mit der Option "Anlagen separat lassen" abwählen.
 
-## Leitentscheidungen Anlagen / Schriftsatz
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen & Rechtsprechung
 
 Konkret zu prüfen:
@@ -137,3 +133,5 @@ Konkret zu prüfen:
 - Art. 6 VO 261/2004 (Verspätung)
 - Art. 7 VO 261/2004 (Ausgleichszahlung 250/400/600 EUR)
 - EuGH C-402/07 (Sturgeon)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

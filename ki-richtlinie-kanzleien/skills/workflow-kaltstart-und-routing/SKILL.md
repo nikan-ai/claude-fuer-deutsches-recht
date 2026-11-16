@@ -1,6 +1,6 @@
 ---
 name: workflow-kaltstart-und-routing
-description: "Wenn es um Kaltstart und Routing in Kanzleirichtlinien für digitale Werkzeuge geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzleirichtlinien für digitale Werkzeuge."
 ---
 
 # Kaltstart und Routing
@@ -26,11 +26,11 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 - **"Wir wollen eine Richtlinie für KI in der Kanzlei"** → Standardgliederung: Zweck, Anwendungsbereich, zulässige Tools, verbotene Tools, Mandantendaten, Schulungspflicht, Verantwortlichkeiten, Verstoßfolgen.
 - **"Welches Tool dürfen Mitarbeiter benutzen?"** → Whitelist erstellen mit AVV-Status, US-Cloud-Status (DPF/SCC/TIA), Kategorisierung "Mandantendaten ja/nein".
 - **"Mandantenkommunikation zu KI-Einsatz"** → Transparenzhinweise in Mandatsvereinbarung, ggf. Einwilligung; Berufsrechtliche Aufklärungspflicht § 49b BRAO.
-- **"Schulungsnachweise"** → Art. 4 KI-VO (seit 02.02.2025) verlangt nachweisbare KI-Kompetenz.
+- **Kompetenznachweise:** Artikel 4 verlangt angemessene Maßnahmen zur Förderung; vorhandene Einweisungen und Nacharbeit prüfen. Kein bestimmtes individuelles Niveau oder Zertifikat als gesetzliche Voraussetzung erfinden. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - **"Mitbestimmung im Betriebsrat"** → § 87 Abs. 1 Nr. 6 BetrVG bei "technischen Einrichtungen zur Überwachung"; § 80 Abs. 3 BetrVG Hinzuziehung externer Sachverständiger; § 95 BetrVG Auswahlrichtlinien.
 
 ## Praxis-Tipp
-Eine Kanzlei-Richtlinie ist nur so wirksam wie ihre Umsetzung. Empfehlung: erst Toolauswahl (Whitelist + Blacklist), dann Richtlinie schreiben, dann verpflichtende Schulung (Art. 4 KI-VO) plus jährliches Re-Briefing. Schlechte Praxis ist die abstrakte Richtlinie ohne benannte Tools — sie hat keine operative Wirkung.
+Empfohlener Organisationsablauf: Werkzeuge und Einsatzgrenzen festlegen, verständliche Richtlinie bereitstellen, tätigkeitsgerechte Einweisung und anlassbezogene Nacharbeit organisieren. Ein jährliches Re-Briefing kann intern vereinbart werden; Artikel 4 schreibt weder Jahresrhythmus noch eine bestimmte Schulungsform vor. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Output-Standard
 - Kurzbild: worum es geht, was gesichert ist, was offen ist.
@@ -43,3 +43,24 @@ Eine Kanzlei-Richtlinie ist nur so wirksam wie ihre Umsetzung. Empfehlung: erst 
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Unsicherheiten und Annahmen ausdrücklich markieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Kanzleibetrieb und Mandatssteuerung:** Wie wird aus dem vorhandenen Material ein für den Empfänger verwendbares Ergebnis?
+
+**Erste Ansicht:** Zeige die kurze Verarbeitungskette von Eingangsdatei über konkrete Änderung bis zum Ergebnis. Bei Texten nutze eine verständliche Vorher-nachher-Ansicht; bei Dokumentpaketen einen nachvollziehbaren Anlagen- oder Versionsstand.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Absatz, Datei oder Zielgruppe soll genau die betroffene Ausgabe fortschreiben. Zeige eine echte Vorschau nur, wenn die Datei tatsächlich erzeugt und geöffnet wurde.
+
+**Datengrundlage:** Eingangsdatei und Fassung, Empfänger, gewünschtes Ergebnis, Änderung, Beleg oder Vorlage und tatsächlicher Exportstatus. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** die fertige angeforderte Datei oder, bei fehlendem Export, ihr vollständig verwendbarer Inhalt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

@@ -5,20 +5,72 @@
 
 Produkthaftung und Produktrecht: Produktsicherheit, GPSR, ProdHaftG, deliktische Produzentenhaftung, Right to Repair, Software-/OTA-Updates, digitale Produktlebenszyklen, Rückruf, Marktüberwachung und Launch-Review.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/produktrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/produktrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/produktrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/produktrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Produkthaftung und Produktrecht (Plugin `produktrecht`):
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/produktrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/produktrecht/produktrecht-werkstatt.md" download><code>produktrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/produktrecht/produktrecht-schnellstart.md" download><code>produktrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | BGB BT — Smart-Kühlschrank, digitale Elemente und Reparaturblockade: [Gesamt-PDF](../testakten/bgb-bt-smart-kuehlschrank-digital-repair-koeln/gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf), [`testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip), [`testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip); Kaufrecht — Pflegebett, Sensorik und Cloud-Abo in Nürnberg: [Gesamt-PDF](../testakten/kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg/gesamt-pdf/kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg_gesamt.pdf), [`testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg.zip), [`testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg-einzelpdfs.zip); Kaufrecht — Smartwatch, Gesundheitsabo und Updatefehler in Hannover: [Gesamt-PDF](../testakten/kaufrecht-smartwatch-gesundheitsabo-update-hannover/gesamt-pdf/kaufrecht-smartwatch-gesundheitsabo-update-hannover_gesamt.pdf), [`testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover.zip), [`testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover-einzelpdfs.zip); Kaufrecht — Wallbox, Firmware und Lastmanagement in Essen: [Gesamt-PDF](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/gesamt-pdf/kaufrecht-wallbox-firmware-lastmanagement-essen_gesamt.pdf), [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip), [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip); Projekt Isarlicht — Kernfusion und Transrapid am Starnberger See: [Gesamt-PDF](../testakten/kernfusion-transrapid-starnberger-see/gesamt-pdf/kernfusion-transrapid-starnberger-see_gesamt.pdf), [`testakte-kernfusion-transrapid-starnberger-see.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kernfusion-transrapid-starnberger-see.zip), [`testakte-kernfusion-transrapid-starnberger-see-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-kernfusion-transrapid-starnberger-see-einzelpdfs.zip); Produkthaftung Frischwind Mobility GmbH — Akku-Brände E-Bike Wind-X7, Produktrückruf, Strafverfahren: [Gesamt-PDF](../testakten/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt/gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf), [`testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip), [`testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/produktrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`produktrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`produktrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [7 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BGB BT — Smart-Kühlschrank, digitale Elemente und Reparaturblockade](../testakten/bgb-bt-smart-kuehlschrank-digital-repair-koeln/README.md) | [Gesamt-PDF](../testakten/bgb-bt-smart-kuehlschrank-digital-repair-koeln/gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf) | [`testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip) | [`testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip) |
+| [BGB: Mähroboter, Cloud-Zwang und fehlerhaftes Update in Münster](../testakten/bgb-maehroboter-cloud-update-muenster/README.md) | [Gesamt-PDF](../testakten/bgb-maehroboter-cloud-update-muenster/gesamt-pdf/bgb-maehroboter-cloud-update-muenster_gesamt.pdf) | [`testakte-bgb-maehroboter-cloud-update-muenster.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-maehroboter-cloud-update-muenster.zip) | [`testakte-bgb-maehroboter-cloud-update-muenster-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-maehroboter-cloud-update-muenster-einzelpdfs.zip) |
+| [Kaufrecht — Pflegebett, Sensorik und Cloud-Abo in Nürnberg](../testakten/kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg/README.md) | [Gesamt-PDF](../testakten/kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg/gesamt-pdf/kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg_gesamt.pdf) | [`testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg.zip) | [`testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kaufrecht-pflegebett-sensorik-cloud-abo-nuernberg-einzelpdfs.zip) |
+| [Kaufrecht — Smartwatch, Gesundheitsabo und Updatefehler in Hannover](../testakten/kaufrecht-smartwatch-gesundheitsabo-update-hannover/README.md) | [Gesamt-PDF](../testakten/kaufrecht-smartwatch-gesundheitsabo-update-hannover/gesamt-pdf/kaufrecht-smartwatch-gesundheitsabo-update-hannover_gesamt.pdf) | [`testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover.zip) | [`testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kaufrecht-smartwatch-gesundheitsabo-update-hannover-einzelpdfs.zip) |
+| [Kaufrecht — Wallbox, Firmware und Lastmanagement in Essen](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/README.md) | [Gesamt-PDF](../testakten/kaufrecht-wallbox-firmware-lastmanagement-essen/gesamt-pdf/kaufrecht-wallbox-firmware-lastmanagement-essen_gesamt.pdf) | [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen.zip) | [`testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kaufrecht-wallbox-firmware-lastmanagement-essen-einzelpdfs.zip) |
+| [Projekt Isarlicht — Kernfusion und Transrapid am Starnberger See](../testakten/kernfusion-transrapid-starnberger-see/README.md) | [Gesamt-PDF](../testakten/kernfusion-transrapid-starnberger-see/gesamt-pdf/kernfusion-transrapid-starnberger-see_gesamt.pdf) | [`testakte-kernfusion-transrapid-starnberger-see.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-kernfusion-transrapid-starnberger-see.zip) | [`testakte-kernfusion-transrapid-starnberger-see-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-kernfusion-transrapid-starnberger-see-einzelpdfs.zip) |
+| [Produkthaftung Frischwind Mobility GmbH — Akku-Brände E-Bike Wind-X7, Produktrückruf, Strafverfahren](../testakten/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt/README.md) | [Gesamt-PDF](../testakten/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt/gesamt-pdf/produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt_gesamt.pdf) | [`testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt.zip) | [`testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-produkthaftung-akku-brand-e-bike-frischwind-mobility-erfurt-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -40,26 +92,26 @@ Es trennt sauber zwischen Produktsicherheit/Behördenpflichten, verschuldensunab
 
 ## Erster Start: das Kaltstart-Interview
 
-Verbindet sich mit Ihrem Launch-Tracker (Jira/Linear), liest zehn vergangene Launch-Reviews, lernt was Sie tatsächlich blockieren vs. durchwinken. Erstellt eine Risikokalibrierungstabelle, auf die jeder andere Skill zurückgreift.
+Das optionale Interview richtet ein Praxisprofil für wiederkehrende Produktprüfungen ein. Vorhandene Launch-Reviews können dafür ausgewertet werden, wenn sie bereitgestellt wurden oder der Zugriff auf einen verbundenen Tracker erlaubt ist. Bei einem konkreten Prüfauftrag beginnt die Arbeit direkt mit dem Produktmaterial; ein Profil, zehn frühere Reviews oder eine neue Verbindung sind keine Voraussetzung.
 
 Ihre Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` gespeichert und überlebt Plugin-Updates.
 
 ```
-/produktrecht:produktrecht-kaltstart-interview
+/produktrecht:pflichten-und-belege-bearbeiten Thema: kaltstart-interview
 ```
 
 ## Befehle
 
 | Befehl | Funktion |
 |---|---|
-| `/produktrecht:produktrecht-kaltstart-interview` | Kaltstart-Interview |
-| `/produktrecht:launch-pruefung [PRD oder Ticket]` | Vollständiger Launch-Review gegen Ihr Framework |
-| `/produktrecht:werbeaussagen-pruefung [Text]` | Werbeaussagen-Prüfung |
+| `/produktrecht:pflichten-und-belege-bearbeiten Thema: kaltstart-interview` | Kaltstart-Interview |
+| `/produktrecht:arbeitsprodukt-bearbeiten Thema: launch-pruefung [PRD oder Ticket]` | Vollständiger Launch-Review gegen Ihr Framework |
+| `/produktrecht:pflichten-und-belege-bearbeiten Thema: werbeaussagen-pruefung [Text]` | Werbeaussagen-Prüfung |
 | `/produktrecht:ist-das-ein-problem [Frage]` | Schnelle "Ist-das-ein-Problem?"-Antwort |
-| `/produktrecht:feature-risikobewertung [Feature]` | Tiefgehende Feature-Risikobewertung |
-| `/produktrecht:impressum-pflicht` | Impressumspflichten prüfen (DDG, MStV) |
-| `/produktrecht:preisangaben` | Preisangabenpflichten prüfen (PAngV) |
-| `/produktrecht:produktrecht-mandat-arbeitsbereich` | Mandate verwalten (nur Multi-Mandanten-Praxis) |
+| `/produktrecht:fehler-und-risiko-bearbeiten Thema: feature-risikobewertung [Feature]` | Tiefgehende Feature-Risikobewertung |
+| `/produktrecht:pflichten-und-belege-bearbeiten Thema: impressum-pflicht` | Impressumspflichten prüfen (DDG, MStV) |
+| `/produktrecht:pflichten-und-belege-bearbeiten Thema: preisangaben` | Preisangabenpflichten prüfen (PAngV) |
+| `/produktrecht:arbeitsprodukt-bearbeiten Thema: mandat-arbeitsbereich` | Mandate verwalten (nur Multi-Mandanten-Praxis) |
 
 ## Skills
 
@@ -76,7 +128,7 @@ Ihre Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-re
 
 ## Interaktive Befehle vs. geplante Agenten
 
-Die obigen Befehle laufen bei Aufruf – für laufende Arbeit an einem Mandat. Die Agenten unten laufen auf einem Zeitplan – für das, was sich bewegt während Sie nicht hinschauen:
+Die obigen Befehle laufen bei Aufruf. Eine wiederkehrende Überwachung setzt dagegen einen gesondert eingerichteten und freigegebenen Zeitplan sowie tatsächlich verfügbare Datenzugriffe voraus; die Installation allein startet keinen Hintergrundlauf. Die folgende Tabelle beschreibt den vorgesehenen Einsatz:
 
 | Agent | Was wird überwacht | Standard-Takt |
 |---|---|---|
@@ -84,7 +136,7 @@ Die obigen Befehle laufen bei Aufruf – für laufende Arbeit an einem Mandat. D
 
 ## Integrationen
 
-**Verbinden Sie zuerst ein Recherche-Tool – die Zitatschranken hängen davon ab.** Ohne eines wird jede Quellenangabe als `[prüfen]` markiert und der Prüfvermerk über jeder Ausgabe hält fest, dass Quellen nicht verifiziert wurden. Skills arbeiten beides; ein Recherche-Tool verschiebt Verifikationsarbeit von Ihrer Schulter.
+Maßgeblich ist die tatsächlich gelesene Quelle, nicht die bloße Verbindung eines Recherchewerkzeugs. Bereitgestellte Originaltexte können ebenso geprüft werden wie abrufbare amtliche Quellen. Modellwissen, Suchtreffer und ungelesene Fundstellen bleiben `[prüfen]`; der Prüfvermerk nennt Abruf, gelesene Passage und Grenzen. Fehlender Recherchezugang verhindert nicht die Arbeit am vorhandenen Produktmaterial.
 
 Ausgeliefert mit in `.mcp.json` konfigurierten Konnektoren:
 
@@ -94,12 +146,14 @@ Ausgeliefert mit in `.mcp.json` konfigurierten Konnektoren:
 - **Atlassian** – Jira-Issues und Confluence-Seiten
 - **Asana** – Aufgaben und Projekt-Tracking
 
-Mit verbundenem Tracker: Kaltstart liest Launch-Historie, launch-prüfung liest Ticket-Kontext, markteinführungs-monitor-Agent überwacht den Kalender.
+Ein freigegebener Tracker kann Launch-Historie und Ticket-Kontext liefern. Kalenderüberwachung braucht zusätzlich einen eingerichteten Zeitplan; ohne Zugriff wird mit bereitgestelltem Material gearbeitet.
 
 ## Schnellstart
 
+Die Profilerstellung ist optional. Für eine konkrete Frage oder einen vorhandenen Prüfauftrag kann unmittelbar einer der nachfolgenden Fachbefehle gewählt werden.
+
 ```
-/produktrecht:produktrecht-kaltstart-interview
+/produktrecht:pflichten-und-belege-bearbeiten Thema: kaltstart-interview
 ```
 
 Dann:
@@ -111,7 +165,7 @@ Dann:
 → Antwort in einer Minute, kalibriert auf Ihre Risikotabelle.
 
 ```
-/produktrecht:launch-pruefung PROJ-1234
+/produktrecht:arbeitsprodukt-bearbeiten Thema: launch-pruefung PROJ-1234
 ```
 
 → Vollständiger Review, Kategorie für Kategorie, mit Aufgabenliste.
@@ -125,7 +179,7 @@ Ihr Praxisprofil unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/pro
 - **UWG** (§§ 3, 5, 5a, 5b, 7 – unlautere Werbung, Irreführung, Belästigung)
 - **PAngV 2022** (Preisangabenpflichten, Grundpreis § 4, Streichpreise § 11)
 - **BGB §§ 305 ff.** (AGB-Kontrolle, Einbeziehung, Inhaltskontrolle)
-- **DDG** (vormals TMG – Impressumspflicht §§ 5, 6, Haftung §§ 7 ff.)
+- **DDG** (Informationspflichten für digitale Dienste; eine frühere TMG-Haftungsprüfung nicht allein durch Austausch der Gesetzesabkürzung fortschreiben)
 - **TDDDG** (Cookie-Einwilligung, § 25 TDDDG)
 - **ProdHaftG / § 823 BGB** (verschuldensunabhängige Produkthaftung und deliktische Produzentenhaftung)
 - **ProdSG / GPSR VO (EU) 2023/988** (Produktsicherheit, Marktüberwachung, Rückverfolgbarkeit, Safety Business Gateway)
@@ -146,29 +200,36 @@ Ihr Praxisprofil unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/pro
 
 ## Voraussetzungen
 
-Einige Features referenzieren externe Integrationen (Dokumentenmanagementsystem, Launch-Tracker, Fallmanagementsystem, Regulierungs-Feeds). Diese sind nicht mitgeliefert – wenn Sie einen MCP-Server dafür in Ihrer Umgebung haben, verwenden ihn die relevanten Features. Ohne einen fällt das Plugin auf Datei-Upload und manuelle Abläufe zurück. Führen Sie `/produktrecht:produktrecht-kaltstart-interview --check-integrations` aus um zu sehen, was in Ihrer Umgebung verfügbar ist.
+Einige Features referenzieren externe Integrationen (Dokumentenmanagementsystem, Launch-Tracker, Fallmanagementsystem, Regulierungs-Feeds). Diese sind nicht mitgeliefert – wenn Sie einen MCP-Server dafür in Ihrer Umgebung haben, verwenden ihn die relevanten Features. Ohne einen fällt das Plugin auf Datei-Upload und manuelle Abläufe zurück. Führen Sie `/produktrecht:pflichten-und-belege-bearbeiten Thema: kaltstart-interview --check-integrations` aus um zu sehen, was in Ihrer Umgebung verfügbar ist.
 
 ## Konfiguration
 
 Ihre Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` gespeichert und überlebt Plugin-Updates – Sie führen das Setup nur einmal aus.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **70 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-router`, `ce-kennzeichnung-routenplan`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `mandat-arbeitsbereich`, `produktmandat-workspace-kontexttrennung`, `produktrechtliche-erstpruefung-und-mandatsziel`, `workflow-anschluss-skills-router`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `belegmatrix-mandantenkommunikation-entscheidungsvorlage`, `impressumspflicht-dokumentenmatrix-und-lueckenliste`, `livecheck-formular-portal-und-einreichung`, `machinery-compliance-dokumentation-und-akte`, `produktlaunch-beweislast-rechtscheck`, `quellen-livecheck`, `rechtsquellen`, `software-quellenkarte`, `spezial-software-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `feature-risikobewertung`, `fristen-risikoampel-mandantenkommunikation`, `launch-livecheck-machinery`, `launch-pruefung`, `prodr-produkthaftung-bauleiter`, `produkthaftung-digital-software-pld-2024-2853`, `produkthaftung-grundlagen-produktsicherheit`, `produkthaftung-produktsicherheit-gpsr-korrektur`, `produkthaftung-reparatur-update-und-lifecycle`, `produktlaunch-rechtscheck`, `produktnutzung-und-claimcheck`, `produktrechtliche-rechtscheck`, `rechtsabteilung-produkthaftungsrichtlinie-ce`, `rechtscheck-sonderfall-und-edge-case`, `review-prodr-produkthaftung-digital`, `werbeaussagen-pruefung` |
-| 4. Gestaltung, Strategie und Verhandlung | `produktbeobachtung-verhandlung-vergleich-und-eskalation`, `right-to-rueckruf-strategie`, `rueckruf-strategie-konzern` |
-| 5. Verfahren, Behörde und Gericht | `nachhaltigkeitsklage-werbeaussagen` |
-| 6. Ergebnis, Schreiben und Kommunikation | `ist-ki-act-marktueberwachung-kommunikation`, `marktueberwachung-kommunikation`, `output-waehlen`, `workflow-mandantenkommunikation` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `bewertungen-red-team-impressumspflicht`, `chronologie-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `anpassen`, `dual-use-produktrecht`, `eu-produktsicherheitsverordnung-feature`, `impressum-pflicht`, `ki-act-produktintegration`, `pangv-prodr-produktbeobachtung`, `preisangaben`, `prodr-gpsr-cra-fitness-spezial`, `prodr-machinery-produktrueckruf`, `prodr-produktrueckruf-leitfaden`, `prodr-zahlen-schwellen-und-berechnung`, `produktbeobachtung-feldueberwachung`, `produktbeobachtung-software-produktrecht`, `rechtsabteilung-cybersecurity-digitale`, `rechtsabteilung-digitale-elemente-im-kaufrecht`, `rechtsabteilung-right-to-repair-im-geraetevertrieb`, `rechtsabteilung-rueckrufmanagement-repair-by`, `regulation-interessen-werbeaussagen`, ... plus 2 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Produkt und Rolle | [`produkt-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/produkt-und-rolle-bearbeiten/SKILL.md) |
+| 3. Fehler und Risiko | [`fehler-und-risiko-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/fehler-und-risiko-bearbeiten/SKILL.md) |
+| 4. Pflichten und Belege | [`pflichten-und-belege-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/pflichten-und-belege-bearbeiten/SKILL.md) |
+| 5. Reaktion | [`reaktion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/reaktion-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -176,78 +237,29 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 69 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anpassen` | Wenn es um /anpassen in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-router` | Wenn es um Produktrecht — Allgemein in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `belegmatrix-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Belegmatrix: Mandantenkommunikation und Entscheidungsvorlage in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `bewertungen-red-team-impressumspflicht` | Wenn es um Bewertungen: Behörden-, Gerichts- oder Registerweg in Produkthaftung und Produktrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ce-kennzeichnung-routenplan` | Wenn es um CE-Kennzeichnung Routenplan in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `chronologie-red-team-und-qualitaetskontrolle` | Wenn es um Chronologie: Red-Team und Qualitätskontrolle in Produkthaftung und Produktrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dual-use-produktrecht` | Wenn es um Dual-Use im Produktrecht in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eu-produktsicherheitsverordnung-feature` | Wenn es um GPSR in der Praxis in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `feature-risikobewertung` | Wenn es um Feature-Risikobewertung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-risikoampel-mandantenkommunikation` | Wenn es um Fristen- und Risikoampel in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `impressum-pflicht` | Wenn es um Impressumspflicht (Paragrafen 5. 6 DDG, Paragraf 18 MStV) in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüf... |
-| `impressumspflicht-dokumentenmatrix-und-lueckenliste` | Wenn es um Impressumspflicht: Dokumentenmatrix, Lückenliste und Nachforderung in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `ist-ki-act-marktueberwachung-kommunikation` | Wenn es um /ist-das-ein-problem – Schnellprüfung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-interview` | Wenn es um /kaltstart-interview in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ki-act-produktintegration` | Wenn es um europäischer Technikregulierungsrahmen: Produktintegration in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Z... |
-| `launch-livecheck-machinery` | Wenn es um Launch: Tatbestandsmerkmale, Beweisfragen und Beleglage in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `launch-pruefung` | Wenn es um Produkt-Launch-Freigabeprüfung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `livecheck-formular-portal-und-einreichung` | Wenn es um Livecheck: Formular, Portal und Einreichungslogik in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `machinery-compliance-dokumentation-und-akte` | Wenn es um Machinery: Compliance-Dokumentation und Aktenvermerk in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `mandat-arbeitsbereich` | Wenn es um Produktmandat-Workspace in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `marktueberwachung-kommunikation` | Wenn es um Marktueberwachung-Kommunikation in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachhaltigkeitsklage-werbeaussagen` | Wenn es um Greenwashing-Verteidigung in Produkthaftung und Produktrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `output-waehlen` | Wenn es um Output wählen in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pangv-prodr-produktbeobachtung` | Wenn es um Pangv: Risikoampel, Gegenargumente und Verteidigungslinien in Produkthaftung und Produktrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `preisangaben` | Wenn es um Preisangaben (PAngV 2022) in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prodr-gpsr-cra-fitness-spezial` | Wenn es um ProdR: GPSR CRA in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prodr-machinery-produktrueckruf` | Wenn es um ProdR: Machinery Regulation in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `prodr-produkthaftung-bauleiter` | Wenn es um ProdR: Produkthaftung Bauleiter in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweis... |
-| `prodr-produktrueckruf-leitfaden` | Wenn es um ProdR: Produktrueckruf in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prodr-zahlen-schwellen-und-berechnung` | Wenn es um Prodr: Zahlen, Schwellenwerte und Berechnung in Produkthaftung und Produktrecht geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `produktbeobachtung-feldueberwachung` | Wenn es um Produktbeobachtung Feldueberwachung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `produktbeobachtung-software-produktrecht` | Wenn es um Produktbeobachtung: Software, OTA und Sicherheitsupdates in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zus... |
-| `produktbeobachtung-verhandlung-vergleich-und-eskalation` | Wenn es um Produktbeobachtung: Verhandlung, Vergleich und Eskalation in Produkthaftung und Produktrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optio... |
-| `produkthaftung-digital-software-pld-2024-2853` | Wenn es um Produkthaftung für Software und digitale Komponenten in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `produkthaftung-grundlagen-produktsicherheit` | Wenn es um Produkthaftung: Grundlagen, digitales Produkt und Lifecycle in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `produkthaftung-produktsicherheit-gpsr-korrektur` | Wenn es um Produktsicherheit GPSR richtig routen in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Na... |
-| `produkthaftung-reparatur-update-und-lifecycle` | Wenn es um Produkthaftung: Reparatur, Update und Lifecycle in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, R... |
-| `produktlaunch-beweislast-rechtscheck` | Wenn es um Produktlaunch: Beweislast, Darlegungslast und Substantiierung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `produktlaunch-rechtscheck` | Wenn es um Produktlaunch-Rechtscheck von Impressum bis Marktüberwachung in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- un... |
-| `produktmandat-workspace-kontexttrennung` | Wenn es um Produktmandat-Workspace und Kontexttrennung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `produktnutzung-und-claimcheck` | Wenn es um Produktnutzung, Werbeclaim und Sicherheitsversprechen prüfen in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- un... |
-| `produktrechtliche-erstpruefung-und-mandatsziel` | Wenn es um Produktrechtliche: Erstprüfung, Rollenklärung und Mandatsziel in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `produktrechtliche-rechtscheck` | Wenn es um Produktrecht: Schriftsatz-, Brief- und Memo-Bausteine in Produkthaftung und Produktrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründun... |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `rechtsabteilung-cybersecurity-digitale` | Wenn es um Rechtsabteilung: Cybersecurity als Produktsicherheitsmerkmal in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit P... |
-| `rechtsabteilung-digitale-elemente-im-kaufrecht` | Wenn es um Rechtsabteilung: Digitale Elemente im Kaufrecht in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, R... |
-| `rechtsabteilung-produkthaftungsrichtlinie-ce` | Wenn es um Rechtsabteilung: Neue Produkthaftungsrichtlinie und Softwareprodukt in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiieru... |
-| `rechtsabteilung-right-to-repair-im-geraetevertrieb` | Wenn es um Rechtsabteilung: Right to Repair im Gerätevertrieb in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten... |
-| `rechtsabteilung-rueckrufmanagement-repair-by` | Wenn es um Rechtsabteilung: Rückrufmanagement mit RAPEX/Safety Gate in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfp... |
-| `rechtscheck-sonderfall-und-edge-case` | Wenn es um Rechtscheck: Sonderfall und Edge-Case-Prüfung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsquellen` | Wenn es um Rechtsquellen: Internationaler Bezug und Schnittstellen in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zust... |
-| `regulation-interessen-werbeaussagen` | Wenn es um Regulation: Mehrparteienkonflikt und Interessenmatrix in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `repair-by-design-software-locks-ersatzteile` | Wenn es um Repair-by-design, Software-Locks und Ersatzteile in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten,... |
-| `reparaturpflicht-hersteller-nach-gewaehrleistung` | Wenn es um Hersteller-Reparaturpflicht nach Gewährleistung in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `review-prodr-produkthaftung-digital` | Wenn es um Review: Fristen, Form, Zuständigkeit und Rechtsweg in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `right-to-rueckruf-strategie` | Wenn es um Right to Repair im Produktrecht in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `rueckruf-strategie-konzern` | Wenn es um Rueckruf-Strategie Konzern in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `software-quellenkarte` | Wenn es um Software Quellenkarte in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `spezial-software-livequellen-und-rechtsprechungscheck` | Wenn es um Software: Livequellen- und Rechtsprechungscheck in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `werbeaussagen-pruefung` | Wenn es um Werbeaussagen-Prüfung (Marketing Claims Review) in Produkthaftung und Produktrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `workflow-anschluss-skills-router` | Wenn es um Anschluss-Skills Router in Produkthaftung und Produktrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Produkthaftung und Produktrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-mandantenkommunikation` | Wenn es um Mandantenkommunikation in Produkthaftung und Produktrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Produkthaftung und Produktrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Produkthaftung und Produktrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Arbeitsprodukt: Launch-Matrix, Rückrufmemo, Haftungsanalyse, Behördenantwort oder Verteidigungsschreiben erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/einstieg-routing/SKILL.md) |
+| [`fehler-und-risiko-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/fehler-und-risiko-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Fehler und Risiko: Konstruktion, Fabrikation, Instruktion, Software, Update, Cyberrisiko und vorhersehbare Verwendung trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/fehler-und-risiko-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Produktrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`pflichten-und-belege-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/pflichten-und-belege-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Pflichten und Belege: technische Norm, Test, Anleitung, Warnung, Reklamation, Produktbeobachtung und Marktüberwachung prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/pflichten-und-belege-bearbeiten/SKILL.md) |
+| [`produkt-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/produkt-und-rolle-bearbeiten/SKILL.md) | Für Produktrecht und Produkthaftung: Produkt und Rolle: Hersteller, Importeur, Händler, Fulfilment, Plattform, Betreiber oder Geschädigter bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auft... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/produkt-und-rolle-bearbeiten/SKILL.md) |
+| [`reaktion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/reaktion-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Reaktion: Korrektur, Warnung, Rückruf, Behördenmeldung, Kundenkommunikation und Beweissicherung planen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/reaktion-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

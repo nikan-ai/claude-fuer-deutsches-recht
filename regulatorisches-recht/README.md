@@ -5,20 +5,66 @@
 
 Aufsichtsrecht – KWG, ZAG, WpHG, GwG, EnWG, TKG, HeilMWerbG, Umsatzsteuer-Voranmeldung, Inkasso/RDG, Regulator-Feeds, Wochendigest.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`regulatorisches-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/regulatorisches-recht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/regulatorisches-recht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/regulatorisches-recht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/regulatorisches-recht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/regulatorisches-recht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/regulatorisches-recht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Regulatorisches Recht – Plugin für deutsches Aufsichtsrecht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`regulatorisches-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/regulatorisches-recht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/regulatorisches-recht/regulatorisches-recht-werkstatt.md" download><code>regulatorisches-recht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/regulatorisches-recht/regulatorisches-recht-schnellstart.md" download><code>regulatorisches-recht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | BaFin-Sonderprüfung Thalvenia Bank AG — Kryptoverwahrung, AML-Pflichtverletzungen, MiCAR-Lizenzkrise: [Gesamt-PDF](../testakten/bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart/gesamt-pdf/bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart_gesamt.pdf), [`testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart.zip), [`testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`regulatorisches-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/regulatorisches-recht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`regulatorisches-recht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/regulatorisches-recht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`regulatorisches-recht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/regulatorisches-recht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BaFin-Sonderprüfung Thalvenia Bank AG — Kryptoverwahrung, AML-Pflichtverletzungen, MiCAR-Lizenzkrise](../testakten/bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart/README.md) | [Gesamt-PDF](../testakten/bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart/gesamt-pdf/bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart_gesamt.pdf) | [`testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart.zip) | [`testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bafin-verfahren-kryptoverwahrung-thalvenia-bank-aufsichtsverletzung-stuttgart-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -36,28 +82,28 @@ Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägig
 
 ## Erster Start: Kaltstart
 
-Fragt ab, welche Behörden Sie beobachten, verbindet Ihren Richtlinienordner und erlernt, was "wesentlich" bedeutet. Erstellt eine Beobachtungsliste und indiziert Ihre Richtlinienbibliothek.
+Der optionale Kaltstart richtet eine Beobachtungsliste und die Kriterien für wesentliche Änderungen ein. Vorhandene Richtlinien werden zuerst ausgewertet; ein Ordnerzugriff setzt eine verfügbare und freigegebene Verbindung voraus. Bei einem klaren Auftrag, etwa dem Vergleich einer neuen Norm mit einer vorgelegten Richtlinie, beginnt unmittelbar der Fachschritt. Nur entscheidende Lücken werden nachgefragt, danach wird der Vergleich oder Richtlinienentwurf fertiggestellt.
 
 ```
-/regulatorisches-recht:regulatorisches-recht-kaltstart-interview
+/regulatorisches-recht:regulierungsverfahren-und-rechtsschutz-bearbeiten Thema: kaltstart-interview
 ```
 
 ## Skills
 
 | Skill | Funktion |
 |---|---|
-| `/regulatorisches-recht:regulatorisches-recht-kaltstart-interview` | Ersteinrichtung: Beobachtungsliste + Richtlinienindex + Materialitätsschwelle |
-| `/regulatorisches-recht:aufsichts-feed-monitor` | Feeds jetzt prüfen, Neues melden |
+| `/regulatorisches-recht:regulierungsverfahren-und-rechtsschutz-bearbeiten Thema: kaltstart-interview` | Ersteinrichtung: Beobachtungsliste + Richtlinienindex + Materialitätsschwelle |
+| `/regulatorisches-recht:energie-und-netze-bearbeiten Thema: aufsichts-feed-monitor` | Feeds jetzt prüfen, Neues melden |
 | `/regulatorisches-recht:richtlinien-vergleich [Norm]` | Diff einer konkreten Rechtsänderung gegen die Richtlinienbibliothek |
-| `/regulatorisches-recht:luecken` | Offener Gap-Tracker – was wurde gemeldet und noch nicht geschlossen? |
-| `/regulatorisches-recht:stellungnahmen` | Offene Konsultationszeiträume prüfen, Entscheidungen protokollieren, Fristen verfolgen |
-| `/regulatorisches-recht:richtlinien-neufassung` | Vorgeschlagene Richtlinienneufassung, die eine Lücke schließt – Erstentwurf zur internen Prüfung, kein direktes Bearbeiten von Quelldokumenten |
-| `/regulatorisches-recht:regulatorisches-recht-mandat-arbeitsbereich` | Mandats-Workspaces verwalten (nur Multi-Mandantenpraxis) – neu, auflisten, wechseln, schließen, keiner |
+| `/regulatorisches-recht:unterlagen-und-quellen-auswerten-bearbeiten Thema: luecken` | Offener Gap-Tracker – was wurde gemeldet und noch nicht geschlossen? |
+| `/regulatorisches-recht:regulierungsverfahren-und-rechtsschutz-bearbeiten Thema: stellungnahmen` | Offene Konsultationszeiträume prüfen, Entscheidungen protokollieren, Fristen verfolgen |
+| `/regulatorisches-recht:energie-und-netze-bearbeiten Thema: richtlinien-neufassung` | Vorgeschlagene Richtlinienneufassung, die eine Lücke schließt – Erstentwurf zur internen Prüfung, kein direktes Bearbeiten von Quelldokumenten |
+| `/regulatorisches-recht:arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten Thema: mandat-arbeitsbereich` | Mandats-Workspaces verwalten (nur Multi-Mandantenpraxis) – neu, auflisten, wechseln, schließen, keiner |
 | **lücken-aufzeiger** *(Referenz)* | Gemeinsames Gap- und Kommentar-Tracker-Framework, das von `/luecken` und `/stellungnahmen` geladen wird |
 
 ## Interaktive Skills vs. geplante Agenten
 
-Die obigen Skills werden bei Aufruf ausgeführt – für die aktive Arbeit an einem Mandat. Die folgenden Agenten laufen planmäßig – für das, was sich bewegt, wenn Sie nicht hinsehen:
+Die obigen Skills werden bei Aufruf ausgeführt. Wiederkehrende Beobachtung erfordert einen gesondert eingerichteten und freigegebenen Zeitplan mit verfügbaren Quellenzugriffen. Die Installation allein startet keinen Hintergrundlauf; die folgende Tabelle beschreibt den vorgesehenen Einsatz:
 
 | Agent | Was er beobachtet | Standardrhythmus |
 |---|---|---|
@@ -65,9 +111,9 @@ Die obigen Skills werden bei Aufruf ausgeführt – für die aktive Arbeit an ei
 
 ## Konnektoren und Zitatverifizierung
 
-**Zuerst ein Recherchewerkzeug verbinden – die Zitier-Schutzregeln bauen darauf auf.** Ohne eines wird jedes Zitat mit `[prüfen]` versehen und die Prüfernotiz über jedem Ergebnis hält fest, dass Quellen nicht verifiziert wurden. Das Plugin arbeitet in beiden Fällen; es übernimmt nur mehr der Verifizierung, wenn ein Recherchewerkzeug verbunden ist.
+Die Prüfernotiz richtet sich nach dem tatsächlich gelesenen Material. Auch ein bereitgestellter amtlicher Originaltext kann geprüft werden; eine Werkzeugverbindung allein verifiziert dagegen kein Zitat. Nicht gelesene Fundstellen bleiben `[prüfen]`. Quelle, Fassungsdatum, gelesene Passage und verbleibende Grenzen sind getrennt auszuweisen.
 
-Die Rechtsrecherche-Konnektoren in diesem Plugin sind nicht nur Datenquellen – sie sind der Unterschied zwischen einem verifizierten Zitat und einem, das Sie prüfen müssen. Ein über einen verbundenen Recherche-Konnektor abgerufenes Zitat ist mit seiner Quelle markiert und rückverfolgbar. Zitate aus Modellwissen oder bloßer Web-Suche werden nicht als zitierfähige Fundstelle ausgegeben, bis Norm, Entscheidung, Randnummer oder Seite gegen eine Primärquelle geprüft sind.
+Ein Recherchezugang erleichtert den Abruf von Primärquellen. Entscheidend bleibt die inhaltliche Prüfung von Norm, Entscheidung und konkreter Fundstelle; Modellwissen oder ein Suchtreffer reichen dafür nicht. Ohne aktuellen Zugriff wird am vorhandenen Material weitergearbeitet und die offene Aktualitätsprüfung benannt, nicht ein neuer Aufnahmeprozess erzwungen.
 
 ## Integrationsmöglichkeiten
 
@@ -90,7 +136,7 @@ Ihr Praxisprofil unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/reg
 
 **Aufsichtsbehörden:** BaFin, Deutsche Bundesbank, BMF, Bundesnetzagentur (BNetzA), BMG, BAFA, BMJ, BMWi/BMWK, EBA, ESMA, EZB/SSM
 
-**Finanzmarktrecht:** KWG, ZAG, WpHG, WpIG, GwG, KAG/KAGB, MaRisk (BaFin-RS 09/2017 i.d.F. 2023), MaBV, BörsG
+**Finanzmarktrecht:** KWG, ZAG, WpHG, WpIG, GwG, KAGB, MaBV und BörsG; MaRisk in der aktuellen Fassung des BaFin-Rundschreibens 06/2024 (BA); DORA und die zugehörigen technischen Standards seit dem 17. Januar 2025 für den jeweils erfassten Anwendungsbereich
 
 **Energie- und Telekommunikationsrecht:** EnWG, TKG, MessZV
 
@@ -108,22 +154,29 @@ Ihr Praxisprofil unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/reg
 
 Ihre Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/regulatorisches-recht/CLAUDE.md` gespeichert und überlebt Plugin-Updates – die Einrichtung wird nur einmal durchgeführt.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-router`, `aufsichtsrecht-erstpruefung-und-mandatsziel`, `dokumente-intake`, `einstieg-routing`, `kaltstart-interview`, `mandat-arbeitsbereich`, `regulatorik-mandatssteckbrief-behoerden-fristen`, `workflow-anschluss-skills-router`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aufsichtsverfahren-formular-portal-und-einreichung`, `feeds-compliance-dokumentation-und-akte`, `inkasso-rdg-luecken-mar-mifid`, `luecken`, `luecken-aufzeiger`, `quellen-livecheck`, `rdg-quellenkarte`, `regulatorisches-stellungnahmen-beweislast`, `spezial-feeds-compliance-dokumentation-und-akte`, `spezial-rdg-livequellen-und-rechtsprechungscheck`, `stellungnahmen-beweislast-und-darlegungslast`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste`, `wphg-tatbestand-beweis-und-belege` |
-| 3. Prüfung, Anspruch und Subsumtion | `dora-ikt-vertragspruefung`, `fristen-risikoampel-mandantenkommunikation`, `heilmwerbg-risikoampel-und-gegenargumente`, `wpig-und-zag-pruefung` |
-| 5. Verfahren, Behörde und Gericht | `aufsichtsverfahren-anhoerung-gwg`, `gwg-fristen-form-und-zustaendigkeit`, `interview-fristennotiz-aufsichtssanktion`, `umsatzsteuer-behoerden-gericht-und-registerweg`, `voranmeldung-schriftsatz-brief-und-memo-bausteine` |
-| 6. Ergebnis, Schreiben und Kommunikation | `aufsichtskommunikation-grundregeln`, `massnahme-mandantenkommunikation-entscheidungsvorlage`, `output-waehlen`, `spezial-massnahme-mandantenkommunikation-entscheidungsvorlage`, `stellungnahmen`, `ustva-aufsichtskommunikation-grundregeln-dora`, `wochendigest-interessen-wphg-stellungnahmen`, `workflow-mandantenkommunikation` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `anhoerung-red-team-und-qualitaetskontrolle`, `spezial-anhoerung-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `aufsichts-feed-monitor`, `aufsichtssanktion-revision-spezial`, `dora-stellvertreter-und-konzern`, `enwg-feeds-heilmwerbg`, `inkasso-massnahme-regulator`, `mar-mifid-eltif-uebergreifend`, `regr-dora-resilienz`, `regr-finanzdienstleistungsregulierung-bauleiter`, `regr-mica-kryptoassets-spezial`, `regr-mifid2-regrecht-einfuehrung-internal`, `regrecht-einfuehrung-sektoren`, `regrecht-internal-policies-design`, `regulator-zahlen-schwellen-und-berechnung`, `regulatorisches-richtlinien-neufassung`, `richtlinien-anhoerung-red-aufsichtsrecht`, `richtlinien-neufassung`, `sonderfall-edge-case` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/juristischer-argumentationskern/SKILL.md), [`luecken-aufzeiger`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/luecken-aufzeiger/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Energie und Netze | [`energie-und-netze-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/energie-und-netze-bearbeiten/SKILL.md) |
+| 3. Post und weitere Netzwirtschaft | [`post-und-weitere-netzwirtschaft-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/post-und-weitere-netzwirtschaft-bearbeiten/SKILL.md) |
+| 4. Digitale Dienste und Systeme | [`digitale-dienste-und-systeme-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/digitale-dienste-und-systeme-bearbeiten/SKILL.md) |
+| 5. Regulierungsverfahren und Rechtsschutz | [`regulierungsverfahren-und-rechtsschutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/regulierungsverfahren-und-rechtsschutz-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -131,70 +184,29 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 61 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anhoerung-red-team-und-qualitaetskontrolle` | Wenn es um Anhörung: Red-Team und Qualitätskontrolle in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-router` | Wenn es um Regulatorisches Recht — Allgemein in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichts-feed-monitor` | Wenn es um Regulatorischer Feed-Watcher in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtskommunikation-grundregeln` | Wenn es um Aufsichtskommunikation Grundregeln in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtsrecht-erstpruefung-und-mandatsziel` | Wenn es um Aufsichtsrecht: Erstprüfung, Rollenklärung und Mandatsziel in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel... |
-| `aufsichtssanktion-revision-spezial` | Wenn es um Aufsichtssanktion: Revision in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtsverfahren-anhoerung-gwg` | Wenn es um Aufsichtsverfahren, Anhörung und Maßnahmebescheid in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits-... |
-| `aufsichtsverfahren-formular-portal-und-einreichung` | Wenn es um Aufsichtsverfahren: Formular, Portal und Einreichungslogik in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dora-ikt-vertragspruefung` | Wenn es um DORA-IKT-Vertragsprüfung in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dora-stellvertreter-und-konzern` | Wenn es um DORA: Konzern und Stellvertreter in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `enwg-feeds-heilmwerbg` | Wenn es um Enwg: Dokumentenmatrix, Lückenliste und Nachforderung in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `feeds-compliance-dokumentation-und-akte` | Wenn es um Compliance-Dokumentation und Aktenvermerk (regulatorische Verfahren) in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit... |
-| `fristen-risikoampel-mandantenkommunikation` | Wenn es um Fristen- und Risikoampel in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gwg-fristen-form-und-zustaendigkeit` | Wenn es um GwG: Fristen, Form, Zuständigkeit und Rechtsweg in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `heilmwerbg-risikoampel-und-gegenargumente` | Wenn es um Heilmwerbg: Risikoampel, Gegenargumente und Verteidigungslinien in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel... |
-| `inkasso-massnahme-regulator` | Wenn es um Inkasso: Verhandlung, Vergleich und Eskalation in Regulatorisches Recht – Plugin für deutsches geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Opt... |
-| `inkasso-rdg-luecken-mar-mifid` | Wenn es um Inkassodienstleistungen (RDG) in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlag... |
-| `interview-fristennotiz-aufsichtssanktion` | Wenn es um Interview: Fristennotiz und nächster Schritt in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-interview` | Wenn es um Ersteinrichtung – Regulatorisches Recht in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `luecken` | Wenn es um Gap-Tracker in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `luecken-aufzeiger` | Wenn es um Gap-Analyse: Interne Richtlinien vs. Aufsichtsverlautbarungen in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpu... |
-| `mandat-arbeitsbereich` | Wenn es um Mandat-Workspace-Verwaltung in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mar-mifid-eltif-uebergreifend` | Wenn es um MAR und MiFID und ELTIF in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `massnahme-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Maßnahme: Mandantenkommunikation und Entscheidungsvorlage in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Soforts... |
-| `output-waehlen` | Wenn es um Output wählen in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Regulatorisches Recht – Plugin für deutsches geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rdg-quellenkarte` | Wenn es um Rdg Quellenkarte in Regulatorisches Recht – Plugin für deutsches geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `regr-dora-resilienz` | Wenn es um RegR: DORA-Resilienz in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regr-finanzdienstleistungsregulierung-bauleiter` | Wenn es um RegR: FDL-Regulierung Bauleiter in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regr-mica-kryptoassets-spezial` | Wenn es um RegR: MiCA Kryptoassets in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regr-mifid2-regrecht-einfuehrung-internal` | Wenn es um RegR: MiFID II MAR in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regrecht-einfuehrung-sektoren` | Wenn es um Regrecht: Sektoren-Einfuehrung in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regrecht-internal-policies-design` | Wenn es um Regrecht: Internal Policies in Regulatorisches Recht – Plugin für deutsches geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `regulator-zahlen-schwellen-und-berechnung` | Wenn es um Regulator: Zahlen, Schwellenwerte und Berechnung in Regulatorisches Recht – Plugin für deutsches geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen u... |
-| `regulatorik-mandatssteckbrief-behoerden-fristen` | Wenn es um Regulatorisches Mandat: Behörden, Fristen und Rollen in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofo... |
-| `regulatorisches-richtlinien-neufassung` | Wenn es um Praxisprofil anpassen in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `regulatorisches-stellungnahmen-beweislast` | Wenn es um Regulatorisches: Internationaler Bezug und Schnittstellen in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Soforts... |
-| `richtlinien-anhoerung-red-aufsichtsrecht` | Wenn es um Richtlinien-Diff in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `richtlinien-neufassung` | Wenn es um Richtlinien-Neufassung in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sonderfall-edge-case` | Wenn es um Kaltstart: Sonderfall und Edge-Case-Prüfung in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `spezial-anhoerung-red-team-und-qualitaetskontrolle` | Wenn es um Anhoerung: Red-Team und Qualitätskontrolle in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-feeds-compliance-dokumentation-und-akte` | Wenn es um Feeds: Compliance-Dokumentation und Aktenvermerk in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-massnahme-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Massnahme: Mandantenkommunikation und Entscheidungsvorlage in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `spezial-rdg-livequellen-und-rechtsprechungscheck` | Wenn es um RDG: Livequellen- und Rechtsprechungscheck in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stellungnahmen` | Wenn es um Konsultationsbeiträge in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stellungnahmen-beweislast-und-darlegungslast` | Wenn es um Stellungnahmen: Beweislast, Darlegungslast und Substantiierung in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit So... |
-| `umsatzsteuer-behoerden-gericht-und-registerweg` | Wenn es um Umsatzsteuer: Behörden-, Gerichts- oder Registerweg in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ustva-aufsichtskommunikation-grundregeln-dora` | Wenn es um Umsatzsteuer-Voranmeldung (Paragraf 18 UStG) in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `voranmeldung-schriftsatz-brief-und-memo-bausteine` | Wenn es um Voranmeldung: Schriftsatz-, Brief- und Memo-Bausteine in Regulatorisches Recht – Plugin für deutsches geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträg... |
-| `wochendigest-interessen-wphg-stellungnahmen` | Wenn es um Wochendigest: Mehrparteienkonflikt und Interessenmatrix in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortsch... |
-| `workflow-anschluss-skills-router` | Wenn es um Anschluss-Skills Router in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Regulatorisches Recht – Plugin für deutsches geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-mandantenkommunikation` | Wenn es um Mandantenkommunikation in Regulatorisches Recht – Plugin für deutsches geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Regulatorisches Recht – Plugin für deutsches geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `wphg-tatbestand-beweis-und-belege` | Wenn es um Wphg: Tatbestandsmerkmale, Beweisfragen und Beleglage in Regulatorisches Recht – Plugin für deutsches geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `wpig-und-zag-pruefung` | Wenn es um Wpig Und Zag Prüfung in Regulatorisches Recht – Plugin für deutsches geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklär... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`digitale-dienste-und-systeme-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/digitale-dienste-und-systeme-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Digitale Dienste und Systeme: Plattformen, DSA, digitale Dienste, KI und Schnittstellen zur sektoralen Regulierung abgrenzen. Vollständige Fachanweisungen und lokale Vorlagen werden gezi... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/digitale-dienste-und-systeme-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Regulatorisches Recht – Plugin für deutsches. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/einstieg-routing/SKILL.md) |
+| [`energie-und-netze-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/energie-und-netze-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Energie und Netze: Netzanschluss, Entgelte, Unbundling, Versorgung, Marktkommunikation und Aufsicht im konkreten Energiesektor prüfen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/energie-und-netze-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Regulatorisches Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`luecken-aufzeiger`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/luecken-aufzeiger/SKILL.md) | Für Gap-Analyse für interne Richtlinien: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/luecken-aufzeiger/SKILL.md) |
+| [`post-und-weitere-netzwirtschaft-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/post-und-weitere-netzwirtschaft-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Post und weitere Netzwirtschaft: Postmarkt, Universaldienst, Eisenbahn und andere regulierte Infrastruktur nach dem einschlägigen Regime prüfen. Vollständige Fachanweisungen und lokale V... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/post-und-weitere-netzwirtschaft-bearbeiten/SKILL.md) |
+| [`regulierungsverfahren-und-rechtsschutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/regulierungsverfahren-und-rechtsschutz-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Regulierungsverfahren und Rechtsschutz: Antrag, Datenauskunft, Anhörung, Beschluss, Vollzug und gerichtlichen Rechtsschutz anhand der Regulierungsakte führen. Vollständige Fachanweisunge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/regulierungsverfahren-und-rechtsschutz-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Regulierungs- und Wirtschaftsverwaltungsrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen un... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Regulatorisches Recht – Plugin für deutsches. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=regulatorisches-recht/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

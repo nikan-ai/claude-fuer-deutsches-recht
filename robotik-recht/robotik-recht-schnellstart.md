@@ -1,68 +1,55 @@
-Wenn du das hier öffnest, willst du einen IT- oder Softwarevertrag prüfen und Leistungspflichten sowie Haftung sauber fassen.
+# 1. Robotikrecht: Schnellstart
 
-# Robotik Recht — Schnellstart
+Kläre Roboterfunktion, Sicherheitsversagen und Verantwortung und verfasse den beauftragten Vermerk, Lieferantenbrief oder Ereignisbericht. Lies zuerst Anleitung, Version und Protokolle. Fehlt das Ziel, biete Unfall und Beweissicherung, Beschaffung und Abnahme oder Freigabe nach Update an. Klare Aufträge direkt bearbeiten; nur entscheidende Lücken nachfragen. Antworten im bestehenden Entwurf verarbeiten. Keine Materialübersicht, Zusatzaufnahme oder Plugin-Dateien voraussetzen.
 
-Ziel: Robotik-Recht Deutschland/EU: Maschinenverordnung, Regulierungsrahmen, Produkthaftung, ProdSG, Datenschutz, CRA, Data Act, CE, Marktüberwachung, Unfälle, Rückruf, Verträge und Robotik-Testakte. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Rechtsstand des vorhandenen Fachmaterials: 14. September 2026; vor fallbezogener Verwendung anhand der angegebenen Quellen prüfen.
 
-## 1. Schnellmodus
+## 1.1. Funktion, Rolle und Schadenpfad
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Hersteller, Integrator, Betreiber, Wartung und Lieferanten auseinanderhalten. Was hat sich bewegt, entschieden oder verändert? Bestimmungsgemäße Verwendung, vorhersehbare Fehlanwendung, Update und Sicherheitsfunktion anhand von Belegen prüfen. Bei Unfall Logs und Zustand unverändert sichern; keine gefährliche Wiederholung zur Demonstration. Exportquelle, Gerätezeit mit Zeitzone, Firmwarestand, Konfiguration, Hash und jede Übergabe dokumentieren. Original und Arbeitskopie trennen; eine Zeitabweichung zwischen Kamera und Roboter nicht stillschweigend korrigieren. Eine fehlende Logdatei begründet für sich noch keine bestimmte Fehlerursache.
 
-## 2. Direktstart
+## 1.2. Neuer Produktpfad
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Bei versagendem Schutzfeld oder Notstopp prüfe Paragraf 3 ProdHaftG: BGH, Urteil vom 16. Juni 2009, VI ZR 107/08, Randnummern 15 bis 24, stellt auf praktisch verfügbare, erprobte und zumutbare Sicherheitskonstruktionen ab, nicht allein auf Branchenüblichkeit. Eine Warnung ersetzt keine mögliche und zumutbare sichere Konstruktion. Fordere den Nachweis zur damaligen Schutzalternative an. Das Airbag-Urteil beweist weder einen Roboterfehler noch dessen Kausalität; ein Update vor dem Unfall genügt dafür nicht. Betreiberpflichten nach Paragraf 3 Absätze 1 und 7 BetrSichV bleiben eigenständig, auch bei CE-Kennzeichnung.
 
-## 3. Kernroute
+Verordnung (EU) 2026/1744 hat die Maschinenverordnung (EU) 2023/1230 in Anhang I Abschnitt B verschoben. Artikel 2 Absatz 2 der Verordnung (EU) 2024/1689 und geändertes Maschinenrecht zuerst prüfen. Nicht automatisch den früheren Abschnitt-A-Pfad mit zusätzlicher Konformitätsbewertung nach Artikel 43 Absatz 3 verwenden.
 
-1. Leistungsmodell: Kauf, Miete, Werk, Dienst, SaaS, Cloud oder Mischvertrag einordnen.
-2. Pflichtenheft: Funktion, Schnittstelle, Meilenstein, Testfall, Service-Level und Abnahme festlegen.
-3. Störung: Mangel, Verzug, Change Request, Mitwirkungsdefizit und Eskalationsmechanik trennen.
-4. Rechte und Daten: Nutzungsrechte, Open Source, Datenschutzschnittstelle, Zugriff und Löschung prüfen.
-5. Arbeitsprodukt: IT-Vertragsklausel, Mängelrüge, Abnahmeprotokoll, Exit-Plan oder Projektmemo erstellen.
-6. Beweislast und Offenlegung in der Robotik-Produkthaftung: Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen.
+Artikel 6 Absätze 1a bis 1c präzisieren Sicherheitsbauteile: reine nicht sicherheitsbezogene Komfort- oder Qualitätsfunktion genügt nicht. Gesundheits- oder sicherheitsgefährdender Ausfall kann die Einordnung tragen. Drittprüfung nur wegen anderer Risiken genügt nicht für Absatz 1 Buchstabe b. Medizinrobotik und sonstige Produktregime getrennt prüfen. Eigenständige Anhang-III-Funktionen nicht übersehen.
 
-## 4. Fallkarte
+## 1.3. Termine nicht vermischen
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 327; BGB Paragraf 327e; BGB Paragraf 433 |
-| Rechtsprechung | EuGH, Urteil vom 03.07.2012 - C-128/11; BGH, Urteil vom 15.11.2006 - XII ZR 120/04 |
-| Tatbestand | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen |
-| Beweislast | Auftraggeber für Mangel und Abnahmevorbehalt; Anbieter für Leistung, Change Request, Mitwirkung und Haftungsbegrenzung |
-| Rechtsfolge | Abnahme, Nacherfüllung, SLA-Gutschrift, Rechteklärung, Change Request oder Haftungsvorschlag |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Maschinenverordnung grundsätzlich ab 20. Januar 2027. Artikel 113 verschiebt bestimmte Systempflichten: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5 für Anhang III ab 2. Dezember 2027, für Anhang I ab 2. August 2028. Artikel 111 zum Bestand hinzunehmen. Das setzt weder bestehende Produktsicherheit noch Arbeitsschutz oder Datenschutz aus.
 
-## 5. Einsatzfelder
+Artikel 43 nach richtigem Anhang: Anhang III Nummer 1 mit Bedingungen für interne Kontrolle beziehungsweise notifizierte Stelle, Nummern 2 bis 8 grundsätzlich interne Kontrolle. Eine bloße Zertifikatswerbung ersetzt keinen Nachweis.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beweislast und Offenlegung in der Robotik-Produkthaftung | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beweismatrix und Logauswertung | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Datenverlust und digitaler Schaden | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Deliktische Haftung Paragraf 823 BGB | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Haftung Arzt Klinik Hersteller | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Art. 6 Hochrisiko Robotik | Leistungssoll, Abnahme, SLA, Rechtekette, Datenschutz, Haftung, Change Request und Beleglage zusammenführen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+## 1.4. Mensch, Daten und synthetische Ausgaben
 
-## 6. Anker
+Artikel 4 verlangt Kompetenzförderung ohne individuelle Niveaugarantie. Einweisung auf realen Arbeitsablauf, Eingriffsrecht und bekannte Fehlerbilder ausrichten. Bei einschlägiger Hochrisikoaufsicht Artikel 26 Absatz 2 separat prüfen.
 
-- BGB Paragraf 327: Verbraucherverträge über digitale Produkte.
-- BGB Paragraf 327e: Vertragsmäßigkeit digitaler Produkte.
-- BGB Paragraf 433: Kaufrechtliche Grundpflichten bei Hardware und Standardsoftware.
-- BGB Paragraf 631: Werkvertragliche Pflichten bei Projektleistungen.
-- ProdHaftG (national, vor 09.12.2026): Beweislast Geschädigter für Fehler, Schaden, Kausalität (Paragraf 1 Abs. 4 ProdHaftG); Hersteller für Befreiungstatbestände Paragraf 1 Abs. 2: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- ZPO Paragrafen 142, 144 (Anordnung der Vorlage), Paragrafen 421-432 (Urkunden), Paragraf 286 freie Beweiswürdigung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 810 BGB Einsicht in Urkunden bei rechtlichem Interesse: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 242 BGB Auskunft als Nebenpflicht: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- EuGH, Urteil vom 03.07.2012 - C-128/11: UsedSoft behandelt Erschöpfung bei Softwaredownloads.
-- BGH, Urteil vom 15.11.2006 - XII ZR 120/04: Application-Service-Providing kann mietvertragliche Elemente tragen.
+Artikel 4a betrifft sensible Bias-Daten: richtige Rolle und Absatz, strikte Notwendigkeit, keine gleich wirksamen anderen Daten, geschützte dokumentierte Zugriffe, keine Weitergabe und früheste Löschung. Nicht pauschal Mitarbeiterbilder an den Hersteller zur Modellverbesserung senden.
 
-## 7. Antwortform
+Artikel 50 regelt Transparenz, Deepfakes stehen in Absatz 4. Technische Anbieterkennzeichnung nach Absatz 2 getrennt halten. Nur Altanbieter vor dem 2. August 2026 vermarkteter Systeme erhalten nach Artikel 111 Absatz 4 bis 2. Dezember 2026 Zeit für Absatz 2. Neue Inhaltsverbote nach Artikel 5 Buchstaben ba und bb ab 2. Dezember 2026 nicht mit Artikel 4a verwechseln.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Beweislast und Offenlegung in der Robotik-Produkthaftung, Beweismatrix und Logauswertung, Datenverlust und digitaler Schaden, Deliktische Haftung Paragraf 823 BGB: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+## 1.5. Vorfall und Zuständigkeit
 
-## 8. Stop
+Produktvigilanz, Systemvorfall und Datenpanne haben unterschiedliche Adressaten und Fristen. Keine pauschale 15-Tage-Frist für alle Ereignisse. Artikel 33 der Datenschutz-Grundverordnung bleibt bei unverzüglich, möglichst 72 Stunden; COM(2025) 837 ist noch Reformvorschlag.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+KI-MIG: Bundesnetzagentur als Auffangbehörde mit Ausnahmen nach Paragraf 2. Tatsächliche Produktaufsicht und Länderzuständigkeit prüfen; kein Ministerium allein wegen seiner fachpolitischen Rolle als zuständigen Marktüberwacher benennen.
+
+## 1.6. Arbeitsprodukt
+
+Fehlt der Firmwarestand oder ist eine Sicherheitsreaktion unklar, frage nach genau dieser Konfiguration oder dem zugehörigen Testprotokoll. Bei widersprüchlichen Zeitstempeln fordere Exportquelle und Gerätezeit an, statt eine scheinbar geschlossene Ereignisfolge zu erfinden. Bearbeite unabhängig davon belegbare Teile weiter und benenne die offene Schlussfolgerung.
+
+„Die Kamera lief in Sommerzeit, der Roboter in UTC“ führt zu einer gekennzeichneten Arbeitschronologie mit unveränderten Originalzeiten, nicht zur Umschreibung der Logs. „Der Integrator will vor der Prüfung zurücksetzen“ führt zum Sicherungsschreiben und zur fachkundig abzustimmenden Untersuchung, nicht zur Freigabe eines beweisvernichtenden Resets. Danach den bestellten Brief oder Bericht vollständig ausarbeiten.
+
+Führe Funktion, Ausfallpfad, Beleg, Normfassung, Termin und Maßnahme nachvollziehbar zusammen. Ungeprüfte Sicherheit nicht bescheinigen. Beachte den gewünschten Dateinamen; dezimale Gliederung, vollständige Sätze, Times New Roman 11 pt. Interne Quellen- und Zugriffsnotizen getrennt vom Empfängertext halten.
+
+Quellen: [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj?locale=de), [Maschinenverordnung](https://eur-lex.europa.eu/eli/reg/2023/1230/oj?locale=de), [KI-MIG](https://www.gesetze-im-internet.de/ki-mig/BJNR0DF0B0026.html). Technische Standards nach tatsächlichem Veröffentlichungs- und Harmonisierungsstand prüfen.
+
+## 1.7. Freigabestopp ohne Bearbeitungsstillstand
+
+Stoppe eine unbelegte technische Sicherheitsfreigabe und jede gefährliche Versuchswiederholung. Vorhandene Beweise, Ereignisbericht und Behördenentwurf weiterbearbeiten; Rückruf oder Betriebsänderung nur nach Entscheidung des Verantwortlichen.
+
+Nutze nur verfügbare Werkzeuge und behaupte keine durchgeführte Prüfung ohne Nachweis. Bei fehlendem Datei- oder Quellenzugriff die konkrete Grenze benennen, bei fehlendem Export den Text liefern. Weitere Skills sind optional; nach Eingang fehlender Unterlagen am erreichten Stand fortsetzen.
+
+KI-Prüfung: Ordnen Sie Sensorik, Sicherheitsfunktion, Steuerungssoftware und vorgesehene Änderungen getrennt ein. Prüfen Sie den Maschinenpfad in Anhang I Abschnitt B und die Begrenzung durch Artikel 2 Absatz 2, bevor Sie sämtliche Systempflichten übertragen. Nutzen Sie die fachbezogene Normen- und Fallprüfung in den Referenzen; übertragen Sie Datenschutzurteile und ISO-Nachweise nur innerhalb ihres belegten Gegenstands.

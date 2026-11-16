@@ -5,20 +5,66 @@
 
 Meinungsprüfer für Äußerungsrecht: Meinung oder Tatsache, Beleidigung, üble Nachrede, Verleumdung, Paragraf 188 StGB, Art. 5 GG, Art. 10 EMRK, Art. 11 GRCh, EGMR/EuGH, OLG-Praxis, US-Supreme-Court-Vergleich, Zivilrecht, Plattformen, Social Media, Arbeitsplatz, Schule und kommunale Machtkritik.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`meinungspruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/meinungspruefer.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/meinungspruefer.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/meinungspruefer-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/meinungspruefer-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/meinungspruefer.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/meinungspruefer.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Meinungsprüfer:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`meinungspruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/meinungspruefer.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/meinungspruefer/meinungspruefer-werkstatt.md" download><code>meinungspruefer-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/meinungspruefer/meinungspruefer-schnellstart.md" download><code>meinungspruefer-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Meinungsprüfer - Grenzfälle im Alltag: [Gesamt-PDF](../testakten/meinungspruefer-grenzfaelle-alltag/gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf), [`testakte-meinungspruefer-grenzfaelle-alltag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-meinungspruefer-grenzfaelle-alltag.zip), [`testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`meinungspruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/meinungspruefer.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`meinungspruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/meinungspruefer-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`meinungspruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/meinungspruefer-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Meinungsprüfer - Grenzfälle im Alltag](../testakten/meinungspruefer-grenzfaelle-alltag/README.md) | [Gesamt-PDF](../testakten/meinungspruefer-grenzfaelle-alltag/gesamt-pdf/meinungspruefer-grenzfaelle-alltag_gesamt.pdf) | [`testakte-meinungspruefer-grenzfaelle-alltag.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-meinungspruefer-grenzfaelle-alltag.zip) | [`testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-meinungspruefer-grenzfaelle-alltag-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -32,7 +78,7 @@ Freistehendes Plugin für die Prüfung von Äußerungen nach einfachem Recht, Ve
 /meinungspruefer:allgemein
 ```
 
-Der Einstieg fragt schnell ab: exakter Wortlaut, Medium, Publikum, Anlass, Vorgeschichte, Betroffene, Tatsachenkern, Belege, Wiederholungsgefahr, gewünschter Output und Risikotoleranz. Danach routet er zu den passenden Spezialskills.
+Der Einstieg liest Äußerung, Screenshot und Korrespondenz zuerst und bestimmt Wortlaut, Zusammenhang und erkennbares Publikum. Nur fehlende Angaben, die Sinnermittlung, Beleglage oder den beauftragten Reaktionstext verändern, werden nachgefragt. Eine verlangte Erwiderung oder Überarbeitung wird vollständig formuliert; neue Kontextbelege führen zur gezielten Korrektur statt zu einer erneuten Gesamtaufnahme.
 
 ## Skills (36)
 
@@ -79,22 +125,28 @@ Der Einstieg fragt schnell ab: exakter Wortlaut, Medium, Publikum, Anlass, Vorge
 
 Stand: 05/2026. Kernnormen: Art. 5 GG, Art. 10 EMRK, Art. 11 GRCh, §§ 185-188, 192-194 StGB, §§ 823, 824, 1004 BGB analog, § 22 KUG bei Bildern und DSA-Schnittstellen bei Plattformen. Leitentscheidungen sind im Skill `rechtsprechungsbank-verifiziert` dokumentiert; der USA-Vergleich ist ausdrücklich nur Vergleich, kein Import amerikanischer Standards in die deutsche Prüfung.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **54 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `dokumente-intake`, `einstieg-routing`, `kaltstart-triage`, `meinungspruefer-erstpruefung-und-mandatsziel`, `schmaehkritik-formalbeleidigung-schnelltriage`, `schnelltriage-aeusserung`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aeusserungsrecht-tatbestand-beweis-und-belege`, `beleglage-tatsachenbehauptung-beweissicherung`, `beweissicherung-screenshots`, `rechtsvergleich-usa-risikomatrix-ampel`, `risikomatrix-ampel`, `spezial-stgb-livequellen-und-rechtsprechungscheck`, `stgb-quellenkarte`, `strafrecht-beleidigung-testakte-auswertung`, `tatsache-dokumentenmatrix-und-lueckenliste`, `testakte-auswertung`, `unterlagen-luecken`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `beleidigung-meinungspruefer`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `verleumdung-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `chronologie-fristen`, `meinung-strafantrag-verfahren`, `strafantrag-194-und-verfahren` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-memo-pruefvermerk`, `stellungnahme-verteidigung-schule-elternchat` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `europarecht-emrk-gegendarstellung`, `gegendarstellung-entschuldigung-deeskalation` |
-| 8. Spezialmodule und Schnittstellen | `abmahnung-strafanzeige-reaktion`, `abwaegung-art-arbeitgeber-betrieb`, `arbeitgeber-betrieb-kantine`, `egmr-art-eugh-grch`, `eugh-grch-art-11-rechtsprechung`, `kommunalrecht-buergermeister-machtkritik`, `machtkritik-amtstraeger`, `mehrdeutigkeit-sinnermittlung-meinung`, `meinung-tatsache-abgrenzung`, `nachrede-tatsache`, `olg-kg-rechtsprechungsbank-verifiziert`, `personen-politisches-presserecht-plattformen`, `presserecht-plattformen-loeschung-dsa`, `rechtsprechungsbank-verifiziert`, `satire-ironisierung-schimpfwort-lackaffe`, `schimpfwort-lackaffe-und-spott`, `schule-elternchat`, `soziale-medien-aeusserungsrecht`, ... plus 6 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Beschwerdegegenstand, Hoheitsakt, Beschwerdefuehrer und Frist feststellen | [`beschwerdegegenstand-hoheitsakt-beschwerdefuehrer-un-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/beschwerdegegenstand-hoheitsakt-beschwerdefuehrer-un-bearbeiten/SKILL.md) |
+| 3. Zulaessigkeit | [`zulaessigkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/zulaessigkeit-bearbeiten/SKILL.md) |
+| 4. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 5. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -102,62 +154,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 53 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abmahnung-strafanzeige-reaktion` | Wenn es um Reaktion auf Abmahnung oder Strafanzeige in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `abwaegung-art-arbeitgeber-betrieb` | Wenn es um Art. 5 GG - Abwägung in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `aeusserungsrecht-tatbestand-beweis-und-belege` | Wenn es um Aeusserungsrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `arbeitgeber-betrieb-kantine` | Wenn es um Betrieb, Kantine und Arbeitgeber in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beleglage-tatsachenbehauptung-beweissicherung` | Wenn es um Beleglage bei Tatsachenbehauptungen in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `beleidigung-meinungspruefer` | Wenn es um Beleidigung: Risikoampel, Gegenargumente und Verteidigungslinien in Meinungsprüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweissicherung-screenshots` | Wenn es um Beweissicherung in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chronologie-fristen` | Wenn es um Chronologie und Belegmatrix in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `egmr-art-eugh-grch` | Wenn es um EGMR-Art.-10-Rechtsprechung in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eugh-grch-art-11-rechtsprechung` | Wenn es um EuGH und Art. 11 GRCh in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `europarecht-emrk-gegendarstellung` | Wenn es um Europarecht: EMRK und Grundrechtecharta in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gegendarstellung-entschuldigung-deeskalation` | Wenn es um Gegendarstellung, Entschuldigung, Deeskalation in Meinungsprüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `kaltstart-triage` | Wenn es um Meinungsprüfer - Allgemein in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommunalrecht-buergermeister-machtkritik` | Wenn es um Kommunalrechtlicher Grenzfall: Bürgermeister und Bauprojekt in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `machtkritik-amtstraeger` | Wenn es um Machtkritik und Amtsträger in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mehrdeutigkeit-sinnermittlung-meinung` | Wenn es um Mehrdeutigkeit und Sinnermittlung in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meinung-strafantrag-verfahren` | Wenn es um Meinung: Fristen, Form, Zuständigkeit und Rechtsweg in Meinungsprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meinung-tatsache-abgrenzung` | Wenn es um Meinung oder Tatsachenbehauptung in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meinungspruefer-erstpruefung-und-mandatsziel` | Wenn es um Meinungspruefer: Erstprüfung, Rollenklärung und Mandatsziel in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachrede-tatsache` | Wenn es um Nachrede: Schriftsatz-, Brief- und Memo-Bausteine in Meinungsprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `olg-kg-rechtsprechungsbank-verifiziert` | Wenn es um OLG-/KG-Praxis zur Äußerungsprüfung in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `output-memo-pruefvermerk` | Wenn es um Output: Memo und Prüfvermerk in Meinungsprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `personen-politisches-presserecht-plattformen` | Wenn es um Paragraf 188 StGB - Personen des politischen Lebens in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `presserecht-plattformen-loeschung-dsa` | Wenn es um Presse, Plattformen und DSA-Schnittstelle in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `rechtsprechungsbank-verifiziert` | Wenn es um Rechtsprechungsbank - verifiziert in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rechtsvergleich-usa-risikomatrix-ampel` | Wenn es um Rechtsvergleich USA: Supreme Court in Meinungsprüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `risikomatrix-ampel` | Wenn es um Risikomatrix Ampel in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `satire-ironisierung-schimpfwort-lackaffe` | Wenn es um Satire, Ironie und Pinocchio-Vergleich in Meinungsprüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `schimpfwort-lackaffe-und-spott` | Wenn es um \"Lackaffe\" und ähnliche Spottbegriffe in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schmaehkritik-formalbeleidigung-schnelltriage` | Wenn es um Schmähkritik, Formalbeleidigung, Menschenwürde in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schnelltriage-aeusserung` | Wenn es um Schnelltriage Äußerung in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schule-elternchat` | Wenn es um Schule und Elternchat in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `soziale-medien-aeusserungsrecht` | Wenn es um Soziale Medien: X, LinkedIn, Bewertungsportale in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-stgb-livequellen-und-rechtsprechungscheck` | Wenn es um Stgb: Livequellen- und Rechtsprechungscheck in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stellungnahme-verteidigung-schule-elternchat` | Wenn es um Stellungnahme und Verteidigung in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stgb-quellenkarte` | Wenn es um Stgb Quellenkarte in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `strafantrag-194-und-verfahren` | Wenn es um Strafantrag und Verfahren in Meinungsprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafrecht-beleidigung-testakte-auswertung` | Wenn es um Paragraf 185 StGB - Beleidigung in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `tatsache-dokumentenmatrix-und-lueckenliste` | Wenn es um Tatsache: Dokumentenmatrix, Lückenliste und Nachforderung in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `testakte-auswertung` | Wenn es um Testakte auswerten in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `ueble-nachrede-verleumdung` | Wenn es um Paragraf 186 StGB - üble Nachrede in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ueble-verleumdung` | Wenn es um Ueble: Behörden-, Gerichts- oder Registerweg in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verleumdung-187` | Wenn es um Paragraf 187 StGB - Verleumdung in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verleumdung-verhandlung-vergleich-und-eskalation` | Wenn es um Verleumdung: Verhandlung, Vergleich und Eskalation in Meinungsprüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `wahrnehmung-berechtigter-zitat` | Wenn es um Paragraf 193 StGB - Wahrnehmung berechtigter Interessen in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Meinungsprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Meinungsprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zitat-und-kontextaufnahme` | Wenn es um Zitat und Kontextaufnahme in Meinungsprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `zivilrecht-unterlassung-abmahnung` | Wenn es um Zivilrechtliche Äußerungsansprüche in Meinungsprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Meinungsprüfer: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Meinungsprüfer: Arbeitsprodukt: Verfassungsbeschwerde, Stellungnahme, Normenkontrollskizze oder Tenorvorschlag. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`beschwerdegegenstand-hoheitsakt-beschwerdefuehrer-un-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/beschwerdegegenstand-hoheitsakt-beschwerdefuehrer-un-bearbeiten/SKILL.md) | Meinungsprüfer: Beschwerdegegenstand, Hoheitsakt, Beschwerdeführer und Frist feststellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/beschwerdegegenstand-hoheitsakt-beschwerdefuehrer-un-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Meinungsprüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/einstieg-routing/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Meinungsprüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Meinungsprüfer: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Meinungsprüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| [`zulaessigkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/zulaessigkeit-bearbeiten/SKILL.md) | Meinungsprüfer: Zulässigkeit: Rechtswegerschöpfung, Subsidiarität, Beschwerdebefugnis und Form prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=meinungspruefer/skills/zulaessigkeit-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

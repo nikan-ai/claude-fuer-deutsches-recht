@@ -5,20 +5,67 @@
 
 Freistehender JVEG-Kostenprüfer für Zeugenentschädigung, Vorschuss, Fahrtkosten, Übernachtung, Verdienstausfall, Sachverständigen- und Dolmetscherkosten, Fristen, Festsetzung, Beschwerde und belegfeste Rechenprotokolle.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`jveg-kostenpruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/jveg-kostenpruefer.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/jveg-kostenpruefer.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/jveg-kostenpruefer-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/jveg-kostenpruefer-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/jveg-kostenpruefer.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/jveg-kostenpruefer.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für JVEG-Kostenprüfer:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`jveg-kostenpruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/jveg-kostenpruefer.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/jveg-kostenpruefer/jveg-kostenpruefer-werkstatt.md" download><code>jveg-kostenpruefer-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/jveg-kostenpruefer/jveg-kostenpruefer-schnellstart.md" download><code>jveg-kostenpruefer-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte JVEG Zeugenentschädigung – Dr. Sophia Berger / LG Tübingen: [Gesamt-PDF](../testakten/jveg-zeugin-berger-lg-tuebingen/gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf), [`testakte-jveg-zeugin-berger-lg-tuebingen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jveg-zeugin-berger-lg-tuebingen.zip), [`testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip); Akte LG Regensburg — Sieglinger gegen Burgwald Energietechnik GmbH: [Gesamt-PDF](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/gesamt-pdf/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger_gesamt.pdf), [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip), [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`jveg-kostenpruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/jveg-kostenpruefer.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`jveg-kostenpruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/jveg-kostenpruefer-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`jveg-kostenpruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/jveg-kostenpruefer-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Akte JVEG Zeugenentschädigung – Dr. Sophia Berger / LG Tübingen](../testakten/jveg-zeugin-berger-lg-tuebingen/README.md) | [Gesamt-PDF](../testakten/jveg-zeugin-berger-lg-tuebingen/gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf) | [`testakte-jveg-zeugin-berger-lg-tuebingen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-jveg-zeugin-berger-lg-tuebingen.zip) | [`testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip) |
+| [Sieglinger gegen Burgwald Energietechnik GmbH](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/README.md) | [Gesamt-PDF](../testakten/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger/gesamt-pdf/sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger_gesamt.pdf) | [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger.zip) | [`testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sachverstaendigengutachten-ki-vorwurf-lg-regensburg-sieglinger-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -40,15 +87,17 @@ Die Beispielakte enthält den Fall der Zeugin Sophia Berger vor dem Landgericht 
 
 ## Grundworkflow
 
-1. Akte hochladen: Ladung, Antrag, Gerichtsschreiben, Belege, Rechnung oder Schriftsatz.
+1. Vorhandene Ladung, Antrag, Gerichtsschreiben, Belege, Rechnung oder Schriftsatz lesen; bereits verfügbare Unterlagen nicht erneut anfordern.
 2. Rolle bestimmen: Zeuge, Sachverständiger, Dolmetscher, Übersetzer, Dritter oder ehrenamtlicher Richter.
 3. Frist und Belehrung prüfen.
 4. Jede Kostenposition mit Norm, Beleg und Rechenweg erfassen.
 5. Kappungen und Doppelposten prüfen.
-6. Beleglücken freundlich als Rückfragen ausgeben.
-7. Rechenblatt, Prüfbericht und passendes Gerichtsschreiben erzeugen.
+6. Nur ergebnisrelevante Beleglücken nachfragen; nachgereichte Belege in derselben Berechnung verarbeiten.
+7. Das beauftragte Gerichtsschreiben oder den Prüfbericht fertig ausarbeiten; ein Rechenblatt beifügen, soweit für den Auftrag nötig.
 
 ## Enthaltene Skills
+
+Die folgende Tabelle beschreibt Fachaufgaben mit historischen Kurzbezeichnungen. Für tatsächlich auswählbare Skill-Namen und Downloads ist die vollständige alphabetische Skill-Liste weiter unten maßgeblich.
 
 | Skill | Zweck |
 | --- | --- |
@@ -71,26 +120,38 @@ Die Beispielakte enthält den Fall der Zeugin Sophia Berger vor dem Landgericht 
 | jveg-festsetzung-beschwerde | Führt durch gerichtliche Festsetzung, Erinnerung/Beschwerdeprüfung, Beschwer, Frist und knappe Angriffsmittel. |
 | jveg-quality-gate | Letzte Prüfung vor Versand: Normstand, Mathematik, Belege, keine Doppelposten, Fristen, Ton und eindeutiger Antrag. |
 
+## Quellen und Fristgrenzen
+
+Am 16.10.2026 wurde [Paragraf 2 JVEG](https://www.gesetze-im-internet.de/jveg/__2.html) im amtlichen Text gelesen. Die dreimonatige Geltendmachungsfrist hat je nach herangezogener Person und Leistung einen anderen Beginn, etwa Eingang des schriftlichen Gutachtens oder Beendigung der Zeugenvernehmung. Eine fehlende Belehrung verlängert die Frist nicht automatisch; sie begründet die gesetzliche Vermutung fehlenden Verschuldens bei der Wiedereinsetzung. Deren Zweiwochenfrist, Nachholung und Jahresgrenze sind gesondert zu prüfen. Die dreijährige Verjährung ist keine Ersatzfrist für die versäumte Geltendmachung. Dieser Abgleich bestätigt keine sämtlichen Vergütungssätze oder Einzelfallberechnungen.
+
 ## Beispiel Berger
 
 Die Beispielakte bildet einen realistisch aussehenden Vorschussstreit ab: Barcelona nach Tübingen, 2.500 km Hin- und Rückfahrt, zwei Übernachtungen, geltend gemachter Verdienstausfall und gerichtliche Ablehnung des Vorschusses wegen angeblich fehlender Bedürftigkeit. Das Plugin markiert insbesondere, dass § 3 JVEG bei erheblichen Fahrtkosten und sonstigen Aufwendungen ansetzt und die Kostenpositionen getrennt nach Erstattungsfähigkeit, Vorschussfähigkeit und Belegstatus geprüft werden müssen.
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **61 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `freistehender-erstpruefung-und-mandatsziel`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aktenstripper`, `belegfeste-formular-portal-und-einreichung`, `gate-beweislast-jveg-quality`, `jveg-tatbestand-beweis-und-belege`, `kostenfestsetzung-belege-und-fristen`, `pruefung-sachverstaendigengutachten-ki-deklaration`, `quellen-livecheck`, `sachverstaendigen-quellenkarte`, `spezial-sachverstaendigen-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste`, `zeugenentschaedigung-dokumentenmatrix-und-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `anspruchsberechtigung-antragsgenerator`, `kostenfestsetzung-kostenpruefer`, `kostenpruefer-fristen-form-und-zustaendigkeit`, `vorschuss-kostenrisiko`, `vorschuss-kostenrisiko-spezial`, `vorschuss-risikoampel-und-gegenargumente`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `verdienstausfall-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `antragsgenerator`, `fristen-erloeschen`, `gerichtsschreiben-kuerzung-wegfall`, `spezial-uebersetzer-fristennotiz-und-naechster-schritt`, `uebersetzer-fristennotiz-jveg` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen`, `quality-mandantenkommunikation-entscheidungsvorlage` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `mandantenkommunikation-redteam-qualitygate`, `rechenprotokolle-fehlerkatalog`, `spezial-rechenprotokolle-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `beschwerde-dolmetscher-sonderfall`, `dolmetscher-sonderfall-und-edge-case`, `dolmetscher-uebersetzer`, `dolmetscher-uebersetzer-fahrtkosten`, `dolmetscherkosten-zahlen-schwellen-und-berechnung`, `fahrtkosten`, `fahrtkosten-festsetzung-interessen`, `festsetzung-beschwerde`, `festsetzung-mehrparteien-konflikt-und-interessen`, `gate-rechenblatt`, `jveg-dolmetscher-uebersetzer-spezial`, `jveg-zeugenentschaedigung`, `kommandocenter`, `kuerzung-wegfall-8a`, `rechenblatt`, `sachverstaendigenrechnung`, `sachverstaendigenrechnung-bauleiter`, `sonstige-aufwendungen-uebernachtung`, ... plus 4 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/juristischer-argumentationskern/SKILL.md), [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kommandocenter/SKILL.md) |
+| 2. Heranziehung und Rolle | [`heranziehung-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/heranziehung-und-rolle-bearbeiten/SKILL.md) |
+| 3. Frist und Vorschuss | [`frist-und-vorschuss-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/frist-und-vorschuss-bearbeiten/SKILL.md) |
+| 4. Rechenblatt | [`rechenblatt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/rechenblatt-bearbeiten/SKILL.md) |
+| 5. Kürzung und Rechtsbehelf | [`kuerzung-und-rechtsbehelf-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kuerzung-und-rechtsbehelf-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -98,69 +159,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 60 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `aktenstripper` | Wenn es um JVEG-Aktenstripper in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in JVEG-Kostenprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `anspruchsberechtigung-antragsgenerator` | Wenn es um JVEG-Anspruchsberechtigung in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `antragsgenerator` | Wenn es um JVEG-Antragsgenerator in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `belegfeste-formular-portal-und-einreichung` | Wenn es um Belegfeste: Formular, Portal und Einreichungslogik in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `beschwerde-dolmetscher-sonderfall` | Wenn es um Beschwerde: Internationaler Bezug und Schnittstellen in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dolmetscher-sonderfall-und-edge-case` | Wenn es um Dolmetscher: Sonderfall und Edge-Case-Prüfung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dolmetscher-uebersetzer` | Wenn es um JVEG-Dolmetscher-Uebersetzer in JVEG-Kostenprüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `dolmetscher-uebersetzer-fahrtkosten` | Wenn es um JVEG: Dolmetscher Übersetzer in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dolmetscherkosten-zahlen-schwellen-und-berechnung` | Wenn es um Dolmetscherkosten: Zahlen, Schwellenwerte und Berechnung in JVEG-Kostenprüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in JVEG-Kostenprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrtkosten` | Wenn es um JVEG-Fahrtkosten in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrtkosten-festsetzung-interessen` | Wenn es um Fahrtkosten: Behörden-, Gerichts- oder Registerweg in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `festsetzung-beschwerde` | Wenn es um JVEG-Festsetzung-Beschwerde in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `festsetzung-mehrparteien-konflikt-und-interessen` | Wenn es um Festsetzung: Mehrparteienkonflikt und Interessenmatrix in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freistehender-erstpruefung-und-mandatsziel` | Wenn es um Freistehender: Erstprüfung, Rollenklärung und Mandatsziel in JVEG-Kostenprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-erloeschen` | Wenn es um JVEG-Fristen-Erloeschen in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gate-beweislast-jveg-quality` | Wenn es um Gate: Beweislast, Darlegungslast und Substantiierung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gate-rechenblatt` | Wenn es um JVEG-Quality-Gate in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gerichtsschreiben-kuerzung-wegfall` | Wenn es um JVEG-Gerichtsschreiben-Pruefung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jveg-dolmetscher-uebersetzer-spezial` | Wenn es um JVEG: Dolmetscher Uebersetzer in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jveg-tatbestand-beweis-und-belege` | Wenn es um JVEG: Tatbestandsmerkmale, Beweisfragen und Beleglage in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `jveg-zeugenentschaedigung` | Wenn es um JVEG-Zeugenentschaedigung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommandocenter` | Wenn es um JVEG-Kommandocenter in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kostenfestsetzung-belege-und-fristen` | Wenn es um Kostenfestsetzung mit Belegen, Fristen und Erinnerung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kostenfestsetzung-kostenpruefer` | Wenn es um Fristen: Compliance-Dokumentation und Aktenvermerk in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kostenpruefer-fristen-form-und-zustaendigkeit` | Wenn es um Kostenpruefer: Fristen, Form, Zuständigkeit und Rechtsweg in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kuerzung-wegfall-8a` | Wenn es um JVEG-Kuerzung-Wegfall-8a in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Mandantenkommunikation in JVEG-Kostenprüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `output-waehlen` | Wenn es um Output wählen in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefung-sachverstaendigengutachten-ki-deklaration` | Wenn es um Prüfung Sachverständigengutachten — digitale Werkzeuge-Deklaration und JVEG in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quality-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Quality: Mandantenkommunikation und Entscheidungsvorlage in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in JVEG-Kostenprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rechenblatt` | Wenn es um JVEG-Rechenblatt in JVEG-Kostenprüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `rechenprotokolle-fehlerkatalog` | Wenn es um Rechenprotokolle Fehlerkatalog in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sachverstaendigen-quellenkarte` | Wenn es um Sachverstaendigen Quellenkarte in JVEG-Kostenprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `sachverstaendigenrechnung` | Wenn es um JVEG-Sachverstaendigenrechnung in JVEG-Kostenprüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `sachverstaendigenrechnung-bauleiter` | Wenn es um JVEG: Sachverstaendigenrechnung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sonstige-aufwendungen-uebernachtung` | Wenn es um JVEG-Sonstige-Aufwendungen-Belege in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `spezial-rechenprotokolle-red-team-und-qualitaetskontrolle` | Wenn es um Rechenprotokolle: Red-Team und Qualitätskontrolle in JVEG-Kostenprüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-sachverstaendigen-livequellen-und-rechtsprechungscheck` | Wenn es um Sachverstaendigen: Livequellen- und Rechtsprechungscheck in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-uebersetzer-fristennotiz-und-naechster-schritt` | Wenn es um Uebersetzer: Fristennotiz und nächster Schritt in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um JVEG-Kostenpruefer — Allgemein in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `uebernachtung-aufwand` | Wenn es um JVEG-Uebernachtung-Aufwand in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `uebernachtung-verdienstausfall-vorschuss` | Wenn es um Uebernachtung: Schriftsatz-, Brief- und Memo-Bausteine in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagen... |
-| `uebersetzer-fristennotiz-jveg` | Wenn es um Übersetzer: Fristennotiz und nächster Schritt in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verdienstausfall-haushalt-zeit` | Wenn es um JVEG-Verdienstausfall-Haushalt-Zeit in JVEG-Kostenprüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `verdienstausfall-verhandlung-vergleich-und-eskalation` | Wenn es um Verdienstausfall: Verhandlung, Vergleich und Eskalation in JVEG-Kostenprüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vorschuss-kostenrisiko` | Wenn es um JVEG-Vorschuss in JVEG-Kostenprüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `vorschuss-kostenrisiko-spezial` | Wenn es um JVEG: Vorschuss Kostenrisiko in JVEG-Kostenprüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vorschuss-risikoampel-und-gegenargumente` | Wenn es um Vorschuss: Risikoampel, Gegenargumente und Verteidigungslinien in JVEG-Kostenprüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in JVEG-Kostenprüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in JVEG-Kostenprüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zeugenentschaedigung` | Wenn es um JVEG: Zeugenentschaedigung in JVEG-Kostenprüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugenentschaedigung-dokumentenmatrix-und-lueckenliste` | Wenn es um Zeugenentschaedigung: Dokumentenmatrix, Lückenliste und Nachforderung in JVEG-Kostenprüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Arbeitsprodukt: Abrechnung, Festsetzungsantrag, Kürzungserwiderung, Beschwerde oder Zeugenentschädigungsantrag mit Summenprobe erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem ko... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`frist-und-vorschuss-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/frist-und-vorschuss-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Frist und Vorschuss: Beginn der Ausschlussfrist, Eingang der Rechnung, Wiedereinsetzung, Vorschuss und Kostenwarnung sichern. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auft... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/frist-und-vorschuss-bearbeiten/SKILL.md) |
+| [`heranziehung-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/heranziehung-und-rolle-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Heranziehung und Rolle: Stelle, Auftrag, Datum, Tätigkeit, Beweisfragen, Abschluss und Abrechnungsadressat bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag eing... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/heranziehung-und-rolle-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in JVEG Kostenprüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kommandocenter/SKILL.md) | Für JVEG-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kommandocenter/SKILL.md) |
+| [`kuerzung-und-rechtsbehelf-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kuerzung-und-rechtsbehelf-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Kürzung und Rechtsbehelf: Auftragsüberschreitung, mangelhafte Leistung, Warnpflicht, gerichtliche Festsetzung und Beschwerde prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkret... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/kuerzung-und-rechtsbehelf-bearbeiten/SKILL.md) |
+| [`rechenblatt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/rechenblatt-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Rechenblatt: Zeit, Honorargruppe, besondere Leistung, Fahrt, Aufwand, Kopien, Umsatzsteuer und bereits gezahlte Beträge einzeln belegen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem kon... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/rechenblatt-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für JVEG-Kostenprüfung: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale Vorlagen werden ge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=jveg-kostenpruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

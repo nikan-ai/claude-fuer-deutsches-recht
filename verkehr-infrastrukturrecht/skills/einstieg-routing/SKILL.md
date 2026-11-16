@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Verkehrs- und Infrastrukturrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verkehrs- und Infrastrukturrecht."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Verkehr Infrastrukturrecht** vom ersten Sachverhalt zu 
 
 ## Fachlandkarte dieses Plugins
 
-- `anschluss-router` — Anschluss Router
-- `autonomous-driving` — Autonomous Driving
-- `autonomous-driving-interessen-grossprojekt` — Autonomous Driving Interessen Grossprojekt
-- `autonomous-driving-strassenrecht` — Autonomous Driving Strassenrecht
-- `buergerentscheid-strassenbahn-spezial` — Buergerentscheid Strassenbahn Spezial
-- `driving-mehrparteien-konflikt-und-interessen` — Driving Mehrparteien Konflikt und Interessen
-- `foerderung-vergabe-ladeinfrastruktur` — Foerderung Vergabe Ladeinfrastruktur
-- `grossprojekt-zahlen-schwellen-und-berechnung` — Grossprojekt Zahlen Schwellen und Berechnung
-- `infrastruktur-foerderung-nachhaltige` — Infrastruktur Foerderung Nachhaltige
-- `infrastrukturrecht-intake-ladeinfrastruktur` — Infrastrukturrecht Intake Ladeinfrastruktur
-- `intake-mandantenkommunikation-entscheidungsvorlage` — Intake Mandantenkommunikation Entscheidungsvorlage
-- `ladeinfrastruktur` — Ladeinfrastruktur
-- `ladeinfrastruktur-behoerden-gericht-und-registerweg` — Ladeinfrastruktur Behoerden Gericht und Registerweg
-- `dokumente-intake` — Dokumente Intake
-- `output-waehlen` — Output Waehlen
+- `rechtsschutz-bearbeiten` (Fachthema: anschluss-router) — Anschluss Router
+- `rechtsschutz-bearbeiten` (Fachthema: autonomous-driving) — Autonomous Driving
+- `rechtsschutz-bearbeiten` (Fachthema: autonomous-driving-interessen-grossprojekt) — Autonomous Driving Interessen Grossprojekt
+- `rechtsschutz-bearbeiten` (Fachthema: autonomous-driving-strassenrecht) — Autonomous Driving Strassenrecht
+- `rechtsschutz-bearbeiten` (Fachthema: buergerentscheid-strassenbahn-spezial) — Buergerentscheid Strassenbahn Spezial
+- `rechtsschutz-bearbeiten` (Fachthema: driving-mehrparteien-konflikt-und-interessen) — Driving Mehrparteien Konflikt und Interessen
+- `rechtsschutz-bearbeiten` (Fachthema: foerderung-vergabe-ladeinfrastruktur) — Foerderung Vergabe Ladeinfrastruktur
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: grossprojekt-zahlen-schwellen-und-berechnung) — Grossprojekt Zahlen Schwellen und Berechnung
+- `rechtsschutz-bearbeiten` (Fachthema: infrastruktur-foerderung-nachhaltige) — Infrastruktur Foerderung Nachhaltige
+- `vorhaben-und-verfahrensart-bearbeiten` (Fachthema: infrastrukturrecht-intake-ladeinfrastruktur) — Infrastrukturrecht Intake Ladeinfrastruktur
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: intake-mandantenkommunikation-entscheidungsvorlage) — Intake Mandantenkommunikation Entscheidungsvorlage
+- `rechtsschutz-bearbeiten` (Fachthema: ladeinfrastruktur) — Ladeinfrastruktur
+- `arbeitsprodukt-bearbeiten` (Fachthema: ladeinfrastruktur-behoerden-gericht-und-registerweg) — Ladeinfrastruktur Behoerden Gericht und Registerweg
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: output-waehlen) — Output Waehlen
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Verkehr Infrastrukturrecht** vom ersten Sachverhalt zu 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Umwelt-, Planungs- und Infrastrukturrecht:** Welche Abhängigkeit zwischen Bedarf, Planung, Ausführung und Nachweis verursacht das Problem?
+
+**Erste Ansicht:** Zeige Projektabschnitte oder Bauteile mit Bedarf, Planstand, Abhängigkeit, Termin, Kostenbezug und Beleg. Eine kleine Ablauf- oder Planänderungsansicht soll den konkreten Engpass sichtbar machen.
+
+**Sinnvolle Interaktion:** Wähle Bauteil, Planstand oder belegte Terminvariante und aktualisiere die betroffenen Positionen, Folgearbeiten und Schreiben. Eine schematische Skizze darf keine vermessene oder freigegebene Planung vortäuschen.
+
+**Datengrundlage:** Bauteil oder Leistung, Menge und Einheit, Planversion, Verantwortlicher, Terminbasis und Originalunterlage. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** nachvollziehbarer Projektvermerk mit dem bestellten Leistungs-, Nachtrags-, Anzeige- oder Abstimmungstext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

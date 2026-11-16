@@ -5,20 +5,67 @@
 
 Hinweisgeberschutzgesetz in der Praxis: interne/externe Meldestelle, NDA-Konflikte, Repressalien, Untersuchungen, Datenschutz und Governance.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`hinweisgeberschutz-compliance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hinweisgeberschutz-compliance.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/hinweisgeberschutz-compliance.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/hinweisgeberschutz-compliance.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/hinweisgeberschutz-compliance.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Hinweisgeberschutz, Meldestellen und NDA-Konflikte:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hinweisgeberschutz-compliance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/hinweisgeberschutz-compliance.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-werkstatt.md" download><code>hinweisgeberschutz-compliance-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-schnellstart.md" download><code>hinweisgeberschutz-compliance-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Waldkrone HealthTech GmbH - NDA, Meldekanal und Lieferantenhinweis: [Gesamt-PDF](../testakten/hinweisgeberschutz-nda-meldekanal-waldkrone/gesamt-pdf/hinweisgeberschutz-nda-meldekanal-waldkrone_gesamt.pdf), [`testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip), [`testakte-hinweisgeberschutz-nda-meldekanal-waldkrone-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-hinweisgeberschutz-nda-meldekanal-waldkrone-einzelpdfs.zip); Vertriebsbonus und staatsanwaltschaftlicher Honeypot: [Gesamt-PDF](../testakten/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot/gesamt-pdf/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot_gesamt.pdf), [`testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip), [`testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hinweisgeberschutz-compliance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hinweisgeberschutz-compliance.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`hinweisgeberschutz-compliance-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`hinweisgeberschutz-compliance-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/hinweisgeberschutz-compliance-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Akte Waldkrone HealthTech GmbH - NDA, Meldekanal und Lieferantenhinweis](../testakten/hinweisgeberschutz-nda-meldekanal-waldkrone/README.md) | [Gesamt-PDF](../testakten/hinweisgeberschutz-nda-meldekanal-waldkrone/gesamt-pdf/hinweisgeberschutz-nda-meldekanal-waldkrone_gesamt.pdf) | [`testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-hinweisgeberschutz-nda-meldekanal-waldkrone.zip) | [`testakte-hinweisgeberschutz-nda-meldekanal-waldkrone-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-hinweisgeberschutz-nda-meldekanal-waldkrone-einzelpdfs.zip) |
+| [Vertriebsbonus und staatsanwaltschaftlicher Honeypot](../testakten/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot/README.md) | [Gesamt-PDF](../testakten/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot/gesamt-pdf/internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot_gesamt.pdf) | [`testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot.zip) | [`testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-internal-investigation-vertriebsbonus-staatsanwaltschaft-honeypot-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -26,7 +73,7 @@ Dieses Plugin führt Unternehmen, Kanzleien und Rechtsabteilungen durch den ganz
 
 ## Wofür dieses Plugin da ist
 
-Es ist als Arbeitsbegleiter gedacht: erst fragen, dann sortieren, dann prüfen, dann ein verwertbares Arbeitsprodukt bauen. Die Skills sollen Nutzer nicht kleinhalten, sondern sie in der jeweiligen Materie schneller, präziser und beweissicherer machen.
+Eine vorhandene Meldung, Eingangsbestätigung oder Untersuchungsunterlage wird zuerst gelesen. Der Auftrag bestimmt, ob eine Rückmeldung, ein Untersuchungsplan oder ein Abschlussvermerk benötigt wird. Nur entscheidende Lücken zu Meldeweg, Verfahrensstand oder Frist werden nachgefragt; zusätzliche Identitätsdaten werden nicht allein für eine allgemeine Aufnahme verlangt. Antworten werden im begonnenen Dokument verarbeitet.
 
 ## Typischer Workflow
 
@@ -42,7 +89,7 @@ Siehe [`references/QUELLEN.md`](./references/QUELLEN.md). Konkrete Normen, Behö
 
 ## Arbeitsstil
 
-- Erst Scope und Ziel klären.
+- Untersuchungsumfang und Ziel aus Auftrag und Meldung entnehmen; nur entscheidende Unklarheiten nachfragen.
 - Keine pauschale Compliance-Folklore.
 - Fristen, Schwellen, Zuständigkeiten und technische Tatsachen gegen Originalquellen prüfen.
 - Am Ende immer ein verwertbares Dokument, eine Matrix, eine Entscheidungsvorlage oder einen nächsten konkreten Schritt liefern.
@@ -51,23 +98,29 @@ Siehe [`references/QUELLEN.md`](./references/QUELLEN.md). Konkrete Normen, Behö
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **102 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `eingangsfrist-7-tage`, `gerichtliche-rechtsprechung-eingangsfrist`, `kaltstart-triage`, `tisax-iso-triage-strafrecht-uk-whistleblowing`, `triage-strafrecht` |
-| 2. Unterlagen, Sachverhalt und Quellen | `audit-nachweis`, `betriebsrat-mitbestimmung-beweislastumkehr`, `beweislastumkehr`, `datenschutz-dsgvo-meldeakte`, `datenschutzpanne-meldung`, `dokumentationspflicht`, `dokumente-sichern-e-discovery-einstweiliger`, `externes-bfj-formular`, `personenbezogene-daten-dritter`, `risikomatrix-rueckmeldung-monate-schulung`, `untersuchung-datenschutz-dsgvo` |
-| 3. Prüfung, Anspruch und Subsumtion | `bussgeld-risiko-exportkontrolle-sanktionen`, `vorstandshaftung` |
-| 4. Gestaltung, Strategie und Verhandlung | `arbeitsvertrag-klauseln-settlement`, `compliance-hotline-provider`, `jahresbericht-compliance`, `lieferkette-lksg-massnahmenplan-meldekanal`, `massnahmenplan`, `settlement-und-aufhebungsvertrag`, `untersuchungsbericht-untersuchungsplan-us-sox`, `untersuchungsplan`, `vergleichsklausel`, `verschwiegenheitsklauseln-redline`, `vertraulichkeit-vs-zugriffskonzept`, `zugriffskonzept` |
-| 5. Verfahren, Behörde und Gericht | `arbeitsgericht-klage-arbeitsschutz-audit`, `aufsichtsbehoerdenkommunikation-internal`, `fristenkalender`, `loeschfristen` |
-| 6. Ergebnis, Schreiben und Kommunikation | `antwortschreiben-hinweisgeber`, `kommunikation-an-betroffene` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `exportkontrolle-sanktionen`, `redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `abschlussmitteilung-anonyme-meldung`, `anonyme-meldung`, `anwaltliche-meldestelle`, `arbeitsschutz`, `aufsichtsrat-reporting`, `barrierefreiheit-meldekanal`, `beschaeftigtenzahl-konzern`, `beschuldigtenrechte`, `beschwerde-management`, `bewerber-ehemalige`, `boesglaeubige-meldung`, `bonus-versetzung-case-management-cloud`, `case-management-tool`, `cloud-hosting-meldekanal`, `e-discovery-forensik`, `einstweiliger-rechtsschutz`, `eu-richtlinie-abgleich`, `externe-meldung-externes-bfj-faq-mitarbeiter`, ... plus 45 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/kaltstart-triage/SKILL.md) |
+| 2. Meldung und Schutz | [`meldung-und-schutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/meldung-und-schutz-bearbeiten/SKILL.md) |
+| 3. Verfahren | [`verfahren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/verfahren-bearbeiten/SKILL.md) |
+| 4. Untersuchung | [`untersuchung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/untersuchung-bearbeiten/SKILL.md) |
+| 5. Repressalie | [`repressalie-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/repressalie-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -75,110 +128,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 101 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abschlussmitteilung-anonyme-meldung` | Wenn es um Abschlussmitteilung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anonyme-meldung` | Wenn es um Anonyme Meldung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `antwortschreiben-hinweisgeber` | Wenn es um Antwortschreiben Hinweisgeber in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anwaltliche-meldestelle` | Wenn es um Anwaltliche Meldestelle in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitsgericht-klage-arbeitsschutz-audit` | Wenn es um Arbeitsgericht Klage in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `arbeitsschutz` | Wenn es um Arbeitsschutz in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `arbeitsvertrag-klauseln-settlement` | Wenn es um Arbeitsvertrag Klauseln in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `audit-nachweis` | Wenn es um Audit Nachweis in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtsbehoerdenkommunikation-internal` | Wenn es um Aufsichtsbehoerdenkommunikation in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtsrat-reporting` | Wenn es um Aufsichtsrat Reporting in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreiheit-meldekanal` | Wenn es um Barrierefreiheit Meldekanal in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beschaeftigtenzahl-konzern` | Wenn es um Beschäftigtenzahl Konzern in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beschuldigtenrechte` | Wenn es um Beschuldigtenrechte in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beschwerde-management` | Wenn es um Beschwerde Management in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `betriebsrat-mitbestimmung-beweislastumkehr` | Wenn es um Betriebsrat Mitbestimmung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweislastumkehr` | Wenn es um Beweislastumkehr in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bewerber-ehemalige` | Wenn es um Bewerber Ehemalige in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `boesglaeubige-meldung` | Wenn es um Boesglaeubige Meldung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bonus-versetzung-case-management-cloud` | Wenn es um Bonus Versetzung Bewertung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bussgeld-risiko-exportkontrolle-sanktionen` | Wenn es um Bussgeld Risiko in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `case-management-tool` | Wenn es um Case Management Tool in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cloud-hosting-meldekanal` | Wenn es um Cloud Hosting Meldekanal in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `compliance-hotline-provider` | Wenn es um Compliance Hotline Provider in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-dsgvo-meldeakte` | Wenn es um Datenschutz DSGVO Meldeakte in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `datenschutzpanne-meldung` | Wenn es um Datenschutzpanne Meldung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumentationspflicht` | Wenn es um Dokumentationspflicht in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `dokumente-sichern-e-discovery-einstweiliger` | Wenn es um Dokumente Sichern in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `e-discovery-forensik` | Wenn es um E Discovery Forensik in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eingangsfrist-7-tage` | Wenn es um Eingangsfrist 7 Tage in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstweiliger-rechtsschutz` | Wenn es um Einstweiliger Rechtsschutz in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eu-richtlinie-abgleich` | Wenn es um EU Richtlinie Abgleich in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `exportkontrolle-sanktionen` | Wenn es um Exportkontrolle Sanktionen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `externe-meldung-externes-bfj-faq-mitarbeiter` | Wenn es um Externe Meldung BfJ in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `externes-bfj-formular` | Wenn es um Externes BfJ Formular in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `faq-fuer-mitarbeiter` | Wenn es um FAQ Für Mitarbeiter in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `folgeaktionen` | Wenn es um Folgeaktionen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristenkalender` | Wenn es um Fristenkalender in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geldwaesche-meldung-geschaeftsgeheimnis` | Wenn es um Geldwaesche Meldung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gerichtliche-rechtsprechung-eingangsfrist` | Wenn es um Gerichtliche Rechtsprechung Livecheck in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geschaeftsgeheimnis-geschgehg` | Wenn es um Geschäftsgeheimnis Geschgehg in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geschuetzte-verstoesse-paragraf2` | Wenn es um Geschuetzte Verstoesse Paragraf2 in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hinweis-von-externer-person` | Wenn es um Hinweis Von Externer Person in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hinweisgeber-betriebsrat-personenkreis` | Wenn es um Hinweisgeber Im Betriebsrat in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hinweisgeber-personenkreis` | Wenn es um Hinweisgeber Personenkreis in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `internal-investigation` | Wenn es um Internal Investigation in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `international-subsidiaries` | Wenn es um International Subsidiaries in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jahresbericht-compliance` | Wenn es um Jahresbericht Compliance in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Allgemein in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kanzlei-berufsgeheimnis-kartellrecht` | Wenn es um Kanzlei Berufsgeheimnis in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kartellrecht` | Wenn es um Kartellrecht in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommunikation-an-betroffene` | Wenn es um Kommunikation An Betroffene in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konflikt-nda-due-diligence` | Wenn es um Konflikt NDA Due Diligence in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konzernmeldestelle-kuendigung-laender` | Wenn es um Konzernmeldestelle in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kuendigung-nach-meldung` | Wenn es um Kuendigung Nach Meldung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `laender-meldestellen` | Wenn es um Länder Meldestellen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `legal-hold` | Wenn es um Legal Hold in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lieferkette-lksg-massnahmenplan-meldekanal` | Wenn es um Lieferkette LkSG CSDDD in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `loeschfristen` | Wenn es um Loeschfristen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ma-transaktion-whistleblower` | Wenn es um Ma Transaktion Whistleblower in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `massnahmenplan` | Wenn es um Maßnahmenplan in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meldekanal-design` | Wenn es um Meldekanal Design in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meldeprozess-sla` | Wenn es um Meldeprozess SLA in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `missbrauchsabwehr-mobbing-retaliation-nda` | Wenn es um Missbrauchsabwehr in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mobbing-retaliation` | Wenn es um Mobbing Retaliation in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nda-konflikt` | Wenn es um NDA Konflikt in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `offenlegung-an-presse` | Wenn es um Offenlegung An Presse in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `outsourcing-ombudsperson-personenbezogene` | Wenn es um Outsourcing Ombudsperson in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `personenbezogene-daten-dritter` | Wenn es um Personenbezogene Daten Dritter in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pflicht-interne-meldestelle` | Wenn es um Pflicht Interne Meldestelle in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `policy-generator` | Wenn es um Policy Generator in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `presse-offenlegung-produktsicherheit-public` | Wenn es um Presse Und Offenlegung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `produktsicherheit` | Wenn es um Produktsicherheit in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `public-sector-beamte` | Wenn es um Public Sector Beamte in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `redteam-qualitygate` | Wenn es um Redteam Qualitygate in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `repressalienverbot` | Wenn es um Repressalienverbot in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `risikomatrix-rueckmeldung-monate-schulung` | Wenn es um Risikomatrix in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rueckmeldung-3-monate` | Wenn es um Rueckmeldung 3 Monate in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schadensersatz` | Wenn es um Schadensersatz in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schulung-fuehrungskraefte` | Wenn es um Schulung Fuehrungskraefte in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schutzvoraussetzungen` | Wenn es um Schutzvoraussetzungen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schwerbehinderung-agg-shared-resources-speak` | Wenn es um Schwerbehinderung Agg in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `settlement-und-aufhebungsvertrag` | Wenn es um Settlement Und Aufhebungsvertrag in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `shared-resources` | Wenn es um Shared Resources in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `speak-up-kultur` | Wenn es um Speak Up Kultur in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sprachliche-zugaenglichkeit` | Wenn es um Sprachliche Zugaenglichkeit in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `steuerrecht-grenzen` | Wenn es um Steuerrecht Grenzen in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tisax-iso-triage-strafrecht-uk-whistleblowing` | Wenn es um Tisax Iso Hinweisgeber in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `triage-strafrecht` | Wenn es um Triage Strafrecht in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `uk-whistleblowing-abgrenzung` | Wenn es um Uk Whistleblowing Abgrenzung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umweltverstoss` | Wenn es um Umweltverstoss in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `untersuchung-datenschutz-dsgvo` | Wenn es um Compliance Untersuchung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `untersuchungsbericht-untersuchungsplan-us-sox` | Wenn es um Untersuchungsbericht in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `untersuchungsplan` | Wenn es um Untersuchungsplan in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `us-sox-doddfrank-abgrenzung` | Wenn es um Us Sox Doddfrank Abgrenzung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vergleichsklausel` | Wenn es um Vergleichsklausel in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `verschwiegenheitsklauseln-redline` | Wenn es um Verschwiegenheitsklauseln Redline in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertraulichkeit-identitaet` | Wenn es um Vertraulichkeit Identitaet in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertraulichkeit-vs-anhoerung` | Wenn es um Vertraulichkeit Vs Anhoerung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertraulichkeit-vs-zugriffskonzept` | Wenn es um Vertraulichkeit Vs Anhörung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vorstandshaftung` | Wenn es um Vorstandshaftung in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zugriffskonzept` | Wenn es um Zugriffskonzept in Hinweisgeberschutz, Meldestellen und NDA-Konflikte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Arbeitsprodukt: Eingangsbestätigung, Untersuchungsplan, Befragungsleitfaden, Rückmeldung, Schutzmaßnahme oder Abschlussvermerk erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem ko... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Hinweisgeberschutz Compliance ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/kaltstart-triage/SKILL.md) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Hinweisgeberschutz, Meldestellen und NDA-Konflikte. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/kaltstart-triage/SKILL.md) |
+| [`meldung-und-schutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/meldung-und-schutz-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Meldung und Schutz: Person, Meldekanal, Eingangszeit, sachlicher Anwendungsbereich, Gutgläubigkeit und Vertraulichkeitskreis feststellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem ko... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/meldung-und-schutz-bearbeiten/SKILL.md) |
+| [`repressalie-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/repressalie-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Repressalie: nachteilige Maßnahme, zeitlicher Zusammenhang, behaupteter anderer Grund und Beweislastvermutung prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag eing... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/repressalie-bearbeiten/SKILL.md) |
+| [`untersuchung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/untersuchung-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Untersuchung: Vorwurf, Personen, Datenquellen, Befragung, Entlastungsmaterial, Beweiszugang und Unschuldsvermutung ordnen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/untersuchung-bearbeiten/SKILL.md) |
+| [`verfahren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/verfahren-bearbeiten/SKILL.md) | Für Hinweisgeberschutz: Verfahren: Eingangsbestätigung, Kommunikation, Folgemaßnahme, Rückmeldung und Frist dokumentieren. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag eingesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hinweisgeberschutz-compliance/skills/verfahren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

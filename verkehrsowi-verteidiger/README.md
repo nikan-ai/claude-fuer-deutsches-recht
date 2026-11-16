@@ -5,33 +5,80 @@
 
 Freistehendes VerkehrsOWi-Plugin für Bußgeldbescheid, Anhörung, Einspruch, Punkte, Fahrverbot, Rotlicht, Geschwindigkeit, Abstand, Handy, Alkohol, Drogen, Akteneinsicht, Messakte, Zeugenstrategie und Amtsgericht.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`verkehrsowi-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/verkehrsowi-verteidiger.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/verkehrsowi-verteidiger.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/verkehrsowi-verteidiger-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/verkehrsowi-verteidiger-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/verkehrsowi-verteidiger.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/verkehrsowi-verteidiger.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für VerkehrsOWi-Verteidiger:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verkehrsowi-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/verkehrsowi-verteidiger.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verkehrsowi-verteidiger/verkehrsowi-verteidiger-werkstatt.md" download><code>verkehrsowi-verteidiger-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verkehrsowi-verteidiger/verkehrsowi-verteidiger-schnellstart.md" download><code>verkehrsowi-verteidiger-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Norderhof-Tannenmoor — Abstandsverstoß Section Control BAB 7 Bispingen, Bußgeld und Fahrverbot: [Gesamt-PDF](../testakten/verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof/gesamt-pdf/verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof_gesamt.pdf), [`testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof.zip), [`testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof-einzelpdfs.zip); VerkehrsOWi – Qualifizierter Rotlichtverstoß, Tempoüberschreitung und Fahrverbot: [Gesamt-PDF](../testakten/verkehrsowi-rotlicht-tempo/gesamt-pdf/verkehrsowi-rotlicht-tempo_gesamt.pdf), [`testakte-verkehrsowi-rotlicht-tempo.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verkehrsowi-rotlicht-tempo.zip), [`testakte-verkehrsowi-rotlicht-tempo-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verkehrsowi-rotlicht-tempo-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verkehrsowi-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/verkehrsowi-verteidiger.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`verkehrsowi-verteidiger-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/verkehrsowi-verteidiger-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`verkehrsowi-verteidiger-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/verkehrsowi-verteidiger-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Norderhof-Tannenmoor — Abstandsverstoß Section Control BAB 7 Bispingen, Bußgeld und Fahrverbot](../testakten/verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof/README.md) | [Gesamt-PDF](../testakten/verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof/gesamt-pdf/verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof_gesamt.pdf) | [`testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof.zip) | [`testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verkehrsowi-abstand-section-control-bab-7-bispingen-bussgeld-und-fahrverbot-norderhof-einzelpdfs.zip) |
+| [VerkehrsOWi – Qualifizierter Rotlichtverstoß, Tempoüberschreitung und Fahrverbot](../testakten/verkehrsowi-rotlicht-tempo/README.md) | [Gesamt-PDF](../testakten/verkehrsowi-rotlicht-tempo/gesamt-pdf/verkehrsowi-rotlicht-tempo_gesamt.pdf) | [`testakte-verkehrsowi-rotlicht-tempo.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-ergaenzung-v1.0.0/testakte-verkehrsowi-rotlicht-tempo.zip) | [`testakte-verkehrsowi-rotlicht-tempo-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-ergaenzung-v1.0.0/testakte-verkehrsowi-rotlicht-tempo-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du eine Verkehrsordnungswidrigkeit verteidigen: Anhörung, Bußgeldbescheid, Messakte, Einspruch, Fahrverbot, Punkte, Verjährung, Beweisrisiken und Terminstrategie.
 Ein freistehender Verteidigungsassistent für Verkehrsordnungswidrigkeiten: vom Anhörungsbogen über Einspruch, Akteneinsicht, Messakte und Punkte bis zur Amtsgerichtsverhandlung.
 
-Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugins, keine externen Agenten und keine besonderen Repo-Dateien außerhalb seines eigenen Ordners. Wenn Register, Kanzleisoftware, beA, E-Mail, Datenraum oder Aktenexport fehlen, arbeitet es mit manuellen Uploads oder mit einem klar gekennzeichneten Simulationsmodus.
+Das Plugin arbeitet ohne andere Plugins mit den bereitgestellten Bescheiden, Zustellungsnachweisen und Messunterlagen. Fehlende Unterlagen werden gezielt angefordert; technische Zugriffslücken rechtfertigen keine erfundenen Messdaten. Simulation ist nur für einen ausdrücklich bestellten, getrennten Übungsfall vorgesehen.
 
 ## Schnellstart
 
 1. Plugin aktivieren oder die ZIP aus dem Release installieren.
 2. Mit `verkehrsowi-kommandocenter` starten.
 3. Frist, Zustellung, Aktenzeichen, vorhandene Unterlagen und Mandantenziel nennen.
-4. Fehlende Unterlagen nicht raten lassen, sondern mit der passenden Vorlage nachfordern oder Simulation ausdrücklich aktivieren.
+4. Fehlende Unterlagen nachfordern, die Einspruchsfrist unabhängig davon sichern und die belegbaren Teile der Verteidigung weiterbearbeiten. Übungsdaten bleiben vom echten Mandat getrennt.
 5. Vor Versand oder Termin immer das Qualitätstor laufen lassen.
 
 ## Enthaltene Skills
@@ -89,22 +136,30 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 
 Zum Arbeiten liegt die Akte unter `testakten/verkehrsowi-rotlicht-tempo`. Sie wird im Release als `testakte-verkehrsowi-rotlicht-tempo.zip` bereitgestellt und ist kein Bestandteil des Plugin-ZIPs.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **61 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `start-chronologie-fristen`, `verkehrsowi-erstpruefung-und-mandatsziel`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `abstand-quellenkarte`, `akteneinsicht-internationaler-bezug-und-schnittstellen`, `alkohol-compliance-dokumentation-und-akte`, `alkohol-drogen-beweisverwertung`, `bussgeldbescheid-tatbestand-beweis-und-belege`, `einspruch-dokumentenmatrix-und-lueckenliste`, `hauptverhandlung-sonderfall-messakte-messung`, `messakte-formular-portal-und-einreichung`, `quellen-livecheck`, `spezial-abstand-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `verkehrsowi-aktenanlage`, `verkehrsowi-akteneinsicht-messakte`, `verkehrsowi-beweisverwertung-standardisiert`, `verkehrsowi-rechtsprechungsrecherche`, `verteidiger-beweislast-verkehrsowi`, `vowi-akteneinsicht-rohmessdaten-leitfaden`, `vowi-handyverstoss-akteneinsicht-alkohol`, ... plus 2 weitere |
-| 3. Prüfung, Anspruch und Subsumtion | `vowi-bussgeldbescheid-pruefung-bauleiter`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `geschwindigkeit-verhandlung-vergleich-und-eskalation`, `verkehrsowi-hauptverhandlung-amtsgericht`, `verkehrsowi-zeugen-polizei-strategie`, `zeugenstrategie-fehlerkatalog` |
-| 5. Verfahren, Behörde und Gericht | `amtsgericht-drogen-interessen-einspruch`, `anhoerung-verkehrsowi-einspruch-messverfahren`, `rotlicht-schriftsatz-brief-und-memo-bausteine`, `spezial-anhoerung-fristen-form-und-zustaendigkeit`, `verkehrsowi-anhoerung-bussgeldbescheid`, `verkehrsowi-fristen-einspruch`, `verkehrsowi-messverfahren-geschwindigkeit`, `vowi-bussgeldbescheid-verkehrsowi-quality`, `vowi-tempomessverfahren-bussgeldbescheid` |
-| 6. Ergebnis, Schreiben und Kommunikation | `mandantenkommunikation`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `mandantenkommunikation-redteam-qualitygate`, `spezial-zeugenstrategie-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `drogen-mehrparteien-konflikt-und-interessen`, `fahrverbot-geschwindigkeit-handy`, `handy-zahlen-schwellen-und-berechnung`, `messung-fahrverbot-punkte`, `punkte-rotlicht-verkehrsowi`, `simulation-training-verjaehrung-zustellung`, `verkehrsowi-fahreridentifizierung`, `verkehrsowi-haertefall-fahrverbot`, `verkehrsowi-kommandocenter`, `verkehrsowi-punkte-fahrverbot`, `verkehrsowi-quality-gate`, `verkehrsowi-rechtsbeschwerde`, `verkehrsowi-rotlicht-abstand-handy`, `verkehrsowi-verjaehrung-zustellung` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/juristischer-argumentationskern/SKILL.md), [`verkehrsowi-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/verkehrsowi-kommandocenter/SKILL.md) |
+| 2. Tatvorwurf und materielles Recht | [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| 3. Beweis und Aktenanalyse | [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| 4. Anklage und Hauptverhandlung | [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| 5. Entscheidung und Rechtsmittel | [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| 6. Geschädigte und besondere Rollen | [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -112,69 +167,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 60 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abstand-quellenkarte` | Wenn es um Abstand Quellenkarte in VerkehrsOWi-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `akteneinsicht-internationaler-bezug-und-schnittstellen` | Wenn es um Akteneinsicht: Internationaler Bezug und Schnittstellen in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfra... |
-| `alkohol-compliance-dokumentation-und-akte` | Wenn es um Alkohol: Compliance-Dokumentation und Aktenvermerk in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `alkohol-drogen-beweisverwertung` | Wenn es um Alkohol und Drogen — Paragraf 24a StVG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `amtsgericht-drogen-interessen-einspruch` | Wenn es um Amtsgericht: Mandantenkommunikation und Entscheidungsvorlage in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anhoerung-verkehrsowi-einspruch-messverfahren` | Wenn es um Anhörung: Fristen, Form, Zuständigkeit und Rechtsweg in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in VerkehrsOWi-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bussgeldbescheid-tatbestand-beweis-und-belege` | Wenn es um Bussgeldbescheid: Tatbestandsmerkmale, Beweisfragen und Beleglage in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drogen-mehrparteien-konflikt-und-interessen` | Wenn es um Drogen: Mehrparteienkonflikt und Interessenmatrix in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einspruch-dokumentenmatrix-und-lueckenliste` | Wenn es um Einspruch: Dokumentenmatrix, Lückenliste und Nachforderung in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in VerkehrsOWi-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrverbot-geschwindigkeit-handy` | Wenn es um Fahrverbot: Behörden-, Gerichts- oder Registerweg in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geschwindigkeit-verhandlung-vergleich-und-eskalation` | Wenn es um Geschwindigkeit: Verhandlung, Vergleich und Eskalation in VerkehrsOWi-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `handy-zahlen-schwellen-und-berechnung` | Wenn es um Handy: Zahlen, Schwellenwerte und Berechnung in VerkehrsOWi-Verteidiger geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `hauptverhandlung-sonderfall-messakte-messung` | Wenn es um Hauptverhandlung: Sonderfall und Edge-Case-Prüfung in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `mandantenkommunikation` | Wenn es um Mandantenkommunikation im OWi-Mandat in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Mandantenkommunikation in VerkehrsOWi-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `messakte-formular-portal-und-einreichung` | Wenn es um Messakte: Formular, Portal und Einreichungslogik in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `messung-fahrverbot-punkte` | Wenn es um Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und N... |
-| `output-waehlen` | Wenn es um Output wählen in VerkehrsOWi-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `punkte-rotlicht-verkehrsowi` | Wenn es um Punkte: Risikoampel, Gegenargumente und Verteidigungslinien in VerkehrsOWi-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in VerkehrsOWi-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rotlicht-schriftsatz-brief-und-memo-bausteine` | Wenn es um Rotlicht: Schriftsatz-, Brief- und Memo-Bausteine in VerkehrsOWi-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlage... |
-| `simulation-training-verjaehrung-zustellung` | Wenn es um Simulationstraining OWi-Mandate in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-abstand-livequellen-und-rechtsprechungscheck` | Wenn es um Abstand: Livequellen- und Rechtsprechungscheck in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-anhoerung-fristen-form-und-zustaendigkeit` | Wenn es um Anhoerung: Fristen, Form, Zuständigkeit und Rechtsweg in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-zeugenstrategie-red-team-und-qualitaetskontrolle` | Wenn es um Zeugenstrategie: Red-Team und Qualitätskontrolle in VerkehrsOWi-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um VerkehrsOWi-Verteidiger — Allgemein in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-aktenanlage` | Wenn es um Aktenanlage OWi-Mandat in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-akteneinsicht-messakte` | Wenn es um Akteneinsicht und Messakte im OWi-Verfahren in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-anhoerung-bussgeldbescheid` | Wenn es um Anhörung und Bussgeldbescheid — Paragrafen 55 und 66 OWiG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-beweisverwertung-standardisiert` | Wenn es um Standardisiertes Messverfahren und Beweisverwertung in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-erstpruefung-und-mandatsziel` | Wenn es um Verkehrsowi: Erstprüfung, Rollenklärung und Mandatsziel in VerkehrsOWi-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-fahreridentifizierung` | Wenn es um Fahreridentifizierung im OWi-Verfahren in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-fristen-einspruch` | Wenn es um Einspruchsfrist und Einspruch — Paragraf 67 OWiG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-haertefall-fahrverbot` | Wenn es um Haertefall-Argumentation beim Fahrverbot — Paragraf 25 StVG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-hauptverhandlung-amtsgericht` | Wenn es um Hauptverhandlung OWi am Amtsgericht in VerkehrsOWi-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `verkehrsowi-kommandocenter` | Wenn es um VerkehrsOWi-Verteidiger — Kommandocenter in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-messverfahren-geschwindigkeit` | Wenn es um Geschwindigkeitsmessung OWi-Verfahren in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-punkte-fahrverbot` | Wenn es um Punkte und Fahrverbot — Fahreignungsregister Flensburg in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-quality-gate` | Wenn es um Quality Gate — OWi-Mandat in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `verkehrsowi-rechtsbeschwerde` | Wenn es um Rechtsbeschwerde im OWi-Verfahren — Paragraf 79 OWiG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-rechtsprechungsrecherche` | Wenn es um Rechtsprechungsrecherche OWi-Verkehrsrecht in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-rotlicht-abstand-handy` | Wenn es um Rotlicht, Abstand und Handy — Paragrafen 23. 37. 4 StVO in VerkehrsOWi-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, R... |
-| `verkehrsowi-verjaehrung-zustellung` | Wenn es um Verfolgungsverjaehrung und Zustellungsmaengel — Paragraf 31 OWiG in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verkehrsowi-zeugen-polizei-strategie` | Wenn es um Polizeibeamten als Zeugen im OWi-Verfahren in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verteidiger-beweislast-verkehrsowi` | Wenn es um Verteidiger: Beweislast, Darlegungslast und Substantiierung in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vowi-akteneinsicht-rohmessdaten-leitfaden` | Wenn es um Vowi Akteneinsicht Rohmessdaten Leitfaden in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vowi-bussgeldbescheid-pruefung-bauleiter` | Wenn es um VOWi: Bussgeldbescheid-Pruefung in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vowi-bussgeldbescheid-verkehrsowi-quality` | Wenn es um VOWi: Bussgeldbescheid-Prüfung in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vowi-handyverstoss-akteneinsicht-alkohol` | Wenn es um VOWi: Handyverstoss in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vowi-tempomessverfahren-bussgeldbescheid` | Wenn es um VOWi: Tempomessverfahren in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in VerkehrsOWi-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in VerkehrsOWi-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in VerkehrsOWi-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zeugenstrategie-fehlerkatalog` | Wenn es um Zeugenstrategie Fehlerkatalog in VerkehrsOWi-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Anklage und Hauptverhandlung: Anklage, Zwischenverfahren, Einlassung, Beweisantrag, Verhandlung und Verständigung bis zum Schriftsatz vorbereiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Beweis und Aktenanalyse: Akteninhalt, Aussage, Sachverständige, digitale Daten und Beweisverwertung mit Widersprüchen und Grenzen auswerten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Entscheidung und Rechtsmittel: Einstellung, Strafbefehl, Urteil, Strafzumessung, Berufung und Revision mit Form und Frist bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Geschädigte und besondere Rollen: Opferrechte, Nebenklage, Adhäsion, Jugend, Unternehmen und Zeugenbeistand nach der tatsächlichen Rolle bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Verkehrsowi Verteidiger ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/juristischer-argumentationskern/SKILL.md) |
+| [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Tatvorwurf und materielles Recht: Tatbestand, Beteiligung, Irrtum, Rechtfertigung, Schuld und Konkurrenz am belegten Geschehen prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | VerkehrsOWi-Verteidiger: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`verkehrsowi-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/verkehrsowi-kommandocenter/SKILL.md) | Für VerkehrsOWi-Verteidiger — Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verkehrsowi-verteidiger/skills/verkehrsowi-kommandocenter/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

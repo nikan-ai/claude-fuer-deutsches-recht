@@ -5,20 +5,66 @@
 
 Freistehendes Mittelstandsmandat-Corporate/M&A-Plugin: Deal-Kommandocenter, Aktenanlage, Datenraum, Legal DD, Tabellenreview, Liquiditätsvorschau, SPA/APA, W&I, Public M&A, Umwandlung, StaRUG/Insolvenzplan, CP-Kalender, E-Rechnung/GoBD, PMI.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`mittelstand-corporate-ma.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/mittelstand-corporate-ma.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/mittelstand-corporate-ma.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/mittelstand-corporate-ma-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/mittelstand-corporate-ma-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/mittelstand-corporate-ma.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/mittelstand-corporate-ma.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Mittelständische Kanzlei – Corporate/M&A-Plugin:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`mittelstand-corporate-ma.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/mittelstand-corporate-ma.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/mittelstand-corporate-ma/mittelstand-corporate-ma-werkstatt.md" download><code>mittelstand-corporate-ma-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/mittelstand-corporate-ma/mittelstand-corporate-ma-schnellstart.md" download><code>mittelstand-corporate-ma-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Share Deal Pellbach Werkzeugbau GmbH & Co. KG — Familiennachfolge mit PE-Beteiligung, Earn-Out, MAC: [Gesamt-PDF](../testakten/share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge/gesamt-pdf/share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge_gesamt.pdf), [`testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge.zip), [`testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`mittelstand-corporate-ma.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/mittelstand-corporate-ma.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`mittelstand-corporate-ma-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/mittelstand-corporate-ma-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`mittelstand-corporate-ma-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/mittelstand-corporate-ma-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Share Deal Pellbach Werkzeugbau GmbH & Co. KG — Familiennachfolge mit PE-Beteiligung, Earn-Out, MAC](../testakten/share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge/README.md) | [Gesamt-PDF](../testakten/share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge/gesamt-pdf/share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge_gesamt.pdf) | [`testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge.zip) | [`testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-share-deal-familienunternehmen-pellbach-werkzeugbau-passau-nachfolge-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du eine mittelständische Corporate- oder M&A-Sache pragmatisch führen: Beteiligung, Unternehmenskauf, Finanzierung, Geschäftsführer, Gesellschafterbeschluss, Notar und Vollzug.
@@ -32,8 +78,8 @@ Dies ist das freistehende Corporate/M&A-Plugin für mittelständische Kanzleien 
 
 1. ZIP herunterladen.
 2. Plugin-Umgebung öffnen.
-3. **Customize Plugins** bzw. **Personal plugins** öffnen.
-4. **Install from .zip** wählen und `mittelstand-corporate-ma.zip` hochladen.
+3. **Customize → Plugins** bzw. **Personal plugins** öffnen.
+4. **Upload plugin** wählen und `mittelstand-corporate-ma.zip` hochladen.
 5. Mit einem konkreten Deal-Auftrag starten, zum Beispiel: `Starte das Corporate-M&A-Kommandocenter für diesen Datenraum.`
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json`, `skills/`, `assets/` und `references/` enthalten.
@@ -125,23 +171,32 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 - Register-, Rechtsprechungs-, Gesetzes- und Datenraumbelege müssen verifizierbar sein.
 - Public M&A, MAR, WpÜG, Kartellrecht, Investitionskontrolle, Sanktionen, StaRUG, Zahlungsunfähigkeit und Überschuldung sind rote Schwellen.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **11 auswählbare Skills**. Die **101 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `beirat-kaltstart-und-zielbild`, `beirat-startup-investor-streit-gesellschafter`, `datenraum-aufbau-gap-deal-intake-team`, `deal-intake`, `kaltstart`, `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `beirat-datenschutz-ki-deadlock-mechanik`, `beirat-gmbh-zustimmungskatalog-und-konfliktmatrix`, `datenqualitaet-xai-qualitaetskontrolle`, `datenraum-gap-clean-room`, `mittelstand-ma-aktenanlage`, `tabellenreview-3d-datenraum`, `wi-insurance-aktenanlage-erechnung-gobd` |
-| 3. Prüfung, Anspruch und Subsumtion | `beirat-haftung`, `vertragsmarkup-key-beirat-haftung-billing` |
-| 4. Gestaltung, Strategie und Verhandlung | `beirat-amtszeit-rotation-bank-sanierung`, `beirat-bank-und-sanierung`, `beirat-budget-und-businessplan`, `beirat-compliance-und-internal-investigation`, `beirat-musterklauseln`, `steps-plan-pmo`, `teaser-processdocs-transaktionsstruktur`, `transaktionsstruktur` |
-| 5. Verfahren, Behörde und Gericht | `beirat-beschlussfassung`, `beirat-beschlussmaengel-bestellung-abberufung`, `beirat-private-equity-register-notar`, `beirat-register-und-notar`, `gesellschaftsrecht-register`, `handelsregisterabruf`, `mittelstand-ma-fristen-cp-kalender` |
-| 6. Ergebnis, Schreiben und Kommunikation | `spa-apa-entwurf` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `beirat-red-team-satzung`, `mittelstand-ma-tabellenreview`, `umwandlungssteuerrecht-tabellenreview` |
-| 8. Spezialmodule und Schnittstellen | `automation-monitoring`, `beirat-abgrenzung-aufsichtsrat`, `beirat-beratungsfunktion`, `beirat-bestellung-und-abberufung`, `beirat-deadlock-mechanik`, `beirat-entscheidungsbefugnisse`, `beirat-fakultativer-aufsichtsrat-52-gmbhg`, `beirat-familiengesellschaft`, `beirat-geschaeftsfuehrerabberufung`, `beirat-geschaeftsfuehrerbestellung`, `beirat-geschaeftsordnung`, `beirat-immobilien-investitionen`, `beirat-informationsrechte`, `beirat-insolvenznaehe`, `beirat-interessenkonflikte`, `beirat-katalog-wesentlicher-kontrollfunktion`, `beirat-kontrollfunktion`, `beirat-mitbestimmung-abgrenzung`, ... plus 48 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`deal-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/deal-kommandocenter/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Transaktion und Struktur | [`transaktion-und-struktur-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/transaktion-und-struktur-bearbeiten/SKILL.md) |
+| 3. Due Diligence und Risikoprüfung | [`due-diligence-und-risikopruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/due-diligence-und-risikopruefung-bearbeiten/SKILL.md) |
+| 4. Kaufvertrag und Preis | [`kaufvertrag-und-preis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/kaufvertrag-und-preis-bearbeiten/SKILL.md) |
+| 5. Finanzierung und Beteiligung | [`finanzierung-und-beteiligung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/finanzierung-und-beteiligung-bearbeiten/SKILL.md) |
+| 6. Governance und Gesellschafter | [`governance-und-gesellschafter-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/governance-und-gesellschafter-bearbeiten/SKILL.md) |
+| 7. Signing und Vollzug | [`signing-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/signing-und-vollzug-bearbeiten/SKILL.md) |
+| 8. Krise und Streit | [`krise-und-streit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/krise-und-streit-bearbeiten/SKILL.md) |
+| 9. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 10. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -149,109 +204,30 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 100 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 11 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `automation-monitoring` | Wenn es um Automationen und Monitoring in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beirat-abgrenzung-aufsichtsrat` | Wenn es um Beirat Abgrenzung Aufsichtsrat in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `beirat-amtszeit-rotation-bank-sanierung` | Wenn es um Beirat Amtszeit Und Rotation in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `beirat-bank-und-sanierung` | Wenn es um Beirat Bank Und Sanierung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-beratungsfunktion` | Wenn es um Beirat Beratungsfunktion in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-beschlussfassung` | Wenn es um Beirat Beschlussfassung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-beschlussmaengel-bestellung-abberufung` | Wenn es um Beirat Beschlussmaengel in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-bestellung-und-abberufung` | Wenn es um Beirat Bestellung Und Abberufung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `beirat-budget-und-businessplan` | Wenn es um Beirat Budget Und Businessplan in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `beirat-compliance-und-internal-investigation` | Wenn es um Beirat Compliance Und Internal Investigation in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `beirat-datenschutz-ki-deadlock-mechanik` | Wenn es um Beirat Datenschutz Und digitale Werkzeuge in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nac... |
-| `beirat-deadlock-mechanik` | Wenn es um Beirat Deadlock Mechanik in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-entscheidungsbefugnisse` | Wenn es um Beirat Entscheidungsbefugnisse in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `beirat-fakultativer-aufsichtsrat-52-gmbhg` | Wenn es um Beirat Fakultativer Aufsichtsrat 52 Gmbhg in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `beirat-familiengesellschaft` | Wenn es um Beirat Familiengesellschaft in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-geschaeftsfuehrerabberufung` | Wenn es um Beirat Geschäftsführerabberufung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `beirat-geschaeftsfuehrerbestellung` | Wenn es um Beirat Geschäftsführerbestellung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `beirat-geschaeftsordnung` | Wenn es um Beirat Geschäftsordnung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-gmbh-zustimmungskatalog-und-konfliktmatrix` | Wenn es um GmbH-Beirat: Zustimmungskatalog, Konfliktmatrix und Satzungslogik in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit P... |
-| `beirat-haftung` | Wenn es um Beirat Haftung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-immobilien-investitionen` | Wenn es um Beirat Immobilien Und Investitionen in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächst... |
-| `beirat-informationsrechte` | Wenn es um Beirat Informationsrechte in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-insolvenznaehe` | Wenn es um Beirat Insolvenznaehe in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-interessenkonflikte` | Wenn es um Beirat Interessenkonflikte in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-kaltstart-und-zielbild` | Wenn es um Beirat Kaltstart Und Zielbild in Mittelstands-Corporate/M&A geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beirat-katalog-wesentlicher-kontrollfunktion` | Wenn es um Beirat: Katalog Wesentlicher Geschäfte Und Kontrollfunktion in Mittelstands-Corporate/M&A geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kont... |
-| `beirat-kontrollfunktion` | Wenn es um Beirat Kontrollfunktion in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-mitbestimmung-abgrenzung` | Wenn es um Beirat Mitbestimmung Abgrenzung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem S... |
-| `beirat-musterklauseln` | Wenn es um Beirat Musterklauseln in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-nachfolge` | Wenn es um Beirat Nachfolge in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-private-equity-register-notar` | Wenn es um Beirat Private Equity Investor in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `beirat-red-team-satzung` | Wenn es um Beirat Red Team Satzung in Mittelstands-Corporate/M&A geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beirat-register-und-notar` | Wenn es um Beirat Register Und Notar in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `beirat-satzungsgrundlage` | Wenn es um Beirat Satzungsgrundlage in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-sitzung-und-protokoll` | Wenn es um Beirat Sitzung Und Protokoll in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `beirat-startup-investor-streit-gesellschafter` | Wenn es um Beirat Startup Investor Director in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `beirat-streit-gesellschafter` | Wenn es um Beirat Streit Gesellschafter in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `beirat-transaktionen-ma` | Wenn es um Beirat Transaktionen M&A in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-verguetung` | Wenn es um Beirat: Vergütung, Auslagen, D&O Und Interessenkonflikte in Mittelstands-Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `beirat-verschwiegenheit-veto-rechte` | Wenn es um Beirat Verschwiegenheit in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-veto-rechte` | Wenn es um Beirat Veto Rechte in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beirat-zustimmungsvorbehalte` | Wenn es um Beirat Zustimmungsvorbehalte in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `billing-narratives` | Wenn es um Mittelstandsmandat Billing Narratives in Mittelstands-Corporate/M&A geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `board-paper-closing-bible-conflict-gwg` | Wenn es um Board Paper und Business Judgment in Mittelstands-Corporate/M&A geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `closing-bible-archiv` | Wenn es um Closing Bible und Archiv in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `conflict-gwg-sanctions` | Wenn es um Konflikt-, GwG- und Sanktionscheck in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `cp-kalender-beirat` | Wenn es um Corporate-Rechtsprechungsrecherche in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `datenqualitaet-xai-qualitaetskontrolle` | Wenn es um Datenqualität und XAI-Qualitätskontrolle in Mittelstands-Corporate/M&A geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `datenraum-aufbau-gap-deal-intake-team` | Wenn es um Datenraum-Aufbau in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenraum-gap-clean-room` | Wenn es um Datenraum-Gap-Analyse und Clean Room in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `deal-intake` | Wenn es um Deal-Intake in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `deal-kommandocenter` | Wenn es um Deal-Kommandocenter in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deal-team-staffing` | Wenn es um Deal-Team und Staffing in Mittelstands-Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `distressed-due` | Wenn es um Disclosure Schedules in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `distressed-ma` | Wenn es um Distressed M&A in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `due-diligence-commercial-contracts` | Wenn es um Kommerzielle Vertrags-DD in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `due-diligence-legal` | Wenn es um Legal Due Diligence in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `expert-calls-fair` | Wenn es um DD Reporting und Legal Fact Book in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `expert-calls-transkripte` | Wenn es um Expert Calls und Transkripte in Mittelstands-Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `fair-disclosure-knowledge` | Wenn es um Fair Disclosure und Knowledge in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `freundlicher-copilot` | Wenn es um Freundlicher Deal-Copilot in Mittelstands-Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `gesellschaftsrecht-register` | Wenn es um Corporate Housekeeping und Register in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `handelsregisterabruf` | Wenn es um Handelsregister- und Registerabruf in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `kaltstart` | Wenn es um Deal-Kaltstart in Mittelstands-Corporate/M&A geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `kaltstart-triage` | Wenn es um Kaltstart Triage in Mittelstands-Corporate/M&A geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kg-personengesellschaften` | Wenn es um KG und Personengesellschaften in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ki-governance-berufsrecht` | Wenn es um digitale Werkzeuge-Governance und Berufsrecht in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und... |
-| `liquiditaetsvorschau-schreibcanvas` | Wenn es um Freistehende Liquiditätsvorschau (Mittelstand) in Mittelstands-Corporate/M&A geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `look-and-feel` | Wenn es um Corporate-Cowork-Look in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `matter-file` | Wenn es um Deal-Akte in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `mittelstand-ma-aktenanlage` | Wenn es um Freistehende M&A-Aktenanlage (Mittelstand) in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mittelstand-ma-erechnung-gobd` | Wenn es um Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand) in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mittelstand-ma-fristen-cp-kalender` | Wenn es um Freistehender Deal-Fristen- und CP-Kalender in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mittelstand-ma-insolvenzreife` | Wenn es um Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand) in Mittelstands-Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen... |
-| `mittelstand-ma-schreibcanvas` | Wenn es um Freistehender Corporate-Schreibcanvas in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `mittelstand-ma-tabellenreview` | Wenn es um Freistehender Tabellenreview (Mittelstand) in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `outside-in-target-screening` | Wenn es um Outside-in Target Screening in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `public-kapitalmarkt` | Wenn es um Post-Closing Integration in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `public-ma-kapitalmarkt-mar` | Wenn es um Public M&A, Kapitalmarkt und MAR in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `qa-information-requests` | Wenn es um Q&A und Information Requests in Mittelstands-Corporate/M&A geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-betriebsuebergang-im-asset-deal` | Wenn es um Rechtsabteilung: Betriebsübergang im Asset Deal in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `rechtsabteilung-earn-out-bei-mittelstandsverkauf` | Wenn es um Rechtsabteilung: Earn-out bei Mittelstandsverkauf in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits-... |
-| `rechtsabteilung-familiengesellschafter-und-zustimmungsketten` | Wenn es um Rechtsabteilung: Familiengesellschafter und Zustimmungsketten in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfp... |
-| `rechtsabteilung-garantiekatalog-vendor-due` | Wenn es um Rechtsabteilung: Garantiekatalog ohne Großkanzlei-Overkill in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunk... |
-| `rechtsabteilung-vendor-due-diligence-fuer-versteckte-altlasten` | Wenn es um Rechtsabteilung: Vendor Due Diligence für versteckte Altlasten in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `regulatory-fdi-merger-control` | Wenn es um Fusionskontrolle und Investitionskontrolle in Mittelstands-Corporate/M&A geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `signing-closing` | Wenn es um StaRUG und Insolvenzplan in Mittelstands-Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `signing-closing-conditions` | Wenn es um Signing, Closing und Conditions Precedent in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `simulation-bidder-process` | Wenn es um Bieterprozess-Simulation in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `spa-apa-entwurf` | Wenn es um SPA/APA-Entwurf in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `steps-plan-pmo` | Wenn es um Deal-PMO und Steps Plan in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `tabellenreview-3d-datenraum` | Wenn es um 3D-Tabellenreview im Datenraum in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `teaser-processdocs-transaktionsstruktur` | Wenn es um Teaser, IM und Prozessdokumente in Mittelstands-Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `transaktionsstruktur` | Wenn es um Transaktionsstrukturierung in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `translations-multijurisdictional` | Wenn es um Multi-Jurisdiction und Übersetzungen in Mittelstands-Corporate/M&A geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `umwandlungsrecht` | Wenn es um Umwandlungsrecht in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `umwandlungssteuerrecht-tabellenreview` | Wenn es um Umwandlungssteuerrecht in Mittelstands-Corporate/M&A geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `versand-signing` | Wenn es um Output, Signing und Versand in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vertragsmarkup-key-beirat-haftung-billing` | Wenn es um Markup und Key Issues in Mittelstands-Corporate/M&A geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `wi-insurance-aktenanlage-erechnung-gobd` | Wenn es um W&I-Versicherung in Mittelstands-Corporate/M&A geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
+English: Complete list of all 11 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklä... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`deal-kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/deal-kommandocenter/SKILL.md) | Für Deal-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Mittelstands-Corporate/M&A. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/deal-kommandocenter/SKILL.md) |
+| [`due-diligence-und-risikopruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/due-diligence-und-risikopruefung-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Due Diligence und Risikoprüfung: Datenraum, Verträge, Personal, IP, IT, Compliance und erkennbare Risiken belegen und für die Transaktion bewerten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/due-diligence-und-risikopruefung-bearbeiten/SKILL.md) |
+| [`finanzierung-und-beteiligung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/finanzierung-und-beteiligung-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Finanzierung und Beteiligung: Equity, Darlehen, Wandlung, Sicherheiten, Gesellschafterdarlehen und Kapitalmaßnahmen anhand der Vertragsunterlagen gestalten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/finanzierung-und-beteiligung-bearbeiten/SKILL.md) |
+| [`governance-und-gesellschafter-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/governance-und-gesellschafter-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Governance und Gesellschafter: Beteiligungsrechte, Organe, Beirat, Management, Vergütung und Exit im Gesellschaftsvertrag abstimmen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/governance-und-gesellschafter-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Mittelstand Corporate Ma ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaufvertrag-und-preis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/kaufvertrag-und-preis-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Kaufvertrag und Preis: Kaufgegenstand, Kaufpreis, Garantien, Freistellungen, Haftung und Anpassungsmechanik ausformulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/kaufvertrag-und-preis-bearbeiten/SKILL.md) |
+| [`krise-und-streit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/krise-und-streit-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Krise und Streit: Sanierung, Insolvenz, Sanierungsgewinn, Organhaftung und Transaktionsstreit mit dem richtigen Anspruchsinhaber prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/krise-und-streit-bearbeiten/SKILL.md) |
+| [`signing-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/signing-und-vollzug-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Signing und Vollzug: Bedingungen, Unterschriften, Notar, Register, Closing, Übertragung und Integration bis zur dokumentierten Umsetzung führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/signing-und-vollzug-bearbeiten/SKILL.md) |
+| [`transaktion-und-struktur-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/transaktion-und-struktur-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Transaktion und Struktur: Share Deal, Asset Deal, Beteiligte, Erwerbsstruktur und maßgebliche Rechtsordnung festlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/transaktion-und-struktur-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Corporate und M&A in der mittelständischen Kanzlei: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=mittelstand-corporate-ma/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Ermitteln Sie, welche beworbenen Funktionen produktiv eingesetzt werden und welche nur geplant sind. Verknüpfen Sie Kaufpreismaßnahmen mit konkreten Dokumentations- oder Betriebsrisiken, nicht mit einem abstrakten KI-Risikolabel.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

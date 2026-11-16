@@ -5,20 +5,56 @@
 
 Super-Plugin für Factoring, Forderungskauf, Aufsichtsrecht, Vertragsgestaltung, Debitorenkommunikation, Insolvenz- und Sanierungsfragen.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`factoring-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/factoring-recht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/factoring-recht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/factoring-recht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/factoring-recht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/factoring-recht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/factoring-recht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Factoring-Recht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`factoring-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/factoring-recht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/factoring-recht/factoring-recht-werkstatt.md" download><code>factoring-recht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/factoring-recht/factoring-recht-schnellstart.md" download><code>factoring-recht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`factoring-recht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/factoring-recht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`factoring-recht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/factoring-recht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`factoring-recht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/factoring-recht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,11 +63,11 @@ Super-Plugin für Factoring, Forderungskauf, Aufsichtsrecht, Vertragsgestaltung,
 ## Wofür dieses Plugin da ist
 Factoring als laufender Forderungsankauf, Vertrags- und Aufsichtsrecht, BaFin-Erlaubnisfragen, Abtretung, Debitorenschutz, Insolvenz, Bilanzierung und internationale Lieferkettenfinanzierung.
 
-Das Plugin ist als Arbeitswerkzeug gedacht: Es startet mit einem Kaltstart-Interview, sortiert Unterlagen, prüft Fristen und routet dann in Spezial-Skills. Es soll Anfänger an die Hand nehmen und Profis schnell zu belastbaren Outputs bringen.
+Aus Factoringvertrag, Forderungsbelegen und Korrespondenz entsteht je nach Auftrag eine Vertragsprüfung, ein Debitorenschreiben oder eine begründete Entscheidung zum Forderungsankauf. Fehlende entscheidende Angaben werden gezielt nachgefragt. Ein klarer Einzelauftrag benötigt kein vorgeschaltetes Kaltstart-Interview; Antworten werden in das begonnene Dokument eingearbeitet.
 
 ## Typischer Workflow
-1. **Allgemein-Skill starten:** Rolle, Ziel, Frist, Unterlagen und gewünschtes Ergebnis klären.
-2. **Dokumente einlesen:** Verträge, Bescheide, Rechnungen, Tabellen, Registerdaten, Behördenpost oder Screenshots strukturieren.
+1. **Unterlagen und Auftrag lesen:** Factoringvertrag, Abtretung, Rechnungen und Debitorenkorrespondenz auswerten; Rolle, Frist und gewünschtes Ergebnis soweit möglich daraus entnehmen.
+2. **Entscheidende Lücken klären:** Nur nachfragen, was den konkreten Ankauf, die Einwendung oder den verlangten Entwurf beeinflusst. Bei ausreichendem Material unmittelbar mit diesem Arbeitsprodukt beginnen.
 3. **Spezial-Skill wählen:** Das Plugin schlägt den passenden Skill vor und erklärt, welches Ergebnis damit entsteht.
 4. **Live-Quellen prüfen:** Normtext, Behördenseite, EU-Text, Formular oder frei zugängliche Rechtsprechung aktualisieren.
 5. **Output erzeugen:** Memo, Antrag, Stellungnahme, Vertragsklausel, Berechnung, Checkliste oder Mandantenbrief.
@@ -57,23 +93,29 @@ Dieses Plugin soll keine nicht prüfbaren Fundstellen produzieren. Bei unsichere
 ## Lizenz
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **63 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `dokumentenintake-forderungsportfolio`, `kaltstart-factoring-mandat`, `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `checkliste-forderungsdatenraum-datenschutz`, `datenschutz-debitorendaten-dsgvo-informationspflichten`, `einziehungsbefugnis-debitoren-zahlungskanaele-treuhandkonto`, `erlaubnisantrag-32-kwg-unterlagen`, `reverse-lieferantenfinanzierung-risikomatrix`, `risikomatrix-insolvenz-anfechtung` |
-| 3. Prüfung, Anspruch und Subsumtion | `auditrechte-stichproben-forderungspruefung`, `b2b-lieferketten-forderungsbestand-und-reklamationsrisiko`, `bilanzierung-true-sale-ausbuchung-wirtschaftliches-risiko`, `echtes-und-unechtes-factoring-risikoverteilung`, `insolvenz-des-debitors-forderungspruefung`, `regressklauseln-delkredererisiko-factoring` |
-| 4. Gestaltung, Strategie und Verhandlung | `agb-kontrolle-factoringvertrag-rahmenvertrag`, `factoringvertrag-rahmenvertrag-forderungskauf-kaufpreis-sicherhe`, `kuendigung-rahmenvertrag-exit-und-rueckuebertragung`, `output-vertragsentwurf-memo-anzeige`, `sanierungskonzept-factoring-als-liquiditaetsbaustein` |
-| 5. Verfahren, Behörde und Gericht | `geldwaesche-verdachtsmeldung-gerichtsstand`, `gerichtsstand-rechtswahl-schiedsvereinbarung` |
-| 6. Ergebnis, Schreiben und Kommunikation | `debitorenbrief-hoeflich-aber-rechtssicher`, `debitorenkommunikation-abtretungsanzeige`, `kyc-gwg-mandantenmemo-risiken-npl-kauf`, `mandantenmemo-factoring-risiken-vorstandsvorlage` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `red-team-factoringvertrag-versteckte` |
-| 8. Spezialmodule und Schnittstellen | `abtretbarkeit-forderungen-abtretungsverbot`, `abtretungsverbot-354a-hgb-handelsgeschaeft`, `aufsichtsrechtliche-schnellampel`, `auslandsfactoring-import-export-two-factor-system`, `bafin-laufender-beschwerde-anhoerung`, `beschwerde-und-anhoerung-bafin-factoring`, `debitorenschutz-einwendungen-404-bgb-aufrechnung-406-bgb`, `doppelabtretung-prioritaet-und-gutglaubensprobleme`, `drittschuldneranzeige-stille-echtes-unechtes`, `factoring-fuer-rechtsanwaelte-steuerberater-berufsrecht`, `factoring-gesundheitswesen-plattformmodelle`, `factoring-plattformmodelle-fintech-und-api`, `factoringtyp-true-false-reverse-maturity`, `faelligkeitsfactoring-maturity-fraud`, `fraud-indikatoren-scheinforderungen-retouren-gutschriften`, `full-service-factoring-inhouse-factoring-ausschnittsmodell`, `globalzession-verlaengerte-eigentumsvorbehalte-prioritaetskonfli`, `inkasso-rdg-insolvenz-debitors`, ... plus 17 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/kaltstart-triage/SKILL.md) |
+| 2. Aktenkern | [`aktenkern-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/aktenkern-bearbeiten/SKILL.md) |
+| 3. Anspruch | [`anspruch-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/anspruch-bearbeiten/SKILL.md) |
+| 4. Einwendungen | [`einwendungen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/einwendungen-bearbeiten/SKILL.md) |
+| 5. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -81,71 +123,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 62 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abtretbarkeit-forderungen-abtretungsverbot` | Wenn es um Abtretbarkeit Forderungen Paragraf 398 BGB und Abtretungsverbote in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `abtretungsverbot-354a-hgb-handelsgeschaeft` | Wenn es um Abtretungsverbot Paragraf 354a HGB Handelsgeschäft in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `agb-kontrolle-factoringvertrag-rahmenvertrag` | Wenn es um AGB Kontrolle Factoringklauseln B2B in Factoring-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auditrechte-stichproben-forderungspruefung` | Wenn es um Auditrechte Stichproben Forderungsprüfung in Factoring-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufsichtsrechtliche-schnellampel` | Wenn es um Aufsichtsrechtliche Schnellampel KWG ZAG in Factoring-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auslandsfactoring-import-export-two-factor-system` | Wenn es um Auslandsfactoring Import Export Two-Factor-System in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `b2b-lieferketten-forderungsbestand-und-reklamationsrisiko` | Wenn es um B2B Lieferketten Forderungsbestand und Reklamationsrisiko in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bafin-laufender-beschwerde-anhoerung` | Wenn es um BaFin Tatbestand Factoring laufender Forderungsankauf Rahmenvertrag in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `beschwerde-und-anhoerung-bafin-factoring` | Wenn es um Beschwerde und Anhörung BaFin Factoring in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bilanzierung-true-sale-ausbuchung-wirtschaftliches-risiko` | Wenn es um Bilanzierung True Sale Ausbuchung wirtschaftliches Risiko in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `checkliste-forderungsdatenraum-datenschutz` | Wenn es um Checkliste Forderungsdatenraum Factoring in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenschutz-debitorendaten-dsgvo-informationspflichten` | Wenn es um Datenschutz Debitorendaten DSGVO Informationspflichten in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `debitorenbrief-hoeflich-aber-rechtssicher` | Wenn es um Debitorenbrief höflich aber rechtssicher in Factoring-Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `debitorenkommunikation-abtretungsanzeige` | Wenn es um Debitorenkommunikation und Abtretungsanzeige in Factoring-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `debitorenschutz-einwendungen-404-bgb-aufrechnung-406-bgb` | Wenn es um Debitorenschutz Einwendungen Paragraf 404 BGB Aufrechnung Paragraf 406 BGB in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `dokumentenintake-forderungsportfolio` | Wenn es um Dokumentenintake Forderungsportfolio in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `doppelabtretung-prioritaet-und-gutglaubensprobleme` | Wenn es um Doppelabtretung Priorität und Gutglaubensprobleme in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `drittschuldneranzeige-stille-echtes-unechtes` | Wenn es um Drittschuldneranzeige und stille Zession in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `echtes-und-unechtes-factoring-risikoverteilung` | Wenn es um Echtes und unechtes Factoring Risikoverteilung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `einziehungsbefugnis-debitoren-zahlungskanaele-treuhandkonto` | Wenn es um Einziehungsbefugnis Debitoren Zahlungskanäle Treuhandkonto in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `erlaubnisantrag-32-kwg-unterlagen` | Wenn es um Erlaubnisantrag Paragraf 32 KWG Unterlagen Geschäftsleiter in Factoring-Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlag... |
-| `factoring-fuer-rechtsanwaelte-steuerberater-berufsrecht` | Wenn es um Factoring für Rechtsanwälte Steuerberater Berufsrecht in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `factoring-gesundheitswesen-plattformmodelle` | Wenn es um Factoring in Gesundheitswesen GOÄ EBM Krankenhaus in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `factoring-plattformmodelle-fintech-und-api` | Wenn es um Factoring Plattformmodelle Fintech und API in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `factoringtyp-true-false-reverse-maturity` | Wenn es um Factoringtyp true false reverse maturity in Factoring-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `factoringvertrag-rahmenvertrag-forderungskauf-kaufpreis-sicherhe` | Wenn es um Factoringvertrag Rahmenvertrag Forderungskauf Kaufpreis Sicherheitseinbehalt in Factoring-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschrit... |
-| `faelligkeitsfactoring-maturity-fraud` | Wenn es um Fälligkeitsfactoring Maturity Factoring und Mahnservice in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `fraud-indikatoren-scheinforderungen-retouren-gutschriften` | Wenn es um Fraud-Indikatoren Scheinforderungen Retouren Gutschriften in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `full-service-factoring-inhouse-factoring-ausschnittsmodell` | Wenn es um Full-Service Factoring Inhouse Factoring Ausschnittsmodell in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `geldwaesche-verdachtsmeldung-gerichtsstand` | Wenn es um Geldwäsche Verdachtsmeldung Monitoring in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `gerichtsstand-rechtswahl-schiedsvereinbarung` | Wenn es um Gerichtsstand Rechtswahl Schiedsvereinbarung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `globalzession-verlaengerte-eigentumsvorbehalte-prioritaetskonfli` | Wenn es um Globalzession verlängerte Eigentumsvorbehalte Prioritätskonflikt in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `inkasso-rdg-insolvenz-debitors` | Wenn es um Inkasso RDG Abgrenzung Forderungsmanagement in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `insolvenz-des-debitors-forderungspruefung` | Wenn es um Insolvenz des Debitors Forderungsprüfung in Factoring-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenz-des-factoringkunden-aussonderung-absonderung` | Wenn es um Insolvenz des Factoringkunden Aussonderung Absonderung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `insolvenzanfechtung-globalzession` | Wenn es um Insolvenzanfechtung Globalzession Deckung Bargeschäft in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kaltstart-factoring-mandat` | Wenn es um Kaltstart Factoring-Mandat in Factoring-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um Factoring-Recht — Allgemein in Factoring-Recht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konzentrationsrisiken-debitorenlimit-und-portfolio-covenants` | Wenn es um Konzentrationsrisiken Debitorenlimit und Portfolio Covenants in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `kuendigung-rahmenvertrag-exit-und-rueckuebertragung` | Wenn es um Kündigung Rahmenvertrag Exit und Rückübertragung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kwg-erlaubnispflicht-factoring-1-abs-1a-satz-2-nr-9-kwg` | Wenn es um KWG-Erlaubnispflicht Factoring nach Paragraf 1 Abs. 1a Satz 2 Nr. 9 KWG in Factoring-Recht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpu... |
-| `kyc-gwg-mandantenmemo-risiken-npl-kauf` | Wenn es um KYC GwG Factoringinstitut wirtschaftlich Berechtigte in Factoring-Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `mandantenmemo-factoring-risiken-vorstandsvorlage` | Wenn es um Mandantenmemo Factoring-Risiken Vorstandsvorlage in Factoring-Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `npl-kauf-servicing-und-factoring-abgrenzung` | Wenn es um NPL Kauf Servicing und Factoring-Abgrenzung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `oeffentliche-auftraggeber` | Wenn es um Öffentliche Auftraggeber Abtretung Zustimmung Haushaltsrecht in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `organisationspflichten-marisk-bait-dora-schnittstellen` | Wenn es um Organisationspflichten MaRisk BAIT DORA Schnittstellen in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `output-vertragsentwurf-memo-anzeige` | Wenn es um Output Vertragsentwurf Memo Anzeige in Factoring-Recht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `pricing-gebuehren-zins-marge-transparenz` | Wenn es um Pricing Gebühren Zins Marge Transparenz in Factoring-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `red-team-factoringvertrag-versteckte` | Wenn es um Red-Team Factoringvertrag versteckte Rückgriffshaftung in Factoring-Recht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regressklauseln-delkredererisiko-factoring` | Wenn es um Regressklauseln Delkredererisiko Rückbelastung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `reverse-lieferantenfinanzierung-risikomatrix` | Wenn es um Reverse Factoring Lieferantenfinanzierung und Abgrenzung Kreditgeschäft in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `risikomatrix-insolvenz-anfechtung` | Wenn es um Risikomatrix Insolvenz Anfechtung in Factoring-Recht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sanierungskonzept-factoring-als-liquiditaetsbaustein` | Wenn es um Sanierungskonzept Factoring als Liquiditätsbaustein in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `schnittstelle-lieferkettenfinanzierung` | Wenn es um Schnittstelle Lieferkettenfinanzierung Supply Chain Finance in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `securitisation-abs-spv-abgrenzung-factoring` | Wenn es um Securitisation ABS SPV Abgrenzung Factoring in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `sicherheiten-warenkreditversicherung-delkredere` | Wenn es um Sicherheiten Warenkreditversicherung Delkredere in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `steuer-umsatzsteuer-factoringgebuehren-und-forderungsverkauf` | Wenn es um Steuer Umsatzsteuer Factoringgebühren und Forderungsverkauf in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `stundung-moratorium-unidroit-fci` | Wenn es um Stundung Moratorium Factoring und Sanierung in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `term-sheet-zag-finanztransfergeschaeft` | Wenn es um Verhandlung Term Sheet Factoringlinie in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `unidroit-fci-logik-und-rechtswahl-internationale-forderungen` | Wenn es um UNIDROIT/FCI Logik und Rechtswahl internationale Forderungen in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `verbraucherforderungen-und-besondere-schutzvorschriften` | Wenn es um Verbraucherforderungen und besondere Schutzvorschriften in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `zag-finanztransfergeschaeft-schnittstelle-factoring` | Wenn es um ZAG Finanztransfergeschäft Schnittstelle Factoring in Factoring-Recht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`aktenkern-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/aktenkern-bearbeiten/SKILL.md) | Factoring-Recht: Aktenkern: Vertrag, Bestellung, Lieferung, Abnahme, Rechnung, Mahnung, Zahlung und Einwendung chronologisch ordnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/aktenkern-bearbeiten/SKILL.md) |
+| [`anspruch-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/anspruch-bearbeiten/SKILL.md) | Factoring-Recht: Anspruch: Hauptforderung, Nebenforderung, Zinsen, Kosten, Verzug und Verjährung getrennt rechnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/anspruch-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Factoring-Recht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Factoring-Recht: Arbeitsprodukt: Klagefreigabe, Mahnschreiben, Klageentwurf, Vergleichsvorschlag oder Vollstreckungsauftrag erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`einwendungen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/einwendungen-bearbeiten/SKILL.md) | Factoring-Recht: Einwendungen: Erfüllung, Mangel, Aufrechnung, Zurückbehaltung, Stundung, Verjährung und Vertretung prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/einwendungen-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Factoring Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/kaltstart-triage/SKILL.md) | Für Factoring-Recht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/kaltstart-triage/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Factoring-Recht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=factoring-recht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

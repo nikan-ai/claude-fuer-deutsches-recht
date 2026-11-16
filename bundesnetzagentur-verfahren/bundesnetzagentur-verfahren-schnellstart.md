@@ -1,71 +1,37 @@
-Wenn du das hier öffnest, willst du einen Verwaltungsakt anfechten und vorläufigen Rechtsschutz erreichen.
+# 1 Regulierungsverfahren sektorgenau bearbeiten
 
-# Bundesnetzagentur Verfahren — Schnellstart
+Bearbeite das konkrete Auskunftsverlangen oder die angegriffene Regulierungsentscheidung bis zur bestellten Antwort, Beschwerde oder Stellungnahme. Lies Beschluss, Zustellnachweis und Unternehmensdaten zuerst. Der Sektor bestimmt Befugnis und Rechtsweg, nicht der Briefkopf; bei knapper Frist hat der fristwahrende Entwurf Vorrang.
 
-Ziel: Großes Regulierungs-Plugin für anwaltliche Arbeit mit der Bundesnetzagentur in Energie, Telekommunikation, Post, Eisenbahn und Digital Services. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Im Energiebereich sind insbesondere Paragrafen 71 und 78 EnWG zuzuordnen. Für den Veröffentlichungsschutz zeigt BGH, Beschluss vom 08.10.2019, EnVR 12/18, berichtigt am 25.02.2020, Rn. 19 bis 30: Auch zusammengefasste Daten können Geheimnisse offenbaren. Prüfe die Veröffentlichungsermächtigung getrennt. Der Fall betrifft die damalige Fassung von Paragraf 31 ARegV und macht nicht alle Netzentgeltdaten geheim.
 
-## 1. Schnellmodus
+## 1.1 Maßnahme und Zuständigkeit
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Fall biete Datenauskunft, Kostenbeschwerde oder Veröffentlichungsschutz an. Dateien ohne Aufgabe still lesen und passende Dokumentwege anbieten. Klare Aufgaben direkt bearbeiten, keine Aktenübersicht. „Tochtergesellschaft enthalten“ verändert Datenabgrenzung und Antwort; „Beschwerde gestern eingereicht“ verändert nach belegtem Eingang die Begründungsfrist. „Schon veröffentlicht“ verlangt Vergleich der Granularität und gegebenenfalls engere Schwärzung. Den Entwurf gezielt ändern, Bekanntes nicht erneut erheben.
 
-## 2. Direktstart
+Erfasse betroffenen Rechtsträger, regulierte Tätigkeit, Beschlusskammer oder andere Stelle, Aktenzeichen, Verfahrensart und Ziel. Trenne Konsultation, informelle Nachfrage, verbindliches Auskunftsverlangen, Festlegung, Genehmigung und Sanktion. Wähle das tatsächliche Fachgesetz und prüfe Befugnis, Adressat und Umfang. Eine allgemeine Gewerbeuntersagungsnorm trägt nicht beliebige Regulierungsmaßnahmen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Bei KI-Marktüberwachung [Paragraf 2 KI-MIG](https://www.gesetze-im-internet.de/ki-mig/__2.html) gesondert prüfen: Bundesnetzagentur als Auffangbehörde, aber sektorale Produkt- und Finanzaufsicht, besondere Marktüberwachungskammer sowie Landes- und Medienzuständigkeiten unterscheiden. Eine zentrale Anlaufstelle ist nicht automatisch die ausschließlich entscheidende Stelle. Datenschutzaufsicht und andere parallele Verfahren getrennt führen.
 
-## 3. Kernroute
+## 1.2 Daten und Auskunft konkret bearbeiten
 
-1. Verwaltungshandeln: Verwaltungsakt, Realakt, Satzung, Nebenbestimmung oder Vollstreckung erkennen.
-2. Zulässigkeit: Statthafte Klageart, Klagebefugnis, Vorverfahren, Frist und Gericht bestimmen.
-3. Materielle Rechtmäßigkeit: Ermächtigungsgrundlage, formelle Fehler, Tatbestand, Ermessen und Verhältnismäßigkeit prüfen.
-4. Eilrechtsschutz: aufschiebende Wirkung, Vollziehungsinteresse, Folgenabwägung und Sicherungsanordnung strukturieren.
-5. Arbeitsprodukt: Widerspruch, Klage, Eilantrag, Bescheidprüfung oder Vergleichsvorschlag erstellen.
-6. Beschwerde bei der Bundesnetzagentur: Verbraucher, Unternehmen, Verband: Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen.
+Zerlege jedes verlangte Feld nach Zeitraum, Einheit, betroffener Gesellschaft und Datenquelle. Eine Erlösgröße, ein Messwert und eine Prognose sind verschieden zu belegen. Vergleiche Definitionen des Erhebungsbogens mit den internen Daten. Nicht vorhandene Daten, unverhältnismäßig aufwendige Aufbereitung und inhaltlich bestrittene Angaben getrennt begründen. Liefere den belastbaren Teil, ohne eine vollständige Erfüllung zu behaupten.
 
-## 4. Fallkarte
+Für Geschäftsgeheimnisse benenne konkrete Information, fehlende Öffentlichkeit, wirtschaftliche Bedeutung und Schutzinteresse. Unterscheide vollständige Behördenfassung und für weitere Beteiligte vorgesehene bereinigte Fassung. Eine Kennzeichnung „vertraulich“ allein ist keine rechtliche Begründung und keine Erlaubnis zur Verweigerung jeder Auskunft. Prüfe den Schutzweg für die jeweilige Verfahrensstufe; gerichtliche Akteneinsicht nach Paragraf 84 EnWG ist nicht schlicht die Regel für jedes Verwaltungsverfahren.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | VwVfG Paragraf 35; VwVfG Paragraf 28; VwVfG Paragraf 40 |
-| Rechtsprechung | BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82; BVerwG, Urteil vom 27.09.1978 - 7 C 79.76 |
-| Tatbestand | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen |
-| Beweislast | Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit |
-| Rechtsfolge | Widerspruch, Anfechtung, Verpflichtung, Eilantrag, Abhilfe oder Bescheidkorrektur |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei angekündigter Veröffentlichung prüfe Paragraf 71 EnWG und Paragraf 30 VwVfG: [BGH, Beschluss vom 08.10.2019 - Az. EnVR 12/18, Rn. 19 bis 30, berichtigt am 25.02.2020](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/KartS/2018/EnVR__12-18.pdf?__blob=publicationFile&v=1) schützt auch aggregierte Daten, wenn sie geschützte interne Verhältnisse erkennen lassen; Erlösobergrenze, Effizienzwert und Regulierungskontosaldo sind nicht allein deshalb geheim. Bezeichne die gefährdeten Informationen und verlange nur insoweit Schutz. Damalige ARegV-Fassung mit heutiger Veröffentlichungsermächtigung abgleichen; daraus folgt kein Recht, verlangte Angaben schon gegenüber der Behörde zurückzuhalten.
 
-## 5. Einsatzfelder
+## 1.3 Energie-Beschwerde mit zwei Fristen
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beschwerde bei der Bundesnetzagentur: Verbraucher, Unternehmen, Verband | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| DSA-Beschwerde gegen eine Online-Plattform | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Beschwerde eines EVU gegen den Infrastrukturbetreiber nach Paragraf 66 ERegG | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Energie: Energieverbraucher Beschwerde | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Energie-Regulierungsakte: Messstellenbetrieb MsbG Smart Meter — Fristen- und Bescheidanalyse | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Energie-Regulierungsakte: BBPlG Leitungsvorhaben — Fristen- und Bescheidanalyse | Verwaltungsakt, Bekanntgabe, Widerspruch/Klagefrist, Ermessen, Anhörung, Akteneinsicht und Eilantrag prüfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Für Entscheidungen der Regulierungsbehörde nach dem EnWG prüfe [Paragraf 75 EnWG](https://www.gesetze-im-internet.de/enwg_2005/__75.html): Beschwerdeberechtigung und zuständiges Oberlandesgericht. Nicht routinemäßig zum Verwaltungsgericht oder zum allgemeinen Widerspruchsverfahren leiten. Für andere Sektoren die dortige Spezialregel eigenständig prüfen.
 
-## 6. Anker
+Nach [Paragraf 78 EnWG](https://www.gesetze-im-internet.de/enwg_2005/__78.html) ist die Beschwerde binnen eines Monats ab Zustellung schriftlich beim Beschwerdegericht einzureichen. Die Begründungsfrist von einem Monat beginnt dagegen mit der Einlegung; sie kann auf Antrag verlängert werden. Erfasse beide Ereignisse getrennt. Beschwerdeschrift und Begründung erfordern grundsätzlich anwaltliche Unterzeichnung. Den konkreten elektronischen Einreichungsweg und etwaigen Eilrechtsschutz gesondert prüfen, keine automatische Vollzugshemmung versprechen.
 
-- VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform.
-- VwVfG Paragraf 28: Anhörung Beteiligter.
-- VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
-- VwGO Paragraf 42: Anfechtungs- und Verpflichtungsklage.
-- Paragraf 80 GWB (zivile Verbandsklage als Parallelweg): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- VwVfG Paragrafen 28, 35-37, 48, 49 (Anhörung, Verwaltungsakt, Rücknahme): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- VwGO Paragrafen 42, 80, 80a, 113 (Anfechtungsklage, Vollzugsfolgen): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 51 Abs. 1 Nr. 7, 75 VwGO (VG Köln, Untätigkeitsklage): im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 14.05.1985 - 2 BvR 397/82: effektiver Rechtsschutz verlangt eine tatsächlich wirksame gerichtliche Kontrolle.
-- BVerwG, Urteil vom 27.09.1978 - 7 C 79.76: Ermessensentscheidungen müssen Zweck, Grenzen und Abwägung erkennen lassen.
-- BVerwG 6 C 12.18 (BNetzA-Entgeltgenehmigung)
-- EuGH C-475/12 (Roaming-Verordnung)
-- BVerfG 1 BvR 1675/16 (Rundfunkbeitrag, Aufsichtsmaßstab)
+## 1.4 Beschlusskammer- und gerichtstaugliches Produkt
 
-## 7. Antwortform
+Eine Stellungnahme verbindet beanstandete Festlegung oder Datenposition mit technischem beziehungsweise wirtschaftlichem Befund, Norm und konkretem Änderungsbegehren. Eine Beschwerde bezeichnet Entscheidung, Umfang des Angriffs und Ziel; Tatsachen und Beweismittel nicht durch allgemeine Kritik an Regulierung ersetzen. Prüfe das stärkste behördliche Gegenargument und benenne dessen Zahlen- oder Normbasis.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder Beschwerde bei der Bundesnetzagentur: Verbraucher, Unternehmen, Verband, DSA-Beschwerde gegen eine Online-Plattform, Beschwerde eines EVU gegen den Infrastrukturbetreiber nach Paragraf 66 ERegG, Energie: Energieverbraucher Beschwerde: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste.
+Fehlt die Zustellung, fordere den konkreten Nachweis an; bei abweichenden Zahlen frage nach Zeitraum, Einheit und betroffener Gesellschaft. Nach Antwort Frist oder Rechnung erneut prüfen und die betroffene Beschwerde- oder Antwortpassage aktualisieren. Bei neuer entscheidender Unklarheit kurz weiterfragen, Bekanntes nicht erneut erheben. Bleibt ein Nachweis aus, liefere die unabhängigen Teile und benenne den noch offenen Schluss. Nach Klärung bis zum bestellten Dokument weiterarbeiten, statt bei einer Nachforderung stehenzubleiben.
 
-## 8. Stop
+Weitere Normen, aktuelle Festlegungen und Entscheidungen amtlich verifizieren; keine Aktenzeichen erfinden. Quellenstatus und Recherchegrenzen in einer gesonderten Arbeitsnotiz führen, nicht im Mandantenbrief. Optional verfügbare Spezialskills ergänzen, dieser Mini bleibt allein nutzbar. Externe Handlung nur mit ausdrücklicher Freigabe. Vollständige Sätze, dezimale Gliederung und Times New Roman 11 pt beim Export.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Ohne Zugang keine Datenübermittlung, Einreichung oder technische Prüfung behaupten. Fehlende Unterlagen lassen nur den abhängigen Schluss offen; ohne Exportmöglichkeit den vollständigen Text liefern.

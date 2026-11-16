@@ -1,110 +1,50 @@
 ---
 name: ehevertrag-scheidungsfolgenvereinbarung
-description: "Wenn es um Ehevertrag Scheidungsfolgenvereinbarung in Notariat im Alltag geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Bereitet Eheverträge und Scheidungsfolgenvereinbarungen im Notariat vor. Verbindet Güterrecht, Unterhalt, Versorgung und Grundstücksübertragung mit konkreten Wünschen, Wertnachweisen und getrennten Formanforderungen, ohne einseitige Verzichtswünsche als Einigung auszugeben."
 ---
 
-# Notariat im Alltag: Ehevertrag, Scheidungsfolgenvereinbarung, Versorgungsausgleich, Belehrung
+# 1. Ehevertrag und Scheidungsfolgen urkundlich vorbereiten
 
-## Arbeitsweg
+## 1. Zweck und Anwendungsfall
 
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+Erstelle aus abgestimmten Zielen und tatsächlichen Verhältnissen eine notarielle Vertragsvorlage. Die Mitarbeiterarbeit ist neutral gegenüber beiden Beteiligten; Belehrung und rechtliche Gestaltungsentscheidung bleiben beim Notar. Keine Interessenvertretung eines Ehegatten vortäuschen.
 
-## Zweck und Anwendungsbereich
+## 2. Eingaben
 
-Der Ehevertrag gestaltet die Vermögens- und Versorgungsrechtslage zwischen Eheleuten oder Verlobten. Steuere die notarielle Beratung, den Formzwang, die richterrechtliche Kontrolle (Kernbereichslehre des BGH) und die Belehrungspflichten des Notars.
+Bestehender Ehevertrag, Heirats- und gegebenenfalls Trennungsdaten, Regelungswünsche, Kinderbetreuung, Erwerbsverlauf, Vermögensnachweise, Versorgungsanrechte und Grundbuchunterlagen. Bei einem vollständigen anwaltlichen Entwurf nicht nochmals eine allgemeine Aufnahme durchführen. Frage bei fehlendem Ziel, ob Güterstand, konkrete Ausgleichszahlung oder sämtliche Scheidungsfolgen geregelt werden sollen.
 
-Rechtsgrundlagen: § 1410 BGB (notarielle Form), §§ 1408–1414 BGB (Güterrecht), §§ 1569–1586 BGB (Unterhalt), §§ 1587–1587p BGB (Versorgungsausgleich), VersAusglG, § 17 BeurkG (Belehrung), § 138 BGB (Sittenwidrigkeit), BGH-Rechtsprechung zu Kernbereichslehre.
+## 3. Ablauf
 
-## Formzwang (§ 1410 BGB)
+### 3.1. Jeden Regelungsgegenstand abgrenzen
 
-Der Ehevertrag und die Scheidungsfolgenvereinbarung (soweit sie ehevertragliche Regelungen enthält) bedürfen der notariellen Beurkundung bei gleichzeitiger Anwesenheit beider Teile (§ 1410 BGB). Gleichzeitige Anwesenheit: beide Teile müssen beim selben Beurkundungsakt anwesend sein; getrennte Beurkundungen sind unwirksam (§ 125 BGB). Ausnahme: Genehmigungen können nachträglich erfolgen.
+Güterstand und Zugewinnausgleich von Unterhalt, Versorgungsausgleich und Eigentumsübertragung trennen. Eine Hausübernahme entlässt niemanden ohne Zustimmung der Bank aus der Darlehensschuld. Für Abfindung und Gegenleistung Werte mit Stichtag und Quelle verwenden. Fehlende Bewertung nicht durch eine frei erfundene Pauschale ersetzen.
 
-## Regelungsbereiche im Ehevertrag
+### 3.2. Form und Wirksamkeitsfragen gezielt prüfen
 
-| Bereich | Gestaltungsmöglichkeit | Kernbereichsschutz |
-|---|---|---|
-| Güterstand | Gütertrennung, Zugewinngemeinschaft modifiziert, Gütergemeinschaft | Erhebliche Schranken |
-| Unterhalt | Ausschluss, Modifikation, Befristung | Unabdingbar bei einseitiger Belastung |
-| Versorgungsausgleich | Ausschluss möglich, wenn nicht grob unbillig | § 8 VersAusglG |
-| Zugewinnausgleich | Ausschluss, Modifikation möglich | Eingeschränkt |
-| Versorgungsausgleich intern | Konkrete Teilungsvereinbarungen | VersAusglG |
+BGB Paragraf 1410 verlangt für den Ehevertrag gleichzeitige Anwesenheit beider Teile bei der notariellen Niederschrift; zulässige Vertretung und ihre Grenzen gesondert prüfen, keine pauschale Pflicht zum persönlichen Erscheinen beider behaupten. Versorgungsausgleich nach VersAusglG Paragrafen 6 bis 8 und nachehelichen Unterhalt nach BGB Paragraf 1585c jeweils mit eigenem Zeitpunkt und Formtatbestand prüfen. Grundstücksübertragung nach BGB Paragraf 311b Absatz 1 hinzunehmen.
 
-## Kernbereichslehre des BGH
+Wirksamkeitskontrolle nach BGB Paragraf 138 und Ausübungskontrolle nach Paragraf 242 anhand konkreter Verhandlungs- und Lebensumstände auseinanderhalten. Schwangerschaft, einseitige Erwerbsaufgabe und wirtschaftliche Abhängigkeit sind aufzuklärende Umstände, keine automatische Unwirksamkeitsformel. Zukünftigen Kindes- oder Trennungsunterhalt nicht ungeprüft in einen Generalverzicht aufnehmen.
 
-Der BGH hat eine zweistufige Inhaltskontrolle entwickelt:
-1. **Wirksamkeitskontrolle (§ 138 BGB):** Ist der Vertrag sittenwidrig, weil er auf die einseitige Benachteiligung einer Partei abzielt (insbes. wenn der stärker Beteiligte die schwächere Lage ausgenutzt hat)?
-2. **Ausübungskontrolle (§ 242 BGB):** Auch wenn der Vertrag wirksam ist – darf er angesichts der nachehezeitlichen Verhältnisse vollständig durchgesetzt werden?
+### 3.3. Vertrag und offene Entscheidung entwickeln
 
-Kernbereiche (nicht oder nur eingeschränkt abdingbar):
-- Kindesunterhalt: § 1614 BGB, § 1360a BGB
-- Betreuungsunterhalt: § 1570 BGB
-- Versorgungsausgleich bei langer Ehe mit einseitiger Erwerbsaufgabe
+Ausgleichsbetrag, Fälligkeit, Sicherung, Vollzugsabhängigkeit und Folgen einer verweigerten Bankfreigabe ausformulieren. Bei abweichenden Wünschen nur die streitige Klausel mit verständlichen Alternativen zur notariellen Prüfung vorlegen. Medizinische, steuerliche oder versicherungsmathematische Feststellungen nicht fingieren.
 
-## Belehrungspflicht des Notars (§ 17 BeurkG)
+### 3.4. Rückmeldung in die Vereinbarung übernehmen
 
-Der Notar muss über die Bedeutung, Wirkungen und Risiken des Ehevertrags belehren, insbesondere:
-- Güterrechtliche Folgen der Gütertrennung (kein Zugewinnausgleich)
-- Unterhaltsrechtliche Konsequenzen
-- Risiken bei Sittenwidrigkeit (§ 138 BGB)
-- Kernbereichslehre und richterliche Kontrolle
-- Wahrung der gleichzeitigen Anwesenheit
-- Belehrung beider Parteien gleichgewichtig (Unparteilichkeit, § 14 BNotO)
+Nach Bankzustimmung Schuldhaftung und Grundbuchvollzug neu abstimmen; ohne Zustimmung nur das Innenverhältnis regeln, soweit gewollt. Nach korrigierter Versorgungsauskunft den betroffenen Ausgleich, nicht sämtliche Vermögenswerte ändern. Abschließend an `urkundenmappe-zur-freigabe` übergeben; kein erneutes Interview.
 
-## Inhaltskontrolle bei Scheidungsfolgenvereinbarungen
+### 3.5. Wirksamkeit und spätere Ausübung getrennt begründen
 
-Scheidungsfolgenvereinbarungen (nach Trennung) unterliegen ebenfalls § 1410 BGB und der Kernbereichslehre. Zusätzlich: Anfechtung wegen Irrtums oder arglistiger Täuschung (§§ 119 ff. BGB). Bei formularmäßigen Regelungen: AGB-Kontrolle (§ 305 ff. BGB) grds. nicht anwendbar, aber Billigkeitskontrolle nach § 242 BGB.
+[BGH, Urteil vom 11.02.2004, XII ZR 265/02](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2002/XII_ZR_265-02.pdf?__blob=publicationFile&v=1), amtlicher Volltext Seiten 23 bis 26, unterscheidet die Wirksamkeitskontrolle anhand der Verhältnisse bei Vertragsschluss nach BGB Paragraf 138 von der Ausübungskontrolle bei späterer Berufung auf den Vertrag nach Paragraf 242. Betreuungsbelastung, Erwerbsverzicht, Versorgung und vereinbarte Kompensation im Gesamtzusammenhang erfassen. Weder Schwangerschaft noch Einkommensunterschied begründen für sich eine automatische Gesamtnichtigkeit; notarielle Belehrung ersetzt umgekehrt keine Inhaltskontrolle. Die damaligen Versorgungsausgleichsnormen nicht fortschreiben: heute VersAusglG Paragrafen 6 bis 8 verwenden. Nach veränderter Familienplanung die konkret betroffenen Verzichts- und Ausgleichsregelungen neu entwerfen, nicht nur eine allgemeine salvatorische Klausel ergänzen.
 
-## Versorgungsausgleich (VersAusglG)
+## 4. Quellenpflicht
 
-Der Versorgungsausgleich ist bei der Scheidung von Gesetzes wegen durchzuführen, es sei denn er ist ausgeschlossen oder modifiziert. Ausschluss durch Ehevertrag möglich, aber:
-- § 8 VersAusglG: grobe Unbilligkeit verhindert Ausschluss
-- § 27 VersAusglG: Härteklausel des Gerichts
-- Zeitpunkt: Ausschluss nur bis zur Rechtskraft der Scheidung möglich
+[BGB Paragraf 1410](https://www.gesetze-im-internet.de/bgb/__1410.html), [Paragraf 1585c](https://www.gesetze-im-internet.de/bgb/__1585c.html), [VersAusglG](https://www.gesetze-im-internet.de/versausglg/) und [Zitierweise](../../references/zitierweise.md). Rechtsprechung zu Inhaltskontrolle nur mit konkretem Vergleich der dortigen Vertragssituation verwenden; ein bloßes Aktenzeichen ersetzt diesen Vergleich nicht.
 
-## Prüfprogramm
+## 5. Ausgabeformat
 
-- Beide Parteien gleichzeitig anwesend?
-- Sind alle güterrechtlichen, unterhaltsrechtlichen und versorgungsrechtlichen Folgen erläutert?
-- Liegt ein krasses Ungleichgewicht vor (Schwangerschaft, wirtschaftliche Abhängigkeit)?
-- Ist Kindesunterhalt berücksichtigt (nicht abdingbar)?
-- Versorgungsausgleichsausschluss: grobe Unbilligkeit erkennbar?
-- Sprachbarrieren? Dolmetscher nötig?
+Vollständig ausformulierte Vereinbarung als „Entwurf zur notariellen Prüfung“ und getrennte kurze Entscheidungsfragen. Times New Roman 11 pt, dezimale Gliederung. Keine behauptete Belehrung, Zustimmung, Bankfreigabe oder Unterzeichnung.
 
-## Typische Fallen
+## 6. Beispiel
 
-- Nicht gleichzeitige Anwesenheit → § 1410 BGB-Nichtigkeit.
-- Kernbereichsverletzung übersehen → Vertrag sittenwidrig nach §138 BGB.
-- Belehrung nur einer Partei → Unparteilichkeitsverstoß (§ 14 BNotO).
-- Versorgungsausgleichsausschluss ohne Prüfung der Ehedauer → grobe Unbilligkeit.
-- Falsche Güterstandsbezeichnung → Vertragsinhalt unklar.
-
-## Rechtsquellen
-
-- § 1410 BGB: https://dejure.org/gesetze/BGB/1410.html
-- VersAusglG: https://www.gesetze-im-internet.de/versausglg/
-- BGH Kernbereichslehre: https://www.bgh.de (BGH XII ZR 265/02)
-- § 138 BGB: https://dejure.org/gesetze/BGB/138.html
-- BNotK Familienrecht: https://www.bnotk.de
-
-## Output-Formate
-
-- **Ehevertragsentwurf** (Grundstruktur, alle Regelungsbereiche)
-- **Belehrungsprotokoll** (nach § 17 BeurkG)
-- **Kernbereichscheck** (Checkliste für Sittenwidrigkeitsprüfung)
-- **Mandantenmail** (Risiken, nächste Schritte)
-- **Red-Team** (Risiko BGH-Kontrolle)
-
-Quellen für Live-Check: https://dejure.org | https://openjur.de | https://www.gesetze-im-internet.de | https://www.bnotk.de | https://www.bgh.de | https://www.bverfg.de
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
+Ein Ehegatte übernimmt das Haus gegen Ausgleich; die finanzierende Bank hat den anderen noch nicht entlassen. Formuliere die vereinbarte interne Lastentragung und lege den offenen Entlassungsweg vor, statt schon persönliche Haftungsfreiheit zu versprechen.

@@ -5,20 +5,56 @@
 
 Vorsichtiger Strafanzeigen-Vorbereiter: prüft Anfangsverdacht, Beweise, Strafantrag, Risiken falscher Verdächtigung, Alternativen und erstellt nur bei tragfähiger Tatsachengrundlage eine nüchterne Strafanzeige.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`strafanzeige-vorbereiter.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/strafanzeige-vorbereiter.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/strafanzeige-vorbereiter.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/strafanzeige-vorbereiter-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/strafanzeige-vorbereiter-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/strafanzeige-vorbereiter.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/strafanzeige-vorbereiter.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Strafanzeige-Vorbereiter:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafanzeige-vorbereiter.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/strafanzeige-vorbereiter.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafanzeige-vorbereiter/strafanzeige-vorbereiter-werkstatt.md" download><code>strafanzeige-vorbereiter-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafanzeige-vorbereiter/strafanzeige-vorbereiter-schnellstart.md" download><code>strafanzeige-vorbereiter-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafanzeige-vorbereiter.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/strafanzeige-vorbereiter.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`strafanzeige-vorbereiter-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/strafanzeige-vorbereiter-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`strafanzeige-vorbereiter-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/strafanzeige-vorbereiter-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du eine Strafanzeige oder einen Strafantrag vorbereiten: Sachverhalt, Tatverdacht, Beweise, Fristen, Antragsdelikte, Nebenfolgen und adressatengerechte Darstellung.
@@ -37,25 +73,34 @@ Wehe, es werden Dinge behauptet, die nicht stimmen. Das Plugin zwingt zur Trennu
 
 ## Startlogik
 
-Beginne mit dem allgemeinen Kaltstart-Skill. Er fragt Rolle, Ziel, Frist, Unterlagen, Risiken und gewünschten Output ab. Danach werden nur passende Spezial-Skills vorgeschlagen.
+Geben Sie den Auftrag und die vorhandenen Belege vor. Das Plugin trennt belegte Tatsachen, Verdacht und entlastende Umstände und bearbeitet je nach Auftrag die Anzeige, einen Strafantrag oder eine Ergänzung. Nur für die rechtliche Einordnung oder das bestellte Dokument entscheidende Lücken werden erfragt; Antworten fließen in den begonnenen Entwurf ein. Die Prüfung der Falschbeschuldigungs- und Druckmittelrisiken bleibt vorgeschaltet.
 
 ## Quellenhygiene
 
 Normtexte werden aus amtlichen Quellen geprüft. Rechtsprechung wird nur mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle verwendet. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **6 auswählbare Skills**. Die **57 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `akteneinsicht-verletzter-406e`, `beweismatrix-chatverlaeufe`, `datenstraftaten-diebstahl`, `sachbeschaedigung-sachverhalt`, `sachverhalt-ohne-adjektive`, `steuerhinterziehung-akteneinsicht` |
-| 5. Verfahren, Behörde und Gericht | `antragsdelikte-strafantrag`, `international-klageerzwingung`, `klageerzwingung-172-stpo`, `opferschutz-nebenklage`, `strafantrag-form-frist`, `strafanzeige-vs-strafantrag-158` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `gegenanzeige-geldwaesche` |
-| 8. Spezialmodule und Schnittstellen | `anfangsverdacht-anlagenverzeichnis`, `anlagenverzeichnis-hashlog`, `anwalt-arbeitsplatz`, `arbeitsplatz-sexuelle-belaestigung`, `bankrott-bedrohung`, `bedrohung-241`, `beleidigung-betrug`, `betrug-263`, `chatverlaeufe-emails-header`, `computerbetrug-phishing`, `diebstahl-unterschlagung`, `druckmittel-falsche`, `falsche-verdaechtigung-164`, `geldwaesche-261`, `geschgehg-haeusliche`, `haeusliche-gewalt-gewschg`, `hausfriedensbruch`, `insolvenzverschleppung-15a`, ... plus 24 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Tatvorwurf und materielles Recht | [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| 3. Beweis und Aktenanalyse | [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| 4. Entscheidung und Rechtsmittel | [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| 5. Geschädigte und besondere Rollen | [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -63,65 +108,25 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 56 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 6 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `akteneinsicht-verletzter-406e` | Wenn es um Akteneinsicht Verletzter Paragraf 406e StPO in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `anfangsverdacht-anlagenverzeichnis` | Wenn es um Anfangsverdacht nach Paragrafen 152. 160 StPO in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `anlagenverzeichnis-hashlog` | Wenn es um Anlagenverzeichnis und Hashlog in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `antragsdelikte-strafantrag` | Wenn es um Antragsdelikte und Drei-Monats-Frist in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anwalt-arbeitsplatz` | Wenn es um Wann zwingend Anwalt einschalten? in Strafanzeige-Vorbereiter geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `arbeitsplatz-sexuelle-belaestigung` | Wenn es um Arbeitsplatz: sexuelle Belästigung strafrechtlich einordnen in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `bankrott-bedrohung` | Wenn es um Bankrott Paragraf 283 StGB in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bedrohung-241` | Wenn es um Bedrohung Paragraf 241 StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beleidigung-betrug` | Wenn es um Beleidigung Paragrafen 185. 194 StGB in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `betrug-263` | Wenn es um Betrug Paragraf 263 StGB in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beweismatrix-chatverlaeufe` | Wenn es um Beweismatrix: Tatsache, Meinung, Vermutung in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `chatverlaeufe-emails-header` | Wenn es um Chats, E-Mails und Header sichern in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `computerbetrug-phishing` | Wenn es um Computerbetrug und Phishing in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenstraftaten-diebstahl` | Wenn es um Datenstraftaten Paragrafen 202a, 303a StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `diebstahl-unterschlagung` | Wenn es um Diebstahl und Unterschlagung in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `druckmittel-falsche` | Wenn es um Anzeige als Druckmittel vermeiden in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `falsche-verdaechtigung-164` | Wenn es um Falsche Verdächtigung Paragraf 164 StGB in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `gegenanzeige-geldwaesche` | Wenn es um Gegenanzeige-Risiko in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `geldwaesche-261` | Wenn es um Geldwäsche Paragraf 261 StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geschgehg-haeusliche` | Wenn es um GeschGehG Paragraf 23 Strafanzeige in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `haeusliche-gewalt-gewschg` | Wenn es um Häusliche Gewalt und GewSchG in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `hausfriedensbruch` | Wenn es um Hausfriedensbruch Paragraf 123 StGB in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `insolvenzverschleppung-15a` | Wenn es um Insolvenzverschleppung Paragraf 15a InsO in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `international-klageerzwingung` | Wenn es um Internationale Anzeigen und EU-Bezug in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kaltstart-routing` | Wenn es um Strafanzeige: Kaltstart mit Sicherheitsbremse in Strafanzeige-Vorbereiter geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagen... |
-| `klageerzwingung-172-stpo` | Wenn es um Klageerzwingung Paragraf 172 StPO in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `koerperverletzung-korruption` | Wenn es um Körperverletzung Paragrafen 223. 230 StGB in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `korruption-299-331ff` | Wenn es um Korruption Paragrafen 299. 331 ff. StGB in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kreditgefaehrdung-minderjaehrige` | Wenn es um Kreditgefährdung Paragraf 824 BGB in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem S... |
-| `minderjaehrige-schule` | Wenn es um Minderjährige, Schule und Jugendamt in Strafanzeige-Vorbereiter geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `muster-noetigung` | Wenn es um Muster-Strafanzeige Generator in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `nicht-anzeigen-redteam` | Wenn es um Nicht anzeigen? Red-Team vor Strafanzeige in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `noetigung-240` | Wenn es um Nötigung Paragraf 240 StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notruf-online` | Wenn es um Akute Gefahr: Notruf statt Plugin in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `online-plattform-screenshots` | Wenn es um Online-Beweise und Plattform-Screenshots in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `onlinewache-opferschutz` | Wenn es um Onlinewache oder Staatsanwaltschaft? in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `opferschutz-nebenklage` | Wenn es um Opferschutz, Nebenklage, Adhäsion in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `rechtsfolgen-ruecknahme` | Wenn es um Rechtsfolgen und Zivilstrategie in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `ruecknahme-einstellung-170-153` | Wenn es um Rücknahme, Einstellung, Paragraf 170 Abs. 2, Paragrafen 153 ff. StPO in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, B... |
-| `sachbeschaedigung-sachverhalt` | Wenn es um Sachbeschädigung Paragraf 303 StGB in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `sachverhalt-ohne-adjektive` | Wenn es um Sachverhalt ohne Adjektive in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stalking-vs-kontaktkonflikt` | Wenn es um Stalking Paragraf 238 StGB in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `steuerhinterziehung-akteneinsicht` | Wenn es um Steuerhinterziehung Paragraf 370 AO in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `strafantrag-form-frist` | Wenn es um Strafantrag Form, Frist, Rücknahme in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafanzeige-vs-strafantrag-158` | Wenn es um Strafanzeige vs. Strafantrag Paragraf 158 StPO in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `tierschutz-ueblerede` | Wenn es um Tierschutzstrafrecht Paragraf 17 TierSchG in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `ueblerede-verleumdung-186-187` | Wenn es um Üble Nachrede und Verleumdung vermeiden in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umweltstraftaten-unternehmen` | Wenn es um Umweltstraftaten Paragrafen 324 ff. StGB in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `unternehmen-internal-investigation` | Wenn es um Unternehmen und Internal Investigation in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächs... |
-| `untreue-urheberrecht` | Wenn es um Untreue Paragraf 266 StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urheberrecht-markenrecht` | Wenn es um IP-Strafanzeige Urheber/Marke/Design in Strafanzeige-Vorbereiter geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `verkehrsunfall-video` | Wenn es um Unfallflucht Paragraf 142 StGB in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `video-audio-kug-201` | Wenn es um Video, Audio, KUG und Paragraf 201 StGB in Strafanzeige-Vorbereiter geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `wer-zeugenliste` | Wenn es um Sachverhalt: wer, was, wann, wo, wie in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `whistleblower-computerbetrug` | Wenn es um Hinweisgeber und Strafanzeige in Strafanzeige-Vorbereiter geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zeugenliste-kontakt` | Wenn es um Zeugenliste und Kontaktregeln in Strafanzeige-Vorbereiter geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
+English: Complete list of all 6 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Strafanzeige-Vorbereiter: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) | Strafanzeige-Vorbereiter: Beweis und Aktenanalyse: Akteninhalt, Aussage, Sachverständige, digitale Daten und Beweisverwertung mit Widersprüchen und Grenzen auswerten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) | Strafanzeige-Vorbereiter: Entscheidung und Rechtsmittel: Einstellung, Strafbefehl, Urteil, Strafzumessung, Berufung und Revision mit Form und Frist bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) | Strafanzeige-Vorbereiter: Geschädigte und besondere Rollen: Opferrechte, Nebenklage, Adhäsion, Jugend, Unternehmen und Zeugenbeistand nach der tatsächlichen Rolle bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Strafanzeige Vorbereiter ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/juristischer-argumentationskern/SKILL.md) |
+| [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) | Strafanzeige-Vorbereiter: Tatvorwurf und materielles Recht: Tatbestand, Beteiligung, Irrtum, Rechtfertigung, Schuld und Konkurrenz am belegten Geschehen prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafanzeige-vorbereiter/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Kennzeichnen Sie modellgenerierte Vermutungen und sichern Sie Primärbelege. Eine algorithmische Risikoprognose über eine Person ersetzt keine konkrete Tatsachenschilderung für die Strafanzeige.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

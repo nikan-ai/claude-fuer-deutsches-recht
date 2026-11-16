@@ -5,33 +5,81 @@
 
 Formerfordernisse im deutschen Zivilrecht: Schriftform, Textform, qES, Zugang, beA/ERV und Prozessordnungen. Mit Checklisten, Dokumentation und Rechtsprechung nur nach Live-Verifikation.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`schriftform-und-textform-bgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/schriftform-und-textform-bgb.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/schriftform-und-textform-bgb.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/schriftform-und-textform-bgb-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/schriftform-und-textform-bgb-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/schriftform-und-textform-bgb.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/schriftform-und-textform-bgb.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Schriftform und Textform im BGB:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`schriftform-und-textform-bgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/schriftform-und-textform-bgb.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/schriftform-und-textform-bgb/schriftform-und-textform-bgb-werkstatt.md" download><code>schriftform-und-textform-bgb-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/schriftform-und-textform-bgb/schriftform-und-textform-bgb-schnellstart.md" download><code>schriftform-und-textform-bgb-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Schriftform-Maklervertrag – Eheleute Haspelbeck-Türkenfeld: [Gesamt-PDF](../testakten/schriftform-maklervertrag-muenchen-eheleute-haspelbeck/gesamt-pdf/schriftform-maklervertrag-muenchen-eheleute-haspelbeck_gesamt.pdf), [`testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck.zip), [`testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck-einzelpdfs.zip); Schriftform der Wohnraumkündigung — Pferdedrescher-Riesenstein ./. Eberhart-Wolframshausen: [Gesamt-PDF](../testakten/schriftform-mietkuendigung-bielefeld-online-pferdedrescher/gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf), [`testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip), [`testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`schriftform-und-textform-bgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/schriftform-und-textform-bgb.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`schriftform-und-textform-bgb-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/schriftform-und-textform-bgb-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`schriftform-und-textform-bgb-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/schriftform-und-textform-bgb-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [3 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BGB: Gartenumbau, Zusatzauftrag und Bürgschaft in Kassel](../testakten/bgb-buergschaft-gartenbau-kassel/README.md) | [Gesamt-PDF](../testakten/bgb-buergschaft-gartenbau-kassel/gesamt-pdf/bgb-buergschaft-gartenbau-kassel_gesamt.pdf) | [`testakte-bgb-buergschaft-gartenbau-kassel.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-buergschaft-gartenbau-kassel.zip) | [`testakte-bgb-buergschaft-gartenbau-kassel-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-buergschaft-gartenbau-kassel-einzelpdfs.zip) |
+| [Schriftform-Maklervertrag – Eheleute Haspelbeck-Türkenfeld](../testakten/schriftform-maklervertrag-muenchen-eheleute-haspelbeck/README.md) | [Gesamt-PDF](../testakten/schriftform-maklervertrag-muenchen-eheleute-haspelbeck/gesamt-pdf/schriftform-maklervertrag-muenchen-eheleute-haspelbeck_gesamt.pdf) | [`testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck.zip) | [`testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schriftform-maklervertrag-muenchen-eheleute-haspelbeck-einzelpdfs.zip) |
+| [Schriftform der Wohnraumkündigung — Pferdedrescher-Riesenstein ./. Eberhart-Wolframshausen](../testakten/schriftform-mietkuendigung-bielefeld-online-pferdedrescher/README.md) | [Gesamt-PDF](../testakten/schriftform-mietkuendigung-bielefeld-online-pferdedrescher/gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf) | [`testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) | [`testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
 **Plugin-Slug:** `schriftform-und-textform-bgb`
-**Version:** 3.2.1
+Paketstand: siehe [aktuellen Release](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest).
 **Autor:** Klotzkette
 
 ## Installation
 
 1. ZIP aus dem Release herunterladen.
 2. Plugin-Umgebung öffnen.
-3. **Customize Plugins** bzw. **Personal plugins** öffnen.
-4. **Install from .zip** wählen und `schriftform-und-textform-bgb.zip` hochladen.
+3. **Customize → Plugins** bzw. **Personal plugins** öffnen.
+4. **Upload plugin** wählen und `schriftform-und-textform-bgb.zip` hochladen.
 5. Mit einem konkreten Auftrag starten, zum Beispiel: `Prüfe ob unser Maklervertrag der Textform § 126b BGB genügt.`
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json` und `skills/` enthalten.
@@ -46,9 +94,8 @@ Die Befristungsabrede nach § 14 Abs. 4 TzBfG bleibt ein strenger Schriftformfal
 
 Der Formmangel führt nicht nur zu einem Beweisproblem, sondern materiell zu § 16 Satz 1 TzBfG: Die Befristung ist unwirksam und der Arbeitsvertrag gilt als unbefristet. Die gerichtliche Kontrolle läuft über § 17 TzBfG. Leitanker für die Skillarbeit sind ArbG Berlin, Urteil vom 28.09.2021 - 36 Ca 15296/20, LAG Berlin-Brandenburg, Urteil vom 16.03.2022 - 23 Sa 1133/21, und ArbG Gera, Urteil vom 07.03.2024 - 2 Ca 936/23.
 
-### Leitentscheidungen
+### Prozessuale Formfiktion
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 130e ZPO und § 46h ArbGG seit 17.07.2024** — Formfiktion für klar erkennbare Willenserklärungen in elektronischen vorbereitenden Schriftsätzen, auch wenn elektronische Form materiell eigentlich ausgeschlossen ist.
 
 ## Skill-Verzeichnis
@@ -101,24 +148,33 @@ Der Formmangel führt nicht nur zu einem Beweisproblem, sondern materiell zu § 
 
 ## Hinweis
 
+Gezielter Quellenabgleich vom 16.10.2026: [Paragraf 578 BGB](https://www.gesetze-im-internet.de/bgb/__578.html) und [Artikel 229 Paragraf 70 EGBGB](https://www.gesetze-im-internet.de/bgbeg/art_229__70.html) wurden für langfristige Grundstücks- und Gewerberaummiete sowie das Übergangsrecht gelesen. Für Altverträge endete die unveränderte Übergangsphase mit Ablauf des 01.01.2026; bei Landpacht mit Ablauf des 01.07.2026. Frühere Vertragsänderungen können den Wechsel bereits ausgelöst haben. Textformmängel bedeuten bei erfassten Mietverträgen grundsätzlich unbestimmte Laufzeit, nicht automatisch Vertragsnichtigkeit. Keine neue Prüfung aller arbeitsrechtlichen Sonderformen oder hier aufgeführten Gerichtsentscheidungen.
+
 Alle Skills sind kanzleitauglich formuliert und enthalten vollständige Klauseltexte, Mandantenmemos und Querverweise auf aktuelle BGH-Rechtsprechung. Das Plugin ersetzt keine individuelle Rechtsberatung.
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **60 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `formerfordernisse-erstpruefung-und-mandatsziel`, `schriftform-textform-bgb-start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `dokumentations-und-beweisarchitektur`, `quellen-livecheck`, `rechtsprechung-quellenkarte`, `sftf-arbeitsvertraege-nachweisgesetz`, `spezial-rechtsprechung-livequellen-und-rechtsprechungscheck`, `textform-dokumentenmatrix-und-lueckenliste`, `unterlagen-luecken`, `verifikation-compliance-dokumentation-und-akte`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste`, `zivilrecht-tatbestand-beweis-und-belege` |
-| 3. Prüfung, Anspruch und Subsumtion | `amtlicher-formkern-bgb-zpo-check`, `anspruchsformulierungen-formverstoss`, `arbeitsrecht-befristung-schriftform-checker`, `checklisten-schriftsatz-brief-und-memo-bausteine`, `form-checker-fuer-vertrag-oder-willenserklaerung`, `rechtsprechung-livecheck-formfragen`, `sftf-formvorgaben-bgb-interessen-checklisten`, `workflow-fristen-und-risikoampel`, `zugang-risikoampel-und-gegenargumente` |
-| 4. Gestaltung, Strategie und Verhandlung | `klauselgenerator-formvorbehalt-maklervertrag`, `maklervertrag-paragraph-656a-bgb-textform-bgh-i-zr-202-25`, `textform-paragraph-verteidigungsstrategie`, `verteidigungsstrategie-bei-formangriff` |
-| 5. Verfahren, Behörde und Gericht | `befristungsabrede-qes-rechtsprechung`, `befristungsabrede-qes-rechtsprechung-stand-2026`, `schriftform-fristen-form-und-zustaendigkeit` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `paragraph-fehlerkatalog`, `spezial-paragraph-red-team-und-qualitaetskontrolle` |
-| 8. Spezialmodule und Schnittstellen | `bgb-mehrparteien-konflikt-und-interessen`, `buergschaft-verbraucherdarlehen-und-andere-strenge-formen`, `elektronische-paragraph-formerfordernisse`, `empfangsbeduerftiger-international`, `empfangsbeduerftiger-international-schnittstellen`, `formerfordernisse-im-bgb-ueberblick`, `formwahl-zugang-live-prozessablauf`, `gewerberaummiete-paragraph-550-bgb-langzeitform`, `kuendigung-per-mandantenkorrespondenz-zugang`, `live-zahlen-schwellen-und-berechnung`, `mandantenkorrespondenz-form-und-zugang-templates`, `mandantenwarnung-qes-per-email-whatsapp-und-zugang`, `notarielle-beurkundung-prozessablauf-papier`, `prozessablauf-mandantenentscheidung`, `prozessablauf-papier-vs-elektronisch`, `prozessordnungen-textform-verifikation`, `schriftform-paragraph-126-bgb-eigenhaendige-unterschrift`, `sftf-doppelschriftform-aufhebung-spezial`, ... plus 5 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Rechtsgeschäft und Wirksamkeit | [`rechtsgeschaeft-und-wirksamkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/rechtsgeschaeft-und-wirksamkeit-bearbeiten/SKILL.md) |
+| 3. Vertrag und Leistungsstörung | [`vertrag-und-leistungsstoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/vertrag-und-leistungsstoerung-bearbeiten/SKILL.md) |
+| 4. Bereicherung und Rückabwicklung | [`bereicherung-und-rueckabwicklung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/bereicherung-und-rueckabwicklung-bearbeiten/SKILL.md) |
+| 5. Einwendungen Fristen und Durchsetzung | [`einwendungen-fristen-und-durchsetzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einwendungen-fristen-und-durchsetzung-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -126,68 +182,22 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `amtlicher-formkern-bgb-zpo-check` | Wenn es um Amtlicher Formkern BGB/ZPO in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Schriftform und Textform im BGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `anspruchsformulierungen-formverstoss` | Wenn es um Anspruchsformulierungen bei Formverstoß in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitsrecht-befristung-schriftform-checker` | Wenn es um Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit... |
-| `befristungsabrede-qes-rechtsprechung` | Wenn es um Red-Team Qualitygate in Schriftform und Textform im BGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `befristungsabrede-qes-rechtsprechung-stand-2026` | Wenn es um Befristungsabrede — qES-Rechtsprechung Stand 2026 in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bgb-mehrparteien-konflikt-und-interessen` | Wenn es um BGB: Mehrparteienkonflikt und Interessenmatrix in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `buergschaft-verbraucherdarlehen-und-andere-strenge-formen` | Wenn es um Bürgschaft, Verbraucherdarlehen und andere strenge Formen in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `checklisten-schriftsatz-brief-und-memo-bausteine` | Wenn es um Checklisten: Schriftsatz-, Brief- und Memo-Bausteine in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung... |
-| `dokumentations-und-beweisarchitektur` | Wenn es um Dokumentations- und Beweisarchitektur in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Schriftform und Textform im BGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `elektronische-paragraph-formerfordernisse` | Wenn es um Elektronische Form Paragraf 126a BGB — Qualifizierte elektronische Signatur in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit So... |
-| `empfangsbeduerftiger-international` | Wenn es um Dokumentation: Verhandlung, Vergleich und Eskalation in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `empfangsbeduerftiger-international-schnittstellen` | Wenn es um Empfangsbeduerftiger: Internationaler Bezug und Schnittstellen in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `form-checker-fuer-vertrag-oder-willenserklaerung` | Wenn es um Form-Checker — Vertrag oder Willenserklärung in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formerfordernisse-erstpruefung-und-mandatsziel` | Wenn es um Formerfordernisse: Erstprüfung, Rollenklärung und Mandatsziel in Schriftform und Textform im BGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `formerfordernisse-im-bgb-ueberblick` | Wenn es um Formerfordernisse im BGB — Überblick in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formwahl-zugang-live-prozessablauf` | Wenn es um Formwahl, Zugang und Beweisrisiko im BGB und Prozessrecht in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `gewerberaummiete-paragraph-550-bgb-langzeitform` | Wenn es um Gewerberaummiete Paragraf 550 BGB — Langzeitform in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klauselgenerator-formvorbehalt-maklervertrag` | Wenn es um Klauselgenerator — Formvorbehalt und Änderungsvorbehalt in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kuendigung-per-mandantenkorrespondenz-zugang` | Wenn es um Kündigung per Schriftsatz — Zustellung und Formfragen in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründun... |
-| `live-zahlen-schwellen-und-berechnung` | Wenn es um Live: Zahlen, Schwellenwerte und Berechnung in Schriftform und Textform im BGB geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `maklervertrag-paragraph-656a-bgb-textform-bgh-i-zr-202-25` | Wenn es um Maklervertrag Paragraph 656a BGB Textform Bgh I Zr 202 25 in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenkorrespondenz-form-und-zugang-templates` | Wenn es um Mandantenkorrespondenz — Form und Zugang: Templates in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandantenwarnung-qes-per-email-whatsapp-und-zugang` | Wenn es um Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofor... |
-| `notarielle-beurkundung-prozessablauf-papier` | Wenn es um Notarielle Beurkundung und Öffentliche Beglaubigung in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `paragraph-fehlerkatalog` | Wenn es um Paragraph Fehlerkatalog in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prozessablauf-mandantenentscheidung` | Wenn es um Prozessablauf: Mandantenkommunikation und Entscheidungsvorlage in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prozessablauf-papier-vs-elektronisch` | Wenn es um Prozessablauf — Papier vs. Elektronisch in Schriftform und Textform im BGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `prozessordnungen-textform-verifikation` | Wenn es um Prozessordnungen: Behörden-, Gerichts- oder Registerweg in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Schriftform und Textform im BGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rechtsprechung-livecheck-formfragen` | Wenn es um Livecheck verifizierter Rechtsprechung zu Schriftform, qES und beA in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkei... |
-| `rechtsprechung-quellenkarte` | Wenn es um Rechtsprechung Quellenkarte in Schriftform und Textform im BGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `schriftform-fristen-form-und-zustaendigkeit` | Wenn es um Schriftform: Fristen, Form, Zuständigkeit und Rechtsweg in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schriftform-paragraph-126-bgb-eigenhaendige-unterschrift` | Wenn es um Schriftform Paragraf 126 BGB — Eigenhändige Unterschrift in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schriftform-textform-bgb-start-chronologie-fristen` | Wenn es um Schriftform und Textform im BGB — Allgemein in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `sftf-arbeitsvertraege-nachweisgesetz` | Wenn es um SfTf: Nachweisgesetz Arbeit in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sftf-doppelschriftform-aufhebung-spezial` | Wenn es um SfTf: Doppelschriftform-Aufhebung in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sftf-elektronische-signatur-leitfaden` | Wenn es um SfTf: eIDAS-Signatur in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sftf-formvorgaben-bgb-interessen-checklisten` | Wenn es um SfTf: Formvorgaben Bauleiter in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-paragraph-red-team-und-qualitaetskontrolle` | Wenn es um Paragraph: Red-Team und Qualitätskontrolle in Schriftform und Textform im BGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-rechtsprechung-livequellen-und-rechtsprechungscheck` | Wenn es um Rechtsprechung: Livequellen- und Rechtsprechungscheck in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `textform-dokumentenmatrix-und-lueckenliste` | Wenn es um Textform: Dokumentenmatrix, Lückenliste und Nachforderung in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `textform-paragraph-verteidigungsstrategie` | Wenn es um Textform Paragraf 126b BGB — Dauerhafter Datenträger in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verifikation-compliance-dokumentation-und-akte` | Wenn es um Verifikation: Compliance-Dokumentation und Aktenvermerk in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `verteidigungsstrategie-bei-formangriff` | Wenn es um Verteidigungsstrategie bei Formangriff in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `willenserklaerung-zivilrecht-zugang` | Wenn es um Willenserklaerung: Formular, Portal und Einreichungslogik in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wohnraummiete-kuendigung-paragraph-568-bgb` | Wenn es um Wohnraummiete-Kündigung — Paragraf 568 BGB und Formfragen in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Schriftform und Textform im BGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zivilrecht-tatbestand-beweis-und-belege` | Wenn es um Zivilrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage in Schriftform und Textform im BGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `zugang-empfangsbeduerftiger-formgerechter` | Wenn es um Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB in Schriftform und Textform im BGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Soforts... |
-| `zugang-formgerechter-erklaerung-bgh-viii-zr-159-23` | Wenn es um Zugang Formgerechter Erklaerung Bgh Viii Zr 159 23 in Schriftform und Textform im BGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zugang-risikoampel-und-gegenargumente` | Wenn es um Zugang: Risikoampel, Gegenargumente und Verteidigungslinien in Schriftform und Textform im BGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`bereicherung-und-rueckabwicklung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/bereicherung-und-rueckabwicklung-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Bereicherung und Rückabwicklung: Entreicherung, Leistungsbeziehung, Eingriff und Rückabwicklung nach dem richtigen Anspruch prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/bereicherung-und-rueckabwicklung-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Schriftform und Textform im BGB. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einstieg-routing/SKILL.md) |
+| [`einwendungen-fristen-und-durchsetzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einwendungen-fristen-und-durchsetzung-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Einwendungen Fristen und Durchsetzung: Einwendungen, Einreden, Fristen, Beweislast und Durchsetzung bis zum konkreten Arbeitsprodukt verbinden. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/einwendungen-fristen-und-durchsetzung-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Schriftform Und Textform BGB ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/juristischer-argumentationskern/SKILL.md) |
+| [`rechtsgeschaeft-und-wirksamkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/rechtsgeschaeft-und-wirksamkeit-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Rechtsgeschäft und Wirksamkeit: Erklärung, Geschäftsfähigkeit, Vertretung, Form, Irrtum und Wirksamkeit anhand des Geschehens prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/rechtsgeschaeft-und-wirksamkeit-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vertrag-und-leistungsstoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/vertrag-und-leistungsstoerung-bearbeiten/SKILL.md) | Schriftform und Textform im BGB: Vertrag und Leistungsstörung: Vertragliche Ansprüche, Gegenleistung, Leistungsstörung, Mängel und Schadensersatz strukturiert bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/vertrag-und-leistungsstoerung-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Schriftform und Textform im BGB. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=schriftform-und-textform-bgb/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,20 +5,66 @@
 
 Wahlkampfrecht und Wahlkampfpraxis für Parteien, Kandidierende und Kampagnenteams: Strategie, Plakatierung, Social Media, Datenschutz, politische Werbung, Parteienfinanzierung, Desinformation, Veranstaltungen, Schulen, Podien, Wahltag und Compliance.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`wahlkampfrecht-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/wahlkampfrecht-praxis.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/wahlkampfrecht-praxis.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/wahlkampfrecht-praxis-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/wahlkampfrecht-praxis-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/wahlkampfrecht-praxis.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/wahlkampfrecht-praxis.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Wahlkampfrecht Praxis:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`wahlkampfrecht-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/wahlkampfrecht-praxis.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/wahlkampfrecht-praxis/wahlkampfrecht-praxis-werkstatt.md" download><code>wahlkampfrecht-praxis-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/wahlkampfrecht-praxis/wahlkampfrecht-praxis-schnellstart.md" download><code>wahlkampfrecht-praxis-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Wahlkampfakte Morgenstadt 2026 - Landesliste, Plakatierung und digitale Lage: [Gesamt-PDF](../testakten/wahlkampfrecht-landtagswahl-morgenstadt-2026/gesamt-pdf/wahlkampfrecht-landtagswahl-morgenstadt-2026_gesamt.pdf), [`testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026.zip), [`testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`wahlkampfrecht-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/wahlkampfrecht-praxis.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`wahlkampfrecht-praxis-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/wahlkampfrecht-praxis-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`wahlkampfrecht-praxis-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/wahlkampfrecht-praxis-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Wahlkampfakte Morgenstadt 2026 - Landesliste, Plakatierung und digitale Lage](../testakten/wahlkampfrecht-landtagswahl-morgenstadt-2026/README.md) | [Gesamt-PDF](../testakten/wahlkampfrecht-landtagswahl-morgenstadt-2026/gesamt-pdf/wahlkampfrecht-landtagswahl-morgenstadt-2026_gesamt.pdf) | [`testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026.zip) | [`testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-wahlkampfrecht-landtagswahl-morgenstadt-2026-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -28,7 +74,7 @@ Das Plugin soll Kampagnen handlungsfähiger machen, ohne sie zu verrohen. Es hil
 
 ## Kaltstart
 
-Starte mit `wahlkampf-allgemeiner-kaltstart` oder `wahlkampf-ebenen-und-wahlart-router`. Das Plugin fragt zuerst:
+Starten Sie mit `kaltstart-routing` und den vorhandenen Kampagnenunterlagen, Bescheiden oder Veröffentlichungsentwürfen. Die folgenden Punkte bestimmen den Fachweg; sie werden nur erfragt, soweit sie nicht bereits feststehen und für den Auftrag entscheidend sind. Anschließend wird das bestellte Schreiben oder die Freigabeprüfung ausgearbeitet:
 
 1. Welche Wahl: Bundestag, Europawahl, Landtag, Kommunalwahl, Bürgermeister-/Landratswahl, innerparteiliche Vorwahl oder Sonderfall?
 2. Welche Rolle: Bundesstrategie, Landeswahlkampf, Kreisverband, Kandidatenteam, Agentur, Rechtsabteilung, Schatzmeisterei, Social-Media-Team oder Ehrenamtliche vor Ort?
@@ -82,22 +128,33 @@ Keine echten Wählerdaten, Mitgliederdaten, Spenderlisten, Social-Media-Profile,
 
 Apache-2.0 OR MIT. Siehe Repository-Stammverzeichnis.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **11 auswählbare Skills**. Die **121 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-routing`, `kandidatenteam-intake` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aktenplan-beweisarchiv-amtstraeger`, `datenschutz-folgenabschaetzung-politische-daten`, `faktencheck-gegenrede`, `kandidaten-altposts-screening`, `kandidatenbriefing-kamera`, `landeslisten-direktkandidaten`, `plakat-vandalismus-beweissicherung`, `plakatstandorte-matrix`, `viraler-clip-waehlerdaten-listen`, `waehlerdaten-und-listen`, `wahlprogramm-und-faktencheck` |
-| 3. Prüfung, Anspruch und Subsumtion | `kassenpruefung-kreisverband`, `landesrecht-plakatierung-livecheck`, `memes-satire-risiko`, `risiko-register`, `wahlkampf-spendenannahme-pruefung`, `wahlpruefung-nachwahl` |
-| 4. Gestaltung, Strategie und Verhandlung | `agenturvertrag-compliance`, `bundesstrategie-architektur`, `compliance-schulung-vorstand`, `freiwillige-und-aufwandsersatz`, `opposition-research-compliance`, `schlachtenplan-ethik-und-taktik`, `social-media-redaktionsplan` |
-| 5. Verfahren, Behörde und Gericht | `wahlverfahren-falschinfo`, `wahlvorschlaege-fristen` |
-| 6. Ergebnis, Schreiben und Kommunikation | `briefkasten-flyer`, `briefwahlkommunikation`, `polizei-und-ordnungsamt-kommunikation`, `presseanfrage-antwortleiter`, `rapid-response-rechenschaftsbericht`, `rechenschaftsbericht-vorbereitung`, `taegliches-briefing` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `flooding-gegenrede-statt-muell`, `krisenstatement-fehler-eigener-leute` |
-| 8. Spezialmodule und Schnittstellen | `72-stunden-sprint`, `ad-library-transparenz`, `amtstraeger-ressourcen`, `angriff-auf-wahlleitung-vermeiden`, `arbeitsrecht-kampagnenteam`, `archivierung-screenshots`, `asymmetrische-demobilisierung`, `barrierefreie-und-mehrsprachige-information`, `barrierefreiheit-und-inklusion`, `bots-und-inauthentisches-verhalten`, `buergerdialog-schwierige-fragen`, `community-management`, `cybersicherheit-kampagne`, `debattenvorbereitung`, `deepfake-und-ki-kennzeichnung`, `desinformation-monitoring`, `ebenen-wahlart-ehrenamtliche`, `ehrenamtliche-schulen`, ... plus 65 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Wahlvorschlag, Wahlverfahren und Wahltag | [`wahlverfahren-wahltag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/wahlverfahren-wahltag-bearbeiten/SKILL.md) |
+| 3. Spenden, Sponsoring, Rechenschaft und öffentliche Ressourcen | [`parteienfinanzen-ressourcen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/parteienfinanzen-ressourcen-bearbeiten/SKILL.md) |
+| 4. Politische Werbung und Transparenzpflichten | [`werbung-transparenz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/werbung-transparenz-bearbeiten/SKILL.md) |
+| 5. Wählerdaten, Datenschutz und Cybersicherheit | [`daten-cybersicherheit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/daten-cybersicherheit-bearbeiten/SKILL.md) |
+| 6. Plakate, Infostände, Räume und Veranstaltungen | [`oeffentlicher-raum-veranstaltung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/oeffentlicher-raum-veranstaltung-bearbeiten/SKILL.md) |
+| 7. Aussagen, Medieninhalte und Persönlichkeitsrechte | [`inhalte-persoenlichkeit-medien-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/inhalte-persoenlichkeit-medien-bearbeiten/SKILL.md) |
+| 8. Desinformation, Beschwerden, Beweise und Krisenreaktion | [`reaktion-beweis-schutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/reaktion-beweis-schutz-bearbeiten/SKILL.md) |
+| 9. Team, Ehrenamt, Fürsorge und zugängliche Information | [`team-inklusion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/team-inklusion-bearbeiten/SKILL.md) |
+| 10. Kommunikation, Öffentlichkeit und rechtliche Grenzen | [`kommunikation-medienpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/kommunikation-medienpruefung-bearbeiten/SKILL.md) |
+| 11. Organisation, Entscheidungsgrundlage und Rechtsfreigabe | [`organisation-freigabe-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/organisation-freigabe-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -105,129 +162,22 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 120 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 11 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `72-stunden-sprint` | Wenn es um 72 Stunden Sprint in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ad-library-transparenz` | Wenn es um Ad Library Transparenz in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `agenturvertrag-compliance` | Wenn es um Agenturvertrag Compliance in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aktenplan-beweisarchiv-amtstraeger` | Wenn es um Aktenplan Und Beweisarchiv in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `amtstraeger-ressourcen` | Wenn es um Amtstraeger Ressourcen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `angriff-auf-wahlleitung-vermeiden` | Wenn es um Angriff Auf Wahlleitung Vermeiden in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitsrecht-kampagnenteam` | Wenn es um Arbeitsrecht Kampagnenteam in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `archivierung-screenshots` | Wenn es um Archivierung Screenshots in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `asymmetrische-demobilisierung` | Wenn es um Asymmetrische Demobilisierung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreie-und-mehrsprachige-information` | Wenn es um Barrierefreie Und Mehrsprachige Information in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreiheit-und-inklusion` | Wenn es um Barrierefreiheit Und Inklusion in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bots-und-inauthentisches-verhalten` | Wenn es um Bots Und Inauthentisches Verhalten in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `briefkasten-flyer` | Wenn es um Briefkasten Flyer in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `briefwahlkommunikation` | Wenn es um Briefwahlkommunikation in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `buergerdialog-schwierige-fragen` | Wenn es um Buergerdialog Schwierige Fragen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bundesstrategie-architektur` | Wenn es um Bundesstrategie Architektur in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `community-management` | Wenn es um Community Management in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `compliance-schulung-vorstand` | Wenn es um Compliance Schulung Vorstand in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cybersicherheit-kampagne` | Wenn es um Cybersicherheit Kampagne in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-folgenabschaetzung-politische-daten` | Wenn es um Datenschutz Folgenabschaetzung Politische Daten in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `debattenvorbereitung` | Wenn es um Debattenvorbereitung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deepfake-und-ki-kennzeichnung` | Wenn es um Deepfake Und Ki Kennzeichnung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `desinformation-monitoring` | Wenn es um Desinformation Monitoring in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ebenen-wahlart-ehrenamtliche` | Wenn es um Ebenen Und Wahlart Router in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ehrenamtliche-schulen` | Wenn es um Ehrenamtliche Schulen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eu-2024-900-politische-werbung` | Wenn es um Eu 2024 900 Politische Werbung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `faktencheck-gegenrede` | Wenn es um Faktencheck Gegenrede in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `flooding-gegenrede-statt-muell` | Wenn es um Flooding Gegenrede Statt Muell in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `foreign-interference-foto-wahlraum` | Wenn es um Foreign Interference Lage in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `foto-im-wahlraum-und-stimmzettel` | Wenn es um Foto Im Wahlraum Und Stimmzettel in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fraktion-partei-trennung` | Wenn es um Fraktion Partei Trennung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freiwillige-und-aufwandsersatz` | Wenn es um Freiwillige Und Aufwandsersatz in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fremdplakate-nicht-anruehren` | Wenn es um Fremdplakate Nicht Anruehren in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `gegnerkritik-meinungsfreiheit` | Wenn es um Gegnerkritik Meinungsfreiheit in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gewerkschaften-verbaende-kirchen` | Wenn es um Gewerkschaften Verbaende Kirchen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `giveaways-waehlerbestechung` | Wenn es um Giveaways Waehlerbestechung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grossspenden-sofortmeldung` | Wenn es um Grossspenden Sofortmeldung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausrecht-privatraeume` | Wenn es um Hausrecht Privatraeume in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haustuerwahlkampf-influencer` | Wenn es um Haustuerwahlkampf in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `influencer-und-unterstuetzer` | Wenn es um Influencer Und Unterstuetzer in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `infostand-sondernutzung` | Wenn es um Infostand Sondernutzung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `interne-chatdisziplin` | Wenn es um Interne Chatdisziplin in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kaltstart-routing` | Wenn es um Allgemeiner Kaltstart in Wahlkampfrecht Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kandidaten-altposts-screening` | Wenn es um Kandidaten Altposts Screening in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kandidatenbriefing-kamera` | Wenn es um Kandidatenbriefing Kamera in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kandidatenteam-intake` | Wenn es um Kandidatenteam Intake in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kandidierenden-fuersorge` | Wenn es um Kandidierenden Fürsorge in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kassenpruefung-kreisverband` | Wenn es um Kassenpruefung Kreisverband in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `keine-buehne-aber-nicht-fehlen` | Wenn es um Keine Buehne Aber Nicht Fehlen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `koalitionssignale-kommunalwahlkampf` | Wenn es um Koalitionssignale Und Rote Linien in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommunalwahlkampf-groundgame` | Wenn es um Kommunalgroundgame in Wahlkampfrecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `kostenversprechen-und-finanzierbarkeit` | Wenn es um Kostenversprechen Und Finanzierbarkeit in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `krisenstatement-fehler-eigener-leute` | Wenn es um Krisenstatement Fehler Eigener Leute in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lagebild-medienresonanz` | Wenn es um Lagebild Medienresonanz in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `landeslisten-direktkandidaten` | Wenn es um Landeslisten Und Direktkandidaten in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `landesrecht-plakatierung-livecheck` | Wenn es um Landesrecht Plakatierung Livecheck in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `landeswahlkampf-lagekarte` | Wenn es um Landeslagekarte in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lautsprecher-fahrzeug` | Wenn es um Lautsprecher Fahrzeug in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `leak-und-hack-notfall` | Wenn es um Leak Und Hack Notfall in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `lokale-buendnisse-marken-fremdlogos` | Wenn es um Lokale Buendnisse Und Listen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `marken-und-fremdlogos` | Wenn es um Marken Und Fremdlogos in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `memes-satire-risiko` | Wenn es um Memes Satire Risiko in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `message-house-authentizitaet` | Wenn es um Message House Authentizitaet in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `minderjaehrige-und-fotos` | Wenn es um Minderjaehrige Und Fotos in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachwahl-evaluation-negative` | Wenn es um Nachwahl Evaluation in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `negative-campaigning-grenzen` | Wenn es um Negative Campaigning Grenzen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `newsletter-messenger-sms` | Wenn es um Newsletter Messenger Sms in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `oeffentliche-einrichtungen-nutzung` | Wenn es um Oeffentliche Einrichtungen Nutzung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `opposition-research-compliance` | Wenn es um Opposition Research Compliance in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ordner-sicherheit-parteieigenschaft` | Wenn es um Ordner Und Sicherheit in Wahlkampfrecht Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `parteieigenschaft-bundeswahlausschuss` | Wenn es um Parteieigenschaft Bundeswahlausschuss in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plakat-vandalismus-beweissicherung` | Wenn es um Plakat Vandalismus Beweissicherung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plakatierung-genehmigung` | Wenn es um Plakatierung Genehmigung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plakatstandorte-matrix` | Wenn es um Plakatstandorte Matrix in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plattformmeldung-dsa-podium` | Wenn es um Plattformmeldung Dsa in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `podium-teilnahmeentscheidung` | Wenn es um Podium Teilnahmeentscheidung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `polizei-und-ordnungsamt-kommunikation` | Wenn es um Polizei Und Ordnungsamt Kommunikation in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `presseanfrage-antwortleiter` | Wenn es um Presseanfrage Antwortleiter in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `presserecht-richtigstellung` | Wenn es um Presserecht Richtigstellung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rapid-response-rechenschaftsbericht` | Wenn es um Rapid Response Room in Wahlkampfrecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rechenschaftsbericht-vorbereitung` | Wenn es um Rechenschaftsbericht Vorbereitung in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rechtsfreigabe-gate` | Wenn es um Rechtsfreigabe Gate in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `risiko-register` | Wenn es um Risiko Register in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rumor-control-center` | Wenn es um Rumor Control Center in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `satellitenkampagne-durch` | Wenn es um Satellitenkampagne Durch Verein in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schlachtenplan-ethik-und-taktik` | Wenn es um Schlachtenplan Ethik Und Taktik in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schulen-und-jugendformate` | Wenn es um Schulen Und Jugendformate in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sicherheitslage-kandidierende` | Wenn es um Sicherheitslage Kandidierende in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `social-media-redaktionsplan` | Wenn es um Social Media Redaktionsplan in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spendenannahme-sponsoring` | Wenn es um Spendenannahme Prüfung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sponsoring-parteienrecht` | Wenn es um Sponsoring Parteienrecht in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sprachregelung-schnellkarte` | Wenn es um Sprachregelung Schnellkarte in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `staatliche-neutralitaet` | Wenn es um Staatliche Neutralitaet in Wahlkampfrecht Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `taegliches-briefing` | Wenn es um Taegliches Briefing in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `targeting-dsgvo-tracking-pixel` | Wenn es um Targeting Dsgvo in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tracking-pixel-cookies` | Wenn es um Tracking Pixel Cookies in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ueberkleben-sachbeschaedigung` | Wenn es um Ueberkleben Sachbeschaedigung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umfragen-und-prognosen` | Wenn es um Umfragen Und Prognosen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `umgang-mit-provokateuren` | Wenn es um Umgang Mit Provokateuren in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterstuetzungsunterschriften` | Wenn es um Unterstuetzungsunterschriften in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urheberrecht-musik-bilder-clips` | Wenn es um Urheberrecht Musik Bilder Clips in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `veranstaltungslogistik` | Wenn es um Veranstaltungslogistik in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vereine-unterstuetzer-dritte` | Wenn es um Vereine Unterstuetzer Dritte in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `versammlungsrecht-schnittstelle` | Wenn es um Versammlungsrecht Schnittstelle in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `viraler-clip-waehlerdaten-listen` | Wenn es um Viraler Clip Notfall in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `waehlerdaten-und-listen` | Wenn es um Waehlerdaten Und Listen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahl-o-mat-und-thesen` | Wenn es um Wahl O Mat Und Thesen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlbeobachtung-und-wahltag` | Wenn es um Wahlbeobachtung Und Wahltag in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `wahlkampf-in-vereinen-und-betrieben` | Wenn es um In Vereinen Und Betrieben in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlkampf-kandidierenden-fuersorge` | Wenn es um Kandidierenden Fuersorge in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlkampf-spendenannahme-pruefung` | Wenn es um Spendenannahme Pruefung in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlkampfkosten-budget-wahlprogramm` | Wenn es um Wahlkampfkosten Budget in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlprogramm-und-faktencheck` | Wenn es um Wahlprogramm Und Faktencheck in Wahlkampfrecht Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `wahlpruefung-nachwahl` | Wenn es um Wahlpruefung Nachwahl in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlraum-propagandaverbot` | Wenn es um Wahlraum Propagandaverbot in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlstraftaten-stgb` | Wenn es um Wahlstraftaten Stgb in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahltag-war` | Wenn es um Wahltag Krisenkarte in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlverfahren-falschinfo` | Wenn es um Wahlverfahren Falschinfo in Wahlkampfrecht Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `wahlvorschlaege-fristen` | Wenn es um Wahlvorschlaege Fristen in Wahlkampfrecht Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `war-room-betriebsmodell` | Wenn es um War Room Betriebsmodell in Wahlkampfrecht Praxis geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
+English: Complete list of all 11 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`daten-cybersicherheit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/daten-cybersicherheit-bearbeiten/SKILL.md) | Prüfe personenbezogene Daten, Einwilligung, Tracking und technische Sicherheit anhand des tatsächlichen Verarbeitungsvorgangs; keine zielgruppenbezogene Überzeugungsstrategie entwickeln. Die einschlägigen Fachmodule werden am konkreten A... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/daten-cybersicherheit-bearbeiten/SKILL.md) |
+| [`inhalte-persoenlichkeit-medien-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/inhalte-persoenlichkeit-medien-bearbeiten/SKILL.md) | Prüfe konkrete Aussagen, Bilder, Musik, Marken, Satire und synthetische Inhalte auf Rechte Dritter und rechtliche Grenzen der Veröffentlichung. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollständig gelesen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/inhalte-persoenlichkeit-medien-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Wahlkampfrecht Praxis ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kommunikation-medienpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/kommunikation-medienpruefung-bearbeiten/SKILL.md) | Prüfe vorhandene Aussagen, Veranstaltungs- und Medienunterlagen auf Tatsachenbasis, Rechte Dritter und rechtliche Grenzen; unterscheide rechtliche Bewertung und politische Position. Die einschlägigen Fachmodule werden am konkreten Auftra... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/kommunikation-medienpruefung-bearbeiten/SKILL.md) |
+| [`oeffentlicher-raum-veranstaltung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/oeffentlicher-raum-veranstaltung-bearbeiten/SKILL.md) | Prüfe Sondernutzung, Hausrecht, Versammlung, Plakatierung und Veranstaltungsdurchführung am konkreten Ort einschließlich Sicherheit und Auflagen. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollständig gelesen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/oeffentlicher-raum-veranstaltung-bearbeiten/SKILL.md) |
+| [`organisation-freigabe-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/organisation-freigabe-bearbeiten/SKILL.md) | Ordne vorhandene Planungsunterlagen, Zuständigkeiten und Freigaben und prüfe deren rechtliche Zulässigkeit und Belege; keine personalisierte politische Überzeugungsstrategie ableiten. Die einschlägigen Fachmodule werden am konkreten Auft... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/organisation-freigabe-bearbeiten/SKILL.md) |
+| [`parteienfinanzen-ressourcen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/parteienfinanzen-ressourcen-bearbeiten/SKILL.md) | Prüfe Annahme, Zurechnung, Transparenz und Berichtspflichten von Mitteln sowie die Trennung von Partei, Fraktion und Amt. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollständig gelesen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/parteienfinanzen-ressourcen-bearbeiten/SKILL.md) |
+| [`reaktion-beweis-schutz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/reaktion-beweis-schutz-bearbeiten/SKILL.md) | Sichere Belege und erarbeite eine sachliche rechtliche Reaktion auf Falschinformation, Sicherheitsvorfall, Plattformkonflikt oder drohende Rechtsverletzung. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollstän... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/reaktion-beweis-schutz-bearbeiten/SKILL.md) |
+| [`team-inklusion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/team-inklusion-bearbeiten/SKILL.md) | Prüfe Rollen, Beschäftigung, Ehrenamt, Aufwandsersatz, Fürsorge und Barrierefreiheit im Kampagnenbetrieb ohne politische Ansprache bestimmter Personengruppen zu entwickeln. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewä... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/team-inklusion-bearbeiten/SKILL.md) |
+| [`wahlverfahren-wahltag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/wahlverfahren-wahltag-bearbeiten/SKILL.md) | Prüfe Wahlart, Zulassung, Unterschriften, Fristen und gesetzliche Abläufe am Wahltag einschließlich Wahlprüfung anhand des zuständigen Wahlrechts. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollständig gelesen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/wahlverfahren-wahltag-bearbeiten/SKILL.md) |
+| [`werbung-transparenz-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/werbung-transparenz-bearbeiten/SKILL.md) | Prüfe konkrete politische Werbung, Auftraggeber, Finanzierung, Kennzeichnung und Transparenz nach dem einschlägigen Recht. Die einschlägigen Fachmodule werden am konkreten Auftrag ausgewählt und vollständig gelesen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wahlkampfrecht-praxis/skills/werbung-transparenz-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

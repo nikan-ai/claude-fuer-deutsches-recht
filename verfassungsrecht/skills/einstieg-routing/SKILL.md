@@ -1,36 +1,36 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in verfassungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: verfassungsrecht."
 ---
 
 # Einstieg und Routing
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Verfassungsrecht** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Bestimme anhand der vorhandenen Akte, welche verfassungsrechtliche Frage und welches Verfahren betroffen sind. Beginne mit der bestellten Beratung oder dem Entwurf, nicht mit einer Liste möglicher Skills.
 
 ## Fachlandkarte dieses Plugins
 
-- `acht-zahlen-schwellen-und-berechnung` — Acht Zahlen Schwellen und Berechnung
-- `bundesverfassungsgericht-quellenkarte-check` — Bundesverfassungsgericht Quellenkarte Check
-- `bverfg-rechtsprechung-recherchieren` — Bverfg Rechtsprechung Recherchieren
-- `bverfg-verfahrenssicht-und-annahmerisiko` — Bverfg Verfahrenssicht und Annahmerisiko
-- `formelle-mehrparteien-konflikt-und-interessen` — Formelle Mehrparteien Konflikt und Interessen
-- `formelle-verfassungsmaessigkeit` — Formelle Verfassungsmaessigkeit
-- `gesetzentwurf-gg-konformitaet-pruefen` — Gesetzentwurf GG Konformitaet Prüfen
-- `gesetzgebungskompetenz-grundrechtspruefung` — Gesetzgebungskompetenz Grundrechtspruefung
-- `gesetzgebungskompetenz-pruefen` — Gesetzgebungskompetenz Prüfen
-- `grundgesetz-fristen-form-und-zustaendigkeit` — Grundgesetz Fristen Form und Zustaendigkeit
-- `grundrechte-fehlerkatalog` — Grundrechte Fehlerkatalog
-- `grundrechtspruefung-acht-formelle-interessen` — Grundrechtspruefung Acht Formelle Interessen
-- `grundrechtspruefung-und-verhaeltnismaessigkeit` — Grundrechtspruefung und Verhältnismäßigkeit
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: acht-zahlen-schwellen-und-berechnung) — Acht Zahlen Schwellen und Berechnung
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: bundesverfassungsgericht-quellenkarte-check) — Bundesverfassungsgericht Quellenkarte Check
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: bverfg-rechtsprechung-recherchieren) — Bverfg Rechtsprechung Recherchieren
+- `arbeitsprodukt-bearbeiten` (Fachthema: bverfg-verfahrenssicht-und-annahmerisiko) — Bverfg Verfahrenssicht und Annahmerisiko
+- `zulaessigkeit-bearbeiten` (Fachthema: formelle-mehrparteien-konflikt-und-interessen) — Formelle Mehrparteien Konflikt und Interessen
+- `arbeitsprodukt-bearbeiten` (Fachthema: formelle-verfassungsmaessigkeit) — Formelle Verfassungsmaessigkeit
+- `zulaessigkeit-bearbeiten` (Fachthema: gesetzentwurf-gg-konformitaet-pruefen) — Gesetzentwurf GG Konformitaet Prüfen
+- `zulaessigkeit-bearbeiten` (Fachthema: gesetzgebungskompetenz-grundrechtspruefung) — Gesetzgebungskompetenz Grundrechtspruefung
+- `zulaessigkeit-bearbeiten` (Fachthema: gesetzgebungskompetenz-pruefen) — Gesetzgebungskompetenz Prüfen
+- `zulaessigkeit-bearbeiten` (Fachthema: grundgesetz-fristen-form-und-zustaendigkeit) — Grundgesetz Fristen Form und Zustaendigkeit
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: grundrechte-fehlerkatalog) — Grundrechte Fehlerkatalog
+- `zulaessigkeit-bearbeiten` (Fachthema: grundrechtspruefung-acht-formelle-interessen) — Grundrechtspruefung Acht Formelle Interessen
+- `verhaeltnismaessigkeit-mit-milderen-mitteln-gewichtu-bearbeiten` (Fachthema: grundrechtspruefung-und-verhaeltnismaessigkeit) — Grundrechtspruefung und Verhältnismäßigkeit
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
 - Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: § 93 BVerfGG Verfassungsbeschwerde 1 Monat nach Rechtswegerschöpfung / 1 Jahr bei Gesetzen, § 32 BVerfGG einstweilige Anordnung.
+- Bei der Verfassungsbeschwerde die einschlägige Frist nach Paragraf 93 BVerfGG anhand des vollständigen Entscheidungszugangs beziehungsweise Normangriffs bestimmen. Rechtswegerschöpfung und Fristbeginn nicht gleichsetzen; Anhörungsrüge und sonstige Rechtsbehelfe fallbezogen prüfen. Eilrechtsschutz nach Paragraf 32 BVerfGG gesondert behandeln.
 - Fachpfad wählen: zentrale Anker im Verfassungsrecht sind GG Art. 1–19, 20, 28, 33, 38, 79, 93, 100, BVerfGG §§ 13, 23, 31, 32, 90–95a, EMRK Art. 6, 8, 10, 13. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
 - Zuständige Stelle bestimmen: Beschwerdeführer, BVerfG (1. und 2. Senat, Kammern), Landesverfassungsgerichte, EGMR.
 - Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
@@ -38,5 +38,26 @@ Dieser Einstieg routet **Verfassungsrecht** vom ersten Sachverhalt zu Rollen, Fr
 ## Qualitätsanker
 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
-- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
-- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+- Bei einer Spezialfrage können passende Skills optional vertiefen; ihre Benennung ersetzt die Bearbeitung nicht. Die aktuellen Hauptsachezuständigkeiten anhand Artikel 94 GG prüfen; historische Normfassungen nur bei entsprechendem Prüfauftrag verwenden.
+- Fehlen Zustellungsnachweis oder fachgerichtlicher Schriftsatz, gezielt danach fragen und die unabhängigen Teile bearbeiten. Nach Antwort die betroffenen Zulässigkeitsfragen und Rügen aktualisieren; neue entscheidende Lücken dürfen weitere kurze Rückfragen auslösen.
+- Die bestellte Stellungnahme oder Beschwerde vollständig ausformulieren, ohne bloß auf weitere Arbeitsschritte zu verweisen. Interne Quellenhinweise vom Empfängertext trennen; Nutzerdateinamen gehen vor, `ergebnis.md` ist nur Standard ohne Vorgabe. Formatierte Texte verwenden soweit möglich Times New Roman 11 pt und dezimale Gliederung. Einreichung nur nach Freigabe.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Verfassungsrecht:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

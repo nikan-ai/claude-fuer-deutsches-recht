@@ -1,31 +1,31 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Prozessrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Prozessrecht."
 ---
 
 # Einstieg und Routing
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Prozessrecht** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Erstelle aus Auftrag, Schriftsätzen und gerichtlicher Korrespondenz das bestellte Prozessdokument oder die Beratung. Bestimme Parteirolle und Verfahrensstand aus der Akte; eine anwaltliche Erwiderung wird nicht als richterliche Verfügung formuliert.
 
 ## Fachlandkarte dieses Plugins
 
-- `amtlicher-zpo-proz-bauleiter-eilverfahren` — Amtlicher ZPO Proz Bauleiter Eilverfahren
-- `anspruchstabelle-beweislast` — Anspruchstabelle Beweislast
-- `anspruchstabelle-gegenseite-interessen` — Anspruchstabelle Gegenseite Interessen
-- `anwaltsgeheimnis-pruefung` — Anwaltsgeheimnis Prüfung
-- `argumentationsverbesserung-red-team` — Argumentationsverbesserung RED Team
-- `beweissicherung-einstweilige-verfuegung` — Beweissicherung Einstweilige Verfuegung
-- `chronologie` — Chronologie
-- `eilverfahren-risikoampel-und-gegenargumente` — Eilverfahren Risikoampel und Gegenargumente
-- `einstweilige-verfuegung` — Einstweilige Verfuegung
-- `gegenseite-mehrparteien-konflikt-und-interessen` — Gegenseite Mehrparteien Konflikt und Interessen
-- `gegenseite-status-mahnbescheid-mahnschreiben` — Gegenseite Status Mahnbescheid Mahnschreiben
-- `kaltstart-interview` — Kaltstart Interview
-- `mahnbescheid` — Mahnbescheid
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `prozessroute-bearbeiten` (Fachthema: amtlicher-zpo-proz-bauleiter-eilverfahren) — Amtlicher ZPO Proz Bauleiter Eilverfahren
+- `beweis-bearbeiten` (Fachthema: anspruchstabelle-beweislast) — Anspruchstabelle Beweislast
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anspruchstabelle-gegenseite-interessen) — Anspruchstabelle Gegenseite Interessen
+- `prozessroute-bearbeiten` (Fachthema: anwaltsgeheimnis-pruefung) — Anwaltsgeheimnis Prüfung
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: argumentationsverbesserung-red-team) — Argumentationsverbesserung RED Team
+- `beweis-bearbeiten` (Fachthema: beweissicherung-einstweilige-verfuegung) — Beweissicherung Einstweilige Verfuegung
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: chronologie) — Chronologie
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: eilverfahren-risikoampel-und-gegenargumente) — Eilverfahren Risikoampel und Gegenargumente
+- `prozessroute-bearbeiten` (Fachthema: einstweilige-verfuegung) — Einstweilige Verfuegung
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: gegenseite-mehrparteien-konflikt-und-interessen) — Gegenseite Mehrparteien Konflikt und Interessen
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: gegenseite-status-mahnbescheid-mahnschreiben) — Gegenseite Status Mahnbescheid Mahnschreiben
+- `prozessroute-bearbeiten` (Fachthema: kaltstart-interview) — Kaltstart Interview
+- `prozessroute-bearbeiten` (Fachthema: mahnbescheid) — Mahnbescheid
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -35,8 +35,36 @@ Dieser Einstieg routet **Prozessrecht** vom ersten Sachverhalt zu Rollen, Friste
 - Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
 - Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
 
+### Zustellungs- und Beweislücken klären
+
+Fehlt der Zustellnachweis, frage nach der konkreten Urkunde oder Empfangsbestätigung und aktualisiere danach die Fristberechnung. Bei einem unklaren Beweisantritt nach der konkreten Wahrnehmung des Zeugen beziehungsweise dem Inhalt der Urkunde fragen. Neue Angaben in Tatsachenvortrag, Beweisangebot und Antrag einarbeiten.
+
+Weitere kurze Rückfragen sind bei neuen entscheidenden Widersprüchen zulässig; vorhandene Antworten nicht erneut erheben. Unabhängige Teile vorläufig bearbeiten und nach Klärung das bestellte Dokument fertigschreiben. Ein Gutachtenauftrag löst keine ungefragte Klage aus, externe Handlungen bedürfen der Freigabe.
+
 ## Qualitätsanker
 
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+Weitere Skills und Referenzen sind optional. Vollständige Sätze statt Textskelette liefern, den gewünschten Dateinamen beachten und technische Prüfnotizen vom Empfängertext trennen. Formatierte Dokumente verwenden Times New Roman 11 Punkt und dezimale Gliederung.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Zivilprozess und Relation:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

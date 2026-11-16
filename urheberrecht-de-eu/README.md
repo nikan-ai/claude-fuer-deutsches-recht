@@ -5,23 +5,69 @@
 
 Deutsches und EU-Urheberrecht für Werkhöhe, Musik, KI, TDM, Software, Lizenzen, Abmahnung, Schranken, Leistungsschutz und Rechteclearing.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`urheberrecht-de-eu.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/urheberrecht-de-eu.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/urheberrecht-de-eu.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/urheberrecht-de-eu-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/urheberrecht-de-eu-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/urheberrecht-de-eu.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/urheberrecht-de-eu.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Urheberrecht DE EU:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`urheberrecht-de-eu.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/urheberrecht-de-eu.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/urheberrecht-de-eu/urheberrecht-de-eu-werkstatt.md" download><code>urheberrecht-de-eu-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/urheberrecht-de-eu/urheberrecht-de-eu-schnellstart.md" download><code>urheberrecht-de-eu-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Urheberrecht Musik-Songstreit Auerbach: [Gesamt-PDF](../testakten/urheberrecht-musik-ki-songstreit-auerbach/gesamt-pdf/urheberrecht-musik-ki-songstreit-auerbach_gesamt.pdf), [`testakte-urheberrecht-musik-ki-songstreit-auerbach.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urheberrecht-musik-ki-songstreit-auerbach.zip), [`testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`urheberrecht-de-eu.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/urheberrecht-de-eu.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`urheberrecht-de-eu-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/urheberrecht-de-eu-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`urheberrecht-de-eu-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/urheberrecht-de-eu-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Urheberrecht Musik-Songstreit Auerbach](../testakten/urheberrecht-musik-ki-songstreit-auerbach/README.md) | [Gesamt-PDF](../testakten/urheberrecht-musik-ki-songstreit-auerbach/gesamt-pdf/urheberrecht-musik-ki-songstreit-auerbach_gesamt.pdf) | [`testakte-urheberrecht-musik-ki-songstreit-auerbach.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-urheberrecht-musik-ki-songstreit-auerbach.zip) | [`testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-urheberrecht-musik-ki-songstreit-auerbach-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine Rechtsverletzung an Werk, Marke oder Inhalt abmahnen oder abwehren.
+Hier prüfen Sie die Nutzung eines Werks oder geschützten Inhalts, klären Lizenzen oder bereiten die Durchsetzung beziehungsweise Abwehr urheberrechtlicher Ansprüche vor. Eine rein markenrechtliche Kollision ist ein gesonderter Prüfauftrag.
 Dieses Plugin ist der tiefe Urheberrechtsprüfer für deutsches und europäisches Urheberrecht. Es führt durch Werkhöhe, Schöpfungshöhe, Musikwerke, Songtexte, Tonaufnahmen, Sampling, KI-Output, KI-Training, Software, Datenbanken, Leistungsschutzrechte, Lizenzketten, Schranken, Plattformprozesse, Abmahnungen, einstweilige Verfügung und urheberrechtliche Vertragsgestaltung.
 
 Der Einstieg ist bewusst praktisch: erst Rolle, Ziel, Material, Frist und Beweisstand; dann die passende Prüfroute. Das Plugin soll keine Rechtsmythen reproduzieren, sondern sauber zwischen Idee, Stil, Technik, Ausdruck, Aufnahme, Leistungsschutz und Vertrag unterscheiden.
@@ -54,7 +100,7 @@ Rechtsprechung wird nur verwendet, wenn Gericht, Datum, Aktenzeichen und eine fr
 | Skill | Schwerpunkt |
 | --- | --- |
 | `abmahnung-97a-response` | Abmahnung nach § 97a UrhG beantworten |
-| `urheberrecht-de-eu-allgemein` | Urheberrecht DE/EU Kaltstart und Routing |
+| `kaltstart-triage` | Urheberrecht DE/EU: Unterlagen auswerten und passenden Prüfweg wählen. |
 | `arbeitnehmer-urheber-software` | Arbeitnehmerurheber und Auftragswerke |
 | `architektur-angewandte-kunst` | Architektur und angewandte Kunst |
 | `auskunft-rechnungslegung` | Auskunft, Rechnungslegung und Besichtigung |
@@ -120,8 +166,8 @@ Rechtsprechung wird nur verwendet, wenn Gericht, Datum, Aktenzeichen und eine fr
 ## Installation in der Plugin-Umgebung
 
 1. ZIP herunterladen (Link oben).
-2. Plugin-Menü öffnen, `Install from .zip` wählen und die Datei auswählen.
-3. Fertig. Skills sind sofort verfügbar.
+2. Plugin-Menü öffnen, `Upload plugin` wählen und die Datei auswählen.
+3. Plugin aktivieren und eine neue Aufgabe öffnen; den passenden Skill ausdrücklich auswählen.
 
 > **Hinweis:** Für den ZIP-Upload muss das Archiv direkt `.claude-plugin/plugin.json`, `skills/`, `assets/` und `references/` im ZIP-Root enthalten. Nicht das komplette Repository-ZIP aus "Code → Download ZIP" verwenden.
 
@@ -129,22 +175,29 @@ Rechtsprechung wird nur verwendet, wenn Gericht, Datum, Aktenzeichen und eine fr
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **65 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `auskunft-rechnungslegung`, `bearbeitung-umgestaltung-beweisforensik`, `beweisforensik-versionen`, `computer-kunst-datenbank-dataset-einstweilige`, `datenbank-dataset-rechte` |
-| 3. Prüfung, Anspruch und Subsumtion | `kanzlei-urheber-rechtsprechungs-livecheck`, `plagiatsanalyse-musik-text`, `rechtsprechungs-livecheck` |
-| 4. Gestaltung, Strategie und Verhandlung | `ki-vertragsklauseln-urhebervertragsrecht`, `urheberrechtliche-compliance`, `urhebervertragsrecht-verguetung`, `vertragsgenerator-musik-release` |
-| 5. Verfahren, Behörde und Gericht | `einstweilige-verfuegung-urheber`, `fotos-bilder-gema-gvl-gerichtlicher`, `gerichtlicher-schriftsatz`, `verjaehrung-fristen` |
-| 6. Ergebnis, Schreiben und Kommunikation | `ki-output-menschlicher-beitrag`, `lizenzanalogie-musik-mandantenmemo`, `mandantenmemo-urheberrecht`, `output-builder-urheberrecht`, `sachverstaendigenbriefing-musik-sampling` |
-| 8. Spezialmodule und Schnittstellen | `abmahnung-97a-response`, `arbeitnehmer-urheber-architektur-angewandte`, `architektur-angewandte-kunst`, `broadcast-streaming-social`, `due-diligence-urheberrechtliche`, `gema-gvl-verwertungsgesellschaften`, `internationales-urheberrecht-ki-act-ki`, `kanzlei-workflow-urheber`, `ki-act-gpai-copyright`, `ki-training-tdm-optout`, `kosten-streitwert-leistungsschutz-kuenstler`, `leistungsschutz-kuenstler-label`, `linking-embedding-framing`, `miturheber-band-splits`, `moral-rights-musikwerk-melodie-nutzungsrechte`, `musikwerk-melodie-harmonie-rhythmus`, `nutzungsrechte-lizenzkette`, `open-source-persoenlichkeitsrecht-stimme`, ... plus 24 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/kaltstart-triage/SKILL.md) |
+| 2. Schutzgegenstand | [`schutzgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schutzgegenstand-bearbeiten/SKILL.md) |
+| 3. Rechtekette | [`rechtekette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/rechtekette-bearbeiten/SKILL.md) |
+| 4. Nutzung | [`nutzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/nutzung-bearbeiten/SKILL.md) |
+| 5. Schranken | [`schranken-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schranken-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -152,73 +205,27 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 64 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abmahnung-97a-response` | Wenn es um Abmahnung nach Paragraf 97a UrhG beantworten in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `arbeitnehmer-urheber-architektur-angewandte` | Wenn es um Arbeitnehmerurheber und Auftragswerke in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `architektur-angewandte-kunst` | Wenn es um Architektur und angewandte Kunst in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auskunft-rechnungslegung` | Wenn es um Auskunft, Rechnungslegung und Besichtigung in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `bearbeitung-umgestaltung-beweisforensik` | Wenn es um Bearbeitung und Umgestaltung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweisforensik-versionen` | Wenn es um Beweisforensik, Versionen und Hashes in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `broadcast-streaming-social` | Wenn es um Streaming, Broadcast und Social Media in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `computer-kunst-datenbank-dataset-einstweilige` | Wenn es um Computerkunst und generative Modelle in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenbank-dataset-rechte` | Wenn es um Datenbanken, Datasets und Trainingskorpora in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfr... |
-| `due-diligence-urheberrechtliche` | Wenn es um Copyright Due Diligence in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstweilige-verfuegung-urheber` | Wenn es um Einstweilige Verfügung im Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `fotos-bilder-gema-gvl-gerichtlicher` | Wenn es um Fotos, Bilder und Design in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gema-gvl-verwertungsgesellschaften` | Wenn es um GEMA, GVL und Verwertungsgesellschaften in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `gerichtlicher-schriftsatz` | Wenn es um Schriftsatz und Antrag im Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `internationales-urheberrecht-ki-act-ki` | Wenn es um Internationales Urheberrecht und Kollisionsrecht in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nach... |
-| `kaltstart-triage` | Wenn es um Urheberrecht DE/EU Kaltstart und Routing in Urheberrecht DE EU geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kanzlei-urheber-rechtsprechungs-livecheck` | Wenn es um Kanzlei-und Aktenführung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kanzlei-workflow-urheber` | Wenn es um Kanzlei-Workflow und Aktenführung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ki-act-gpai-copyright` | Wenn es um europäischer Technikregulierungsrahmen GPAI und Urheberrechtspolitik in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nac... |
-| `ki-output-menschlicher-beitrag` | Wenn es um digitale Werkzeuge-Output und menschlicher Beitrag in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ki-training-tdm-optout` | Wenn es um digitale Werkzeuge-Training, TDM und Opt-out in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `ki-vertragsklauseln-urhebervertragsrecht` | Wenn es um digitale Werkzeuge-Klauseln in Urheberverträgen in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kosten-streitwert-leistungsschutz-kuenstler` | Wenn es um Kosten, Streitwert und Wirtschaftlichkeit in Urheberrecht DE EU geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `leistungsschutz-kuenstler-label` | Wenn es um Leistungsschutzrechte Künstler und Label in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `linking-embedding-framing` | Wenn es um Linking, Embedding und Framing in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lizenzanalogie-musik-mandantenmemo` | Wenn es um Musiklizenzanalogie und Tarife in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `mandantenmemo-urheberrecht` | Wenn es um Mandantenmemo Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `miturheber-band-splits` | Wenn es um Miturheber, Band und Split-Sheets in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `moral-rights-musikwerk-melodie-nutzungsrechte` | Wenn es um digitale Werkzeuge-Cover, Voice Model und Entstellung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `musikwerk-melodie-harmonie-rhythmus` | Wenn es um Musikwerk, Melodie, Harmonie und Rhythmus in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfra... |
-| `nutzungsrechte-lizenzkette` | Wenn es um Nutzungsrechte und Lizenzkette in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `open-source-persoenlichkeitsrecht-stimme` | Wenn es um Open Source und Softwarelizenzen in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-builder-urheberrecht` | Wenn es um Output Builder Urheberrecht in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `persoenlichkeitsrecht-stimme-deepfake` | Wenn es um Stimme, Deepfake und Persönlichkeit in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plagiatsanalyse-musik-text` | Wenn es um Plagiatsanalyse Musik und Text in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plattform-notice-upload-art17` | Wenn es um Notice, Takedown und Restore in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plattform-upload-art17-dsa` | Wenn es um Plattformen, Uploads und Art. 17 DSM in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `presseleistungsschutz-snippets` | Wenn es um Presseleistungsschutz und Snippets in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechte-an-rechteclearing-ki-sync` | Wenn es um Prompts, Promptbooks und Workflows in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechteclearing-ki-dataset-musik` | Wenn es um Rechteclearing digitale Werkzeuge-Dataset Musik in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechteclearing-sync-film-game` | Wenn es um Rechteclearing für Film, Game und Werbung in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsprechungs-livecheck` | Wenn es um Rechtsprechungs- und Quellenlivecheck in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `redteam-halluzinationsschutz` | Wenn es um Red-Team und Halluzinationsschutz in Urheberrecht DE EU geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sachverstaendigenbriefing-musik-sampling` | Wenn es um Sachverständigenbriefing Musik in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `sampling-pastiche-remix` | Wenn es um Sampling, Pastiche, Remix und Parodie in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schadensersatz-lizenzanalogie` | Wenn es um Schadensersatz und Lizenzanalogie in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schranken-zitat-unterricht` | Wenn es um Schranken: Zitat, Unterricht und Wissenschaft in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schutzdauer-gemeinfreiheit-software-69a` | Wenn es um Schutzdauer und Gemeinfreiheit in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `settlement-verlagsrecht-buch-vg-bild` | Wenn es um Vergleich und Settlement in Urheberrecht DE EU geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `software-69a-computerprogramm` | Wenn es um Computerprogramm nach Paragrafen 69a ff. UrhG in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `songtext-lyrics-sprachwerk` | Wenn es um Songtext, Lyrics und Sprachwerk in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `soundaufnahme-tontraeger-titel-slogan` | Wenn es um Tonaufnahme und Leistungsschutzrechte in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `titel-slogan-kurzform` | Wenn es um Titel, Slogan und Kurzform in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urheberpersoenlichkeitsrecht` | Wenn es um Urheberpersönlichkeitsrecht in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `urheberrechtliche-compliance` | Wenn es um Urheberrechts-Compliance im Unternehmen in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `urheberstrafrecht` | Wenn es um Urheberstrafrecht und Ermittlungen in Urheberrecht DE EU geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `urhebervertragsrecht-verguetung` | Wenn es um Angemessene Vergütung und Bestseller in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verjaehrung-fristen` | Wenn es um Verjährung, Dringlichkeit und Fristen in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verlagsrecht-buch-ebook` | Wenn es um Verlagsrecht Buch und E-Book in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertragsgenerator-musik-release` | Wenn es um Musikvertrag und Release-Paket in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `vertrieb-verwertung-schadensersatz` | Wenn es um Verwertungskette und Vertrieb in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vg-bild-vgwort-verlag` | Wenn es um VG Wort, VG Bild-Kunst und Verlag in Urheberrecht DE EU geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `werkhoehe-schoepfungshoehe-wissenschaft-tdm` | Wenn es um Werkhöhe und Schöpfungshöhe prüfen in Urheberrecht DE EU geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `wissenschaft-tdm-forschung` | Wenn es um Wissenschaft, Forschung und TDM in Urheberrecht DE EU geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Arbeitsprodukt: Rechteclearing, Abmahnung, Lizenzklausel, Unterlassungserklärung oder Verteidigungsmemo formulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Urheberrecht De EU ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/kaltstart-triage/SKILL.md) | Für Urheberrecht DE/EU Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/kaltstart-triage/SKILL.md) |
+| [`nutzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/nutzung-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Nutzung: Vervielfaeltigung, öffentliche Wiedergabe, Bearbeitung, Upload, Plattform und KI-Bezug trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/nutzung-bearbeiten/SKILL.md) |
+| [`rechtekette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/rechtekette-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Rechtekette: Urheber, Rechteinhaber, Lizenz, Gebiet, Dauer, Nutzungsart und Weitergabe prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/rechtekette-bearbeiten/SKILL.md) |
+| [`schranken-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schranken-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Schranken: Zitat, Unterricht, Text und Data Mining, Privatkopie und Berichterstattung konkret anwenden. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schranken-bearbeiten/SKILL.md) |
+| [`schutzgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schutzgegenstand-bearbeiten/SKILL.md) | Deutsches und europäisches Urheberrecht: Schutzgegenstand: Werkart, Schöpfungshöhe, Lichtbild, Datenbank oder Leistungsschutzrecht bestimmen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=urheberrecht-de-eu/skills/schutzgegenstand-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->
+
+<a id="fachliche-ki-prüfung"></a>
+
+## 1. Fachliche KI-Prüfung
+
+[Normen, technische Nachweise, Rechtsprechungsgrenzen und Übungsakte](references/ki-normen-und-fallpruefung.md): Prüfen Sie Trainingsbezug, Ausgabeinhalt und Veröffentlichung getrennt. Technische Markierung und redaktionelle Verantwortung beantworten nicht automatisch die urheberrechtliche Nutzungsbefugnis.
+
+Aktuelle KI-Fachvertiefung: Komponentenfassung 445.35.2 im [KI-Verordnungsrelease](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/tag/ki-verordnung-v445.35.2). Ältere Sammelarchive enthalten diese Ergänzung noch nicht.

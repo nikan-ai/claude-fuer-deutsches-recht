@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "release": "1.1.0",
+  "review_type": "independent_pdf_visual_layout_review",
+  "reviewed_at": "2026-10-16T11:41:08.558972+02:00",
+  "scope": {
+    "description": "Reine Sichtprüfung aller 33 Seiten der drei fertigen Prompt-PDFs auf Lesbarkeit, abgeschnittene Zeichen oder Tabellen, Überlagerungen, alleinstehende Überschriften ohne nachfolgenden Text auf derselben Seite, Leer-/Schlussseiten und konsistente Seitenfüße.",
+    "rendering": "Finale Werkstatt (27 Seiten) und finaler Schnellstart (3 Seiten) erneut mit Poppler pdftoppm bei 100 dpi als PNG gerendert. Alle 27 Werkstattseiten in Dreier-Kontaktbögen in Originalauflösung visuell angesehen; Werkstattseiten 1, 2 und 26 zusätzlich als Einzelansicht. Alle drei Schnellstartseiten einzeln in Originalauflösung angesehen. Die drei Hauptproblemseiten wurden in der vorausgehenden Prüfung sowohl im Kontaktbogen als auch einzeln angesehen; die Datei ist per erneutem SHA-256-Abgleich unverändert.",
+    "render_directory": "/tmp/jva-layout-1.1.0",
+    "contact_sheets": [
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-01-03.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-04-06.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-07-09.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-10-12.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-13-15.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-16-18.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-19-21.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-22-24.png",
+      "/tmp/jva-layout-1.1.0/final-contact-werkstatt-25-27.png",
+      "/tmp/jva-layout-1.1.0/contact-hauptproblem-01-03.png"
+    ],
+    "supplementary_check": "pdfplumber-Zeichenkoordinaten jeder Seite gegen die gesamte Seitenfläche geprüft; für Werkstatt und Schnellstart nach dem finalen Neuaufbau wiederholt. Keine Zeichen außerhalb der Seitenfläche. Dies ergänzt, ersetzt aber nicht die Sichtprüfung.",
+    "not_performed": [
+      "Keine fachliche oder rechtliche Prüfung.",
+      "Keine Prüfung amtlicher Quellen oder Rechtsprechung.",
+      "Keine Behauptung einer vollständigen Volltextlektüre.",
+      "Kein inhaltlicher Abgleich mit Quelldateien.",
+      "Keine Änderung der PDFs oder Produktquellen."
+    ]
+  },
+  "summary": {
+    "pdf_count": 3,
+    "rendered_pages": 33,
+    "visually_reviewed_pages": 33,
+    "pages_with_individual_full_page_view": 9,
+    "status": "passed_visual_layout_review",
+    "defects_found": 0,
+    "characters_outside_page": 0,
+    "observations": [
+      "Schrift, Überschriften und Fußzeilen sind lesbar; keine sichtbaren abgeschnittenen Zeichen oder Überlagerungen.",
+      "Die Tabelle der finalen Werkstatt ist auf Seiten 1 und 2 sauber aufgeteilt; die Kopfzeile wird wiederholt und die Zellen sind vollständig sichtbar.",
+      "Keine verwaisten Überschriften ohne folgenden Absatz auf derselben Seite und keine leeren Seiten festgestellt.",
+      "Die Schlussseiten der beiden Kurzfassungen enthalten größere Weißräume; beide enthalten klar erkennbaren Abschlusstext und vollständige Seitenfüße.",
+      "Die finale Prüfung dokumentiert ausschließlich die visuelle Gestaltung und ergänzende Zeichenrandkontrolle; keine fachliche Prüfung oder vollständige Volltextlektüre."
+    ],
+    "final_rebuild_pages_rendered_and_reviewed": 30,
+    "unchanged_pages_carried_forward_after_hash_check": 3
+  },
+  "files": [
+    {
+      "file": "strafvollzug-jva-werkstatt.pdf",
+      "reviewed_path": "/tmp/jva-release-1.1.0/strafvollzug-jva-werkstatt.pdf",
+      "sha256": "71412774e5785b5c355dfcb7f74a1ed9158f5595f88f605604de15cc6adaf7ab",
+      "page_count": 27,
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "additional_individual_full_page_views": [
+        1,
+        2,
+        26
+      ],
+      "result": "passed_visual_layout_review",
+      "findings": [],
+      "page_metrics": [
+        {
+          "page": 1,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3125,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.88,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 2700,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            61.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3963,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 4,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3895,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 5,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3971,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 6,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3685,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 7,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3850,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 8,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3694,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 9,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3984,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 10,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3700,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 11,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4279,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 12,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3628,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 13,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4391,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 14,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3885,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 15,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3665,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 16,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3933,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 17,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4085,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 18,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4078,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 19,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4009,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 20,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3894,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 21,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3797,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 22,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4175,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 23,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3760,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 24,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3691,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 25,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3872,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 26,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 4111,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 27,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3211,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        }
+      ],
+      "review_round": "final_rebuild",
+      "render_prefix": "/tmp/jva-layout-1.1.0/final-werkstatt"
+    },
+    {
+      "file": "strafvollzug-jva-schnellstart.pdf",
+      "reviewed_path": "/tmp/jva-release-1.1.0/strafvollzug-jva-schnellstart.pdf",
+      "sha256": "e33e1a4cda30002c6e39a2de96523c075d854c7336b6ca051083b4ee0797a9c6",
+      "page_count": 3,
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "additional_individual_full_page_views": [
+        1,
+        2,
+        3
+      ],
+      "result": "passed_visual_layout_review",
+      "findings": [],
+      "page_metrics": [
+        {
+          "page": 1,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3216,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.88,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3277,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 862,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        }
+      ],
+      "review_round": "final_rebuild",
+      "render_prefix": "/tmp/jva-layout-1.1.0/final-schnellstart"
+    },
+    {
+      "file": "strafvollzug-jva-hauptproblem.pdf",
+      "reviewed_path": "/tmp/jva-release-1.1.0/strafvollzug-jva-hauptproblem.pdf",
+      "sha256": "5f79cbc6de97016aa06219c4532a8d90141ab80e4b1006a3b8baaa49db636fa3",
+      "page_count": 3,
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "additional_individual_full_page_views": [
+        1,
+        2,
+        3
+      ],
+      "result": "passed_visual_layout_review",
+      "findings": [],
+      "page_metrics": [
+        {
+          "page": 1,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3274,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.88,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 3336,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            58.37,
+            540.28,
+            816.62
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 595.2756,
+          "height_pt": 841.8898,
+          "characters": 732,
+          "outside_page_characters": 0,
+          "bbox_pt": [
+            55.0,
+            59.02,
+            540.28,
+            816.62
+          ]
+        }
+      ],
+      "review_round": "previous_review_retained_after_sha256_identity_check",
+      "render_prefix": "/tmp/jva-layout-1.1.0/hauptproblem"
+    }
+  ],
+  "revision_note": "Nach finalem Neuaufbau wurden sämtliche 27 Werkstattseiten und sämtliche 3 Schnellstartseiten erneut gerendert und visuell geprüft. Hauptproblem blieb laut erneutem SHA-256-Abgleich bytegleich; dessen bereits durchgeführte vollständige Sichtprüfung wurde übernommen.",
+  "previous_review": {
+    "reviewed_at": "2026-10-16T11:29:45.041373+02:00",
+    "files": [
+      {
+        "file": "strafvollzug-jva-werkstatt.pdf",
+        "sha256": "65bf340e830e22b06b5d73d3a695e712759c39308b7314d6a6ea55ce9d012d4e",
+        "page_count": 27
+      },
+      {
+        "file": "strafvollzug-jva-schnellstart.pdf",
+        "sha256": "256696340e93d168bb8d8b700a5b9f50ba277425b20bae0ee0299c33464c7bc7",
+        "page_count": 3
+      },
+      {
+        "file": "strafvollzug-jva-hauptproblem.pdf",
+        "sha256": "5f79cbc6de97016aa06219c4532a8d90141ab80e4b1006a3b8baaa49db636fa3",
+        "page_count": 3
+      }
+    ],
+    "result": "passed_visual_layout_review"
+  }
+}

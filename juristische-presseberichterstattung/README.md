@@ -5,20 +5,66 @@
 
 Plugin für juristische Presseberichterstattung: Gerichtsbericht, Entscheidungsnews, Verdachtsbericht, Pressemitteilung, Headline, Bildprüfung, Quellenmatrix und Redaktionsschluss-Qualitygate.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`juristische-presseberichterstattung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/juristische-presseberichterstattung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/juristische-presseberichterstattung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/juristische-presseberichterstattung-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/juristische-presseberichterstattung-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/juristische-presseberichterstattung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/juristische-presseberichterstattung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Juristische Presseberichterstattung:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`juristische-presseberichterstattung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/juristische-presseberichterstattung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/juristische-presseberichterstattung/juristische-presseberichterstattung-werkstatt.md" download><code>juristische-presseberichterstattung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/juristische-presseberichterstattung/juristische-presseberichterstattung-schnellstart.md" download><code>juristische-presseberichterstattung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Juristische Presseberichterstattung — Verdachtsberichterstattung im Wirtschaftsverfahren Köln: [Gesamt-PDF](../testakten/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln/gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf), [`testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip), [`testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`juristische-presseberichterstattung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/juristische-presseberichterstattung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`juristische-presseberichterstattung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/juristische-presseberichterstattung-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`juristische-presseberichterstattung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/juristische-presseberichterstattung-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Juristische Presseberichterstattung — Verdachtsberichterstattung im Wirtschaftsverfahren Köln](../testakten/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln/README.md) | [Gesamt-PDF](../testakten/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln/gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf) | [`testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip) | [`testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du dieses Plugin öffnest, willst du aus juristischem Material schnell einen sauberen journalistischen Text bauen: Meldung, Gerichtsbericht, Entscheidungsbericht, Hintergrundstück, Pressemitteilung, FAQ, Headline-Set oder Redaktionsvermerk.
@@ -26,6 +72,8 @@ Wenn du dieses Plugin öffnest, willst du aus juristischem Material schnell eine
 Das Plugin arbeitet mit Quellenmatrix, Statussprache und Veröffentlichungsrisiko. Es trennt Tatsachen, Verdacht, Verfahrensstand, Zitat, Bewertung, Bildfrage und Gegendarstellung, damit der Text zügig erscheint und trotzdem belastbar bleibt.
 
 ## Kaltstart
+
+Lies Entscheidung, Terminsnotizen oder Redaktionsentwurf zuerst. Die folgenden Fragen dienen der internen Einordnung; frage nur nach fehlenden Angaben, die den bestellten Text verändern. Ein klarer Redaktionsauftrag führt direkt zur vollständigen Meldung oder Korrektur. Eine nachgereichte Stellungnahme wird im bestehenden Text samt Überschrift verarbeitet.
 
 1. Welches Format: Meldung, Bericht, Analyse, Pressemitteilung, FAQ, Liveblog oder Social-Thread?
 2. Welcher Status: Ermittlungsverfahren, Anklage, Hauptverhandlung, Urteil, Beschluss, Vergleich, Behördenentscheidung oder Gesetzgebung?
@@ -46,22 +94,29 @@ Starte mit einem verwertbaren Entwurf oder einer kurzen Redaktionsmatrix. Wenn F
 - Pressekodex: Wahrhaftigkeit, Sorgfalt, Unschuldsvermutung, Schutz der Persönlichkeit, Trennung von Werbung und Redaktion.
 - Bundesverfassungsgericht, Beschluss vom 03.11.2025, 1 BvR 573/25: Pressefreiheit und Verdachtsberichterstattung im wirtschaftlichen Kontext als aktueller Suchanker.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **7 auswählbare Skills**. Die **21 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-redaktionsauftrag` |
-| 2. Unterlagen, Sachverhalt und Quellen | `faktencheck-quellenmatrix` |
-| 3. Prüfung, Anspruch und Subsumtion | `korrektur-gegendarstellung-risiko`, `verdachtsberichterstattung-pruefung` |
-| 4. Gestaltung, Strategie und Verhandlung | `wirtschaftsverfahren-compliance-bericht` |
-| 5. Verfahren, Behörde und Gericht | `entscheidung-meldung-und-urteilsbericht`, `gerichtstermin-sitzungsbericht`, `liveblog-ticker-gericht`, `pressemitteilung-kanzlei-behoerde`, `strafverfahren-unschuldsvermutung`, `verwaltungsgericht-politikrecht-bericht` |
-| 6. Ergebnis, Schreiben und Kommunikation | `familien-erbrecht-diskret-bericht` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `redaktionsschluss-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `anonymisierung-identifizierbarkeit`, `bildunterschrift-foto-kug`, `faq-explainer-rechtsfrage`, `headline-und-vorspann`, `interview-fragekatalog-juristisch`, `persoenlichkeitsrecht-abwaegung`, `social-media-thread-recht` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Redaktionsauftrag | [`redaktionsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/redaktionsauftrag-bearbeiten/SKILL.md) |
+| 3. Quellenmatrix | [`quellenmatrix-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/quellenmatrix-bearbeiten/SKILL.md) |
+| 4. Aussageprüfung | [`aussagepruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/aussagepruefung-bearbeiten/SKILL.md) |
+| 5. Schutzprüfung | [`schutzpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/schutzpruefung-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -70,29 +125,18 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 20 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 7 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anonymisierung-identifizierbarkeit` | Wenn es um Anonymisierung und Identifizierbarkeit in Juristische Presseberichterstattung geht: entwirft Anonymisierung, Kürzung und Kontextreduktion, ohne den Bericht unverständlich zu machen. |
-| `bildunterschrift-foto-kug` | Wenn es um Bildunterschrift und Foto KUG in Juristische Presseberichterstattung geht: prüft Fotoauswahl, Bildunterschrift, Einwilligung, Zeitgeschichte, Beiwerk und Schutz unbeteiligter Personen. |
-| `entscheidung-meldung-und-urteilsbericht` | Wenn es um Entscheidung Meldung und Urteilsbericht in Juristische Presseberichterstattung geht: macht aus Urteil, Beschluss oder Pressemitteilung eine Meldung mit Tenor, Gründen, Folgen und Rechtsmittelstatus. |
-| `faktencheck-quellenmatrix` | Wenn es um Faktencheck Quellenmatrix in Juristische Presseberichterstattung geht: baut eine Quellenmatrix für jede Tatsachenbehauptung, priorisiert Lücken und markiert Formulierungsrisiken. |
-| `familien-erbrecht-diskret-bericht` | Wenn es um Diskrete Berichterstattung Familienrecht und Erbrecht in Juristische Presseberichterstattung geht: hilft bei diskreter Berichterstattung über Familien-, Erb- und Betreuungsfälle mit besonderem Schutz privater Details. |
-| `faq-explainer-rechtsfrage` | Wenn es um FAQ und Explainer Rechtsfrage in Juristische Presseberichterstattung geht: erklärt juristische Streitfragen als FAQ oder Hintergrundstück mit klarer Sprache und ohne Scheinsicherheit. |
-| `gerichtstermin-sitzungsbericht` | Wenn es um Gerichtstermin Sitzungsbericht in Juristische Presseberichterstattung geht: erstellt aus Terminsnotizen einen präzisen Gerichtsbericht mit Rollen, Anträgen, Beweisaufnahme, Zitaten und nächstem Termin. |
-| `headline-und-vorspann` | Wenn es um Headline und Vorspann in Juristische Presseberichterstattung geht: entwickelt Headlines und Vorspänne, die schnell sind, aber Verfahrensstatus und Risiko nicht verschärfen. |
-| `interview-fragekatalog-juristisch` | Wenn es um Interview Fragekatalog juristisch in Juristische Presseberichterstattung geht: entwickelt präzise Interviewfragen an Anwälte, Behörden, Unternehmen, Gerichte oder Betroffene ohne Suggestivfallen. |
-| `kaltstart-redaktionsauftrag` | Wenn es um Kaltstart Redaktionsauftrag in Juristische Presseberichterstattung geht: klärt Format, Quelle, Status, Betroffene, Redaktionsschluss und Ausgabeform; liefert sofort eine Redaktionsmatrix mit nächstem Textprodukt. |
-| `korrektur-gegendarstellung-risiko` | Wenn es um Korrektur Gegendarstellung Risiko in Juristische Presseberichterstattung geht: prüft vor und nach Veröffentlichung Berichtigung, Gegendarstellung, Unterlassung, Richtigstellung und Update-Text. |
-| `liveblog-ticker-gericht` | Wenn es um Liveblog Ticker Gericht in Juristische Presseberichterstattung geht: strukturiert Liveblog oder Ticker aus Gerichtsterminen mit Zeitmarken, Statussprache und späterer Bereinigung. |
-| `persoenlichkeitsrecht-abwaegung` | Wenn es um Persönlichkeitsrecht Abwägung in Juristische Presseberichterstattung geht: ordnet Informationsinteresse und Persönlichkeitsrecht, prüft Namensnennung, Detailtiefe, Prangerwirkung und Kontext. |
-| `pressemitteilung-kanzlei-behoerde` | Wenn es um Pressemitteilung Kanzlei Behörde in Juristische Presseberichterstattung geht: erstellt sachliche Pressemitteilungen für Kanzlei, Verband, Behörde oder Unternehmen mit Zitat, Kernbotschaft und Rückfrageblock. |
-| `redaktionsschluss-qualitygate` | Wenn es um Redaktionsschluss Qualitygate in Juristische Presseberichterstattung geht: führt vor Veröffentlichung den Schlusscheck für Quelle, Status, Stellungnahme, Namensnennung, Bild, Headline und Korrekturreserve durch. |
-| `social-media-thread-recht` | Wenn es um Social Media Thread Recht in Juristische Presseberichterstattung geht: macht aus juristischem Material kurze Social-Posts oder Threads mit Quellenstatus, Vorsichtssprache und Linklogik. |
-| `strafverfahren-unschuldsvermutung` | Wenn es um Strafverfahren und Unschuldsvermutung in Juristische Presseberichterstattung geht: formuliert Strafverfahrensberichte statusgenau von Ermittlungen bis Urteil und verhindert Vorverurteilung. |
-| `verdachtsberichterstattung-pruefung` | Wenn es um Verdachtsberichterstattung Prüfung in Juristische Presseberichterstattung geht: prüft Verdachtslage, Mindestbestand an Beweistatsachen, Stellungnahme, Unschuldsvermutung und faire Statussprache vor Veröffentlichung. |
-| `verwaltungsgericht-politikrecht-bericht` | Wenn es um Verwaltungsgericht und Politikrecht Bericht in Juristische Presseberichterstattung geht: erstellt Berichte zu Verwaltungsgericht, Normenkontrolle, Wahlrecht, Versammlungsrecht und Behördenentscheidungen. |
-| `wirtschaftsverfahren-compliance-bericht` | Wenn es um Wirtschaftsverfahren Compliance Bericht in Juristische Presseberichterstattung geht: bereitet komplexe Wirtschafts-, Insolvenz-, Aufsichts- und Compliance-Verfahren als verständlichen Bericht auf. |
+English: Complete list of all 7 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. V... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Arbeitsprodukt: Meldung, Sitzungsbericht, Pressemitteilung, Headline-Set, Fragenkatalog, Quellenmatrix oder Nachtrag veröffentlichungsfertig ausgeben. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`aussagepruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/aussagepruefung-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Aussageprüfung: Tatsache, Verdacht, Werturteil, Zitat, Gerichtsposition und eigene Einordnung strikt trennen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkrete... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/aussagepruefung-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Juristische Presseberichterstattung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`quellenmatrix-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/quellenmatrix-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Quellenmatrix: jede Tatsachenbehauptung, ihren Aktenfund, Quellenstatus, Gegenquelle und offene Lücke zeilenweise sichern. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/quellenmatrix-bearbeiten/SKILL.md) |
+| [`redaktionsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/redaktionsauftrag-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Redaktionsauftrag: Medium, Zielgruppe, Format, Länge, Redaktionsschluss, Veröffentlichungsort und gewünschte Aussage bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/redaktionsauftrag-bearbeiten/SKILL.md) |
+| [`schutzpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/schutzpruefung-bearbeiten/SKILL.md) | Für Juristische Presse- und Redaktionsarbeit: Schutzprüfung: Stellungnahme, Identifizierbarkeit, Unschuldsvermutung, Privat- oder Sozialsphäre, Bildrecht und Prangerwirkung abwägen. Vollständige Fachanweisungen und lokale Vorlagen werden... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=juristische-presseberichterstattung/skills/schutzpruefung-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

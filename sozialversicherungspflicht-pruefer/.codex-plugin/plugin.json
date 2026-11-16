@@ -1,0 +1,31 @@
+{
+  "name": "sozialversicherungspflicht-pruefer",
+  "version": "445.36.5",
+  "description": "Prüft Beschäftigungsstatus, Versicherungszweige, Befreiung und Beiträge. 14 Arbeitswege erfassen Geschäftsführung, Lehrkräfte, freie Mitarbeit, Versorgungswerke, Künstler, Plattformen, Drittpersonal und Auslandsbezüge. Mit zwölf Fallakten und vollständiger Fachbibliothek.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette",
+    "email": "39582916+Klotzkette@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialversicherungspflicht-pruefer",
+  "keywords": [
+    "sozialversicherung",
+    "statusfeststellung",
+    "geschaeftsfuehrer",
+    "versorgungswerk",
+    "lehrkraefte",
+    "beitraege"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sozialversicherungspflicht-Prüfer",
+    "shortDescription": "Status, Versicherungszweige, Befreiung und Beiträge prüfen.",
+    "longDescription": "Prüft Beschäftigungsstatus, Versicherungszweige, Befreiung und Beiträge. 14 Arbeitswege erfassen Geschäftsführung, Lehrkräfte, freie Mitarbeit, Versorgungswerke, Künstler, Plattformen, Drittpersonal und Auslandsbezüge. Mit zwölf Fallakten und vollständiger Fachbibliothek.",
+    "developerName": "Klotzkette",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Prüfe aus meinen Unterlagen die Sozialversicherungspflicht für die konkrete Tätigkeit und den genannten Zeitraum. Trenne Status, Versicherungszweige, Befreiung und Beiträge und frage gezielt nach entscheidenden Lücken."
+    ]
+  }
+}

@@ -5,20 +5,66 @@
 
 Web-Barrierefreiheits-Checker für BFSG, BFSGV, BITV 2.0, EN 301 549 und WCAG: Scope, Audit, Tastatur, Screenreader, Formulare, PDFs, Erklärung, Roadmap und Abnahme.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`barrierefreiheit-web-checker.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/barrierefreiheit-web-checker.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/barrierefreiheit-web-checker.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/barrierefreiheit-web-checker-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/barrierefreiheit-web-checker-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/barrierefreiheit-web-checker.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/barrierefreiheit-web-checker.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Barrierefreiheit Web Checker:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`barrierefreiheit-web-checker.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/barrierefreiheit-web-checker.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/barrierefreiheit-web-checker/barrierefreiheit-web-checker-werkstatt.md" download><code>barrierefreiheit-web-checker-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/barrierefreiheit-web-checker/barrierefreiheit-web-checker-schnellstart.md" download><code>barrierefreiheit-web-checker-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | BFSG-Verstoß Tannenkamp Mode-Versand GmbH — Online-Shop Barrierefreiheit Osnabrück: [Gesamt-PDF](../testakten/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck/gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf), [`testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip), [`testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`barrierefreiheit-web-checker.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/barrierefreiheit-web-checker.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`barrierefreiheit-web-checker-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/barrierefreiheit-web-checker-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`barrierefreiheit-web-checker-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/barrierefreiheit-web-checker-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BFSG-Verstoß Tannenkamp Mode-Versand GmbH — Online-Shop Barrierefreiheit Osnabrück](../testakten/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck/README.md) | [Gesamt-PDF](../testakten/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck/gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf) | [`testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip) | [`testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -36,20 +82,22 @@ Prüf- und Dokumentationsplugin für digitale Barrierefreiheit von Websites, Web
 
 | Skill | Zweck |
 | --- | --- |
-| `allgemein` | Kaltstart, Scope, Ziel, Rolle, Prüfobjekt und Workflow-Routing. |
-| `scope-bfsg-bitv-wad` | Prüft, welcher Rechtsrahmen einschlägig ist: BFSG/BFSGV, BITV 2.0, EU-WAD, freiwilliger Standard. |
+| `start-chronologie-fristen` | Kaltstart, Scope, Ziel, Rolle, Prüfobjekt und Workflow-Routing. |
+| `scope-bfsg-screenreader-semantik-abnahme` | Prüft, welcher Rechtsrahmen einschlägig ist: BFSG/BFSGV, BITV 2.0, EU-WAD, freiwilliger Standard. |
 | `en301549-wcag-pruefplan` | Baut einen Prüfkatalog nach EN 301 549 und WCAG mit A/AA-Prioritäten. |
 | `automatisierter-audit-axe-lighthouse` | Ordnet automatisierte Checks ein und warnt vor falscher Sicherheit. |
-| `tastatur-fokus-navigation` | Prüft Tastaturbedienbarkeit, Fokusreihenfolge, Skiplinks, Menüs, Modale und Overlays. |
+| `tastatur-fokus-ueberwachungsstelle` | Prüft Tastaturbedienbarkeit, Fokusreihenfolge, Skiplinks, Menüs, Modale und Overlays. |
 | `screenreader-semantik-aria` | Prüft Struktur, HTML-Semantik, Labels, ARIA, Überschriften, Live-Regionen und Fehlermeldungen. |
 | `kontrast-farbe-motion-responsive` | Prüft Kontrast, Farbe ohne Farbcodierung, Reflow, Zoom, Animationen und Bewegung. |
-| `formulare-checkout-ecommerce` | Prüft Webshop, Login, Warenkorb, Checkout, Fehlertexte, Zahlung und elektronische Verträge. |
-| `pdf-downloads-dokumente` | Prüft PDFs, Downloads, eingebettete Dokumente und Alternativen. |
+| `formulare-checkout-kontrast-farbe-native-apps` | Prüft Webshop, Login, Warenkorb, Checkout, Fehlertexte, Zahlung und elektronische Verträge. |
+| `pdf-downloads-remediation-roadmap-schulung` | Prüft PDFs, Downloads, eingebettete Dokumente und Alternativen. |
 | `erklaerung-feedback-durchsetzung` | Erstellt Barrierefreiheitserklärung, Feedbackweg und Behörden-/Marktüberwachungsreaktion. |
 | `remediation-roadmap-dokumentation` | Baut Maßnahmenplan, Priorisierung, Nachweise, Risikoampel und Re-Test-Protokoll. |
 | `agentur-abnahme-vergabe` | Formuliert Lastenheft, Abnahmekriterien und Nachbesserungsanforderungen an Agenturen. |
 
 ## Quellenstand
+
+Gezielter Normcheck am 16.10.2026: [Paragraf 1 BFSG](https://www.gesetze-im-internet.de/bfsg/__1.html) erfasst die dort genannten Produkte und Verbraucherdienstleistungen, darunter elektronischen Geschäftsverkehr, mit dem gesetzlichen Stichtag 28.06.2025. Nicht jede Website fällt allein wegen ihrer Erreichbarkeit darunter. Die Ausnahme für Kleinstunternehmen in [Paragraf 3 Absatz 3 BFSG](https://www.gesetze-im-internet.de/bfsg/__3.html) betrifft Dienstleistungen, nicht pauschal Produkte. Diese beiden Normtexte wurden gelesen; keine erneute Vollprüfung der technischen Standards, Übergangsregeln oder Behördenpraxis.
 
 Stand: Mai 2026. Rechtsprechung und Behördenpraxis werden nicht aus Modellwissen zitiert. Technische Standards ändern sich; insbesondere ist zwischen fachlich sinnvoller WCAG-2.2-Prüfung und rechtlich harmonisierten EN-301-549-Anforderungen zu unterscheiden.
 
@@ -57,23 +105,29 @@ Stand: Mai 2026. Rechtsprechung und Behördenpraxis werden nicht aus Modellwisse
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **60 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `barrierefreiheits-erstpruefung-und-mandatsziel`, `dokumente-intake`, `einstieg-routing`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `abnahme-formular-portal-und-einreichung`, `bfsg-tatbestand-beweis-und-belege`, `bitv-checkout-beweislast-ecommerce`, `checkout-beweislast-und-darlegungslast`, `erklaerung-interessen-formulare-pdfs`, `formulare-checkout-kontrast-farbe-native-apps`, `formulare-zahlen-schwellen-und-berechnung`, `pdf-formulare-automatisierter-audit-bf`, `pdfs-compliance-dokumentation-und-akte`, `quellen-livecheck`, `remediation-roadmap-dokumentation`, `screenreader-quellenkarte`, `spezial-screenreader-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `bfsg-zeitleiste-ecommerce-checkout-en301549`, `ecommerce-checkout-pruefung-spezial`, `native-apps-ios-android-pruefung`, `spezial-pruefung-sonderfall-und-edge-case`, `wcag-risikoampel-und-gegenargumente`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `en301549-wcag-pruefplan`, `tastatur-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `bfsgv-schulung-fristennotiz-agentur-abnahme`, `schulung-fristennotiz-und-naechster-schritt` |
-| 6. Ergebnis, Schreiben und Kommunikation | `ecommerce-mandantenkommunikation-entscheidungsvorlage`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `audit-barrierefreiheits-bfsg`, `automatisierter-audit-axe-lighthouse`, `barrierefreiheit-fehlerkatalog`, `mandantenkommunikation-redteam-qualitygate`, `spezial-barrierefreiheit-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `agentur-abnahme-vergabe`, `bf-kanzleiwebsite-konkret`, `bf-kiosk-selbstbedienung-mediendienste`, `bf-mediendienste-untertitel-spezial`, `bf-pdf-schriftsaetze-versand`, `erklaerung-feedback-durchsetzung`, `kontrast-farbe-motion-responsive`, `pdf-downloads-remediation-roadmap-schulung`, `roadmap-internationaler-bezug-und-schnittstellen`, `rolle-abschlussprodukt-und-uebergabe`, `schulung-und-rolle-accessibility-champion`, `scope-bfsg-screenreader-semantik-abnahme`, `scope-tastatur-wcag`, `screenreader-semantik-aria`, `sonderfall-edge-roadmap-rolle`, `tastatur-fokus-ueberwachungsstelle`, `ueberwachungsstelle-und-rechtsfolgen`, `usability-test-mit-betroffenen`, ... plus 1 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Prüfstandard | [`pruefstandard-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/pruefstandard-bearbeiten/SKILL.md) |
+| 3. Befund | [`befund-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/befund-bearbeiten/SKILL.md) |
+| 4. Rechtfertigung | [`rechtfertigung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/rechtfertigung-bearbeiten/SKILL.md) |
+| 5. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -81,68 +135,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abnahme-formular-portal-und-einreichung` | Wenn es um Abnahme: Formular, Portal und Einreichungslogik in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `agentur-abnahme-vergabe` | Wenn es um Agentur, Abnahme, Vergabe in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Barrierefreiheit Web Checker geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `audit-barrierefreiheits-bfsg` | Wenn es um Audit: Schriftsatz-, Brief- und Memo-Bausteine in Barrierefreiheit Web Checker geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anla... |
-| `automatisierter-audit-axe-lighthouse` | Wenn es um Automatisierter Audit in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreiheit-fehlerkatalog` | Wenn es um Barrierefreiheit Fehlerkatalog in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreiheits-erstpruefung-und-mandatsziel` | Wenn es um Barrierefreiheits: Erstprüfung, Rollenklärung und Mandatsziel in Barrierefreiheit Web Checker geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortsch... |
-| `bf-kanzleiwebsite-konkret` | Wenn es um BF: Kanzleiwebsite in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bf-kiosk-selbstbedienung-mediendienste` | Wenn es um BF: Kiosk-Terminals in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bf-mediendienste-untertitel-spezial` | Wenn es um BF: Mediendienste-Spezial in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bf-pdf-schriftsaetze-versand` | Wenn es um BF: PDF-Schriftsatz-Versand in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `bfsg-tatbestand-beweis-und-belege` | Wenn es um BFSG: Tatbestandsmerkmale, Beweisfragen und Beleglage in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `bfsg-zeitleiste-ecommerce-checkout-en301549` | Wenn es um BFSG: Zeitleiste und Pflichten in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bfsgv-schulung-fristennotiz-agentur-abnahme` | Wenn es um Bfsgv: Fristen, Form, Zuständigkeit und Rechtsweg in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bitv-checkout-beweislast-ecommerce` | Wenn es um BITV: Dokumentenmatrix, Lückenliste und Nachforderung in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `checkout-beweislast-und-darlegungslast` | Wenn es um Checkout: Beweislast, Darlegungslast und Substantiierung in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ecommerce-checkout-pruefung-spezial` | Wenn es um E-Commerce Checkout-Spezial in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ecommerce-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Ecommerce: Mandantenkommunikation und Entscheidungsvorlage in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Barrierefreiheit Web Checker geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `en301549-wcag-pruefplan` | Wenn es um EN 301 549 und WCAG-Prüfplan in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erklaerung-feedback-durchsetzung` | Wenn es um Erklärung, Feedback, Durchsetzung in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erklaerung-interessen-formulare-pdfs` | Wenn es um Erklaerung: Mehrparteienkonflikt und Interessenmatrix in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formulare-checkout-kontrast-farbe-native-apps` | Wenn es um Formulare, Checkout, E-Commerce in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formulare-zahlen-schwellen-und-berechnung` | Wenn es um Formulare: Zahlen, Schwellenwerte und Berechnung in Barrierefreiheit Web Checker geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `kontrast-farbe-motion-responsive` | Wenn es um Kontrast, Farbe, Motion, Responsive in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Mandantenkommunikation in Barrierefreiheit Web Checker geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `native-apps-ios-android-pruefung` | Wenn es um Native Apps iOS und Android in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pdf-downloads-remediation-roadmap-schulung` | Wenn es um PDFs, Downloads und Dokumente in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `pdf-formulare-automatisierter-audit-bf` | Wenn es um PDF und Formulare barrierefrei in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `pdfs-compliance-dokumentation-und-akte` | Wenn es um Pdfs: Compliance-Dokumentation und Aktenvermerk in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `remediation-roadmap-dokumentation` | Wenn es um Remediation-Roadmap und Dokumentation in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `roadmap-internationaler-bezug-und-schnittstellen` | Wenn es um Roadmap: Internationaler Bezug und Schnittstellen in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rolle-abschlussprodukt-und-uebergabe` | Wenn es um Rolle: Abschlussprodukt und Übergabe in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schulung-fristennotiz-und-naechster-schritt` | Wenn es um Schulung: Fristennotiz und nächster Schritt in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schulung-und-rolle-accessibility-champion` | Wenn es um Schulung und Champion-Modell in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `scope-bfsg-screenreader-semantik-abnahme` | Wenn es um Scope: BFSG, BITV, WAD, freiwilliger Standard in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- u... |
-| `scope-tastatur-wcag` | Wenn es um Scope: Behörden-, Gerichts- oder Registerweg in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `screenreader-quellenkarte` | Wenn es um Screenreader Quellenkarte in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `screenreader-semantik-aria` | Wenn es um Screenreader, Semantik, ARIA in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `sonderfall-edge-roadmap-rolle` | Wenn es um Prüfung: Sonderfall und Edge-Case-Prüfung in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-barrierefreiheit-red-team-und-qualitaetskontrolle` | Wenn es um Barrierefreiheit: Red-Team und Qualitätskontrolle in Barrierefreiheit Web Checker geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pruefung-sonderfall-und-edge-case` | Wenn es um Pruefung: Sonderfall und Edge-Case-Prüfung in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-screenreader-livequellen-und-rechtsprechungscheck` | Wenn es um Screenreader: Livequellen- und Rechtsprechungscheck in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Barrierefreiheit Web Checker — Allgemein in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `tastatur-fokus-ueberwachungsstelle` | Wenn es um Tastatur, Fokus, Navigation in Barrierefreiheit Web Checker geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `tastatur-verhandlung-vergleich-und-eskalation` | Wenn es um Tastatur: Verhandlung, Vergleich und Eskalation in Barrierefreiheit Web Checker geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `ueberwachungsstelle-und-rechtsfolgen` | Wenn es um Ueberwachung und Rechtsfolgen in Barrierefreiheit Web Checker geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `usability-test-mit-betroffenen` | Wenn es um Usability-Test mit Betroffenen in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wcag-risikoampel-und-gegenargumente` | Wenn es um Wcag: Risikoampel, Gegenargumente und Verteidigungslinien in Barrierefreiheit Web Checker geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wcag-vs-en-301-549-mapping` | Wenn es um Wcag Vs En 301 549 Mapping in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Barrierefreiheit Web Checker geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Barrierefreiheit Web Checker geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Barrierefreiheit Web Checker geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Barrierefreiheit Web Checker geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fac... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Arbeitsprodukt: Auditbericht, Prioritätenplan, Konformitätsunterlage, Barrierefreiheitserklärung, Verbraucherantwort oder Behördenstellungnahme erstellen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`befund-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/befund-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Befund: Nutzerweg, reproduzierbarer Fehler, betroffene Funktion, Schwere, Beleg und technische Abhilfe dokumentieren. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftr... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/befund-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Barrierefreiheit Web Checker. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/einstieg-routing/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Barrierefreiheit Web Checker ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/juristischer-argumentationskern/SKILL.md) |
+| [`pruefstandard-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/pruefstandard-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Prüfstandard: gesetzliche Anforderung, BFSGV, harmonisierte Norm, EN 301 549, WCAG-Kriterium und Versionsstand zuordnen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Au... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/pruefstandard-bearbeiten/SKILL.md) |
+| [`rechtfertigung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/rechtfertigung-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Rechtfertigung: grundlegende Veränderung oder unverhältnismäßige Belastung nur anhand der gesetzlichen Kriterien und Unterlagen prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach d... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/rechtfertigung-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Digitale Barrierefreiheit: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Barrierefreiheit Web Checker. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=barrierefreiheit-web-checker/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

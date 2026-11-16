@@ -5,22 +5,59 @@
 
 US Bankruptcy Code Title 11: Chapters 7/9/11/12/13/15, Automatic Stay, Claims, DIP, 363 Sales, Plans und Cross-Border.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`us-bankruptcy-code.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/us-bankruptcy-code.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/us-bankruptcy-code.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/us-bankruptcy-code-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/us-bankruptcy-code-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/us-bankruptcy-code.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/us-bankruptcy-code.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für US Bankruptcy Code:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`us-bankruptcy-code.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/us-bankruptcy-code.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/us-bankruptcy-code/us-bankruptcy-code-werkstatt.md" download><code>us-bankruptcy-code-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/us-bankruptcy-code/us-bankruptcy-code-schnellstart.md" download><code>us-bankruptcy-code-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`us-bankruptcy-code.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/us-bankruptcy-code.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`us-bankruptcy-code-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/us-bankruptcy-code-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`us-bankruptcy-code-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/us-bankruptcy-code-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
+[Oberordner Insolvenzrecht – alle eigenständigen Plugins nach Aufgabe](../insolvenzrecht-plugins/README.md)
 Wenn du das hier öffnest, willst du einen grenzüberschreitenden Fall sortieren: anwendbares Recht, Zuständigkeit und Durchsetzung klären und ein verwertbares Arbeitsprodukt bauen.
 Dieses Plugin ist der große deutsche Arbeitskompass zum U.S. Bankruptcy Code, also Title 11 des United States Code. Es deckt Chapter 7, 9, 11, 12, 13 und 15, Automatic Stay, Claims, DIP Financing, Cash Collateral, 363 Sales, Executory Contracts, Preferences, Fraudulent Transfers, Subchapter V, Plan Confirmation, Cramdown, Chapter 15 und distressed transactions ab.
 
@@ -47,7 +84,7 @@ Es ist für deutsche Kanzleien, Rechtsabteilungen, Kreditgeber, Käufer, Lizenzn
 
 | Skill | Schwerpunkt |
 | --- | --- |
-| `us-bankruptcy-code-allgemein` | US Bankruptcy Code Kaltstart |
+| `kaltstart-triage` | US Bankruptcy Code: Verfahren, Rolle und beauftragtes Arbeitsprodukt einordnen. |
 | `title11-map-chapters` | Title 11 Chapters Map |
 | `eligibility-109-credit` | Eligibility § 109 and Credit Counseling |
 | `venue-jurisdiction-core` | Venue, Jurisdiction and Core Proceedings |
@@ -151,8 +188,8 @@ Es ist für deutsche Kanzleien, Rechtsabteilungen, Kreditgeber, Käufer, Lizenzn
 ## Installation in der Plugin-Umgebung
 
 1. ZIP herunterladen (Link oben).
-2. Plugin-Menü öffnen, `Install from .zip` wählen und die Datei auswählen.
-3. Fertig. Skills sind sofort verfügbar.
+2. Plugin-Menü öffnen, `Upload plugin` wählen und die Datei auswählen.
+3. Plugin aktivieren und eine neue Aufgabe öffnen; den passenden Skill ausdrücklich auswählen.
 
 > **Hinweis:** Für den ZIP-Upload muss das Archiv direkt `.claude-plugin/plugin.json`, `skills/`, `assets/` und `references/` im ZIP-Root enthalten. Nicht das komplette Repository-ZIP aus "Code → Download ZIP" verwenden.
 
@@ -160,19 +197,29 @@ Es ist für deutsche Kanzleien, Rechtsabteilungen, Kreditgeber, Käufer, Lizenzn
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **101 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-triage` |
-| 4. Gestaltung, Strategie und Verhandlung | `chapter9-municipal-plan-chapter11-dip`, `chapter9-plan`, `chapter13-plan`, `plan-classification`, `plan-modification-1127`, `plan-pension-erisa-classification`, `plan-support-agreements` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `redteam-bankruptcy-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `absolute-priority-adequate-protection`, `adequate-protection`, `administrative-expenses-503`, `adversary-proceedings`, `asbestos-channeling-automatic-stay-avoidance`, `automatic-stay-362`, `avoidance-litigation`, `bankruptcy-appeals`, `board-duties-cash-collateral-chapter7-asset`, `cash-collateral-363`, `chapter7-asset-distribution`, `chapter7-liquidation`, `chapter11-dip`, `chapter12-family-farmer`, `chapter13-codebtor-stay-discharge-eligibility`, `chapter13-discharge`, `chapter13-eligibility`, `chapter15-comity-recognition-claim-objection`, ... plus 73 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/kaltstart-triage/SKILL.md) |
+| 2. Verfahrenslage | [`verfahrenslage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/verfahrenslage-bearbeiten/SKILL.md) |
+| 3. Rolle und Vermögen | [`rolle-und-vermoegen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/rolle-und-vermoegen-bearbeiten/SKILL.md) |
+| 4. Sofortwirkung | [`sofortwirkung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/sofortwirkung-bearbeiten/SKILL.md) |
+| 5. Streit- oder Planweg | [`streit-oder-planweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/streit-oder-planweg-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -180,109 +227,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 100 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `absolute-priority-adequate-protection` | Wenn es um Absolute Priority Rule in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `adequate-protection` | Wenn es um Adequate Protection in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `administrative-expenses-503` | Wenn es um Administrative Expenses Paragraf 503 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schr... |
-| `adversary-proceedings` | Wenn es um Adversary Proceedings in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `asbestos-channeling-automatic-stay-avoidance` | Wenn es um Asbestos Channeling Injunctions Paragraf 524(g) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `automatic-stay-362` | Wenn es um Automatic Stay Paragraf 362 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `avoidance-litigation` | Wenn es um Avoidance Litigation Strategy in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bankruptcy-appeals` | Wenn es um Bankruptcy Appeals in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `board-duties-cash-collateral-chapter7-asset` | Wenn es um Board Duties and Zone of Insolvency in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `cash-collateral-363` | Wenn es um Cash Collateral Paragraf 363 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter7-asset-distribution` | Wenn es um Chapter 7 Assets and Distribution in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter7-liquidation` | Wenn es um Chapter 7 Liquidation Workflow in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter9-municipal-plan-chapter11-dip` | Wenn es um Chapter 9 Municipal Eligibility in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `chapter9-plan` | Wenn es um Chapter 9 Plan Special Rules in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter11-dip` | Wenn es um Chapter 11 Debtor in Possession in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter12-family-farmer` | Wenn es um Chapter 12 Family Farmer Fisherman in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter13-codebtor-stay-discharge-eligibility` | Wenn es um Chapter 13 Co-Debtor Stay in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter13-discharge` | Wenn es um Chapter 13 Discharge in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter13-eligibility` | Wenn es um Chapter 13 Eligibility in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter13-plan` | Wenn es um Chapter 13 Plan Confirmation in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter15-comity-recognition-claim-objection` | Wenn es um Chapter 15 Comity and Relief in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `chapter15-recognition` | Wenn es um Chapter 15 Recognition in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `claim-objection-502` | Wenn es um Claim Objection Paragraf 502 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `claims-proof-claim-501` | Wenn es um Proof of Claim Paragraf 501 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `claims-trading-confirmation-contested-matters` | Wenn es um Claims Trading Rule 3001(e) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `confirmation-1129` | Wenn es um Confirmation Paragraf 1129 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `contested-matters` | Wenn es um Contested Matters in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `conversion-dismissal` | Wenn es um Conversion and Dismissal in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cramdown-1129b-credit-bidding-creditors` | Wenn es um Cramdown Paragraf 1129(b) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `credit-bidding-363k` | Wenn es um Credit Bidding Paragraf 363(k) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `creditors-committee-1102` | Wenn es um Creditors Committee Paragraf 1102 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `critical-vendors` | Wenn es um Critical Vendors in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `derivatives-repos-dip-financing-discharge` | Wenn es um Derivatives, Repos and Swaps in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dip-financing-364` | Wenn es um DIP Financing Paragraf 364 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `discharge-chapter7-727` | Wenn es um Chapter 7 Discharge Paragraf 727 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `disclosure-statement-1125` | Wenn es um Disclosure Statement Paragraf 1125 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `effective-date-eligibility-credit-employee` | Wenn es um Effective Date and Plan Closing in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `eligibility-109-credit` | Wenn es um Eligibility Paragraf 109 and Credit Counseling in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `employee-wages-benefits-warn` | Wenn es um Employees Wages Benefits and WARN in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `environmental-claims` | Wenn es um Environmental Claims in Bankruptcy in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `equitable-subordination-estate-property` | Wenn es um Subordination Paragraf 510 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `estate-property-541` | Wenn es um Property of the Estate Paragraf 541 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `examiner-1104` | Wenn es um Examiner Paragraf 1104 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `exclusivity-1121` | Wenn es um Exclusivity Paragraf 1121 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `executory-contracts-exemptions-financial` | Wenn es um Executory Contracts Paragraf 365 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `exemptions-522` | Wenn es um Exemptions Paragraf 522 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `financial-contract-safe-harbors` | Wenn es um Financial Contract Safe Harbors in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `first-day-motions` | Wenn es um First-Day Motions in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `foreign-creditor-fraudulent-lbo-transfers` | Wenn es um Foreign Creditor German Client in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fraudulent-lbo` | Wenn es um Fraudulent Conveyance LBO in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `fraudulent-transfers-548` | Wenn es um Fraudulent Transfers Paragraf 548 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `free-clear-sale-363f` | Wenn es um Free and Clear Sale Paragraf 363(f) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `german-insolvency-healthcare-bankruptcy` | Wenn es um German Insolvency Comparison in US Bankruptcy Code geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `healthcare-bankruptcy` | Wenn es um Health Care Business Bankruptcy in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insurance-dno` | Wenn es um Insurance and D&O in Bankruptcy in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `intellectual-property-license-365-n` | Wenn es um Intellectual Property License Paragraf 365(n) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `involuntary-petition-303` | Wenn es um Involuntary Petition Paragraf 303 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um US Bankruptcy Code Kaltstart in US Bankruptcy Code geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `landlord-tenant-retail` | Wenn es um Landlord Tenant and Retail Bankruptcy in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mass-tort-bankruptcy` | Wenn es um Mass Tort Bankruptcy in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `means-test-707b` | Wenn es um Means Test Paragraf 707(b) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mediation-settlement-meeting-creditors` | Wenn es um Settlement and Rule 9019 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `meeting-creditors-341` | Wenn es um Meeting of Creditors Paragraf 341 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nondischargeability-523` | Wenn es um Nondischargeability Paragraf 523 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `pacer-ecf-confidentiality` | Wenn es um PACER, ECF and Confidentiality in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plan-classification` | Wenn es um Plan Classification in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plan-modification-1127` | Wenn es um Plan Modification Paragraf 1127 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `plan-pension-erisa-classification` | Wenn es um Pension, ERISA and PBGC in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `plan-support-agreements` | Wenn es um Plan Support Agreements in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `postpetition-transfers-preference-ordinary` | Wenn es um Postpetition Transfers Paragraf 549 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `preference-ordinary-course` | Wenn es um Preference Defense Ordinary Course in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `preferences-547` | Wenn es um Preferences Paragraf 547 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `priority-claims-507` | Wenn es um Priority Claims Paragraf 507 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `professional-fees-professionals-retention` | Wenn es um Professional Fees Paragraf 330 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `professionals-retention-327` | Wenn es um Professionals Retention Paragraf 327 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `real-property-leases-365` | Wenn es um Real Property Leases Paragraf 365 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `redteam-bankruptcy-qualitygate` | Wenn es um Bankruptcy Red-Team Qualitygate in US Bankruptcy Code geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rsa-lockup-fiduciary-out` | Wenn es um Lock-Up and Fiduciary Out in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sale-bidding-schedules-sofa-secured-claim` | Wenn es um Sale Process and Bidding Procedures in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `schedules-sofa-disclosure` | Wenn es um Schedules and SOFA Disclosure in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `secured-claim-valuation-506` | Wenn es um Secured Claim Valuation Paragraf 506 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `setoff-recoupment-553` | Wenn es um Setoff and Recoupment Paragraf 553 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `single-asset-small-business-stalking-horse` | Wenn es um Single Asset Real Estate in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `small-business-case` | Wenn es um Small Business Case in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `stalking-horse-credit-bid` | Wenn es um Stalking Horse and Credit Bid in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stay-relief-362d` | Wenn es um Stay Relief Paragraf 362(d) in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strong-arm-544` | Wenn es um Strong Arm Paragraf 544 in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `structured-finance-securitization` | Wenn es um Structured Finance and Securitization in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `subchapter-v-confirmation` | Wenn es um Subchapter V Confirmation in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `subchapter-v-overview` | Wenn es um Subchapter V Overview in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tax-claims-title11-map-trustee-turnover` | Wenn es um Tax Claims in Bankruptcy in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `title11-map-chapters` | Wenn es um Title 11 Chapters Map in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `trustee-us-trustee-roles` | Wenn es um Trustee and U.S. Trustee Roles in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `turnover-542` | Wenn es um Turnover Paragraf 542 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `use-sale-utilities-valuation-enterprise-venue` | Wenn es um Use, Sale or Lease Paragraf 363 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `utilities-366` | Wenn es um Utilities Paragraf 366 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `valuation-enterprise` | Wenn es um Enterprise Valuation in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `venue-jurisdiction-core` | Wenn es um Venue, Jurisdiction and Core Proceedings in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `voluntary-petition-voting-tabulation` | Wenn es um Voluntary Petition Intake in US Bankruptcy Code geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `voting-tabulation-1126` | Wenn es um Voting and Tabulation Paragraf 1126 in US Bankruptcy Code geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste H... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Arbeitsprodukt: US-Counsel-Briefing, Docket- und Fristenblatt, Claim-Paket, Objection, Motion-Check, Planmatrix oder Chapter-15-Vermerk ausformulieren. Vollständige Fachanw... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in US Bankruptcy Code ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/kaltstart-triage/SKILL.md) | Für US Bankruptcy Code Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/kaltstart-triage/SKILL.md) |
+| [`rolle-und-vermoegen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/rolle-und-vermoegen-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Rolle und Vermögen: Mandantenrolle, estate property, Sicherheiten, Forderungsklasse, Verträge und deutsche Vermögensbezüge trennen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/rolle-und-vermoegen-bearbeiten/SKILL.md) |
+| [`sofortwirkung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/sofortwirkung-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Sofortwirkung: automatic stay, cash collateral, first-day relief, notice, hearing und möglicher Eilantrag priorisieren. Vollständige Fachanweisungen und lokale Vorlagen wer... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/sofortwirkung-bearbeiten/SKILL.md) |
+| [`streit-oder-planweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/streit-oder-planweg-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Streit- oder Planweg: proof of claim, objection, adversary proceeding, sale, financing, assumption oder rejection und Planbehandlung auswählen. Vollständige Fachanweisungen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/streit-oder-planweg-bearbeiten/SKILL.md) |
+| [`verfahrenslage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/verfahrenslage-bearbeiten/SKILL.md) | Für US-Insolvenzrecht und grenzüberschreitende Restrukturierung: Verfahrenslage: Gericht, Chapter, Petition Date, debtor, debtor in possession, docket, Fristen und beantragte relief feststellen. Vollständige Fachanweisungen und lokale Vo... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=us-bankruptcy-code/skills/verfahrenslage-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

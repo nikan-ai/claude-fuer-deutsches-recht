@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Immobilienrechtspraxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Immobilienrechtspraxis."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Immobilienrechtspraxis** vom ersten Sachverhalt zu Roll
 
 ## Fachlandkarte dieses Plugins
 
-- `betriebskostenabrechnung-erstellen-asset-management` — Betriebskostenabrechnung Erstellen Asset Management
-- `betriebskostenabrechnung-pruefen-asset-management` — Betriebskostenabrechnung Prüfen Asset Management
-- `case-gegen-grundbuchanalyse` — Case Gegen Grundbuchanalyse
-- `case-management-grundbuchanalyse-immo` — Case Management Grundbuchanalyse Immo
-- `gegen-verhandlung-vergleich-und-eskalation` — Gegen Verhandlung Vergleich und Eskalation
-- `grundbuchanalyse` — Grundbuchanalyse
-- `grundbuchanalyse-zahlen-schwellen-und-berechnung` — Grundbuchanalyse Zahlen Schwellen und Berechnung
-- `immo-aufteilungsplan-weg` — Immo Aufteilungsplan WEG
-- `immo-bauliche-veraenderung-energieausweis` — Immo Bauliche Veraenderung Energieausweis
-- `immo-bauvertrag-vob-kaufvertrag-grundstueck` — Immo Bauvertrag VOB Kaufvertrag Grundstueck
-- `immo-energieausweis` — Immo Energieausweis
-- `immo-gewerbliche-mieter-konkurs` — Immo Gewerbliche Mieter Konkurs
-- `immo-grundschuld-bestellung-makler-honorar` — Immo Grundschuld Bestellung Makler Honorar
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: betriebskostenabrechnung-erstellen-asset-management) — Betriebskostenabrechnung Erstellen Asset Management
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: betriebskostenabrechnung-pruefen-asset-management) — Betriebskostenabrechnung Prüfen Asset Management
+- `arbeitsprodukt-bearbeiten` (Fachthema: case-gegen-grundbuchanalyse) — Case Gegen Grundbuchanalyse
+- `arbeitsprodukt-bearbeiten` (Fachthema: case-management-grundbuchanalyse-immo) — Case Management Grundbuchanalyse Immo
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: gegen-verhandlung-vergleich-und-eskalation) — Gegen Verhandlung Vergleich und Eskalation
+- `arbeitsprodukt-bearbeiten` (Fachthema: grundbuchanalyse) — Grundbuchanalyse
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: grundbuchanalyse-zahlen-schwellen-und-berechnung) — Grundbuchanalyse Zahlen Schwellen und Berechnung
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: immo-aufteilungsplan-weg) — Immo Aufteilungsplan WEG
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: immo-bauliche-veraenderung-energieausweis) — Immo Bauliche Veraenderung Energieausweis
+- `grundbuch-und-rang-bearbeiten` (Fachthema: immo-bauvertrag-vob-kaufvertrag-grundstueck) — Immo Bauvertrag VOB Kaufvertrag Grundstueck
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: immo-energieausweis) — Immo Energieausweis
+- `rechtsgeschaeft-und-form-bearbeiten` (Fachthema: immo-gewerbliche-mieter-konkurs) — Immo Gewerbliche Mieter Konkurs
+- `grundbuch-und-rang-bearbeiten` (Fachthema: immo-grundschuld-bestellung-makler-honorar) — Immo Grundschuld Bestellung Makler Honorar
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Immobilienrechtspraxis** vom ersten Sachverhalt zu Roll
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Immobilien-, Grundbuch- und Notarrecht:** Passen tatsächliche Rechtslage, Urkunden und Register- oder Objektstand zum selben Zeitpunkt zusammen?
+
+**Erste Ansicht:** Zeige Soll- und Ist-Stand von Beteiligten, Rechten, Vertretung und Eintragungen nebeneinander. Verbinde jede Abweichung mit der maßgeblichen Urkunde und dem notwendigen Vollzugsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Person, Recht, Objekt oder Registerstand zeigt die zugehörige Nachweiskette. Änderungen am Schaubild sind Entwurfsszenarien, keine vorgenommenen Registereintragungen.
+
+**Datengrundlage:** Objekt oder Rechtsträger, Registerart, Abrufstand, Rechtsposition, Vertretungsnachweis, Urkundenfundstelle und Vollzugsvoraussetzung. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründeter Vollzugsvermerk und die beauftragte Anmeldung, Liste, Vertragsfassung oder Rückfrage. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->
