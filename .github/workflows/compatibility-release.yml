@@ -13,7 +13,12 @@ on:
       - 'ki-halluzinationsreduzierer/**'
       - 'phishing-vorfall-pruefer/scripts/**'
       - 'scripts/*runtime-performance*'
+      - 'scripts/*plugin-consolidation*'
+      - 'quality/plugin-consolidation/**'
       - 'scripts/*quickstart-usability*'
+      - 'scripts/*werkstatt-visualisierung*'
+      - 'scripts/werkstatt_visualisierung.py'
+      - 'scripts/data/werkstatt-visualisierung-profile.json'
       - 'scripts/*readme*'
       - 'scripts/*release-zips*'
       - 'scripts/validate-manufacturer-plugins.py'
@@ -54,8 +59,9 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Vorhandener Komponententag, z. B. kompatibilitaet-v445.35.1'
-        required: true
+        description: 'Komponententag zur Veröffentlichung. Leer lassen, um den gewählten Stand zu prüfen.'
+        type: string
+        required: false
 
 permissions:
   contents: read
@@ -72,7 +78,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 1
-          ref: ${{ github.event.inputs.tag || github.ref }}
+          ref: ${{ github.event.inputs.tag || github.sha }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -91,10 +97,15 @@ jobs:
           python3 scripts/validate-runtime-performance.py
           python3 scripts/quality_lab.py audit --require-editorial --require-workflow
           python3 scripts/audit-prompt-profile-routing.py
+          python3 scripts/sync-werkstatt-visualisierung.py --check
           python3 scripts/validate-manufacturer-plugins.py
       - name: Regressionen prüfen
         run: |
           python3 scripts/test-runtime-performance.py
+          python3 scripts/test-plugin-consolidation.py
+          python3 scripts/test-skill-activation.py
+          python3 scripts/test-skill-source-replacements.py
+          python3 scripts/test-marketplace-import.py
           python3 scripts/test-compatibility-release.py
           python3 scripts/test-scoped-release-routing.py
           python3 scripts/test-phishing-release.py
@@ -110,6 +121,7 @@ jobs:
           python3 scripts/audit-quickstart-usability.py
           python3 scripts/test-portable-starts.py
           python3 scripts/test-prompt-openings.py
+          python3 scripts/test-werkstatt-visualisierung.py
           python3 scripts/test-prompt-routing-scope.py
           python3 scripts/test-schwerpunkt-coverage.py SchwerpunktCoverage.test_every_specialist_has_concrete_skill_and_prompt SchwerpunktContractRegressions
           python3 scripts/test-quality-lab.py
@@ -130,7 +142,7 @@ jobs:
 
   publish:
     needs: check
-    if: github.event_name != 'pull_request'
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.tag != '')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
