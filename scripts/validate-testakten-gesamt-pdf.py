@@ -5,14 +5,16 @@ Jede testakten/<slug>/ Akte muss genau das Standard-Gesamt-PDF
 gesamt-pdf/<slug>_gesamt.pdf enthalten. Das PDF muss groesser als 1 KB sein,
 mit %PDF beginnen, ein EOF-Marker haben und im README verlinkt sein.
 
-Der Check nutzt nur die Python-Standardbibliothek, damit er in GitHub Actions
-ohne zusaetzliche PDF-Abhaengigkeiten laeuft.
+Der Check prüft zusätzlich mit pypdf, dass keine alten Hinweisblätter im
+Akteninhalt verblieben sind. Herkunftshinweise stehen neben den Downloads.
 """
 
 from __future__ import annotations
 
 import sys
 from pathlib import Path
+
+from testakte_disclaimer import pdf_content_errors
 
 ROOT = Path(__file__).resolve().parent.parent
 TESTAKTEN = ROOT / "testakten"
@@ -23,6 +25,13 @@ TESTAKTEN = ROOT / "testakten"
 SKIP_DIRS = {
     "formatvorlagen-paradebeispiele",
     "megaprompts",
+}
+
+# Gesondert bestellter Teilband aus denselben Tagesseiten der Gesamtakte.
+# Andere zusätzliche PDFs bleiben unzulässig. Auch dieser Teilband muss
+# vollständig geprüft und unmittelbar mit Herkunftshinweis verlinkt sein.
+DERIVED_PDFS = {
+    "bauwirtschaft-hildesheim-lebensakte": ("bauwirtschaft-hildesheim-lebensakte_bautagebuch.pdf",),
 }
 
 
@@ -65,6 +74,12 @@ def is_probable_pdf(path: Path) -> str | None:
 
 def main() -> int:
     errors: list[str] = []
+    for slug in sorted(SKIP_DIRS):
+        pdf = TESTAKTEN / slug / "gesamt-pdf" / f"{slug}_gesamt.pdf"
+        if not path_exists(pdf):
+            continue
+        for notice_problem in pdf_content_errors(read_bytes(pdf)):
+            errors.append(f"{slug}: {notice_problem}: {pdf.relative_to(ROOT)}")
     dirs = sorted(d for d in TESTAKTEN.iterdir() if d.is_dir() and d.name not in SKIP_DIRS)
     for d in dirs:
         slug = d.name
@@ -75,13 +90,16 @@ def main() -> int:
             continue
         extra_pdfs = []
         if path_exists(gesamt_dir):
-            extra_pdfs = sorted(p for p in gesamt_dir.glob("*.pdf") if p != pdf)
+            extra_pdfs = sorted(p for p in gesamt_dir.glob("*.pdf") if p != pdf and p.name not in DERIVED_PDFS.get(slug, ()))
         if extra_pdfs:
             listed = ", ".join(str(p.relative_to(ROOT)) for p in extra_pdfs)
             errors.append(f"{slug}: zusaetzliche Gesamt-PDFs gefunden: {listed}")
         problem = is_probable_pdf(pdf)
         if problem:
             errors.append(f"{slug}: {problem}: {pdf.relative_to(ROOT)}")
+        else:
+            for notice_problem in pdf_content_errors(read_bytes(pdf)):
+                errors.append(f"{slug}: {notice_problem}: {pdf.relative_to(ROOT)}")
         readme_candidates = [d / "README.md"] + sorted(d.glob("00_*.md")) + sorted(d.glob("aktenuebersicht*.md"))
         readme = next((p for p in readme_candidates if path_exists(p)), None)
         if readme:
@@ -91,6 +109,19 @@ def main() -> int:
                 errors.append(f"{slug}: {readme.name} verlinkt {rel} nicht")
         else:
             errors.append(f"{slug}: README.md / 00_*.md / aktenuebersicht*.md fehlt")
+        for filename in DERIVED_PDFS.get(slug, ()):
+            derived = gesamt_dir / filename
+            if not path_exists(derived):
+                errors.append(f"{slug}: abgeleiteter Teilband fehlt: {filename}")
+                continue
+            problem = is_probable_pdf(derived)
+            if problem:
+                errors.append(f"{slug}: {problem}: {filename}")
+            else:
+                for notice_problem in pdf_content_errors(read_bytes(derived)):
+                    errors.append(f"{slug}: {notice_problem}: {filename}")
+            if readme and f"gesamt-pdf/{filename}" not in read_text(readme):
+                errors.append(f"{slug}: README verlinkt den abgeleiteten Teilband {filename} nicht")
 
     if errors:
         print("validate-testakten-gesamt-pdf: FEHLER", file=sys.stderr)

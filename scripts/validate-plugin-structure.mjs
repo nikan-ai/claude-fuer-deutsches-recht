@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
+import { validateSkillMapReferences } from './skill-map-references.mjs';
+import { auditLinkContexts } from './audit-link-contexts.mjs';
 
 const root = process.cwd();
 const textExt = new Set(['.md', '.json', '.yaml', '.yml', '.py', '.sh']);
@@ -21,6 +23,7 @@ function exists(file) {
 function walk(dir, predicate, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.name === '.git') continue;
+    if (entry.name === '.venv') continue;
     if (entry.name === 'dist') continue;
     if (entry.name === 'node_modules') continue;
     if (entry.name === '__pycache__') continue;
@@ -93,7 +96,7 @@ function checkMarketplace() {
     if (manifest.author && (typeof manifest.author !== 'object' || Array.isArray(manifest.author) || !manifest.author.name)) {
       errors.push(`${rel(manifestPath)}: author must be an object with name`);
     }
-    for (const unsupported of ['language', 'rechtsgebiet', 'adapted_from']) {
+    for (const unsupported of ['language', 'rechtsgebiet', 'adapted_from', 'interface']) {
       if (Object.hasOwn(manifest, unsupported)) {
         errors.push(`${rel(manifestPath)}: unsupported manifest key ${unsupported}`);
       }
@@ -142,6 +145,10 @@ function checkSkills() {
   ]);
   const skills = walk(root, f => path.basename(f) === 'SKILL.md');
   for (const skill of skills) {
+    const skillText = read(skill);
+    for (const error of validateSkillMapReferences(skill, skillText)) {
+      errors.push(`${rel(skill)}: ${error}`);
+    }
     const fm = parseFrontmatter(skill);
     if (!fm) continue;
     if (!topLevelField(fm, 'name')) errors.push(`${rel(skill)}: missing name`);
@@ -191,6 +198,11 @@ function checkSkills() {
         errors.push(`${rel(skill)}: description darf keine Zahl-Komma-Zahl-Sequenz enthalten (Cowork-Validator bricht); nutze 'Rn', 'und' oder '/'`);
       }
     }
+    const bodyMatch = skillText.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/);
+    const body = bodyMatch ? bodyMatch[1].trim() : '';
+    if (body.length < 300) {
+      errors.push(`${rel(skill)}: skill body is too short (${body.length} chars; minimum 300)`);
+    }
   }
 }
 
@@ -237,14 +249,22 @@ function checkMarkdownLinks() {
   const files = walk(root, f => ['.md', '.yaml', '.yml', '.json'].includes(path.extname(f)));
   const linkPattern = /\[[^\]]*]\(([^)]+)\)/g;
   for (const file of files) {
-    const text = read(file);
-    for (const match of text.matchAll(linkPattern)) {
+    let contexts;
+    try {
+      contexts = auditLinkContexts(file, read(file), root);
+    } catch (error) {
+      errors.push(`${rel(file)}: ${error.message}`);
+      continue;
+    }
+    for (const context of contexts) {
+    for (const match of context.text.matchAll(linkPattern)) {
       const target = match[1].trim();
       if (/^(https?:|mailto:|#|\/)/.test(target)) continue;
       const clean = target.split('#')[0].replaceAll('%20', ' ');
       if (!clean || /^[A-Za-z]+:/.test(clean)) continue;
-      const resolved = path.resolve(path.dirname(file), clean);
+      const resolved = path.resolve(path.dirname(context.file), clean);
       if (!exists(resolved)) errors.push(`${rel(file)}: relative markdown link missing: ${target}`);
+    }
     }
   }
 }
