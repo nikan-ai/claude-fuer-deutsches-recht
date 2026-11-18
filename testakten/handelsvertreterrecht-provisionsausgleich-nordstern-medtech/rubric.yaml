@@ -1,28 +1,35 @@
-# Auto-generierte Baseline-Rubric (v301).
-# Manuelle Anpassung empfohlen - mindestens 3 weitere fall-spezifische
-# Pass/Fail-Checks hinzufuegen (BAG-Az., Frist-Erwaehnung, spezifische Anlage).
-
-name: "Handelsvertreterrecht Provisionsausgleich Nordstern Medtech"
-plugin: "tbd"
-
+name: Handelsvertreterrecht Provisionsausgleich Nordstern Medtech
+plugin: handelsvertreterrecht
+description: Fallbezogene Qualitätsprüfung der Vertriebsakte mit Kündigung, Buchauszug, Bezirksumsätzen, Stornoreserve und Wettbewerbsabrede.
 checks:
-  - id: r01-readme-vorhanden
+  - id: r01-gesamt-pdf-vorhanden
     check_type: file_exists
-    description: "README.md vorhanden"
-    path: "README.md"
-
-  - id: r02-gesamt-pdf-vorhanden
-    check_type: file_exists
-    description: "Gesamt-PDF gebaut"
-    path: "gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf"
-
-  - id: r03-mindestens-3-aktenstuecke
-    check_type: file_count
-    description: "mindestens 1 Markdown-Aktenstueck"
-    glob: "*.md"
-    min: 1
-
-  - id: r04-fachspezifischer-check-zu-ergaenzen
+    description: Das Gesamt-PDF ist gebaut.
+    path: gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf
+  - id: r02-vertrag-konkret
+    check_type: text_contains
+    description: Der Handelsvertretervertrag bezeichnet Mandantin und Ansprechpartner konkret.
+    path: 04-handelsvertretervertrag-auszug.docx
+    contains: Thorsten Altfeld
+  - id: r03-kuendigung-in-chronologie
+    check_type: text_contains
+    description: Die Chronologie enthält den konkreten Kündigungsvorgang.
+    path: 02-zeitstrahl-und-fristen.docx
+    contains: 22. Mai 2026
+  - id: r04-entscheidung-buchauszug
+    check_type: text_contains
+    description: Die Geschäftsführungsunterlage enthält den konkreten Buchauszugsbedarf.
+    path: 23-entscheidungsvorlage-kurzfassung.docx
+    contains: Umfang und Termin eines Buchauszugs
+  - id: r05-besprechung-provisionsvorgang
+    check_type: text_contains
+    description: Die Besprechungsunterlage führt einen konkreten Provisionsvorgang.
+    path: 24-arbeitsstand-fuer-besprechung.pdf
+    contains: PO-1912
+  - id: r06-arbeitsunterlagen
+    check_type: working_file_count
+    description: Die Akte enthält mindestens fünfzehn exportierbare Arbeitsunterlagen.
+    min: 15
+  - id: r07-fachpruefung
     check_type: human_review
-    description: "Fachspezifischer Pass/Fail-Check fuer dieses Mandat fehlt - manuell ergaenzen"
-    note: "Beispiel: Vor jeder Schriftsatz-Ausgabe muss BAG-Az. live verifiziert werden"
+    description: Vertragspartner, Gebiet, Kündigungsdatum, Kunden, Beträge und Dokumentenfundstellen sind aktenweit widerspruchsfrei oder ausdrücklich als Widerspruch markiert.

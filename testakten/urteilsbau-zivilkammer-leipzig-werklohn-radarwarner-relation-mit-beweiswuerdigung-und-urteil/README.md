@@ -1,18 +1,25 @@
 # Akte: Werklohnklage Radarwarner GmbH ./. Schreinmoor Bauträger AG — Rohbaumängel Wohnanlage Spreebogen Plagwitz, Hilfsaufrechnung, Beweiswürdigung SV-Gutachten, Urteil § 313 ZPO
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 293 KB) | PDF | [`gesamt-pdf/urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil_gesamt.pdf`](gesamt-pdf/urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil_gesamt.pdf`](gesamt-pdf/urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-urteilsbau-zivilkammer-leipzig-werklohn-radarwarner-relation-mit-beweiswuerdigung-und-urteil-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
+
+English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -31,7 +38,7 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 - Zeugen: Polier Wilhelm Eickenmüller (Werklauf, kontrovers) und Bauleiter Thorsten Schwingenstein-Birkenhainer (Abnahme, VOB/B § 12).
 - Vorprozess OLG Dresden 18 U 14/24 teilrechtskräftig (Schlussrechnung); Strafanzeige StA Leipzig 188 Js 4711/26 gegen Polier Eickenmüller wegen Subventionsbetrug nach § 170 II StPO eingestellt.
 - Verjährungsfrage: VOB/B § 13 Nr. 4 (4 Jahre) vs. BGB § 634a (5 Jahre); Gericht: VOB/B wirksam einbezogen, Verjährungsfrist 4 Jahre — Teile der Mängelansprüche verjährt.
-- Ergebnis: Klägerklage teilweise begründet; Hilfsaufrechnung teilweise durchgreifend; Kostenentscheidung § 92 ZPO quotal.
+- Werklohnforderung und Hilfsaufrechnung sind Gegenstand des laufenden Verfahrens.
 
 ---
 
@@ -69,7 +76,6 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 | Nr. | Datei | Inhalt |
 |---|---|---|
 | 01 | [`01-aktenintake-checkliste.docx`](01-aktenintake-checkliste.docx) | Richterliche Intake-Checkliste: Parteibezeichnungen, Zuständigkeit, Streitwert, Fristen |
-| 02 | [`02-rubrum-und-tenor-entwurf.docx`](02-rubrum-und-tenor-entwurf.docx) | Rubrum-Entwurf und Tenor-Varianten (Verurteilung / Teilabweisung / Aufrechnung) |
 | 03 | [`03-relation-erste-stufe.docx`](03-relation-erste-stufe.docx) | Relation 1. Stufe: Sachverhaltserfassung, Parteivortrag, Beweisangebote |
 | 04 | [`04-streitige-tatsachenfragen.docx`](04-streitige-tatsachenfragen.docx) | Katalog streitiger Tatsachenfragen, Beweislastverteilung, Subsumtionsreihenfolge |
 | 05 | [`05-beweisbeschluss-entwurf.docx`](05-beweisbeschluss-entwurf.docx) | Entwurf Beweisbeschluss: SV-Beauftragung Vellbruck, Zeugenliste, Augenschein |
@@ -78,19 +84,14 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 | 08 | [`08-zeugenaussage-schwingenstein-birkenhainer.docx`](08-zeugenaussage-schwingenstein-birkenhainer.docx) | Zeugenaussage Thorsten Schwingenstein-Birkenhainer (Bauleiter): Abnahme, Mangelrügen |
 | 09 | [`09-sachverstaendigengutachten-pohlmann-zusammenfassung.docx`](09-sachverstaendigengutachten-pohlmann-zusammenfassung.docx) | Zusammenfassung Privatgutachten Dipl.-Ing. Pohlmann: Kein wesentlicher Mangel |
 | 10 | [`10-gerichtsgutachten-vellbruck-zusammenfassung.docx`](10-gerichtsgutachten-vellbruck-zusammenfassung.docx) | Zusammenfassung Gerichtsgutachten Prof. Vellbruck: Mängel bejaht, Kosten EUR 612.500 |
-| 11 | [`11-beweiswuerdigung-spaltenmodell.docx`](11-beweiswuerdigung-spaltenmodell.docx) | Beweiswürdigungs-Spaltenmodell: Pohlmann vs. Vellbruck, Zeugenkredibilität § 286 ZPO |
 | 12 | [`12-aufrechnungspruefung.docx`](12-aufrechnungspruefung.docx) | Aufrechnungsprüfung § 387 BGB / § 13 Nr. 5 VOB/B: Gegenforderung, Gleichartigkeit, Fälligkeit |
-| 13 | [`13-verjaehrungspruefung.docx`](13-verjaehrungspruefung.docx) | Verjährungsprüfung § 634a BGB vs. § 13 Nr. 4 VOB/B: 5 vs. 4 Jahre, Fristlauf, Hemmung |
 | 14 | [`14-tatbestand-entwurf.docx`](14-tatbestand-entwurf.docx) | Tatbestand-Entwurf § 313 Abs. 1 Nr. 5 ZPO: Parteivortrag, Streitgegenstand, Beweisergebnis |
-| 15 | [`15-entscheidungsgruende-entwurf.docx`](15-entscheidungsgruende-entwurf.docx) | Entscheidungsgründe-Entwurf § 313 Abs. 1 Nr. 6 ZPO: Subsumtion, SV-Würdigung, Aufrechnung |
-| 16 | [`16-kostenentscheidung-92-zpo.docx`](16-kostenentscheidung-92-zpo.docx) | Kostenentscheidung § 92 ZPO: Obsiegen-/Unterliegen-Quote, Kostenverteilung |
 | 17 | [`17-vorlaeufige-vollstreckbarkeit.docx`](17-vorlaeufige-vollstreckbarkeit.docx) | Vorläufige Vollstreckbarkeit § 709 ZPO: Sicherheitsleistung, Tenorierung |
 | 18 | [`18-streitwertbeschluss.docx`](18-streitwertbeschluss.docx) | Streitwertbeschluss § 63 GKG: Klage EUR 428.180, Hilfsaufrechnung EUR 612.500 |
 | 19 | [`19-richterliche-vorberatung-notiz.docx`](19-richterliche-vorberatung-notiz.docx) | Interne Vorberatungsnotiz Kammer: Streitpunkte, Ergebnistendenzen, Abstimmung |
 | 20 | [`20-prozesskostenhilfe-hinweis.docx`](20-prozesskostenhilfe-hinweis.docx) | Hinweis PKH-Antrag Beklagte, Prüfung §§ 114 ff. ZPO, Ergebnis: abgelehnt |
 | 21 | [`21-rechtsmittelbelehrung-entwurf.docx`](21-rechtsmittelbelehrung-entwurf.docx) | Rechtsmittelbelehrung Entwurf: Berufung OLG Dresden, Frist, Anwaltszwang |
 | 22 | [`22-checklist-veroeffentlichung-juris.docx`](22-checklist-veroeffentlichung-juris.docx) | Checkliste Juris-Veröffentlichung: Anonymisierung, Schlagworte, Leitsätze |
-
 | Anh-1 | [`anhang-subunternehmer-betonart-sachsen.docx`](anhang-subunternehmer-betonart-sachsen.docx) | Subunternehmer Betonart Sachsen GmbH: VOB/B § 4 Nr. 8, Haftung § 278 BGB, Ermittlungsstand |
 | Anh-2 | [`anhang-olg-dresden-vorprozess-18-u-14-24.docx`](anhang-olg-dresden-vorprozess-18-u-14-24.docx) | Bindungswirkung OLG Dresden 18 U 14/24: Schlussrechnung, Einheitspreise, § 322 ZPO |
 
@@ -102,7 +103,6 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 
 | Datei | Inhalt |
 |---|---|
-| [`docx/urteil-entwurf-v3.docx`](docx/urteil-entwurf-v3.docx) | Urteilsentwurf Version 3 vollständig nach § 313 ZPO (Rubrum, Tenor, Tatbestand, Entscheidungsgründe) |
 | [`docx/beweisbeschluss.docx`](docx/beweisbeschluss.docx) | Beweisbeschluss (Beauftragung Prof. Vellbruck, Zeugenliste) |
 | [`docx/streitwertbeschluss.docx`](docx/streitwertbeschluss.docx) | Streitwertbeschluss § 63 GKG |
 
@@ -111,7 +111,6 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 | Datei | Inhalt |
 |---|---|
 | [`xlsx/kostenrechnung-92-zpo.xlsx`](xlsx/kostenrechnung-92-zpo.xlsx) | Kostenrechnung § 92 ZPO: Streitwert, Obsiegensquote, Kostenverteilung Klage und Hilfsaufrechnung |
-| [`xlsx/zeitstrahl-mangel-verjaehrung.xlsx`](xlsx/zeitstrahl-mangel-verjaehrung.xlsx) | Zeitstrahl Mängel und Verjährung: Abnahmezeitpunkt, Rügedaten, Fristläufe § 13 Nr. 4 VOB/B |
 
 ### E-Mails (.eml)
 
@@ -120,13 +119,17 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 | [`emails/terminladung-parteien-17-09-2026.eml`](emails/terminladung-parteien-17-09-2026.eml) | Geschäftsstelle an beide Parteienvertreter: Ladung Haupttermin 17.09.2026 |
 | [`emails/bestellung-sachverstaendiger-vellbruck.eml`](emails/bestellung-sachverstaendiger-vellbruck.eml) | Richterin Dr. Tannenberg-Eichmüller an Prof. Vellbruck: Beauftragung Gerichtsgutachten |
 | [`emails/fristverlaengerungsantrag-klaegerin.eml`](emails/fristverlaengerungsantrag-klaegerin.eml) | RAin Dr. Feldkötter-Haas an Geschäftsstelle: Fristverlängerungsantrag Schriftsatz |
+| [`emails/antwort-geschaeftsstelle-fristverlaengerung.eml`](emails/antwort-geschaeftsstelle-fristverlaengerung.eml) | Geschäftsstelle an beide Vertreter: Fristverlängerung bewilligt, Zustellungsproblem bei Zeuge Eickenmüller, fehlendes Empfangsbekenntnis |
 | [`emails/interner-mailverteiler-sitzungstag.eml`](emails/interner-mailverteiler-sitzungstag.eml) | Geschäftsstelle intern: Sitzungstagorganisation 17.09.2026, Saalplan, Zeugenladungen |
 
 ### PDFs
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Datei | Inhalt |
 |---|---|
-| [`pdfs/rubrum-urteil-final.pdf`](pdfs/rubrum-urteil-final.pdf) | Urteilsrubrum finalisiert: Gericht, Parteien, Datum, AZ |
 | [`pdfs/gerichtsgutachten-vellbruck-deckblatt.pdf`](pdfs/gerichtsgutachten-vellbruck-deckblatt.pdf) | Deckblatt Gerichtsgutachten Prof. Vellbruck (Titel, Auftraggeber, Datum, Unterschrift) |
 
 ### Fotos
@@ -146,16 +149,16 @@ Arbeitsakte zum Plugin `urteilsbauer-relationsmacher`.
 
 | Verfahrensstrang | Status |
 |---|---|
-| Hauptklage Werklohn EUR 428.180 | Urteil vorbereitet; teilweise begründet |
-| Hilfsaufrechnung Mängel EUR 612.500 | Teilweise durchgreifend (EUR 387.200 nach Verjährungsabzug) |
+| Hauptklage Werklohn EUR 428.180 | Werklohnforderung der Klägerin, bestritten |
+| Hilfsaufrechnung Mängel EUR 612.500 | Zur Aufrechnung gestellte Gegenforderungen, bestritten |
 | Gerichtsgutachten Vellbruck | Vorliegend, ergänzendes Gutachten 14.07.2026 |
-| Privatgutachten Pohlmann | Vorliegend, vom Gericht nicht gefolgt |
-| Zeugenvernehmung Eickenmüller | Termin 12.06.2026, Glaubwürdigkeit zweifelhaft (Strafverfahren) |
-| Zeugenvernehmung Schwingenstein-Birkenhainer | Termin 12.06.2026, glaubhaft in Kernpunkten |
-| Verjährungsprüfung | Frist 4 Jahre VOB/B; Teile der Mängel verjährt |
+| Privatgutachten Pohlmann | Liegt als Parteigutachten vor |
+| Zeugenvernehmung Eickenmüller | Protokoll des Termins vom 12.06.2026 liegt bei |
+| Zeugenvernehmung Schwingenstein-Birkenhainer | Protokoll des Termins vom 12.06.2026 liegt bei |
+| Verjährungsprüfung | Vertragsunterlagen und Ereignisdaten liegen bei |
 | Vorprozess OLG Dresden 18 U 14/24 | Teilrechtskräftig; bindende Feststellungen zur Schlussrechnung |
-| Kostenentscheidung § 92 ZPO | Ca. 60% Klägerin / 40% Beklagte (vorbehaltlich Tenorierung) |
-| Streitwertfestsetzung | EUR 1.040.680 (Klage + Hilfsaufrechnung) |
+| Kostenentscheidung Paragraf 92 ZPO | Noch kein abschließender Kostenausspruch enthalten |
+| Streitwertfestsetzung | Klageforderung und Hilfsaufrechnung sind getrennt beziffert |
 | Rechtsmittel | Berufung OLG Dresden; Beschwer prüfen |
 
 Bearbeiterin: **Dr. Annegret Tannenberg-Eichmüller**, VRiLG, 8. Zivilkammer LG Leipzig

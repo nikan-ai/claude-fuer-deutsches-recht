@@ -1,29 +1,39 @@
 # Edelholz Manufaktur Berlin GmbH — Liquiditäts- und Steuerakte
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 315 KB) | PDF | [`gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf`](gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-edelholz-manufaktur-berlin-liquiditaet.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-edelholz-manufaktur-berlin-liquiditaet.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf`](gesamt-pdf/edelholz-manufaktur-berlin-liquiditaet_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-edelholz-manufaktur-berlin-liquiditaet.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-edelholz-manufaktur-berlin-liquiditaet.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-edelholz-manufaktur-berlin-liquiditaet-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-edelholz-manufaktur-berlin-liquiditaet` (Akte) | [testakte-edelholz-manufaktur-berlin-liquiditaet.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-edelholz-manufaktur-berlin-liquiditaet.zip) |
+| `testakte-edelholz-manufaktur-berlin-liquiditaet` (Akte) | [testakte-edelholz-manufaktur-berlin-liquiditaet.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-edelholz-manufaktur-berlin-liquiditaet.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ## Mandant
 
@@ -62,8 +72,8 @@ defekt (Reparaturangebot 28 TEUR). Großauftrag Hotel Lützowufer LZF-2025-08
 | `02_bwa/` | BWA Januar–April 2026, BWA-Kommentar des Steuerberaters |
 | `03_susa/` | Summen- und Saldenliste per 30.04.2026 |
 | `04_offene_posten/` | OPOS Debitoren, OPOS Kreditoren |
-| `05_bank/` | Bankauszüge Februar–April 2026 (Auszug) |
-| `06_steuern_sv/` | USt-Voranmeldungen, Bescheid Krankenkasse, FA-Mahnung |
+| `05_bank/` | Bankauszüge Februar–April 2026 (Auszug); E-Mail der MBS-Firmenkundenbetreuung vom 12.05.2026 (`email_mbs_firmenkunden_2026-05-12.eml`) zu Linienauslastung, Sanierungskonzept und Termin |
+| `06_steuern_sv/` | USt-Voranmeldungen, Bescheid Krankenkasse, FA-Mahnung; Vollstreckungsankündigung der AOK Berlin vom 28.04.2026 (`aok_vollstreckungsankuendigung_2026-04-28.md`) |
 | `07_auftraege/` | Auftragsbestand mit Lieferterminen und Zahlungszielen |
 | `08_vertraege/` | Leasing, Kreditverträge, Miete |
 

@@ -1,18 +1,25 @@
 # Sanierungsgewinn im StaRUG-Plan — Pellbach Windenergie GmbH Brandenburg (2026)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 125 KB) | PDF | [`gesamt-pdf/sanierungsgewinn-starug-plan-windenergie-pellbach-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-starug-plan-windenergie-pellbach-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sanierungsgewinn-starug-plan-windenergie-pellbach-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-starug-plan-windenergie-pellbach-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sanierungsgewinn-starug-plan-windenergie-pellbach-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -33,9 +40,9 @@ Schwerpunkt-Skills (Auswahl):
 - `/steuerrecht-anwalt-und-berater:stb-sanierungsgewinn-verlustvortrag-sanity-check`
 - `/insolvenzrecht:insol-sanierungsgewinn-3a-estg-im-starug-plan`
 - `/insolvenzrecht:insol-sanierungsgewinn-debt-equity-swap-im-plan`
-- `/grosskanzlei-corporate-ma:gk-sanierungsgewinn-debt-equity-swap-und-spa-mechanik`
+- `/grosskanzlei-corporate-ma:krise-und-streit-bearbeiten Thema: gk-sanierungsgewinn-debt-equity-swap-und-spa-mechanik`
 - `/grosskanzlei-corporate-ma:gk-sanierungsgewinn-forderungsverzicht-vs-8c-kstg-mantelkauf-8c-kstg`
-- `/grosskanzlei-corporate-ma:gk-sanierungsgewinn-stille-reserven-klausel-8c-iv-kstg`
+- `/grosskanzlei-corporate-ma:krise-und-streit-bearbeiten Thema: gk-sanierungsgewinn-stille-reserven-klausel-8c-iv-kstg`
 
 ## Mandantin und Verfahren
 
@@ -89,7 +96,6 @@ Hauptproblematik:
 sanierungsgewinn-starug-plan-windenergie-pellbach-2026/
 ├── README.md                                                       ← Diese Datei
 ├── 00_aktenuebersicht.md
-├── 01_mandatsnotiz_geschaeftsfuehrer_pellbach.docx
 ├── 02_starug-anzeige_31_starug_ag_cottbus.docx
 ├── 03_restrukturierungsplan_4_ff_starug_eckpunkte.docx
 ├── 04_banken-konsortium_verzichts-und-des-vereinbarung.docx
@@ -104,7 +110,9 @@ sanierungsgewinn-starug-plan-windenergie-pellbach-2026/
 ├── 13_szenario_starug_plan_mit_vs_ohne_des.docx
 ├── 14_mandantenbrief_pellbach_glasklar_steuern.docx
 ├── 15_finanzplan_und_liquiditaetsmatrix_2026.csv
-└── 16_glaeubigerverzeichnis_starug.csv
+├── 16_glaeubigerverzeichnis_starug.csv
+├── 17_email_nordkurland_bank_planvollzug.eml      ← Konsortialführerin zu Beurkundungstermin, Vollzugsunterlagen und Stundungskonten nach Rechtskraft
+└── 18_telefonvermerk_finanzamt_cottbus_rueckfragen.docx ← Telefonat mit dem FA Cottbus vom 16.07.2026 zu Auskunftsstand, Anlage 12 und Gebühr
 ```
 
 ## Quellennachweis (Rechtsnormen und Rechtsprechung)
@@ -133,7 +141,7 @@ sanierungsgewinn-starug-plan-windenergie-pellbach-2026/
 - **BFH, Urt. v. 26.02.2003 — II R 19/01** — Verbindlichkeiten bleiben über Liquidation hinaus
 - **FG Köln, Urt. v. 06.03.2012 — 13 K 3006/11, GmbHR 2012, 977** — Os. 7: Wegfall mit Erlöschen mangels Steuersubjekt; vorgehend zu BFH I R 34/12
 - **BFH, Beschl. v. 05.02.2014 — I R 34/12, BFH/NV 2014, 1014** — Streitstand nicht evident rechtsfehlerhaft
-- **FG Köln, Urt. v. 04.11.2025 — 12 K 1413/25** — Antragsfristen § 3a Abs. 4 EStG
+- **FG Köln, Urteil vom 04.11.2025 — 12 K 1413/25** — materielle Voraussetzungen des Sanierungsertrags und Beurteilung der Sanierungseignung aus Sicht des Erlasszeitpunkts; keine allgemeine Aussage zum Zeitpunkt des Feststellungsantrags
 - **FG Düsseldorf, Urt. v. 18.09.2018 — 6 K 454/15 K, DStRE 2019** — Mindestbesteuerung Definitiveffekt; Rev. anh. BFH I R 36/18 (ausgesetzt BVerfG 2 BvL 19/14)
 
 ### Verwaltungsauffassung
@@ -142,3 +150,19 @@ sanierungsgewinn-starug-plan-windenergie-pellbach-2026/
 - **OFD Frankfurt a. M., Rundverfügung v. 03.08.2018 — S 2743 A-12-St 525, DStR 2019, 560**
 - **OFD Frankfurt v. 27.12.2018, Originalquelle oder frei prüfbare Quelle vor Ausgabe prüfen** — Einsprüche Mindestbesteuerung ruhend
 - **OFD Nordrhein-Westfalen, Kurzinformation ESt Nr. 46/2014, akt. 22.09.2017, DB 2017, 2580**
+
+<!-- BEGIN pruefmaterial-insolvenz -->
+## Vorlagen und Vergleichsmaterial
+
+Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blankovorlagen. Ziehen Sie das Gutachten oder den fallbezogenen Plan erst beim Vergleich der Ergebnisse heran. Die Dateien in dieser Tabelle sind separat von den Aktenarchiven verfügbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlage | Datei |
+| --- | --- |
+| StaRUG-Restrukturierungsplan (Blanko, ODT) | [Datei öffnen](pruefmaterial-insolvenz/restrukturierungsplan-blanko.odt) |
+| Restrukturierungsplan Pellbach Windenergie GmbH | [Datei öffnen](pruefmaterial-insolvenz/restrukturierungsplan-pellbach-windenergie.docx) |
+
+<!-- END pruefmaterial-insolvenz -->

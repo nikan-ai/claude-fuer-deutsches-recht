@@ -1,0 +1,56 @@
+# 1. Haftverschonung Fliederborn Berlin
+
+Lagerdiebstahl, Reisebuchung und nachgereichte Wohn- und Arbeitsnachweise. Die Haftentscheidung liegt vor; eine neue gerichtliche Entscheidung ist noch offen.
+
+## 1.1. Einstieg und Material
+
+Stand 2026-10-16. Neun eigenständige Unterlagen: fünf Word-Dokumente, zwei E-Mails, eine Tabelle und eine Textdatei. Beginnen Sie mit der ersten gerichtlichen oder polizeilichen Unterlage und wählen Sie Ihre Rolle. Die vorhandenen Schreiben sind Verfahrensmaterial, keine vorweggenommene Lösung. Eine Entscheidung über den nächsten Antrag ist nicht beigelegt.
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/uhaft-haftverschonung-fliederborn-berlin_gesamt.pdf`](gesamt-pdf/uhaft-haftverschonung-fliederborn-berlin_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-uhaft-haftverschonung-fliederborn-berlin.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-uhaft-haftverschonung-fliederborn-berlin.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-uhaft-haftverschonung-fliederborn-berlin-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/untersuchungshaft-v1.0.0/testakte-uhaft-haftverschonung-fliederborn-berlin-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+Im Originalformat-ZIP liegen die ausgewählten Eingangsunterlagen im Ordner `Grundakte`. Die Einzel-PDFs sind separat verfügbar. Mehrseitige Unterlagen bleiben jeweils in einer Datei. Beide ZIPs enthalten den zweisprachigen Hinweis in README.txt.
+
+English: The native archive contains an intake folder named `Grundakte`. The combined reading PDF and the archive of individual PDFs are separate downloads. Both archives carry the bilingual notice in README.txt.
+
+## 1.3. Unterlagen
+
+| Datei | Gegenstand |
+| --- | --- |
+| [01_Haftbefehl.docx](01_Haftbefehl.docx) | Haftbefehl gegen Gustav Fliederborn |
+| [02_Vernehmung_Lagermeister.docx](02_Vernehmung_Lagermeister.docx) | Ergänzende Zeugenvernehmung Reinhold Quass |
+| [03_Arbeitgeberzusage.docx](03_Arbeitgeberzusage.docx) | Beschäftigung und geplante Dienstreise Gustav Fliederborn |
+| [04_Wohnraumzusage.docx](04_Wohnraumzusage.docx) | Aufnahme meines Bruders Gustav |
+| [05_Vermieterzustimmung.docx](05_Vermieterzustimmung.docx) | Aufnahme eines Familienangehörigen Wohnung 27 2L |
+| [06_Verteidiger_an_Staatsanwaltschaft.eml](06_Verteidiger_an_Staatsanwaltschaft.eml) | 243 Js 6421/26 Fliederborn Unterlagen zur Haftfrage |
+| [07_Staatsanwaltschaft_Zwischenstand.eml](07_Staatsanwaltschaft_Zwischenstand.eml) | AW 243 Js 6421/26 Fliederborn Unterlagen zur Haftfrage |
+| [08_Reisebuchung.csv](08_Reisebuchung.csv) | Buchungsjournal SF 26091 |
+| [09_Telefonnotiz.txt](09_Telefonnotiz.txt) | Rückruf aus der Personalabteilung |
+
+## 1.4. Einordnung
+
+<!-- reserved-example-contacts -->
+
+Personen, private Stellen, Adressen und Vorgangsnummern sind erfunden; die genannten Gerichte und Anstalten dienen allein als örtlicher Rahmen. Die Schriftstücke sind keine echten Behördenentscheidungen. Kontaktadressen mit reservierten Beispieldomains sind nicht für die Einreichung bestimmt. Die Akte enthält keine echten Gesundheits- oder Ermittlungsdaten.
+
+[Untersuchungshaft](../../untersuchungshaft/README.md) · [Alle Testakten](../README.md) · [Repository](../../README.md) · [Download-Index](../../ASSET_INDEX.md)

@@ -1,54 +1,48 @@
 # Sozialrecht: Wohnraumanpassung und Rampe in Wittenberge
 
+<!-- reserved-example-contacts -->
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 40 KB) | PDF | [`gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf`](gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf`](gesamt-pdf/sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
-Arbeitsakte zu den Plugins `fachanwalt-sozialrecht`, `selbstvertreter-sozialgericht` und `richter-sozialgericht`.
+## 1 Sachverhalt
 
-## Kurzbild
+Irmgard Pahl ist 84 Jahre alt, hat Pflegegrad 3 und wohnt im eigenen Reihenhaus in Wittenberge. Die drei Außenstufen und die Türschwelle versperren ihr inzwischen regelmäßige Wege. Die Tochter kann nur zu bestimmten Zeiten helfen. Die Pflegekasse bezuschusst mobile Teleskopschienen, obwohl Frau Pahl mit Gehstock unterwegs ist und die Schienen nicht selbst auflegen kann. Die Zahlen im Ausgangsbescheid weichen vom Angebot ab. Im ersten Entwurf des Metallbauers und beim Aufmaß der Stadt stimmen außerdem die Höhenannahmen nicht überein.
 
-Irmgard Pahl, 84, Pflegegrad 3, lebt in einem Reihenhaus in Wittenberge. Sie geht mit Gehstock, kommt aber wegen drei Außenstufen und einer hohen Türschwelle nicht mehr sicher aus dem Haus; seit Januar 2026 gab es Stürze auf der Eingangstreppe. Die PrignitzCare Pflegekasse bewilligt nur 1.180 EUR für ein mobiles Schienensystem; die Tochter will die fest montierte, wintertaugliche Rampe mit Handlauf für 7.920 EUR durchsetzen. Streit besteht über Notwendigkeit, Wirtschaftlichkeit, bauliche Eignung, Zuschusshöhe und die mögliche Beteiligung des Sozialhilfeträgers.
+## 2 Mit der Grundakte beginnen
 
-## Aktenstruktur
+Öffnen Sie im Originalformat-ZIP ausschließlich den Ordner `Grundakte`. Er zeigt den Sachstand am 3. Juli 2026 mit dem ursprünglichen Zuschussbescheid, Pflegegradunterlagen, ärztlicher Stellungnahme, Vollmacht, erstem Bauangebot, Aufmaß, Schienenerprobung, Alltagsschilderungen und der Mandatsanfrage. Prüfen Sie, welcher Hilfe- und Finanzierungsbedarf sich aus den einzelnen Quellen ergibt. Entwerfen Sie den Widerspruch mit beziffertem Antrag, einer ergebnisoffenen Variantenprüfung und geeigneten Beweisanregungen.
 
-```
-sozialrecht-wohnraumanpassung-rampe-pflegegrad-wittenberge/
-├── README.md                              <- diese Übersicht
-├── rubric.yaml                            <- Prüfkriterien für die Bearbeitung
-├── 01_erstgespraech_tochter.docx            <- Erstberatung, Wohnsituation, Frist, Ziel
-├── 02_pflegegrad_und_md_gutachten.docx      <- Pflegegrad 3, Mobilitätsmodul, Hausarzt-Nachtrag
-├── 03_bauangebot_rampe.docx                 <- Angebot der Fachfirma mit Maßen und Alternativen
-├── 04_pflegekasse_bescheid.docx             <- Teilbewilligung mit Rechtsbehelfsbelehrung und Telefonnotiz
-├── 05_widerspruch_und_sozialhilfe.docx      <- Anwaltlicher Widerspruch, Prüfvermerk, Finanzlage
-├── 06_wohnumfeld_fotos_beschreibung.docx    <- Eingang, Maße, Fotobeschreibungen, Winterrisiko
-├── 07_kosten_traeger_matrix.csv           <- Datenkern: Kostenpositionen, Höchstzuschuss, Eigenanteil, Finanzierungslücke
-├── 08_eilrechtsschutz_und_ortstermin.docx   <- Vermerk zu Eilbedürftigkeit, Beweisfragen, Vergleich
-├── 09_bauamt_ortstermin_und_skizzenmass.docx <- Protokoll des Ortstermins mit dem Bauamt
-├── 10_email_nachbarin_zugang.eml          <- Nachbarin zu Stürzen, Winter und Rampenakzeptanz
-├── 11_pflegetagebuch_sturzliste.txt       <- Sturzliste und Pflegetagebuch der Tochter
-├── 12_sozialamt_prignitz_zwischennachricht.docx <- Sozialamt zu Nachrang, Höchstzuschuss und Nachweisen
-├── eml/
-│   ├── 01_pflegekasse_eingang_widerspruch.eml <- Pflegekasse bestätigt Widerspruch, nennt Höchstbetrag 4000 EUR
-│   ├── 02_teschner_angebotsklarstellung.eml    <- Fachfirma schlüsselt die 7920 EUR auf, mobile nicht selbst nutzbar
-│   └── 03_md_stellungnahme_selbstnutzbarkeit.eml <- Medizinischer Dienst zur Selbstnutzbarkeit der mobilen Rampe
-├── gesamt-pdf/                            <- konsolidierte Lesefassung als PDF
-├── 91_fristsachen_belege_offene_punkte_2026-07-06.csv    # Fristsachen, Belege und offene Punkte (Ergaenzung v426)
-└── eml/2026-07-06_sachstand_nachforderung.eml            # Sachstand zur Nachforderung (Ergaenzung v426)
-```
+## 3 Fortsetzung der Gesamtakte
 
-## Bearbeitungsziel
+Zur weiteren Bearbeitung kommen der ausführliche Widerspruch, ein Eilgutachten, der Schriftwechsel zum Ortstermin, das überarbeitete Rampenangebot, die Unterlagen zur ergänzenden Finanzierung, der Widerspruchsbescheid und die Klage hinzu. Das Werkaufmaß vom 22. Juli führt zu einer anderen Wegführung und zu einer Neuberechnung der Kosten. Die endgültige, individuelle Nutzung muss weiterhin erprobt werden. Für einen eigenen Klageentwurf geben Sie zunächst die weiterführenden Belege und den Widerspruchsbescheid frei. Die Klage und die Kanzleigutachten eignen sich zum anschließenden Vergleich.
 
-Die Akte eignet sich für Pflegekassenverfahren und Sozialgerichtsarbeit: Pflegegrad, wohnumfeldverbessernde Maßnahme, Erleichterung der häuslichen Pflege, selbstständige Lebensführung, Zumutbarkeit mobiler Alternativen, Zuschussgrenze, Mehrkostenträger und Eilbedürftigkeit müssen konkret abgearbeitet werden. Die Angaben zur Zahl der Stürze sind in den Unterlagen nicht völlig deckungsgleich; das gehört zur Beweiswürdigung.
+Aus dem Gespräch mit der Tochter, dem Tagebuch und der ärztlichen Stellungnahme ergeben sich unterschiedliche Angaben zu Stürzen und Beinahestürzen. Vergleichen Sie die eigenen Beobachtungen mit den später weitergegebenen Aussagen. Für die Finanzierung sind die in den verschiedenen Stadien dokumentierten Preise, der gesetzliche Höchstbetrag und tatsächlich nutzbare Leistungen voneinander zu unterscheiden.
+
+## 4 Amtliche Quellen
+
+- [Paragraf 40 SGB XI zum Zuschuss für wohnumfeldverbessernde Maßnahmen](https://www.gesetze-im-internet.de/sgb_11/__40.html)
+- [BSG vom 25. Januar 2017, B 3 P 2/15 R, insbesondere Randnummer 33](https://www.sozialgerichtsbarkeit.de/node/89737/pdf)
+- [Paragraf 64e SGB XII zur Hilfe für Maßnahmen zur Verbesserung des Wohnumfelds](https://www.gesetze-im-internet.de/sgb_12/__64e.html)
+
+Die Akte ist dem Pflegerecht, dem Sozialrecht und der Arbeit mit sozialgerichtlichen Verfahren zugeordnet.

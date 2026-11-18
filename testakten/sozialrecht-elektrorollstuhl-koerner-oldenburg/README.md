@@ -1,18 +1,29 @@
 # Akte: Hilfsmittelstreit Elektrorollstuhl Heinz Körner gegen Weser-Ems Gesundheitskasse
 
+Heinz Körner wohnt im ersten Obergeschoss eines Oldenburger Altbaus. Nach Stürzen kann er die Wege zum Hausarzt und zur Apotheke nicht mehr verlässlich allein zurücklegen. Er beantragt einen kompakten Elektrorollstuhl. Die Grundakte endet am 12. Juni 2026, als seine Tochter den ersten ablehnenden Bescheid aus dem Briefkasten holt. Sie enthält die ärztlichen Befunde, das Angebot, die Hofprobe und die Aufzeichnungen zum Hauszugang. Im späteren Verfahrensmaterial folgen Widerspruch, Hauptsache, Klageerwiderung und das gerichtliche Gutachten. Die Akte erlaubt, die Fähigkeit zur Bedienung des Rollstuhls von den offenen Fragen zur Treppe, zum Abstellraum und zum Ladeplatz zu unterscheiden.
+
+<!-- reserved-example-contacts -->
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 523 KB) | PDF | [`gesamt-pdf/sozialrecht-elektrorollstuhl-koerner-oldenburg_gesamt.pdf`](gesamt-pdf/sozialrecht-elektrorollstuhl-koerner-oldenburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg-einzelpdfs.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sozialrecht-elektrorollstuhl-koerner-oldenburg_gesamt.pdf`](gesamt-pdf/sozialrecht-elektrorollstuhl-koerner-oldenburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sozialrecht-elektrorollstuhl-koerner-oldenburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -22,7 +33,7 @@ Arbeitsakte zum Plugin `fachanwalt-sozialrecht`.
 
 Heinz Körner, 78 Jahre alt, lebt allein im ersten Obergeschoss eines Altbaus in Oldenburg. Nach Spinalkanalstenose, diabetischer Polyneuropathie, Hüft-TEP links und mehreren Stürzen kann er die Wohnung nur noch mit erheblicher Hilfe verlassen. Hausarzt, Facharzt, Ergotherapie, Physiotherapie und ein privates Reha-Gutachten halten einen kompakten Elektrorollstuhl mit Innen- und Nahbereichstauglichkeit für notwendig. Der Medizinische Dienst hält dagegen eine Unterarmgehstütze, einen vorhandenen Rollator und einen Standard-Faltrollstuhl für ausreichend.
 
-Die Krankenkasse lehnt den Antrag ab, weist auch den einfachen Widerspruch des Versicherten zurück und stützt sich auf Wirtschaftlichkeit, angeblich fehlende Gehunfähigkeit und fehlende Ausschöpfung einfacherer Hilfsmittel. Der Rechtsstreit läuft mittlerweile beim Sozialgericht Oldenburg, das ein eigenes Sachverständigengutachten eingeholt hat. Die Akte enthält die Klägerperspektive, die Verteidigung der Krankenkasse und die gerichtliche Beweisaufnahme, ohne das Ergebnis vorwegzunehmen.
+Die Krankenkasse lehnt den Antrag ab, weist auch den eigenhändigen Widerspruch des Versicherten zurück und stützt sich auf Wirtschaftlichkeit, angeblich fehlende Gehunfähigkeit und fehlende Ausschöpfung einfacherer Hilfsmittel. Der Rechtsstreit läuft mittlerweile beim Sozialgericht Oldenburg, das ein eigenes Sachverständigengutachten eingeholt hat. Die Akte enthält die Klägerperspektive, die Verteidigung der Krankenkasse und die gerichtliche Beweisaufnahme, ohne das Ergebnis vorwegzunehmen.
 
 ## Aktenstand
 
@@ -31,11 +42,12 @@ Aktenstand ist der 25.09.2026. Der Widerspruchsbescheid vom 24.06.2026 wurde am 
 ## Aktenstruktur
 
 ```
-sozialrecht-elektrorollstuhl-koerner-oldenburg/
+sozialrecht-elektrorollstuhl-körner-oldenburg/
 ├── README.md                                            <- diese Übersicht
 ├── rubric.yaml                                          <- Prüfkriterien für die Bearbeitung
-├── 01_mandatsnotiz_und_fristsache.docx                    <- Erstgespräch, Fristen, Beteiligte, Anspruchsziel
-├── 02_ueberweisung_und_hilfsmittelverordnung.docx         <- Hausärztliche Überweisung, Verordnung, medizinischer Kern
+├── 01_eingang_hilfsmittelantrag_2026-05-22.docx           <- Antrag mit Eingangsvermerk
+├── 02_ueberweisung_facharzt_2026-05-08.docx               <- Eigenständige hausärztliche Überweisung mit konkreter Fragestellung
+├── 02a_hilfsmittelverordnung_elektrorollstuhl_2026-05-16.docx <- Gesonderte Hilfsmittelverordnung mit Untersuchung und Versorgungsziel
 ├── 03_facharztbericht_mobilitaet.docx                     <- Orthopädisch-neurologischer Befund, Gangbild, Sturzrisiko
 ├── 04_eigenschilderung_alltag_und_wege.docx               <- Eigene Schilderung des Versicherten zu Wohnung, Wegen, Teilhabe
 ├── 05_wohnungsumfeld_barrierefreiheit.docx                <- Altbau, Treppenhaus, Gehweg, Aufzugslage, Umbaugrenzen
@@ -64,7 +76,8 @@ sozialrecht-elektrorollstuhl-koerner-oldenburg/
 ├── 28_beweisbeschluss_sozialgericht.docx                  <- Gerichtlicher Beweisbeschluss mit Beweisfragen
 ├── 29_gerichtliches_sachverstaendigengutachten.docx       <- Gerichtliches Gutachten mit Untersuchungsbefund
 ├── 30_bsg_rechtsprechungsanalyse.docx                     <- Einschlägige BSG-Rechtsprechung zum Basisausgleich
-├── 91_fristsachen_belege_offene_punkte_2026-07-06.csv     <- Offene Prüfpunkte zu Fristen und Belegen
+├── 31_tuer_hof_ladeplatz_hausverwaltung.docx             <- Zugang, Treppe, Ladeplatz und offene Freigaben
+├── 32_erprobungsnotizen_hilfsmittel_2026-05-18.docx      <- Vergleich von Gehhilfe, Rollator und beiden Rollstühlen
 ├── csv/
 │   ├── fristen_koerner.csv                              <- Fristen und Verfahrensstatus als Tabelle
 │   ├── hilfsmittelvergleich.csv                         <- Funktionaler Vergleich der Hilfsmitteloptionen
@@ -79,10 +92,11 @@ sozialrecht-elektrorollstuhl-koerner-oldenburg/
 │   ├── hinterausgang_rampe.jpg                          <- Bildbeschreibung Rollstuhlrampe Hinterausgang
 │   └── gehweg_peterstrasse.jpg                          <- Bildbeschreibung Gehweg im Nahbereich
 ├── emails/
+│   ├── 2026-06-12_tochter_eingang_brief.eml               <- Eingang des Ausgangsbescheids
 │   ├── 2026-06-27_tochter_an_kanzlei.eml                <- Tochter übersendet Unterlagen und schildert den Alltag
-│   └── 2026-07-18_sachbearbeiterin_kanzlei_rueckfrage.eml <- Interne Rückfrage zu Klagefrist und Zeugin
+│   ├── 2026-07-18_sachbearbeiterin_kanzlei_rueckfrage.eml <- Interne Rückfrage zu Klagefrist und Zeugin
+│   └── 2026-09-23_tochter_an_kanzlei_nach_gutachten.eml <- Tochter zu neuem Sturz, Abstellplatzfrage und Termin am 22.10.
 ├── eml/
-│   ├── 2026-07-06_sachstand_nachforderung.eml           <- Sachstandsanfrage im Verfahren
 │   └── 2026-09-18_gutachterin_uebersendung.eml          <- Übersendung des Gutachtens an das Gericht
 └── gesamt-pdf/                                          <- konsolidierte Lesefassung als PDF
 ```
@@ -106,4 +120,4 @@ Die Akte ist so angelegt, dass mit ihr drei Rollen sofort arbeiten können:
 
 ## Hinweis zur Bearbeitung
 
-Die Akte enthält bewusst keine fertige Antwortmatrix und keinen vorgefertigten Urteilsentwurf. Die Bewertung von Gehfähigkeit, Eignung der Alternativen und Erfolgsaussichten ist anhand der medizinischen Befunde, des gerichtlichen Gutachtens und der zitierten BSG-Rechtsprechung selbst zu entwickeln.
+Die Bewertung von Gehfähigkeit, Eignung der Alternativen und Erfolgsaussichten ist anhand der medizinischen Befunde, des gerichtlichen Gutachtens und der angeführten Rechtsprechung vorzunehmen. Parteivortrag, medizinische Feststellungen und gerichtliche Beweisaufnahme bleiben in den Aktenstücken nachvollziehbar getrennt.
