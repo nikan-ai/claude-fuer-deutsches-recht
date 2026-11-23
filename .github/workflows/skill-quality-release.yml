@@ -6,7 +6,7 @@ on:
       tag:
         description: 'Unbenutzter Komponententag aus dem Release-Scope'
         required: true
-        default: qualitaetsrunde-v445.36.6
+        default: qualitaetsrunde-v445.36.9
       expected_commit:
         description: 'Vollständiger geprüfter Main-Commit (40 Hexadezimalzeichen)'
         required: true
@@ -62,6 +62,8 @@ jobs:
           python3 scripts/validate-runtime-performance.py
           python3 scripts/audit-skill-activation.py
           python3 scripts/audit-skill-selection.py
+          python3 scripts/audit-prompt-profile-routing.py
+          python3 scripts/main_skill_revisions.py
           python3 scripts/quality_lab.py audit --require-editorial --require-workflow
           python3 scripts/validate-current-law-sentinels.py
           python3 scripts/consolidate-skill-cap.py --verify quality/skill-consolidation/2026-11-14/source-map.json --strict-links
@@ -75,13 +77,21 @@ jobs:
         run: |
           python3 scripts/test-skill-cap-migration.py
           python3 scripts/test-skill-cap-integration.py
+          python3 scripts/test-skill-registry-preparation.py
+          python3 scripts/test-final-decision-generator.py
           python3 scripts/test-plugin-consolidation.py
           python3 scripts/test-skill-activation.py
           python3 scripts/test-skill-source-replacements.py
           python3 scripts/test-marketplace-import.py
           python3 scripts/test-skill-quality-release.py
+          python3 scripts/test-jugendmedien-paket.py
+          python3 scripts/test-prompt-workflow-preservation.py
+          python3 scripts/test-readme-navigation.py
+          python3 scripts/test-werkstatt-visualisierung.py
           python3 scripts/test-anfechtung-werkstattprompts.py
           python3 scripts/test-insolvenzanfechtung.py
+          python3 scripts/test-main-skill-revisions.py
+          python3 scripts/test-package-link-revisions.py
           python3 scripts/test-quality-lab.py
           python3 scripts/test-skill-package-links.py
           python3 scripts/test-runtime-performance.py

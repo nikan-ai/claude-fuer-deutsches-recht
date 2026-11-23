@@ -6,6 +6,12 @@ on:
       - 'bav-strategie-konzern/**'
       - 'testakten/bav-*/**'
       - 'scripts/*bav*'
+      - '.claude-plugin/marketplace.json'
+      - 'scripts/build-skill-quality-release.py'
+      - 'scripts/validate-release-zips.py'
+      - 'scripts/release_routing.py'
+      - 'scripts/scoped-release-assets.json'
+      - 'scripts/scoped-release-package-versions.json'
       - 'scripts/data/bav-konzern-faelle/**'
       - 'scripts/data/skill-source-replacements.json'
       - 'scripts/skill_sources.py'
@@ -13,6 +19,9 @@ on:
       - 'scripts/generate-megaprompt.py'
       - 'scripts/werkstatt_visualisierung.py'
       - 'scripts/consolidate-skill-cap.py'
+      - 'scripts/main_skill_revisions.py'
+      - 'scripts/test-main-skill-revisions.py'
+      - 'quality/pruefer-fortschreibung-2026-11-21/**'
       - 'scripts/integrate-skill-cap.py'
       - 'quality/bav-konzern-2026-11-15/**'
       - 'quality/evals/bav-strategie-konzern.json'
@@ -75,6 +84,7 @@ jobs:
           python3 scripts/validate-readme-navigation.py
           python3 scripts/validate-markdown-structure.py
           python3 scripts/quality_lab.py audit --require-editorial --require-workflow
+          python3 scripts/main_skill_revisions.py
           python3 scripts/consolidate-skill-cap.py --verify quality/skill-consolidation/2026-11-14/source-map.json --strict-links
           python3 scripts/sync-werkstatt-visualisierung.py --check
       - name: Akten und Veröffentlichungsschranken testen
@@ -87,9 +97,16 @@ jobs:
           python3 scripts/test-scoped-release-routing.py
           python3 scripts/test-skill-cap-integration.py
           python3 scripts/test-skill-cap-migration.py
+          python3 scripts/test-main-skill-revisions.py
           python3 scripts/test-skill-package-links.py
           python3 scripts/test-skill-sources.py
-      - name: Pakete aus dem geprüften Commit bauen
+      - name: Aktuelles Plugin und vier unveränderte Arbeitsakten prüfen
+        if: github.event_name == 'pull_request'
+        run: |
+          python3 scripts/check-bav-konzern-checkout.py --dist "$RUNNER_TEMP/bav-checkout" --expected-commit "$EXPECTED_COMMIT"
+          python3 scripts/test-bav-konzern-checkout.py --dist "$RUNNER_TEMP/bav-checkout"
+      - name: Historisches Komponentenrelease aus dem geprüften Commit bauen
+        if: github.event_name == 'workflow_dispatch'
         run: |
           python3 scripts/build-bav-konzern-release.py --dist "$RUNNER_TEMP/bav-dist" --expected-commit "$EXPECTED_COMMIT"
           python3 scripts/build-bav-konzern-release.py --dist "$RUNNER_TEMP/bav-dist" --verify --expected-commit "$EXPECTED_COMMIT"
@@ -98,8 +115,10 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: bav-konzern-pakete
-          path: ${{ runner.temp }}/bav-dist/*
+          name: bav-konzern-pruefnachweise
+          path: |
+            ${{ runner.temp }}/bav-dist/*
+            ${{ runner.temp }}/bav-checkout/*
           if-no-files-found: ignore
           retention-days: 7
       - name: Nach vollständiger Downloadprüfung veröffentlichen

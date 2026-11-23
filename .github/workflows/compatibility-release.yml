@@ -13,6 +13,19 @@ on:
       - 'ki-halluzinationsreduzierer/**'
       - 'phishing-vorfall-pruefer/scripts/**'
       - 'scripts/*runtime-performance*'
+      - 'scripts/skill_limits.py'
+      - 'scripts/*skill-cap*'
+      - 'scripts/data/skill-cap-registry.schema.json'
+      - 'scripts/*skill-quality-release*'
+      - 'scripts/main_skill_revisions.py'
+      - 'scripts/package_link_revisions.py'
+      - 'scripts/test-main-skill-revisions.py'
+      - 'scripts/test-package-link-revisions.py'
+      - 'quality/hauptskills-2026-11-18/**'
+      - 'quality/pruefer-fortschreibung-2026-11-21/**'
+      - 'scripts/test-skill-registry-preparation.py'
+      - 'scripts/add-finale-entscheidung-skill.py'
+      - 'scripts/test-final-decision-generator.py'
       - 'scripts/*plugin-consolidation*'
       - 'quality/plugin-consolidation/**'
       - 'scripts/*quickstart-usability*'
@@ -29,6 +42,9 @@ on:
       - 'scripts/audit-prompt-profile-routing.py'
       - 'scripts/themen_profile.py'
       - 'scripts/test-schwerpunkt-coverage.py'
+      - 'scripts/*jugendmedien*'
+      - 'scripts/data/jugendmedien*'
+      - 'jugendmedienschutz-und-medienangebote/**'
       - 'scripts/quality_lab.py'
       - 'scripts/test-quality-lab.py'
       - 'scripts/test-ustva-ausgabe.py'
@@ -37,6 +53,12 @@ on:
       - 'scripts/test-e-rechnung-werkstatt.py'
       - 'e-rechnung-werkstatt/**'
       - 'notariat-alltag/**'
+      - 'scripts/test-neuralis-gestaltungsakte.py'
+      - 'scripts/build-werkstatt-partnerakten-release.py'
+      - 'scripts/build-grundakten-lebenswelt.py'
+      - 'scripts/data/grundakten-vertiefung/einzelausgaben.json'
+      - 'testakten/neuralis-medtech-erlangen-gestaltungsakte/**'
+      - 'docs/workshops/status-notariat/**'
       - 'scripts/test-notariatswerkstatt.py'
       - 'scripts/test-notariat-dnoti-anfragen.py'
       - 'scripts/notariat_dnoti_satz.py'
@@ -96,12 +118,20 @@ jobs:
           python3 scripts/validate-yaml-frontmatter.py
           python3 scripts/validate-runtime-performance.py
           python3 scripts/quality_lab.py audit --require-editorial --require-workflow
+          python3 scripts/main_skill_revisions.py
           python3 scripts/audit-prompt-profile-routing.py
           python3 scripts/sync-werkstatt-visualisierung.py --check
           python3 scripts/validate-manufacturer-plugins.py
       - name: Regressionen prüfen
         run: |
           python3 scripts/test-runtime-performance.py
+          python3 scripts/test-skill-cap-migration.py
+          python3 scripts/test-skill-cap-integration.py
+          python3 scripts/test-skill-quality-release.py
+          python3 scripts/test-main-skill-revisions.py
+          python3 scripts/test-package-link-revisions.py
+          python3 scripts/test-skill-registry-preparation.py
+          python3 scripts/test-final-decision-generator.py
           python3 scripts/test-plugin-consolidation.py
           python3 scripts/test-skill-activation.py
           python3 scripts/test-skill-source-replacements.py
@@ -125,8 +155,10 @@ jobs:
           python3 scripts/test-prompt-routing-scope.py
           python3 scripts/test-schwerpunkt-coverage.py SchwerpunktCoverage.test_every_specialist_has_concrete_skill_and_prompt SchwerpunktContractRegressions
           python3 scripts/test-quality-lab.py
+          python3 scripts/test-jugendmedien-paket.py
           python3 scripts/test-ustva-ausgabe.py
           python3 scripts/test-e-rechnung-werkstatt.py
+          python3 scripts/test-neuralis-gestaltungsakte.py
           python3 scripts/test-notariatswerkstatt.py
           python3 scripts/test-notariat-dnoti-anfragen.py
           python3 scripts/test-compliance-hameln.py
