@@ -96,7 +96,7 @@
       "entry_skills": [
         "kuendigungsschutzmandat-steuern"
       ],
-      "theme": "forderung",
+      "theme": "arbeits",
       "mode": "prompt",
       "rationale": "Fachlicher Hauptablauf „Kündigungsschutzmandat bis zum Arbeitsprodukt führen“ führt den Vorgang zum Arbeitsprodukt.",
       "plain_labels": true
@@ -2796,6 +2796,40 @@
       "theme": "vollstreckung",
       "mode": "prompt",
       "rationale": "Fachlicher Hauptablauf „Zwangsvollstreckung – Kommandocenter“ mit gesonderter Auftragsaufnahme beziehungsweise Argumentationskern."
+    },
+    "jugendmedienschutz-und-medienangebote": {
+      "entry_skills": [
+        "medienangebot-pruefen"
+      ],
+      "theme": "digitalplattform",
+      "mode": "prompt",
+      "rationale": "Eigene Inhalte, KI-Szenarien, öffentliche Beiträge und private Kommunikation anhand einer Funktionskarte bis zum begründeten Empfängertext prüfen.",
+      "plain_labels": true
+    },
+    "allgemeines-notariat": {
+      "entry_skills": [
+        "amtsgeschaeft-fuehren"
+      ],
+      "theme": "notariat",
+      "mode": "prompt",
+      "rationale": "Beteiligte, dokumentierten Willen, Formweg und konkrete Vollzugsvoraussetzungen auseinanderhalten; eine neue Auskunft im betroffenen Entwurf verarbeiten.",
+      "plain_labels": true
+    },
+    "aktenanleger": {
+      "entry_skills": [
+        "akte-anlegen"
+      ],
+      "theme": "anwaltschaft-generell",
+      "mode": "prompt",
+      "rationale": "Rolle, Auftrag, Konflikt und Zugang klären, bevor Unterlagen und Wiedervorlagen einer Akte zugeordnet werden."
+    },
+    "umwandlungssteuerrecht": {
+      "entry_skills": [
+        "umwandlung-steuerlich-begleiten"
+      ],
+      "theme": "steuer",
+      "mode": "prompt",
+      "rationale": "Übertragungsweg, Werte, Fristen, Nachweise und Alternativrechnungen in derselben Entscheidungsunterlage fortführen."
     }
   }
 }

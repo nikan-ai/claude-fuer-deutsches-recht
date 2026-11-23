@@ -9,7 +9,7 @@ Prüfen Sie Bauträgerverträge, Raten und Sicherheiten, Bausoll, Abnahme und M�
 
 | Zugang | Verwendung |
 | --- | --- |
-| [Plugin-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.5/bautraegervertrag-pruefer.zip) | Installierbares Paket mit zehn Skills, Fachvertiefungen und Referenzen. |
+| [Plugin-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.11/bautraegervertrag-pruefer.zip) | Installierbares Paket mit zehn Skills, Fachvertiefungen und Referenzen. |
 | [Skill-Verzeichnis](../skills-index/bautraegervertrag-pruefer.md) | Die auswählbaren Arbeitswege mit Beschreibungen. |
 | [Werkstatt-Prompt als Markdown](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md) | Eigenständiger ausführlicher Prompt für mehrstufige Vertrags- und Aktenbearbeitung. |
 | [Mini-Prompt als Markdown](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md) | Kompakter Einstieg in eine konkrete Raten-, Klausel- oder Mängelfrage. |
@@ -46,7 +46,24 @@ Birkenpfuhl bietet Gesamt-PDF, Originaldateien-ZIP und Einzel-PDF-ZIP. Die beide
 Die Originalunterlagen, ZIPs und Builder der beiden lokalen Vertragsakten bleiben an ihren bisherigen Pfaden. Birkenpfuhl bleibt in der zentralen Testaktensammlung. Die drei Akten werden separat von der Plugin-Installation verwendet.
 <!-- END direkt-loslegen (autogen) -->
 
-## 2. Die Mandatsrolle bestimmt die Bearbeitung
+### Schriftverkehr zum Vertragsentwurf
+
+Wählen Sie das Bauvorhaben und beginnen Sie mit den Erwerberunterlagen in `Grundakte/00_Posteingang`. [Fallordner im Druckpaket nachschlagen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/docs/grundakten-lebenswelt/README.md#weitere-arbeitsakten-und-eigenständige-pluginfassungen).
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Fall | Originalunterlagen und Eingangspost | Lesefassungen |
+| --- | --- | --- |
+| Bauträgervertrag Hohenwartshofen | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bautraeger-bautraegervertrag.zip) | [Druckpaket 05](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-05.zip) |
+| Bauträgervertrag Marewald | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bautraeger-bautraegervertrag-marewald.zip) | [Druckpaket 05](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-05.zip) |
+
+## 2. Welcher Vertrag liegt vor?
+
+Der Prüfer gleicht zuerst Vertragsparteien, Einheit und Fassung ab. Aus den Grundstücks- und Leistungsklauseln bestimmt er, ob etwa ein Neubau mit Eigentumsübertragung, ein Erbbaurecht mit Baupflicht, ein Sanierungserwerb, ein später Erwerb der fertigen Einheit, ein Bauauftrag auf eigenem Grund oder eine Baugruppe vorliegt. Lassen die Unterlagen mehrere Antworten zu, fragt er gezielt nach. Anschließend prüft er die verlangte Rate, Klausel oder Mängelfrage nach dem ermittelten Vertragsmodell. [Vertragstyp und Prüfprogramm](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md)
+
+### 2.1. Die Mandatsrolle bestimmt die Bearbeitung
 
 | Rolle | Typische Aufgabe |
 | --- | --- |
@@ -109,7 +126,7 @@ English: Complete list of all 10 skills in this plugin. Both links in each row d
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Führt geprüfte Bauträgerbefunde in Mandantenbrief, Gutachten, konkrete Urkundenänderung, Mängelschreiben, GdWE-Beschluss oder ausdrücklich bestellten Schriftsatz mit vollständiger Begründung über. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 | [`architekt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/architekt-bearbeiten/SKILL.md) | Gleicht Bauzustand und technische Unterlagen mit geschuldeten Planungs-/Überwachungsleistungen ab; formuliert Gutachterfragen und prüft belegte Haftungs- und Regressansätze. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/architekt-bearbeiten/SKILL.md) |
 | [`bauablauf-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bauablauf-bearbeiten/SKILL.md) | Ordnet vereinbarte Termine, Baufortschritt, Behinderungen und Sonderwünsche; prüft Kausalität und bezifferte Verzugsfolgen und erstellt das beauftragte Schreiben. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bauablauf-bearbeiten/SKILL.md) |
-| [`bautraegerpruefung-steuern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md) | Führt Erwerber-, Bauträger-, GdWE- oder Verwalteraufträge durch Vertrags-, Raten-, Abnahme- und Mängelprüfung bis zum bestellten Schreiben, Gutachten oder Beschlussentwurf; hält Rollen, Belege und offene Freigaben auseinander. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md) |
+| [`bautraegerpruefung-steuern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md) | Bauträgervertrag bis zur konkreten Prüf- und Verhandlungsfassung bearbeiten. Nutzt vorhandene Falldaten, bestimmt vor der Sachprüfung Vertragsfassung, Erwerbsmodell und Sicherungsweg und verbindet passende Fachprüfungen mit einem vollstä... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md) |
 | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Bauträgervertrag Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
 | [`raten-sicherheiten-eigentum-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/raten-sicherheiten-eigentum-pruefen/SKILL.md) | Prüft MaBV-Zahlungsmodell, Bautenstand, Verbrauchersicherheit, Vormerkung und Lastenfreistellung; berechnet Rate und Saldo und formuliert Zahlungsantwort oder Sicherungsforderung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/raten-sicherheiten-eigentum-pruefen/SKILL.md) |
 | [`sonderfaelle-baugruppe-sanierung-pruefen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/sonderfaelle-baugruppe-sanierung-pruefen/SKILL.md) | Prüft Baugruppen-/GbR-Modelle, Bestands- und Sanierungserwerb sowie Nachzügler; ordnet Form, Vertragsregime, Finanzierung und gemeinschaftliche Risiken dem tatsächlichen Modell zu. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bautraegervertrag-pruefer/skills/sonderfaelle-baugruppe-sanierung-pruefen/SKILL.md) |

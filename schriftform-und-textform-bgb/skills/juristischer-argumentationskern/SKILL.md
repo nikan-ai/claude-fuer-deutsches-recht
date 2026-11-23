@@ -1,34 +1,33 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Schriftform Und Textform BGB ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Form- und Zugangsfrage bis zur wirksamen Erklärung klären. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebnis einschließlich Belegen, Gegenposition und Fristen."
 ---
 
-# Juristischer Argumentationskern - Schriftform Und Textform BGB
+# Form- und Zugangsfrage bis zur wirksamen Erklärung klären
 
 ## 1. Direktstart
 
-Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
+Gleiche Erklärung, Übermittlungsweg, Signatur und Zugangsnachweis mit der konkreten Formvorgabe ab. Begründe die Rechtsfolge und entwirf bei Bedarf eine formgerechte Erklärung.
 
-Pluginauftrag: Formerfordernisse im deutschen Zivilrecht: Schriftform, Textform, qES, Zugang, beA/ERV und Prozessordnungen. Mit Checklisten, Dokumentation und Rechtsprechung nur nach Live-Verifikation.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-## 2. Die tragende These
+Verwende Rechtsprechung erst nach Prüfung der aktuell abrufbaren Quelle.
 
-Formuliere das Ergebnis für Schriftform Und Textform BGB in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich.
+## 2. Vom Aktenstand zum fertigen Ergebnis
 
-Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+Aus vorhandenen Dateien, früheren Antworten und dem aktuellen Auftrag arbeiten. Nur eine Lücke nachfragen, wenn sie eine nachstehende Entscheidung tatsächlich ändern kann; unabhängige Teile währenddessen fertigstellen.
 
-2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
-2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
-2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
-2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
-2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
-2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
-2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
-2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+1. Erklärungstext, Vertrag, gesetzliche Formvorgabe, Signatur und Übermittlungsnachweise zusammentragen; gesetzliche, vereinbarte und prozessuale Form auseinanderhalten.
+
+2. Schriftform, elektronische Form und Textform nach ihrer konkreten Voraussetzung prüfen; Inhaltserfordernis, Urkundeneinheit und Zugang bleiben eigene Fragen.
+
+3. Bei E-Mail, Formularänderung, Vertreterunterschrift oder Heilung den passenden Fachweg öffnen. Geschäftlicher E-Mail-Zugang während üblicher Zeiten ist kein allgemeiner Rechtssatz für private Nachtzustellung.
+
+4. Wirksame Ersatzfassung oder konkrete Mängelrüge vollständig schreiben; Zugang, Frist und erforderliche Übermittlung für diese Erklärung festlegen, ohne erfolgte Zustellung zu behaupten.
+
+**Fachprüfung zurückführen:** Die nachstehenden Fachwege nur beim genannten Anlass verwenden, keine vollständige Menüfolge abarbeiten. Auftrag, relevante Aktenstellen und genaue Rechtsfrage mitgeben; Tatsachen, Norm, Gegenposition und Ergebnis der Fachprüfung in das bereits bestellte Dokument einarbeiten. Ein Verweis auf einen anderen Skill ist noch kein fertiges Ergebnis.
 
 ## 3. Materienspezifische Tatbestandsarbeit
 
@@ -42,10 +41,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB: Bearbeite den Fachpunkt im Skill arbeitsrecht-befristung-schriftform-checker und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Befristungsabrede — qES-Rechtsprechung Stand 2026: Bearbeite den Fachpunkt im Skill befristungsabrede-qes-rechtsprechung-stand-2026 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Maklervertrag nach Paragraf 656a BGB prüfen: Bearbeite den Fachpunkt im Skill maklervertrag-paragraf-656a-bgb-textform-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Schriftform: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill schriftform-fristen-form-und-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Arbeitsrecht — Befristung und Aufhebung: Paragrafen 14 TzBfG, 623 BGB](../arbeitsrecht-befristung-schriftform-checker/FACHINHALT.md)
+3.1.2. [Befristungsabrede — qES-Rechtsprechung Stand 2026](../befristungsabrede-qes-rechtsprechung-stand-2026/FACHINHALT.md)
+3.1.3. [Maklervertrag nach Paragraf 656a BGB prüfen](../maklervertrag-paragraf-656a-bgb-textform-pruefen/FACHINHALT.md)
+3.1.4. [Schriftform: Fristen, Form, Zuständigkeit und Rechtsweg](../schriftform-fristen-form-und-zustaendigkeit/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -60,14 +61,15 @@ Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, G
 
 Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-## 5. Rechtsprechung und Quellenstatus
+## 5. Rechtsprechung als Entscheidungshilfe
 
-5.1. ArbG Berlin, Urt. v. 28.09.2021 - 36 Ca 15296/20: Elektronische Signatur ohne qualifiziertes Zertifikat genügt Paragraf 14 Abs. 4 TzBfG nicht; Paragraf 16 TzBfG ordnet die Unbefristetheit an
-5.2. LAG Berlin-Brandenburg, Urt. v. 16.03.2022 - 23 Sa 1133/21: Eingescannte Unterschrift genügt nicht; die formgerechte Erklärung muss dem Arbeitnehmer vor Arbeitsaufnahme vorliegen
-5.3. ArbG Gera, Urt. v. 07.03.2024 - 2 Ca 936/23: Echte qES beider Parteien kann Paragraf 14 Abs. 4 TzBfG wahren; maßgeblich ist das qualifizierte Zertifikat, nicht der bloße Einsatz eines Signaturtools
+Die folgenden Anker sind fallbezogen anzuwenden; den jeweils dokumentierten Quellenstatus in der [Entscheidungskarte](../../references/hauptworkflow-entscheidungen.md) beachten. Frühere Prüfung bedeutet keine neue Volltextverifikation.
 
-5.4. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.5. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+- [BGH, Urteil vom 06.10.2022 – VII ZR 895/21, Rn. 16–23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2021/VII_ZR_895-21.pdf?__blob=publicationFile&v=1): Geschäftliche E-Mail während üblicher Geschäftszeiten mit Abrufbarkeit auf Empfängerserver zugegangen. **Grenze:** Privatempfang und außerhalb üblicher Zeiten ausdrücklich nicht entschieden; Absenden allein kein Zugangsbeweis.
+
+- [BGH, Urteil vom 6. März 2025, I ZR 32/24, amtliche Leitsätze](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2024/I_ZR__32-24.pdf?__blob=publicationFile&v=1): Einfamilienhausbegriff und entsprechendes Provisionsrecht bei Vertragsschluss durch einen Dritten abgrenzen. **Grenze:** Kein Nachweis, dass eine bestimmte E-Mail Textform oder Vertragsschluss erfüllt; amtliche Leitsätze geprüft.
+
+- [BGH, Urteil vom 16.06.2026 – II ZR 85/25, Berichtigung vom14.07.2026, Rn. 12–32](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__85-25.pdf?__blob=publicationFile&v=1): Individuelle doppelte Schriftform grundsätzlich nicht mündlich abbedingen; Treuepflicht kann formgerechte rückwirkende Zustimmung verlangen. **Grenze:** Freiberuflersozietät, zurückverwiesen; weder automatische Heilung noch Übertragung auf §305bAGB oder gesetzliche Beurkundung.
 
 ## 6. Beweislast und Gegenangriff
 
@@ -78,13 +80,11 @@ Ausgangspunkt für dieses Plugin: Anspruchsteller für Vertrag, Pflichtverletzun
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Ergebnis fortführen und abschließen
 
-7.1. Wer verlangt welche Rechtsfolge aus welchem Vertrag oder gesetzlichen Anspruch.
-7.2. Ist der Vertrag wirksam zustande gekommen und welche Form- oder Vertretungsfrage kann kippen.
-7.3. Welche Klausel ist Individualabrede, AGB oder überraschende bzw. intransparente Regelung.
-7.4. Welche Pflichtverletzung oder welcher Mangel ist mit welchem Beleg bewiesen.
-7.5. Welche Einwendung ist entscheidungserheblich und wer trägt sie.
+7.1. Die Entscheidung aus Abschnitt 2 mit der folgenden Fachprüfung und den belegten Aktenangaben zusammenführen. Neu gelieferte Tatsachen ersetzen die betroffene Annahme; Berechnung, Antrag und Folgeabschnitte derselben Fassung anschließend aktualisieren.
+7.2. Im fertigen Produkt je tragendem Punkt Rechtsregel, konkrete Tatsache, Beleg, Beweislast beziehungsweise Ermittlungsauftrag, stärkste Gegenposition und Antwort verbinden. Fristbeginn, Ereignis, Fristart und erforderliche Handlung ausdrücklich unterscheiden.
+7.3. Das verlangte Schreiben, den Vertrag, Schriftsatz, Entscheidungsentwurf oder Vermerk vollständig ausformulieren. Nur tatsächlich entscheidungserhebliche Restlücken außerhalb des Empfängertexts als konkrete nächste Aufgabe kennzeichnen.
 
 ## 8. Juristisches Schreiben
 

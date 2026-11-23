@@ -1,34 +1,33 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Fachanwalt Familienrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Familienrechtlichen Streit bis zum passenden Antrag oder Vergleich bearbeiten. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebnis einschließlich Belegen, Gegenposition und Fristen."
 ---
 
-# Juristischer Argumentationskern - Fachanwalt Familienrecht
+# Familienrechtlichen Streit bis zum passenden Antrag oder Vergleich bearbeiten
 
 ## 1. Direktstart
 
-Arbeite als familienrechtlicher Bearbeiter für Scheidung, Unterhalt, Kindschaft, Gewaltschutz, Versorgungsausgleich und vermögensrechtliche Folgesachen. Vorhandene Dateien werden zuerst ausgewertet; Rückfragen bleiben auf Tatsachen beschränkt, die Antrag, Frist, Berechnung oder Kindeswohlbewertung tatsächlich verändern.
+Bestimme das Anliegen von Kind, Eltern oder Ehegatten anhand der vorhandenen Unterlagen. Sichere Fristen und Berechnungsgrundlagen und formuliere das verlangte familiengerichtliche oder außergerichtliche Arbeitsprodukt.
 
-Pluginauftrag: Plugin Fachanwalt für Familienrecht. Orientierung Normen Mandate Fristen Literatur. Familiengericht FamFG Scheidung Sorge Umgang Unterhalt Zugewinn Ehevertrag eingetragene Lebenspartnerschaft. Ergaenzend zum Plugin kanzlei-allgemein.
+Vorhandene Dateien werden zuerst ausgewertet; Rückfragen bleiben auf Tatsachen beschränkt, die Antrag, Frist, Berechnung oder Kindeswohlbewertung tatsächlich verändern.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-## 2. Die tragende These
+## 2. Vom Aktenstand zum fertigen Ergebnis
 
-Formuliere das Ergebnis für Fachanwalt Familienrecht in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Unterhaltstitel, Sorge-/Umgangsregelung, Scheidungsausspruch, Versorgungsausgleich oder Zugewinn.
+Aus vorhandenen Dateien, früheren Antworten und dem aktuellen Auftrag arbeiten. Nur eine Lücke nachfragen, wenn sie eine nachstehende Entscheidung tatsächlich ändern kann; unabhängige Teile währenddessen fertigstellen.
 
-Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+1. Verfahrensart, Trennung, Zustellungen, Kinderbetreuung, Einkommen und Vermögensstichtage aus der Akte erfassen; Unterhalt, Kindschaft und Güterrecht trennen.
 
-2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
-2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
-2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
-2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
-2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
-2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
-2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
-2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+2. Für jede Teilfrage die richtige Verfahrensmaxime und Darlegungslast wählen. Betreuungsanteile nach tatsächlicher Bedarfsdeckung bewerten; Sozialleistungsgrenzen nicht als familienrechtlichen Selbstbehalt übernehmen.
+
+3. Je nach Streit nur Fachwege zu Unterhalt, Zugewinn, Umgang, Versorgungsausgleich oder Eilverfahren öffnen; ihre zeitlichen und rechnerischen Annahmen aufeinander abstimmen.
+
+4. Antrag oder Vergleich mit bestimmtem Inhalt und überprüfbarer Berechnung ausformulieren; Kindesinteressen, Gegenposition, Auskunftslücken und notwendige Vollstreckbarkeit konkret abbilden.
+
+**Fachprüfung zurückführen:** Die nachstehenden Fachwege nur beim genannten Anlass verwenden, keine vollständige Menüfolge abarbeiten. Auftrag, relevante Aktenstellen und genaue Rechtsfrage mitgeben; Tatsachen, Norm, Gegenposition und Ergebnis der Fachprüfung in das bereits bestellte Dokument einarbeiten. Ein Verweis auf einen anderen Skill ist noch kein fertiges Ergebnis.
 
 ## 3. Materienspezifische Tatbestandsarbeit
 
@@ -42,10 +41,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Kindeswohlgefährdung — Eilanordnung: Bearbeite den Fachpunkt im Skill fachanwalt-familienrecht-kindeswohlgefaehrdung-eilantrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Fachanwalt Familienrecht Scheidungsantrag Stellen: Bearbeite den Fachpunkt im Skill fachanwalt-familienrecht-scheidungsantrag-stellen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Unterhaltsberechnung: Bearbeite den Fachpunkt im Skill fachanwalt-familienrecht-unterhaltsberechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Fachanwalt Familienrecht Mediation 156 Famfg Cochemer: Bearbeite den Fachpunkt im Skill fachanwalt-familienrecht-mediation-156-famfg-cochemer und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Kindeswohlgefährdung — Eilanordnung](../fachanwalt-familienrecht-kindeswohlgefaehrdung-eilantrag/FACHINHALT.md)
+3.1.2. [Fachanwalt Familienrecht Scheidungsantrag Stellen](../fachanwalt-familienrecht-scheidungsantrag-stellen/FACHINHALT.md)
+3.1.3. [Unterhalt berechnen und gegenrechnen](../unterhalt-berechnen-und-gegenrechnen/FACHINHALT.md)
+3.1.4. [Fachanwalt Familienrecht Mediation 156 Famfg Cochemer](../fachanwalt-familienrecht-mediation-156-famfg-cochemer/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -60,15 +61,15 @@ Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, G
 
 Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-## 5. Rechtsprechung und Quellenstatus
+## 5. Rechtsprechung als Entscheidungshilfe
 
-5.1. Beim Kindesunterhalt reinen Mehraufwand und belegte Bedarfsdeckung bei erweitertem Umgang getrennt rechnen. Nach Tabellenherabstufung kann eine konkret geschätzte Bedarfsdeckung im Einzelfall zum Betrag von 90 Prozent, ausnahmsweise bis 85 Prozent des Mindestunterhalts abzüglich hälftigen Kindergelds führen. Vertretung, Betreuung und Einkommen gesondert prüfen. Der Senat hat zurückverwiesen. [BGH, Beschluss vom 23.09.2026 – XII ZB 568/25, Rn. 17–22](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2025/XII_ZB_568-25.pdf?__blob=publicationFile&v=1)
-5.2. BGH, Beschluss vom 26.03.2025 - XII ZB 388/24: Eine Herabsetzung des notwendigen Selbstbehalts wegen Haushaltsersparnis setzt belastbare Feststellungen zum Zusammenleben und zur Eigenbedarfsdeckung des Partners voraus; der Haushaltsvorteil darf nicht nur vermutet werden.
-5.3. BGH, Beschluss vom 05.03.2025 - XII ZB 88/24: Sorge und Umgang sind eigenständige Verfahrensgegenstände; eine gebilligte Umgangsregelung sperrt eine Sorgerechtsentscheidung nicht, und Sachverständigengutachten sind nachvollziehbar zu würdigen.
-5.4. BGH, Beschluss vom 25.09.2024 - XII ZB 508/23: Eine selbst erstellte Liste offener Forderungen gehört zur Zugewinnauskunft und ist kein Beleg im Sinne des BGB Paragraf 1379 Absatz 1 Satz 2.
+Die folgenden Anker sind fallbezogen anzuwenden; den jeweils dokumentierten Quellenstatus in der [Entscheidungskarte](../../references/hauptworkflow-entscheidungen.md) beachten. Frühere Prüfung bedeutet keine neue Volltextverifikation.
 
-5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+- [BGH, Beschluss vom 13.11.2024, XII ZB 558/23, Randnummern 17 bis 23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2023/XII_ZB_558-23.pdf?__blob=publicationFile&v=1): Niedrigeres Endvermögen nach erfüllender Trennungsauskunft: Auskunftstitel oder verlangtes Datum und Erfüllungsannahme bestimmen die Beweislastfolge. **Grenze:** Bloßer Kontobeleg reicht nicht; abweichender tatsächlicher Trennungstag beseitigt Folge nicht automatisch; Zurückverweisung statt Feststellung jeder Minderung als illoyal.
+
+- [BGH, Beschluss vom 15.04.2026, XII ZB 415/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2025/XII_ZB_415-25.pdf?__blob=publicationFile&v=1): Erweiterter Umgang: nicht bedarfsdeckende Mehrkosten von Teilerfüllung trennen; Schätzung auf tatsächlicher Grundlage typischerweise 10, ausnahmsweise höchstens 15 Prozent des Tabellenbedarfs. **Grenze:** Kein automatischer Umgangsrabatt, kein Abzug vom Zahlbetrag und keine zeitanteilige Barhaftung des Hauptbetreuenden.
+
+- [BGH, Beschluss vom 22.01.2025, XII ZB 148/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2024/XII_ZB_148-24.pdf?__blob=publicationFile&v=1): Beim Elternunterhalt sozialhilferechtliche 100.000-Euro-Regressgrenze und zivilrechtliche Leistungsfähigkeit trennen; daraus folgt kein Selbstbehalt von 5.500 Euro. **Grenze:** Konkrete Belastungen, angemessener Selbstbehalt und Geschwisteranteile bleiben zu prüfen; kein bundesweit fixer aktueller Selbstbehalt aus dem Urteil.
 
 ## 6. Beweislast und Gegenangriff
 
@@ -79,14 +80,11 @@ Ausgangspunkt für dieses Plugin: Unterhaltsteller für Bedarf und Auskunft; Pfl
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Ergebnis fortführen und abschließen
 
-7.1. Welcher Verfahrensgegenstand, welche Rolle und welche Eilspur sind tatsächlich eröffnet.
-7.2. Welche Stichtage, Auskünfte, Belege und Tabellenstände tragen die Berechnung.
-7.3. Welche Vertretungs-, Anwaltszwang- und Vollstreckungsfragen müssen vor dem Sachantrag geklärt werden.
-7.4. Welche Kindeswohlkriterien sind für jedes Kind durch welche konkrete Fundstelle belegt.
-7.5. Welche Gegenrechnung oder Gegenposition ist am stärksten und wie verändert sie Antrag oder Vergleichskorridor.
-7.6. Welches unterschrifts- oder einreichungsreife Arbeitsprodukt beseitigt den nächsten Engpass.
+7.1. Die Entscheidung aus Abschnitt 2 mit der folgenden Fachprüfung und den belegten Aktenangaben zusammenführen. Neu gelieferte Tatsachen ersetzen die betroffene Annahme; Berechnung, Antrag und Folgeabschnitte derselben Fassung anschließend aktualisieren.
+7.2. Im fertigen Produkt je tragendem Punkt Rechtsregel, konkrete Tatsache, Beleg, Beweislast beziehungsweise Ermittlungsauftrag, stärkste Gegenposition und Antwort verbinden. Fristbeginn, Ereignis, Fristart und erforderliche Handlung ausdrücklich unterscheiden.
+7.3. Das verlangte Schreiben, den Vertrag, Schriftsatz, Entscheidungsentwurf oder Vermerk vollständig ausformulieren. Nur tatsächlich entscheidungserhebliche Restlücken außerhalb des Empfängertexts als konkrete nächste Aufgabe kennzeichnen.
 
 ## 8. Juristisches Schreiben
 

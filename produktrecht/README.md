@@ -5,13 +5,13 @@
 
 Produkthaftung und Produktrecht: Produktsicherheit, GPSR, ProdHaftG, deliktische Produzentenhaftung, Right to Repair, Software-/OTA-Updates, digitale Produktlebenszyklen, Rückruf, Marktüberwachung und Launch-Review.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/produktrecht.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/produktrecht.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/produktrecht.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/produktrecht.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`produktrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/produktrecht.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`produktrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`produktrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/produktrecht-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [7 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -107,7 +107,7 @@ Ihre Konfiguration wird unter `~/.claude/plugins/config/claude-fuer-deutsches-re
 | `/produktrecht:pflichten-und-belege-bearbeiten Thema: kaltstart-interview` | Kaltstart-Interview |
 | `/produktrecht:arbeitsprodukt-bearbeiten Thema: launch-pruefung [PRD oder Ticket]` | Vollständiger Launch-Review gegen Ihr Framework |
 | `/produktrecht:pflichten-und-belege-bearbeiten Thema: werbeaussagen-pruefung [Text]` | Werbeaussagen-Prüfung |
-| `/produktrecht:ist-das-ein-problem [Frage]` | Schnelle "Ist-das-ein-Problem?"-Antwort |
+| `/produktrecht:pflichten-und-belege-bearbeiten Thema: ist-ki-act-marktueberwachung-kommunikation [Frage]` | Schnelle "Ist-das-ein-Problem?"-Antwort |
 | `/produktrecht:fehler-und-risiko-bearbeiten Thema: feature-risikobewertung [Feature]` | Tiefgehende Feature-Risikobewertung |
 | `/produktrecht:pflichten-und-belege-bearbeiten Thema: impressum-pflicht` | Impressumspflichten prüfen (DDG, MStV) |
 | `/produktrecht:pflichten-und-belege-bearbeiten Thema: preisangaben` | Preisangabenpflichten prüfen (PAngV) |
@@ -159,7 +159,7 @@ Die Profilerstellung ist optional. Für eine konkrete Frage oder einen vorhanden
 Dann:
 
 ```
-/produktrecht:ist-das-ein-problem "Können wir den Preis auf der Preisseite A/B-testen?"
+/produktrecht:pflichten-und-belege-bearbeiten Thema: ist-ki-act-marktueberwachung-kommunikation "Können wir den Preis auf der Preisseite A/B-testen?"
 ```
 
 → Antwort in einer Minute, kalibriert auf Ihre Risikotabelle.
@@ -247,7 +247,7 @@ English: Complete list of all 10 skills in this plugin. Both links in each row d
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Arbeitsprodukt: Launch-Matrix, Rückrufmemo, Haftungsanalyse, Behördenantwort oder Verteidigungsschreiben erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/einstieg-routing/SKILL.md) |
 | [`fehler-und-risiko-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/fehler-und-risiko-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Fehler und Risiko: Konstruktion, Fabrikation, Instruktion, Software, Update, Cyberrisiko und vorhersehbare Verwendung trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/fehler-und-risiko-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Produktrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) | Produktfall bis zur begründeten Sicherheitsmaßnahme führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/juristischer-argumentationskern/SKILL.md) |
 | [`pflichten-und-belege-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/pflichten-und-belege-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Pflichten und Belege: technische Norm, Test, Anleitung, Warnung, Reklamation, Produktbeobachtung und Marktüberwachung prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/pflichten-und-belege-bearbeiten/SKILL.md) |
 | [`produkt-und-rolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/produkt-und-rolle-bearbeiten/SKILL.md) | Für Produktrecht und Produkthaftung: Produkt und Rolle: Hersteller, Importeur, Händler, Fulfilment, Plattform, Betreiber oder Geschädigter bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auft... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/produkt-und-rolle-bearbeiten/SKILL.md) |
 | [`reaktion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/reaktion-bearbeiten/SKILL.md) | Produkthaftung und Produktrecht: Reaktion: Korrektur, Warnung, Rückruf, Behördenmeldung, Kundenkommunikation und Beweissicherung planen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=produktrecht/skills/reaktion-bearbeiten/SKILL.md) |

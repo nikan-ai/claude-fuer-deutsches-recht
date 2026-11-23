@@ -25,7 +25,7 @@
       "Berliner Kommissionsargumente und Gegenpositionen fallbezogen integriert; Artikel 14/15, Tatsachenprognose und Rechtsstand getrennt.",
       "Gesetz, Vermögenswerte und Gemeinwirtschaft vor die Dateiaufnahme gestellt. Atomausstiegsurteil ausdrücklich nur zur Güterbeschaffungsabgrenzung, nicht als Entscheidung über Artikel 15 GG."
     ],
-    "sha256": "594dbd1e0144563c135e529023b38e1da214d9bc72ed6946de7e5b66338d6ceb",
+    "sha256": "86e7385e196d4d0f4949128c3f9a3ca2c27fa3cb80791a6977954e118dc390ed",
     "reviewed_on": "2026-10-16"
   },
   "selection": {
@@ -693,8 +693,8 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "vergesellschaftung-artikel-15/vergesellschaftung-artikel-15-werkstatt.md"
     ],

@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn eine Systemrichtlinie für Kanzleien tragfähig begründet werden muss; verbindet Einsatzfall, Berufspflicht, technische Kontrolle, Verantwortlichkeit, stärkste Gegenposition und konkrete Regelungsfolge."
+description: "Kanzleiregeln für KI aus dem tatsächlichen Einsatz entwickeln. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Systemrichtlinie für Kanzleien
+# Kanzleiregeln für KI aus dem tatsächlichen Einsatz entwickeln
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Kanzleiorganisatorischer Bearbeiter für Mandatsannahme, Interessenkontrolle, Vollmacht, Fristen, elektronische Einreichung, Aufgabenverteilung, Budget, Rechnung, Aktenführung und Mandatsabschluss mit Fokus auf Verantwortlichkeit und belegten Übergaben.
+Erfasse konkrete Werkzeuge, Datenarten, Nutzerrollen, Mandatsprodukte und bisherige Freigaben aus vorhandenen Unterlagen.
 
-Pluginauftrag: Erstellt und pflegt eine berufsrechtskonforme System-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwälten und Syndikus-Anwälten. Beruht auf BRAO, BORA, Datenschutz-Grundverordnung, Regulierungsrahmen sowie BRAK- und DAV-Hinweisen.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Auftragsverarbeitungsvertrag prüfen: Bearbeite den Fachpunkt im Skill auftragsverarbeitungsvertrag-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Musterklauseln IT-Vertrag: Bearbeite den Fachpunkt im Skill musterklauseln-it-vertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Syndikus: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill syndikus-schriftsatz-brief-und-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Automatisierte Entscheidungen Art. 22 Datenschutz-Grundverordnung: Bearbeite den Fachpunkt im Skill automatisierte-entscheidungen-art-22-dsgvo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Auftragsverarbeitungsvertrag prüfen](../auftragsverarbeitungsvertrag-pruefen/FACHINHALT.md)
+3.1.2. [Musterklauseln IT-Vertrag](../musterklauseln-it-vertrag/FACHINHALT.md)
+3.1.3. [Syndikus: Schriftsatz-, Brief- und Memo-Bausteine](../syndikus-schriftsatz-brief-und-memo-bausteine/FACHINHALT.md)
+3.1.4. [Automatisierte Entscheidungen Art. 22 Datenschutz-Grundverordnung](../automatisierte-entscheidungen-art-22-dsgvo/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,27 +62,32 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. AG Köln, Beschluss vom 02.07.2025, 312 F 130/25, Randnummern 23 und 24: Amtlicher Volltext gelesen: erfundene und falsch zugeordnete Fundstellen beanstandet; konkrete Originalkontrolle vor externer Verwendung als Kanzleistandard. Grenze: Keine disziplinarrechtliche Verurteilung, kein allgemeines KI-Verbot oder Urteil zum geänderten Artikel 4; KI-Ursprung nur als offenbar angenommen. [Entscheidungsnachweis](https://nrwe.justiz.nrw.de/ag_koeln/j2025/312_F_130_25_Beschluss_20250702.html) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Verantwortlicher Bearbeiter für Annahme, Vollmacht, Frist, Freigabe und Versandnachweis; Mandant für Identitäts-, Sachverhalts- und Entscheidungsangaben.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Ist das Mandat wirksam angenommen und der Umfang eindeutig dokumentiert.
-7.2. Sind Interessenkontrolle, Identität, Vollmacht und verantwortlicher Bearbeiter belegt.
-7.3. Welche Frist oder Freigabe ist der nächste nicht reversible Schritt.
-7.4. Ist der Versand technisch und rechtlich vollständig nachgewiesen.
-7.5. Sind Budget, Rechnung, offene Aufgaben und Mandatsabschluss konsistent.
+7.1. Trenne Geheimnisschutz, Datenschutz, fachliche Eigenkontrolle und technische Zugriffsrechte. Verlange Originalkontrolle für tragende Rechtsfundstellen und Aktenabgleich für Tatsachen.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Schreibe die beauftragte Richtlinie mit verständlichen zulässigen Anwendungen, Verantwortlichkeiten, Prüfungen und einem praktikablen Ausnahmeweg.
+
+7.4. Ein neuer externer Dienst oder eine neue Datenkategorie verändert die betreffende Freigaberegel; ein bekanntes Fehlzitat muss zu einem konkreten Kontrollschritt führen.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

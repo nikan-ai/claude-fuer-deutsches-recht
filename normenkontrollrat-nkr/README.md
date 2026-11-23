@@ -5,13 +5,13 @@
 
 Plugin für den Nationalen Normenkontrollrat (NKR): Prüfung von Referentenentwürfen Formulierungshilfen und Gesetzentwürfen auf Erfüllungsaufwand Erforderlichkeit Verhältnismäßigkeit One-in-one-out Digitalcheck Mittelstandsfreundlichkeit und Praktikabilitaet im Vollzug.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/normenkontrollrat-nkr.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrollrat-nkr.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/normenkontrollrat-nkr.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/normenkontrollrat-nkr.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrollrat-nkr.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`normenkontrollrat-nkr-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`normenkontrollrat-nkr-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -80,10 +80,10 @@ Die Prüfung betrifft nachvollziehbar ermittelten Erfüllungsaufwand und methodi
 
 ## Aufbau
 
-Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Der vollständige Bestand einschließlich zusätzlicher Vertiefungen steht in der [Skill-Liste](../skills-index/normenkontrollrat-nkr.md).
+Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/normenkontrollrat-nkr.md) zu.
 
 ```
-1. Grundlagen, Verfahren, Mandat (7 Skills)
+1. Grundlagen, Verfahren, Mandat
    nkr-orientierung-und-mandatsaufnahme
    nkr-aufgabe-und-kompetenz-nkrg
    nkr-pruefumfang-was-prueft-der-nkr-nicht
@@ -92,7 +92,7 @@ Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Der vol
    nkr-eu-ebene-und-better-regulation
    nkr-evaluation-und-jahresbericht
 
-2. Erfüllungsaufwand-Methodik (8 Skills)
+2. Erfüllungsaufwand-Methodik
    nkr-erfuellungsaufwand-grundbegriff
    nkr-erfuellungsaufwand-buerger-wirtschaft-verwaltung
    nkr-standardkostenmodell-skm
@@ -102,7 +102,7 @@ Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Der vol
    nkr-fallzahlen-schaetzung-bandbreiten
    nkr-leitfaden-ermittlung-und-darstellung
 
-3. Prüfraster (8 Skills)
+3. Prüfraster
    nkr-erforderlichkeitspruefung-warum-ueberhaupt-regeln
    nkr-alternativen-pruefung-keine-regelung-soft-law
    nkr-verhaeltnismaessigkeit-aus-nkr-sicht
@@ -112,7 +112,7 @@ Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Der vol
    nkr-digital-anschlussfaehigkeit-tauglich
    nkr-one-in-one-out-bilanz-und-buchung
 
-4. Stellungnahme entwerfen (8 Skills)
+4. Stellungnahme entwerfen
    nkr-stellungnahme-aufbau-und-format
    nkr-stellungnahme-grundsatzfeststellung
    nkr-stellungnahme-ergebnis-und-empfehlung
@@ -122,7 +122,7 @@ Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Der vol
    nkr-stellungnahme-mahnender-charakter-grenzen
    nkr-stellungnahme-pressepolitik-und-jahresbericht
 
-5. Spezialfälle / komplexe Themen (6 Skills)
+5. Spezialfälle / komplexe Themen
    nkr-digitalcheck-und-onlinezugangsgesetz-ozg
    nkr-eu-richtlinien-umsetzung-und-goldplating
    nkr-handelsregister-und-elektronische-zustellung
@@ -163,7 +163,7 @@ Am 16.10.2026 gelesen: [Paragraf 1 Absätze 3 und 4 NKRG](https://www.gesetze-im
 
 ```
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install normenkontrollrat-nkr@claude-fuer-deutsches-recht
+/plugin install normenkontrollrat-nkr@klotzkette-german-legal-skills
 ```
 
 ## Konversationsstil
@@ -217,7 +217,7 @@ English: Complete list of all 8 skills in this plugin. Both links in each row do
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Arbeitsprodukt: Prüfvermerk, Aufwandstabelle, Rückfragenkatalog, Alternativenblatt, Stellungnahme oder Änderungsbitte mit Textvorschlag erstellen. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 | [`aufwandsrechnung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/aufwandsrechnung-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Aufwandsrechnung: Bürger, Wirtschaft und Verwaltung getrennt nach Fallzahl, Häufigkeit, Zeit, Lohnsatz, Sachkosten, Einmal- und Daueraufwand berechnen. Vollständige Facha... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/aufwandsrechnung-bearbeiten/SKILL.md) |
 | [`digital-und-vollzugscheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/digital-und-vollzugscheck-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Digital- und Vollzugscheck: Datenfelder, Registerabruf, Nachweiswiederverwendung, Medienbruch, Zuständigkeit, Personal, Übergang und Kontrollierbarkeit prüfen. Vollständi... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/digital-und-vollzugscheck-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Normenkontrollrat Nkr ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) | Regelungsfolgen bis zur nachrechenbaren Stellungnahme prüfen. Verarbeitet vorhandene Unterlagen, prüft entscheidende Fachfragen und führt den Auftrag zum vollständig formulierten Ergebnis. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) |
 | [`plausibilisierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/plausibilisierung-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Plausibilisierung: Datenquelle, Bezugsjahr, Bandbreite, Sowieso-Anteil, Doppelzählung, föderale Verteilung und Sensitivität offenlegen. Vollständige Fachanweisungen und l... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/plausibilisierung-bearbeiten/SKILL.md) |
 | [`regelungsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/regelungsauftrag-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Regelungsauftrag: politisches Ziel, Problembeleg, Adressaten, Rechtsform, Federführung, Zeitplan und unverrückbare Vorgaben erfassen. Vollständige Fachanweisungen und lok... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/regelungsauftrag-bearbeiten/SKILL.md) |
 | [`vorgangsinventar-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/vorgangsinventar-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Vorgangsinventar: jede neue, geänderte oder entfallende Informations-, Mitwirkungs-, Zahlungs-, Dokumentations- und Kontrollpflicht zeilenweise erfassen. Vollständige Fac... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/vorgangsinventar-bearbeiten/SKILL.md) |

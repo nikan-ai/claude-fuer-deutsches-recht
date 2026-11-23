@@ -5,13 +5,13 @@
 
 Steuerrecht für Anwalt (anw- FAO Paragraf 9) und Steuerberater (stb-): Einspruch Klage FG Aussenprüfung Selbstanzeige, Grundsteuer, Grunderwerbsteuer, Share Deals, Signing Closing, BWA SuSa Lohnbuchhaltung Jahresabschluss.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`steuerrecht-anwalt-und-berater.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/steuerrecht-anwalt-und-berater.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`steuerrecht-anwalt-und-berater.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/steuerrecht-anwalt-und-berater.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/steuerrecht-anwalt-und-berater.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/steuerrecht-anwalt-und-berater-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/steuerrecht-anwalt-und-berater-schnellstart.md) |
@@ -46,13 +46,13 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`steuerrecht-anwalt-und-berater.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/steuerrecht-anwalt-und-berater.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`steuerrecht-anwalt-und-berater.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/steuerrecht-anwalt-und-berater.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`steuerrecht-anwalt-und-berater-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/steuerrecht-anwalt-und-berater-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`steuerrecht-anwalt-und-berater-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/steuerrecht-anwalt-und-berater-werkstatt.md) |
 | Schwerpunkt-Prompt (Hauptproblem) | Markdown | <a href="https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/steuerrecht-anwalt-und-berater-hauptproblem.md" download>steuerrecht-anwalt-und-berater-hauptproblem.md</a> |
 | Zugeordnete Testakten | PDF / ZIP | [30 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -114,6 +114,14 @@ Der Einkommensteuer-Nachtrag verbindet die tatsächliche Tätigkeit an der Musik
 
 [Tomasius-Akte mit Grundakte als ZIP herunterladen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/Testakte_Tomasius_2025_Grundakte.zip)
 
+Die vollständige Originalformat-Akte führt die erste Post des Freiburger Mandanten unter `Grundakte/00_Posteingang`.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Tomasius · vollständiges Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-steuerrecht-freiburg-tomasius-solo.zip)
+
 ## Umsatzsteuer-Voranmeldung aus Belegen
 
 Das [Fachmodul Umsatzsteuer-Voranmeldung erstellen](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/umsatzsteuer-voranmeldung-erstellen/FACHINHALT.md) ordnet Originalbelege, Zahlungen und Steuertatbestände dem konkreten Zeitraum zu. Es liefert eine geprüfte Feldtabelle für Mein ELSTER und führt bei vorhandenem verifiziertem Zugang den beauftragten Import oder lokalen Abgabeweg fort. Der Nutzer wählt sein Zertifikat lokal und gibt PIN beziehungsweise Passwort im geschützten Anmeldefeld ein.
@@ -166,46 +174,46 @@ Skills für steuerrechtliche Anwaltskanzleien — streitbezogene Folgebearbeitun
 
 | Skill | Funktion |
 |---|---|
-| `/steuerrecht-anwalt-und-berater:anw-orientierung` | Orientierung Anwalt im Steuerrecht (Normen, Fristen, Quellenprüfung) + FAO § 9-Anhang |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-orientierung` | Orientierung Anwalt im Steuerrecht (Normen, Fristen, Quellenprüfung) + FAO § 9-Anhang |
 | `/steuerrecht-anwalt-und-berater:mandat-kanzleibetrieb-quellen-bearbeiten Thema: rechtsstand-mai-2026-faktenbank` | Quellen-Gate: E-Rechnung, Krypto, Grundsteuer, § 23 EStG, § 20 EStG, BFH/BMF/BZSt ohne Blindzitate |
-| `/steuerrecht-anwalt-und-berater:anw-kaltstart-interview` | Ersteinrichtung — Kanzleiprofil, Schwerpunkte, Finanzämter, FG-Bezirke |
-| `/steuerrecht-anwalt-und-berater:anw-mandat-triage-steuerrecht` | Eingangs-Triage: Steuerart, Vorgang, Fristen, Eskalation |
-| `/steuerrecht-anwalt-und-berater:anw-steuerbescheid-analyse` | Steuerbescheid systematisch auswerten vor Einspruch |
-| `/steuerrecht-anwalt-und-berater:anw-einspruch-finanzamt` | Einspruch § 347 AO mit AdV-Antrag und Akteneinsicht |
-| `/steuerrecht-anwalt-und-berater:anw-aussetzung-vollziehung` | AdV-Antrag zweistufig: FA § 361 AO + FG § 69 Abs. 3 FGO |
-| `/steuerrecht-anwalt-und-berater:anw-klage-finanzgericht` | Klage zum Finanzgericht § 40 ff. FGO |
-| `/steuerrecht-anwalt-und-berater:anw-akteneinsicht-steuerakte` | Akteneinsicht § 364 AO / § 78 FGO / Art. 15 DSGVO |
-| `/steuerrecht-anwalt-und-berater:anw-aussenpruefung-strategien` | Außenprüfung §§ 193 ff. AO: Begleitung, Strategie, Schlussbesprechung |
-| `/steuerrecht-anwalt-und-berater:anw-selbstanzeige-371` | Selbstanzeige § 371 AO — Hochrisikobereich, Pflichtprüfung mehrere Anwälte |
-| `/steuerrecht-anwalt-und-berater:anw-haftungswarn-15a-inso-mandant` | Anwaltliche Belehrung GF bei Insolvenzreife (§ 15a InsO, § 15b InsO) — Schreibvorlage mit Eingangsbestätigung |
-| `/steuerrecht-anwalt-und-berater:anw-insolvenzreife-pruefung-17-19-inso` | Anwaltliche Insolvenzreife-Prüfung §§ 17, 19 InsO mit steuerspezifischem Schwerpunkt (§ 222 AO Stundung, § 361 AO AdV, § 69 AO GF-Haftung, § 266a StGB) |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-kaltstart-interview` | Ersteinrichtung — Kanzleiprofil, Schwerpunkte, Finanzämter, FG-Bezirke |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-mandat-triage-steuerrecht` | Eingangs-Triage: Steuerart, Vorgang, Fristen, Eskalation |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-steuerbescheid-analyse` | Steuerbescheid systematisch auswerten vor Einspruch |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-einspruch-finanzamt` | Einspruch § 347 AO mit AdV-Antrag und Akteneinsicht |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-aussetzung-vollziehung` | AdV-Antrag zweistufig: FA § 361 AO + FG § 69 Abs. 3 FGO |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-klage-finanzgericht` | Klage zum Finanzgericht § 40 ff. FGO |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-akteneinsicht-steuerakte` | Akteneinsicht § 364 AO / § 78 FGO / Art. 15 DSGVO |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-aussenpruefung-strategien` | Außenprüfung §§ 193 ff. AO: Begleitung, Strategie, Schlussbesprechung |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-selbstanzeige-371` | Selbstanzeige § 371 AO — Hochrisikobereich, Pflichtprüfung mehrere Anwälte |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-haftungswarn-15a-inso-mandant` | Anwaltliche Belehrung GF bei Insolvenzreife (§ 15a InsO, § 15b InsO) — Schreibvorlage mit Eingangsbestätigung |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-insolvenzreife-pruefung-17-19-inso` | Anwaltliche Insolvenzreife-Prüfung §§ 17, 19 InsO mit steuerspezifischem Schwerpunkt (§ 222 AO Stundung, § 361 AO AdV, § 69 AO GF-Haftung, § 266a StGB) |
 | Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| `/steuerrecht-anwalt-und-berater:anw-stundung-erlass-vollstreckungsaufschub` | Stundung § 222 AO, Erlass § 227/§ 163 AO, Vollstreckungsaufschub § 258 AO — Antrag mit Liquiditätsbeleg, Ratenplan, Sicherheitsleistung — **NEU** |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-stundung-erlass-vollstreckungsaufschub` | Stundung § 222 AO, Erlass § 227/§ 163 AO, Vollstreckungsaufschub § 258 AO — Antrag mit Liquiditätsbeleg, Ratenplan, Sicherheitsleistung — **NEU** |
 | Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| `/steuerrecht-anwalt-und-berater:anw-grunderwerbsteuer-share-deal-90-prozent` | GrESt beim Share Deal — 90-%-Schwelle ab 1.7.2021, 10-Jahres-Frist, RETT-Blocker, § 19 GrEStG Anzeigepflicht — **NEU** |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-kaltstart-bescheidkette` | Grundsteuer-Mandat aufnehmen: Bescheidkette Finanzamt/Gemeinde, Fristen, Modellrouting, Sofortmaßnahmen |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-verfassungscheck-bundesmodell` | Grundsteuer-Reform verfassungsrechtlich einordnen: BVerfG 2018, BFH-AdV 2024, BFH-Bundesmodell 2025/2026 |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-ermittlungsbasis-flaeche-nutzung` | Flächen, Nutzung, Baujahr, wirtschaftliche Einheit, Schätzung und Beleglage prüfen |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuerwert-bewertung-bewg-218ff` | Grundsteuerwert nach BewG §§ 218 ff. prüfen: Ertragswert/Sachwert, Bodenrichtwert, Grundstücksart |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-einspruch-adv-bfh` | Einspruch und AdV in Grundsteuerfällen mit BFH-Linie und Belegstrategie |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-landesmodell-routing` | Bundesmodell und Landesmodelle trennen: Baden-Württemberg, Bayern, Hamburg, Hessen, Niedersachsen |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-hebesatz-zahlungsplan` | Kommunalen Grundsteuerbescheid, Hebesatz, Fälligkeit, Stundung und Zahlung prüfen |
-| `/steuerrecht-anwalt-und-berater:anw-grundsteuer-gutachten-gemeiner-wert` | Niedrigeren gemeinen Wert und Gutachtenstrategie für Grundsteuer-AdV vorbereiten |
-| `/steuerrecht-anwalt-und-berater:anw-grest-kaltstart-asset-share-deal` | GrESt-Kaltstart: Asset Deal, Share Deal, Signing, Closing, Anzeige und Bescheidroute |
-| `/steuerrecht-anwalt-und-berater:anw-grest-asset-deal-kaufvertrag` | GrESt beim Grundstückskauf: Gegenleistung, einheitlicher Erwerbsgegenstand, Kaufvertrag |
-| `/steuerrecht-anwalt-und-berater:anw-grest-share-deal-90-prozent-10-jahre` | Share-Deal-Vertiefung: § 1 Abs. 2a/2b/3/3a GrEStG, 90 %, 10 Jahre, RETT-Blocker |
-| `/steuerrecht-anwalt-und-berater:anw-grest-signing-closing-doppelfestsetzung` | Signing/Closing-Spezialskill mit BFH II B 13/25, II B 23/25 und II B 47/25 |
-| `/steuerrecht-anwalt-und-berater:anw-grest-anzeige-19-closing-check` | § 19-GrEStG-Anzeige, Closing-Checkliste, Anlagen und Zuständigkeiten |
-| `/steuerrecht-anwalt-und-berater:anw-grest-spa-tax-clause-indemnity` | SPA-Steuerklauseln, GrESt-Indemnity, Escrow und Mitwirkungspflichten |
-| `/steuerrecht-anwalt-und-berater:anw-grest-konzernklausel-6a` | Konzernklausel § 6a GrEStG bei Umwandlung, Einbringung und Konzernumstrukturierung |
-| `/steuerrecht-anwalt-und-berater:anw-grest-bescheid-einspruch-adv-16` | GrESt-Bescheid prüfen: Einspruch, AdV, § 16 GrEStG, Doppelbelastung |
-| `/steuerrecht-anwalt-und-berater:anw-dac7-dac8-plattformen-krypto` | DAC7 nach dem PStTG und DAC8 nach dem KStTG — Anbieterstatus, Sorgfaltspflichten, Meldungen und Bußgeldrisiken; DAC8-Meldejahr 2026, jährliche Regelfrist 31. Juli des Folgejahres |
-| `/steuerrecht-anwalt-und-berater:anw-minbestg-pillar2-konzernbesteuerung` | Pillar Two / MinBestG ab 1.1.2024 — globaler Mindeststeuersatz 15 % für Konzerne ab 750 Mio EUR; IIR/UTPR/QDMTT, GloBE Information Return — **NEU** |
-| `/steuerrecht-anwalt-und-berater:anw-steuerstrafverteidigung-verstaendigung` | Strafverteidigung Steuerstrafsache (§§ 369 ff. AO) mit Einstellung § 153a StPO und Verständigung § 257c StPO |
-| `/steuerrecht-anwalt-und-berater:anw-verbindliche-auskunft` | Verbindliche Auskunft § 89 Abs. 2 AO |
-| `/steuerrecht-anwalt-und-berater:anw-fristenbuch-steuerrecht` | Fristenbuch: Einspruchsfrist, Klagefrist, Vorfristen |
-| `/steuerrecht-anwalt-und-berater:anw-betriebsausgaben-werbungskosten-pruefraster` | Prüfraster Betriebsausgaben/Werbungskosten § 4 Abs. 4 / § 9 EStG |
-| `/steuerrecht-anwalt-und-berater:anw-umsatzsteuer-vorsteuerabzug-pruefen` | Vorsteuerabzug § 15 UStG; bei E-Rechnungen Empfang und Ausstellung trennen und Übergänge nach Paragraf 27 Absatz 38 UStG prüfen. |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grunderwerbsteuer-share-deal-90-prozent` | GrESt beim Share Deal — 90-%-Schwelle ab 1.7.2021, 10-Jahres-Frist, RETT-Blocker, § 19 GrEStG Anzeigepflicht — **NEU** |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-kaltstart-bescheidkette` | Grundsteuer-Mandat aufnehmen: Bescheidkette Finanzamt/Gemeinde, Fristen, Modellrouting, Sofortmaßnahmen |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-verfassungscheck-bundesmodell` | Grundsteuer-Reform verfassungsrechtlich einordnen: BVerfG 2018, BFH-AdV 2024, BFH-Bundesmodell 2025/2026 |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-ermittlungsbasis-flaeche-nutzung` | Flächen, Nutzung, Baujahr, wirtschaftliche Einheit, Schätzung und Beleglage prüfen |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuerwert-bewertung-bewg-218ff` | Grundsteuerwert nach BewG §§ 218 ff. prüfen: Ertragswert/Sachwert, Bodenrichtwert, Grundstücksart |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-einspruch-adv-bfh` | Einspruch und AdV in Grundsteuerfällen mit BFH-Linie und Belegstrategie |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-landesmodell-routing` | Bundesmodell und Landesmodelle trennen: Baden-Württemberg, Bayern, Hamburg, Hessen, Niedersachsen |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-hebesatz-zahlungsplan` | Kommunalen Grundsteuerbescheid, Hebesatz, Fälligkeit, Stundung und Zahlung prüfen |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grundsteuer-gutachten-gemeiner-wert` | Niedrigeren gemeinen Wert und Gutachtenstrategie für Grundsteuer-AdV vorbereiten |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-kaltstart-asset-share-deal` | GrESt-Kaltstart: Asset Deal, Share Deal, Signing, Closing, Anzeige und Bescheidroute |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-asset-deal-kaufvertrag` | GrESt beim Grundstückskauf: Gegenleistung, einheitlicher Erwerbsgegenstand, Kaufvertrag |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-share-deal-90-prozent-10-jahre` | Share-Deal-Vertiefung: § 1 Abs. 2a/2b/3/3a GrEStG, 90 %, 10 Jahre, RETT-Blocker |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-signing-closing-doppelfestsetzung` | Signing/Closing-Spezialskill mit BFH II B 13/25, II B 23/25 und II B 47/25 |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-anzeige-19-closing-check` | § 19-GrEStG-Anzeige, Closing-Checkliste, Anlagen und Zuständigkeiten |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-spa-tax-clause-indemnity` | SPA-Steuerklauseln, GrESt-Indemnity, Escrow und Mitwirkungspflichten |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-konzernklausel-6a` | Konzernklausel § 6a GrEStG bei Umwandlung, Einbringung und Konzernumstrukturierung |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-grest-bescheid-einspruch-adv-16` | GrESt-Bescheid prüfen: Einspruch, AdV, § 16 GrEStG, Doppelbelastung |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-dac7-dac8-plattformen-krypto` | DAC7 nach dem PStTG und DAC8 nach dem KStTG — Anbieterstatus, Sorgfaltspflichten, Meldungen und Bußgeldrisiken; DAC8-Meldejahr 2026, jährliche Regelfrist 31. Juli des Folgejahres |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-minbestg-pillar2-konzernbesteuerung` | Pillar Two / MinBestG ab 1.1.2024 — globaler Mindeststeuersatz 15 % für Konzerne ab 750 Mio EUR; IIR/UTPR/QDMTT, GloBE Information Return — **NEU** |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-steuerstrafverteidigung-verstaendigung` | Strafverteidigung Steuerstrafsache (§§ 369 ff. AO) mit Einstellung § 153a StPO und Verständigung § 257c StPO |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-verbindliche-auskunft` | Verbindliche Auskunft § 89 Abs. 2 AO |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-fristenbuch-steuerrecht` | Fristenbuch: Einspruchsfrist, Klagefrist, Vorfristen |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-betriebsausgaben-werbungskosten-pruefraster` | Prüfraster Betriebsausgaben/Werbungskosten § 4 Abs. 4 / § 9 EStG |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: anw-umsatzsteuer-vorsteuerabzug-pruefen` | Vorsteuerabzug § 15 UStG; bei E-Rechnungen Empfang und Ausstellung trennen und Übergänge nach Paragraf 27 Absatz 38 UStG prüfen. |
 
 ### Ersteinrichtung
 
@@ -223,13 +231,13 @@ Skills für Steuerberater und GmbH-Geschäftsleitung — BWA-/SuSa-/Bilanzprüfu
 
 | Skill | Funktion |
 |---|---|
-| `/steuerrecht-anwalt-und-berater:stb-kaltstart-interview` | Ersteinrichtung — Praxisprofil, Mandanten-Schwerpunkte, Buchhaltungssystem |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: stb-kaltstart-interview` | Ersteinrichtung — Praxisprofil, Mandanten-Schwerpunkte, Buchhaltungssystem |
 | `/steuerrecht-anwalt-und-berater:buchfuehrung-abschluss-bwa-bearbeiten Thema: stb-bwa-sus-bilanz-pruefung` | BWA-/SuSa-/Bilanzprüfung auf Krisensignale (§§ 17, 19 InsO, § 102 StaRUG) |
 | `/steuerrecht-anwalt-und-berater:stb-liquiditaetsvorschau-3wochen` | 3-Wochen-Liquiditätsvorschau § 17 InsO Vorprüfung |
 | `/steuerrecht-anwalt-und-berater:stb-liquiditaetsvorschau-3-6-12-monate` | Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose |
-| `/steuerrecht-anwalt-und-berater:stb-ueberschuldungspruefung-19-inso` | Stichtagsbezogene Überschuldungsprüfung § 19 InsO mit Fortführungsprognose nach IDW S 6/S 11 — **NEU** |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: stb-ueberschuldungspruefung-19-inso` | Stichtagsbezogene Überschuldungsprüfung § 19 InsO mit Fortführungsprognose nach IDW S 6/S 11 — **NEU** |
 | Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| `/steuerrecht-anwalt-und-berater:stb-drv-sozialversicherungspruefung` | Begleitung der DRV-Sozialversicherungsprüfung § 28p SGB IV — Statusfeststellung, Phantomlohn, Mindestlohn, § 266a StGB-Risiken — **NEU** |
+| `/steuerrecht-anwalt-und-berater:kaltstart-triage Thema: stb-drv-sozialversicherungspruefung` | Begleitung der DRV-Sozialversicherungsprüfung § 28p SGB IV — Statusfeststellung, Phantomlohn, Mindestlohn, § 266a StGB-Risiken — **NEU** |
 
 
 > **Power-Plugin Liquidität:** Die vollständige Power-Version der Liquiditätsvorschau (BGH-Schema Passiva II, Excel-Vorlage, HTML-Padlet, insolvenzrechtliche Stichtagsbilanz) lebt im Plugin [`liquiditaetsplanung/`](../liquiditaetsplanung/). Die `stb-`-Skills hier sind die Steuerberater-Sicht zur Krisenfrüherkennung und triggern die Power-Version bei tiefergehender Begutachtung.
@@ -358,7 +366,7 @@ English: Complete list of all 20 skills in this plugin. Both links in each row d
 | [`dba-alle-abkommen-laendermatrix-2026`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/dba-alle-abkommen-laendermatrix-2026/SKILL.md) | Für länderspezifische Doppelbesteuerungsabkommen: routet Staat, Zeitraum, Einkunftsart, Ansässigkeit, Betriebsstätte und Methodenartikel; lädt nur die Länderreferenz und liefert ein quellengeprüftes DBA-Memo. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/dba-alle-abkommen-laendermatrix-2026/SKILL.md) |
 | [`hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation/SKILL.md) | Prüft Hinzuschätzungen bei bargeldintensiven Betrieben anhand von Kassenmängeln, Wareneinsatz, Beständen und zeitgerechten Verkaufspreisen. Erstellt eine belegte Gegenkalkulation und Einspruchsbegründung; nicht für laufende Kassenbuchfüh... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation/SKILL.md) |
 | [`internationales-steuerrecht-dba-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/internationales-steuerrecht-dba-bearbeiten/SKILL.md) | Ansässigkeit, Quellenstaat, Einkunftsartikel, Entlastung, Verrechnungspreise und internationale Meldepflichten fallbezogen prüfen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/internationales-steuerrecht-dba-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Steuerrecht Anwalt Und Berater ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/juristischer-argumentationskern/SKILL.md) | Steuerrechtliches Mandat vom Zahlenbeleg zur tragfähigen Eingabe führen. Wertet vorhandene Unterlagen aus, entscheidet die fachlichen Weichen und liefert ausformulierten Einspruch, Klageschriftsatz oder steuerlichen Gestaltungsvermerk mi... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/juristischer-argumentationskern/SKILL.md) |
 | [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/kaltstart-triage/SKILL.md) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/kaltstart-triage/SKILL.md) |
 | [`liquiditaetsvorschau-3-6-12-monate`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/liquiditaetsvorschau-3-6-12-monate/SKILL.md) | Für Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführungsprognose (Paragrafen 17. 19 InsO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberate... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/liquiditaetsvorschau-3-6-12-monate/SKILL.md) |
 | [`liquiditaetsvorschau-3wochen`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/liquiditaetsvorschau-3wochen/SKILL.md) | Für Drei-Wochen-Liquiditätsvorschau (Paragraf 17 InsO Vorprüfung, Paragraf 1 StaRUG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=steuerrecht-anwalt-und-berater/skills/liquiditaetsvorschau-3wochen/SKILL.md) |

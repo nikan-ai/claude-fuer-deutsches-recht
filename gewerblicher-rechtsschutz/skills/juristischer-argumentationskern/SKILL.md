@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Gewerblicher Rechtsschutz ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Rechteportfolio und Verletzung zum nächsten Arbeitsergebnis führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Gewerblicher Rechtsschutz
+# Rechteportfolio und Verletzung zum nächsten Arbeitsergebnis führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Schutzrechtlicher Bearbeiter für die richtige Anspruchsgrundlage, Registerlage, Priorität, Rechtsbestand, Verletzung, Eilrechtsschutz, Lizenz und parallele Verfahren.
+Bestimme Schutzrecht, Inhaber, Gebiet, Priorität und angegriffene Benutzung anhand Register, Produkt und Rechteverträgen.
 
-Pluginauftrag: Gewerblicher Rechtsschutz – DPMA/EUIPO-Markenrecherche und -anmeldung, Freedom-to-Operate, Patentscreening, UWG- und Urheberrechts-Abmahnung (Versand und Reaktion), Open-Source-Compliance, IP-Klausel-Review, Schutzrechts-Fristen.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. EV-Vollzug 005: Ordnungsmittelantrag (Paragraf 890 ZPO) nach Unterlassungstitel: Bearbeite den Fachpunkt im Skill evvollzug-neu-005-ordnungsmittelantrag-vollstreckung-unterlassun und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Gewerblicher Rechtsschutz: beA Zustellung einstweiliger Rechtsschutz Risiken: Bearbeite den Fachpunkt im Skill evvollzug-neu-004-bea-zustellung-einstweiliger-rechtsschutz und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. EV-Vollzug 004: beA-Zustellung im Einstweiligen Rechtsschutz – Risiken und Praxis: Bearbeite den Fachpunkt im Skill evvollzug-neu-004-bea-zustellung-einstweiliger-rechtsschutz-risi und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. EV-Vollzug 001: Vollziehungsfrist und Parteizustellung (Paragraf 929 Abs. 2 ZPO): Bearbeite den Fachpunkt im Skill evvollzug-neu-001-einstweilige-verfuegung-vollziehung-frist und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [EV-Vollzug 005: Ordnungsmittelantrag (Paragraf 890 ZPO) nach Unterlassungstitel](../evvollzug-neu-005-ordnungsmittelantrag-vollstreckung-unterlassun/FACHINHALT.md)
+3.1.2. [Gewerblicher Rechtsschutz: beA Zustellung einstweiliger Rechtsschutz Risiken](../evvollzug-neu-004-bea-zustellung-einstweiliger-rechtsschutz/FACHINHALT.md)
+3.1.3. [EV-Vollzug 004: beA-Zustellung im Einstweiligen Rechtsschutz – Risiken und Praxis](../evvollzug-neu-004-bea-zustellung-einstweiliger-rechtsschutz-risi/FACHINHALT.md)
+3.1.4. [EV-Vollzug 001: Vollziehungsfrist und Parteizustellung (Paragraf 929 Abs. 2 ZPO)](../evvollzug-neu-001-einstweilige-verfuegung-vollziehung-frist/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,27 +62,32 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. EuGH, Urteil vom 16.07.1998, Az. C-355/96, Silhouette, Randnummern 25 bis 31. Anwendung: Keine allgemeine internationale Erschöpfung bei Erstvertrieb außerhalb des EWR; konkrete Charge und Zustimmung prüfen. Grenze und Prüfzugang: Historische Richtlinie, heutige Anspruchsgrundlage separat; spätere EWR-Zustimmung nicht ausgeschlossen. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:61996CJ0355) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Anspruchsteller für Schutzrecht, Rechtekette, Verletzung und Dringlichkeit; Gegner für Rechtsbestand, Lizenz, Erschöpfung, Verfall oder sonstige Einrede.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welches Schutzrecht oder Lauterkeitsrecht trägt welchen Antrag.
-7.2. Wer ist aktiv- und passivlegitimiert und welche Rechtekette ist belegt.
-7.3. Welche Register-, Prioritäts-, Benutzungs- oder Geheimhaltungsunterlagen fehlen.
-7.4. Welche Anspruchsvoraussetzungen und Einreden unterscheiden die parallelen Rechtsgrundlagen.
-7.5. Welche Verfahrensreihenfolge schützt Frist, Beweis und Verhandlungsposition.
+7.1. Trenne Marken-, Design-, Patent-, Geheimnis- und Lauterkeitsanspruch. Prüfe Bestand, Zustimmung, Erschöpfung und Beweisbarkeit der konkreten Verletzungsform.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Erstelle die beauftragte Abmahnung, Antwort, Lizenz oder Strategie mit begründetem Verfahrensweg und klar begrenzter Unterlassungsforderung.
+
+7.4. Eine Rechnung aus einem Drittstaat belegt noch keine EWR-Erschöpfung; neue Vertriebsnachweise verlangen chargenbezogene Prüfung von Erstvertrieb und Zustimmung.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

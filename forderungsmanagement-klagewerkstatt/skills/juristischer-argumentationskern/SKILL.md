@@ -1,34 +1,33 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Forderungsmanagement Klagewerkstatt ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Forderung vom Kontenabgleich zur schlüssigen Mahnung oder Klage führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebnis einschließlich Belegen, Gegenposition und Fristen."
 ---
 
-# Juristischer Argumentationskern - Forderungsmanagement Klagewerkstatt
+# Forderung vom Kontenabgleich zur schlüssigen Mahnung oder Klage führen
 
 ## 1. Direktstart
 
-Arbeite als Zivilrechtlicher Forderungsbearbeiter für Vertrag, Rechnung, Fälligkeit, Verzug, Einwendungen, Mahnung, Klage, Titel und Vollstreckung.
+Gleiche Vertrag, Rechnung, Fälligkeit, Zahlungen und belegte Einwendungen ab. Formuliere die verlangte Mahnung oder Klage und beziffere nachvollziehbar, was noch offen ist.
 
-Pluginauftrag: Klagewerkstatt für Forderungsmanagement mit Zuständigkeitsprüfung, Mahnvorlauf, Inkasso-Zahlungsklage und Anspruchs-Gatekeeper: Nur klare, fällige und belegte Forderungen werden zur Klage freigegeben.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-## 2. Die tragende These
+Ein klagefertiges Ergebnis setzt eine klare, fällige und belegte Forderung voraus. Markiere offene Ansprüche oder Belege mit ihrem nächsten Prüfschritt.
 
-Formuliere das Ergebnis für Forderungsmanagement Klagewerkstatt in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Mahnung, Klageentwurf, Mahnbescheid, Anspruchsmatrix, Vergleichsvorschlag oder Vollstreckungsauftrag.
+## 2. Vom Aktenstand zum fertigen Ergebnis
 
-Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+Aus vorhandenen Dateien, früheren Antworten und dem aktuellen Auftrag arbeiten. Nur eine Lücke nachfragen, wenn sie eine nachstehende Entscheidung tatsächlich ändern kann; unabhängige Teile währenddessen fertigstellen.
 
-2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
-2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
-2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
-2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
-2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
-2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
-2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
-2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+1. Vertrag, Leistung, Rechnung, Fälligkeit, Mahnung, Zahlung und Einwendungen auslesen; Gläubigeridentität und mögliche Abtretung sichern.
+
+2. Hauptforderung, Verzug, Zinsen und Kosten getrennt berechnen. Ein einseitig auf die Rechnung gesetztes Datum begründet nicht automatisch kalendermäßigen Verzug.
+
+3. Bei Bestreiten, Verjährung, Teilzahlung oder Zahlung nach Klageeinreichung den passenden Fachweg laden; Mahnverfahren, streitige Klage, Rücknahme und Erledigung nach dem tatsächlichen Zeitpunkt auswählen.
+
+4. Mahnung, Klage oder Kostenantrag vollständig mit Rechenweg, bestimmten Anträgen und Beweisangeboten schreiben; der Saldo muss mit der Zahlungszuordnung übereinstimmen.
+
+**Fachprüfung zurückführen:** Die nachstehenden Fachwege nur beim genannten Anlass verwenden, keine vollständige Menüfolge abarbeiten. Auftrag, relevante Aktenstellen und genaue Rechtsfrage mitgeben; Tatsachen, Norm, Gegenposition und Ergebnis der Fachprüfung in das bereits bestellte Dokument einarbeiten. Ein Verweis auf einen anderen Skill ist noch kein fertiges Ergebnis.
 
 ## 3. Materienspezifische Tatbestandsarbeit
 
@@ -42,10 +41,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Anspruchsschriftsatz Bausteine: Bearbeite den Fachpunkt im Skill anspruchsschriftsatz-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Vollstreckungsbescheid und Folgen: Bearbeite den Fachpunkt im Skill vollstreckungsbescheid-folgen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Vollstreckungsbescheid: Bearbeite den Fachpunkt im Skill vollstreckungsbescheid-und-folgen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Zahlungsklage gegen Behörden und juristische Personen öffentlichen Rechts: Bearbeite den Fachpunkt im Skill zahlungsklage-behoerden-register und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Anspruchsschriftsatz Bausteine](../anspruchsschriftsatz-bausteine/FACHINHALT.md)
+3.1.2. [Vollstreckungsbescheid und Folgen](../vollstreckungsbescheid-folgen/FACHINHALT.md)
+3.1.3. [Vollstreckungsbescheid](../vollstreckungsbescheid-und-folgen/FACHINHALT.md)
+3.1.4. [Zahlungsklage gegen Behörden und juristische Personen öffentlichen Rechts](../zahlungsklage-behoerden-register/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -60,15 +61,15 @@ Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, G
 
 Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-## 5. Rechtsprechung und Quellenstatus
+## 5. Rechtsprechung als Entscheidungshilfe
 
-5.1. BGH, Beschluss vom 28.02.2012 - VIII ZR 124/11: Tatsachenvortrag ist schlüssig, wenn die behaupteten Tatsachen zusammen mit einem Rechtssatz den geltend gemachten Anspruch oder die Einwendung tragen; unnötige Einzeldetails darf das Gericht nicht verlangen.
-5.2. BGH, Urteil vom 04.05.2011 - VIII ZR 171/10: Beim unbezahlten Tanken an einer Selbstbedienungstankstelle tritt Verzug mit dem Verlassen des Geländes ohne Mahnung ein; diese Sonderlage ersetzt keine allgemeine Verzugsprüfung.
-5.3. BGH VIII ZR 261/06 Schonfrist ord. Kündigung bundesgerichtshof.de
-5.4. BGH VII ZR 162/00 VOB/B AGB bundesgerichtshof.de
+Die folgenden Anker sind fallbezogen anzuwenden; den jeweils dokumentierten Quellenstatus in der [Entscheidungskarte](../../references/hauptworkflow-entscheidungen.md) beachten. Frühere Prüfung bedeutet keine neue Volltextverifikation.
 
-5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+- [BGH, Urteil vom 25.10.2007, III ZR 91/07, Rn. 6–12](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR__91-07.pdf?__blob=publicationFile&v=1): Ein einseitiges Zahlungsziel auf einer Rechnung begründet regelmäßig keinen Kalenderverzug; bei Verbrauchern fehlt ohne besonderen Hinweis auch die Wirkung nach Paragraf 286 Absatz 3 BGB. Erst verzugsbegründende Anwaltskosten sind nicht bereits Verzugsschaden. **Grenze:** Eine Rechnung kann eine eindeutige Mahnung enthalten; vereinbartes oder wirksam nach Paragraf 315 BGB bestimmtes Zahlungsziel bleibt gesondert zu prüfen.
+
+- [BGH, Urteil vom 18.04.2013, III ZR 156/12, Rn. 8–16](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2012/III_ZR_156-12.pdf?__blob=publicationFile&v=1): Bei Wegfall des Klageanlasses vor Rechtshängigkeit sind Kostenantrag nach Paragraf 269 Absatz 3 Satz 3 ZPO und selbständige Kostenforderung nach Rücknahme zu unterscheiden; die prozessuale Kostenregel schließt die Leistungsklage nicht generell aus. **Grenze:** Kein automatischer materieller Kostenerstattungsanspruch; bereits ergangene Kostenentscheidung nicht bei unveränderter Tatsachenlage durch Gegenentscheidung unterlaufen.
+
+- [EuGH, Urteil vom 12.11.2026, C-476/25, Seruel, ECLI:EU:C:2026:982, Rn. 33–42](https://juris.curia.europa.eu/juris/document/document.jsf?docid=316917&doclang=NL): Bei Kreditkäufer und Verbraucher Abtretung, Verfahrensrecht, Äquivalenz und Effektivität erfassen. Verjährungseinrede und Kontrolle missbräuchlicher Vertragsklauseln auseinanderhalten. **Grenze:** Art. 10 Abs. 1 RL (EU) 2021/2167 regelt die amtswegige Verjährungsprüfung nicht. Der EuGH entschied nicht über die nationale Verfahrensregel im Streitfall oder allgemeine Inkassoforderungen.
 
 ## 6. Beweislast und Gegenangriff
 
@@ -79,13 +80,11 @@ Ausgangspunkt für dieses Plugin: Gläubiger für Vertrag, Fälligkeit, Verzug u
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Ergebnis fortführen und abschließen
 
-7.1. Welche Forderung ist aus welchem Vertrag fällig.
-7.2. Welche Belege tragen Leistung, Rechnung, Zugang und Verzug.
-7.3. Welche Einwendungen sind substantiiert und beweisbar.
-7.4. Welche Nebenforderungen sind rechnerisch und rechtlich haltbar.
-7.5. Welcher Weg ist schneller: Mahnverfahren, Klage, Vergleich oder Vollstreckung.
+7.1. Die Entscheidung aus Abschnitt 2 mit der folgenden Fachprüfung und den belegten Aktenangaben zusammenführen. Neu gelieferte Tatsachen ersetzen die betroffene Annahme; Berechnung, Antrag und Folgeabschnitte derselben Fassung anschließend aktualisieren.
+7.2. Im fertigen Produkt je tragendem Punkt Rechtsregel, konkrete Tatsache, Beleg, Beweislast beziehungsweise Ermittlungsauftrag, stärkste Gegenposition und Antwort verbinden. Fristbeginn, Ereignis, Fristart und erforderliche Handlung ausdrücklich unterscheiden.
+7.3. Das verlangte Schreiben, den Vertrag, Schriftsatz, Entscheidungsentwurf oder Vermerk vollständig ausformulieren. Nur tatsächlich entscheidungserhebliche Restlücken außerhalb des Empfängertexts als konkrete nächste Aufgabe kennzeichnen.
 
 ## 8. Juristisches Schreiben
 

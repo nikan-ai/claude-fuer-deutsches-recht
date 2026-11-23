@@ -5,13 +5,13 @@
 
 EU-KI-VO + DSGVO – Use-Case-Triage, KI-Inventar, AIA/DPIA, Vendor-Review, Drift-Monitoring der KI-Richtlinie.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`ki-governance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/ki-governance.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`ki-governance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/ki-governance.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/ki-governance.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/ki-governance-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/ki-governance-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`ki-governance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/ki-governance.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`ki-governance.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/ki-governance.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`ki-governance-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/ki-governance-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`ki-governance-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/ki-governance-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [10 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -120,12 +120,12 @@ Dokumentauftrag beginnt die Facharbeit direkt; neue Antworten ergänzen den lauf
 | Befehl | Funktion |
 |---|---|
 | `/ki-governance:behoerden-und-sanktionslage-bearbeiten Thema: kaltstart-interview` | Kaltstart-Interview – schreibt Ihr Praxisprofil |
-| `/ki-governance:ki-inventar [list \| add \| edit \| classify \| show]` | KI-Inventar verwalten – Rolle und Risikoklasse je KI-System nach KI-VO erfassen |
+| `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: ki-inventar-marketing-werbung-rote-linien [list \| add \| edit \| classify \| show]` | KI-Inventar verwalten – Rolle und Risikoklasse je KI-System nach KI-VO erfassen |
 | `/ki-governance:unterlagen-und-quellen-auswerten-bearbeiten Thema: anwendungsfall-triage [Anwendungsfall]` | Use-Case gegen Ihr Register prüfen (genehmigt / bedingt / nie) |
-| `/ki-governance:ki-folgenabschaetzung [Anwendungsfall]` | Auslöser für FRIA nach Artikel 27 und DSFA nach Artikel 35 getrennt prüfen und die jeweils erforderliche Folgenabschätzung erstellen |
+| `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: ki-folgenabschaetzung-ki-governance-mandat [Anwendungsfall]` | Auslöser für FRIA nach Artikel 27 und DSFA nach Artikel 35 getrennt prüfen und die jeweils erforderliche Folgenabschätzung erstellen |
 | `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: ki-anbieter-pruefung [Anbieter/Datei]` | Vendor-KI-Vertrag gegen Ihre Positionen prüfen |
 | `/ki-governance:unterlagen-und-quellen-auswerten-bearbeiten Thema: regulierungs-luecken-analyse [Rechtsakt]` | Neuen Rechtsakt oder Leitlinie gegen aktuelle Richtlinien/Praxis abgleichen |
-| `/ki-governance:richtlinien-monitor` | Wöchentliche Prüfung auf Richtliniendrift oder direkte Anfrage zu neuer Praxis |
+| `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: richtlinien-monitor-vorlage-anbieter` | Wöchentliche Prüfung auf Richtliniendrift oder direkte Anfrage zu neuer Praxis |
 | `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: richtlinien-vorlage` | Erstentwurf einer KI-Richtlinie auf Basis Ihres Praxisprofils erstellen |
 | `/ki-governance:arbeitsprodukt-bearbeiten Thema: mandat-arbeitsbereich` | Mandatsworkspaces verwalten (nur Kanzleipraxis) – new, list, switch, close, none |
 
@@ -170,7 +170,7 @@ Folgenabschätzung erforderlich oder nicht.
 ### 3. Folgenabschätzung erstellen
 
 ```
-/ki-governance:ki-folgenabschaetzung "KI-gestützte Lebenslauf-Analyse für HR"
+/ki-governance:rolle-und-lieferkette-bearbeiten Thema: ki-folgenabschaetzung-ki-governance-mandat "KI-gestützte Lebenslauf-Analyse für HR"
 ```
 
 Vorhandene System- und Einsatzunterlagen → entscheidende Lücken klären → ausgelöste
@@ -190,7 +190,7 @@ Eskalationslücken.
 Diese drei Plugins sind aufeinander abgestimmt. KI-Governance ist das dritte Element.
 
 - **Produktrecht** erkennt, wenn ein Launch eine KI-Komponente enthält → Übergabe an
-  `/ki-governance:unterlagen-und-quellen-auswerten-bearbeiten Thema: anwendungsfall-triage` und `/ki-governance:ki-folgenabschaetzung`
+  `/ki-governance:unterlagen-und-quellen-auswerten-bearbeiten Thema: anwendungsfall-triage` und `/ki-governance:rolle-und-lieferkette-bearbeiten Thema: ki-folgenabschaetzung-ki-governance-mandat`
 - **Datenschutzrecht** erkennt, wenn ein KI-Anwendungsfall personenbezogene Daten umfasst →
   Übergabe an `/datenschutzrecht:dsfa-vvt-technische-organisation-bearbeiten Thema: dsfa-erstellung`, sofern das Plugin installiert ist
 - **KI-Governance** erkennt, wenn eine Folgenabschätzung datenschutzrechtliche Fragen aufwirft →
@@ -303,7 +303,7 @@ English: Complete list of all 11 skills in this plugin. Both links in each row d
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Unternehmerische KI-Governance: Arbeitsprodukt: Einordnungsmemo, Roadmap, Vorstandsvorlage, Behördenantwort, Q&A, Vertragsmatrix oder Freigabevermerk erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 | [`behoerden-und-sanktionslage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/behoerden-und-sanktionslage-bearbeiten/SKILL.md) | Unternehmerische KI-Governance: Behörden- und Sanktionslage: Marktaufsicht, Meldepflicht, interne Untersuchung, Frist, Zuständigkeit und Verteidigungsmaterial sichern. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/behoerden-und-sanktionslage-bearbeiten/SKILL.md) |
 | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Technik-Governance. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/einstieg-routing/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn bei der Governance algorithmischer Systeme ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Recht... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/juristischer-argumentationskern/SKILL.md) | KI-Einsatz vom Anwendungsfall zur belastbaren Betriebsentscheidung führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach n... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/juristischer-argumentationskern/SKILL.md) |
 | [`nachweisakte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/nachweisakte-bearbeiten/SKILL.md) | Unternehmerische KI-Governance: Nachweisakte: Risikomanagement, Daten, technische Dokumentation, Logging, menschliche Aufsicht, Testing und EU-Datenbank als Beleglinie führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/nachweisakte-bearbeiten/SKILL.md) |
 | [`risikoklasse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/risikoklasse-bearbeiten/SKILL.md) | Unternehmerische KI-Governance: Risikoklasse: Art. 5, Art. 6 Abs. 1, Art. 6 Abs. 2, Art. 50, GPAI und Ausschlüsse in einer Entscheidungszeile ordnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/risikoklasse-bearbeiten/SKILL.md) |
 | [`rolle-und-lieferkette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/rolle-und-lieferkette-bearbeiten/SKILL.md) | Unternehmerische KI-Governance: Rolle und Lieferkette: Anbieter, Betreiber, Importeur, Händler, Bevollmächtigter, Produktintegration und Zweckbestimmung trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=ki-governance/skills/rolle-und-lieferkette-bearbeiten/SKILL.md) |

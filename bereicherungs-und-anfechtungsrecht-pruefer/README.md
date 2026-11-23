@@ -5,13 +5,13 @@
 
 Mechanisches Durchprüfen von Bereicherungsrecht Paragrafen 812 ff. BGB, AnfG und Insolvenzanfechtung Paragrafen 129-147 InsO. Mit KI-Screening von Schuldnerakten, Paragraf 135 Gesellschafterdarlehen, Bargeschäft Paragraf 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/bereicherungs-und-anfechtungsrecht-pruefer.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`bereicherungs-und-anfechtungsrecht-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/bereicherungs-und-anfechtungsrecht-pruefer.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`bereicherungs-und-anfechtungsrecht-pruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`bereicherungs-und-anfechtungsrecht-pruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/bereicherungs-und-anfechtungsrecht-pruefer-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -90,7 +90,7 @@ Alternativ via Marketplace:
 
 ```
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install bereicherungs-und-anfechtungsrecht-pruefer@claude-fuer-deutsches-recht
+/plugin install bereicherungs-und-anfechtungsrecht-pruefer@klotzkette-german-legal-skills
 ```
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json` und `skills/` enthalten.
@@ -112,11 +112,13 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 
 ---
 
-## Skills (98)
+## Prüfaufgaben und Vertiefungen
 
-### A. Triage / Weichenstellung (6)
+Die Tabellen zeigen fachliche Aufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/bereicherungs-und-anfechtungsrecht-pruefer.md) zu.
 
-| Skill | Inhalt |
+### A. Triage / Weichenstellung
+
+| Thema | Inhalt |
 |---|---|
 | `bereicherungs-und-anfechtungsrecht-pruefer-allgemein` | Einstieg, Routing und Überblick über Bereicherung, AnfG, InsO-Anfechtung und KI-Screening |
 | `triage-vermoegensverschiebung-erfassen` | Strukturierte Erfassung: Wer hat was an wen geleistet, Belege, Zeitpunkt |
@@ -125,18 +127,18 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `parallel-und-konkurrenz-pruefung` | Bereicherungsrecht und Anfechtung nebeneinander |
 | `mandatsabbruch-empfehlung-an-fachanwalt-insolvenz` | Komplexitätsindikatoren, Fachanwaltsempfehlung |
 
-### B. Bereicherungsrecht — Dogmatik und Feinsortierung (4)
+### B. Bereicherungsrecht — Dogmatik und Feinsortierung
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `rechtsgrund-und-behaltensgrund-pruefen` | Vermögensvorteil, Zweck, Rechtsgrund und Behaltensgrund sauber trennen |
 | `zweckverfehlung-und-kondiktionszweck` | Zweckabrede, Zweckverfehlung, Risikozuweisung, Ausschlussgründe |
 | `saldotheorie-rueckabwicklung-nichtiger-vertraege` | Rückabwicklung gegenseitiger Verträge mit Saldo, Schutzkorrekturen, Zug um Zug |
 | `nutzungen-verwendungen-gefahrtragung-818` | Nutzungen, Surrogate, Verwendungen, Ersparnisse und Gefahrtragung bei § 818 BGB |
 
-### C. Bereicherungsrecht — 50 zusätzliche Vertiefungs-Skills (50)
+### C. Bereicherungsrecht — Vertiefungen
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `anspruchsziel-und-rueckabwicklungsarchitektur` | Anspruchsziel und Rückabwicklungsarchitektur: das praktische Rückabwicklungsziel in eine belastbare Anspruchsarchitektur übersetzt werden muss |
 | `kondiktionskarte-vollstaendiger-fallaufbau` | Kondiktionskarte: vollständiger Fallaufbau: ein komplexer Fall zuerst als Personen-, Leistungs- und Vermögenskarte erfasst werden muss |
@@ -189,9 +191,9 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `mandanteninterview-bereicherungsrecht` | Mandanteninterview Bereicherungsrecht: die Tatsachen für einen Bereicherungsfall erst strukturiert erhoben werden müssen |
 | `qualitaetskontrolle-halluzinationsschutz-bereicherungsrecht` | Qualitätskontrolle und Halluzinationsschutz: ein bereicherungsrechtlicher Output auf Scheinsicherheit und Quellenrisiken geprüft wird |
 
-### D. Bereicherungsrecht — Leistungskondiktion §§ 812 ff. BGB (8)
+### D. Bereicherungsrecht — Leistungskondiktion §§ 812 ff. BGB
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `leistungskondiktion-grundtatbestand-812-i-1-alt-1` | Grundtatbestand: etwas erlangt, durch Leistung, ohne Rechtsgrund |
 | `leistungsbegriff-bewusste-zweckgerichtete-mehrung` | Definition Leistung, Mehrpersonenverhältnisse |
@@ -202,18 +204,18 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `verschaerfte-haftung-819-bgb-bei-bosglaeubigkeit` | Bösgläubigkeit, Rechtshängigkeit, Haftungsfolgen |
 | `mehrpersonenverhaeltnisse-direkt-und-durchgriffskondiktion` | Anweisungsfälle, Doppelmangel, Drittleistung |
 
-### E. Bereicherungsrecht — Nichtleistungskondiktion §§ 812 ff. BGB (4)
+### E. Bereicherungsrecht — Nichtleistungskondiktion §§ 812 ff. BGB
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `nichtleistungskondiktion-grundtatbestand-812-i-1-alt-2` | Grundtatbestand: in sonstiger Weise erlangt |
 | `eingriffskondiktion-zuweisungsgehalt` | Eingriff in Rechtszuweisungsgehalt, IP, Persönlichkeitsrecht |
 | `verfuegung-eines-nichtberechtigten-816-bgb` | Entgeltliche und unentgeltliche Verfügung |
 | `bereicherung-eines-dritten-822-bgb` | Unentgeltliche Weitergabe an Dritten |
 
-### F. Anfechtungsgesetz — außerhalb Insolvenz (8)
+### F. Anfechtungsgesetz — außerhalb Insolvenz
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `anfg-grundtatbestand-und-anfechtungsberechtigte` | § 2 AnfG: Titel, fällige Forderung, Fruchtlosigkeit |
 | `anfg-vorsatzanfechtung-3-i` | Benachteiligungsvorsatz und Kenntnis, zehn Jahre |
@@ -224,9 +226,9 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `anfg-anfechtungsklage-prozessuales` | Zuständigkeit, Klageantrag, Streitwert, Vollstreckung |
 | `anfg-einreden-und-verteidigung-anfechtungsgegner` | Gegenwehr des Anfechtungsgegners |
 
-### G. Insolvenzanfechtung §§ 129–147 InsO (11)
+### G. Insolvenzanfechtung §§ 129–147 InsO
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `inso-grundtatbestand-129-glaeubigerbenachteiligung` | Grundtatbestand: Rechtshandlung, objektive Benachteiligung |
 | `inso-kongruente-deckung-130` | Drei Monate, Zahlungsunfähigkeit, Kenntnis |
@@ -240,17 +242,17 @@ Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt
 | `inso-ki-anfechtungsansprueche-schuldnerakten` | KI-Screening von Schuldnerakten auf Anfechtungskandidaten mit Human-Review-Grenzen |
 | `inso-verteidigung-anfechtungsgegner` | Verteidigung gegen Insolvenzanfechtung aus Sicht des Anfechtungsgegners |
 
-### H. Konkurrenzen und Verjährung (3)
+### H. Konkurrenzen und Verjährung
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `konkurrenz-bereicherung-vertraglich-deliktisch` | §§ 812 ff. neben Vertrag, Delikt, EBV |
 | `konkurrenz-bereicherung-anfechtung-und-vindikation` | § 812 BGB neben AnfG, InsO und § 985 BGB |
 | `verjaehrung-bereicherung-anfechtung-fristen` | § 195 BGB, § 15 AnfG, § 146 InsO, absolute Grenzen |
 
-### Output-Skills (4)
+### Arbeitsprodukte
 
-| Skill | Inhalt |
+| Thema | Inhalt |
 |---|---|
 | `output-klageschrift-bereicherungsklage` | Muster Klageschrift § 812 BGB |
 | `output-anfechtungsklage-anfg` | Muster Anfechtungsklage nach AnfG |
@@ -322,7 +324,7 @@ English: Complete list of all 12 skills in this plugin. Both links in each row d
 | [`eingriff-verwendung-und-fremde-verfuegung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/eingriff-verwendung-und-fremde-verfuegung-bearbeiten/SKILL.md) | Für Bürgerliches Recht und Vertragsrecht: Eingriff Verwendung und fremde Verfügung: Eingriff, Rechtszuweisung, Verfügung eines Nichtberechtigten und Verwendungsersatz voneinander trennen. Vollständige Fachanweisungen und lokale Vorlagen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/eingriff-verwendung-und-fremde-verfuegung-bearbeiten/SKILL.md) |
 | [`einzelzwangsvollstreckung-und-anfechtung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/einzelzwangsvollstreckung-und-anfechtung-bearbeiten/SKILL.md) | Für Bürgerliches Recht und Vertragsrecht: Einzelzwangsvollstreckung und Anfechtung: Anfechtungsberechtigung, Tatbestand, Zeitraum, Benachteiligung und Rückgewähr nach dem Anfechtungsgesetz prüfen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/einzelzwangsvollstreckung-und-anfechtung-bearbeiten/SKILL.md) |
 | [`insolvenzanfechtung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/insolvenzanfechtung-bearbeiten/SKILL.md) | Für Bürgerliches Recht und Vertragsrecht: Insolvenzanfechtung: Insolvenzanfechtung nach Tatbestand, Rechtshandlung, Zeitraum, Benachteiligung und Kenntnis mit Gegenargumenten prüfen. Vollständige Fachanweisungen und lokale Vorlagen werde... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/insolvenzanfechtung-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Bereicherungs Und Anfechtungsrecht Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rec... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Bereicherung und Anfechtung bis zum Rückabwicklungsentwurf prüfen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebnis eins... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
 | [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/kaltstart-triage/SKILL.md) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/kaltstart-triage/SKILL.md) |
 | [`leistungsbeziehung-und-mehrpersonenfall-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/leistungsbeziehung-und-mehrpersonenfall-bearbeiten/SKILL.md) | Für Bürgerliches Recht und Vertragsrecht: Leistungsbeziehung und Mehrpersonenfall: Bewusste Zuwendung, Zweck, Leistungsbeziehungen und Mehrpersonenverhältnis vor dem Anspruch bestimmen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/leistungsbeziehung-und-mehrpersonenfall-bearbeiten/SKILL.md) |
 | [`leistungskondiktion-und-fehlender-rechtsgrund-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/leistungskondiktion-und-fehlender-rechtsgrund-bearbeiten/SKILL.md) | Für Bürgerliches Recht und Vertragsrecht: Leistungskondiktion und fehlender Rechtsgrund: Fehlenden oder entfallenen Rechtsgrund, Zweckverfehlung und Rückabwicklung des Vertrags prüfen. Vollständige Fachanweisungen und lokale Vorlagen wer... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bereicherungs-und-anfechtungsrecht-pruefer/skills/leistungskondiktion-und-fehlender-rechtsgrund-bearbeiten/SKILL.md) |

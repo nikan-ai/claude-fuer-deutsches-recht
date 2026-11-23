@@ -153,7 +153,7 @@
       "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert.",
       "Gezielter amtlicher Quellenabgleich am 10.11.2026. Anforderungen an verständliche Ergebnislogik und getrennte Prüfung der stichtagsabhängigen Scoring-Regeln ergänzt."
     ],
-    "sha256": "6ee9a4608ba3d4af81edbf394f07471909fac9d22fa9950c1da8cebcea6fe401"
+    "sha256": "cb03235fa3840ab5afdf325fe2444122c480cb11b65f5581b38f5e931b9d6e60"
   },
   "prompt_editorial_review": {
     "date": "2026-09-22",
@@ -212,8 +212,8 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "ki-governance/ki-governance-werkstatt.md"
     ],

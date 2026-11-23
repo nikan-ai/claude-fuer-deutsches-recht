@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Lizenzvertragsersteller ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Lizenzvertrag aus Rechtekette und Nutzung vollständig entwerfen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Lizenzvertragsersteller
+# Lizenzvertrag aus Rechtekette und Nutzung vollständig entwerfen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
+Ordne Schutzgegenstand, Inhaber, vorhandene Lizenzen, geplante Nutzung, Gebiet, Dauer und Vergütung aus den Unterlagen zu.
 
-Pluginauftrag: Baukastensystem für IP-Lizenzverträge deutsches und internationales Recht. 32 Skills: Urheber Patent Marken Design Gebrauchsmuster Geschäftsgeheimnis Know-how; Klausel-Bausteine, Quellcode-Escrow, Insolvenz-Klausel, Sicherungslizenz, TT-GVO, Datenschutz-Grundverordnung, Quellensteuer, Output DE EN bilingual.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Klausel Vertragsdauer und Kündigung: Bearbeite den Fachpunkt im Skill klausel-vertragsdauer-kuendigung-rueckwirkung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Datenschutz — Datenschutz-Grundverordnung im Lizenzvertrag: Bearbeite den Fachpunkt im Skill datenschutz-dsgvo-im-lizenzvertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Klausel Haftung, Gewaehrleistung, Indemnification: Bearbeite den Fachpunkt im Skill klausel-haftung-gewaehrleistung-indemnification und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Output: Lizenzvertrag in deutscher Sprache: Bearbeite den Fachpunkt im Skill output-vertrag-deutsch-fertigentwurf und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Klausel Vertragsdauer und Kündigung](../klausel-vertragsdauer-kuendigung-rueckwirkung/FACHINHALT.md)
+3.1.2. [Datenschutz — Datenschutz-Grundverordnung im Lizenzvertrag](../datenschutz-dsgvo-im-lizenzvertrag/FACHINHALT.md)
+3.1.3. [Klausel Haftung, Gewaehrleistung, Indemnification](../klausel-haftung-gewaehrleistung-indemnification/FACHINHALT.md)
+3.1.4. [Output: Lizenzvertrag in deutscher Sprache](../output-vertrag-deutsch-fertigentwurf/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,27 +62,32 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. EuGH, Urteil vom 04.10.2024 - C-621/22 (KNLTB) - vor Zitierung im Volltext auf curia.europa.eu verifizieren; die Entscheidung ersetzt weder Erforderlichkeits- noch Abwägungsprüfung
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. BGH, Urteil vom 19.07.2012, Az. I ZR 70/10, M2Trade, Randnummern 19 und 26 bis 30. Anwendung: Bei Ende des Hauptlizenzvertrags Rückfall des Hauptrechts und grundsätzlich fortbestehende wirksame Unterlizenzen getrennt regeln. Grenze und Prüfzugang: Keine Heilung unwirksamer Rechteeinräumung und keine pauschale Insolvenzfestigkeit; vollständige gerichtliche Gründe in WIPO Lex gelesen. [Entscheidungsnachweis](https://www.wipo.int/wipolex/en/text/597188) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Wer verlangt welche Rechtsfolge aus welchem Vertrag oder gesetzlichen Anspruch.
-7.2. Ist der Vertrag wirksam zustande gekommen und welche Form- oder Vertretungsfrage kann kippen.
-7.3. Welche Klausel ist Individualabrede, AGB oder überraschende bzw. intransparente Regelung.
-7.4. Welche Pflichtverletzung oder welcher Mangel ist mit welchem Beleg bewiesen.
-7.5. Welche Einwendung ist entscheidungserheblich und wer trägt sie.
+7.1. Trenne Rechtebestand, Hauptlizenz, Unterlizenz und schuldrechtliche Nebenpflichten. Prüfe für jede Nutzungsart Befugnis, Exklusivität, Weitergabe und Folgen der Vertragsbeendigung.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Formuliere die vollständigen beauftragten Klauseln einschließlich konkreter Rechte, Vergütung, Leistungsumfang und belegt nötiger Beendigungsregelungen.
+
+7.4. Eine bestehende Unterlizenz darf nicht allein wegen Endes der Hauptlizenz als erloschen behandelt werden; prüfe Wirksamkeit und Schutzgegenstand und passe Rückabwicklung und Zusicherungen an.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

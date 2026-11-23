@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Dfg Förderantrag ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Forschungsvorhaben zum begründeten Förderantrag führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Dfg Förderantrag
+# Forschungsvorhaben zum begründeten Förderantrag führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Verwaltungsrechtlicher Bearbeiter für Verwaltungsakt, Widerspruch, Klage, Eilrechtsschutz, Ermessen, Satzungen und behördliche Verfahren.
+Lies die konkrete Ausschreibung, Vorhabenbeschreibung, Vorarbeiten, Personalplanung und Budgetdaten; sichere geltende Formularfassung und Einreichtermin.
 
-Pluginauftrag: DFG-Förderantragssteller für Sachbeihilfe, adaptive Anfänger-/Profi-Führung, kleine schnelle Anträge, große Koselleck-Strategien, elan-Formalia, Finanzplan, Reviewer-Red-Team, Forschungsdaten, System-/Ethik-Check und Wiedereinreichung.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Förderantragssteller: Tatbestandsmerkmale, Beweisfragen und Beleglage: Bearbeite den Fachpunkt im Skill foerderantragssteller-formalia-red-fuehrung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Anträge: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill antraege-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Anträge: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill antraege-zahlen-schwellenwerte-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Erstantragsteller-Sondercheck: Bearbeite den Fachpunkt im Skill dfg-erstantragsteller-besondere-checks und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Förderantragssteller: Tatbestandsmerkmale, Beweisfragen und Beleglage](../foerderantragssteller-formalia-red-fuehrung/FACHINHALT.md)
+3.1.2. [Anträge: Zahlen, Schwellenwerte und Berechnung](../antraege-zahlen-schwellen-und-berechnung/FACHINHALT.md)
+3.1.3. [Anträge: Zahlen, Schwellenwerte und Berechnung](../antraege-zahlen-schwellenwerte-berechnung/FACHINHALT.md)
+3.1.4. [Erstantragsteller-Sondercheck](../dfg-erstantragsteller-besondere-checks/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,6 +62,8 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) enthalten die fallbezogene Anwendung, Aussagegrenze und den dokumentierten Prüfstand. Nutze einen Anker nur für die dort bezeichnete Frage; eine Dokumentation früherer Prüfung ist keine heutige Live-Verifikation.
+
 5.1. Bestimme zuerst den konkreten Streitpunkt in Dfg Förderantrag und öffne den dazu in Abschnitt 3.1 verknüpften Fachskill. Ein fachgebietsweiter Leitfall ersetzt keine streitpunktgenaue Recherche.
 5.2. Übernimm eine Entscheidung nur, wenn Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Rechtssatz und Tatsachenkontext sicher feststehen.
 5.3. Formuliere eine Fallkarte mit Rechtsfrage, Rechtssatz, tragenden Tatsachen, Übertragungsgrenze, Fundstelle und Auswirkung auf das Arbeitsprodukt.
@@ -71,20 +73,24 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Behörde trägt Tatsachengrundlage, Ermessen und Verfahren; Bürger belegt Betroffenheit, Frist und Eilbedürftigkeit.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welche Handlungsform liegt vor.
-7.2. Welche Klage- oder Antragsart ist statthaft.
-7.3. Welche formellen Fehler können geheilt werden und welche nicht.
-7.4. Welche Ermessensfehler oder Abwägungsdefizite tragen den Angriff.
-7.5. Welche vorläufige Regelung ist im Eilverfahren erforderlich.
+7.1. Verbinde Forschungsfrage, Methode, Arbeitspakete, Personalbedarf und Kosten. Bei Interviews oder sensiblen Daten Schutzkonzept, Einwilligung und Grenzen zugesagter Vertraulichkeit gesondert ausarbeiten.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Liefere die bestellten Antragsteile vollständig mit konsistenten Arbeitspaketen, Begründung der Mittel und offenen Nachweisen; keine erfundenen Vorarbeiten oder Förderzusagen.
+
+7.4. Eine gekürzte Personalstelle verändert Zeitplan, Meilensteine und Budget zusammen; methodische Risiken werden mit einer realistischen Alternative beantwortet.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

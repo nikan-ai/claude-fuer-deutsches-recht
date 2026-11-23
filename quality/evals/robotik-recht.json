@@ -54,7 +54,7 @@
       "Gefahrenabwehr versus Beweiserhalt, Versionskausalität, überprüfbare Abnahmekriterien und fachkundige Wiederfreigabe nach Gefährdungsbeurteilung.",
       "2026-10-16, redaktioneller Einstiegsreview: Robotervorfall und Arbeitsprodukt statt Startmenü eröffnet; vorhandenen frühen Sicherheitsanker im Mini erhalten. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
     ],
-    "sha256": "3694768aac7c9a870e15f651281b9828704548aadf68b99db24979b8af21001c",
+    "sha256": "9fd843419967da1e03b48022452886872e6a475e5daecf67a2299e79c30e0c54",
     "reviewed_on": "2026-10-16",
     "method": "desk_review",
     "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
@@ -154,12 +154,35 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "robotik-recht/robotik-recht-werkstatt.md"
     ],
     "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
     "pending_prior_changes": []
+  },
+  "reviewed_file_hashes": {
+    "robotik-recht/skills/cra-produkt-lager-intralogistikflotte/FACHINHALT.md": "731f97f0cca66316f4c17aea643de05d855b25281161068e08f42c541f77bd0c",
+    "robotik-recht/skills/cra-produkt-mit-digitalen-elementen/FACHINHALT.md": "add2bf9cd1edb854ad4ff4e5b3376b7340907a11b7666e6b8001ebb43c06a6b6"
+  },
+  "issue_followup_2026_11_18": {
+    "date": "2026-11-18",
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "report": "quality/source-audits/2026-11-18-issues/ki-daten.md",
+    "report_sha256": "31ba10543a31b5c7dc29e1d70766b77f03fe7807230f1bc9f9b1041df59cac7f",
+    "files": {
+      "robotik-recht/skills/cra-produkt-lager-intralogistikflotte/FACHINHALT.md": {
+        "before_sha256": "4005b2bffd3b3dfc9ab76a5766387c3f199e901b301148be3d350b218a411eb6",
+        "reviewed_sha256": "731f97f0cca66316f4c17aea643de05d855b25281161068e08f42c541f77bd0c",
+        "full_file_read": true
+      },
+      "robotik-recht/skills/cra-produkt-mit-digitalen-elementen/FACHINHALT.md": {
+        "before_sha256": "ba0beffeb0e25f568a9afd5ab7c746debdd14be15f34665786dd0479bd13595c",
+        "reviewed_sha256": "add2bf9cd1edb854ad4ff4e5b3376b7340907a11b7666e6b8001ebb43c06a6b6",
+        "full_file_read": true
+      }
+    },
+    "limits": "Nur die bezeichneten Fachmodule und Quellenergänzungen; kein neuer vollständiger Prompt-Review, keine gesamte Rechtsprechungsprüfung und kein Live-Modelltest. Historische Reviews und ihre Daten unverändert."
   }
 }

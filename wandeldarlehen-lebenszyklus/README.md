@@ -5,13 +5,13 @@
 
 Begleitet den vollständigen Lebenszyklus eines Wandeldarlehens für GmbH und UG: Vertragserstellung (bilingual/einsprachig), Beurkundungsprüfung, Wandelereignisse, Wandlungsberechnung, Cap-Table-Update, Gesellschafterbeschluss und Notar-Paket.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`wandeldarlehen-lebenszyklus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/wandeldarlehen-lebenszyklus.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`wandeldarlehen-lebenszyklus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/wandeldarlehen-lebenszyklus.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/wandeldarlehen-lebenszyklus.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/wandeldarlehen-lebenszyklus-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/wandeldarlehen-lebenszyklus-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`wandeldarlehen-lebenszyklus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/wandeldarlehen-lebenszyklus.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`wandeldarlehen-lebenszyklus.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/wandeldarlehen-lebenszyklus.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`wandeldarlehen-lebenszyklus-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/wandeldarlehen-lebenszyklus-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`wandeldarlehen-lebenszyklus-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/wandeldarlehen-lebenszyklus-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -96,11 +96,13 @@ Phase D — Gesellschafterbeschluss und Notar
      → HR-Anmeldung → Post-Eintragung-Checkliste
 ```
 
-## Skills nach Phasen
+## Aufgaben nach Finanzierungsphase
 
-### Phase A — Erstellung (8 Skills)
+Die Tabellen zeigen fachliche Aufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/wandeldarlehen-lebenszyklus.md) zu.
 
-| Slug | Beschreibung |
+### Phase A — Erstellung
+
+| Thema | Beschreibung |
 |---|---|
 | `mandat-triage-mehrere-parallel` | Vorliegende Darlehen, Beteiligte und konkurrierende Wandelereignisse einordnen. |
 | `parteien-erfassen` | Gesellschaft, Gesellschafterinnen, Darlehensgeber, KYC, Vertretungsmacht |
@@ -111,9 +113,9 @@ Phase D — Gesellschafterbeschluss und Notar
 | `einsprachige-vertragsfassung-de` | Einsprachige DE-Fassung, identischer materieller Inhalt |
 | `vertraulichkeit-und-sprachklausel` | § 8 Vertraulichkeit, Sprachklausel, DIS-Schiedsklausel, salvatorische Klausel |
 
-### Phase B — Beurkundung und Unterzeichnung (6 Skills)
+### Phase B — Beurkundung und Unterzeichnung
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | `textform-vs-schriftform-vs-notariell` | § 126b/§ 126/§ 128 BGB, Formstufen, DocuSign-Praxis |
@@ -122,9 +124,9 @@ Phase D — Gesellschafterbeschluss und Notar
 | `gesellschafterbeschluss-vorbereiten` | Grundsatzbeschluss Kapitalerhöhungsbereitschaft, § 51 GmbHG |
 | `kyc-aml-geldwaesche` | GwG KYC, wirtschaftlich Berechtigte, PEP, Sanktionslisten EU/OFAC/UN |
 
-### Phase C — Wandelereignisse und Wandlungsberechnung (11 Skills)
+### Phase C — Wandelereignisse und Wandlungsberechnung
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `wandelereignis-eingang` | Eingang Wandlungserklärung, Vier-Augen-Prüfung, Eingangsbestätigung |
 | `wandelereignis-trigger-dispatcher` | Master-Logik bei parallelen Triggern, Prioritäts-Regelung, Cap-Table-Simulation, MFN-Kaskade |
@@ -138,9 +140,9 @@ Phase D — Gesellschafterbeschluss und Notar
 | `mehrere-wandeldarlehen-parallel` | Stack-Order, MFN, gleichzeitige Wandlung, kombinierter Cap-Table |
 | `wandlung-kommunikation-paketverteilung` | Lender, Gesellschaft, Steuerberater, Buchhaltung informieren |
 
-### Phase D — Gesellschafterbeschluss und Notar (7 Skills)
+### Phase D — Gesellschafterbeschluss und Notar
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `gesellschafterversammlung-einberufen` | Einberufung, § 51 GmbHG, Ladungsfristen, Vollmacht, Notartermin |
 | `gesellschafterbeschluss-kapitalerhoehung` | Beschluss Kapitalerhöhung gegen Sacheinlage, § 53 Abs. 2 GmbHG |
@@ -225,7 +227,7 @@ English: Complete list of all 10 skills in this plugin. Both links in each row d
 | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Wandeldarlehen-Lebenszyklus. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/einstieg-routing/SKILL.md) |
 | [`finanzierung-und-beteiligung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/finanzierung-und-beteiligung-bearbeiten/SKILL.md) | Wandeldarlehen-Lebenszyklus: Finanzierung und Beteiligung: Equity, Darlehen, Wandlung, Sicherheiten, Gesellschafterdarlehen und Kapitalmaßnahmen anhand der Vertragsunterlagen gestalten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/finanzierung-und-beteiligung-bearbeiten/SKILL.md) |
 | [`governance-und-gesellschafter-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/governance-und-gesellschafter-bearbeiten/SKILL.md) | Wandeldarlehen-Lebenszyklus: Governance und Gesellschafter: Beteiligungsrechte, Organe, Beirat, Management, Vergütung und Exit im Gesellschaftsvertrag abstimmen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/governance-und-gesellschafter-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Wandeldarlehen Lebenszyklus ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/juristischer-argumentationskern/SKILL.md) | Wandeldarlehen von Auszahlung bis Wandlung oder Rückzahlung begleiten. Wertet vorhandene Unterlagen aus, entscheidet die fachlichen Weichen und liefert vollständige Vertragsänderung, Wandlungsberechnung und Beschluss-/Erklärungstexte ode... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/juristischer-argumentationskern/SKILL.md) |
 | [`signing-und-vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/signing-und-vollzug-bearbeiten/SKILL.md) | Wandeldarlehen-Lebenszyklus: Signing und Vollzug: Bedingungen, Unterschriften, Notar, Register, Closing, Übertragung und Integration bis zur dokumentierten Umsetzung führen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/signing-und-vollzug-bearbeiten/SKILL.md) |
 | [`transaktion-und-struktur-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/transaktion-und-struktur-bearbeiten/SKILL.md) | Wandeldarlehen-Lebenszyklus: Transaktion und Struktur: Share Deal, Asset Deal, Beteiligte, Erwerbsstruktur und maßgebliche Rechtsordnung festlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/transaktion-und-struktur-bearbeiten/SKILL.md) |
 | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Wandeldarlehen-Lebenszyklus: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=wandeldarlehen-lebenszyklus/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |

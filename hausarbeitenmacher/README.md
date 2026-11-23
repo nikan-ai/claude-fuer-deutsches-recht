@@ -5,13 +5,13 @@
 
 Didaktisches Plugin für juristische Hausarbeiten und Seminararbeiten. Führt sokratisch durch Zivilrecht öffentliches Recht Strafrecht mit Ausflügen in Europarecht und Rechtstheorie. Adressaten-Strategie ohne Schleimerei. Liefert keine fertigen Lösungen sondern führt zur eigenen Subsumtion.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hausarbeitenmacher.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/hausarbeitenmacher.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/hausarbeitenmacher.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/hausarbeitenmacher.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`hausarbeitenmacher.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/hausarbeitenmacher.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`hausarbeitenmacher-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`hausarbeitenmacher-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/hausarbeitenmacher-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -81,7 +81,7 @@ Alternativ via Marketplace:
 
 ```
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install hausarbeitenmacher@claude-fuer-deutsches-recht
+/plugin install hausarbeitenmacher@klotzkette-german-legal-skills
 ```
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json` und `skills/` enthalten.
@@ -145,26 +145,28 @@ Phase D — Schreiben, Reflektieren, Polieren (Tag 31-40)
      → Bei Seminararbeit: Vortrag und Disputation
 ```
 
-## Enthaltene Skills (23)
+## Aufgaben beim Schreiben der Arbeit
 
-### Optionale Adressaten-Klärung (2 Skills)
+Die Tabellen zeigen fachliche Aufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/hausarbeitenmacher.md) zu.
 
-| Slug | Beschreibung |
+### Optionale Adressaten-Klärung
+
+| Thema | Beschreibung |
 |---|---|
 | `professor-erkennen-und-strategie` | Fangfrage Lehrkraft Kurz-Recherche Adressaten-Strategie ohne Schleim |
 | `seminararbeit-modus` | Spezifika der Seminararbeit Forschungsfrage eigene These Vortrag Disputation |
 
-### Phase A — Auftakt (3 Skills)
+### Phase A — Auftakt
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `aufgabenstellung-erfassen` | Falltext zerlegen Wesentliche/Unwesentliche unterscheiden Bearbeitungsvermerk verstehen |
 | `fachgebiet-routing-zivil-oeffentlich-straf` | Welches Fachgebiet? Gemischte Konstellationen erkennen Reihenfolge bei Mix |
 | `bearbeitungsplan-erstellen` | Zeitplan Stoff-Aufteilung Lern-Ziele für die Arbeit |
 
-### Phase B — Methodisches Fundament (6 Skills)
+### Phase B — Methodisches Fundament
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `gutachtenstil-vs-urteilsstil` | Obersatz-Definition-Subsumtion-Ergebnis vs. begründungs-knapp Urteilsstil |
 | `methodenlehre-auslegung` | Wortlaut-Systematik-Geschichte-Sinn-Zweck + verfassungs-/EU-konform |
@@ -173,9 +175,9 @@ Phase D — Schreiben, Reflektieren, Polieren (Tag 31-40)
 | `quellenrecherche-rechtsprechung-literatur` | Bibliothek amtliche/freie Quellen und lizenzierte Datenbanken nur bei vorhandenem Zugang Google-Scholar Suchstrategie |
 | `subsumtion-schritt-fuer-schritt` | Wie subsumiere ich richtig? Häufige Fehler |
 
-### Phase C — Fachgebiet-Schemata (6 Skills)
+### Phase C — Fachgebiet-Schemata
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `zivilrecht-anspruchsgrundlagen-pruefung` | V-C-G-D-D-B Reihenfolge BGB-Anspruch prüfen |
 | `oeffentliches-recht-statthaft-zulaessig-begruendet` | VwGO §§ 40 42 47 113 Schemata Verwaltungsklage |
@@ -184,16 +186,14 @@ Phase D — Schreiben, Reflektieren, Polieren (Tag 31-40)
 | `europarecht-anwendbarkeit-vorrang-vorabentscheidung` | Art. 267 AEUV RL-Auslegung EuGH-Bezug |
 | `rechtstheorie-rechtsphilosophie-anbindung` | Kelsen Hart Dworkin Radbruch Naturrecht Positivismus |
 
-### Phase D — Schreiben und Reflektieren (4 Skills)
+### Phase D — Schreiben und Reflektieren
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `meinungsstreit-darstellen` | h.M. — a.A. — eigene Stellungnahme strukturiert |
 | `haeufige-fehler-vermeiden` | Top-20 typische Hausarbeit-Fehler |
 | `selbstkontrolle-vor-abgabe` | Checkliste vor Abgabe Lernziel-Selbstprüfung |
 | `behutsame-frech-wertschaetzende-rueckfragen` | Stil-Anleitung für das Plugin selbst: trocken-ketzerische Würze am Rande |
-
-Plus der Master-Skill **`hausarbeit-workflow-start`** als Einstiegs-Schiene.
 
 ## Bedienungs-Hinweis
 
@@ -221,7 +221,7 @@ Beispiele für den Ton:
 
 **Niemals herablassend, niemals zynisch, niemals besserwisserisch.** Bei Frust oder Lebensbelastung der lernenden Person wechselt das Plugin sofort in den klassisch warm-fragenden Modus zurück.
 
-→ Skill `behutsame-frech-wertschaetzende-rueckfragen` regelt diesen Stil detailliert.
+Die [Fachbibliothek](FACHMODULE.md) enthält weitere Hinweise zum Gesprächsstil.
 
 ## Bei Unsicherheit
 
@@ -322,7 +322,7 @@ English: Complete list of all 10 skills in this plugin. Both links in each row d
 | [`aufbau-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/aufbau-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Aufbau: Anspruchsgrundlagen in sinnvoller Reihenfolge, Hilfsgutachten und Schwerpunktsetzung anlegen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/aufbau-bearbeiten/SKILL.md) |
 | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: hausarbeitenmacher — Didaktisches Plugin für juristische. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/einstieg-routing/SKILL.md) |
 | [`fallfrage-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/fallfrage-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Fallfrage: Aufgabenstellung, Bearbeitervermerk, Rollenzuweisung und begehrte Rechtsfolge exakt erfassen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/fallfrage-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Hausarbeitenmacher ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) | Juristische Hausarbeit quellenfest entwickeln. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/juristischer-argumentationskern/SKILL.md) |
 | [`streitstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/streitstand-bearbeiten/SKILL.md) | Für Juristische Ausbildung und Falllösung: Streitstand: Meinungen mit Argumenten darstellen, entscheiden und nur entscheidungserheblich vertiefen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/streitstand-bearbeiten/SKILL.md) |
 | [`subsumtion-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/subsumtion-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Subsumtion: Obersatz, Definition, Subsumtion, Ergebnis je Merkmal in ganzen Sätzen durchführen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/subsumtion-bearbeiten/SKILL.md) |
 | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Juristische Haus- und Seminararbeiten: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=hausarbeitenmacher/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |

@@ -200,7 +200,7 @@
       "Redaktion 16.10.2026: Einordnungsmemo, Klausel und Behördenantwort konkret benannt; SCHUFA mit strikter Grenze zu KI-Risikoklassen vorangestellt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
       "Zweckbezogene HR-Einstufung, menschliche Entscheidungspraxis und den zeitlich eigenen Beschäftigten- und Vertretungshinweis konkretisiert."
     ],
-    "sha256": "151812212e252c471018095691c99efbb773d52cbe82852ee22d031362bb9670"
+    "sha256": "c39868ad8d9de42da1d0e2f3d4dcf6b6451f0a87bb60267eb1116bda5f858771"
   },
   "prompt_editorial_review": {
     "date": "2026-10-09",
@@ -346,13 +346,30 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "ki-vo-ai-act-pruefer/ki-vo-ai-act-pruefer-hauptproblem.md",
       "ki-vo-ai-act-pruefer/ki-vo-ai-act-pruefer-werkstatt.md"
     ],
     "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
     "pending_prior_changes": []
+  },
+  "reviewed_file_hashes": {
+    "ki-vo-ai-act-pruefer/skills/anbieter-werden-art-25/FACHINHALT.md": "8624a633d0a612e075551db00cc35649392d7e968c59571535a3a699ad340d44"
+  },
+  "issue_followup_2026_11_18": {
+    "date": "2026-11-18",
+    "method": "scoped_primary_source_and_workflow_desk_review",
+    "report": "quality/source-audits/2026-11-18-issues/ki-daten.md",
+    "report_sha256": "31ba10543a31b5c7dc29e1d70766b77f03fe7807230f1bc9f9b1041df59cac7f",
+    "files": {
+      "ki-vo-ai-act-pruefer/skills/anbieter-werden-art-25/FACHINHALT.md": {
+        "before_sha256": "9039a3cd9ba001af1f2a37c80ae3a2a98263fe4232fff2adcd61956c3c4d7ffb",
+        "reviewed_sha256": "8624a633d0a612e075551db00cc35649392d7e968c59571535a3a699ad340d44",
+        "full_file_read": true
+      }
+    },
+    "limits": "Nur die bezeichneten Fachmodule und Quellenergänzungen; kein neuer vollständiger Prompt-Review, keine gesamte Rechtsprechungsprüfung und kein Live-Modelltest. Historische Reviews und ihre Daten unverändert."
   }
 }

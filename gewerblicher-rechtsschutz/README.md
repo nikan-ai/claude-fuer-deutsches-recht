@@ -5,13 +5,13 @@
 
 Gewerblicher Rechtsschutz – DPMA/EUIPO-Markenrecherche und -anmeldung, Freedom-to-Operate, Patentscreening, UWG- und Urheberrechts-Abmahnung (Versand und Reaktion), Open-Source-Compliance, IP-Klausel-Review, Schutzrechts-Fristen.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`gewerblicher-rechtsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/gewerblicher-rechtsschutz.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`gewerblicher-rechtsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/gewerblicher-rechtsschutz.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/gewerblicher-rechtsschutz.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`gewerblicher-rechtsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/gewerblicher-rechtsschutz.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`gewerblicher-rechtsschutz.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/gewerblicher-rechtsschutz.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`gewerblicher-rechtsschutz-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`gewerblicher-rechtsschutz-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/gewerblicher-rechtsschutz-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [6 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -105,17 +105,17 @@ Das Ergebnis wird in `~/.claude/plugins/config/claude-fuer-deutsches-recht/gewer
 | Befehl | Funktion |
 |---|---|
 | `/gewerblicher-rechtsschutz:verfahrensstrategie-bearbeiten Thema: kaltstart-interview` | Ersteinrichtungsinterview ausführen (oder erneut ausführen) |
-| `/gewerblicher-rechtsschutz:abmahnung-urheberrecht [Kontext]` | Abmahnung entwerfen oder eingehende Abmahnung triagieren |
-| `/gewerblicher-rechtsschutz:takedown-anweisung [Kontext]` | Notice-and-Action (DSA / § 7 DDG) versenden oder auf eine erhaltene Meldung reagieren |
+| `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: abmahnung-urheberrecht-erfindungsmeldung [Kontext]` | Abmahnung entwerfen oder eingehende Abmahnung triagieren |
+| `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: takedown-anweisung-unterlassungsverlangen [Kontext]` | Notice-and-Action (DSA / § 7 DDG) versenden oder auf eine erhaltene Meldung reagieren |
 | `/gewerblicher-rechtsschutz:unterlagen-und-quellen-auswerten-bearbeiten Thema: markenrecherche [Marke]` | Erste Markenrecherche – Identitäts-/Verwechslungsanalyse, Anwalt zeichnet ab |
-| `/gewerblicher-rechtsschutz:fto-triage [Produkt / Anspruchsbereich]` | Freedom-to-Operate-Triage – Sperrpatente für Anwaltsprüfung aufzeigen |
+| `/gewerblicher-rechtsschutz:rechtsposition-bearbeiten Thema: fto-triage-gewerblicher-rechtsschutz-mandat [Produkt / Anspruchsbereich]` | Freedom-to-Operate-Triage – Sperrpatente für Anwaltsprüfung aufzeigen |
 | `/gewerblicher-rechtsschutz:rechtsposition-bearbeiten Thema: erfindungsmeldung-aufnahme [Offenbarung]` | Erstprüfung Erfindungsmeldung (ArbnErfG) – Neuheit, erfinderische Tätigkeit, Schutzumfang |
 | `/gewerblicher-rechtsschutz:verletzung-und-beweis-bearbeiten Thema: verletzungs-triage [Kontext]` | Verletzungstriage – Ignorieren / informelles Schreiben / Abmahnung / Klage |
 | `/gewerblicher-rechtsschutz:rechtsposition-bearbeiten Thema: ip-klausel-pruefung [Datei]` | IP-Klauseln in Verträgen prüfen – Abtretung, Lizenz, IP-Freistellung, OSS-Reps, ArbnErfG |
 | `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: open-source-pruefung [Repository / Dateiliste]` | Open-Source-Lizenz-Compliance-Prüfung – Copyleft-Pflichten, Attribution, Kompatibilität |
-| `/gewerblicher-rechtsschutz:schutzrechts-portfolio` | Schutzrechtsregister und Fristenverwaltung – fällige Verlängerungen, eingereichte Anmeldungen |
-| `/gewerblicher-rechtsschutz:markenanmeldung-dpma` | Markenanmeldung beim DPMA Schritt für Schritt |
-| `/gewerblicher-rechtsschutz:abmahnung-urheberrecht` | Urheberrechtliche Abmahnung (insb. Filesharing, § 97a UrhG) |
+| `/gewerblicher-rechtsschutz:verfahrensstrategie-bearbeiten Thema: schutzrechts-portfolio-schutzschrift` | Schutzrechtsregister und Fristenverwaltung – fällige Verlängerungen, eingereichte Anmeldungen |
+| `/gewerblicher-rechtsschutz:unterlagen-und-quellen-auswerten-bearbeiten Thema: markenanmeldung-dpma-markenrecherche-open` | Markenanmeldung beim DPMA Schritt für Schritt |
+| `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: abmahnung-urheberrecht-erfindungsmeldung` | Urheberrechtliche Abmahnung (insb. Filesharing, § 97a UrhG) |
 | `/gewerblicher-rechtsschutz:arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten Thema: mandat-arbeitsbereich` | Mandatsarbeitsbereiche verwalten (nur Mehrmandat-Kanzleien) |
 
 ## Skills
@@ -192,7 +192,7 @@ Ergebnis: Identitätstreffer, Verwechslungsfaktorenanalyse, Kennzeichnungen zur 
 ### 3. Fällige Fristen anzeigen
 
 ```
-/gewerblicher-rechtsschutz:schutzrechts-portfolio
+/gewerblicher-rechtsschutz:verfahrensstrategie-bearbeiten Thema: schutzrechts-portfolio-schutzschrift
 ```
 
 Ergebnis: Schutzrechte mit Verlängerungs- oder Aufrechterhaltungsfristen in den nächsten 90 Tagen, nach Dringlichkeit gruppiert.
@@ -237,8 +237,8 @@ Dieser Pfad überlebt Plugin-Updates. Die mitgelieferte `CLAUDE.md` ist eine Vor
 ## Hinweise
 
 - Ein vorhandenes Kanzleiprofil wird berücksichtigt. Leere Profilfelder stoppen einen klaren Einzelauftrag nicht. Nur eine für die konkrete Anspruchsprüfung oder Strategie entscheidende Lücke wird nachgefragt; fehlende Portfolioangaben werden nicht erfunden. Versand und andere folgenreiche Handlungen behalten ihre Freigabegrenzen.
-- Das Versenden einer Abmahnung eröffnet einen Konflikt. Der `/gewerblicher-rechtsschutz:abmahnung-urheberrecht`-Skill sendet nichts selbst; er entwirft, zeigt den Genehmigungsmatrixeintrag an und wartet auf den Genehmiger.
-- `/gewerblicher-rechtsschutz:unterlagen-und-quellen-auswerten-bearbeiten Thema: markenrecherche` und `/gewerblicher-rechtsschutz:fto-triage` sind **erste Triage-Schritte**. Das Ergebnis ist ein Recherchepaket für einen Anwalt, kein Freigabegutachten. Der Skill gibt dies bei jedem Durchlauf an.
+- Das Versenden einer Abmahnung eröffnet einen Konflikt. Der `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: abmahnung-urheberrecht-erfindungsmeldung`-Skill sendet nichts selbst; er entwirft, zeigt den Genehmigungsmatrixeintrag an und wartet auf den Genehmiger.
+- `/gewerblicher-rechtsschutz:unterlagen-und-quellen-auswerten-bearbeiten Thema: markenrecherche` und `/gewerblicher-rechtsschutz:rechtsposition-bearbeiten Thema: fto-triage-gewerblicher-rechtsschutz-mandat` sind **erste Triage-Schritte**. Das Ergebnis ist ein Recherchepaket für einen Anwalt, kein Freigabegutachten. Der Skill gibt dies bei jedem Durchlauf an.
 - `/gewerblicher-rechtsschutz:arbeitsprodukt-bearbeiten Thema: open-source-pruefung` kennzeichnet Lizenzpflichten und -inkompatibilitäten. Er erteilt keine Genehmigung für eine kommerzielle Nutzungsentscheidung – das entscheiden Engineering und Recht gemeinsam.
 - Patentanspruchsformulierung ist bewusst nicht im Umfang. Dieses Plugin arbeitet gut neben einem Patentanwalt; es ersetzt ihn nicht.
 - **Berufsrechtlicher Hinweis:** Alle Entwürfe unterfallen dem Mandatsgeheimnis gem. § 43a Abs. 2 BRAO, § 203 StGB. Externe Weitergabe nur nach anwaltlicher Prüfung und Freigabe.
@@ -283,7 +283,7 @@ English: Complete list of all 10 skills in this plugin. Both links in each row d
 | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Gewerblicher Rechtsschutz in der Praxis: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Gewerblicher Rechtsschutz in der Praxis: Arbeitsprodukt: Portfoliovermerk, Anspruchsmatrix, Abmahnung, Unterlassungserklärung, Antrag, Erwiderung, Vergleich oder Lizenz erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Plugin: Gewerblicher Rechtsschutz. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/einstieg-routing/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Gewerblicher Rechtsschutz ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/juristischer-argumentationskern/SKILL.md) | Rechteportfolio und Verletzung zum nächsten Arbeitsergebnis führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen An... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/juristischer-argumentationskern/SKILL.md) |
 | [`rechtsbestand-und-register-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/rechtsbestand-und-register-bearbeiten/SKILL.md) | Gewerblicher Rechtsschutz in der Praxis: Rechtsbestand und Register: Eintragung, Benutzung, Jahresgebühr, Nichtigkeits- oder Löschungsangriff und Parallelverfahren prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/rechtsbestand-und-register-bearbeiten/SKILL.md) |
 | [`rechtsposition-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/rechtsposition-bearbeiten/SKILL.md) | Gewerblicher Rechtsschutz in der Praxis: Rechtsposition: Schutzrecht, Geschäftsgeheimnis, Wettbewerbsposition, Inhaber, Lizenz, Priorität und territoriale Reichweite bestimmen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/rechtsposition-bearbeiten/SKILL.md) |
 | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Gewerblicher Rechtsschutz in der Praxis: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gewerblicher-rechtsschutz/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |

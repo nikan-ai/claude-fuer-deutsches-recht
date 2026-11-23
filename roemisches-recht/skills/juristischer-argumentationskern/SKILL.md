@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Römisches Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Römischrechtliche Quelle zum begründeten Befund auswerten. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Römisches Recht
+# Römischrechtliche Quelle zum begründeten Befund auswerten
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Rechtshistorischer Bearbeiter für römisches Recht, gemeines Recht, Preußisches Allgemeines Landrecht, Reichsrecht, Weimar, Unrechtsregime, DDR und Bundesrepublik mit Fokus auf Quellenkritik, Textstufe, Institution, Rezeptionsweg und heutige Anschlussfrage.
+Bestimme Fragment, Textzeuge, Ausgabe, Epoche und konkrete Frage; trenne lateinischen Text von Übersetzung und späterer Kommentierung.
 
-Pluginauftrag: Mega-Plugin zum römischen Recht: Zwölftafelgesetz, Institutionensystem, Sachenrecht, Obligationen, Aktionenrecht, Erbrecht, Juristenrecht, Justinian, byzantinisches Recht und Rezeption.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Vertiefung 01 Fristen Und Risiken: Bearbeite den Fachpunkt im Skill rom-099-vertiefung-01-fristen-und-risiken und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Zwölftafelgesetz - Prozess und Vollstreckung: Bearbeite den Fachpunkt im Skill rom-101-zwoelftafelgesetz-prozess-und-vollstreckung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Römisches Recht: Mittelalterliches römisches Recht Glossatoren Bologna: Bearbeite den Fachpunkt im Skill 016-mittelalterliches-roemisches und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Rom Mittelalterliches Römisches Recht Glossatoren Bolog: Bearbeite den Fachpunkt im Skill 016-mittelalterliches-roemisches-recht-glossatoren-bolog und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Vertiefung 01 Fristen Und Risiken](../rom-099-vertiefung-01-fristen-und-risiken/FACHINHALT.md)
+3.1.2. [Zwölftafelgesetz - Prozess und Vollstreckung](../rom-101-zwoelftafelgesetz-prozess-und-vollstreckung/FACHINHALT.md)
+3.1.3. [Römisches Recht: Mittelalterliches römisches Recht Glossatoren Bologna](../016-mittelalterliches-roemisches/FACHINHALT.md)
+3.1.4. [Rom Mittelalterliches Römisches Recht Glossatoren Bolog](../016-mittelalterliches-roemisches-recht-glossatoren-bolog/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,6 +62,8 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) enthalten die fallbezogene Anwendung, Aussagegrenze und den dokumentierten Prüfstand. Nutze einen Anker nur für die dort bezeichnete Frage; eine Dokumentation früherer Prüfung ist keine heutige Live-Verifikation.
+
 5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
 
 5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
@@ -69,20 +71,24 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Bearbeiter für Textzeuge, Fassung, Übersetzung und Rezeptionsbeleg; offene Quellenlage wird als solche ausgewiesen und nicht durch Rückprojektion geschlossen.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welche Fassung und welcher Textzeuge werden tatsächlich verwendet.
-7.2. Ist der Text zeitgenössische Norm, spätere Edition, Rekonstruktion oder Forschungsaussage.
-7.3. Welche Institution setzte die Regel in welchem Rechtsraum und Zeitraum durch.
-7.4. Welche Übersetzung oder Modernisierung verändert möglicherweise den Aussagegehalt.
-7.5. Welche heutige Anschlussfrage ist historische Wirkung und welche wäre unzulässige Rückprojektion.
+7.1. Prüfe damalige Klage, Anspruchsgegenstand und Rollen im Quellenzusammenhang. Vergleiche abweichende Fragmente und vermeide unbemerkte Übertragung moderner BGB-Kategorien.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Liefere Übersetzung, Quellenanalyse oder historische Falllösung mit begründeter Lesart und klaren Unsicherheiten.
+
+7.4. Eine andere Interpunktion oder Textvariante kann das Ergebnis verändern; moderne Rechtsprechung ist nur bei ausdrücklich beauftragter Rezeptionsfrage ein eigener Prüfstrang.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

@@ -1,34 +1,33 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Immobilienrechtspraxis ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Immobiliengeschäft vom Datenraum zur konkreten Vertrags- oder Anspruchsfassung prüfen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebnis einschließlich Belegen, Gegenposition und Fristen."
 ---
 
-# Juristischer Argumentationskern - Immobilienrechtspraxis
+# Immobiliengeschäft vom Datenraum zur konkreten Vertrags- oder Anspruchsfassung prüfen
 
 ## 1. Direktstart
 
-Arbeite als Immobilienrechtlicher Bearbeiter für Grundstückskauf, Auflassung, Vormerkung, Grundschuld, Dienstbarkeit, Wohnungseigentum, Erbbaurecht, Beurkundung und Grundbuchvollzug mit Fokus auf Form, Bewilligung, Nachweis, Rang und versandreife Vollzugsunterlagen.
+Ordne Vertrag, Grundstück, Beteiligte und Vollzugsstand nach den vorliegenden Unterlagen. Liefere den beauftragten Vertragsentwurf oder die Prüfung mit den noch erforderlichen Eingaben.
 
-Pluginauftrag: Werkzeuge für immobilienrechtliche Rechtsabteilungen: musterbasierte Vertragserstellung mit Klauselschutz, Vertragsprüfung gegen Playbook, Grundbuchanalyse, Sachverhaltsermittlung, Mieteranfragen, Case Management und AVV-Prüfung. Rechtsprechung nur nach Live-Verifikation.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
-## 2. Die tragende These
+Verwende Rechtsprechung erst nach Prüfung der aktuell abrufbaren Quelle. Halte für Entwürfe am freigegebenen Muster und an geschützten Klauseln fest.
 
-Formuliere das Ergebnis für Immobilienrechtspraxis in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Grundbuchanalyse, Vertragsklausel, Vollzugsliste, Bewilligung, Zwischenverfügungsantwort oder Rangmatrix.
+## 2. Vom Aktenstand zum fertigen Ergebnis
 
-Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
+Aus vorhandenen Dateien, früheren Antworten und dem aktuellen Auftrag arbeiten. Nur eine Lücke nachfragen, wenn sie eine nachstehende Entscheidung tatsächlich ändern kann; unabhängige Teile währenddessen fertigstellen.
 
-2.1. Rechtsfolge: Was soll das fertige Arbeitsprodukt rechtlich oder praktisch bewirken?
-2.2. Norm: Welche Vorschrift oder gesicherte Rechtsregel trägt genau diese Folge?
-2.3. Tatbestandsmerkmal: Welches einzelne Merkmal ist dafür entscheidend?
-2.4. Tatsache: Welche konkrete, zeitlich und personell bestimmte Aktenangabe erfüllt oder widerlegt das Merkmal?
-2.5. Beleg: Welche Fundstelle, Urkunde, Aussage, Messung oder Berechnung trägt die Tatsache?
-2.6. Beweislast und Beweismaß: Wer verliert den Punkt, wenn die Tatsache offenbleibt?
-2.7. Gegenposition: Was ist der stärkste ernsthafte Angriff auf Norm, Tatsache, Beleg oder Rechtsfolge?
-2.8. Antwort: Welcher Gegenbeleg, welche Auslegung oder welche Beweislastregel hält diesem Angriff stand?
+1. Kaufvertrag, Grundbuch, Beschlüsse, Objektunterlagen und Datenraumprotokoll auf denselben Stand bringen; Verkäufer, Erwerber und konkrete wirtschaftliche Belastung erfassen.
+
+2. Dingliche Lage, Beschaffenheit, öffentliche Lasten und Offenlegungspflichten getrennt prüfen. Uploadzeitpunkt, Struktur und erwartbare Kenntnisnahme entscheiden mit; Datenraumzugang allein beweist keine Aufklärung.
+
+3. Bei Mangel, Sonderumlage, Finanzierung oder Vollzug den passenden Fachweg laden; Arglist, Kenntnis und Haftungsausschluss mit konkreten Personen und Belegen verbinden.
+
+4. Redline, Offenlegungsschreiben, Rücktritts- oder Schadensersatztext vollständig erstellen; Kaufpreisfolgen, Vollzugsbedingungen und Gegenargumente konsistent zusammenführen.
+
+**Fachprüfung zurückführen:** Die nachstehenden Fachwege nur beim genannten Anlass verwenden, keine vollständige Menüfolge abarbeiten. Auftrag, relevante Aktenstellen und genaue Rechtsfrage mitgeben; Tatsachen, Norm, Gegenposition und Ergebnis der Fachprüfung in das bereits bestellte Dokument einarbeiten. Ein Verweis auf einen anderen Skill ist noch kein fertiges Ergebnis.
 
 ## 3. Materienspezifische Tatbestandsarbeit
 
@@ -42,10 +41,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Vertragsprüfung: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill vertragspruefung-schriftsatz-brief-und-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Immobilienrechtspraxis: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill immobilienrechtspraxis-frist-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Grundbuchanalyse: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill grundbuchanalyse-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Bauvertrag VOB-B / BGB: Bearbeite den Fachpunkt im Skill immo-bauvertrag-vob-kaufvertrag-grundstueck und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Vertragsprüfung: Schriftsatz-, Brief- und Memo-Bausteine](../vertragspruefung-schriftsatz-brief-und-memo-bausteine/FACHINHALT.md)
+3.1.2. [Immobilienrechtspraxis: Fristennotiz und nächster Schritt](../immobilienrechtspraxis-frist-naechster-schritt/FACHINHALT.md)
+3.1.3. [Grundbuchanalyse: Zahlen, Schwellenwerte und Berechnung](../grundbuchanalyse-zahlen-schwellen-und-berechnung/FACHINHALT.md)
+3.1.4. [Bauvertrag VOB-B / BGB](../immo-bauvertrag-vob-kaufvertrag-grundstueck/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -60,12 +61,15 @@ Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, G
 
 Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
-## 5. Rechtsprechung und Quellenstatus
+## 5. Rechtsprechung als Entscheidungshilfe
 
-5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+Die folgenden Anker sind fallbezogen anzuwenden; den jeweils dokumentierten Quellenstatus in der [Entscheidungskarte](../../references/hauptworkflow-entscheidungen.md) beachten. Frühere Prüfung bedeutet keine neue Volltextverifikation.
 
-5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+- [BGH, Urteil vom 15.09.2023, V ZR 77/22, Rn. 33–46](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__77-22.pdf?__blob=publicationFile&v=1): Bei bekannten erheblichen Sanierungslasten genügt Datenraumzugriff nur bei berechtigter Erwartung der Kenntnisnahme; Uploadzeit, Ordnung, Hinweis und Prüfungsumfang konkret prüfen. **Grenze:** Keine allgemeine gesetzliche Due-Diligence-Pflicht und keine automatische Arglist bei spätem Upload; Zurückverweisung, Schaden, Kausalität und Verschulden bleiben fallbezogen.
+
+- [BGH, Urteil vom 23. Juni 2023, V ZR 89/22, amtliche Leitsätze](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__89-22.pdf?__blob=publicationFile&v=1): Widersprüchliche Flurstücks- und Objektangaben nicht mechanisch korrigieren; gemeinsame Vorstellung beider Parteien und formbedürftigen Gegenstand klären. **Grenze:** Grundstückskauf und Vertragsauslegung, keine allgemeine Heilung fehlerhafter Datenübernahme. Amtliche Leitsätze geprüft.
+
+- [BGH, Urteil vom 11.11.2022, V ZR 213/21, Rn. 18–35](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2022-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=132222): BGH, Urteil vom 11.11.2022, V ZR 213/21, Rn. 18–35: Auf Mängelbeseitigung gerichtete Erwerberrechte fallen nicht schon unter Paragraf 9a Absatz 2 WEG; gemeinschaftliche Durchsetzung durch Mehrheitsbeschluss bleibt möglich. Anspruchsart und Beschlussumfang prüfen. **Grenze:** Konkrete Anspruchsart und Beschlussreichweite prüfen; insbesondere kaufrechtliche Nachbesserung und die erläuterte werkvertragliche Linie auseinanderhalten.
 
 ## 6. Beweislast und Gegenangriff
 
@@ -76,13 +80,11 @@ Ausgangspunkt für dieses Plugin: Antragsteller für Antrag, Bewilligung, Vertre
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Ergebnis fortführen und abschließen
 
-7.1. Welches dingliche oder schuldrechtliche Ziel soll mit welchem Rechtsgeschäft erreicht werden.
-7.2. Welche Form, Zustimmung, Genehmigung oder Vollmacht ist Wirksamkeits- oder Vollzugsvoraussetzung.
-7.3. Welche Eintragung, Belastung oder Rangstelle trägt oder gefährdet das Ziel.
-7.4. Welche Urkunde und welcher Nachweis genügen dem Grundbuchverfahren.
-7.5. Welcher Antrag oder welche Vollzugshandlung ist jetzt konkret einzureichen.
+7.1. Die Entscheidung aus Abschnitt 2 mit der folgenden Fachprüfung und den belegten Aktenangaben zusammenführen. Neu gelieferte Tatsachen ersetzen die betroffene Annahme; Berechnung, Antrag und Folgeabschnitte derselben Fassung anschließend aktualisieren.
+7.2. Im fertigen Produkt je tragendem Punkt Rechtsregel, konkrete Tatsache, Beleg, Beweislast beziehungsweise Ermittlungsauftrag, stärkste Gegenposition und Antwort verbinden. Fristbeginn, Ereignis, Fristart und erforderliche Handlung ausdrücklich unterscheiden.
+7.3. Das verlangte Schreiben, den Vertrag, Schriftsatz, Entscheidungsentwurf oder Vermerk vollständig ausformulieren. Nur tatsächlich entscheidungserhebliche Restlücken außerhalb des Empfängertexts als konkrete nächste Aufgabe kennzeichnen.
 
 ## 8. Juristisches Schreiben
 

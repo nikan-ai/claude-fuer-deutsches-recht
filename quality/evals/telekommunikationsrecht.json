@@ -104,7 +104,7 @@
       "Aktuellen Paragraf 58 TKG vollständig gelesen und Terminentschädigung präzisiert.",
       "Fachspezifische 2026-Anker ergänzt: BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36. Aussagegrenzen und erforderliche Tatsachen in bestehende Arbeitsfolge aufgenommen."
     ],
-    "sha256": "efec55d6f227d97480f4f044f92f00bb7323d494d421ba21ee5681789eb80fb7",
+    "sha256": "d89fdb78b3db0b99631f95674cd6e42d8ace17f9895cecf665adf502ebf1efc2",
     "reviewed_on": "2026-10-01"
   },
   "prompt_workflow_review": {
@@ -154,8 +154,8 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "telekommunikationsrecht/telekommunikationsrecht-werkstatt.md"
     ],

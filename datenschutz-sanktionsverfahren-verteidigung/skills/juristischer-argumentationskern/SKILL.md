@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Datenschutz Sanktionsverfahren Verteidigung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Datenschutzverfahren bis zur begründeten Verteidigung führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Datenschutz Sanktionsverfahren Verteidigung
+# Datenschutzverfahren bis zur begründeten Verteidigung führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Datenschutzrechtlicher Bearbeiter für Verantwortliche, Auftragsverarbeitung, Betroffenenrechte, Datenschutzaufsicht und Datenpannen.
+Sichere Anhörung, Bußgeldbescheid oder Anordnung, Zustellung, Verarbeitungsvorgang und verantwortliche Gesellschaft; trenne Sanktions- und Abhilfeverfahren.
 
-Pluginauftrag: Spezialplugin für Vertretung und Verteidigung in datenschutzrechtlichen Sanktionsverfahren: Datenschutz-Grundverordnung-Bußgeld, OWiG/StPO, Art.-58-Anordnung, Verwaltungsgericht, Aufsichtsbehördenkommunikation, EuGH/EDPB und Behördenstrategie.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Einspruch Paragraf 67 OWiG Frist und Form: Bearbeite den Fachpunkt im Skill einspruch-67-owig-frist-und-form und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Wiedereinsetzung nach Fristversäumnis: Bearbeite den Fachpunkt im Skill wiedereinsetzung-nach-fristversaeumnis und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Akteneinsicht Paragraf 49 OWiG und Paragraf 147 StPO: Bearbeite den Fachpunkt im Skill akteneinsicht-49-owig-147-stpo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Art. 78 Rechtsschutz: Bearbeite den Fachpunkt im Skill art-78-rechtsschutz-und-betroffenenbeschwerde und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Einspruch Paragraf 67 OWiG Frist und Form](../einspruch-67-owig-frist-und-form/FACHINHALT.md)
+3.1.2. [Wiedereinsetzung nach Fristversäumnis](../wiedereinsetzung-nach-fristversaeumnis/FACHINHALT.md)
+3.1.3. [Akteneinsicht Paragraf 49 OWiG und Paragraf 147 StPO](../akteneinsicht-49-owig-147-stpo/FACHINHALT.md)
+3.1.4. [Art. 78 Rechtsschutz](../art-78-rechtsschutz-und-betroffenenbeschwerde/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,30 +62,34 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. EuGH, Urteil vom 16.07.2020 - C-311/18: Schrems II verlangt tragfähige Prüfung internationaler Datentransfers.
-5.2. EuGH, Urteil vom 04.05.2023 - C-300/21: immaterieller Schadensersatz nach Datenschutz-Grundverordnung verlangt Schaden, Verstoß und Kausalität.
-5.3. EuGH, Urteil vom 05.12.2023 - C-683/21: Verantwortlichkeit setzt Einfluss auf Zwecke und Mittel der Verarbeitung voraus.
-5.4. EuGH, Urteil vom 07.12.2023 - C-634/21: automatisiertes Scoring kann an Artikel 22 Datenschutz-Grundverordnung scheitern.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. EuGH, Urteil vom 5. Dezember 2023, C-807/21, Deutsche Wohnen, Randnummern 60 und 68 bis 78. Anwendung: Unternehmensgeldbuße ohne vorherige Identifizierung einer natürlichen Person möglich, Vorsatz oder Fahrlässigkeit bleiben erforderlich. Grenze: Keine verschuldenslose Haftung und kein Maßstab für sämtliche Anordnungen oder zivilrechtlichen Schäden. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0807) — dokumentierter Prüfstand 2026-09-22.
+
+**EuGH, Urteil vom 10.02.2026 – C-97/23 P, WhatsApp Ireland/EDSA:** Bei einem EDSA-Beschluss den unionsgerichtlichen und den nationalen Verfahrensweg getrennt prüfen. Einzelbeleg, Aussagegrenze und tatsächlicher Leseumfang stehen in der lokalen Quellenkarte.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Verantwortlicher für Rechtmäßigkeit, TOMs und Rechenschaft; Betroffener für Schaden und Kausalität bei Ersatzansprüchen.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Wer entscheidet über Zweck und Mittel.
-7.2. Welche Datenkategorie und welcher Zweck liegen vor.
-7.3. Welche Rechtsgrundlage trägt die Verarbeitung.
-7.4. Welche Betroffenenrechte und Fristen laufen.
-7.5. Welche Dokumentation muss vorliegen.
+7.1. Prüfe objektiven Verstoß, Zurechnung, Vorsatz oder Fahrlässigkeit, Umsatzbezug, Verfahrensrechte und Zumessung getrennt. Ein Unternehmensbußgeld erfordert keine zuvor identifizierte Leitungsperson, bleibt aber verschuldensgebunden.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Entwirf die konkrete Stellungnahme oder den statthaften Rechtsbehelf mit Beweisanträgen, Gegenrechnung und gegebenenfalls begründetem Hilfsbegehren zur Höhe.
+
+7.4. Neue Löschprotokolle können Tatdauer und Zumessung verändern; sie beseitigen einen früheren Verstoß nicht automatisch. Jeden geänderten Punkt im selben Entwurf nachführen.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

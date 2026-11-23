@@ -51,7 +51,7 @@
       "Kontowechsel und Erfüllungswirkung, technische Sollbeschaffenheit, Gegenbeweise und CIETAC-Verteidigungsweg konkretisiert.",
       "Einstiegsredaktion 16.10.2026: Konkrete Liefer- und Zahlungskette ersetzt allgemeine Themenaufzählung; deutsche Schiedsspruchanerkennung klar von chinesischer Anerkennung getrennt."
     ],
-    "sha256": "ff3fb51751fe415d1fcc270c49d72788e8c1fc29d2023df897f1fba7a5a844ab"
+    "sha256": "0b1075ef81c853401e5b3c646f5648a00a74d1f1b62c61f25644667f6444025b"
   },
   "selection": {
     "positive": [
@@ -180,8 +180,8 @@
   },
   "visual_workflow_review": {
     "method": "desk_review",
-    "date": "2026-11-13",
-    "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
     "files": [
       "festlandchina-wirtschaftsverkehr/festlandchina-wirtschaftsverkehr-werkstatt.md"
     ],

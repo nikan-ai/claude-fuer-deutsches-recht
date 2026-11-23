@@ -5,13 +5,13 @@
 
 Großes Prüfplugin zum BGB Allgemeiner Teil: Vertragsschluss, Willenserklärung, Zugang, Geschäftsfähigkeit, Form, qES, beA, Anfechtung, Stellvertretung, Fristen, Verjährung und Routing für digitale Elemente, Update- und Reparaturrecht.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`bgb-at-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/bgb-at-pruefer.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`bgb-at-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/bgb-at-pruefer.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/bgb-at-pruefer.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/bgb-at-pruefer-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/bgb-at-pruefer-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`bgb-at-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/bgb-at-pruefer.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`bgb-at-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/bgb-at-pruefer.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`bgb-at-pruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/bgb-at-pruefer-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`bgb-at-pruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/bgb-at-pruefer-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [6 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -79,7 +79,10 @@ Experimentelles Werkzeug. Keine Rechtsberatung, keine Gewähr. Gesetzestext und 
 
 ## Schnellstart
 
-/plugin install bgb-at-prüfer@claude-für-deutsches-recht
+```text
+/plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
+/plugin install bgb-at-pruefer@klotzkette-german-legal-skills
+```
 
 Starte mit dem Skill [Kaltstart-Triage](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/kaltstart-triage/SKILL.md). Lies zuerst Erklärungen und Auftrag. Bei einer klaren Zugangs-, Form- oder Vollmachtsfrage direkt zur Prüfung und zum bestellten Text arbeiten; keine vorgeschaltete Themenkarte verlangen. Nur entscheidende Lücken klären und Antworten in den bestehenden Entwurf einarbeiten.
 
@@ -161,7 +164,7 @@ English: Complete list of all 9 skills in this plugin. Both links in each row do
 | [`bereicherung-und-rueckabwicklung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/bereicherung-und-rueckabwicklung-bearbeiten/SKILL.md) | BGB AT Prüfer: Bereicherung und Rückabwicklung: Entreicherung, Leistungsbeziehung, Eingriff und Rückabwicklung nach dem richtigen Anspruch prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/bereicherung-und-rueckabwicklung-bearbeiten/SKILL.md) |
 | [`delikt-und-gesetzliche-ansprueche-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/delikt-und-gesetzliche-ansprueche-bearbeiten/SKILL.md) | BGB AT Prüfer: Delikt und gesetzliche Ansprüche: Delikt, Geschäftsführung ohne Auftrag und weitere gesetzliche Ansprüche mit Zurechnung und Schaden prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/delikt-und-gesetzliche-ansprueche-bearbeiten/SKILL.md) |
 | [`einwendungen-fristen-und-durchsetzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/einwendungen-fristen-und-durchsetzung-bearbeiten/SKILL.md) | BGB AT Prüfer: Einwendungen Fristen und Durchsetzung: Einwendungen, Einreden, Fristen, Beweislast und Durchsetzung bis zum konkreten Arbeitsprodukt verbinden. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/einwendungen-fristen-und-durchsetzung-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in BGB At Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/juristischer-argumentationskern/SKILL.md) | BGB-Grundfragen bis zur tragfähigen Erklärung oder Anspruchsprüfung klären. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Erge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
 | [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/kaltstart-triage/SKILL.md) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BGB AT Prüfer. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/kaltstart-triage/SKILL.md) |
 | [`rechtsgeschaeft-und-wirksamkeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/rechtsgeschaeft-und-wirksamkeit-bearbeiten/SKILL.md) | BGB AT Prüfer: Rechtsgeschäft und Wirksamkeit: Erklärung, Geschäftsfähigkeit, Vertretung, Form, Irrtum und Wirksamkeit anhand des Geschehens prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/rechtsgeschaeft-und-wirksamkeit-bearbeiten/SKILL.md) |
 | [`sachen-sicherung-und-forderungswechsel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/sachen-sicherung-und-forderungswechsel-bearbeiten/SKILL.md) | BGB AT Prüfer: Sachen Sicherung und Forderungswechsel: Eigentum, Besitz, Sicherung, Abtretung, Aufrechnung und Schuldwechsel anhand der Rechtsbeziehungen klären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=bgb-at-pruefer/skills/sachen-sicherung-und-forderungswechsel-bearbeiten/SKILL.md) |

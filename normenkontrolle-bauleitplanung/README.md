@@ -5,13 +5,13 @@
 
 Freistehendes Plugin für die Prüfung und Anfechtung von Bebauungsplänen, Flächennutzungsplänen und örtlichen Bauvorschriften nach Paragraf 47 VwGO vor BayVGH und OVG. Mandatsperspektive Antragstellervertretung.
 
-Dieses Plugin gehört zum Marketplace mit 311 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
 ## Welche Datei wofür? / Which file should I use?
 
 | Bestandteil | Deutsch | English | Wo? / Where? |
 | --- | --- | --- | --- |
-| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`normenkontrolle-bauleitplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/normenkontrolle-bauleitplanung.zip) |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`normenkontrolle-bauleitplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrolle-bauleitplanung.zip) |
 | Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/normenkontrolle-bauleitplanung.md) |
 | Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-werkstatt.md) |
 | Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-schnellstart.md) |
@@ -45,12 +45,12 @@ Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestell
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrolle-bauleitplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/qualitaetsrunde-v445.36.0/normenkontrolle-bauleitplanung.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrolle-bauleitplanung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrolle-bauleitplanung.zip) |
 | Kompakter Prompt (Schnellstart) | Markdown | [`normenkontrolle-bauleitplanung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-schnellstart.md) |
 | Großer Prompt (Werkstatt) | Markdown | [`normenkontrolle-bauleitplanung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/normenkontrolle-bauleitplanung-werkstatt.md) |
 | Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 311 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 
 ## Zugeordnete Testakten
 
@@ -83,7 +83,7 @@ Alternativ via Marketplace:
 
 ```
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install normenkontrolle-bauleitplanung@claude-fuer-deutsches-recht
+/plugin install normenkontrolle-bauleitplanung@klotzkette-german-legal-skills
 ```
 
 Nicht das komplette Repository-ZIP hochladen. Das Plugin-ZIP muss im Root direkt `.claude-plugin/plugin.json` und `skills/` enthalten.
@@ -118,20 +118,22 @@ Phase D — Verfahren BayVGH/OVG
      → Mündliche Verhandlung
 ```
 
-## Enthaltene Skills
+## Prüfaufgaben nach Verfahrensphase
 
-### Phase A — Mandat und Zulässigkeit (4 Skills)
+Die Tabellen zeigen fachliche Aufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/normenkontrolle-bauleitplanung.md) zu.
 
-| Slug | Beschreibung |
+### Phase A — Mandat und Zulässigkeit
+
+| Thema | Beschreibung |
 |---|---|
 | `mandat-erstgespraech-normenkontrolle` | Erstgespräch, Mandantenbetroffenheit, Erfolgsaussichten-Prognose, Kosten |
 | `statthaftigkeit-47-vwgo` | B-Plan und örtliche Bauvorschrift; FNP nur im begrenzten Ausnahmefall; sonstige untergesetzliche Normen nach Landesrecht |
 | `antragsbefugnis-eigentuemer-nachbar` | § 47 Abs. 2 VwGO Möglichkeitstheorie, Eigentum, abwägungserheblicher Belang, Verbandsklage |
 | `jahresfrist-47-abs-2-vwgo` | Fristlauf ab Bekanntmachung, Wiedereinsetzung, Heilung durch ergänzendes Verfahren |
 
-### Phase B — Verfahrensfehler-Audit (5 Skills)
+### Phase B — Verfahrensfehler-Audit
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `aufstellungsbeschluss-bekanntmachung` | § 2 Abs. 1, § 10 Abs. 3 BauGB Verfahrenskette, Anstoßfunktion |
 | `beteiligung-frueh-foermlich` | §§ 3 Abs. 1, 3 Abs. 2, 4 Abs. 1, 4 Abs. 2 BauGB Behörden- und Öffentlichkeitsbeteiligung |
@@ -139,9 +141,9 @@ Phase D — Verfahren BayVGH/OVG
 | `umweltbericht-umweltpruefung` | § 2 Abs. 4 BauGB, § 2a BauGB, UVPG-Verzahnung, FFH-Vorprüfung |
 | `planerhaltung-214-215-baugb` | Beachtlichkeit, Rügefrist 1 Jahr, ergänzendes Verfahren § 214 Abs. 4 BauGB |
 
-### Phase C — Materielle Fehler (9 Skills)
+### Phase C — Materielle Fehler
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `erforderlichkeit-1-abs-3-baugb` | Planrechtfertigung, städtebauliches Konzept, Gefälligkeitsplanung |
 | `abwaegungsgebot-1-abs-7-baugb` | Abwägungsausfall, Abwägungsdefizit, Fehlgewichtung, Disproportionalität |
@@ -153,9 +155,9 @@ Phase D — Verfahren BayVGH/OVG
 | `festsetzungskatalog-9-baugb-baunvo` | Abschließender § 9-Katalog, BauNVO-Höchstgrenzen, dynamische Verweisungen, Bahnflächen § 38 BauGB |
 | `veraenderungssperre-zurueckstellung-14-15-baugb` | § 14 Sperre, § 15 Zurückstellung, Entschädigung § 18, vertraglich-faktische Sperre |
 
-### Phase D — Verfahren BayVGH/OVG (3 Skills)
+### Phase D — Verfahren BayVGH/OVG
 
-| Slug | Beschreibung |
+| Thema | Beschreibung |
 |---|---|
 | `normenkontrollantrag-schriftsatz` | Aufbau, Antragsformulierung, Begründungsstruktur, Streitwert |
 | `einstweilige-anordnung-47-abs-6-vwgo` | Vollzugsfolgenabwägung, Eilbedürftigkeit, Antragsbefugnis im Eilverfahren |
@@ -215,15 +217,15 @@ English: Complete list of all 13 skills in this plugin. Both links in each row d
 | [`abwaegung-und-planerhaltung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/abwaegung-und-planerhaltung-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Abwägung und Planerhaltung: BauGB Paragraf 1 Absatz 7, Paragrafen 214 und 215, Fehlergewicht und ergänzendes Verfahren darstellen. Vollständige Fachanweisungen und lokale V... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/abwaegung-und-planerhaltung-bearbeiten/SKILL.md) |
 | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste H... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Arbeitsprodukt: Normenkontrollantrag, Verteidigungsschriftsatz, Heilungsvermerk, Vertragsprüfung oder Festsetzungssynopse erstellen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
-| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/einstieg-routing/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/einstieg-routing/SKILL.md) | Für einen Normenkontrollauftrag: prüft zulässigen Antrag, planungsrechtliche Fehler und deren Beachtlichkeit und erstellt den beauftragten Hauptsache- oder Eilrechtsschutzentwurf. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/einstieg-routing/SKILL.md) |
 | [`erschliessung-und-kosten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/erschliessung-und-kosten-bearbeiten/SKILL.md) | Normenkontrolle von Bauleitplänen: Erschließung und Kosten: Vertrag nach BauGB Paragraf 11 Absatz 1 Satz 2 Nummer 1, heutige Erschließungspflicht nach Paragraf 124, Erschließungsbeiträge, Anlagenliste und Umgehungsrisiko ordnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/erschliessung-und-kosten-bearbeiten/SKILL.md) |
 | [`festsetzungen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/festsetzungen-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Festsetzungen: BauGB Paragraf 9, BauNVO, Planzeichnung, textliche Festsetzungen, Bestimmtheit und Rechtsgrundlage prüfen. Vollständige Fachanweisungen und lokale Vorlagen w... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/festsetzungen-bearbeiten/SKILL.md) |
 | [`innenentwicklung-und-verfahren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/innenentwicklung-und-verfahren-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Innenentwicklung und Verfahren: BauGB Paragraf 13 und 13a und Übergangsfragen zu 13b, Umweltprüfung und Beteiligung kontrollieren. Vollständige Fachanweisungen und lokale V... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/innenentwicklung-und-verfahren-bearbeiten/SKILL.md) |
-| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Normenkontrolle Bauleitplanung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/juristischer-argumentationskern/SKILL.md) | Bauleitplan bis zum zulässigen Normenkontrollantrag oder zur Verteidigung prüfen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeitete... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/juristischer-argumentationskern/SKILL.md) |
 | [`planangriff-und-verfahrensstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/planangriff-und-verfahrensstand-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Planangriff und Verfahrensstand: Satzungsbeschluss, Bekanntmachung, Rügefrist, Antragsteller und Rechtsschutzbedürfnis feststellen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/planangriff-und-verfahrensstand-bearbeiten/SKILL.md) |
 | [`staedtebauliche-vertraege-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/staedtebauliche-vertraege-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Städtebauliche Verträge: BauGB Paragraf 11, Folgekosten, Angemessenheit, Kausalität, Schriftform und Rückabwicklung prüfen. Vollständige Fachanweisungen und lokale Vorlagen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/staedtebauliche-vertraege-bearbeiten/SKILL.md) |
 | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fach... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 | [`vorhabenbezogener-plan-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/vorhabenbezogener-plan-bearbeiten/SKILL.md) | Für Bauleitplanung, Normenkontrolle und städtebauliche Verträge: Vorhabenbezogener Plan: BauGB Paragraf 12, Vorhaben- und Erschließungsplan, Durchführungsvertrag, Frist und Kosten abgleichen. Vollständige Fachanweisungen und lokale Vorla... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/vorhabenbezogener-plan-bearbeiten/SKILL.md) |
-| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/workflow-kaltstart-und-routing/SKILL.md) | Bei einem möglichen Angriff auf einen Bauleitplan: ermittelt Planart, Bekanntmachung, Betroffenheit und Verfahrensstand aus der Planungsakte und sichert entscheidende Termine. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrolle-bauleitplanung/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

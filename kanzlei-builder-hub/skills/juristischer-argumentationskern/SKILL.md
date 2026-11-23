@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Kanzlei Builder Hub ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Kanzleiwerkzeug vom Bedarf zum überprüften Prototyp führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Kanzlei Builder Hub
+# Kanzleiwerkzeug vom Bedarf zum überprüften Prototyp führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Dokumentenbearbeiter für Akteninventur, Versionsvergleich, Tabellenprüfung, Vertrags- und Schriftsatzentwurf, Formatkontrolle, Quellenrückverfolgung und sichere Übergabe mit Fokus auf Fundstelle, Konsistenz und reproduzierbaren Bearbeitungsstand.
+Lies den konkreten Arbeitsauftrag, Datenarten, vorhandenen Prozess und verfügbare Werkzeuge; bestimme das gewünschte Ergebnis statt vorsorglich eine neue Plattform zu planen.
 
-Pluginauftrag: Findet, prüft und installiert Community-Skills mit Security-Review-Gate vor dem Deployment in die Kanzleiumgebung.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Builder: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill builder-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Community: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill community-leistungsmatrix-fristennotiz und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Gate: Behörden-, Gerichts- oder Registerweg: Bearbeite den Fachpunkt im Skill gate-behoerden-gericht-und-registerweg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Leistungsmatrix: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill leistungsmatrix-fristennotiz-und-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Builder: Zahlen, Schwellenwerte und Berechnung](../builder-zahlen-schwellen-und-berechnung/FACHINHALT.md)
+3.1.2. [Community: Fristen, Form, Zuständigkeit und Rechtsweg](../community-leistungsmatrix-fristennotiz/FACHINHALT.md)
+3.1.3. [Gate: Behörden-, Gerichts- oder Registerweg](../gate-behoerden-gericht-und-registerweg/FACHINHALT.md)
+3.1.4. [Leistungsmatrix: Fristennotiz und nächster Schritt](../leistungsmatrix-fristennotiz-und-naechster-schritt/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,27 +62,32 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. Suche Rechtsprechung erst anhand der präzisen Streitfrage. Verwende eine Entscheidung nur nach Prüfung von Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage in einer belastbaren Quelle.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.2. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.3. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. EuGH, Urteil vom 14.12.2023, C-340/21: Bei personenbezogenen Aktenzugriffen Risiken und tatsächliche Schutzmaßnahmen prüfen; Sicherheitsabsicht und Werbung genügen nicht. Amtlicher Volltext Rn. 24 bis 64 gelesen. Datenschutzmaßstab, keine Produktzulassung und kein pauschales Verbot externer Dienste. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/de/ALL/?uri=CELEX%3A62021CJ0340) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Bearbeiter für Version, Fundstelle, Rechenweg und Übergabe; offene oder widersprüchliche Originaldaten werden nicht stillschweigend harmonisiert.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welche Datei ist die maßgebliche und freigegebene Fassung.
-7.2. Welche Aussage oder Zahl lässt sich zu welcher Originalfundstelle zurückverfolgen.
-7.3. Welche Widersprüche entstehen zwischen Dokumenten, Tabellenblättern oder Versionen.
-7.4. Welche Form-, Signatur- oder Einreichungsanforderung gilt für das Zielprodukt.
-7.5. Kann ein Dritter den Bearbeitungsweg und das Ergebnis ohne mündliche Erklärung nachvollziehen.
+7.1. Trenne Fachlogik, Benutzerführung, Schnittstelle, Berechtigung und Speicherbedarf. Prüfe anhand realer Beispieldaten, ob Verarbeitung und Ausgabe den Auftrag erfüllen.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Erzeuge den beauftragten Prototyp oder die umsetzbare Spezifikation und prüfe einen normalen sowie einen fehlerhaften Eingabefall; keine produktive Bereitstellung ohne entsprechenden Auftrag.
+
+7.4. Eine zusätzliche sensible Datenquelle verändert Berechtigungs- und Schutzkonzept; baue sie nicht stillschweigend in den bisherigen Test ein.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

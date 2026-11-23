@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Gebrauchsmusterrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Gebrauchsmuster vom technischen Befund zur Verfahrensposition führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Gebrauchsmusterrecht
+# Gebrauchsmuster vom technischen Befund zur Verfahrensposition führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Gebrauchsmusterrechtlicher Bearbeiter für Anmeldung, Abzweigung, Neuheitsschonfrist, Recherche, Schutzanspruch, Löschung, Schutzbereich, Verletzung und einstweiligen Rechtsschutz.
+Sichere Anspruchsfassung, technische Ausführung, Priorität, eigene und fremde Veröffentlichungen sowie Registerstand.
 
-Pluginauftrag: Eigenständiges Plugin für deutsches Gebrauchsmusterrecht: GebrMG, DPMA-Anmeldung, Recherche nach Paragraf 7 GebrMG, Abzweigung, Neuheitsschonfrist, Verletzung, Löschung, BPatG-Beschwerde, Lizenz, FTO und Schnellschutz für technische Produkte.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Registerstand Fristen Aufrechterhaltung: Bearbeite den Fachpunkt im Skill registerstand-aufrechterhaltung-lizenzvertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Abmahnung Gebrauchsmuster Verteidigung: Bearbeite den Fachpunkt im Skill abmahnung-gebrauchsmuster-abzweigung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Anspruchsfassung Gebrauchsmuster: Bearbeite den Fachpunkt im Skill anspruchsfassung-gebrauchsmuster und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Auskunft Schadensersatz Und Rechnungslegung: Bearbeite den Fachpunkt im Skill auskunft-schadensersatz-geheimhaltung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Registerstand Fristen Aufrechterhaltung](../registerstand-aufrechterhaltung-lizenzvertrag/FACHINHALT.md)
+3.1.2. [Abmahnung Gebrauchsmuster Verteidigung](../abmahnung-gebrauchsmuster-abzweigung/FACHINHALT.md)
+3.1.3. [Anspruchsfassung Gebrauchsmuster](../anspruchsfassung-gebrauchsmuster/FACHINHALT.md)
+3.1.4. [Auskunft Schadensersatz Und Rechnungslegung](../auskunft-schadensersatz-geheimhaltung/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,29 +62,32 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. BGH, Beschluss vom 20.06.2006 - X ZB 27/05: Demonstrationsschrank verlangt auch beim erfinderischen Schritt eine wertende Prüfung der technischen Lehre aus Sicht des Fachmanns.
-5.2. BGH, Urteil vom 12.03.2002 - X ZR 168/00 (Schneidmesser I): Zahlen- und Maßangaben begrenzen den Anspruch, bleiben aber aus Sicht des Fachmanns auslegungsfähig
-5.3. BGH, Beschluss vom 20.06.2006 - X ZB 27/05 (Demonstrationsschrank): Der erfinderische Schritt verlangt eine wertende Prüfung der technischen Lehre
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.4. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.5. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. BGH, Beschluss vom 20.06.2006, Az. X ZB 27/05, Demonstrationsschrank, Leitsätze a und c. Anwendung: Erfinderischen Schritt qualitativ mit den patentrechtlichen Grundsätzen prüfen, nicht durch pauschal geringere Erfindungshöhe ersetzen. Grenze und Prüfzugang: Abweichender Stand der Technik des Paragraf 3 GebrMG bleibt; kein Schutz unabhängiger Wettbewerberoffenbarung durch Schonfrist. Amtliche Leitsätze einschließlich Fortsetzung indexiert geprüft, direkter Volltext gesperrt. [Entscheidungsnachweis](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/X_ZS/2005/X_ZB__27-05.pdf?__blob=publicationFile&v=1) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Inhaber für eingetragenen Anspruch, Rechtsbestand und Verletzung; Gegner für Löschungsgrund, Vorbenutzung, Erschöpfung oder sonstige Einrede.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Ist die technische Lehre als Gebrauchsmustergegenstand zulässig oder als Verfahren ausgeschlossen.
-7.2. Sind Abzweigungs-, Prioritäts- und Schonfrist anhand amtlicher Daten eingehalten.
-7.3. Welcher Stand der Technik nimmt welches Anspruchsmerkmal vorweg oder legt die Kombination nahe.
-7.4. Wie belastbar ist der ungeprüfte Rechtsbestand für Hauptsache oder Eilverfahren glaubhaft gemacht.
-7.5. Welche konkrete Benutzung fällt in den nach Paragraf 12a GebrMG ausgelegten Schutzbereich.
+7.1. Prüfe Schutzfähigkeit, Neuheit und erfinderischen Schritt anhand des gebrauchsmusterrechtlichen Stands der Technik. Eintragung ersetzt keine materielle Bestandsprüfung.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Formuliere Anmeldung, Löschungsangriff, Verteidigung oder Verletzungsbewertung mit Merkmalszuordnung und konkretem Beleg für jede Offenbarung.
+
+7.4. Eine eigene Vorveröffentlichung verlangt konkrete Schonfristprüfung; eine unabhängige Wettbewerberoffenbarung darf nicht als eigene privilegierte Offenbarung behandelt werden.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

@@ -797,6 +797,54 @@
       ],
       "megaprompt": true,
       "hand_curated": true
+    },
+    "jugendmedienschutz-und-medienangebote": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "allgemeines-notariat": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "aktenanleger": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
+    },
+    "umwandlungssteuerrecht": {
+      "standalone": [
+        "werkstatt",
+        "schnellstart"
+      ],
+      "formats": [
+        "md",
+        "txt"
+      ],
+      "megaprompt": false,
+      "hand_curated": true
     }
   }
 }

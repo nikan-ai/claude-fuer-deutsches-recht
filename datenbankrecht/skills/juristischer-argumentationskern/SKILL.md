@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Datenbankrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "Datenbanknutzung und Entnahme fallbezogen prüfen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Datenbankrecht
+# Datenbanknutzung und Entnahme fallbezogen prüfen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als Datenbankrechtlicher Bearbeiter für sui-generis-Schutz, Datenbankwerke, API-Nutzung, Auslesen, Lizenzierung, Plattformdaten, Vertragsbruch, Geschäftsgeheimnisse und Schranken.
+Sichere Datenbestand, Entstehung, Investitionsunterlagen, Zugriffsmethode und konkret übernommene Inhalte mit Umfang und Zeitfolge.
 
-Pluginauftrag: Großes Plugin zum deutschen und europäischen Datenbankrecht: UrhG Paragrafen 87a ff., Datenbankrichtlinie, Investitionsschutz, automatisiertes Auslesen, API, Training digitaler Systeme, Vertrags- und Plattformkonflikte.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Datenbankrecht: Datenbankrecht und Urhebervertragsrecht: Bearbeite den Fachpunkt im Skill db-032-datenbankrecht-und-urhebervertragsrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Datenbankrecht: Abmahnung prüfen Datenbankrecht: Bearbeite den Fachpunkt im Skill db-047-abmahnung-pruefen-datenbankrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Abmahnung prüfen im Datenbankrecht — Checkliste und Reaktionsoptionen: Bearbeite den Fachpunkt im Skill abmahnung-pruefen-datenbankrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Datenbankrecht und Urhebervertragsrecht — Nutzungsrechte für Datenbankwerke: Bearbeite den Fachpunkt im Skill datenbankrecht-und-urhebervertragsrecht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Datenbankrecht: Datenbankrecht und Urhebervertragsrecht](../db-032-datenbankrecht-und-urhebervertragsrecht/FACHINHALT.md)
+3.1.2. [Datenbankrecht: Abmahnung prüfen Datenbankrecht](../db-047-abmahnung-pruefen-datenbankrecht/FACHINHALT.md)
+3.1.3. [Abmahnung prüfen im Datenbankrecht — Checkliste und Reaktionsoptionen](../abmahnung-pruefen-datenbankrecht/FACHINHALT.md)
+3.1.4. [Datenbankrecht und Urhebervertragsrecht — Nutzungsrechte für Datenbankwerke](../datenbankrecht-und-urhebervertragsrecht/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,30 +62,36 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. EuGH, Urteil vom 09.11.2004 - C-203/02: British Horseracing Board grenzt Erzeugen von Daten von Investition in Beschaffung, Überprüfung und Darstellung ab.
-5.2. EuGH, Urteil vom 09.10.2008 - C-304/07: Directmedia präzisiert Entnahme bei Übernahme von Datenbankinhalten.
-5.3. EuGH, Urteil vom 19.12.2013 - C-202/12: Innoweb betrifft Metasuchmaschinen und Wiederverwendung wesentlicher Datenbankteile.
-5.4. BGH, Urteil vom 01.12.2010 - I ZR 196/08: Automobil-Onlinebörse behandelt wesentliche Entnahme und Investitionsbezug bei Datenbanken.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. EuGH, Urteil vom 9. November 2004, C-203/02: Datenerzeugung und erzeugungsbegleitende Prüfung sind von Investitionen in vorhandene Daten abzugrenzen. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62002CJ0203) — dokumentierter Prüfstand 2026-09-14.
+
+5.2. EuGH, Urteil vom 9. Oktober 2008, C-304/07: Auch Übertragung nach Bildschirmabfrage und eigener Auswahl kann Entnahme sein. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62007CJ0304) — dokumentierter Prüfstand 2026-09-14.
+
+5.3. EuGH, Urteil vom 09.10.2008, Az. C-304/07, Directmedia, Randnummern 34 bis 45. Anwendung: Auch Übertragung nach Bildschirmkonsultation und eigener Auswahl kann Entnahme sein. Grenze und Prüfzugang: Bloße Konsultation genügt nicht; geschützte Datenbank und wesentliche oder systematisch kumulierte Teile bleiben nachzuweisen. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI:EU:C:2008:552) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Rechteinhaber für Schutzgegenstand, Investition, wesentliche Entnahme und Wiederverwendung; Nutzer für Lizenz, Schranke, Erlaubnis und Datenherkunft.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welche Datenbank und welcher Schutztyp sind betroffen.
-7.2. Welche Investition ist konkret und nicht nur Datenerzeugung.
-7.3. Welche Datenmenge oder Qualität wurde entnommen oder wiederverwendet.
-7.4. Welche Lizenz-, Schranken- oder Vertragslage erlaubt die Nutzung.
-7.5. Welche Beweise sichern Zugriff, Umfang, Herkunft und Schaden.
+7.1. Trenne Datenbankwerk, Herstellerrecht und Vertrag. Ordne Kosten der Erzeugung getrennt von Beschaffung, Prüfung und Darstellung zu; prüfe wesentliche Entnahme und kumulierte wiederholte Zugriffe.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Formuliere die erlaubte Nutzung, Lizenzklausel, Abmahnung oder Verteidigung mit belegtem Schutzgegenstand und konkret bestimmter Handlung.
+
+7.4. Eine zusätzliche Exportserie verändert die kumulative Entnahmebewertung; aus dem bloßen Vorliegen einer Datenliste folgt weiterhin kein Herstellerrecht.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 

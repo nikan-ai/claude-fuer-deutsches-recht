@@ -1,19 +1,17 @@
 ---
 name: juristischer-argumentationskern
-description: "Schaltet sich ein, wenn in Fachanwalt IT Recht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge."
+description: "IT-Projekt vom Vertrag zur belastbaren Lösung führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Juristischer Argumentationskern - Fachanwalt IT Recht
+# IT-Projekt vom Vertrag zur belastbaren Lösung führen
 
-## 1. Direktstart
+## 1. Auftrag und vorhandenen Stand aufnehmen
 
-Arbeite als IT-rechtlicher Bearbeiter für Software, SaaS, IT-Projekte, Cloud, Leistungsstörung, Datenschutzschnittstellen, Service-Level und Vertragsabnahme.
+Verbinde Vertrag, Leistungsbeschreibung, Tickets, Tests, Abnahmeprotokoll und Änderungsauftrag zu einem belegten Leistungsstand.
 
-Pluginauftrag: Plugin Fachanwalt für Informationstechnologierecht. SaaS Software-Lizenz Datenschutz-Grundverordnung BDSG TTDSG TKG NIS2 DDG DSA DMA EU-Regulierungsrahmen Open-Source. Schnittstellen Plugin datenschutzrecht ki-governance kanzlei-allgemein.
+Beginne bei klarem Auftrag mit dem bestellten Ergebnis. Frage nur nach Angaben, die Rechtsfolge, Frist, Beweis oder konkrete Gestaltung ändern. Bearbeitbare Teile ausarbeiten; die Antwort anschließend in denselben Entwurf übernehmen.
 
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) verbinden die folgenden Fachprüfungen mit dem fertigen Arbeitsprodukt.
 
 ## 2. Die tragende These
 
@@ -42,10 +40,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Vertrag: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill vertrag-fristennotiz-und-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. IT-Vertrag-Verhandlung / EU-ODR: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-it-vertrag-verhandlung-eu-odr und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. SaaS-Vertrag — Prüfung und Verhandlung: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-saas-vertrag-verhandlung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Vertragsstrafe prüfen: Bearbeite den Fachpunkt im Skill fachanwalt-it-recht-vertragsstrafe-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Vertrag: Fristennotiz und nächster Schritt](../vertrag-fristennotiz-und-naechster-schritt/FACHINHALT.md)
+3.1.2. [IT-Vertrag-Verhandlung / EU-ODR](../fachanwalt-it-recht-it-vertrag-verhandlung-eu-odr/FACHINHALT.md)
+3.1.3. [SaaS-Vertrag — Prüfung und Verhandlung](../fachanwalt-it-recht-saas-vertrag-verhandlung/FACHINHALT.md)
+3.1.4. [Vertragsstrafe prüfen](../fachanwalt-it-recht-vertragsstrafe-pruefen/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -62,30 +62,36 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. EuGH, Urteil vom 03.07.2012 - C-128/11: UsedSoft behandelt Erschöpfung bei Softwaredownloads.
-5.2. BGH, Urteil vom 15.11.2006 - XII ZR 120/04: Application-Service-Providing kann mietvertragliche Elemente tragen.
-5.3. BGH, Urteil vom 04.03.2010 - III ZR 79/09: Internet-System-Vertrag ist regelmäßig werkvertraglich geprägt.
-5.4. BGH, Urteil vom 26.07.2012 - VII ZR 262/11: Eine Entgeltklausel für einen Eintrag in ein Internet-Branchenverzeichnis ist überraschend und wird nicht Vertragsbestandteil, wenn die Leistung nach dem Erscheinungsbild des Formulars unentgeltlich wirkt und die Vergütung drucktechnisch unauffällig verborgen ist.
+Die folgenden Anker sind im Repository bereits einzeln dokumentiert. Ihr jeweiliger Prüfstand und Umfang bleiben sichtbar; daraus folgt keine neue Volltextprüfung aller Entscheidungen. Prüfe die Übertragbarkeit und spätere Entwicklung für den konkreten Auftrag.
 
-5.5. Ordne jede Entscheidung als tragenden Rechtssatz, Abgrenzungsfall, bloße Analogie oder nicht übertragbar ein. Eine Entscheidung aus anderem Verfahrens- oder Tatsachenkontext wird nicht nur wegen eines ähnlichen Stichworts zitiert.
-5.6. Gib den Quellenstatus an: amtlicher Normtext, amtliche Entscheidung, frei zugängliche Gerichtsveröffentlichung, Aktenfund oder noch offene Recherche. Unsichere Aktenzeichen werden weggelassen.
+5.1. BGH, Urteil vom 19. Januar 2017, VII ZR 301/13, Randnummern 31 bis 48. Anwendung: Vor ERP-Abnahme Erfüllungsanspruch von Mängelrechten unterscheiden; bloße Vorschussforderung begründet noch kein Abrechnungsverhältnis. Grenze: Fassadenfall mit allgemeinem Werkvertragsmaßstab, keine automatische ERP-Abnahme oder Übertragung baurechtlicher Nachtragsregeln. [Entscheidungsnachweis](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_301-13.pdf?__blob=publicationFile&v=1) — dokumentierter Prüfstand 2026-09-22.
+
+5.2. EuGH, Urteil vom 3. Juli 2012, C-128/11, UsedSoft, Randnummern 44 bis 49, 69 bis 71 und 77 bis 88. Anwendung: Erschöpfung bei dauerhaft überlassener Downloadkopie mit wertentsprechendem Entgelt; Erwerbskette und Stilllegung beim Verkäufer prüfen. Grenze: Keine freie SaaS-Übertragung, keine Aufspaltung der dortigen Servermehrnutzerlizenz und keine Aussage zum US-Recht. [Entscheidungsnachweis](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62011CJ0128) — dokumentierter Prüfstand 2026-09-22.
+
+5.3. BGH, Urteil vom 4. März 2010, III ZR 79/09, Randnummern 15 bis 27. Anwendung: Geschuldete funktionsfähige Website als Erfolg im Gesamtvertrag; werkvertragliche Mängelprüfung. Grenze: Keine Entscheidung über BFSG/WCAG und keine pauschale Einordnung von Hosting oder Beratung. [Entscheidungsnachweis](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2009/III_ZR__79-09.pdf?__blob=publicationFile&v=1) — dokumentierter Prüfstand 2026-09-22.
+
+Die [Quellenkarten und Entscheidungsfolge](../../references/hauptworkflow-und-rechtsprechung.md) verbinden Beleg, Anwendung und Aussagegrenze. Unterscheide Urteilsvolltext, amtlich veröffentlichten Leitsatz, Pressemitteilung und noch offene Recherche; keine Randnummern aus einer Pressemitteilung ableiten.
 
 ## 6. Beweislast und Gegenangriff
 
-Ausgangspunkt für dieses Plugin: Auftraggeber für Mangel und Abnahmevorbehalt; Anbieter für Leistung, Change Request, Mitwirkung und Haftungsbegrenzung.
+Bestimme Darlegungs-, Nachweis- und Beweislast für das konkrete Merkmal und Verfahren. Trenne gesetzliche Vermutungen, sekundäre Darlegung und behördliche Ermittlung. Offene Tatsachen werden nicht allein wegen ihrer Herkunft aus einer Parteiakte als bewiesen behandelt.
 
 6.1. Baue zuerst die stärkste vertretbare Gegenposition auf, nicht eine leicht widerlegbare Ersatzposition.
 6.2. Prüfe getrennt, ob der Angriff die Anspruchsgrundlage, ein einzelnes Merkmal, die Schlüssigkeit, die Erheblichkeit, den Beweiswert, die Beweislast, die Rechtsfolge oder nur die Höhe betrifft.
 6.3. Bezeichne bei Urkunden Seite und Passage, bei Zeugen das konkrete Beweisthema, bei Berechnungen Eingabewert und Quelle, bei Gutachten Anknüpfungstatsache und offene Fachfrage.
 6.4. Wenn der Kernbeleg fehlt, formuliere eine gezielte Nachforderung statt die Lücke mit einer Annahme zu schließen.
 
-## 7. Prüffolge
+## 7. Vom Prüfschritt zum fertigen Ergebnis
 
-7.1. Welche Vertragstypen prägen die Leistung.
-7.2. Welche Spezifikation ist messbar und abnahmefähig.
-7.3. Welche Mitwirkung hat gefehlt oder war verzugsrelevant.
-7.4. Welche Nutzungsrechte und Datenpflichten sind erforderlich.
-7.5. Welche Eskalation verhindert Projektstillstand.
+7.1. Trenne ursprünglichen Mangel, neue Anforderung und fehlende Mitwirkung. Ordne die konkrete Leistung ihrem Vertragstyp zu und prüfe vor Abnahme Erfüllungsanspruch und danach einschlägige Mängelrechte.
+
+7.2. Vertiefe nur den entscheidenden Engpass mit dem passenden Fachskill oder Referenztext aus Abschnitt 3. Übergib Tatsachenstand, Teilfrage und Beleg. Übernimm die Antwort in denselben Entwurf; eine bloße Weiterleitung beendet den Auftrag nicht.
+
+7.3. Schreibe die bestellte Klausel, Mängelrüge, Abnahmeerklärung oder Projektvereinbarung mit messbarer Leistung, realistischer Frist und sauberer Rechte- und Datenregelung.
+
+7.4. Ein nachgereichtes Abnahmeprotokoll verändert Fälligkeit und Rechtsbehelfe; ein neues Ticket ist nicht automatisch ein vergütungspflichtiger Änderungsauftrag.
+
+7.5. Gleiche vor Abschluss tragende Aussage, Quelle, Gegenargument, Rechnung und konkrete Rechtsfolge ab. Liefere den bestellten vollständigen Text, nicht nur den Prüfplan.
 
 ## 8. Juristisches Schreiben
 
