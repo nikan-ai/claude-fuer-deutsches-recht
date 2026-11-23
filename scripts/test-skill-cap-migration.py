@@ -10,6 +10,8 @@ import tempfile
 import unittest
 import zipfile
 
+import jsonschema
+
 
 SCRIPT = Path(__file__).with_name("consolidate-skill-cap.py")
 M = runpy.run_path(str(SCRIPT))
@@ -59,7 +61,7 @@ class SkillCapMigrationTests(unittest.TestCase):
         self.assertEqual(before, after)
         self.assertFalse(self.target.exists())
 
-    def test_complete_partition_and_twenty_cap_are_mandatory(self):
+    def test_complete_partition_and_twenty_one_cap_are_mandatory(self):
         self.assertEqual([], M["validate_registry"](self.repo, self.registry))
         incomplete = copy.deepcopy(self.registry)
         incomplete["plugins"][0]["routes"][0]["members"].remove("vollmacht")
@@ -69,7 +71,83 @@ class SkillCapMigrationTests(unittest.TestCase):
         self.assertTrue(M["validate_registry"](self.repo, duplicate))
         too_many = copy.deepcopy(self.registry)
         too_many["plugins"][0]["routes"] *= 21
-        self.assertTrue(any("überschreiten 20" in e for e in M["validate_registry"](self.repo, too_many)))
+        self.assertTrue(any("überschreiten 21" in e for e in M["validate_registry"](self.repo, too_many)))
+
+    def test_declared_main_workflow_cannot_be_downgraded_even_with_complete_partition(self):
+        self.write("scripts/data/werkstatt-visualisierung-profile.json", json.dumps({
+            "schema_version": 1, "plugins": {"fachgebiet": {"entry_skills": ["hauptauftrag"]}}}))
+        self.assertEqual(M["validate_registry"](self.repo, self.registry), [])
+        downgraded = copy.deepcopy(self.registry)
+        downgraded["plugins"][0]["keep"] = []
+        downgraded["plugins"][0]["routes"][0]["members"].append("hauptauftrag")
+        before = {str(p.relative_to(self.repo)): p.read_bytes() for p in self.repo.rglob("*") if p.is_file()}
+        errors = M["validate_registry"](self.repo, downgraded)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("Einstiegsskills müssen in keep bleiben", errors[0])
+        with self.assertRaisesRegex(ValueError, "Einstiegsskills müssen in keep bleiben"):
+            M["migrate"](self.repo, self.target, downgraded)
+        self.assertFalse(self.target.exists())
+        after = {str(p.relative_to(self.repo)): p.read_bytes() for p in self.repo.rglob("*") if p.is_file()}
+        self.assertEqual(before, after)
+
+    def test_declared_main_workflow_must_exist_and_profile_must_be_valid(self):
+        path = "scripts/data/werkstatt-visualisierung-profile.json"
+        self.write(path, json.dumps({"schema_version": 1, "plugins": {"fachgebiet": {"entry_skills": ["fehlt"]}}}))
+        self.assertTrue(any("Einstiegsskills fehlen" in e
+                            for e in M["validate_registry"](self.repo, self.registry)))
+        for entry in ([], "hauptauftrag", ["hauptauftrag", "hauptauftrag"], [None], ["../ausserhalb"],
+                      ["hauptauftrag", "vertrag", "vollmacht", "weitere"]):
+            self.write(path, json.dumps({"schema_version": 1, "plugins": {"fachgebiet": {"entry_skills": entry}}}))
+            with self.subTest(entry=entry):
+                self.assertTrue(any("entry_skills" in e
+                                    for e in M["validate_registry"](self.repo, self.registry)))
+
+    def test_entry_profiles_require_supported_schema_and_plugin_mapping(self):
+        path = "scripts/data/werkstatt-visualisierung-profile.json"
+        for data in ({}, {"plugins": {}}, {"schema_version": 2, "plugins": {}},
+                     {"schema_version": True, "plugins": {}}, {"schema_version": "1", "plugins": {}},
+                     {"schema_version": 1, "plugins": []}):
+            self.write(path, json.dumps(data))
+            with self.subTest(data=data):
+                self.assertTrue(any("Einstiegsprofile benötigen schema_version 1" in e
+                                    for e in M["validate_registry"](self.repo, self.registry)))
+
+    def test_historical_migrated_registry_is_not_reinterpreted_by_current_entry_profile(self):
+        self.migrate()
+        # Im migrierten Bestand zählen dessen erhaltene Quellen und Zuordnungen.
+        path = self.target / "scripts/data/werkstatt-visualisierung-profile.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"plugins": {"fachgebiet": {"entry_skills": ["vertrag"]}}}))
+        self.assertEqual(M["validate_registry"](self.target.resolve(), self.registry, migrated=True), [])
+        path.write_text("Unlesbares heutiges Profil")
+        self.assertEqual(M["validate_registry"](self.target.resolve(), self.registry, migrated=True), [])
+
+    def test_twenty_routes_and_preserved_main_skill_pass_but_extra_route_fails(self):
+        boundary = copy.deepcopy(self.registry)
+        routes = boundary["plugins"][0]["routes"]
+        for number in range(1, 21):
+            source = f"quelle-{number}"
+            self.write(f"themen/fachgebiet/skills/{source}/SKILL.md", "# Fachquelle\n")
+            route = copy.deepcopy(self.route)
+            route.update(slug=f"pruefung-{number}", members=[source])
+            routes.append(route)
+            if number == 19:
+                # Ein erhaltener Hauptskill und zwanzig neue Arbeitswege zählen zusammen.
+                self.assertEqual(M["validate_registry"](self.repo, boundary), [])
+        self.assertTrue(any("22 Auswahlwege überschreiten 21" in e
+                            for e in M["validate_registry"](self.repo, boundary)))
+
+    def test_registry_schema_accepts_twenty_one_routes_but_rejects_twenty_two(self):
+        schema = json.loads((SCRIPT.parent / "data/skill-cap-registry.schema.json").read_text())
+        boundary = copy.deepcopy(self.registry)
+        plugin = boundary["plugins"][0]
+        plugin["keep"] = []
+        plugin["routes"] = [dict(self.route, slug=f"arbeitsweg-{number}", members=[f"quelle-{number}"])
+                            for number in range(21)]
+        jsonschema.validate(boundary, schema)
+        plugin["routes"].append(dict(self.route, slug="zusaetzlicher-arbeitsweg"))
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.validate(boundary, schema)
 
     def test_procurement_document_style_is_explicit_and_preserves_sources(self):
         sources = {slug: (self.plugin / "skills" / slug / "SKILL.md").read_bytes()
@@ -98,6 +176,54 @@ class SkillCapMigrationTests(unittest.TestCase):
         self.assertTrue(any("document_style" in e for e in M["validate_registry"](self.repo, invalid)))
         with self.assertRaisesRegex(ValueError, "document_style"):
             M["render_route"](invalid["plugins"][0]["routes"][0], {})
+
+    def test_named_steps_render_a_concrete_start_without_affecting_default(self):
+        sources = {slug: (self.plugin / "skills" / slug / "SKILL.md").read_bytes()
+                   for slug in self.route["members"]}
+        ordinary = M["render_route"](self.route, sources).decode()
+        self.assertIn("### 3.1. Arbeitsschritt\n\nFassungen vergleichen.", ordinary)
+        self.assertIn("Bearbeite den konkreten Auftrag", ordinary)
+        self.route["step_titles"] = ["Vertragsfassung festlegen", "Vollmacht abgleichen"]
+        revised = M["render_route"](self.route, sources).decode()
+        self.assertNotIn("Bearbeite den konkreten Auftrag", revised)
+        self.assertIn("### 3.1. Vertragsfassung festlegen\n\nFassungen vergleichen.", revised)
+        self.assertIn("### 3.3. Fachvertiefungen gezielt laden", revised)
+        self.assertEqual([], M["validate_registry"](self.repo, self.registry))
+        self.route["step_titles"] = ["Zu kurz"]
+        self.assertTrue(any("step_titles" in error for error in M["validate_registry"](self.repo, self.registry)))
+        self.route["step_titles"] = ["Gültig", "Keine\nzweite Zeile"]
+        self.assertTrue(any("step_titles" in error for error in M["validate_registry"](self.repo, self.registry)))
+
+    def test_revised_route_is_source_bound_and_reversible(self):
+        report = self.migrate()
+        attest = report["plugins"][0]["routes"][0]
+        directory = self.target / "themen/fachgebiet/skills"
+        path = directory / self.route["slug"] / "SKILL.md"
+        before = path.read_bytes()
+        self.route["step_titles"] = ["Vertragsfassung festlegen", "Vollmacht abgleichen"]
+        sources = {slug: (directory / slug / "FACHINHALT.md").read_bytes() for slug in self.route["members"]}
+        after = M["render_route"](self.route, sources)
+        _, edits = M["exact_edits"](before, [(0, len(before), after)])
+        attest.update(original_sha256=M["sha"](before), sha256=M["sha"](after), edits=edits)
+        path.write_bytes(after)
+        reg_path = self.target / "scripts/data/skill-cap-registry.json"
+        reg_path.parent.mkdir(parents=True)
+        reg_path.write_bytes(M["json_bytes"](self.registry))
+        report["registry_sha256"] = M["sha"](reg_path.read_bytes())
+        self.assertEqual([], M["verify_source_map"](self.target, report, strict_links=True))
+
+        before_patch = attest["edits"][0]["before"]
+        attest["edits"][0]["before"] = before_patch + "Manipulation"
+        self.assertTrue(any("nicht bytegleich rekonstruierbar" in error
+                            for error in M["verify_source_map"](self.target, report)))
+        attest["edits"][0]["before"] = before_patch
+
+        self.route["step_titles"][0] = "Abweichende Überschrift"
+        reg_path.write_bytes(M["json_bytes"](self.registry))
+        self.assertTrue(any("Registry" in error for error in M["verify_source_map"](self.target, report)))
+        report["registry_sha256"] = M["sha"](reg_path.read_bytes())
+        self.assertTrue(any("nicht reproduzieren" in error
+                            for error in M["verify_source_map"](self.target, report)))
 
     def test_new_route_cannot_overwrite_old_or_resource_directory(self):
         for slug in ("vertrag", "hauptauftrag"):

@@ -8,6 +8,8 @@ import re
 from pathlib import Path
 
 from prompt_profiles import enabled
+from readme_display import catalog_description
+from werkstatt_visualisierung import load_profiles as load_workflow_profiles
 
 from testakte_zip_common import working_dump_flat_pairs
 
@@ -57,11 +59,12 @@ def count_values(marketplace: dict) -> dict[str, int | str]:
             if child.is_dir() and child.name not in SKIP_TESTAKTEN
         ]
 
-    separate = REPO / "vergaberecht-werkstatt/testakten"
+    suites = {REPO / "vergaberecht-werkstatt/testakten"}
+    suites.update(plugin_source(plugin) / "testakten" for plugin in plugins)
     separate_testakten = [
-        child for child in separate.iterdir()
-        if child.is_dir() and child.name not in SKIP_TESTAKTEN
-    ] if separate.is_dir() else []
+        readme.parent for suite in suites for readme in suite.glob("*/README.md")
+        if readme.parent.name not in SKIP_TESTAKTEN and (readme.parent / "gesamt-pdf").is_dir()
+    ]
 
     return {
         "plugins": len(plugins),
@@ -122,16 +125,37 @@ def check_sorted_inventories(marketplace: dict) -> list[str]:
         errors.append("README Plugin-Katalog: Generator-Markierungen fehlen")
     else:
         catalog = root_readme.split(CATALOG_BEGIN, 1)[1].split(CATALOG_END, 1)[0]
-        root_names = re.findall(r"^\| \[`([^`]+)`\]\(\./[^)]+\) \|", catalog, re.MULTILINE)
-        errors += sequence_error("README Plugin-Katalog", root_names, expected_names)
+        root_rows = re.findall(r"^\| \[`([^`]+)`\]\(\./([^)]*)\) \| (.*) \|$", catalog, re.MULTILINE)
+        errors += sequence_error("README Plugin-Katalog", [name for name, _, _ in root_rows], expected_names)
+        by_name = {plugin["name"]: plugin for plugin in plugins}
+        for name, source, description in root_rows:
+            if name in by_name:
+                directory = plugin_source(by_name[name])
+                if source != directory.relative_to(REPO).as_posix() or description != catalog_description(by_name[name], directory):
+                    errors.append(f"README Plugin-Katalog: Pfad oder Beschreibung für {name} veraltet")
 
     skills = (REPO / "SKILLS.md").read_text(encoding="utf-8")
     skills_names = re.findall(r"^\| \*\*([^*]+)\*\* \| \d+ \|", skills, re.MULTILINE)
     errors += sequence_error("SKILLS.md Plugin-Liste", skills_names, expected_names)
 
     skills_index = (REPO / "skills-index" / "README.md").read_text(encoding="utf-8")
-    detail_names = re.findall(r"^- \[([^]]+)\]\(\./[^)]+\.md\) \(\d+ Skills\)$", skills_index, re.MULTILINE)
+    detail_names = re.findall(r"^- \[([^]]+)\]\(\./[^)]+\.md\) \((?:1 Skill|\d+ Skills)\)$", skills_index, re.MULTILINE)
     errors += sequence_error("skills-index/README.md", detail_names, expected_names)
+    workflow_profiles = load_workflow_profiles()
+    entry_links = re.findall(
+        rf"^\| \[([a-z0-9-]+)\]\(\./\1\.md\) \| \[`([a-z0-9-]+)` herunterladen\]"
+        rf"\({re.escape(DOWNLOAD_BASE)}([^)]*)\) \|$",
+        skills_index, re.MULTILINE,
+    )
+    expected_entry_links = []
+    for plugin in plugins:
+        skill = workflow_profiles[plugin["name"]]["entry_skills"][0]
+        path = plugin_source(plugin) / "skills" / skill / "SKILL.md"
+        expected_entry_links.append((plugin["name"], skill, path.relative_to(REPO).as_posix()))
+        if not path.is_file():
+            errors.append(f"{plugin['name']}: Hauptskill fehlt ({skill})")
+    if entry_links != expected_entry_links:
+        errors.append("skills-index/README.md: Hauptskills, Pfade oder Reihenfolge sind veraltet")
 
     asset_index = (REPO / "ASSET_INDEX.md").read_text(encoding="utf-8")
     asset_names = re.findall(r"^\| \[`([^`]+)`\]\([^)]+/README\.md\) \|", asset_index, re.MULTILINE)
@@ -197,18 +221,18 @@ def check_subject_index(marketplace: dict) -> list[str]:
         directory = plugin_source(plugin)
         count = sum(1 for _ in (directory / "skills").glob("*/SKILL.md"))
         source = directory.relative_to(REPO).as_posix()
-        expected_rows.append((plugin["name"], source, plugin["version"], count))
+        expected_rows.append((plugin["name"], source, catalog_description(plugin, directory), plugin["version"], count))
     actual_rows = [
-        (name, source, version, int(count))
-        for name, source, version, count in re.findall(
-            r"^\| \[`([^`]+)`\]\(\.\./([^)]*)/\) \| .* \| `([^`]+)` \| (\d+) \|$",
+        (name, source, description, version, int(count))
+        for name, source, description, version, count in re.findall(
+            r"^\| \[`([^`]+)`\]\(\.\./([^)]*)/\) \| (.*) \| `([^`]+)` \| (\d+) \|$",
             text, re.MULTILINE,
         )
     ]
     errors = []
     if actual_rows != expected_rows:
-        errors.append("Rechtsgebiete-Übersicht: Einträge, Pfade, Sortierung, Versionen oder Skillzahlen veraltet")
-    summary = f"Stand v{marketplace['version']}: {len(plugins)} Plugins, {sum(row[3] for row in expected_rows)} Skills."
+        errors.append("Rechtsgebiete-Übersicht: Einträge, Pfade, Beschreibungen, Sortierung, Versionen oder Skillzahlen veraltet")
+    summary = f"Stand v{marketplace['version']}: {len(plugins)} Plugins, {sum(row[-1] for row in expected_rows)} Skills."
     if summary not in text:
         errors.append("Rechtsgebiete-Übersicht: Bestandsangabe veraltet")
     return errors

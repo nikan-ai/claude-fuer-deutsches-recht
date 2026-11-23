@@ -13,11 +13,13 @@ import importlib.util
 import json
 from pathlib import Path
 import re
+import runpy
 
 from prompt_profiles import enabled, formats, standalone_kinds
 import werkstatt_visualisierung as visual
 
 ROOT = Path(__file__).resolve().parents[1]
+PRESERVATION_MAP = Path("quality/skill-consolidation/2026-11-14/source-map.json")
 
 
 def sha(data: bytes) -> str:
@@ -91,13 +93,17 @@ def plan(root: Path = ROOT, profiles: dict | None = None) -> tuple[dict[Path, by
         mega = root / "testakten/megaprompts" / f"{slug}.md"
         if enabled(slug, "megaprompt") and mega.is_file():
             paths.append((mega, "workshop"))
+        component_mega = root / "vergaberecht-werkstatt/testakten/megaprompts" / f"{slug}.md"
+        if directory.parent == root / "vergaberecht-werkstatt" and component_mega.is_file():
+            paths.append((component_mega, "workshop"))
         for path, kind in paths:
             path = output_path(root, path)
             if not path.is_file() or path.is_symlink():
                 raise ValueError(f"Fehlender oder verknüpfter Zielpfad: {path}")
             before = path.read_bytes()
             text = before.decode("utf-8")
-            after = visual.block(text, slug, kind=kind, profiles=profiles).encode("utf-8")
+            after = visual.block(text, slug, kind=kind, profiles=profiles,
+                                 wrap_appendix=path == component_mega).encode("utf-8")
             if visual.remove_block(after.decode("utf-8")) != visual.remove_block(text):
                 raise ValueError(f"Fachtext außerhalb der Ergänzung verändert: {path}")
             outputs[path] = after
@@ -179,16 +185,97 @@ def reviewed_profiles(root: Path, outputs: dict[Path, bytes]) -> dict[Path, byte
                 advance(profile[field], name, (root / name).resolve())
         for item in profile.get("individual_skill_review", []):
             advance(item, "sha256", (root / item["path"]).resolve(), allow_base_review=True)
+        file_review = profile.get("file_review_status", {})
+        if file_review.get("status") == "reviewed":
+            evidence = file_review["evidence"]
+            evidence_bytes = output_path(root, root / evidence["path"]).read_bytes()
+            if evidence["sha256"] != sha(evidence_bytes):
+                raise ValueError(f"Historischer Nachprüfungsbeleg verändert: {slug}")
+            followups = dict(file_review.get("visual_followups", {}))
+            for row in json.loads(evidence_bytes)["files"]:
+                target = output_path(root, root / row["path"])
+                if target not in outputs or row["path"].endswith("/FACHINHALT.md"):
+                    continue
+                current, proposed = target.read_bytes(), outputs[target]
+                if current == proposed:
+                    continue
+                prior = followups.get(row["path"], {})
+                body = visual.remove_block(current.decode("utf-8"))
+                old_bound = sha(current) == row["reviewed_sha256"] or (
+                    prior.get("previous_sha256") == row["reviewed_sha256"]
+                    and prior.get("sha256") == sha(current)
+                    and prior.get("body_sha256") == sha(body.encode("utf-8"))
+                )
+                if (not old_bound or visual.BEGIN.encode("utf-8") not in proposed
+                        or body != visual.remove_block(proposed.decode("utf-8"))):
+                    pending.append(row["path"])
+                    continue
+                followups[row["path"]] = {
+                    "method": "visual_block_only", "date": "2026-11-16",
+                    "previous_sha256": row["reviewed_sha256"], "sha256": sha(proposed),
+                    "body_sha256": sha(body.encode("utf-8")),
+                }
+                affected.append(row["path"])
+            if followups:
+                file_review["visual_followups"] = followups
         if affected:
             profile["visual_workflow_review"] = {
-                "method": "desk_review", "date": "2026-11-13",
-                "scope": "Fachlich zugeordnete Visualisierungsführung, belegte Auswahl und Fortsetzung; Fachtext außerhalb des Zusatzes bytegleich.",
+                "method": "desk_review", "date": "2026-11-16",
+                "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
                 "files": sorted(set(affected) | set(profile.get("visual_workflow_review", {}).get("files", []))),
                 "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
                 "pending_prior_changes": sorted(set(pending)),
             }
             updates[path] = (json.dumps(profile, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     return updates
+
+
+def preserved_sources(root: Path, outputs: dict[Path, bytes]) -> dict[Path, bytes]:
+    """Nur den reversiblen Oberflächenzusatz im Erhaltungsnachweis fortschreiben.
+
+    Eine frühere Ergänzung ohne Fortschreibung darf ausschließlich dann
+    nachgetragen werden, wenn das Entfernen genau dieses Blocks den gebundenen
+    Dateiinhalt wiederherstellt. Fachänderungen erhalten keine automatische
+    Freigabe. Der ursprüngliche Hash und der frühere Fachtext bleiben erhalten.
+    """
+    map_path = output_path(root, root / PRESERVATION_MAP)
+    if not map_path.is_file():
+        return {}
+    engine = runpy.run_path(str(ROOT / "scripts/integrate-skill-cap.py"))
+    restore = engine["ENGINE"]["restore_original"]
+    report = json.loads(map_path.read_bytes())
+    changed = []
+    for field in ("files", "shared_dependencies"):
+        for record in report.get(field, []):
+            path = output_path(root, root / record["path"])
+            if path not in outputs:
+                continue
+            current, proposed = path.read_bytes(), outputs[path]
+            if sha(proposed) == record["sha256"]:
+                continue
+            if visual.remove_block(current.decode("utf-8")) != visual.remove_block(proposed.decode("utf-8")):
+                raise ValueError(f"Fachänderung im Erhaltungsnachweis: {record['path']}")
+            bound = current
+            if sha(bound) != record["sha256"]:
+                bound = visual.remove_block(current.decode("utf-8")).encode("utf-8")
+                if sha(bound) != record["sha256"]:
+                    raise ValueError(f"Nicht ausschließlich visueller Vorlauf: {record['path']}")
+            original = restore(bound, record.get("edits", []))
+            if sha(original) != record["original_sha256"]:
+                raise ValueError(f"Ursprünglicher Fachtext nicht rekonstruierbar: {record['path']}")
+            delta = engine["diff_record"](record["path"], original, proposed, "visual_block_only")
+            if restore(proposed, delta["edits"]) != original:
+                raise ValueError(f"Erhaltungsnachweis nicht reversibel: {record['path']}")
+            record["sha256"], record["edits"] = delta["sha256"], delta["edits"]
+            changed.append(record["path"])
+    if not changed:
+        return {}
+    report.setdefault("followups", []).append({
+        "kind": "visual_block_only", "files": sorted(changed),
+        "audit": "scripts/sync-werkstatt-visualisierung.py",
+        "limits": "Nur erzeugter Oberflächenblock; ursprüngliche Fachtexte bytegenau rekonstruierbar. Keine erneute Quellenprüfung.",
+    })
+    return {map_path: (json.dumps(report, ensure_ascii=False, indent=2) + "\n").encode("utf-8")}
 
 
 def main(argv=None):
@@ -202,6 +289,7 @@ def main(argv=None):
         parser.error("--write/--check sind alternativ; --record-review benötigt --write")
     outputs, report = plan()
     if args.record_review:
+        outputs.update(preserved_sources(ROOT, outputs))
         outputs.update(reviewed_profiles(ROOT, outputs))
     changed = [p for p, data in outputs.items() if not p.is_file() or p.read_bytes() != data]
     if args.write:

@@ -54,6 +54,46 @@ class QualityReleaseTests(unittest.TestCase):
     def build(self):
         return B.build(self.dist, self.scope, self.root)
 
+    def test_paketpflege_binds_both_archives_and_retains_separate_prompts(self):
+        tag = "paketpflege-20261122-v" + self.version
+        plan = {"edition": "paketpflege-20261122", "gruppen": {
+            self.version: {"vorgaenger": self.tag, "native": 1, "portable": 1}}, "unveraendert": []}
+        self.write("scripts/data/paketpflege-20261122.json", json.dumps(plan))
+        base_url = "https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/"
+        self.write(f"{self.source}/assets/vorschau/index.html", f'<a href="{base_url}{self.tag}/beispiel.zip">ZIP</a>')
+        self.write(f"{self.source}/werkzeuge/README.md", f"[Archiv]({base_url}{self.tag}/beispiel.zip) [Skill](../skills/vertrag-pruefen/SKILL.md)")
+        scope = B.paketpflege_scope(tag, self.root)
+        self.assertEqual(scope["plugins"][0]["variants"], ["native", "portable"])
+        self.assertEqual(scope["plugins"][0]["prompts"], [])
+        self.assertEqual(set(scope["plugins"][0]["preserved_prompts"]), {"beispiel-werkstatt.md", "beispiel-werkstatt.txt"})
+        B.build(self.dist, scope, self.root)
+        self.assertEqual(set(p.name for p in self.dist.iterdir()), {"beispiel.zip", "beispiel-portable.zip", B.REPORT, B.CHECKSUMS})
+        with zipfile.ZipFile(self.dist / "beispiel.zip") as archive:
+            for name in ("assets/vorschau/index.html", "werkzeuge/README.md"):
+                self.assertIn(f"{base_url}{tag}/beispiel.zip", archive.read(name).decode())
+                self.assertIn(f"{base_url}{self.tag}/beispiel.zip", (self.root / self.source / name).read_text())
+        scope["plugins"][0]["variants"].remove("portable")
+        with self.assertRaisesRegex(ValueError, "Paketnachauflage"):
+            B.validate_scope(scope, self.root)
+        self.write("scripts/scoped-release-assets.json", json.dumps({"schema_version": 1, "assets": {"beispiel.zip": self.tag}}))
+        with self.assertRaisesRegex(ValueError, "Anzahl"):
+            B.paketpflege_scope(tag, self.root)
+
+    def test_activation_only_rewrites_published_live_targets(self):
+        from package_edition import activate_routes
+        from release_routing import RELEASE_BASE
+        tag = "paketpflege-20261122-v" + self.version
+        routes = {"beispiel.zip": (self.tag, tag)}
+        before = f"[Paket]({RELEASE_BASE}/download/{self.tag}/beispiel.zip)"
+        current = self.write("README.md", before)
+        previous = self.write("docs/releases/fruehere-ausgabe.md", before)
+        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
+        subprocess.run(["git", "add", "."], cwd=self.root, check=True)
+        self.assertEqual(activate_routes(self.root, routes), 2)
+        self.assertEqual(activate_routes(self.root, routes), 0)
+        self.assertIn(tag, current.read_text())
+        self.assertEqual(previous.read_text(), before)
+
     def test_native_portable_manifests_fachtext_and_tool_are_byte_exact(self):
         report = self.build()
         self.assertEqual(len(list(self.dist.iterdir())), 6)
@@ -66,6 +106,63 @@ class QualityReleaseTests(unittest.TestCase):
             self.assertFalse(any("testakte" in n or n.endswith("-werkstatt.md") for n in native.namelist()))
         self.assertIn("beispiel-werkstatt.txt", read_checksums(self.dist / B.CHECKSUMS))
         self.assertTrue((self.root / self.source / "testakte/downloads/testakte-alt.zip").exists())
+
+    def test_readme_links_in_both_packages_use_checkout_or_shipped_member(self):
+        from package_readme import REPOSITORY, add_to_archive
+        source = self.write(f"{self.source}/README.md", (
+            "[Skill](skills/vertrag-pruefen/SKILL.md) [Dateien](.) [hier](#beginn)\n"
+            "[`Katalog`](../../skills-index/Fall%20%C3%84.md?plain=1#rubrik)\n"
+            "[Aktenordner](testakte/) [Werkstatt](beispiel-werkstatt.md)\n"
+            "[Ziel]: <../../skills-index/Fall Ä.md> 'Quellenblatt'\n"
+            "[Website](https://example.org) [Mail](mailto:kanzlei@example.org)\n"
+            "Ein Beispiel: `[fiktiv](../../faellt-ins-leere.md)`\n"
+            "```md\n[ebenso](../../beispiel.md)\n```\n"
+        ))
+        original = source.read_bytes()
+        self.write("skills-index/Fall Ä.md", "# Rubrik")
+        self.write(f"{self.source}/werkzeuge/README.md", "[Katalog](../../../skills-index/Fall%20%C3%84.md) [Skill](../skills/vertrag-pruefen/SKILL.md)")
+        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
+        subprocess.run(["git", "add", "."], cwd=self.root, check=True)
+        subprocess.run(["git", "-c", "user.name=Fixture", "-c", "user.email=fixture@example.invalid",
+                        "commit", "-qm", "Fixture"], cwd=self.root, check=True)
+        commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=self.root, text=True).strip()
+        report = B.build(self.dist, self.scope, self.root, expected_commit=commit)
+        with zipfile.ZipFile(self.dist / "beispiel.zip") as native, zipfile.ZipFile(self.dist / "beispiel-portable.zip") as portable:
+            output = native.read("README.md")
+            self.assertEqual(output, portable.read("beispiel/README.md"))
+            nested = native.read("werkzeuge/README.md")
+            self.assertEqual(nested, portable.read("beispiel/werkzeuge/README.md"))
+            self.assertIn(f"{REPOSITORY}/blob/{commit}/skills-index/Fall%20%C3%84.md".encode(), nested)
+            self.assertIn(b"../skills/vertrag-pruefen/SKILL.md", nested)
+            self.assertEqual(source.read_bytes(), original)
+            expected = original.decode().replace("../../skills-index/Fall%20%C3%84.md", f"{REPOSITORY}/blob/{commit}/skills-index/Fall%20%C3%84.md")
+            expected = expected.replace("../../skills-index/Fall Ä.md", f"{REPOSITORY}/blob/{commit}/skills-index/Fall%20%C3%84.md")
+            expected = expected.replace("(testakte/)", f"({REPOSITORY}/tree/{commit}/{self.source}/testakte)")
+            expected = expected.replace("(beispiel-werkstatt.md)", f"({REPOSITORY}/blob/{commit}/{self.source}/beispiel-werkstatt.md)")
+            self.assertEqual(output.decode(), expected)
+            self.assertEqual(report["source_state"]["commit"], commit)
+            # The collection uses the real ZIP member list and adds the root README last.
+            global_zip = self.base / "collection.zip"
+            with zipfile.ZipFile(global_zip, "w") as collection:
+                for item in native.infolist():
+                    if item.filename != "README.md":
+                        collection.writestr(item, native.read(item))
+        add_to_archive(global_zip, self.root, source.parent, commit)
+        with zipfile.ZipFile(global_zip) as collection:
+            self.assertEqual(collection.read("README.md"), output)
+        with self.assertRaisesRegex(ValueError, "bereits"):
+            add_to_archive(global_zip, self.root, source.parent, commit)
+        # Replacing the rendered README with the historical broken bytes must fail.
+        files = B.source_files(self.root, source.parent)
+        stale = self.base / "stale.zip"
+        B.write_zip(stale, files)
+        with self.assertRaisesRegex(ValueError, "README"):
+            B.verify_zip(stale, files, readme=output)
+
+    def test_broken_repository_readme_target_fails_build(self):
+        self.write(f"{self.source}/README.md", "[Nicht vorhanden](../../fehlende-datei.md)\n")
+        with self.assertRaisesRegex(ValueError, "Ziel im Repository fehlt"):
+            self.build()
 
     def test_only_named_prompt_txt_is_release_asset(self):
         for name in ("beispiel-werkstatt.txt", "beispiel-schnellstart.txt", "beispiel-hauptproblem.txt"):
@@ -82,6 +179,28 @@ class QualityReleaseTests(unittest.TestCase):
         scope["plugins"][0]["prompts"].pop()
         with self.assertRaises(ValueError):
             B.validate_scope(scope, self.root)
+
+    def test_explicit_unchanged_prompts_may_keep_existing_publication(self):
+        row = self.scope["plugins"][0]
+        row["preserved_prompts"] = {name: B.sha256_file(self.root / self.source / name) for name in row["prompts"]}
+        row["prompts"] = []
+        self.build()
+        self.assertEqual({p.name for p in self.dist.iterdir()}, {"beispiel.zip", "beispiel-portable.zip", B.REPORT, B.CHECKSUMS})
+        self.write(f"{self.source}/beispiel-werkstatt.md", "Ungepruefte neue Promptfassung")
+        with self.assertRaisesRegex(ValueError, "muss neu veröffentlicht werden"):
+            B.validate_scope(self.scope, self.root)
+
+    def test_preserved_prompts_cannot_hide_missing_extra_or_duplicate_file(self):
+        row = self.scope["plugins"][0]
+        row["preserved_prompts"] = {row["prompts"][0]: B.sha256_file(self.root / self.source / row["prompts"][0])}
+        with self.assertRaisesRegex(ValueError, "doppelt deklarierter"):
+            B.validate_scope(self.scope, self.root)
+        row["prompts"] = []
+        with self.assertRaisesRegex(ValueError, "nicht vollständig"):
+            B.validate_scope(self.scope, self.root)
+        row["preserved_prompts"]["fremd.txt"] = "0" * 64
+        with self.assertRaisesRegex(ValueError, "nicht vollständig"):
+            B.validate_scope(self.scope, self.root)
 
     def test_extra_assets_cannot_expand_scope_to_arbitrary_documents(self):
         for extras in ([{"name": "interne-testakte.pdf"}], [{"name": "ki-native-kanzlei-skills-handbuch.pdf"}]):
@@ -191,14 +310,22 @@ class QualityReleaseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Nachprüfungsprofil gehört nicht zum Plugin"):
             B.validate_scope(self.scope, self.root)
 
-    def test_twenty_one_active_skills_or_orphaned_fachtext_cannot_ship(self):
+    def test_twenty_one_active_skills_ship_but_twenty_two_cannot(self):
+        for i in range(20):
+            name = f"fachfrage-{i}-pruefen"
+            self.write(f"{self.source}/skills/{name}/SKILL.md",
+                       f"---\nname: {name}\ndescription: Fachfrage prüfen\n---\n\n# Fachfrage prüfen\n")
+        report = self.build()
+        self.assertEqual(len(report["plugins"][self.name]["skills"]), 21)
+        for filename in ("beispiel.zip", "beispiel-portable.zip"):
+            with zipfile.ZipFile(self.dist / filename) as archive:
+                self.assertEqual(sum(name.endswith("/SKILL.md") for name in archive.namelist()), 21)
+        self.write(f"{self.source}/skills/zusaetzliche-frage/SKILL.md", "# Zusätzliche Frage\n")
+        with self.assertRaisesRegex(ValueError, "1 bis 21 echte SKILL.md-Dateien, gefunden: 22"):
+            B.build(self.dist.with_name("too-many"), self.scope, self.root)
+
+    def test_orphaned_fachtext_cannot_ship(self):
         directory = self.root / self.source
-        for i in range(20):
-            self.write(f"{self.source}/skills/extra-{i}/SKILL.md", "# Extra\n")
-        with self.assertRaises(ValueError):
-            B.verify_reachability(B.source_files(self.root, directory))
-        for i in range(20):
-            (directory / f"skills/extra-{i}/SKILL.md").unlink()
         self.write(f"{self.source}/skills/verwaist/FACHINHALT.md", "# Verwaist\n")
         with self.assertRaises(ValueError):
             B.verify_reachability(B.source_files(self.root, directory))

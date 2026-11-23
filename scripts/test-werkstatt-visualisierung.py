@@ -124,11 +124,65 @@ class VisualisierungTests(unittest.TestCase):
     def test_standalone_is_complete_and_skill_has_package_local_reference(self):
         text = V.block('# Fachauftrag\n', 'bauunternehmer-einkauf')
         self.assertNotIn('../../references/', text)
-        for required in (V.SERVICE, V.RUNTIME, V.QUALITY, V.CONTINUATION):
+        for required in (V.SERVICE, V.DEPTH, V.RUNTIME, V.QUALITY, V.CONTINUATION):
             self.assertIn(required, text)
         skill = V.block('# Fachauftrag\n', 'bauunternehmer-einkauf', kind='skill')
         self.assertIn('../../references/' + V.REFERENCE, skill)
         self.assertIn('Ohne diese Fähigkeit', skill)
+
+    def test_source_preservation_records_visual_followup_and_reconstructs_original(self):
+        import runpy
+        engine = runpy.run_path(str(ROOT / 'scripts/integrate-skill-cap.py'))
+        original = '# Fall\n\nBestehender Fachtext mit eigenständiger Ausnahme.\n'
+        bound = original.replace('Bestehender', 'Geprüfter')
+        relative = 'plugin/prompts/werkstatt.md'
+        previous = engine['diff_record'](relative, original.encode(), bound.encode(), 'reviewed')
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            path = root / relative
+            path.parent.mkdir(parents=True)
+            map_path = root / SYNC.PRESERVATION_MAP
+            map_path.parent.mkdir(parents=True)
+            map_path.write_text(json.dumps({'files': [previous]}))
+            # Die frühere Ergänzung hat ihre Nachweisfortschreibung versäumt.
+            current = V.block(bound, 'bauunternehmer-einkauf').encode()
+            path.write_bytes(current)
+            updates = SYNC.preserved_sources(root, {path: current})
+            report = json.loads(updates[map_path])
+            record = report['files'][0]
+            self.assertEqual(record['original_sha256'], previous['original_sha256'])
+            self.assertEqual(engine['ENGINE']['restore_original'](current, record['edits']), original.encode())
+            map_path.write_bytes(updates[map_path])
+            self.assertEqual(SYNC.preserved_sources(root, {path: current}), {})
+            # Auch spätere Blockfassungen bleiben ohne Verlust des Alttexts prüfbar.
+            with patch.object(V, 'DEPTH', V.DEPTH + '\nZusätzlicher geprüfter Arbeitsschritt.'):
+                proposed = V.block(current.decode(), 'bauunternehmer-einkauf').encode()
+            next_report = json.loads(SYNC.preserved_sources(root, {path: proposed})[map_path])
+            self.assertEqual(engine['ENGINE']['restore_original'](proposed, next_report['files'][0]['edits']), original.encode())
+
+    def test_source_preservation_rejects_unreviewed_body_change_and_bad_original_hash(self):
+        relative = 'plugin/prompts/werkstatt.md'
+        original = b'# Fall\n\nGepruefter Inhalt.\n'
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            path = root / relative
+            path.parent.mkdir(parents=True)
+            map_path = root / SYNC.PRESERVATION_MAP
+            map_path.parent.mkdir(parents=True)
+            record = {'path': relative, 'original_sha256': SYNC.sha(original), 'sha256': SYNC.sha(original), 'edits': []}
+            map_path.write_text(json.dumps({'files': [record]}))
+            changed = V.block(original.decode().replace('Gepruefter', 'Ungepruefter'), 'bauunternehmer-einkauf').encode()
+            path.write_bytes(changed)
+            with self.assertRaisesRegex(ValueError, 'Nicht ausschließlich visueller Vorlauf'):
+                SYNC.preserved_sources(root, {path: changed})
+            path.write_bytes(original)
+            with self.assertRaisesRegex(ValueError, 'Fachänderung'):
+                SYNC.preserved_sources(root, {path: changed})
+            record['original_sha256'] = '0' * 64
+            map_path.write_text(json.dumps({'files': [record]}))
+            proposed = V.block(original.decode(), 'bauunternehmer-einkauf').encode()
+            with self.assertRaisesRegex(ValueError, 'Ursprünglicher Fachtext nicht rekonstruierbar'):
+                SYNC.preserved_sources(root, {path: proposed})
 
     def test_bauwirtschaft_skills_keep_budget_fachtext_and_actionable_reference(self):
         limited = {slug: entry['skill_max_bytes'] for slug, entry in self.profiles.items() if 'skill_max_bytes' in entry}
@@ -149,7 +203,7 @@ class VisualisierungTests(unittest.TestCase):
                     self.assertIn('../../references/' + V.REFERENCE, compact)
                     reference = self.sources[slug] / 'references' / V.REFERENCE
                     self.assertTrue(reference.is_file())
-                    self.assertIn(V.RUNTIME, reference.read_text())
+                    self.assertIn(V.REFERENCE_RUNTIME, reference.read_text())
                     unrestricted = {slug: {key: value for key, value in entry.items() if key != 'skill_max_bytes'}}
                     previous = V.block(original, slug, kind='skill', profiles=unrestricted)
                     self.assertGreater(len(previous.encode('utf-8')), maximum, 'Regression bildet die vorherige Budgetverletzung nicht ab')
@@ -167,7 +221,8 @@ class VisualisierungTests(unittest.TestCase):
 
     def test_plain_label_profiles_preserve_local_style_in_skills_workshops_and_references(self):
         expected = {'un-kaufrecht-cisg', 'eu-sanktionspruefer', 'us-sanktionspruefer',
-                    'arbeitsrecht-kuendigungsschutzklagewerkstatt', 'agb-werkstatt', 'untersuchungshaft'}
+                    'arbeitsrecht-kuendigungsschutzklagewerkstatt', 'agb-werkstatt', 'untersuchungshaft',
+                    'jugendmedienschutz-und-medienangebote', 'allgemeines-notariat'}
         self.assertEqual({slug for slug, entry in self.profiles.items() if entry.get('plain_labels')}, expected)
         for slug in expected:
             entry = self.profiles[slug]
@@ -183,7 +238,8 @@ class VisualisierungTests(unittest.TestCase):
             reference = V.reference(slug, entry)
             self.assertNotIn('**', reference)
             self.assertIn('Erste Ansicht:', reference)
-            self.assertIn(V.RUNTIME, reference)
+            expected_runtime = V.RUNTIME if slug in V.DETAIL_REFERENCES else V.REFERENCE_RUNTIME
+            self.assertIn(expected_runtime, reference)
         self.assertIn('**Erste Ansicht:**', V.block('# Auftrag\n', 'bauunternehmer-einkauf'))
 
     def test_trade_and_sanctions_routes_use_mandate_specific_inputs_and_outputs(self):
@@ -218,12 +274,27 @@ class VisualisierungTests(unittest.TestCase):
             'sofern die Umgebung das unterstützt',
             'Fehlt die interaktive Oberfläche',
             'Ohne Werkzeuge im Text weiterarbeiten',
-            'nicht ausgeführt wurde',
+            'nicht ausgeführt worden',
+            'Canvas oder ein bearbeitbares Dokumentartefakt',
+            'privates interaktives Artefakt oder eine nutzbare HTML-Vorschau',
+            'eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe',
+            'dieselbe Auswahl im Chat',
+            'Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen',
         ):
             self.assertIn(required, text)
         self.assertNotRegex(text, r'(?i)\b(?:ChatGPT|Claude|Cowork|GPT-\d)\b')
         self.assertNotIn('<iframe', text)
         self.assertNotRegex(text, r'(?i)(?:immer|automatisch) (?:öffentlich|veröffentlichen|hochladen)')
+
+    def test_uferwerk_route_uses_access_and_judgment_grounds_not_debt_dashboard(self):
+        slug = 'arbeitsrecht-kuendigungsschutzklagewerkstatt'
+        for kind in ('workshop', 'skill'):
+            with self.subTest(kind=kind):
+                content = V.block('# Fachauftrag\n', slug, kind=kind)
+                for required in ('Zugangsnachweis', 'selbständig tragende Urteilsbegründung',
+                                 'erstinstanzliche Fundstelle', 'Berufungsbegründung'):
+                    self.assertIn(required, content)
+                self.assertNotIn('Forderungsbestand', content)
 
     def test_ui_selection_has_explicit_bridge_independent_handoff(self):
         text = V.reference('compliance-abteilung-grosskonzern', self.profiles['compliance-abteilung-grosskonzern'])

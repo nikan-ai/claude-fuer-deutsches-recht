@@ -186,6 +186,13 @@ PUBLIC_VERGABERECHT_ROLES = {
     "konkurrenten-rechtsschutz",
     "vergabestelle-behoerden",
 }
+# Diese READMEs haben eigene Einstiege mit den veröffentlichten Downloads.
+PRESERVED_README_ENTRIES = PUBLIC_VERGABERECHT_ROLES | {
+    "bauunternehmer-einkauf",
+    "e-rechnung-werkstatt",
+    "jugendmedienschutz-und-medienangebote",
+    "zahlungsunfaehigkeits-und-ueberschuldungspruefer",
+}
 
 
 def prompt_stem(plugin_name: str) -> str:
@@ -384,6 +391,21 @@ def first_product(directory: Path, plugin_name: str) -> str:
 
 
 def quickstart_section(plugin_name: str, directory: Path) -> str:
+    if plugin_name in {"aktenanleger", "umwandlungssteuerrecht"}:
+        example = {
+            "aktenanleger": "Öffnen Sie die Grundakte zur Werklohnforderung. Ordnen Sie jede Anlage einer Person und Forderung zu. Erstellen Sie die Aktenanlage, prüfen Sie den Auftrag und halten Sie im ersten Schreiben fest, welcher Nachweis noch fehlt.",
+            "umwandlungssteuerrecht": "Öffnen Sie die Grundakte zur Kranhalle. Prüfen Sie anhand von Vertrag und Bilanz, welche Gegenstände die GmbH erhält und wie sich ein Rückbehalt auf den Ansatz der stillen Reserven auswirken kann.",
+        }[plugin_name]
+        return ("## In 30 Sekunden starten\n\nWählen Sie eine [Übungsakte](testakten/README.md) und laden Sie zunächst nur den Ordner `Grundakte`.\n\n> "
+                + example + "\n\nGeben Sie anschließend die Nachreichung hinzu und lassen Sie die betroffene Passage im selben Entwurf überarbeiten.")
+    if plugin_name == "allgemeines-notariat":
+        return """## In 30 Sekunden starten
+
+Öffnen Sie die [Notariatsakten](testakten/README.md), wählen Sie einen Fall und laden Sie zunächst nur dessen Ordner `Grundakte`. Arbeiten Sie mit dem Hauptskill `amtsgeschaeft-fuehren` oder mit dem eigenständigen Mini-Prompt.
+
+> Prüfen Sie für die Notarin den Willen der Beteiligten und die vorliegenden Nachweise. Entwerfen Sie das Schreiben, das wir heute an die Beteiligten richten können. Nennen Sie im getrennten Vermerk die Entscheidungen, die noch das persönliche Gespräch oder einen weiteren Nachweis erfordern.
+
+Geben Sie anschließend eine Nachreichung aus derselben Akte hinzu und lassen Sie die betroffene Passage im Entwurf anpassen."""
     if plugin_name == "sektorenvergabe-workflow":
         return """## In 30 Sekunden starten
 
@@ -521,6 +543,8 @@ def testakte_count(directory: Path, akten_slugs: list[str]) -> int:
 
 
 def testakte_download_cell(directory: Path, akten_slugs: list[str]) -> str:
+    if (directory / "testakten/README.md").is_file():
+        return "[Fallauswahl und Akten-Downloads](testakten/README.md)"
     count = testakte_count(directory, akten_slugs)
     if count:
         label = "eine zugeordnete Akte" if count == 1 else f"{count} zugeordnete Akten"
@@ -670,8 +694,11 @@ Starten Sie die lokale App nach der Anleitung in dieser README. Die Installation
         skill_note = "Alle zehn Skills sind unmittelbar enthalten, einschließlich des Hauptskills pflegefall-bearbeiten. Werkstatt und Mini-Prompt sind separate eigenständige Downloads. Vorhandene Pflegeakten bleiben an ihren bisherigen Orten verlinkt. Einzelne Skill-Downloads benötigen ihre verlinkten Referenzen zusätzlich."
         skill_note_en = "All ten skills are directly included, including the main care-case workflow. Workshop and mini prompt are separate standalone downloads. Existing care cases remain linked at their original locations. Individual skill downloads need their supporting references."
     elif plugin_name == "sozialversicherungspflicht-pruefer":
-        skill_note = "Alle zehn Skills sind unmittelbar im Plugin enthalten, einschließlich des Hauptskills sozialversicherungspflicht-pruefen. Werkstatt und Mini-Prompt sind eigenständige separate Downloads. Die sechs Fallakten werden unabhängig vom Plugin bereitgestellt. Beim Einzel-Download eines Skills müssen benötigte Referenzen zusätzlich verfügbar sein."
-        skill_note_en = "All ten skills are included directly, including the main workflow. The workshop and mini prompt are separate standalone downloads. Six practice cases are provided separately. An individual skill download does not include its supporting references."
+        skills_total = len(list((directory / "skills").glob("*/SKILL.md")))
+        cases_total = testakte_count(directory, akten_slugs)
+        description = re.sub(r"\b(?:zwölf|\d+)(?= (?:zugeordneten )?Fallakten\b)", str(cases_total), description)
+        skill_note = f"Alle {skills_total} Skills sind unmittelbar im Plugin enthalten, einschließlich des Hauptskills sozialversicherungspflicht-pruefen. Werkstatt und Mini-Prompt sind eigenständige separate Downloads. Die {cases_total} Fallakten werden unabhängig vom Plugin bereitgestellt. Beim Einzel-Download eines Skills müssen benötigte Referenzen zusätzlich verfügbar sein."
+        skill_note_en = f"All {skills_total} skills are included directly, including the main workflow. The workshop and mini prompt are separate standalone downloads. {cases_total} practice cases are provided separately. An individual skill download does not include its supporting references."
     elif plugin_name == "juristische-praesentationen":
         skill_note = "Alle zwölf Skills sind unmittelbar enthalten: zehn Kernskills sowie zwei nur auf Wunsch verwendete Bonus-Skills für Animation und jugendgerechte Sprache. Beginne mit praesentation-starten oder einem passenden Fachskill. Vorlage, Referenzen und Paketprüfer sind im Plugin-ZIP enthalten; beim Einzel-Download müssen sie bei Bedarf zusätzlich bereitgestellt werden."
         skill_note_en = "All twelve skills are directly included: ten core workflows and two opt-in bonuses for animation and youth-friendly language. Start with praesentation-starten or the relevant task skill. The plugin ZIP includes the template, references and package checker; a standalone skill download does not."
@@ -781,11 +808,7 @@ def inject(plugin: dict, akten_slugs: list[str], marketplace_count: int) -> str:
     original = readme.read_text(encoding="utf-8")
     version = plugin.get("version")
     text = sync_visible_version(original, version) if version else original
-    # Die drei öffentlichen Vergaberechtsrollen werden von ihren eigenen
-    # Generatoren gepflegt. Ihre Start-, Gesamtprompt- und Skillblöcke bilden
-    # zusammen eine geprüfte Navigation und dürfen hier nicht vereinheitlicht
-    # oder teilweise entfernt werden.
-    if name in PUBLIC_VERGABERECHT_ROLES:
+    if name in PRESERVED_README_ENTRIES:
         if text != original:
             readme.write_text(text, encoding="utf-8")
             return "UPDATED"

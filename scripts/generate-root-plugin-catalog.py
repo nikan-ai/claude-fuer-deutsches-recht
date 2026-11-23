@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 from release_routing import rewrite_case_asset_urls, validate_plugin_version, validate_version
 
-from readme_display import display_plugin_description
+from readme_display import catalog_description
 from testakte_zip_common import working_dump_flat_pairs
 
 
@@ -32,22 +32,6 @@ SKIP_TESTAKTEN = {"formatvorlagen-paradebeispiele", "megaprompts"}
 def source_rel(plugin: dict) -> str:
     source = plugin.get("source") or f"./{plugin['name']}"
     return source.removeprefix("./")
-
-
-def display_description(plugin: dict) -> str:
-    readme = REPO / source_rel(plugin) / "README.md"
-    if readme.is_file():
-        text = readme.read_text(encoding="utf-8", errors="ignore")
-        match = re.search(
-            r"<!-- BEGIN direkt-loslegen \(autogen\) -->[\s\S]*?"
-            r"## Was ist das hier\?\n\n(.+?)\n\n",
-            text,
-        )
-        if match:
-            return display_plugin_description(re.sub(r"\s+", " ", match.group(1)).strip(), readme.parent)
-    return display_plugin_description(
-        re.sub(r"\s+", " ", str(plugin.get("description", ""))).strip(), readme.parent
-    )
 
 
 def group_label(name: str) -> str:
@@ -78,11 +62,13 @@ def inventory_counts(plugins: list[dict]) -> dict[str, int]:
         for child in (REPO / "testakten").iterdir()
         if child.is_dir() and child.name not in SKIP_TESTAKTEN
     )
-    procurement = REPO / "vergaberecht-werkstatt/testakten"
+    # Die Vergabewerkstatt wird aus ihrem eigenen Marketplace installiert.
+    suites = {REPO / "vergaberecht-werkstatt/testakten"}
+    suites.update(REPO / source_rel(plugin) / "testakten" for plugin in plugins)
     separate_testakten = sum(
-        1 for child in procurement.iterdir()
-        if child.is_dir() and child.name not in SKIP_TESTAKTEN
-    ) if procurement.is_dir() else 0
+        1 for suite in suites for readme in suite.glob("*/README.md")
+        if readme.parent.name not in SKIP_TESTAKTEN and (readme.parent / "gesamt-pdf").is_dir()
+    )
     return {
         "plugins": len(plugins),
         "skills": skills,
@@ -96,27 +82,16 @@ def inventory_counts(plugins: list[dict]) -> dict[str, int]:
 
 def build_directory(plugins: list[dict]) -> str:
     counts = inventory_counts(plugins)
-    labels = sorted({group_label(plugin["name"]) for plugin in plugins})
-    plugin_navigation = " · ".join(
-        f"[{label}](#{label.lower()})" for label in labels
-    )
     return "\n".join(
         [
             DIRECTORY_BEGIN,
-            "Die fünf vollständigen Register sind alphabetisch sortiert und werden bei jedem Release gegen Marketplace und Dateibestand geprüft. Jede Liste nennt zu jedem Eintrag eine Kurzbeschreibung und führt von dort unmittelbar zur Datei, zum Download oder zur passenden Detailseite.",
-            "",
             "| Bestand | Umfang | Kurzbeschreibung | Vollständige alphabetische Liste |",
             "| --- | ---: | --- | --- |",
-            f"| **Plugins** | {counts['plugins']} | Installierbare Pakete für Rechtsgebiete und Arbeitsbereiche; jede Zeile beschreibt Zweck und fachlichen Zuschnitt. | [Plugin-Katalog mit Kurzbeschreibungen](#was-ist-drin) · [ZIPs und Einzeldateien](./ASSET_INDEX.md) |",
-            f"| **Skills** | {counts['skills']} | Eng abgegrenzte Arbeitsabläufe; die Detailseiten führen jeden Skill mit Kurzbeschreibung und einzelnem Markdown-Download auf. | [Skill-Gesamtübersicht](./SKILLS.md) · [Detailseiten je Plugin](./skills-index/) |",
-            f"| **Werkstatt-Prompts** | {counts['werkstatt']} | Ausführliche eigenständige Arbeitsmodi für komplexe Vorgänge; je Plugin mit Kurzbeschreibung und direktem Markdown-Download. | [Werkstatt-Prompts von A bis Z](./docs/werkstatt-und-schnellstart-coverage.md#werkstatt-prompts) |",
-            "| HOAI-Phasen-Werkstätten | 9 zusätzlich | Je ein eigener Phasenauftrag für Gebäude und Innenräume mit passendem Skill und eigener Akte. | [Leistungsphasen 1 bis 9](./docs/bauwirtschaft-hoai-phasen.md) |",
-            f"| **Schnellstart-/Mini-Prompts** | {counts['schnellstart']} | Kompakte eigenständige Einstiege für den Kernworkflow und ein erstes belastbares Arbeitsprodukt. | [Schnellstart-Prompts von A bis Z](./docs/werkstatt-und-schnellstart-coverage.md#schnellstart-prompts) |",
-            f"| **Testakten** | {counts['central_testakten']} zentral / {counts['testakten']} gesamt | Praxisnahe Dokumentensammlungen mit Kurzbeschreibung und drei Downloadformen; zusätzlich pluginlokale Akten und {counts['separate_testakten']} Akten der getrennten Vergaberecht-Werkstatt. | [Zentrale Testakten von A bis Z](./testakten/README.md#verfügbare-akten) · [Vergaberecht-Werkstatt](./vergaberecht-werkstatt/testakten/README.md) · [pluginlokale Akten über den Plugin-Katalog](#was-ist-drin) |",
-            "",
-            f"Sortierlogik: Plugins, Werkstatt- und Schnellstart-Prompts folgen dem Plugin-Slug; Skills sind zuerst nach Plugin und dort nach Skill-Slug sortiert; Testakten folgen dem Aktenordner. Die großen Bestände bleiben auf eigenen, schnell ladenden Registerseiten, damit der Haupt-README trotz {counts['skills']} Skills benutzbar bleibt.",
-            "",
-            f"Plugin-Schnellwahl: {plugin_navigation}",
+            f"| **Plugins** | {counts['plugins']} | Installierbare Fachpakete | [Katalog](#was-ist-drin) · [Downloads](./ASSET_INDEX.md) |",
+            f"| **Skills** | {counts['skills']} | Arbeitsabläufe für einzelne Aufgaben | [Alle Skills](./SKILLS.md) · [Einzeldownloads je Plugin](./skills-index/) |",
+            f"| **Werkstatt-Prompts** | {counts['werkstatt']} | Ausführliche Anweisungen für mehrstufige Vorgänge | [Werkstatt auswählen](./docs/werkstatt-und-schnellstart-coverage.md#werkstatt-prompts) |",
+            f"| **Schnellstart-/Mini-Prompts** | {counts['schnellstart']} | Kurze Anweisungen für den Einstieg im Chat | [Mini-Prompt auswählen](./docs/werkstatt-und-schnellstart-coverage.md#schnellstart-prompts) |",
+            f"| **Testakten** | {counts['central_testakten']} zentral / {counts['testakten']} gesamt | Übungsfälle mit Arbeitsaufträgen und Unterlagen | [Zentrale Sammlung](./testakten/README.md#verfügbare-akten) · [Akten einzelner Plugins](#testakten) |",
             DIRECTORY_END,
         ]
     )
@@ -149,7 +124,9 @@ def build_catalog(plugins: list[dict]) -> str:
     for label in labels:
         lines.extend(
             [
-                f"### {label}",
+                f'<a id="{label.lower()}"></a>',
+                "<details>",
+                f"<summary>{label}</summary>",
                 "",
                 "| Plugin | Beschreibung |",
                 "| --- | --- |",
@@ -157,9 +134,9 @@ def build_catalog(plugins: list[dict]) -> str:
         )
         for plugin in groups[label]:
             name = plugin["name"]
-            description = display_description(plugin).replace("|", "\\|")
+            description = catalog_description(plugin, REPO / source_rel(plugin))
             lines.append(f"| [`{name}`](./{source_rel(plugin)}) | {description} |")
-        lines.append("")
+        lines.extend(["", "</details>", ""])
     lines.append(END)
     return "\n".join(lines)
 
@@ -213,7 +190,7 @@ def build_subject_index(plugins: list[dict], version: str) -> str:
     for plugin in sorted(plugins, key=lambda p: p["name"]):
         source = source_rel(plugin)
         count = sum(1 for _ in (REPO / source / "skills").glob("*/SKILL.md"))
-        description = display_description(plugin).replace("|", "\\|")
+        description = catalog_description(plugin, REPO / source_rel(plugin))
         lines.append(f"| [`{plugin['name']}`](../{source}/) | {description} | `{plugin['version']}` | {count} |")
     return "\n".join(lines) + "\n"
 

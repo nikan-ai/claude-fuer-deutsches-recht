@@ -26,6 +26,7 @@ from xml.etree import ElementTree
 from zipfile import BadZipFile, ZipFile
 
 from prompt_limits import MAX_MINI_BYTES, mini_within_limits
+from main_skill_revisions import historical_bytes, previous_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_FILE = 8 * 1024 * 1024
@@ -125,7 +126,7 @@ def iso_day(value):
         raise LabError("Ungültiges oder zukünftiges Prüfdatum")
 
 
-def validate_prompt_review(review, label, path):
+def validate_prompt_review(review, label, path, root=None):
     if not isinstance(review, dict):
         raise LabError(f"{label} muss ein JSON-Objekt sein")
     if not isinstance(review.get("verdict"), str) or review["verdict"] not in {"revised", "retained"}:
@@ -135,7 +136,13 @@ def validate_prompt_review(review, label, path):
     prompt_hash = review.get("sha256")
     if not isinstance(prompt_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", prompt_hash):
         raise LabError(f"{label} benötigt sha256 mit 64 kleinen Hexadezimalzeichen")
-    if prompt_hash != digest(bounded_bytes(path)):
+    data = bounded_bytes(path)
+    if root is not None and digest(data) != prompt_hash:
+        try:
+            data = historical_bytes(root, path, prompt_hash)
+        except (OSError, ValueError, KeyError) as exc:
+            raise LabError(str(exc)) from exc
+    if prompt_hash != digest(data):
         raise LabError(f"{label} seit individueller Prüfung verändert")
 
 
@@ -171,7 +178,7 @@ def validate_focus_review(review, plugin, target, directory, root):
             raise LabError(f"Schwerpunkt-{kind}-Datei fehlt")
         validate_prompt_review(
             {**review, "sha256": review.get(f"{kind}_sha256")},
-            f"Schwerpunkt-{kind}-Prüfung", path,
+            f"Schwerpunkt-{kind}-Prüfung", path, root=root,
         )
 
 
@@ -240,7 +247,13 @@ def validate_file_hashes(profile, root):
             if not isinstance(expected, str) or not re.fullmatch(r"[0-9a-f]{64}", expected):
                 raise LabError(f"{field}: ungültige SHA-256-Prüfsumme für {relative}")
             path = inside(root, relative)
-            if expected != digest(bounded_bytes(path)):
+            data = bounded_bytes(path)
+            if expected != digest(data):
+                try:
+                    data = historical_bytes(root, path, expected, plugin=profile.get("plugin"))
+                except (OSError, ValueError, KeyError) as exc:
+                    raise LabError(str(exc)) from exc
+            if expected != digest(data):
                 errors.append(f"{field}: {relative} seit dokumentierter Prüfung verändert")
     if errors:
         raise LabError("; ".join(errors))
@@ -296,6 +309,9 @@ def validate_completed_file_review(profile, review, root):
     if (not all(isinstance(path, str) for path in paths)
             or len(paths) != len(review["files"]) or set(paths) != set(review["files"])):
         raise LabError("Nachprüfungsbeleg erfasst nicht jede offene Datei genau einmal")
+    followups = review.get("visual_followups", {})
+    if not isinstance(followups, dict) or set(followups) - set(paths):
+        raise LabError("Visuelle Nachführung betrifft keine einzeln geprüfte Datei")
     for row in rows:
         if row.get("full_file_read") is not True or row.get("result") not in {"retained", "revised"}:
             raise LabError("Vollständige Einzelprüfung und konkretes Dateiergebnis erforderlich")
@@ -304,7 +320,17 @@ def validate_completed_file_review(profile, review, root):
         before = row.get("before_sha256")
         if not isinstance(before, str) or not re.fullmatch(r"[0-9a-f]{64}", before):
             raise LabError("Ausgangsfassung der Nachprüfung fehlt")
-        if row.get("reviewed_sha256") != digest(bounded_bytes(inside(root, row["path"]))):
+        data = bounded_bytes(inside(root, row["path"]))
+        try:
+            predecessor = previous_bytes(root, inside(root, row["path"]), plugin=profile["plugin"])
+        except (OSError, ValueError, KeyError) as exc:
+            raise LabError(str(exc)) from exc
+        if predecessor is not None:
+            data = predecessor
+        followup = followups.get(row["path"])
+        if followup is not None and checked_visual_followup(profile["plugin"], row, followup, data):
+            continue
+        if followup is not None or row.get("reviewed_sha256") != digest(data):
             raise LabError(f"Nachgeprüfte Datei seit dokumentierter Prüfung verändert: {row['path']}")
     reports = record.get("reports")
     if not isinstance(reports, dict) or not reports:
@@ -312,6 +338,25 @@ def validate_completed_file_review(profile, review, root):
     for relative, expected in reports.items():
         if expected != digest(bounded_bytes(inside(root, relative))):
             raise LabError("Fachlicher Nachprüfungsbericht seit dokumentierter Prüfung verändert")
+
+
+def checked_visual_followup(plugin, row, followup, data):
+    """Nur den kanonischen Zusatz prüfen. Der historische Prüfbeleg bleibt unverändert."""
+    import werkstatt_visualisierung as visual
+
+    if (not isinstance(followup, dict) or followup.get("method") != "visual_block_only"
+            or followup.get("previous_sha256") != row.get("reviewed_sha256")
+            or followup.get("sha256") != digest(data) or row.get("path", "").endswith("/FACHINHALT.md")):
+        return False
+    try:
+        iso_day(followup.get("date"))
+        source = data.decode("utf-8")
+        body = visual.remove_block(source)
+        kind = "skill" if row["path"].endswith("/SKILL.md") else "workshop"
+        return (visual.BEGIN in source and digest(body.encode("utf-8")) == followup.get("body_sha256")
+                and visual.block(body, plugin, kind=kind) == source)
+    except (ValueError, UnicodeError):
+        return False
 
 
 def validate_profile(profile, plugin, directory, root=ROOT):

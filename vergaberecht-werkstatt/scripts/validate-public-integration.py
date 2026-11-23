@@ -22,6 +22,11 @@ SHARED_NAVIGATION = {
     f"https://github.com/{REPOSITORY}/blob/main/{relative}": relative
     for relative in ("README.md", "SKILLS.md", "ASSET_INDEX.md")
 }
+CASE_CATALOG = "docs/grundakten-lebenswelt/README.md"
+SHARED_NAVIGATION[
+    f"https://github.com/{REPOSITORY}/blob/main/{CASE_CATALOG}"
+    "#weitere-arbeitsakten-und-eigenständige-pluginfassungen"
+] = CASE_CATALOG
 ORIGINAL_COUNTS = dict(zip(PROMPT_SUFFIXES, (122, 113, 20)))
 
 
@@ -63,7 +68,7 @@ def main() -> int:
         except ValueError as error:
             errors.append(str(error))
         manifest = json.loads((ROOT / role / ".claude-plugin/plugin.json").read_text(encoding="utf-8"))
-        if manifest["name"] != role or manifest["version"] != plugin["version"]:
+        if any(manifest.get(key) != plugin.get(key) for key in ("name", "version", "description")):
             errors.append(f"{role}: Plugin-Identitaet stimmt nicht")
         if manifest["author"] != {"name": "Klotzkette", "email": "39582916+Klotzkette@users.noreply.github.com"}:
             errors.append(f"{role}: Autor stimmt nicht")

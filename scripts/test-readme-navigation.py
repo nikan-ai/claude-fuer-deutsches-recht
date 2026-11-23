@@ -41,11 +41,41 @@ OVERVIEWS = load_script("validate-root-readme-overview.py")
 
 
 class ReadmeIntroductionTests(unittest.TestCase):
+    def test_direct_generator_preserves_editorial_entries_and_their_release_urls(self):
+        entries = json.loads(PLUGINS.MARKETPLACE.read_text(encoding="utf-8"))["plugins"]
+        names = ("bauunternehmer-einkauf", "e-rechnung-werkstatt", "jugendmedienschutz-und-medienangebote",
+                 "zahlungsunfaehigkeits-und-ueberschuldungspruefer")
+        for name in names:
+            entry = next(plugin for plugin in entries if plugin["name"] == name)
+            original = (ROOT / entry["source"] / "README.md").read_bytes()
+            self.assertIn(PLUGINS.plugin_asset_url(name, root=ROOT).encode(), original)
+            with self.subTest(plugin=name), tempfile.TemporaryDirectory() as temp, patch.object(PLUGINS, "REPO", Path(temp)):
+                readme = PLUGINS.plugin_dir(entry) / "README.md"
+                readme.parent.mkdir(parents=True)
+                readme.write_bytes(original)
+                for _ in range(2):
+                    self.assertEqual(PLUGINS.inject(entry, [], len(entries)), "UNCHANGED")
+                    self.assertEqual(readme.read_bytes(), original)
+
+    def test_new_plugin_still_gets_one_direct_entry(self):
+        entry = {"name": "belegpruefung", "description": "Gleicht die Belege ab."}
+        with tempfile.TemporaryDirectory() as temp, patch.object(PLUGINS, "REPO", Path(temp)):
+            (Path(temp) / "testakten").mkdir()
+            readme = PLUGINS.plugin_dir(entry) / "README.md"
+            readme.parent.mkdir(parents=True)
+            readme.write_text("# Belegprüfung\n\n## Unterlagen\n\nRechnungen beifügen.\n", encoding="utf-8")
+            self.assertEqual(PLUGINS.inject(entry, [], 1), "INSERTED")
+            self.assertEqual(PLUGINS.inject(entry, [], 1), "UNCHANGED")
+            rendered = readme.read_text(encoding="utf-8")
+            self.assertEqual(rendered.count(PLUGINS.BEGIN), 1)
+            self.assertEqual(rendered.count(PLUGINS.END), 1)
+            self.assertIn("Rechnungen beifügen.", rendered)
+
     def test_installation_steps_use_individual_package_index(self):
         for filename, heading in (
             ("QUICKSTART.md", "## 3. Ein einzelnes Plugin installieren"),
             ("INSTALLATION_EINFACH.md", "## 1. Einzelnes Plugin installieren"),
-            ("README.md", "**Schritt 2: Plugin-ZIP herunterladen**"),
+            ("README.md", "### Installation in Claude Cowork"),
         ):
             with self.subTest(filename=filename):
                 text = (ROOT / filename).read_text(encoding="utf-8")
@@ -62,7 +92,7 @@ class ReadmeIntroductionTests(unittest.TestCase):
 
     def test_root_starts_with_purpose_instead_of_release_news(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
-        intro = text.split('<a id="chatgpt-und-die-chatgpt-app"></a>', 1)[0]
+        intro = text.split("\n## ", 1)[0]
         first_paragraph = intro.split("\n\n")[1]
         self.assertIn("Rechtspraxis", first_paragraph)
         self.assertNotRegex(first_paragraph, r"\bv\d+\.\d+\.\d+\b")
@@ -71,15 +101,16 @@ class ReadmeIntroductionTests(unittest.TestCase):
 
     def test_root_intro_keeps_catalogs_and_history_accessible(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
-        intro = text.split('<a id="chatgpt-und-die-chatgpt-app"></a>', 1)[0]
+        intro = text.split("\n## ", 1)[0]
         for target in (
             "#was-ist-drin", "./SKILLS.md", "./testakten/README.md",
             "./docs/werkstatt-und-schnellstart-coverage.md#werkstatt-prompts",
             "./docs/werkstatt-und-schnellstart-coverage.md#schnellstart-prompts",
-            "./ASSET_INDEX.md", "./INSTALLATION_EINFACH.md", "./CHANGELOG.md",
+            "./ASSET_INDEX.md", "./INSTALLATION_EINFACH.md",
         ):
             with self.subTest(target=target):
                 self.assertIn(f"]({target})", intro)
+        self.assertIn("](./CHANGELOG.md)", text)
 
 
 class CatalogVersionTests(unittest.TestCase):
@@ -128,7 +159,7 @@ class CatalogVersionTests(unittest.TestCase):
                 path.write_text(text, encoding="utf-8")
                 self.assertEqual(OVERVIEWS.check_subject_index(marketplace), [])
                 self.assertLess(text.index("[`anwalt`]"), text.index("[`zivil`]"))
-                for old, new in (("| 1 |", "| 9 |"), ("`1.2.3`", "`0.1.0`"), ("2 Plugins", "3 Plugins"), ("../gerichte/zivil/", "../zivil/")):
+                for old, new in (("| 1 |", "| 9 |"), ("`1.2.3`", "`0.1.0`"), ("2 Plugins", "3 Plugins"), ("Für Anwälte.", "Frühere Beschreibung."), ("../gerichte/zivil/", "../zivil/")):
                     with self.subTest(old=old):
                         path.write_text(text.replace(old, new), encoding="utf-8")
                         self.assertTrue(OVERVIEWS.check_subject_index(marketplace))
@@ -184,7 +215,7 @@ class GeneratedNavigationTests(unittest.TestCase):
     canonical = "https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/"
     targets = ("README.md", "SKILLS.md", "skills-index/demo.md", "ASSET_INDEX.md", "testakten/README.md")
 
-    def validate_navigation(self, links):
+    def validate_navigation(self, links, formats=("md",)):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory).resolve()
             marketplace = root / ".claude-plugin/marketplace.json"
@@ -206,7 +237,7 @@ class GeneratedNavigationTests(unittest.TestCase):
                 path.write_text(text, encoding="utf-8")
             with patch.object(NAV, "REPO", root), patch.object(NAV, "MARKETPLACE", marketplace), patch.object(
                 NAV, "standalone_kinds", return_value=("werkstatt",)
-            ), patch.object(NAV, "formats", return_value=("md",)), patch.object(
+            ), patch.object(NAV, "formats", return_value=formats), patch.object(
                 NAV, "markdown_tokens", wraps=NAV.markdown_tokens
             ) as parse:
                 errors = []
@@ -215,6 +246,11 @@ class GeneratedNavigationTests(unittest.TestCase):
 
     def links(self, prefix):
         return " · ".join(f"[Ziel {index}]({prefix}{target})" for index, target in enumerate(self.targets))
+
+    def test_catalog_still_requires_every_format_from_profile(self):
+        errors, _ = self.validate_navigation(self.links("../"), formats=("md", "txt"))
+        self.assertEqual(len(errors), 1)
+        self.assertIn("demo/demo-werkstatt.txt", errors[0])
 
     def test_relative_and_canonical_navigation_are_equivalent(self):
         for prefix in ("../", self.canonical):
@@ -306,6 +342,8 @@ class DownloadNoticeTests(unittest.TestCase):
             '<a href="alle-testakten-einzelpdfs.zip">Einzel-PDFs</a>\n</p>\n',
             '> [Sammelpaket](alles-komplettpaket.zip)\n',
             '[PDF](<testakte/gesamt-pdf/testakte_gesamt.pdf> "Lesefassung")\n',
+            '[Posteingang](lebensakte-arbeitsrecht-muster-uferwerk-berufung.zip)\n',
+            '[Lesefassungen](lesepaket-02.zip)\n',
         )
         for group in groups:
             with self.subTest(group=group):
@@ -390,6 +428,7 @@ class DownloadNoticeTests(unittest.TestCase):
         paths = set(download_readmes(ROOT))
         for relative in (
             "README.md", "ASSET_INDEX.md", "testakten/README.md", "mietrecht/README.md",
+            "docs/grundakten-lebenswelt/README.md",
             "gerichtsplugins/richter-landgericht-strafkammer/README.md",
             "arbeitszeugnispruefer/testakte/arbeitszeugnis-analyse-bluehendes-leben/README.md",
         ):
@@ -467,6 +506,68 @@ class NavigationTests(unittest.TestCase):
             '## Überblick\n'
         )
         self.assertEqual(self.anchors(text), {"überblick", "überblick-1", "echt", "alt"})
+
+    def test_heading_slugs_preserve_literal_underscores_and_reserve_collisions(self):
+        text = "# `ein_fall`\n\n## **A**\n\n## A-1\n\n## A\n"
+        self.assertEqual(self.anchors(text), {"ein_fall", "a", "a-1", "a-2"})
+
+    def test_html_images_and_repository_urls_resolve_in_their_own_context(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            nested = root / "teil"
+            nested.mkdir()
+            (nested / "bild.png").touch()
+            (nested / "Ziel eins.md").write_text("# Ziel\n", encoding="utf-8")
+            (nested / "README.md").write_text(
+                '# Teil\n\n[Link](/teil/Ziel%20eins.md#ziel)\n\n'
+                '<a href="Ziel%20eins.md#falsch">Fehler</a>\n\n'
+                '<img src="bild.png">\n\n![Bild](fehlt.png)\n\n'
+                '[Quelle](Ziel%20eins.md#L1) und [falsche Zeile](Ziel%20eins.md#L1-L10)\n\n'
+                f'[Quelle]({NAV.CANONICAL_REPO_BLOB_BASE}teil/Ziel%20eins.md#falsch)\n\n'
+                f'[Download]({NAV.DOWNLOAD_BASE}teil/fehlt.md)\n', encoding="utf-8"
+            )
+            with patch.object(NAV, "REPO", root):
+                errors = []
+                self.assertEqual(NAV.validate_markdown_links(errors), (8, 5))
+                self.assertEqual(len(errors), 5)
+                for target in ("Ziel%20eins.md#falsch", "fehlt.png", "Ziel%20eins.md#L1-L10",
+                               NAV.CANONICAL_REPO_BLOB_BASE + "teil/Ziel%20eins.md#falsch",
+                               NAV.DOWNLOAD_BASE + "teil/fehlt.md"):
+                    self.assertTrue(any(line.endswith(": " + target) for line in errors), target)
+
+    def test_active_plugin_downloads_follow_routes_but_preserve_historical_record(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            old = NAV.RELEASE_BASE + "/download/frueher/demo.zip"
+            latest = NAV.RELEASE_BASE + "/latest/download/demo.zip"
+            current = NAV.RELEASE_BASE + "/download/neu/demo.zip"
+            sources = {
+                "plugin/skills/README.md": f'[Installieren]({latest})\n\n<a href="{old}">Paket</a>',
+                "detail.md": f"[Plugin]({current}?download=1)\n\n[Belege]({old.replace('demo.zip', 'belege.zip')})",
+                "docs/releases/frueher.md": f"[Paket des damaligen Releases]({old})",
+            }
+            for name, content in sources.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("# Downloads\n\n" + content)
+            with patch.object(NAV, "REPO", root):
+                errors = []
+                NAV.validate_markdown_links(errors, {"demo.zip": current})
+            self.assertEqual(len(errors), 2)
+            for destination in (old, latest):
+                self.assertTrue(any("plugin/skills/README.md" in line and destination in line for line in errors))
+
+    def test_pages_and_raw_urls_point_at_published_sources(self):
+        source = NAV.REPO / "teil" / "README.md"
+        pages = "https://klotzkette.github.io/claude-fuer-deutsches-recht/"
+        raw = "https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/"
+        self.assertEqual(NAV.internal_link(source, raw + "main/teil/README.md"), (source, ""))
+        self.assertIsNone(NAV.internal_link(source, raw + "v1/teil/README.md"))
+        self.assertEqual(NAV.internal_link(source, pages + "downloads/teil/README.md"), (source, ""))
+        self.assertEqual(NAV.internal_link(source, pages),
+                         (NAV.REPO / "uebersicht-fachanwaltschaften/index.html", ""))
+        with self.assertRaisesRegex(ValueError, "unzulässiges Markdown-Downloadziel"):
+            NAV.internal_link(source, pages + "download.html?projekt=teil")
 
     def test_nested_long_and_unclosed_fences_do_not_create_targets(self):
         for code in (
@@ -606,64 +707,55 @@ class NavigationTests(unittest.TestCase):
             with self.subTest(target=target):
                 self.assertTrue(NAV.is_markdown_download_target(target))
 
-    def test_txt_downloads_require_exact_registered_source_and_enabled_variant(self):
-        with tempfile.TemporaryDirectory() as directory:
-            market = Path(directory) / 'marketplace.json'
-            market.write_text(json.dumps({'plugins': [
-                {'name': 'bea-versand', 'source': './versand/bea-versand'},
-                {'name': 'mietrecht', 'source': './mietrecht'},
-            ]}), encoding='utf-8')
-            with patch.object(NAV, 'MARKETPLACE', market):
-                self.assertTrue(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
-                for target in (
-                    'bea-versand/bea-versand-werkstatt.txt',
-                    'fremd/bea-versand-werkstatt.txt',
-                    'versand/bea-versand/fremd-werkstatt.txt',
-                    'versand/bea-versand/bea-versand-schnellstart.txt',
-                    'versand/bea-versand/bea-versand-hauptproblem.txt',
-                    'versand/bea-versand/references/quellen.txt',
-                    'mietrecht/mietrecht-werkstatt.txt',
-                    '../versand/bea-versand/bea-versand-werkstatt.txt',
-                    '/versand/bea-versand/bea-versand-werkstatt.txt',
-                    'versand/bea-versand/bea-versand-werkstatt.txt?raw=1',
-                    'versand/bea-versand/bea-versand-werkstatt.docx',
-                    'versand/bea-versand/bea-versand-werkstatt.pdf',
-                ):
-                    with self.subTest(target=target):
-                        self.assertFalse(NAV.is_markdown_download_target(target))
-                with patch.object(NAV, 'formats', return_value=('md',)):
-                    self.assertFalse(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
-                market.write_text('{"plugins": []}', encoding='utf-8')
-                self.assertFalse(NAV.is_markdown_download_target('versand/bea-versand/bea-versand-werkstatt.txt'))
+    def test_pages_accepts_additional_and_nested_txt_prompt_copies(self):
+        for target in (
+            "bea-versand/bea-versand-werkstatt.txt",
+            "datenschutzrecht/datenschutzrecht-schnellstart.txt",
+            "ki-vo-ai-act-pruefer/ki-vo-ai-act-pruefer-hauptproblem.txt",
+            "insolvenzsachbearbeitung/prompts/verbraucherinsolvenz/verbraucherinsolvenz-werkstatt.txt",
+        ):
+            with self.subTest(target=target):
+                self.assertTrue((ROOT / target).is_file())
+                self.assertTrue(NAV.is_markdown_download_target(target))
 
-    def test_actual_download_validator_accepts_configured_txt_and_rejects_other_txt(self):
+    def test_download_validator_checks_presence_and_type_of_txt(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory).resolve()
-            (root / 'uebersicht-fachanwaltschaften').mkdir()
-            (root / 'uebersicht-fachanwaltschaften/download.html').write_text('downloads/${encodedPath}; download.click()', encoding='utf-8')
-            (root / '.github/workflows').mkdir(parents=True)
-            (root / '.github/workflows/pages.yml').write_text("-name '*.md'\n_site/downloads\npath: ./_site\n", encoding='utf-8')
-            market = root / 'marketplace.json'
-            market.write_text(json.dumps({'plugins': [{'name': 'bea-versand', 'source': './bea-versand'}]}), encoding='utf-8')
-            (root / 'bea-versand').mkdir()
-            readme = root / 'README.md'
-            with patch.object(NAV, 'REPO', root), patch.object(NAV, 'MARKETPLACE', market), patch.object(NAV, 'user_facing_download_docs', return_value=[readme]):
-                for target, allowed in (('bea-versand/bea-versand-werkstatt.txt', True), ('bea-versand/bea-versand-schnellstart.txt', False), ('bea-versand/intern.txt', False)):
+            (root / "uebersicht-fachanwaltschaften").mkdir()
+            (root / "uebersicht-fachanwaltschaften/download.html").write_text(
+                "downloads/${encodedPath}; download.click()", encoding="utf-8"
+            )
+            (root / ".github/workflows").mkdir(parents=True)
+            (root / ".github/workflows/pages.yml").write_text(
+                "-name '*.md'\n_site/downloads\npath: ./_site\n", encoding="utf-8"
+            )
+            (root / "prompts").mkdir()
+            (root / "prompts/fall-werkstatt.txt").write_text("Arbeitsauftrag", encoding="utf-8")
+            (root / "prompts/intern.txt").write_text("Interne Notiz", encoding="utf-8")
+            readme = root / "README.md"
+            with patch.object(NAV, "REPO", root), patch.object(NAV, "user_facing_download_docs", return_value=[readme]):
+                for target, expected_error in (
+                    ("prompts/fall-werkstatt.txt", None),
+                    ("prompts/fehlender-schnellstart.txt", "Markdown-Downloadziel fehlt"),
+                    ("prompts/intern.txt", "unzulässiges Markdown-Downloadziel"),
+                ):
                     with self.subTest(target=target):
-                        (root / target).write_text('Vorhandene Textdatei.', encoding='utf-8')
-                        readme.write_text(f'# Download\n\n[Text herunterladen]({NAV.DOWNLOAD_BASE}{target})\n', encoding='utf-8')
+                        readme.write_text(f"# Download\n\n[Text]({NAV.DOWNLOAD_BASE}{target})\n", encoding="utf-8")
                         errors = []
                         self.assertEqual(NAV.validate_markdown_downloads(errors), 1)
-                        if allowed:
-                            self.assertEqual(errors, [])
-                        else:
+                        if expected_error:
                             self.assertEqual(len(errors), 1)
-                            self.assertIn('unzulässiges Markdown-Downloadziel', errors[0])
+                            self.assertIn(expected_error, errors[0])
+                        else:
+                            self.assertEqual(errors, [])
 
     def test_download_targets_reject_unsafe_or_unsupported_paths(self):
         for target in (
-            "../README.md", "/README.md", "plugin/../../README.md",
-            ".git/README.md", "https://example.org/file.md", "datei.pdf",
+            "../README.md", "/README.md", "plugin/../../README.md", "plugin/./README.md", "plugin//README.md",
+            ".git/README.md", "https://example.org/file.md", "datei.pdf", ".md",
+            "../auftrag-werkstatt.txt", "/auftrag-werkstatt.txt", ".git/auftrag-werkstatt.txt",
+            "foo/./auftrag-werkstatt.txt", "foo//auftrag-werkstatt.txt", "auftrag-werkstatt.txt?raw=1",
+            "foo/auftrag-werkstatt.docx", "foo/auftrag-werkstatt.pdf", "foo/intern.txt",
             "plugin\\datei.md", "plugin/datei.md?raw=1", "plugin/Übersicht.md",
         ):
             with self.subTest(target=target):
