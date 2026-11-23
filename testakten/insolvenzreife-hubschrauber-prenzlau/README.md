@@ -17,6 +17,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzreife-hubschrauber-prenzlau.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzreife-hubschrauber-prenzlau.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzreife-hubschrauber-prenzlau_gesamt.pdf`](gesamt-pdf/insolvenzreife-hubschrauber-prenzlau_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzreife-hubschrauber-prenzlau.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-hubschrauber-prenzlau.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzreife-hubschrauber-prenzlau-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-hubschrauber-prenzlau-einzelpdfs.zip) |
@@ -26,6 +27,16 @@ Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF st
 English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
+
+## Workshop mit späterem Belegeingang
+
+Die Frühschicht und die Firmenkasse melden am selben Morgen unterschiedliche verfügbare Beträge für dasselbe Konto. Prüfen Sie zuerst die vorhandenen Auszüge und die Sicherungsabrede. Öffnen Sie anschließend die Korrespondenz, das Dispositionsjournal und das Schichtbuch im Ordner `Nachlieferung`. Ermitteln Sie den nach der Tagesdisposition am 18. Mai verfügbaren Betrag und verfolgen Sie das Buchguthaben getrennt im Vermögensstatus.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Vollständige Originalakte mit getrennter Nachlieferung herunterladen](https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/docs/workshops/insolvenzreife-nachlieferungen/downloads/hubschrauber-prenzlau-mit-nachlieferung.zip)
 
 ## 1. Arbeitsauftrag
 

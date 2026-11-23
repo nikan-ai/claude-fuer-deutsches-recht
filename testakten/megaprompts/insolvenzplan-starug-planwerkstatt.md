@@ -1,5 +1,9 @@
 # Vollprüfung: insolvenzplan-starug-planwerkstatt
 
+Prüfe, ob Finanzierung, Gruppen und Vergleichsrechnung die versprochenen Planwirkungen tragen. Verbinde Forderungskürzungen, Stundungen und Sicherungseingriffe zu dem bestellten Planmodul, vollständigen Plan oder Gläubigerschreiben. Eine begrenzte Vergleichsrechnung verlangt kein ungefragtes Gesamtpaket.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 58 Skills des Plugins `insolvenzplan-starug-planwerkstatt`.
@@ -8,19 +12,19 @@ Diese Vollprüfung enthält top-15 von 58 Skills des Plugins `insolvenzplan-star
 
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Insolvenzplan StaRUG Planwerkstatt ein juristisches Arbeitsprodukt tragfähig begründet werden…
 2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
-3. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
-4. **kaltstart-interview** — Für Kaltstart-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem …
-5. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-6. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-7. **minderheitenschutz-planbetroffene** — Für Minderheitenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt…
-8. **workflow-chronologie-und-belegmatrix** — Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix…
-9. **sanierungskonzept-starug-spezial-teil** — Für Sanierungskonzept: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und Gegenargument; E…
-10. **output-waehlen** — Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fac…
-11. **workflow-unterlagen-lueckenliste** — Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fac…
-12. **workflow-fristen-und-risikoampel** — Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachge…
-13. **unterlagen-luecken** — Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebie…
-14. **dokumente-intake** — Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet:…
-15. **gestaltender-zahlen-schwellen-und-berechnung** — Für Gestaltender: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungs…
+3. **gestaltender-teil** — Formuliert bestimmte Rechtsänderungen im Insolvenz- oder Restrukturierungsplan. Prüft bei Planabtretungen gesondert Über…
+4. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
+5. **kaltstart-interview** — Für Kaltstart-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem …
+6. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+7. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+8. **minderheitenschutz-planbetroffene** — Für Minderheitenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt…
+9. **workflow-chronologie-und-belegmatrix** — Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix…
+10. **sanierungskonzept-starug-spezial-teil** — Für Sanierungskonzept: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und Gegenargument; E…
+11. **output-waehlen** — Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fac…
+12. **workflow-unterlagen-lueckenliste** — Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fac…
+13. **workflow-fristen-und-risikoampel** — Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachge…
+14. **unterlagen-luecken** — Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. Fachgebie…
+15. **dokumente-intake** — Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet:…
 
 ---
 
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Insolvenzplan StaRUG Planwerkstatt ein juristisches 
 
 ## 1. Direktstart
 
-Arbeite als Insolvenzrechtlicher Bearbeiter für Krisenfrüherkennung, Insolvenzantrag, Forderungsanmeldung, Anfechtung, Plan und Sanierung.
+Ordne Sanierungsvorschlag, betroffene Rechte, Gruppen und Vergleichsrechnung. Führe die tragenden Zahlen und Belege in den verlangten Planentwurf oder Prüfvermerk.
 
-Pluginauftrag: Freistehendes Plugin für Insolvenzplan und StaRUG-Restrukturierungsplan: Intake, Sanierungskonzept, Vergleichsrechnung, Gruppen, Klassen, darstellender und gestaltender Teil, Anlagen, Abstimmung, Cram-down, Minderheitenschutz, Gericht und Planvollzug.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Sanierungsmoderation Paragraf 94 StaRUG: Bearbeite den Fachpunkt im Skill sanierungsmoderation-94-starug und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Cram-down und Obstruktion: Bearbeite den Fachpunkt im Skill cramdown-obstruktion-datenraum-register und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Datenraum und Dokumentenregister: Bearbeite den Fachpunkt im Skill datenraum-register und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Gestaltender: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill gestaltender-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Sanierungsmoderation Paragraf 94 StaRUG](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzplan-starug-planwerkstatt/skills/sanierungsmoderation-94-starug/FACHINHALT.md)
+3.1.2. [Cram-down und Obstruktion](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzplan-starug-planwerkstatt/skills/cramdown-obstruktion-datenraum-register/FACHINHALT.md)
+3.1.3. [Datenraum und Dokumentenregister](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzplan-starug-planwerkstatt/skills/datenraum-register/FACHINHALT.md)
+3.1.4. [Gestaltender: Zahlen, Schwellenwerte und Berechnung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzplan-starug-planwerkstatt/skills/gestaltender-zahlen-schwellen-und-berechnung/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -183,6 +187,60 @@ Dieser Einstieg routet **Insolvenzplan Starug Planwerkstatt** vom ersten Sachver
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+---
+
+## Skill: `gestaltender-teil`
+
+_Formuliert bestimmte Rechtsänderungen im Insolvenz- oder Restrukturierungsplan. Prüft bei Planabtretungen gesondert Übertragungsgrund, Treuhandauftrag und Vergütung sowie die Grenzen möglicher Mandatsnichtigkeit._
+
+# Gestaltenden Plantext und Forderungsübertragung prüfen
+
+## 1. Zweck und Anwendungsfall
+
+Erstelle oder prüfe den beauftragten gestaltenden Teil. Jede Rechtsänderung braucht betroffene Position, Inhaber, Betrag oder Berechnung, Zeitpunkt, Bedingung und Rechtsfolge. Sanierungsziel und Darstellung ersetzen die operative Planklausel nicht. Insolvenzplan und StaRUG-Plan bleiben unterschiedliche Verfahren.
+
+## 2. Eingaben
+
+Lies Planfassung, Forderungs-/Sicherheitenübersicht, Gruppen, Finanzierung, Vergleichsrechnung und Anlagen. Bei Treuhand oder Forderungseinzug zusätzlich vollständigen Plantext, Bestätigungs- und Rechtskraftnachweis, Abtretungserklärungen samt Rechtsgrund, Treuhand-/Inkassoauftrag und Vergütungsvereinbarung anfordern, soweit sie fehlen. Rolle, Vorbefassung und zeitliche Abfolge von Bestellung, Mandat und Abtretung feststellen.
+
+## 3. Ablauf
+
+### 3.1. Rechtsänderung und Vollzug bestimmen
+
+Verfahrensart und Gestaltbarkeit nach Paragrafen 217 ff. InsO beziehungsweise Paragrafen 2 ff. StaRUG prüfen. Kürzung, Stundung, Erlass, Sicherheitenänderung und Planbedingungen je Rechtsposition formulieren. Gruppen und Gleichbehandlung mit dem tatsächlichen Eingriff abgleichen; keine Eingriffsbefugnis allein aus einer Mehrheitsprognose ableiten.
+
+Drittzusagen, Treuhänder, Vollmachten und notwendige Umsetzungsakte getrennt erfassen. Bestimmtheit, Vollstreckbarkeit und Form prüfen. Zahlen und Zahlungstermine mit Finanzierung und maßgeblicher Vergleichsalternative abstimmen; nicht stets Liquidation als einzige Alternative unterstellen. Bestehende Arbeitsergebnisse verwenden, keine ungefragte neue Krisenaufnahme.
+
+### 3.2. Planabtretung ist nicht gleich Inkassomandat
+
+[BGH, Beschluss vom 16.07.2026 - Az. IX ZR 71/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2025/IX_ZR__71-25.pdf?__blob=publicationFile&v=1), amtlicher Volltext Rn. 8 bis 18: Der entgeltliche Einziehungsauftrag an den Sachwalter oder seine Berufsausübungsgesellschaft kann wegen Paragraf 45 BRAO beziehungsweise Insolvenzzweckwidrigkeit unwirksam sein. Ob dies im Streitfall zutraf, blieb offen. Die dortige Abtretung im gestaltenden Insolvenzplanteil wurde davon nicht erfasst.
+
+Entscheidend waren getrennte Grundlagen: Der Auftrag vermittelte keinen Anspruch auf Abtretung; die Zession erfolgte nicht zu dessen Erfüllung. Sie diente der Realisierung von Mitteln für planberechtigte Gläubiger unter einem Besserungsschein und war nicht für sich insolvenzzweckwidrig (Rn. 17 und 18, Paragraf 228 InsO). Eine InsVV-orientierte Vergütung war damit nicht automatisch wirksam.
+
+Prüfe das Gegenbild aus Rn. 16: Eine insolvenzzweckwidrige Verpflichtung kann auch das zu ihrer Erfüllung vorgenommene Verfügungsgeschäft erfassen. Außerdem grenzt Rn. 13 eine auf unerlaubte Rechtsdienstleistung zielende Abtretung ab. Keine allgemeine Aussage „Planabtretungen bleiben immer wirksam“ und kein allgemeines Freistellen anwaltlicher Inkassotreuhand.
+
+### 3.3. Nachforderung verändert das Votum
+
+Fehlt der Übertragungsgrund, frage ausdrücklich, ob die Abtretung aus dem gestaltenden Teil folgt oder einen Anspruch aus der Treuhand-/Vergütungsvereinbarung erfüllt. Nach Eingang genau diese Verknüpfung neu bewerten. Paragrafen 134 und 398 BGB, 228 InsO sowie 45 BRAO jeweils anhand der maßgeblichen Handlung und Normfassung prüfen. Die im Beschluss zitierte Nummer 1 nicht ungeprüft als heutigen Tatbestand verwenden; Vorbefassung, Mandatszeitpunkt, Erstreckung auf die Gesellschaft und Übergangsrecht gesondert bestimmen.
+
+Liefere nach Auftrag ein getrenntes Votum zu Forderungsinhaberschaft und Mandats-/Vergütungswirksamkeit, eine abgestimmte Planklausel oder die beauftragte Einziehungsverteidigung. Materielle Forderungseinwendungen gesondert behandeln. Aus dem Beschluss über die Nichtzulassungsbeschwerde keine unmittelbar geltende StaRUG-Regel ableiten. Eine wirksame Abtretung ersetzt keine Vergütungsfreigabe und keine Befugnis zur externen Einziehung.
+
+## 4. Quellenpflicht
+
+Amtlicher Volltext IX ZR 71/25 am 16.10.2026 gelesen, Rn. 8 bis 18; ausdrücklich Beschluss, nicht Urteil. Normen zur konkreten Planwirkung und zum Vollzug prüfen, insbesondere [Paragraf 228 InsO](https://www.gesetze-im-internet.de/inso/__228.html) und [Paragraf 45 BRAO](https://www.gesetze-im-internet.de/brao/__45.html). Der heutige Normtext ist kein Nachweis der damals anwendbaren Fassung.
+
+[Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzplan-starug-planwerkstatt/references/repository/references/zitierweise.md) beachten. Keine ungelesenen Literaturstellen aus dem Beschluss als eigene Nachweise übernehmen. Quellenstatus, Gegenargument und offene Fassungsprüfung getrennt vom Plan- oder Gläubigertext dokumentieren.
+
+## 5. Ausgabeformat
+
+Vollständig ausformulierter gestaltender Teil oder beauftragtes Wirksamkeitsvotum; eine Klauselmatrix und Umsetzungsliste nur als benötigte Ergänzung. Abtretung, Einziehungsbefugnis, Treuhandpflichten und Vergütung müssen als unterschiedliche Rechtsfragen erkennbar bleiben. Kein leerer Klauselrumpf und keine bloße „rechtssichere Abtretung“ als Ergebnis.
+
+Ausformulierungspflicht: vollständige Sätze, keine Skelette, Halbsätze oder reinen Aufzählungen. Times New Roman 11 pt und ausschließlich dezimale Gliederung bei formatierten Dokumenten; sonst separater Exporthinweis. Planvorlage, Gläubigerzusage, Stimmabgabe, Einziehung und Zahlung erst nach konkreter Freigabe.
+
+## 6. Beispiel
+
+Die Kanzlei des Sachwalters soll nach Planbestätigung Forderungen einziehen und nach InsVV vergütet werden. Der Drittschuldner bestreitet allein wegen Paragraf 45 BRAO die Forderungsinhaberschaft. Lies Plan und Vergütungsvertrag, bevor du antwortest. Zeigt der nachgereichte Auftrag einen eigenständigen Abtretungsanspruch, prüfe gerade den möglichen Unterschied zu Rn. 17; weder pauschal abweisen noch ohne Prüfung bezahlen.
 
 ---
 
@@ -866,62 +924,9 @@ Dieser Dokumenten-Intake für **Insolvenzplan Starug Planwerkstatt** ordnet Anla
 
 ---
 
-## Skill: `gestaltender-zahlen-schwellen-und-berechnung`
-
-_Für Gestaltender: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen._
-
-# Gestaltender: Zahlen, Schwellenwerte und Berechnung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270; StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Insolvenz- und Sanierungsrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gestaltender: Zahlen, Schwellenwerte und Berechnung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
-- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Spezialwissen: Gestaltender: Zahlen, Schwellenwerte und Berechnung
-- **Normen-/Quellenanker:** StaRUG.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Gestaltender** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
-## Schwellenwerte und Mehrheiten — Plan-Abstimmung
-- **Insolvenzplan § 244 InsO:** In jeder Gruppe Kopfmehrheit (Mehrzahl der abstimmenden Gläubiger) UND Summenmehrheit (mehr als 50 % der Forderungssummen) — beide Voraussetzungen kumulativ.
-- **StaRUG § 25 Abs. 1 StaRUG:** Mindestens 75 % der Summen je Klasse; keine Kopfmehrheit erforderlich (Stand prüfen, Klassenmehrheit Summen-only ist Kernunterschied zur InsO).
-- **Vergleichsrechnung-Schwellen:** Plan-Quote muss in jeder Gruppe mindestens dem entsprechen, was im Regelinsolvenzverfahren (InsO § 220 Abs. 2) bzw. ohne Plan (StaRUG § 7) zu erwarten wäre.
-- **Best-Interest-Test bei Cram-Down:** Jede ablehnende Gruppe bzw. jeder ablehnende Beteiligte hat Anspruch auf mindestens die Vergleichsquote (§ 245 Abs. 1 Nr. 1 InsO; § 26 Abs. 1 Nr. 1 StaRUG).
-- **Klassenbildungsregel:** Wirtschaftlich vergleichbare Forderungen in eine Klasse (§ 222 Abs. 2 InsO; § 9 StaRUG); Aufspaltung muss sachlich gerechtfertigt sein und darf keinen reinen Mehrheits-Engineering bezwecken.
-- **Stimmrecht bestrittener Forderungen:** Im Termin entscheidet das Gericht über das Stimmrecht (§ 77 InsO sinngemäß; § 24 StaRUG); Vorbereitung mit Stimmrechtsantrag empfohlen.
-- **Praxis:** Mindestens zwei Mehrheitsszenarien (best/worst) durchrechnen; bei Mindestschwellen sollte der Plan idR 10–15 % Sicherheitspuffer über der Schwelle liegen.
-
----
-
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -938,7 +943,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** nachrechenbare Berechnung mit begründetem Befund und dem bestellten Bericht oder Anspruchsschreiben. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

@@ -1,5 +1,9 @@
 # Vollprüfung: aktenauszug-gerichtsverfahren
 
+Rekonstruiere aus Schriftsätzen, Anlagen und Protokollen, was die Beteiligten zuletzt beantragt und behauptet haben, welche Beweise tatsächlich erhoben wurden und welcher Verfahrensschritt ansteht. Formuliere daraus den neutralen Aktenauszug für Einarbeitung, Übergabe oder Termin. Eine Klage, Prozessstrategie, Relation oder Urteilsfassung bedarf eines entsprechenden Auftrags.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `aktenauszug-gerichtsverfahren`.
@@ -7,17 +11,17 @@ Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `aktenauszug-gerich
 ## Inhaltsverzeichnis
 
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Aktenauszug Gerichtsverfahren ein juristisches Arbeitsprodukt tragfähig begründet werden muss…
-2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+2. **einstieg-routing** — Für einen angeforderten Aktenauszug: führt Parteivortrag, gerichtliche Feststellungen und Beweismittel nach Streitfragen…
 3. **anwaltsschriftsatz-beweislast-beweismittel** — Für Anwaltsschriftsatz: Beweislast, Darlegungslast und Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen;…
 4. **verfahrensidentifikation** — Für Verfahrensidentifikation: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und Gegenargument…
 5. **rechtsargumente-internationaler-bezug-und-schnittstellen** — Für Rechtsargumente: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schn…
 6. **sachverhaltschronologie-textbausteine** — Für Sachverhaltschronologie: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; E…
 7. **verfahrenszusammenfassung-rechtsweg-register** — Für Verfahrenszusammenfassung: Behörden-, Gerichts- oder Registerweg: prüft Frist, Form, Zuständigkeit und Eilbedarf; Er…
-8. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
-9. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-10. **mandantenkommunikation-redteam-qualitygate-akzg** — Für Mandantenkommunikation: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristen…
-11. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-12. **workflow-redteam-qualitygate** — Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristench…
+8. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+9. **mandantenkommunikation-redteam-qualitygate-akzg** — Für Mandantenkommunikation: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristen…
+10. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+11. **workflow-redteam-qualitygate** — Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristench…
+12. **workflow-kaltstart-und-routing** — Für ungeordnete Gerichtsakten: bestimmt Verfahren und Bearbeitungsstand, ordnet Dateien und Fundstellen und sichert erke…
 13. **workflow-chronologie-und-belegmatrix** — Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix…
 14. **strukturierter-strafprozess-modus** — Für Strukturierter: Erstprüfung, Rollenklärung und Mandatsziel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prü…
 15. **gegenueberstellung-parteivortraege** — Für Gegenüberstellung: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfp…
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Aktenauszug Gerichtsverfahren ein juristisches Arbei
 
 ## 1. Direktstart
 
-Arbeite als Zivilprozessualer Bearbeiter für Klage, Erwiderung, Relation, Verfügung, Beschluss, Urteil, Anlagenmanagement und Vollstreckungsvorstufe mit Fokus auf Schlüssigkeit, Erheblichkeit, Beweis und Tenor.
+Ordne den Akteninhalt nach Prozessstand, Parteivortrag und Beweismitteln. Schreibe daraus den Aktenauszug, der die offenen Entscheidungsfragen sichtbar macht.
 
-Pluginauftrag: Strukturierter Aktenauszug für deutsche Gerichtsverfahren: Verfahrensidentifikation Einleitungssatz Verfahrenszusammenfassung Sachverhaltschronologie Verfahrensgeschichte tabellarische Gegenüberstellung der Parteivortraege Beweismittel und Rechtsargumente für schnelle Einarbeitung in Akten.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Erstellen: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill erstellen-fristennotiz-gerichtsverfahren und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Gerichtsverfahren: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill gerichtsverfahren-fristen-form-und-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. AkzG: Zeitstrahl-Checkliste: Bearbeite den Fachpunkt im Skill akzg-zeitstrahl-anlagenverzeichnis-extrakt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Anlagenverzeichnis-Extrakt: Bearbeite den Fachpunkt im Skill anlagenverzeichnis-extrakt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Erstellen: Fristennotiz und nächster Schritt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/aktenauszug-gerichtsverfahren/skills/erstellen-fristennotiz-gerichtsverfahren/FACHINHALT.md)
+3.1.2. [Gerichtsverfahren: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/aktenauszug-gerichtsverfahren/skills/gerichtsverfahren-fristen-form-und-zustaendigkeit/FACHINHALT.md)
+3.1.3. [AkzG: Zeitstrahl-Checkliste](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/aktenauszug-gerichtsverfahren/skills/akzg-zeitstrahl-anlagenverzeichnis-extrakt/FACHINHALT.md)
+3.1.4. [Anlagenverzeichnis-Extrakt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/aktenauszug-gerichtsverfahren/skills/anlagenverzeichnis-extrakt/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -147,39 +151,38 @@ Ausgangspunkt für dieses Plugin: Kläger für schlüssigen Vortrag und Beweisan
 
 ## Skill: `einstieg-routing`
 
-_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: aktenauszug-gerichtsverfahren._
+_Für einen angeforderten Aktenauszug: führt Parteivortrag, gerichtliche Feststellungen und Beweismittel nach Streitfragen zusammen; liefert einen fundstellengenauen Auszug mit offenen Punkten._
 
-# Einstieg und Routing
+# Aktenauszug nach Streitfragen erstellen
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Aktenauszug Gerichtsverfahren** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
-
-## Fachlandkarte dieses Plugins
-
-- `akten-mandantenkommunikation-entscheidungsvorlage` — Akten Mandantenkommunikation Entscheidungsvorlage
-- `aktenauszug-erstellen` — Aktenauszug Erstellen
-- `aktenauszug-strukturpruefung-akzg-bauleiter` — Aktenauszug Strukturpruefung Akzg Bauleiter
-- `aktenauszug-tatbestand-beweis-und-belege` — Aktenauszug Tatbestand Beweis und Belege
-- `aktenauszug-verfahrensidentifikation-gericht` — Aktenauszug Verfahrensidentifikation Gericht
-- `akzg-aktenauszug-bauleiter` — Akzg Aktenauszug Bauleiter
-- `akzg-multiparteienverfahren-konsolidierung-spezial` — Akzg Multiparteienverfahren Konsolidierung Spezial
-- `akzg-vertraulichkeit-redaction-spezial` — Akzg Vertraulichkeit Redaction Spezial
-- `akzg-zeitstrahl-anlagenverzeichnis-extrakt` — Akzg Zeitstrahl Anlagenverzeichnis Extrakt
-- `anlagenverzeichnis-extrakt` — Anlagenverzeichnis Extrakt
-- `anwaltsschriftsatz-beweislast-beweismittel` — Anwaltsschriftsatz Beweislast Beweismittel
-- `anwaltsschriftsatz-stilrichtlinie` — Anwaltsschriftsatz Stilrichtlinie
-- `arbeitsgerichtsverfahren-modus-terminkalender` — Arbeitsgerichtsverfahren Modus Terminkalender
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+Erstelle den angeforderten Aktenauszug nach Streitfragen. Stelle Behauptungen, Feststellungen und Beweise mit ihren genauen Fundstellen gegenüber.
 
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Aktenauszug Gerichtsverfahren sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Bestimme Gericht, Instanz, Aktenzeichen, vertretene Partei und den Zweck des Auszugs aus den Unterlagen. Trenne parallel geführte Verfahren.
+2. Verzeichne Dokumentdatum, Eingang oder Zustellung, Urheber, Blatt beziehungsweise Datei und Seite. Ermittle fehlende Anlagen und Fassungswidersprüche.
+3. Ordne jede Streitfrage nach Vortrag beider Seiten, gerichtlicher Feststellung und Beweis. Eine behauptete Tatsache bleibt als Behauptung erkennbar.
+4. Erstelle den bestellten Auszug mit Fundstellen und gesonderter Fristennotiz. Bei nachgereichten Dokumenten die betroffene Streitfrage und Chronologie fortschreiben.
+
+## Fachlandkarte dieses Plugins
+
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: akten-mandantenkommunikation-entscheidungsvorlage) — Akten Mandantenkommunikation Entscheidungsvorlage
+- `prozessroute-bearbeiten` (Fachthema: aktenauszug-erstellen) — Aktenauszug Erstellen
+- `prozessroute-bearbeiten` (Fachthema: aktenauszug-strukturpruefung-akzg-bauleiter) — Aktenauszug Strukturpruefung Akzg Bauleiter
+- `beweis-bearbeiten` (Fachthema: aktenauszug-tatbestand-beweis-und-belege) — Aktenauszug Tatbestand Beweis und Belege
+- `prozessroute-bearbeiten` (Fachthema: aktenauszug-verfahrensidentifikation-gericht) — Aktenauszug Verfahrensidentifikation Gericht
+- `prozessroute-bearbeiten` (Fachthema: akzg-aktenauszug-bauleiter) — Akzg Aktenauszug Bauleiter
+- `prozessroute-bearbeiten` (Fachthema: akzg-multiparteienverfahren-konsolidierung-spezial) — Akzg Multiparteienverfahren Konsolidierung Spezial
+- `prozessroute-bearbeiten` (Fachthema: akzg-vertraulichkeit-redaction-spezial) — Akzg Vertraulichkeit Redaction Spezial
+- `arbeitsprodukt-bearbeiten` (Fachthema: akzg-zeitstrahl-anlagenverzeichnis-extrakt) — Akzg Zeitstrahl Anlagenverzeichnis Extrakt
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagenverzeichnis-extrakt) — Anlagenverzeichnis Extrakt
+- `beweis-bearbeiten` (Fachthema: anwaltsschriftsatz-beweislast-beweismittel) — Anwaltsschriftsatz Beweislast Beweismittel
+- `prozessroute-bearbeiten` (Fachthema: anwaltsschriftsatz-stilrichtlinie) — Anwaltsschriftsatz Stilrichtlinie
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: arbeitsgerichtsverfahren-modus-terminkalender) — Arbeitsgerichtsverfahren Modus Terminkalender
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Qualitätsanker
 
@@ -364,55 +367,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `workflow-kaltstart-und-routing`
-
-_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: aktenauszug-gerichtsverfahren._
-
-# Kaltstart und Routing
-
-## Aufgabe
-Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
-
-## Kaltstart
-Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
-
-1. Wer fragt in welcher Rolle?
-2. Was ist das gewünschte Ergebnis?
-3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
-4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
-
-## Arbeitsworkflow
-1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
-2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
-3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
-4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
-
-## Routing-Heuristik Aktenauszug
-- Erstgericht-Akte → AG/LG/OLG/BGH; nach Instanz Schriftsätze, Protokolle, Beweisaufnahme separieren.
-- Tatbestand → § 313 ZPO Mindestinhalt; in Aktenauszug Sachverhaltsfeststellung gem. Tatbestand der Endentscheidung.
-- Beweisaufnahme → §§ 355 ff. ZPO; Zeugenvernehmungs-Protokolle (§ 159 ZPO) gesondert auswerten.
-- Verfahrensfehler → revisible (§§ 547, 543 ZPO) gegenüber nicht-revisiblen; absoluter Revisionsgrund § 547 ZPO (Besetzung, Recht auf Gehör).
-- Verbund Familiengericht → mehrere Folgesachen; § 137 FamFG; separierte Aktenauszüge sinnvoll.
-- Strafverfahren → Einbeziehung über § 397 StPO Nebenklage; Adhäsion §§ 403 ff. StPO.
-- Selbstständiges Beweisverfahren → §§ 485 ff. ZPO; eigenständige Aktenauszüge mit Sachverständigengutachten.
-
-## Praxis-Hinweis
-- Aktenauszug für Berufung sollte chronologisch + thematisch sortiert sein; Bezugnahmen auf Bl./Bd. der Akte zwingend (BGH-Praxis Substantiierung).
-
-## Output-Standard
-- Kurzbild: worum es geht, was gesichert ist, was offen ist.
-- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
-- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
-- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
-
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Unsicherheiten und Annahmen ausdrücklich markieren.
-
----
-
 ## Skill: `anschluss-routing`
 
 _Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: aktenauszug-gerichtsverfahren._
@@ -569,6 +523,58 @@ Dieser Arbeitsgang macht **Red-Team Qualitygate** im Bereich **aktenauszug-geric
 
 ---
 
+## Skill: `workflow-kaltstart-und-routing`
+
+_Für ungeordnete Gerichtsakten: bestimmt Verfahren und Bearbeitungsstand, ordnet Dateien und Fundstellen und sichert erkennbare Fristen vor der vertieften Auswertung._
+
+# Gerichtsakte erschließen und Fristen sichern
+
+## Aufgabe
+
+Erschließe die Gerichtsakte aus den vorliegenden Dateien. Halte Verfahren, Bearbeitungsstand, Dokumentfolge und dringende Fristen fest, bevor du einzelne Streitfragen vertiefst.
+
+## Noch benötigte Angaben
+
+Lies diese Angaben zunächst aus Auftrag und Material. Frage nur nach, soweit eine entscheidende Information fehlt:
+
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
+
+## Arbeitsablauf
+
+1. Bestimme Gericht, Instanz, Aktenzeichen, vertretene Partei und den Zweck des Auszugs aus den Unterlagen. Trenne parallel geführte Verfahren.
+2. Verzeichne Dokumentdatum, Eingang oder Zustellung, Urheber, Blatt beziehungsweise Datei und Seite. Ermittle fehlende Anlagen und Fassungswidersprüche.
+3. Ordne jede Streitfrage nach Vortrag beider Seiten, gerichtlicher Feststellung und Beweis. Eine behauptete Tatsache bleibt als Behauptung erkennbar.
+4. Erstelle den bestellten Auszug mit Fundstellen und gesonderter Fristennotiz. Bei nachgereichten Dokumenten die betroffene Streitfrage und Chronologie fortschreiben.
+
+## Routing-Heuristik Aktenauszug
+- Gericht und Instanz aus der konkreten Akte bestimmen; erstinstanzliche Unterlagen, Berufung und Revision getrennt ordnen. Aus dem Namen des Gerichts allein folgt keine feste Instanz.
+- Tatbestand → § 313 ZPO Mindestinhalt; in Aktenauszug Sachverhaltsfeststellung gem. Tatbestand der Endentscheidung.
+- Beweisaufnahme → §§ 355 ff. ZPO; Zeugenvernehmungs-Protokolle (§ 159 ZPO) gesondert auswerten.
+- Verfahrensfehler: Zulassung der Revision nach [§ 543 ZPO](https://www.gesetze-im-internet.de/zpo/__543.html), Revisionsgrund und Beruhen unterscheiden. [§ 547 ZPO](https://www.gesetze-im-internet.de/zpo/__547.html) enthält einzelne absolute Revisionsgründe, unter anderem die fehlerhafte Besetzung; nicht jede Verletzung rechtlichen Gehörs ist ein absoluter Revisionsgrund.
+- Verbund Familiengericht → mehrere Folgesachen; § 137 FamFG; separierte Aktenauszüge sinnvoll.
+- Strafverfahren → Einbeziehung über § 397 StPO Nebenklage; Adhäsion §§ 403 ff. StPO.
+- Selbstständiges Beweisverfahren → §§ 485 ff. ZPO; eigenständige Aktenauszüge mit Sachverständigengutachten.
+
+## Praxis-Hinweis
+- Aktenauszug für die Berufung nach Streitfragen und Chronologie ordnen. Jede tragende Angabe mit der verfügbaren Fundstelle belegen: Blatt/Band einer Papierakte oder eindeutige Datei/Seite einer elektronischen Akte. Daraus keine unbelegte allgemeine BGH-Formvorgabe ableiten.
+
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
+
+---
+
 ## Skill: `workflow-chronologie-und-belegmatrix`
 
 _Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix. Fachgebiet: aktenauszug-gerichtsverfahren._
@@ -675,10 +681,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -695,7 +698,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

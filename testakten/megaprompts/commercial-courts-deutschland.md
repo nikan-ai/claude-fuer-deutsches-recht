@@ -1,5 +1,9 @@
 # Vollprüfung: commercial-courts-deutschland
 
+Führe die Vertrags- und Prozessunterlagen zum beauftragten Forumvotum, Schriftsatz oder Organisationstermin. Prüfe nur offene Fragen dazu, ob der Wirtschaftsstreit vor den vorgesehenen Spruchkörper gehört; stehen Gericht und Sprache fest, arbeite an Anträgen, Einwendungen und Beweisen weiter.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `commercial-courts-deutschland`.
@@ -9,18 +13,18 @@ Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `commercial-courts-
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Commercial Courts Deutschland ein juristisches Arbeitsprodukt tragfähig begründet werden muss…
 2. **commercial-court-versandmappe-endfertigen** — Endfertigt deutsch- oder englischsprachige Commercial-Court-Schriftsätze: prüft Spruchkörper, Streitwert, Sprachvereinba…
 3. **kaltstart-triage** — Für Commercial Courts Deutschland — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mi…
-4. **commercial-court-kaltstart-interview** — Für Kaltstart-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem …
-5. **commercial-chamber-vs-commercial-court** — Für Commercial Chamber oder Commercial Court: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
-6. **forumwahl-court-glossary** — Für Forumwahl gegenüber Schiedsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
-7. **confidentiality-trade-contract-interpretation** — Für Confidentiality and Trade Secrets: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und n…
-8. **bilingual-client-board-briefing** — Für Bilingual Board Briefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- un…
-9. **mediation-settlement-window** — Für Mediation and Settlement Window: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näc…
-10. **shareholder-board-dispute** — Für Shareholder and Board Disputes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
-11. **contract-interpretation-de-en** — Für Contract Interpretation DE/EN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
-12. **pre-litigation-notice-and-standstill** — Für Pre-Litigation und Standstill: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
-13. **service-abroad-hague-eu** — Für Service Abroad: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nac…
-14. **zustandigkeit-119b-gvg-check** — Für Zuständigkeit und Eingangstor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
-15. **arbitration-clause-bea-erv** — Für Arbitration Clause Conflict: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächste…
+4. **bea-erv-english-pleadings** — Bereitet deutsche und englische Gerichtsschriftsätze für den elektronischen Rechtsverkehr vor: Sprachgrundlage, PDF-Anla…
+5. **commercial-court-kaltstart-interview** — Für Kaltstart-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem …
+6. **commercial-chamber-vs-commercial-court** — Für Commercial Chamber oder Commercial Court: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risik…
+7. **forumwahl-court-glossary** — Für Forumwahl gegenüber Schiedsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und …
+8. **confidentiality-trade-contract-interpretation** — Für Confidentiality and Trade Secrets: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und n…
+9. **bilingual-client-board-briefing** — Für Bilingual Board Briefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- un…
+10. **mediation-settlement-window** — Für Mediation and Settlement Window: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näc…
+11. **shareholder-board-dispute** — Für Shareholder and Board Disputes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und näch…
+12. **contract-interpretation-de-en** — Für Contract Interpretation DE/EN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
+13. **pre-litigation-notice-and-standstill** — Für Pre-Litigation und Standstill: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
+14. **service-abroad-hague-eu** — Für Service Abroad: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nac…
+15. **zustandigkeit-119b-gvg-check** — Für Zuständigkeit und Eingangstor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächs…
 
 ---
 
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Commercial Courts Deutschland ein juristisches Arbei
 
 ## 1. Direktstart
 
-Arbeite als Zivilprozessualer Bearbeiter für Klage, Erwiderung, Relation, Verfügung, Beschluss, Urteil, Anlagenmanagement und Vollstreckungsvorstufe mit Fokus auf Schlüssigkeit, Erheblichkeit, Beweis und Tenor.
+Prüfe aus Streitwert, Parteivereinbarung, Verfahrenssprache und Streitstoff, welcher Verfahrensweg in Betracht kommt. Entwirf die Klage, Erwiderung oder den Verfahrensvorschlag für den belegten Auftrag.
 
-Pluginauftrag: Commercial-Courts-Plugin für englischsprachige Wirtschaftsverfahren in Deutschland: Zuständigkeit, Wahlklauseln, Klage, Case Management, Beweis, Geheimnisschutz, Wortprotokoll/Transcript, Rechtsmittel, BGH, Kosten, Vollstreckung und bilingualer Schriftsatz-/Hearing-Workflow.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Arbitration Clause Conflict: Bearbeite den Fachpunkt im Skill arbitration-clause-bea-erv und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. beA/ERV: Bearbeite den Fachpunkt im Skill bea-erv-english-pleadings und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Statement of Claim: Bearbeite den Fachpunkt im Skill klageschrift-english-limitation-tolling und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Appeal and Revision: Bearbeite den Fachpunkt im Skill appeal-and-revision-614-zpo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Arbitration Clause Conflict](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/commercial-courts-deutschland/skills/arbitration-clause-bea-erv/FACHINHALT.md)
+3.1.2. [beA/ERV](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/commercial-courts-deutschland/skills/bea-erv-english-pleadings/FACHINHALT.md)
+3.1.3. [Statement of Claim](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/commercial-courts-deutschland/skills/klageschrift-english-limitation-tolling/FACHINHALT.md)
+3.1.4. [Appeal and Revision](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/commercial-courts-deutschland/skills/appeal-and-revision-614-zpo/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -246,6 +250,123 @@ Beginne mit Orientierung, nicht mit Lehrbuch. Prüfe zuerst, ob der Fall überha
 | Skill | Why now | Deliverable |
 | --- | --- | --- |
 | `...` | [...] | [...] |
+
+---
+
+## Skill: `bea-erv-english-pleadings`
+
+_Bereitet deutsche und englische Gerichtsschriftsätze für den elektronischen Rechtsverkehr vor: Sprachgrundlage, PDF-Anlagen, Signatur, Versandkontrolle und Vorgehen bei Störungen._
+
+# Englische Schriftsätze formgerecht elektronisch einreichen
+
+Bereite den konkreten Schriftsatz und sein Einreichungspaket vor. Kläre zuerst die laufende Frist, das zuständige Gericht und die zulässige Verfahrenssprache. Liefere anschließend den Schriftsatz, ein Anlagenverzeichnis und einen kurzen internen Versandvermerk mit Verantwortlichen und noch offenen Punkten. Ein technisch erfolgreicher Versand bestätigt weder die richtige Verfahrenssprache noch eine wirksame Signatur oder die sachliche Zuständigkeit.
+
+## 1. Auftrag und Frist klären
+
+Entnimm der Akte Gericht, Aktenzeichen, Parteien, Prozessbevollmächtigte, Streitgegenstand, Streitwert, Zustellungsdaten und die nächste Verfahrenshandlung. Frage nur nach entscheidenden Lücken; regelmäßig genügen diese fünf Punkte:
+
+1. Welcher Schriftsatz oder Antrag muss bis wann bei welchem Gericht eingehen?
+2. Welche Gerichtsstands- und Sprachvereinbarungen liegen vor, und ist bereits ein Spruchkörper befasst?
+3. Soll der gerichtliche Text deutsch oder englisch sein; welche Sprache braucht die interne Erläuterung?
+4. Welche Anlagen, früheren Schriftsätze und Übersetzungen sind vorhanden?
+5. Wer übernimmt Inhalt, Signatur, Versand und die Kontrolle der gerichtlichen Eingangsbestätigung?
+
+Leite die Frist aus dem konkreten Verfahren und dem belegten fristauslösenden Ereignis her. Bei einem neuen Verfahren sichere die Zuständigkeit einschließlich der einschlägigen Landesverordnung; bei laufendem Verfahren gleiche Gericht und Empfängerpostfach mit der Gerichtsakte ab. Die Bezeichnung „Commercial Court“ ersetzt die Zuständigkeitsprüfung nach § 119b GVG und dem Landesrecht nicht. Für Schiedsgerichte und ausländische Gerichte gilt diese ZPO-Einreichungskette nicht automatisch.
+
+## 2. Verfahrenssprache und Übersetzungen entscheiden
+
+### 2.1 Englisch vor Commercial Chamber oder Commercial Court
+
+Prüfe [§ 184a GVG](https://www.gesetze-im-internet.de/gvg/__184a.html) zusammen mit der aktuellen Landesverordnung für genau den Spruchkörper und das Sachgebiet. Die Norm steht im GVG. Eine englische Vertragsfassung oder die bloße Bereitschaft eines Gerichts genügt nicht.
+
+§ 184a Abs. 3 GVG setzt zunächst die entsprechende Bestimmung der englischen Gerichtssprache durch Landesverordnung voraus. Hinzukommen muss eine ausdrückliche oder stillschweigende Vereinbarung der Parteien; alternativ kann die beklagte Partei sich in der englischen Klageerwiderung rügelos einlassen. Halte fest, welche dieser Voraussetzungen bereits belegt ist. Verlasse dich bei einer fristgebundenen Einreichung nicht auf eine erst erhoffte rügelose Einlassung. Stelle bei ungeklärter Grundlage die rechtzeitige formgerechte Prozesshandlung sicher und arbeite die zulässige Sprachgestaltung mit der verantwortlichen Prozessvertretung aus.
+
+Die weitere Regelung in § 184a Abs. 3 GVG über die Verwendung der jeweils anderen Sprache verlangt ebenfalls eine Vereinbarung oder das Ausbleiben eines unverzüglichen Widerspruchs. Sie ist keine allgemeine Erlaubnis für beliebig gemischte Schriftsätze. Drittbeteiligte, Streitverkündete und mögliche Rechtskrafterstreckungen erfordern die gesonderte Prüfung nach Abs. 4. Wird das Verfahren auf Deutsch fortgesetzt, bleibt es nach Abs. 5 auch im Rechtsmittelzug bei Deutsch.
+
+### 2.2 Anlagen und Rechtsmittel
+
+Erstelle für jede fremdsprachige Anlage einen Eintrag mit Bezeichnung, Originalsprache, Originalseiten, Übersetzungsstatus und Zitierstelle. Bewahre Original und Übersetzung getrennt und eindeutig zugeordnet auf.
+
+- Für englische Urkunden gilt § 142 Abs. 3 ZPO im Anwendungsbereich des § 184a Abs. 3 GVG nicht. Das ist von der Sprache des Schriftsatzes zu unterscheiden.
+- Bei auf Deutsch geführten Urkunden kann im englischen Verfahren auf Antrag einer Partei eine englische Übersetzung durch die einreichende Partei angeordnet werden. Keine generelle Übersetzungspflicht aus einer eigenen Formatpräferenz erfinden.
+- Im Übrigen kann das Gericht nach [§ 142 Abs. 3 ZPO](https://www.gesetze-im-internet.de/zpo/__142.html) eine Übersetzung durch einen hierfür ermächtigten, öffentlich bestellten oder gleichgestellten Übersetzer anordnen. Eine maschinelle Arbeitsübersetzung erfüllt eine solche Anordnung nicht automatisch. Kennzeichne sie als Arbeitsfassung.
+- Vor dem BGH setzt eine Fortführung auf Englisch nach [§ 184b GVG](https://www.gesetze-im-internet.de/gvg/__184b.html) neben dem vorausgegangenen englischen Verfahren einen Antrag **in der Rechtsmittelschrift** und die Zulassung durch den Senat voraus. § 142 Abs. 3 ZPO bleibt dort unberührt; der Senat kann die Fortführung auf Deutsch und Übersetzungen anordnen.
+
+## 3. Schriftsatz und Dateien herstellen
+
+### 3.1 Prozessinhalt und Anlagenordnung
+
+Formuliere bestimmte Anträge, nummerierten Tatsachenvortrag, zugeordnete Beweisangebote und die rechtliche Begründung nach der ZPO. Auch ein englischer Schriftsatz braucht diese Struktur. Übertrage keine US-amerikanische Discovery oder ausländische Beweisregeln in das deutsche Verfahren. Kennzeichne streitige Tatsachen und fehlende Belege; eine überzeugende englische Formulierung ersetzt sie nicht.
+
+Prüfe Geheimhaltungsinteressen vor dem Versand. Bereite erforderliche Schutzanträge und gegebenenfalls rechtlich zulässige, eindeutig bezeichnete Fassungen vor; verschlüssele Anlagen nicht einfach so, dass das Gericht sie nicht bearbeiten kann. Wünsche zum Wortprotokoll, zur internationalen Zustellung und zum weiteren Verfahrensplan erhalten einen eigenen Arbeitspunkt mit Verantwortlichem. Sie ändern die technischen Einreichungsanforderungen nicht.
+
+### 3.2 Dateiformate und technische Eigenschaften
+
+Arbeite mit [§§ 2–5 ERVV](https://www.gesetze-im-internet.de/ervv/) und der [ERVB 2025 vom 16. Juli 2025, BAnz AT 29.07.2025 B2](https://justiz.de/laender-bund-europa/elektronische_kommunikation/bundesanzeiger_29_07_2025.pdf). Die Bekanntmachung gilt seit 30. Juli 2025. Prüfe vor einem tatsächlichen Versand, ob eine nachfolgende Bekanntmachung oder eine aktuelle technische Vorgabe des verwendeten Versandsystems zu berücksichtigen ist.
+
+| Prüfpunkt | Umsetzung für das Einreichungspaket |
+| --- | --- |
+| Dokumentformat | PDF nach § 2 Abs. 1 ERVV. Lassen sich bildliche Darstellungen nicht verlustfrei als PDF wiedergeben, kommt zusätzlich TIFF in Betracht. Ein ZIP ist kein Ersatz für die vorgeschriebenen Dokumentformate. |
+| PDF-Ausprägung | ERVB 2025 nennt PDF einschließlich PDF 2.0, PDF/A-1, PDF/A-2 und PDF/UA. Eine allgemeine PDF/A-Pflicht besteht daraus nicht. Prüfe Darstellbarkeit und Druckbarkeit der konkreten Datei. |
+| Aktive oder eingebettete Inhalte | Keine für die Darstellung erforderlichen externen Programme, ausführbaren Skripte oder JavaScript verwenden. Zulässige Formularfelder ohne JavaScript, Hyperlinks und eingebettete Signaturen gesondert berücksichtigen. |
+| Umfang einer Nachricht | Nach Nr. 3 ERVB 2025 höchstens **1.000 Dateien und 200 MB**. Vor dem Versand die tatsächliche Nachricht einschließlich zugehöriger Dateien prüfen. Die RAVPV ist nicht die Quelle dieser Grenzen. |
+| Dateinamen | Nr. 6 ERVB 2025: höchstens 90 Zeichen einschließlich Endung; deutsche Buchstaben einschließlich Umlauten und ß, Ziffern, Unterstrich und Minus; Punkt als Trennung zur Endung. Mehrere Dateien logisch nummerieren, etwa `001_Klage.pdf`, `002_Anlagenverzeichnis.pdf`, `003_K01_Vertrag.pdf`. |
+| Strukturdatensatz | § 2 Abs. 3 ERVV ist eine **Soll-Vorschrift** zum beigefügten XML-Datensatz, auch außerhalb des Mahnverfahrens. Gericht, bekannte Aktenzeichen, Beteiligte und Verfahrensgegenstand mit der aktuellen XJustiz-Nachricht `uebermittlungSchriftgutobjekte` konsistent abbilden. Der Datensatz ersetzt den Schriftsatz nicht. |
+| Lesbarkeit und Recherche | Alle Seiten visuell prüfen; vorhandenen Text erhalten und Scans nach Möglichkeit mit passender Sprach-OCR erschließen. OCR-Fehler dürfen den Bildinhalt und die verlässliche Zitierung nicht verändern. |
+
+Unterscheide die verbindliche PDF-Vorgabe in § 2 Abs. 1 ERVV von den Soll-Standards nach Abs. 2 und 3. Eine Abweichung von einem Soll-Standard bedeutet nicht automatisch Formunwirksamkeit; umgekehrt macht ein erfolgreiches Hochladen die Datei nicht automatisch geeignet. Stelle die Standards vorab her, statt eine spätere gerichtliche Beanstandung einzuplanen.
+
+Bei mehreren Nachrichten erstelle eine eindeutige Aufteilung mit Teilnummer, Aktenzeichen und Anlagenzuordnung. Halte den fristwahrenden Schriftsatz möglichst als vollständiges Dokument zusammen. Kontrolliere den Eingang jedes Teils; eine spätere Anlage wird durch den rechtzeitigen Eingang einer anderen Nachricht nicht rückdatiert. Sind Anzahl oder Volumen nicht einzuhalten, prüfe § 3 ERVV und die dort verlangte Glaubhaftmachung. Diese Vorschrift erlaubt die Übermittlung des Schriftsatzes nach allgemeinen Vorschriften, möglichst unter Beifügung des Schriftsatzes und der Anlagen als elektronische Dokumente auf einem nach Nr. 4 ERVB 2025 zulässigen physischen Datenträger. Die Beifügung ersetzt die formgerechte Übermittlung des Schriftsatzes nicht. Dieser Weg ist von einem technischen Ausfall zu unterscheiden.
+
+### 3.3 Signatur und Absender
+
+[§ 130d ZPO](https://www.gesetze-im-internet.de/zpo/__130d.html) begründet für anwaltliche Schriftsätze und die dort genannten Erklärungen die elektronische Einreichungspflicht. Das ist keine ausschließliche Festlegung auf beA. Für den hier vorbereiteten beA-Versand prüfe die Alternativen des [§ 130a Abs. 3 und 4 ZPO](https://www.gesetze-im-internet.de/zpo/__130a.html):
+
+1. **Qualifizierte elektronische Signatur:** Die verantwortende Person versieht den Schriftsatz mit ihrer qeS; die zulässige Übermittlung richtet sich nach § 4 Abs. 1 ERVV. Ein Versand durch entsprechend berechtigtes Kanzleipersonal ist dann vom persönlichen Anbringen der qeS zu unterscheiden.
+2. **Einfache Signatur und sicherer Übermittlungsweg:** Die verantwortende Person signiert den Schriftsatz einfach, etwa mit ihrem ausgeschriebenen Namen am Dokumentende, und versendet ihn selbst über ihr beA. Die bloße Nutzung eines Kanzleizugangs durch Mitarbeitende ersetzt diese persönliche Verantwortungsübernahme nicht.
+
+**BGH, Beschluss vom 30. März 2022 – XII ZB 311/21, Rn. 8–12 und 18**, erklärt diese Alternativen und trennt die erfolgreiche Übertragung von der wirksamen Signatur. Eine fortgeschrittene Signatur ist keine qeS. Die Entscheidung betrifft das persönliche beA; Sonderkonstellationen eines Gesellschaftspostfachs oder einer Vertretung gesondert anhand der aktuellen Vorschriften prüfen. [Amtlicher Volltext als XML-Download](https://www.rechtsprechung-im-internet.de/jportal/docs/bsjrs/jb-KORE312652022.zip).
+
+Beigefügte Anlagen unterliegen nicht dem Signaturgebot des § 130a Abs. 3 Satz 1 ZPO. Prüfe deshalb, ob eine Datei tatsächlich nur Anlage ist oder selbst eine formbedürftige Erklärung enthält. Keine gemeinsame qualifizierte Containersignatur für mehrere elektronische Dokumente verwenden (§ 4 Abs. 2 ERVV). Nach inhaltlichen Änderungen die abschließende Signaturfassung erneut prüfen. Persönliche Zugangsmittel und PIN verbleiben bei der berechtigten Person.
+
+## 4. Versand und Eingang kontrollieren
+
+Prüfe das Paket lokal: richtige Empfängeradresse, richtiges Verfahren, finale Fassungen, Anlagenvollständigkeit, Signaturstatus, Lesbarkeit, Dateinamen und Nachrichtengröße. Sende keine unverbindliche „Test-Einreichung“ an das Prozessgericht; auch eine als Test gemeinte Nachricht kann Teil der Verfahrensakte werden. Eine technische Probe gehört ausschließlich in eine ausdrücklich dafür vorgesehene Testumgebung.
+
+Nach § 130a Abs. 5 ZPO ist das elektronische Dokument eingegangen, sobald es auf der für den Empfang bestimmten Einrichtung des Gerichts gespeichert ist. Maßgeblich ist der nachgewiesene Eingang vor Fristablauf. Der Status „versendet“ auf dem eigenen Rechner oder ein Eintrag im Postausgang genügt als Kontrolle nicht.
+
+Kontrolliere und sichere für **jede** Nachricht die automatisierte gerichtliche Eingangsbestätigung mit Zeitpunkt, Empfänger und der Zuordnung zu den tatsächlich übermittelten Dateien. Prüfe zusätzlich die für Form und Signatur relevanten Protokollangaben. Verwechsle diese Bestätigung nicht mit dem elektronischen Empfangsbekenntnis nach [§ 173 Abs. 3 ZPO](https://www.gesetze-im-internet.de/zpo/__173.html): Das eEB dient dem Nachweis einer elektronischen Zustellung an die dort genannten professionellen Empfänger und ist an das Gericht zurückzusenden.
+
+**BGH, Beschluss vom 9. September 2026 – XII ZB 158/26, Rn. 11–14:** Der Übermittlungsversuch ist erst mit der Kontrolle der Eingangsbestätigung abgeschlossen. Fehlt sie, sind Überprüfung und gegebenenfalls erneute Übermittlung erforderlich. Der BGH verlangt eine ausreichende Zeitreserve; die im entschiedenen Fall behandelte Reserve von ungefähr 20 Minuten ist kein Freibrief, umfangreiche oder störungsanfällige Sendungen stets erst kurz vor Mitternacht zu beginnen. Der Beschluss erging in einer Familienstreitsache; verwende hier seine Aussagen zur Übermittlungskontrolle und Ersatzeinreichung, nicht die dortige besondere Wiedereinsetzungsfrist. [Amtlicher Volltext als XML-Download](https://www.rechtsprechung-im-internet.de/jportal/docs/bsjrs/jb-KORE626782026.zip).
+
+## 5. Störung oder Beanstandung bearbeiten
+
+### 5.1 Vorübergehende technische Unmöglichkeit
+
+Ist die elektronische Übermittlung vorübergehend aus technischen Gründen unmöglich, erlaubt § 130d Satz 2 ZPO die Übermittlung nach allgemeinen Vorschriften. Prüfe den tatsächlich verfügbaren, für diese Prozesshandlung geeigneten Ersatzweg, etwa Telefax oder Papier; eine gewöhnliche E-Mail ist kein pauschaler Ersatz. Die Unmöglichkeit ist bei der Ersatzeinreichung oder unverzüglich danach glaubhaft zu machen. Auf Anforderung ist elektronisch nachzureichen.
+
+Dokumentiere zeitnah Beginn und Ende der Störung, Fehlermeldungen, Versandversuche, betroffene Einrichtungen, Statusmeldungen und die konkret erreichbaren Ersatzwege. Halte formgerechten Inhalt und Frist getrennt von der Störungsdarlegung fest. Eine freiwillig gewählte spätere Papierübersendung oder ein Bedienungsproblem belegt noch keine vorübergehende technische Unmöglichkeit. Nach XII ZB 158/26, Rn. 14, muss bei einem Wiedereinsetzungsbegehren auch nachvollziehbar dargelegt werden, weshalb eine Ersatzeinreichung ohne Verschulden nicht möglich, zumutbar und geboten war. Versprich keine Wiedereinsetzung allein wegen einer Systemstörung.
+
+### 5.2 Für die Bearbeitung ungeeignetes Dokument
+
+§ 130a Abs. 6 ZPO betrifft eine andere Situation: Ist das eingegangene Dokument zur gerichtlichen Bearbeitung ungeeignet, hat das Gericht unverzüglich auf Unwirksamkeit und technische Rahmenbedingungen hinzuweisen. Die gesetzliche Rückwirkung setzt voraus, dass der Absender unverzüglich eine geeignete Fassung nachreicht und die inhaltliche Übereinstimmung glaubhaft macht. Sichere deshalb die ursprüngliche Datei und dokumentiere jede technische Umwandlung. Die Regelung ist keine allgemeine Heilung fehlender Signaturen, falscher Adressierung oder verspäteter Einreichung.
+
+## 6. Arbeitsprodukt und Schlusskontrolle
+
+Liefere zuerst den verwendbaren Schriftsatz und das geordnete Anlagenverzeichnis. Ergänze anschließend einen kurzen **internen Versandvermerk**; dieser wird nicht ohne Anlass als Anlage mitgesendet:
+
+| Entscheidung | Festzuhalten |
+| --- | --- |
+| Gericht und Sprache | Zuständigkeitsgrundlage, Landesverordnung, Sprachvereinbarung oder sonstige belegte Voraussetzung; Übersetzungsanordnungen |
+| Frist | Auslösendes Ereignis, Berechnung, letzter Zeitpunkt, geplante Versandreserve, verantwortliche Person |
+| Dateien | Finale Fassungen, Nummerierung, Nachrichtenteile, technische Prüfung, bekannte Abweichungen |
+| Form | Verantwortende Person, Signaturvariante und tatsächliche Versandperson |
+| Eingang | Bestätigung je Nachricht, gerichtlicher Zeitstempel, Dateienzuordnung und gesicherte Protokolle |
+| Offene Punkte | Konkrete fehlende Unterlage oder Entscheidung, Verantwortlicher und nächster Termin |
+
+Eine kompakte Ablaufdarstellung kann Frist, Freigabe, Signatur, Versand und bestätigten Eingang zeigen. Sie ergänzt die nachprüfbaren Dateien und Protokolle. Kennzeichne einen noch nicht ausgeführten Versand als vorbereitet; beschreibe ihn erst nach belegtem Eingang als abgeschlossen.
+
+Warnzeichen sind insbesondere eine nur vermutete Englischzulässigkeit, ein nicht zugeordnetes Anlagenpaket, eine fremd ausgeführte Versendung ohne erforderliche qeS, fehlende Eingangsbestätigungen, unlesbare oder geschützte Dateien sowie ungeklärte Geheimhaltungsinteressen. Bearbeite jeweils den konkreten Mangel und liefere die nächste ausführbare Handlung.
 
 ---
 
@@ -983,81 +1104,9 @@ Hat sich der Beklagte rügelos auf eine andere Kammer eingelassen (§ 39 ZPO), w
 
 ---
 
-## Skill: `arbitration-clause-bea-erv`
-
-_Für Arbitration Clause Conflict: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
-
-# Arbitration Clause Conflict
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: GVG §§ 119, 119b (Commercial Court), ZPO §§ 184a, 614, 1025-1066, AGGVG der Länder, EU-VO 1215/2012 (Brüssel Ia) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Arbitration Clause Conflict
-- **Normen-/Quellenanker:** Commercial Courts/Commercial Chambers der Länder, ZPO, GVG, Zuständigkeit, Sprachwahl Englisch/Deutsch, Wortprotokoll, Geheimnisschutz und internationale Zustellung.
-- **Entscheidende Weiche:** Gerichtsstand, Streitwert/Sachgebiet, Verfahrenssprache, Vertraulichkeit, Beweisaufnahme, Übersetzung, Protokoll und Vollstreckbarkeit steuern.
-- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
-
-## Einstieg
-
-Stelle höchstens fünf Fragen, sofern die Akte sie nicht beantwortet:
-
-1. Soll der Output auf Deutsch, Englisch oder zweisprachig sein?
-2. Welches Gericht/Forum ist vorgesehen oder vereinbart?
-3. Welche Klausel, welcher Streitwert und welche Parteien liegen vor?
-4. Welche Frist oder Verfahrenshandlung steht als nächstes an?
-5. Welche Unterlagen sind schon da: contract, correspondence, notices, expert report, exhibits, prior pleadings?
-
-## Arbeitsworkflow
-
-### Klauselkonflikt-Prüfraster
-
-| Schritt | Inhalt | Norm/Kategorie |
-| --- | --- | --- |
-| Klauselbestand erfassen | Schiedsvereinbarung, Gerichtsstandsklausel, Eskalationsklausel (Mediation/Schlichtung), Forenwahl in Rahmen- und Einzelverträgen | §§ 1029 ff. ZPO Schiedsverfahren; § 38 ZPO Gerichtsstand |
-| Wirksamkeit Schiedsabrede | Schriftform § 1031 ZPO, Bestimmtheit, Schiedsfähigkeit § 1030 ZPO | ggf. Trennung Hauptvertrag/Schiedsklausel (Severability) |
-| Forenkonflikt | Welche Klausel ist die jüngste? Welche ist die speziellere (lex specialis)? | Auslegung §§ 133, 157 BGB |
-| Eskalationsstufen | Vorgeschaltete Mediation pflichtig? Sanktionen bei Überspringen | BGH ständige Rechtsprechung: ggf. Klage unzulässig wenn Mediationsstufe nicht durchlaufen |
-| Asymmetrische Klauseln | Eine Partei wählen, andere nicht: Wirksamkeit zweifelhaft (AGB-Kontrolle § 307 BGB) | im B2C unwirksam; im B2B Einzelfallprüfung |
-| Hybrid: Court vs. Arbitration | Sind beide Forenwege gleichzeitig zulässig oder schließt einer den anderen aus? | Wahl- vs. Konkurrenzklausel |
-| Rüge bei Anrufung des "falschen" Forums | Antrag auf Verweisung (§ 281 ZPO) oder Schiedseinrede (§ 1032 ZPO) | rechtzeitig vor Einlassung zur Sache rügen |
-
-### Trade-off Schiedsgericht versus Commercial Court
-
-| Schiedsgericht | Commercial Court |
-| --- | --- |
-| Vertraulichkeit | Öffentlichkeit § 169 GVG (Ausnahme § 273a ZPO Vertraulichkeitsanordnung Justizstandort-Stärkungsgesetz) |
-| Parteibestimmte Schiedsrichter | Staatliche Richter, keine Auswahl |
-| Vollstreckung weltweit (New York Convention 1958) | Vollstreckung EU-Inland Brüssel Ia-VO; sonst Anerkennungsverfahren |
-| Keine Berufung, nur Aufhebung §§ 1059 ZPO | Revision § 184b GVG zum BGH möglich |
-| Kosten oft höher (Schiedsrichterhonorare, Institut) | GKG-Gebühren plus RVG |
-
-1. **Forum sichern:** Commercial Court, Commercial Chamber, ordentliches Gericht, Schiedsgericht oder Ausland trennen.
-2. **Sprache sichern:** wirksame Englischwahl, notwendige Übersetzungen und deutsch bleibende Verfahrensschritte prüfen.
-3. **Prozesshandlung bauen:** Antrag, Schriftsatz, Evidence Map, Timetable, Hearing Script oder Mandantenmemo erstellen.
-4. **ZPO-Realität bewahren:** keine US-Discovery, kein Pleading-Theater; Tatsachenvortrag, Beweisangebot, richterliche Prozessleitung und deutsches Kostenrisiko sauber erklären.
-5. **Nächsten Schritt festlegen:** Frist, Verantwortliche, Unterlagen, gerichtliche Kommunikation und Mandantenfreigabe.
-
-## Red Flags
-
-- Commercial-Court-Zuständigkeit oder englische Sprache wird nur behauptet, aber nicht aus Klausel, Gesetz und Landesrecht hergeleitet.
-- Englischer Schriftsatz klingt wie US-Litigation und enthält keine ZPO-tauglichen Beweisangebote.
-- Anlagen sind englisch/deutsch gemischt, aber Übersetzungs- und Zitierlogik fehlt.
-- Geheimhaltungsinteressen werden erst in der mündlichen Verhandlung entdeckt.
-- Das Wortprotokoll wird gewünscht, aber nicht rechtzeitig prozessual vorbereitet.
-
----
-
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -1074,7 +1123,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

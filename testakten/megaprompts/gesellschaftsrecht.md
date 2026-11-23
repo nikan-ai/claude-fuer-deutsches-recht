@@ -1,5 +1,9 @@
 # Vollprüfung: gesellschaftsrecht
 
+Wer darf bei der anstehenden Entscheidung stimmen, und welche Rechtswirkung soll der Beschluss oder Vertrag haben? Stimme Satzung, Beteiligungen, Einzahlungen und Registerunterlagen auf den Auftrag ab und liefere den verlangten Beschluss, Vertrag, Brief oder das Gutachten.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-8 von 118 Skills (gekürzt für das Arbeitsfenster) des Plugins `gesellschaftsrecht`.
@@ -7,11 +11,11 @@ Diese Vollprüfung enthält top-8 von 118 Skills (gekürzt für das Arbeitsfenst
 ## Inhaltsverzeichnis
 
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Gesellschaftsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet…
-2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+2. **einstieg-routing** — Für eine konkrete Gesellschaftsmaßnahme: verbindet Beschluss, Vertretungsnachweis, Vertrag und Registervollzug und liefe…
 3. **mandat-triage-gesellschaftsrecht** — Für Mandat-Triage Gesellschaftsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko …
 4. **gesellschaftsrecht-erstpruefung-und-mandatsziel** — Für Gesellschaftsrecht: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Erg…
-5. **rechtsquellen-beweislast-darlegungslast** — Für Rechtsquellen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: …
-6. **aufsichtsrat-protokoll** — Für Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG): ordnet Norm, Beweislast und …
+5. **aufsichtsrat-protokoll** — Für Organprotokolle: AG-Aufsichtsrat, Vorstand, Hauptversammlung und GmbH-Gesellschafterversammlung: ordnet Norm, Beweis…
+6. **rechtsquellen-beweislast-darlegungslast** — Für Rechtsquellen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: …
 7. **gesellschafterstreit-international-schnittstellen** — Für Gesellschafterstreit: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis:…
 8. **beirat-internal-investigation-datenschutz-ki** — Für Beirat Compliance und Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit R…
 
@@ -25,12 +29,10 @@ _Schaltet sich ein, wenn in Gesellschaftsrecht ein juristisches Arbeitsprodukt t
 
 ## 1. Direktstart
 
-Arbeite als Gesellschaftsrechtlicher Bearbeiter für GmbH, AG, Personengesellschaften, Organpflichten, Beschlussmängel und Transaktionen.
+Gleiche Satzung, Gesellschafterliste, Beschluss und Registerstand ab. Begründe die Position zu Wirksamkeit, Vollzug oder Haftung und formuliere den benötigten Entwurf.
 
-Pluginauftrag: Gesellschaftsrecht für GmbH, AG und Personengesellschaften: Beschlüsse, Gesellschafterliste, Satzung, Organhaftung, Streit, Kapitalerhaltung, Umwandlung, Register und Transaktionen.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -60,10 +62,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Handelsregisteranmeldung: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill handelsregisteranmeldung-frist-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Geschäftsführer-Haftung Paragraf 43 GmbHG prüfen: Bearbeite den Fachpunkt im Skill geschaeftsfuehrer-haftung-43-gmbhg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Agio und Kapitalrücklage in der GmbH: Bearbeite den Fachpunkt im Skill agio-und-kapitalruecklage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Beirat Haftung: Bearbeite den Fachpunkt im Skill beirat-haftung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Handelsregisteranmeldung: Fristennotiz und nächster Schritt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/gesellschaftsrecht/skills/handelsregisteranmeldung-frist-naechster-schritt/FACHINHALT.md)
+3.1.2. [Geschäftsführer-Haftung Paragraf 43 GmbHG prüfen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/gesellschaftsrecht/skills/geschaeftsfuehrer-haftung-43-gmbhg/FACHINHALT.md)
+3.1.3. [Agio und Kapitalrücklage in der GmbH](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/gesellschaftsrecht/skills/agio-und-kapitalruecklage/FACHINHALT.md)
+3.1.4. [Beirat Haftung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/gesellschaftsrecht/skills/beirat-haftung/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -136,13 +140,13 @@ Ausgangspunkt für dieses Plugin: Anspruchsteller für Pflichtverletzung, Schade
 
 ## Skill: `einstieg-routing`
 
-_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Gesellschaftsrecht._
+_Für eine konkrete Gesellschaftsmaßnahme: verbindet Beschluss, Vertretungsnachweis, Vertrag und Registervollzug und liefert die dafür beauftragten Entwürfe._
 
-# Einstieg und Routing
+# Gesellschaftsmaßnahme rechtlich umsetzen
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Gesellschaftsrecht** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Setze die beauftragte Gesellschaftsmaßnahme in die erforderlichen Beschlüsse, Verträge und Vollzugsschritte um. Halte Organbefugnis, Vertretungsmacht und Registerwirkung auseinander.
 
 ## Kernrouten zuerst
 
@@ -159,32 +163,31 @@ Die erste Weiche ist nicht die längste Skillliste, sondern der gesellschaftsrec
 
 Beiratsfragen sind eine Spezialspur. Nutze sie erst, wenn Satzungsgrundlage, Entscheidungsbefugnis, Haftung oder Vetorecht tatsächlich streitentscheidend sind.
 
-## Fachlandkarte dieses Plugins
-
-- `agio-und-kapitalruecklage` — Agio und Kapitalruecklage
-- `anmeldungen-verhandlung-vergleich-und-eskalation` — Anmeldungen Verhandlung Vergleich und Eskalation
-- `anpassen` — Anpassen
-- `mandat-triage-gesellschaftsrecht` — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
-- `arbeitsbereich-mandantenentscheidung` — Arbeitsbereich Mandantenentscheidung
-- `aufsichtsrat-protokoll` — Aufsichtsrat Protokoll
-- `gesellschafterbeschluss` — Beschlussweg, Mehrheit, Form und Dokumentation
-- `gesellschafterliste-legitimation-und-widerspruch` — Listenlage, Widerspruch und Legitimationswirkung
-- `gesellschafterstreit-einstweiliger-rechtsschutz` — Eilantrag, Verfügungsgrund und Sicherungsziel
-- `geschaeftsfuehrer-haftung-43-gmbhg` — Organpflicht, Beweislast, Entlastung und Schaden
-- `kapitalerhaltung-verdeckte-ausschuettung` — Kapitalbindung, Rückgewähr und Zahlungsstopp
-- `umwandlung-formwechsel-verschmelzung-spaltung` — Maßnahme, Beschluss, Registerwirkung und Vollzug
-- `liquidation-loeschung-und-nachtragsliquidation` — Abwicklung, Sperrjahr, Nachtragsliquidation
-- `beirat-abgrenzung-aufsichtsrat` — nur bei echter Beirats- oder Aufsichtsratsweiche
-- `dokumente-intake` — Dokumente Intake
-- `quellen-livecheck` — Quellen Livecheck
-
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Gesellschaftsrecht sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Bestimme Gesellschaft, Rechtsform und Mandantenrolle aus Satzung, Register und Auftrag. Ordne Tochtergesellschaften und einzelne Organpersonen eindeutig zu.
+2. Sichere aktuelle Fassungen von Gesellschaftsvertrag, Gesellschafterliste, Register und Beschlüssen. Trenne Bestellungsakt, Vertretungsmacht und registerliche Nachweise.
+3. Wähle den Arbeitsweg nach der anstehenden Maßnahme. Prüfe Beschlusskompetenz, Mehrheit, Form und Vollzug in der richtigen Reihenfolge.
+4. Liefere die beauftragten Entwürfe mit konkreten Unterzeichnern, Anlagen und verbleibenden Vollzugsschritten. Zeige, welche neue Tatsache eine Beschluss- oder Registerfassung ändern würde.
+
+## Fachlandkarte dieses Plugins
+
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: agio-und-kapitalruecklage) — Agio und Kapitalruecklage
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anmeldungen-verhandlung-vergleich-und-eskalation) — Anmeldungen Verhandlung Vergleich und Eskalation
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: anpassen) — Anpassen
+- `gesellschafter-und-beschlussfassung-bearbeiten` (Fachthema: mandat-triage-gesellschaftsrecht) — 1. Gesellschaftsrechtlichen Auftrag bearbeiten
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: arbeitsbereich-mandantenentscheidung) — Arbeitsbereich Mandantenentscheidung
+- `organe-und-vertretung-bearbeiten` (Fachthema: aufsichtsrat-protokoll) — Aufsichtsrat Protokoll
+- `gruendung-und-gesellschaftsvertrag-bearbeiten` (Fachthema: gesellschafterbeschluss) — Beschlussweg, Mehrheit, Form und Dokumentation
+- `register-und-vollzug-bearbeiten` (Fachthema: gesellschafterliste-legitimation-und-widerspruch) — Listenlage, Widerspruch und Legitimationswirkung
+- `gruendung-und-gesellschaftsvertrag-bearbeiten` (Fachthema: gesellschafterstreit-einstweiliger-rechtsschutz) — Eilantrag, Verfügungsgrund und Sicherungsziel
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: geschaeftsfuehrer-haftung-43-gmbhg) — Organpflicht, Beweislast, Entlastung und Schaden
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: kapitalerhaltung-verdeckte-ausschuettung) — Kapitalbindung, Rückgewähr und Zahlungsstopp
+- `kapital-und-strukturmassnahmen-bearbeiten` (Fachthema: umwandlung-formwechsel-verschmelzung-spaltung) — Maßnahme, Beschluss, Registerwirkung und Vollzug
+- `haftung-und-gesellschaftsstreit-bearbeiten` (Fachthema: liquidation-loeschung-und-nachtragsliquidation) — Abwicklung, Sperrjahr, Nachtragsliquidation
+- `organe-und-vertretung-bearbeiten` (Fachthema: beirat-abgrenzung-aufsichtsrat) — nur bei echter Beirats- oder Aufsichtsratsweiche
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: quellen-livecheck) — Quellen Livecheck
 
 ## Qualitätsanker
 
@@ -329,45 +332,11 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `rechtsquellen-beweislast-darlegungslast`
-
-_Für Rechtsquellen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix. Fachgebiet: Gesellschaftsrecht._
-
-# Rechtsquellen: Beweislast, Darlegungslast und Substantiierung
-
-## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rechtsquellen: Beweislast, Darlegungslast und Substantiierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
-- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
-- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Spezialwissen: Rechtsquellen: Beweislast, Darlegungslast und Substantiierung
-- **Normen-/Quellenanker:** AG, HRB, HRA.
-
-## Fallweichen
-Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
-
-1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
-2. Welches konkrete Ziel soll erreicht oder verhindert werden?
-3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
-4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
-5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
-
-## Arbeitsworkflow
-1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
-2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Rechtsquellen** prüfen.
-3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
-4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
-5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
----
-
 ## Skill: `aufsichtsrat-protokoll`
 
-_Für Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
+_Für Organprotokolle: AG-Aufsichtsrat, Vorstand, Hauptversammlung und GmbH-Gesellschafterversammlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt._
 
-# Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG)
+# Organprotokolle: AG-Aufsichtsrat, Vorstand, Hauptversammlung und GmbH-Gesellschafterversammlung
 
 ## Arbeitsweg
 
@@ -378,13 +347,13 @@ _Für Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragr
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Organprotokolle: AG-Aufsichtsrat, Vorstand, Hauptversammlung und GmbH-Gesellschafterversammlung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
 - **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
 - **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
 - **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
 - **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
-## Fachkern: Vorstands- und Aufsichtsratsprotokoll (AG: Paragraf 107 AktG; GmbH: Paragraf 48 GmbHG)
+## Fachkern: Organprotokolle: AG-Aufsichtsrat, Vorstand, Hauptversammlung und GmbH-Gesellschafterversammlung
 - **Normen-/Quellenanker:** GmbHG, AktG, HGB, BGB, UmwG, MoPeG, FamFG/Registerrecht, Gesellschafterliste, Beschlussmängel, Treuepflicht und Organhaftung.
 - **Entscheidende Weiche:** Gesellschaftsform, Organrolle, Beschluss/Vertrag, Registerwirkung, Minderheitenschutz, Haftung und Frist getrennt prüfen.
 - **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
@@ -396,24 +365,24 @@ Sitzungsprotokolle sind Rechtsurkunden. Sie dokumentieren Beschlussfassungen, le
 Unterstützt bei der Erstellung von Protokollen für:
 - **Aufsichtsratssitzungen** (AG, Paragraf 107 Abs. 2 AktG — gesetzliche Niederschriftspflicht)
 - **Vorstandssitzungen** (AG, keine gesetzliche Pflicht, aber beweisrechtlich zwingend empfohlen)
-- **Gesellschafterversammlungen** (GmbH, Paragraf 48 GmbHG — keine gesetzliche Protokollpflicht, aber gesellschaftsvertraglich und nach h.M. unverzichtbar)
-- **Hauptversammlungen** (AG, Paragraf 130 AktG — notarielle Beurkundung bei börsennotierten AG)
+- Gesellschafterversammlungen der GmbH: Paragraf 48 Absatz 3 GmbHG verlangt bei der Einpersonengesellschaft unverzüglich eine unterschriebene Niederschrift; im Übrigen Satzung und besondere Formvorschriften gesondert prüfen.
+- Hauptversammlungen der AG: grundsätzlich notarielle Niederschrift nach Paragraf 130 Absatz 1 AktG; die begrenzte Ausnahme für nichtbörsennotierte Gesellschaften steht in Absatz 1 Satz 3.
 - **Beiratssitzungen** (wenn Beirat organschaftliche Funktion hat)
 
 ## Kaltstart-Rückfragen
 
-Bevor das Protokoll erstellt wird, sind folgende Punkte zu klären:
+Entnimm folgende Punkte zuerst aus Auftrag, Einladung, Satzung und Sitzungsunterlagen. Frage nur entscheidende Lücken nach; beginne einen klar beauftragten Protokollentwurf direkt und arbeite Antworten dort ein:
 
 1. **Welches Organ, welche Gesellschaft?** AG-Aufsichtsrat / AG-Vorstand / GmbH-Gesellschafterversammlung / HV / Beirat — und Name der Gesellschaft?
 2. **Datum, Uhrzeit, Ort?** Physische Sitzung (Adresse), Videokonferenz (Plattform), Telefonsitzung oder hybride Sitzung?
-3. **Einladung erfolgt?** Wann, durch wen, auf welchem Weg? Wurde die Einladungsfrist (AR: Paragraf 110 Abs. 2 AktG mind. 14 Tage) eingehalten oder wurde auf sie verzichtet?
+3. Einladung erfolgt? Wann, durch wen und auf welchem Weg? Prüfe die für das Organ geltende Satzung/Geschäftsordnung und die Umstände der Einberufung. Paragraf 110 Absatz 1 AktG verlangt im dortigen Einberufungsverfahren eine Sitzung binnen zwei Wochen nach Einberufung; Absatz 2 regelt die Selbst-Einberufung bei unerfülltem Verlangen, keine allgemeine Mindestladungsfrist.
 4. **Anwesenheit?** Wer war anwesend (Mitglieder, Gäste, externe Berater), wer entschuldigt? Beschlussfähigkeit gegeben (Paragraf 108 Abs. 2 AktG)?
 5. **Stimmverbote?** Lagen Interessenkonflikte vor (Paragraf 47 Abs. 4 GmbHG, Paragraf 136 AktG)? Welche Mitglieder waren von welchen Abstimmungen ausgeschlossen?
 6. **Tagesordnung und Materialien?** Bitte Tagesordnung, Beschlussvorlagen, Präsentationen und Berichte bereitstellen (auch als grober Entwurf oder Stichpunkte).
 7. **Beschlüsse?** Welche Beschlüsse wurden gefasst, mit welchem Abstimmungsergebnis (Ja/Nein/Enthaltungen)?
 8. **Anlagen?** Welche Dokumente wurden beigefügt oder in der Sitzung verteilt?
 9. **Protokollform?** Vollprotokoll (wortnahe Wiedergabe der Diskussion), Beschlussprotokoll (nur Beschlüsse) oder Hybridform (Hausformat)?
-10. **Unterzeichnung?** Wer unterzeichnet (AR-Vorsitzender allein nach Paragraf 107 Abs. 2 S. 3 AktG; GmbH-GV: Versammlungsleiter; Gegenpräsentation / Nichtjurist-Rolle beachten)?
+10. **Unterzeichnung?** Wer unterzeichnet (AR-Vorsitzender allein nach Paragraf 107 Abs. 2 S. 3 AktG; GmbH-GV: nach einschlägiger Formregel, bei Paragraf 48 Absatz 3 GmbHG der Alleingesellschafter; Gegenpräsentation / Nichtjurist-Rolle beachten)?
 - **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtlicher Rahmen
@@ -426,14 +395,14 @@ Bevor das Protokoll erstellt wird, sind folgende Punkte zu klären:
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
 **Paragraf 48 GmbHG — Gesellschafterversammlung**
-> "Die Beschlüsse der Gesellschafter werden in Versammlungen gefasst. [...] Die Gesellschafterversammlung wird durch die Geschäftsführer berufen."
+Paragraf 48 Absatz 1 GmbHG regelt die Versammlung einschließlich fernmündlicher oder videobasierter Teilnahme bei allseitigem Einverständnis in Textform. Absatz 2 ermöglicht eine Beschlussfassung ohne Versammlung unter den dort genannten Voraussetzungen; die Einberufungszuständigkeit ist nicht Inhalt dieser Vorschrift.
 
-Protokollpflicht: Paragraf 48 GmbHG enthält keine gesetzliche Protokollpflicht. Sie ergibt sich aus dem Gesellschaftsvertrag (übliche Klausel) oder aus Beweiszwecken. Bei Paragraf 48 Abs. 2 GmbHG (schriftliches Abstimmungsverfahren) empfiehlt sich ein schriftliches Protokoll, das die Einvernehmlichkeit aller Gesellschafter dokumentiert.
+Bei der Einpersonengesellschaft verlangt Paragraf 48 Absatz 3 GmbHG unverzüglich nach Beschlussfassung eine vom Gesellschafter unterschriebene Niederschrift. Für andere Konstellationen sind Satzung und besondere Formvorschriften zu prüfen; Beweiszwecke bleiben davon getrennt. Bei Beschlussfassung ohne Versammlung nach Absatz 2 sind das erforderliche allseitige Einverständnis in Textform und das Abstimmungsergebnis nachvollziehbar zu dokumentieren.
 
 **Paragraf 130 AktG — Beurkundung der Hauptversammlungsbeschlüsse**
 > "(1) Jeder Beschluß der Hauptversammlung ist durch eine über die Verhandlung notariell aufgenommene Niederschrift zu beurkunden."
 
-Gilt für börsennotierte AG. Für nicht börsennotierte AG reicht nach Paragraf 130 Abs. 4 AktG eine vom Vorsitzenden und vom Hauptaktionär unterzeichnete Niederschrift.
+Die notarielle Niederschrift ist der Grundsatz. Nur bei nichtbörsennotierten Gesellschaften genügt nach Paragraf 130 Absatz 1 Satz 3 AktG eine vom Aufsichtsratsvorsitzenden zu unterzeichnende Niederschrift, soweit keine Beschlüsse gefasst werden, für die das Gesetz eine Dreiviertel- oder größere Mehrheit bestimmt. Eine zusätzliche Unterschrift des Hauptaktionärs verlangt diese Vorschrift nicht. Absatz 4 regelt die Unterschrift des Notars.
 
 **Paragraf 241 ff. AktG — Beschlussmängel**
 
@@ -457,8 +426,9 @@ Das Stimmverbot gilt auch für Beschlüsse über die Einleitung von Rechtsstreit
 
 Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend sein (Paragraf 108 Abs. 2 S. 1 AktG).
 
-**Paragraf 110 Abs. 2 AktG — Einladungsfrist Aufsichtsrat**
-> Einberufung mind. 14 Tage vor der Sitzung. Verkürzung bei Dringlichkeit möglich; Verzicht bei Einvernehmen aller Mitglieder.
+Paragraf 110 AktG: Einberufungsverlangen und Selbst-Einberufung
+
+Nach Absatz 1 können ein Aufsichtsratsmitglied oder der Vorstand unter Angabe von Zweck und Gründen unverzügliche Einberufung verlangen; die Sitzung muss binnen zwei Wochen nach der Einberufung stattfinden. Wird dem Verlangen nicht entsprochen, ermöglicht Absatz 2 die Selbst-Einberufung unter Mitteilung des Sachverhalts und einer Tagesordnung. Daraus folgt keine allgemeine vierzehntägige Mindestladungsfrist.
 
 ### Leitentscheidungen
 
@@ -472,15 +442,15 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 | Schritt | Prüfungspunkt | Inhalt | Ergebnis |
 |---|---|---|---|
 | 1 | Organidentifikation | Welches Gremium? AG-AR, AG-Vorstand, GmbH-GV, HV, Beirat? | Festlegung des anwendbaren Rechtsrahmens |
-| 2 | Einladungsprüfung | Frist eingehalten (AR: Paragraf 110 Abs. 2 AktG, 14 Tage)? Einladungsverzicht dokumentiert? | Beschlussfähigkeit gefährdet, wenn Frist verletzt und kein Verzicht |
+| 2 | Einladungsprüfung | Organbezogene Einberufungsregeln und Satzung/Geschäftsordnung; bei Paragraf 110 AktG Verlangen und weitere Schritte dokumentieren | Konkreten Einberufungsmangel prüfen, keine pauschale 14-Tage-Mindestfrist |
 | 3 | Beschlussfähigkeit | Anzahl anwesender Mitglieder / Quorum (Paragraf 108 Abs. 2 AktG AR; GmbH: Gesellschaftsvertrag)? | Keine gültige Beschlussfassung bei fehlendem Quorum |
 | 4 | Stimmverbote | Paragraf 47 Abs. 4 GmbHG / Paragraf 136 AktG: Hat stimmbefangenes Mitglied abgestimmt? | Anfechtbarkeit prüfen; Stimmverbot im Protokoll vermerken |
 | 5 | Interessenkonflikte | Paragraf 34 BGB analog AR: Abstimmung über eigene Angelegenheit? | Stimmbefangenheit vermerken; ggf. Mitglied aus Abstimmung ausschließen |
 | 6 | Tagesordnungspunkte | Alle TOP korrekt erfasst? Reihenfolge stimmt? Beschlussvorlagen vorhanden? | Unvollständige TOP-Liste führt zu Beweisnot |
 | 7 | Beschlussdokumentation | Beschlüsse vollständig und klar formuliert? Abstimmungsergebnis (Ja/Nein/Enthaltung) angegeben? | Unklare Beschlussformulierung = Auslegungsstreit |
 | 8 | Anlagenverweis | Alle referenzierten Anlagen nummeriert und beigefügt? | Anlage fehlt = Beschluss unvollständig dokumentiert |
-| 9 | Notarielle Beurkundung | Paragraf 130 Abs. 1 AktG (börsennotierte AG); Paragraf 179 AktG (Satzungsänderung); Paragraf 293 AktG (Unternehmensvertrag): Notar erforderlich? | Formnichtigkeit bei fehlendem Notar (Paragraf 241 Nr. 2 AktG) |
-| 10 | Unterzeichnung | AR: Vorsitzender allein (Paragraf 107 Abs. 2 S. 3 AktG); GmbH-GV: Versammlungsleiter; HV: Notar / Vorsitzender (Paragraf 130 AktG) | Fehlende Unterzeichnung begründet Beweisnot; kein automatischer Nichtigkeitsgrund |
+| 9 | Notarielle Beurkundung | Paragraf 130 Absatz 1 AktG: Grundsatz notarielle Niederschrift; Ausnahme nach Satz 3 nur bei nichtbörsennotierter AG ohne gesetzliche Dreiviertel- oder größere Mehrheit | Form und konkreten Beschlussgegenstand prüfen |
+| 10 | Unterzeichnung | AR: Vorsitzender allein (Paragraf 107 Abs. 2 S. 3 AktG); GmbH-GV: Formregel prüfen, bei Paragraf 48 Absatz 3 GmbHG Alleingesellschafter; HV: Notar oder im Fall des Paragrafen 130 Absatz 1 Satz 3 AktG Aufsichtsratsvorsitzender | Fehlende Unterzeichnung begründet Beweisnot; kein automatischer Nichtigkeitsgrund |
 | 11 | Executive Sessions | Vertrauliche Sitzungsabschnitte (ohne Management) separat dokumentiert? | Mandats- und Beratungsgeheimnis beachten |
 | 12 | Zustellung und Fristen | Protokoll den Mitgliedern zugeleitet? Genehmigung in der Folgesitzung vorgesehen? | Keine gesetzliche Frist, aber Best Practice: innerhalb von 2 Wochen |
 | 13 | Anfechtungsfrist | Paragraf 246 Abs. 1 AktG: 1 Monat ab Beschlussfassung — GmbH analog? | Fristnotiz anlegen; für M&A-Transaktionen besondere Relevanz |
@@ -504,7 +474,7 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 |---|---|---|---|
 | Anfechtung HV-Beschluss | Paragraf 246 Abs. 1 AktG | 1 Monat ab Beschlussfassung | Beschluss wird unanfechtbar; Anfechtungsrecht erlischt |
 | Nichtigkeit (Paragraf 241 AktG) | Keine Frist | Nichtigkeitsklage zu jederzeit möglich | Dauerhafter Schwebezustand; Heilungsmöglichkeit nach Paragraf 244 AktG prüfen |
-| Einladungsfrist AR | Paragraf 110 Abs. 2 AktG | Mind. 14 Tage vor Sitzung | Anfechtbarkeit der gefassten Beschlüsse; Verzicht dokumentieren |
+| Einberufungsverlangen AR | Paragraf 110 Absatz 1 und 2 AktG | Unverzügliche Einberufung auf Verlangen; Sitzung binnen zwei Wochen nach Einberufung | Bei unerfülltem Verlangen Selbst-Einberufung nach Absatz 2 prüfen; keine Mindestladungsfrist |
 | Protokollierung AR | Paragraf 107 Abs. 2 AktG | Keine gesetzliche Frist; Best Practice: 2 Wochen | Beweisschwierigkeiten; ggf. Beschlussfassung unwirksam wenn Inhalt unrekonstruierbar |
 | Aufbewahrung Protokoll | Paragraf 257 Abs. 1 Nr. 1 HGB | 10 Jahre (Handelsbücher und Jahresabschlüsse; Protokolle als Handelsbriefe: 6 Jahre) | Ordnungswidrigkeitenrisiko; Beweisschwierigkeiten in Haftungsfällen |
 | Ansprüche gegen AR-Mitglieder | Paragraf 116 i.V.m. Paragraf 93 Abs. 6 AktG | Verjährung: 5 Jahre (börsennotierte AG: 10 Jahre); Paragraf 93 Abs. 6 AktG | Spätfolgen fehlerhafter Protokollierung (Beschlussmangel → Schaden) |
@@ -515,7 +485,7 @@ Zusätzlich: Mindestens die Hälfte der Gesamtzahl der Mitglieder muss anwesend 
 |---|---|---|
 | Beschluss gültig trotz fehlendem Protokoll | Protokoll ist nur Beweismittel, kein Wirksamkeitserfordernis | Beweislastrisiko liegt beim Beschlussführer; ohne Protokoll kein verlässlicher Nachweis gegenüber M&A-Käufern, Behörden, Gerichten |
 | Protokoll erst 3 Monate nach Sitzung erstellt | Gesetz sieht keine Frist vor | Beweiswert des Protokolls leidet erheblich; Erinnerungsprotokoll mit deutlichem Hinweis auf späte Erstellung versehen |
-| Videokonferenz ohne ausdrückliche Satzungsermächtigung | Paragraf 108 Abs. 4 AktG erlaubt Videokonferenz des AR | GmbH: GmbHG sieht keine ausdrückliche Regelung vor; gesellschaftsvertragliche Ermächtigung prüfen oder Einvernehmen aller sicherstellen |
+| Videokonferenz ohne ausdrückliche Satzungsermächtigung | Paragraf 108 Abs. 4 AktG erlaubt Videokonferenz des AR | GmbH-Gesellschafterversammlung: Paragraf 48 Absatz 1 Satz 2 GmbHG verlangt für fernmündliche oder videobasierte Versammlungen das Einverständnis sämtlicher Gesellschafter in Textform; Organ und Satzung gesondert prüfen |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -551,7 +521,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 | M&A-Transaktion: Zielgesellschaft hat lückenhafte AR-Protokolle | Due-Diligence-Finding mit hohem Schweregrad; Verkäufer-Garantie für ordnungsgemäße Beschlussfassung; MAC-Klausel prüfen |
 | GmbH-Beschluss ohne Stimmverbotsbeachtung (Paragraf 47 Abs. 4 GmbHG) | Unverzügliche Wiederholung des Beschlusses unter korrekter Stimmrechtsprüfung; falls Frist läuft, Heilungsklage erwägen |
 | AR-Protokoll nachträglich (> 3 Monate) erstellt | Deutlichen Hinweis auf Erstellungsdatum im Protokoll; Erinnerungscharakter kennzeichnen; Parallelbeweise sichern (E-Mails, Präsentationen) |
-| Videokonferenz-Sitzung ohne GV-Ermächtigung (GmbH) | Einvernehmen aller Gesellschafter ausdrücklich dokumentieren; nachträgliche satzungsrechtliche Ermächtigung erwägen |
+| Videobasierte GmbH-Gesellschafterversammlung | Einverständnis sämtlicher Gesellschafter in Textform nach Paragraf 48 Absatz 1 Satz 2 GmbHG prüfen und dokumentieren; keine nachträgliche Zustimmung erfinden |
 | Beschlussfähigkeit knapp | Quorum-Berechnung im Protokoll explizit ausweisen; bei mehreren Ergebnissen (z.B. wegen Stimmbefangenheit) getrennt ausweisen |
 | Entlastungsbeschluss mit Stimmverbot | Abstimmungsergebnis getrennt nach abstimmungsberechtigten und gesamten Stimmen dokumentieren; Stimmverbot mit Norm benennen |
 
@@ -568,7 +538,7 @@ Falls kein Connector: direkt fragen — welches Organ, welches Datum, welcher Ty
 **Sitzungsmetadaten bestätigen:**
 - Organ und Gesellschaft
 - Datum, Uhrzeit, Ort (physisch / Videokonferenz nach Paragraf 108 Abs. 4 AktG / telefonisch)
-- Ordnungsgemäße Einladung? (AR: Paragraf 110 Abs. 2 AktG, mind. 14 Tage)
+- Ordnungsgemäße Einladung nach den organbezogenen Regeln? Bei Einberufungsverlangen Paragraf 110 Absatz 1 und 2 AktG gesondert prüfen; keine pauschale 14-Tage-Mindestfrist.
 - Form der Sitzungsniederschrift: Vollprotokoll / Beschlussprotokoll / Hybrid
 
 ### Schritt 2: Anwesenheit und Beschlussfähigkeit
@@ -648,7 +618,7 @@ Gaeste: [NAME], [FUNKTION] (nur bei TOP [N])
 Beschlussfaehigkeit: [BEJAHT / VERNEINT] (Paragraf 108 Abs. 2 AktG: mind. 3 Mitglieder)
 
 --- EINBERUFUNG ---
-Einberufung durch [VORSITZENDEN] mit Schreiben vom [DATUM] (Frist Paragraf 110 Abs. 2 AktG: mind. [N] Tage).
+Einberufung durch [PERSON/FUNKTION] mit Schreiben vom [DATUM]. Maßgebliche Einberufungsregel und Nachweis: [SATZUNG/GESCHÄFTSORDNUNG; GEGEBENENFALLS VERLANGEN NACH PARAGRAF 110 AKTG].
 Tagesordnung lag vor / wurde verteilt am [DATUM].
 
 --- TAGESORDNUNG ---
@@ -693,7 +663,7 @@ AR-Vorsitzender [FUNKTION]
 
 - **Beschlussfaehigkeit nach Paragraf 108 Abs. 2 AktG nicht erreicht** (weniger als 3 Mitglieder stimmen mit) — keine gueltigen Beschlüsse; Sitzung vertagen.
 - **Stimmverbot Paragraf 136 AktG / Paragraf 47 Abs. 4 GmbHG uebersehen** — Beschluss anfechtbar; betroffenes Mitglied ausdrücklich von Abstimmung ausschliessen und im Protokoll dokumentieren.
-- **Einladungsfrist Paragraf 110 Abs. 2 AktG unterschritten** — Beschlüsse anfechtbar; Einladungsverzicht aller Mitglieder dokumentieren.
+- Einberufungsverlangen nach Paragraf 110 AktG nicht ordnungsgemäß behandelt: Ablauf und einschlägige Einberufungsregeln prüfen; kein fingierter Verzicht und keine pauschale Mindestfrist.
 - **Satzungsaenderung / Kapitalmaßnahme ohne Notarprotokoll** — Formnichtigkeit (Paragraf 241 Nr. 2 AktG); Notar rechtzeitig bestellen.
 - **Anfechtungsfrist (1 Monat) nach Paragraf 246 AktG versaeumt** — Beschluss unanfechtbar auch bei Fehlern; sofort Fristnotiz anlegen.
 
@@ -706,13 +676,15 @@ AR-Vorsitzender [FUNKTION]
 
 ## Quellen und Zitierweise
 
+Gezielter amtlicher Normabgleich am 16.10.2026: [Paragraf 110 AktG](https://www.gesetze-im-internet.de/aktg/__110.html), [Paragraf 130 AktG](https://www.gesetze-im-internet.de/aktg/__130.html) und [Paragraf 48 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__48.html) vollständig gelesen. Korrigiert wurden die erfundene allgemeine 14-Tage-Mindestladung, die Ausnahme zur HV-Niederschrift und die pauschale Verneinung einer GmbH-Protokollpflicht, einschließlich der entsprechenden Prüf- und Musterstellen. Die fernmündliche/videobasierte GmbH-Versammlung wurde innerhalb derselben Normzuordnung berichtigt. Keine neue Vollprüfung aller übrigen Aussagen zu Beschlussmängeln, Kosten, Haftung oder Aufbewahrung.
+
 - Paragraf 107 Abs. 2 AktG (Niederschriftspflicht Aufsichtsrat)
 - Paragraf 48 GmbHG (Gesellschafterversammlung)
 - Paragraf 130 AktG (Hauptversammlungsprotokoll)
 - Paragraf 241, 243, 246 AktG (Beschlussmängel und -anfechtung)
 - Paragraf 47 Abs. 4 GmbHG (Stimmverbot GmbH)
 - Paragraf 108 Abs. 2 AktG (Beschlussfähigkeit AR)
-- Paragraf 110 Abs. 2 AktG (Einladungsfrist AR)
+- Paragraf 110 Absatz 1 und 2 AktG (Einberufungsverlangen und Selbst-Einberufung)
 - Paragraf 136 AktG (Stimmverbot AG)
 
 Zitierweise nach `../../references/zitierweise.md`.
@@ -723,6 +695,40 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Scholz, GmbHG, 12. Aufl. 2018, Paragraf 47 Rn. 110 ff.
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+
+---
+
+## Skill: `rechtsquellen-beweislast-darlegungslast`
+
+_Für Rechtsquellen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix. Fachgebiet: Gesellschaftsrecht._
+
+# Rechtsquellen: Beweislast, Darlegungslast und Substantiierung
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rechtsquellen: Beweislast, Darlegungslast und Substantiierung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Spezialwissen: Rechtsquellen: Beweislast, Darlegungslast und Substantiierung
+- **Normen-/Quellenanker:** AG, HRB, HRA.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Rechtsquellen** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
 
 ---
 
@@ -828,10 +834,7 @@ Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen. Rec
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -848,7 +851,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

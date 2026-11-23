@@ -1,5 +1,9 @@
 # Vollprüfung: rentenpruefer
 
+Finde die konkrete Abweichung zwischen Versicherungsverlauf, Nachweisen und Rentenbescheid und schreibe die bestellte Berechnung, Beratung oder den Rechtsbehelf. Die Kontenklärung nach Paragraf 149 Absatz 5 SGB VI ist von Rentenanspruch und Berechnung nach Paragrafen 43, 51, 64 und 66 SGB VI zu trennen. BSG, Urteil vom 21.03.2018, Az. B 13 R 19/14 R, Rn. 14 bis 17 und 22, ist der vorhandene Anker zur Reichweite einer Vormerkung: Festgestellte Zeiten garantieren nicht ihre spätere Bewertung oder eine bestimmte Rentenhöhe. Der Kindererziehungsfall entscheidet nicht über jeden denkbaren Versicherungsmonat. Fundstelle und dokumentierten Prüfstand erhalten.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-10 von 73 Skills des Plugins `rentenpruefer`.
@@ -27,12 +31,10 @@ _Schaltet sich ein, wenn in Rentenprüfer ein juristisches Arbeitsprodukt tragf�
 
 ## 1. Direktstart
 
-Arbeite als Rentenrechtlicher Bearbeiter für DRV-Kontenklärung, Altersrente, Erwerbsminderung, Hinterbliebenenrente, Riester, Betriebsrente, private Renten, Versorgungswerke, Bescheid, Widerspruch und Sozialgericht.
+Gleiche Versicherungsverlauf, Bescheid und beitrags- oder leistungsrelevante Nachweise ab. Rechne die beanstandete Position nach und formuliere die erforderliche Anfrage oder Einwendung.
 
-Pluginauftrag: Rentenprüfer für Arbeitnehmer: DRV-Kontenklärung, Alters- und Erwerbsminderungsrente, Betriebsrente, private Renten, Versorgungswerk-Schnittstellen, Bescheid, Widerspruch und Klage.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -62,10 +64,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Bescheid Widerspruch Klage Sozialgericht: Bearbeite den Fachpunkt im Skill bescheid-widerspruch-klage-sozialgericht und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. rentenbescheid-prüfen-widerspruch: Bearbeite den Fachpunkt im Skill rentenbescheid-widerspruch-rentencheck-fuenf und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. widerspruch-sozialgericht-klage: Bearbeite den Fachpunkt im Skill widerspruch-sozialgericht-klage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Private Rentenversicherung im Rentenfahrplan: Bearbeite den Fachpunkt im Skill private-rentenversicherung-vertragscheck und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Bescheid Widerspruch Klage Sozialgericht](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/rentenpruefer/skills/bescheid-widerspruch-klage-sozialgericht/FACHINHALT.md)
+3.1.2. [rentenbescheid-prüfen-widerspruch](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/rentenpruefer/skills/rentenbescheid-widerspruch-rentencheck-fuenf/FACHINHALT.md)
+3.1.3. [widerspruch-sozialgericht-klage](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/rentenpruefer/skills/widerspruch-sozialgericht-klage/FACHINHALT.md)
+3.1.4. [Private Rentenversicherung im Rentenfahrplan](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/rentenpruefer/skills/private-rentenversicherung-vertragscheck/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -260,7 +264,13 @@ Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei pr
 
 ## Spezifischer Intake
 
-Krankenkasse, Vorversicherungszeiten, weitere Einkünfte, Ausland, Versorgungsbezüge, Steuerstatus.
+Krankenkasse, Vorversicherungszeiten, weitere Einkünfte, Ausland, Versorgungsbezüge, Steuerstatus. Bei Teilrente zusätzlich Vollrentenbetrag, Beginn, geplante Rückkehr zur Vollrente und letzten Versicherungsstatus aus den Bescheiden übernehmen.
+
+## 1. Familienversicherung nach Teilrentenwahl
+
+[BSG, Urteil vom 22.01.2026, B 6a/12 KR 14/24 R](https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2026/2026_01_22_B_06a_12_KR_14_24_R.html), Rn. 13–27: Im Altfall 2021 keine Familienversicherung durch von vornherein viermonatige Teilrente; Einkommen regelmäßig über zwölf Monate nach damaligem Kenntnisstand prognostizieren. Die Wahl nach Paragraf 42 SGB VI ist kein Verzicht nach Paragraf 46 SGB I. Für neue Sachverhalte seit 2026 [Paragraf 10 Absatz 1 Satz 8 SGB V](https://www.gesetze-im-internet.de/sgb_5/__10.html) gesondert prüfen: Altersrente als Teilrente, zu hohes Gesamteinkommen bei Vollrente und zuletzt keine GKV müssen zusammen vorliegen. Keine rückwirkende Anwendung oder allgemeine Teilrentensperre. Ohne entstandene Familienversicherung keine darauf folgende Anschlussversicherung nach Paragraf 188 Absatz 4 SGB V. Urteil und Norm am 16.10.2026 gelesen.
+
+Ergebnis: belegte Statusprüfung und beauftragte Krankenkassenanfrage in vollständigen Sätzen, keine bloße günstige Nettosimulation. Formatierte Dokumente soweit möglich Times New Roman 11 pt, ausschließlich dezimal gliedern; bestehenden Schutz nicht eigenmächtig kündigen.
 
 ## Prüfprogramm
 
@@ -573,10 +583,7 @@ BAV-Unterlagen, Riester/Rürup, private Renten, Direktversicherung, KV-Status.
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -593,7 +600,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** Fristenblatt und das beauftragte Schreiben, die Personalmaßnahme oder der begründete Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

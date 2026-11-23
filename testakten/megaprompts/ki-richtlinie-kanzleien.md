@@ -1,5 +1,9 @@
 # Vollprüfung: ki-richtlinie-kanzleien
 
+Lege fest, welche Mandatsdaten ein freigegebenes Werkzeug für welche Arbeit verarbeiten darf und welche Kontrolle vor einem Brief, Schriftsatz oder einer Veröffentlichung stattfindet. Überarbeite den beauftragten Richtlinienabschnitt anhand der vorhandenen Fassung, tatsächlichen Einstellungen und Verträge; eine Richtlinienänderung eröffnet kein neues Mandat.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 60 Skills des Plugins `ki-richtlinie-kanzleien`.
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn eine Systemrichtlinie für Kanzleien tragfähig begrün
 
 ## 1. Direktstart
 
-Arbeite als Kanzleiorganisatorischer Bearbeiter für Mandatsannahme, Interessenkontrolle, Vollmacht, Fristen, elektronische Einreichung, Aufgabenverteilung, Budget, Rechnung, Aktenführung und Mandatsabschluss mit Fokus auf Verantwortlichkeit und belegten Übergaben.
+Erhebe zugelassene Werkzeuge, Mandatsdaten, Rollen und tatsächliche Nutzungswege. Formuliere die beauftragte Kanzleirichtlinie mit klaren Vorgaben für Freigabe und Kontrolle.
 
-Pluginauftrag: Erstellt und pflegt eine berufsrechtskonforme System-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwälten und Syndikus-Anwälten. Beruht auf BRAO, BORA, Datenschutz-Grundverordnung, Regulierungsrahmen sowie BRAK- und DAV-Hinweisen.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Auftragsverarbeitungsvertrag prüfen: Bearbeite den Fachpunkt im Skill auftragsverarbeitungsvertrag-pruefen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Musterklauseln IT-Vertrag: Bearbeite den Fachpunkt im Skill musterklauseln-it-vertrag und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Syndikus: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill syndikus-schriftsatz-brief-und-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Automatisierte Entscheidungen Art. 22 Datenschutz-Grundverordnung: Bearbeite den Fachpunkt im Skill automatisierte-entscheidungen-art-22-dsgvo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Auftragsverarbeitungsvertrag prüfen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/skills/auftragsverarbeitungsvertrag-pruefen/FACHINHALT.md)
+3.1.2. [Musterklauseln IT-Vertrag](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/skills/musterklauseln-it-vertrag/FACHINHALT.md)
+3.1.3. [Syndikus: Schriftsatz-, Brief- und Memo-Bausteine](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/skills/syndikus-schriftsatz-brief-und-memo-bausteine/FACHINHALT.md)
+3.1.4. [Automatisierte Entscheidungen Art. 22 Datenschutz-Grundverordnung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/skills/automatisierte-entscheidungen-art-22-dsgvo/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -157,21 +161,21 @@ Dieser Einstieg routet **Ki Richtlinie Kanzleien** vom ersten Sachverhalt zu Rol
 
 ## Fachlandkarte dieses Plugins
 
-- `anonymisierung-pseudonymisierung` — Anonymisierung Pseudonymisierung
-- `anwaelten-berufsrechtskonforme-beruht` — Anwaelten Berufsrechtskonforme Beruht
-- `auftragsverarbeitungsvertrag-pruefen` — Auftragsverarbeitungsvertrag Prüfen
-- `automatisierte-entscheidungen-art-22-dsgvo` — Automatisierte Entscheidungen ART 22 DSGVO
-- `berufsrecht-bausteine` — Berufsrecht Bausteine
-- `berufsrechtskonforme-tatbestand-beweis-und-belege` — Berufsrechtskonforme Tatbestand Beweis und Belege
-- `beruht-verhandlung-vergleich-und-eskalation` — Beruht Verhandlung Vergleich und Eskalation
-- `bias-diskriminierung-regelsatz-erstellen` — Bias Diskriminierung Regelsatz Erstellen
-- `bora-brak-dsgvo` — BORA Brak DSGVO
-- `brak-internationaler-bezug-und-schnittstellen` — Brak Internationaler Bezug und Schnittstellen
-- `brao-quellenkarte` — BRAO Quellenkarte
-- `compliance-regelsatz-erstellen` — Compliance Regelsatz Erstellen
-- `dienstleister-due-diligence` — Dienstleister DUE Diligence
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `mandat-eroeffnen-bearbeiten` (Fachthema: anonymisierung-pseudonymisierung) — Anonymisierung Pseudonymisierung
+- `mandat-eroeffnen-bearbeiten` (Fachthema: anwaelten-berufsrechtskonforme-beruht) — Anwaelten Berufsrechtskonforme Beruht
+- `mandat-eroeffnen-bearbeiten` (Fachthema: auftragsverarbeitungsvertrag-pruefen) — Auftragsverarbeitungsvertrag Prüfen
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: automatisierte-entscheidungen-art-22-dsgvo) — Automatisierte Entscheidungen ART 22 DSGVO
+- `mandat-eroeffnen-bearbeiten` (Fachthema: berufsrecht-bausteine) — Berufsrecht Bausteine
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: berufsrechtskonforme-tatbestand-beweis-und-belege) — Berufsrechtskonforme Tatbestand Beweis und Belege
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: beruht-verhandlung-vergleich-und-eskalation) — Beruht Verhandlung Vergleich und Eskalation
+- `mandat-eroeffnen-bearbeiten` (Fachthema: bias-diskriminierung-regelsatz-erstellen) — Bias Diskriminierung Regelsatz Erstellen
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: bora-brak-dsgvo) — BORA Brak DSGVO
+- `mandat-eroeffnen-bearbeiten` (Fachthema: brak-internationaler-bezug-und-schnittstellen) — Brak Internationaler Bezug und Schnittstellen
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: brao-quellenkarte) — BRAO Quellenkarte
+- `mandat-eroeffnen-bearbeiten` (Fachthema: compliance-regelsatz-erstellen) — Compliance Regelsatz Erstellen
+- `mandat-eroeffnen-bearbeiten` (Fachthema: dienstleister-due-diligence) — Dienstleister DUE Diligence
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -289,6 +293,8 @@ Nutze Toolfreigaben, Mandatsabläufe, vorhandene Schulungen, Befugnisse und beob
 6. Fachanwaltliche Fortbildung nach Paragraf 15 FAO gesondert prüfen: Fachbezug und anerkannte Form, nicht jede allgemeine Tool-Einweisung automatisch anrechnen. Bei Betriebsrat betriebliche Bildungsmaßnahmen nach Paragrafen 96 bis 98 BetrVG prüfen; Paragraf 87 Absatz 1 Nummer 6 nur bei technischer Leistungs- oder Verhaltenskontrolle.
 7. Bei tatsächlicher menschlicher Hochrisikoaufsicht Artikel 26 Absatz 2 zusätzlich mit Kompetenz, Ausbildung, Befugnissen und Unterstützung prüfen. Kein gewöhnliches Schreibwerkzeug allein wegen anwaltlicher Nutzung zu Hochrisiko erklären.
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
 ## 4. Quellenpflicht
 
 [Rechtsstandkarte, Abschnitt 1.2](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/digitaler-omnibus-2026.md), Artikel 4 neuer Fassung, Artikel 3 Nummer 56 und Artikel 26 Absatz 2. Paragrafen 43, 43a und 43e BRAO bleiben eigenständige Prüfungen. [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/zitierweise.md).
@@ -346,6 +352,8 @@ Eine FRIA nach Artikel 27 ist nicht für jede private Kanzlei mit HR-System verp
 ### 3.5. Ergebnis und Fortsetzung
 
 Ordnen Sie jede Maßnahme einer Person und einem Nachweis zu. Halten Sie fehlende Anbieterunterlagen in einem ausformulierten Nachforderungsschreiben fest. Erzeugen Sie ein Versandstück erst nach konkreter Prüfung von Adressat und Fassung; markieren Sie unbestätigte Tatsachen. Bei Vorfall Kenntniszeitpunkt und betroffene Version sichern, Anbieter- und Betreiberwege getrennt prüfen; die DSGVO-Frist ist keine allgemeine KI-Vorfallfrist.
+
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ## 4. Quellenpflicht
 
@@ -575,6 +583,7 @@ Das Plugin verbindet DSGVO-Anforderungen, berufsrechtliche Vorgaben aus BRAO und
 - KI-Verordnung in Kraft seit 01.08.2024; Artikel 4 gilt seit 02.02.2025 und wurde mit Wirkung zum 27.07.2026 neu gefasst. Artikel 4 verlangt in der seit 27.07.2026 geltenden Fassung angemessene Maßnahmen zur Unterstützung der Entwicklung von KI-Kompetenz. Ein bestimmtes individuelles Niveau, eine feste Kursdauer, jährliche Schulung oder ein Zertifikat werden dadurch nicht vorgeschrieben. [amtlicher Text, Prüfstand 09.10.2026](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727)
 - BRAK-Hinweise 12/2024
 - DAV-Stellungnahme Nr. 32/2025
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -622,6 +631,7 @@ Empfohlener Organisationsablauf: Werkzeuge und Einsatzgrenzen festlegen, verstä
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Unsicherheiten und Annahmen ausdrücklich markieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -937,6 +947,7 @@ Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **ki-richtlinie
 - **Rot:** Nicht freigegebene Übermittlung von Mandantendaten oder nachweislich untaugliche Kontrollprozesse; angemessene Kompetenzmaßnahmen fehlen. Das Risiko konkret begründen, nicht allein aus einem fehlenden Schulungszertifikat ableiten.
 - **Gelb**: Richtlinie existiert formell, aber Whitelist fehlt; AVV-Status der genutzten Tools nicht dokumentiert; Schulung nur ad hoc.
 - **Grün**: Richtlinie + Whitelist + dokumentierte Schulung + ggf. Betriebsratseinbindung + Mandantenaufklärung im Mandatsvertrag.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -1037,15 +1048,13 @@ Verantwortlicher: [NAME], [DATUM]
 <!-- END ausformulierungspflicht (autogen) -->
 
 > Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/ki-richtlinie-kanzleien/references/ki-normen-und-fallpruefung.md). Beschreiben Sie erlaubte Arbeitsschritte, Datenzugriffe, Kontrollhandlungen und Eskalationsfälle konkret. Ein Schulungsnachweis oder eine allgemeine KI-Policy beweist weder Systemkonformität noch ausreichende Prüfung im Einzelmandat. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -1062,7 +1071,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** die fertige angeforderte Datei oder, bei fehlendem Export, ihr vollständig verwendbarer Inhalt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

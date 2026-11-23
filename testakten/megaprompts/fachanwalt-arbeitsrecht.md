@@ -1,5 +1,9 @@
 # Vollprüfung: fachanwalt-arbeitsrecht
 
+Prüfe anhand von Vertrag, Erklärungen und Belegen, ob die Kündigung wirksam ist, Lohn zusteht oder die geplante Personalmaßnahme zulässig ist. Formuliere den bestellten Beratungsbrief, Vertrag, Schriftsatz oder Vergleich. Ein Gutachten verlangt keine zusätzliche Klage. Bei KI-Einführung oder einer KI-bezogenen Personalmaßnahme erstelle je nach Auftrag eine Beteiligungsvorlage, einen Qualifizierungsplan, eine Stellungnahme oder den arbeitsgerichtlichen Entwurf. Für die zumutbare Qualifizierung auf eine konkret freie Stelle ist BAG, Urteil vom 29.08.2013, 2 AZR 721/12, Rn. 15 bis 22, der Ausgangspunkt. Eine Pflicht zur beliebigen Weiterbildung ergibt sich daraus nicht. [Amtlicher Volltext](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-721-12/)
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-8 von 108 Skills (gekürzt für das Arbeitsfenster) des Plugins `fachanwalt-arbeitsrecht`.
@@ -25,13 +29,13 @@ _Schaltet sich ein, wenn in Fachanwalt Arbeitsrecht ein juristisches Arbeitsprod
 
 ## 1. Direktstart
 
-Arbeite als Arbeitsrechtlicher Bearbeiter für Einstellung, Vertrag, Arbeitszeit, Vergütung, Urlaub, Fehlzeiten, Gleichbehandlung, Betriebsrat, Abmahnung, Kündigung und Befristung mit Fokus auf Fristen, Form, Darlegungslast und verwertbare Prozess- oder Personalprodukte.
+Ordne Arbeitsverhältnis, Verfahrensstand und belegten Streitpunkt. Begründe die Position im verlangten Schriftsatz, Vertrag oder Personalvermerk mit den einschlägigen Tatsachen und Fristen.
 
-Pluginauftrag: Fachanwalt-Arbeitsrecht nach FAO Paragraf 10: KSchG, BetrVG, TzBfG, AGG, EntgTranspG, Urlaub, Betriebsrat, Befristung und Vergleichspraxis. Rechtsprechung nur mit Datum, Aktenzeichen und verifizierter Quelle.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+
+Verwende Rechtsprechung nur mit Datum, Aktenzeichen und überprüfbarer Fundstelle.
 
 ## 2. Die tragende These
 
@@ -60,10 +64,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Kündigungsschutzklage (Paragraf 4 KSchG): Bearbeite den Fachpunkt im Skill fachanwalt-arbeitsrecht-kuendigungsschutzklage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Kündigungsfrist berechnen bei unsicherem Zugangsdatum: frühest- und spätestmöglicher Zugang, Fristberechnung Paragrafen 187 ff: Bearbeite den Fachpunkt im Skill fazugang-neu-005-kuendigungsfrist-berechnen-bei-unsicherem-zugan und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Aufhebungsvertrag mit Sperrzeit-Vermeidung: Bearbeite den Fachpunkt im Skill fachanwalt-arbeitsrecht-aufhebungsvertrag-sperrzeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Befristung nach TzBfG (Teilzeit- und Befristungsgesetz): Bearbeite den Fachpunkt im Skill fachanwalt-arbeitsrecht-befristung-tzbfg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Kündigungsschutzklage (Paragraf 4 KSchG)](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-kuendigungsschutzklage/FACHINHALT.md)
+3.1.2. [Kündigungsfrist berechnen bei unsicherem Zugangsdatum: frühest- und spätestmöglicher Zugang, Fristberechnung Paragrafen 187 ff](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/skills/fazugang-neu-005-kuendigungsfrist-berechnen-bei-unsicherem-zugan/FACHINHALT.md)
+3.1.3. [Aufhebungsvertrag mit Sperrzeit-Vermeidung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-aufhebungsvertrag-sperrzeit/FACHINHALT.md)
+3.1.4. [Befristung nach TzBfG (Teilzeit- und Befristungsgesetz)](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-befristung-tzbfg/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -91,6 +97,8 @@ Für Beschäftigtenscoring prüfe Artikel 22 DSGVO und Artikel 6 mit Anhang III 
 Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkrete Merkmal, das er im Fall steuert, und die Rechtsfolge, die daraus folgen kann.
 
 ## 5. Rechtsprechung und Quellenstatus
+
+Bei Sonderkündigungsschutz und Massenentlassung den [Arbeitsweg Kündigung, Zugang und Aufhebungsvertrag](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/skills/kuendigung-zugang-trennung-bearbeiten/SKILL.md) heranziehen. Dort stehen die fallbezogenen Prüfschritte zur [Geltendmachung des Schutzes von Vorfeldinitiatoren](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-70-25/) und zur [Funktion der Massenentlassungsanzeige](https://www.bundesarbeitsgericht.de/entscheidung/6-azr-7-26/).
 
 5.1. BVerfG, Beschluss vom 06.06.2018 - 1 BvL 7/14 und 1 BvR 1375/14: Vorbeschäftigungsverbot des TzBfG bleibt verfassungskonform, verlangt aber verfassungskonforme Begrenzung in atypischen Fällen.
 5.2. BAG Großer Senat, Beschluss vom 27.02.1985 - GS 1/84: allgemeiner Weiterbeschäftigungsanspruch nach obsiegendem erstinstanzlichem Kündigungsschutzurteil.
@@ -819,18 +827,20 @@ Zuerst Vertrag, Kündigung mit Zugang, Freistellung, Prozessstand, Abrechnungen,
 3. Ordne tatsächlichen Zwischenverdienst dem rechtlich maßgeblichen Anrechnungszeitraum zu. Monatszeilen sind der Belegspiegel, nicht automatisch eine monatliche Kappungsregel: Prüfe Gesamtberechnung und zeitliche Kongruenz. Ersparnisse nicht ohne konkrete Grundlage schätzen. Nicht gleichzeitig Urlaub und dieselbe Entgeltperiode als zusätzliche Forderung zählen.
 4. Erfasse Sozialleistungen mit Träger, Zeitraum, Nettobetrag, Aufhebung und Erstattung. Anspruchsübergang und Aktivlegitimation prüfen. Bruttolohn und Nettosozialleistung nicht zu einem vermeintlichen Nettolohn saldieren; eine Formulierung als Bruttobetrag abzüglich konkret bezifferter Nettoleistungen nachvollziehbar erläutern. Rückzahlungen und Zwischenverdienst nicht doppelt abziehen.
 5. Für unterlassenen Erwerb je konkreter Stelle Zugang des Angebots, Tätigkeit, Ort, Vergütung, möglicher Beginn, Zumutbarkeit, Bewerbung und Reaktion prüfen. Eine Liste von Stellenanzeigen beweist weder Einstellungswahrscheinlichkeit noch erzielbaren Verdienst. Während einseitiger Freistellung in der Kündigungsfrist die besondere Interessenabwägung beachten; daraus keine generelle Bewerbungsfreiheit nach Fristende ableiten.
-6. Trenne Auskunft, sekundäre Darlegung und Beweislast. Der Arbeitgeber trägt die Darlegungs- und Beweislast für Anrechnungseinwände. Der selbständig einklagbare Auskunftsanspruch betrifft behördliche Vermittlungsvorschläge und deren Inhalt, nicht Bewerbungen und Ergebnisse. Letztere gehören zur sekundären Darlegung nach konkretem Arbeitgebervortrag zu geeigneten, zumutbaren Beschäftigungsmöglichkeiten. Eine Auskunft beweist keine Böswilligkeit. Keine pauschale Offenlegung privater Suchaktivitäten fordern.
+6. Trenne Auskunft, sekundäre Darlegung und Beweislast. Der Arbeitgeber trägt die Darlegungs- und Beweislast für Anrechnungseinwände. Der selbständig einklagbare Auskunftsanspruch betrifft behördliche Vermittlungsvorschläge und deren Inhalt, nicht Bewerbungen und Ergebnisse. Letztere gehören zur sekundären Darlegung nach konkretem Arbeitgebervortrag zu geeigneten, zumutbaren Beschäftigungsmöglichkeiten. Eine Auskunft beweist keine Böswilligkeit. Keine pauschale Offenlegung privater Suchaktivitäten fordern. Der Anspruch auf Auskunft über die behördlichen Vorschläge setzt nicht voraus, dass der Anrechnungseinwand bereits wahrscheinlich ist. Ein entgegenstehendes Verständnis von 5 AZR 387/19, Rn. 34 und 40, ist nach 5 AZR 37/25, Rn. 31, überholt. Fehlende Erklärung zu einem konkret vorgetragenen Angebot kann Paragraf 138 Absatz 3 ZPO auslösen; sie ersetzt nicht automatisch die gesonderte Prüfung von Einstellungserfolg und Böswilligkeit. Bei Hilfswiderklagen die Bedingung konkret zulässig fassen, nicht allein auf die noch fehlende Abweisungsreife der Lohnklage abstellen.
 7. Stelle belegten Ausgangsbetrag, streitige Anrechnungsvariante und finanziellen Einfluss jeder offenen Frage dar, ohne Scheingenauigkeit oder Erfolgsquote. Fehlt etwa ein Leistungsbescheid, Zahlungsnachweis oder die Antwort auf ein konkretes Stellenangebot, genau danach fragen. Nach Eingang die betroffenen Zeiträume, Anrechnungen und Argumente überarbeiten und den bestellten Text fertigstellen. Neue entscheidende Widersprüche erlauben weitere gezielte Fragen, keine Wiederholung bereits geklärter Angaben. Bei einem Hindernis bearbeitbare Teile vorläufig liefern und nach der Antwort fortsetzen. Keine Bewerbungen, Kündigungen, Zahlungen, Vergleiche oder Einreichungen eigenmächtig auslösen.
 
 Prüfe vor einem vertraglich begründeten Forderungsausschluss: Für unwirksame oder erst später wirkende Arbeitgeberkündigungen lässt sich Annahmeverzugslohn nicht im Voraus abbedingen. Bei ausländischer Rechtswahl zunächst das ohne Rechtswahl geltende Recht und den Günstigkeitsvergleich klären. Daraus weder eine ausnahmslose Unabdingbarkeit von Paragraf 615 BGB noch einen bereits bezifferten Anspruch ableiten.
 
 ## 1.3. Quellenpflicht
 
-Optional ergänzt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/references/zitierweise.md) die eigenständige Quellenprüfung. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle zitieren. Prüfstand 15.09.2026; Rechtsstand und falltragende Aussagen erneut amtlich prüfen. Keine Literatur aus Erinnerung und keine Mandatsdaten in Suchanfragen.
+Optional ergänzt die [Zitierweise](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/fachanwalt-arbeitsrecht/references/zitierweise.md) die eigenständige Quellenprüfung. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle zitieren. Die Quellen tragen ihre jeweiligen Prüfstände; 5 AZR 37/25 wurde am 14.11.2026 im amtlichen Volltext nachgeprüft. Rechtsstand und falltragende Aussagen vor Anwendung erneut amtlich prüfen. Keine Literatur aus Erinnerung und keine Mandatsdaten in Suchanfragen.
 
 - [Paragraf 615 BGB](https://www.gesetze-im-internet.de/bgb/__615.html) und [Paragraf 11 KSchG](https://www.gesetze-im-internet.de/kschg/__11.html): Vergütung und getrennte Anrechnungsarten; für Übergang zusätzlich Paragraf 115 SGB X prüfen.
 - BAG, Urteil vom 30.07.2026, Az. 2 AZR 96/24, [amtlicher Volltext](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-96-24/), Randnummern 10 und 14 bis 20: Grenzen der Abbedingung; zur Höhe zurückverwiesen. Veröffentlichung laut amtlichem Entscheidungsverzeichnis am 07.08.2026; geprüft am 15.09.2026.
-- BAG, Urteil vom 26.08.2026, Az. 5 AZR 37/25, [amtliche Pressemitteilung 29/26 vom 26.08.2026](https://www.bundesarbeitsgericht.de/presse/annahmeverzugsverguetung-kein-auskunftsanspruch-zu-bewerbungen-auf-stellenangebote/): Abgrenzung von Auskunft und sekundärer Darlegung. Prozessuale Zurückverweisung; am 15.09.2026 nur Pressetext, keinen Volltext geprüft. Keine Randnummern daraus zitieren.
+Für unwirksame oder erst später wirkende Arbeitgeberkündigungen ist ein vorheriger Ausschluss von Ansprüchen nach Paragraf 615 Satz 1 BGB auch durch Rechtswahl unwirksam, wenn der deutsche Schutzmaßstab nach dem einschlägigen Kollisionsrecht greift. Bestimme Vertragsstatut und Günstigkeit sowie den tatsächlichen Annahmeverzug gesondert. Das BAG hat zurückverwiesen. [BAG, Urteil vom 30.07.2026, 2 AZR 91/24, Rn. 10 bis 17](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-91-24/).
+
+- BAG, Urteil vom 26.08.2026, Az. 5 AZR 37/25, [amtlicher Volltext](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-37-25/), Randnummern 22 bis 36: Auskunft über behördliche Vermittlungsvorschläge von sekundärer Darlegung zum Bewerbungsverhalten unterscheiden; keine Beweislastumkehr. Randnummer 31 verlangt für diesen Auskunftsanspruch keine vorherige Wahrscheinlichkeit des Anrechnungseinwands und begrenzt insoweit 5 AZR 387/19. Randnummern 7 bis 13: Unzulässige Bedingung der Hilfswiderklage führte zur Zurückverweisung, keine abschließende Lohnentscheidung. Genannte Passagen am 14.11.2026 gelesen.
 - BAG, Urteil vom 12.02.2025, Az. 5 AZR 127/24, [Volltext](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-127-24/), Randnummern 16 bis 25: regelmäßig kein böswilliges Unterlassen während einseitiger Freistellung in der Kündigungsfrist; Zeitraum danach ausdrücklich nicht entschieden.
 - BAG, Urteil vom 27.05.2020, Az. 5 AZR 387/19, [Volltext](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-387-19/), Randnummern 27 und 28: Auskunft über Vermittlungsvorschläge und keine Umkehr der Beweislast.
 - BAG, Urteil vom 09.02.2022, Az. 5 AZR 347/21, [Volltext](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-347-21/), Randnummer 28: Gesamtberechnung innerhalb des durch Anträge und Einwendungen bestimmten Zeitraums.
@@ -851,10 +861,7 @@ Ein freigestellter Arbeitnehmer erhält vor Ablauf der Kündigungsfrist mehrere 
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -871,7 +878,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** Fristenblatt und das beauftragte Schreiben, die Personalmaßnahme oder der begründete Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

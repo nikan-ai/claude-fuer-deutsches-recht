@@ -13,6 +13,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzverwaltung-nordlicht-handels-kiel.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzverwaltung-nordlicht-handels-kiel.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzverwaltung-nordlicht-handels-kiel_gesamt.pdf`](gesamt-pdf/insolvenzverwaltung-nordlicht-handels-kiel_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzverwaltung-nordlicht-handels-kiel.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-insolvenzverwaltung-nordlicht-handels-kiel.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzverwaltung-nordlicht-handels-kiel-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenzverwaltung-berichtsersteller-v1.0.0/testakte-insolvenzverwaltung-nordlicht-handels-kiel-einzelpdfs.zip) |
@@ -192,3 +193,13 @@ Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blanko
 | Internes Gutachten (PDF) | [Datei öffnen](pruefmaterial-insolvenz/Internes-Insolvenzanfechtungsgutachten.pdf) |
 
 <!-- END pruefmaterial-insolvenz -->
+
+## Weitere Unterlagen im Mandat
+
+Ein Bankjournal trennt die Freigabe des Zahlungslaufs, die Belastung des Massekontos und die spätere Rückläuferabfrage. Die Vollakte enthält die bisherige Originalfassung und beide zusätzlichen Belege im Ordner `Nachlieferung`. Die separat angebotenen PDF-Fassungen zeigen den vorherigen Aktenstand.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Vollständige Originalakte mit Nachlieferung herunterladen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/testakten-praxis-v1.0.0/insolvenzverwaltung-nordlicht-handels-kiel-mit-nachtrag.zip)

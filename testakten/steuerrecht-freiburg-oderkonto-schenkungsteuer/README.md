@@ -21,6 +21,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-steuerrecht-freiburg-oderkonto-schenkungsteuer.zip) · [Druckpaket 39](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-39.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/steuerrecht-freiburg-oderkonto-schenkungsteuer_gesamt.pdf`](gesamt-pdf/steuerrecht-freiburg-oderkonto-schenkungsteuer_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-steuerrecht-freiburg-oderkonto-schenkungsteuer.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-steuerrecht-freiburg-oderkonto-schenkungsteuer.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-steuerrecht-freiburg-oderkonto-schenkungsteuer-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/steuerwerkstatt-freiburg-oderkonto-v1.0.1/testakte-steuerrecht-freiburg-oderkonto-schenkungsteuer-einzelpdfs.zip) |
@@ -125,3 +126,22 @@ Die Word-Ausfüllvorlagen liegen gesammelt mit der Arbeitsakte im Workshop-Paket
 | Interne Prüfmappe | [Prüfmappe als PDF](../../quality/steuerrecht-freiburg/dozent/steuerrecht-freiburg-oderkonto-schenkungsteuer_Dozentenblatt.pdf) |
 
 [Übersicht der Freiburger Steuerwerkstatt](../../quality/steuerrecht-freiburg/README.md)
+
+<!-- BEGIN praxisnachtrag-2026-11 -->
+## Belegnachtrag · Wer hat den Camper reserviert?
+
+Am 18.07.2025 um 10:21 Uhr geht die E-Mail „RM-518 | Eingangsbestätigung des Verkaufs“ mit dem Datenauszug „Verkaufstagebuch · Vorgang RM-518“ ein. Beides liegt in der Vollakte unter `Praxisnachtrag/Grundakte`. Am 22.10.2026 um 10:05 Uhr folgen „Aktenauskunft zum Feld „Käufer““ und „Historie RM-518 · Übergabe und Rücklauf“ im separaten Ordner `Praxisnachtrag/Nachlieferung`. Für die Vorführung lassen sich die beiden Eingänge zeitlich getrennt öffnen.
+
+Vergleichen Sie Händlervermerke, Zahlungsautorisierung und privaten Mailverkehr. Begründen Sie getrennt, was für die Verwendung des Geldes und was für die interne Vereinbarung der Eheleute spricht.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlagen | Download |
+| --- | --- |
+| Vollständige Originalakte mit beiden Eingängen | [Vollakte als ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/testakten-praxis-v1.0.0/steuerrecht-freiburg-oderkonto-schenkungsteuer-mit-nachtrag.zip) |
+| Vier zusätzliche Belege in EML, CSV und PDF | [Nachtrag in Originalformaten](../../docs/testakten-praxisnachtraege/steuerrecht-freiburg-oderkonto-schenkungsteuer-nachtrag.zip) |
+| Dieselben vier Belege als Einzeldokumente | [Vier Einzel-PDFs als ZIP](../../docs/testakten-praxisnachtraege/steuerrecht-freiburg-oderkonto-schenkungsteuer-nachtrag-einzelpdfs.zip) |
+| Lesefassung nur dieser vier Belege | [Vierseitiges PDF mit Lesezeichen](../../docs/testakten-praxisnachtraege/steuerrecht-freiburg-oderkonto-schenkungsteuer-nachtrag.pdf) |
+<!-- END praxisnachtrag-2026-11 -->

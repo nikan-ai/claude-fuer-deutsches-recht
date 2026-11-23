@@ -1,5 +1,9 @@
 # Vollprüfung: memorandums-ersteller
 
+Beantworte die zur Entscheidung stehende Rechtsfrage mit einem begründeten Memorandum. Zeige dem Empfänger, welche Handlung rechtlich möglich ist, welche Voraussetzungen die Unterlagen belegen und welche Unsicherheit die Empfehlung verändert. Führe Sachverhalt, Fragen, Kurzantworten und rechtliche Ausführungen zur vollständigen Endfassung zusammen.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `memorandums-ersteller`.
@@ -7,12 +11,12 @@ Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `memorandums-erstel
 ## Inhaltsverzeichnis
 
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Memorandums Ersteller ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbin…
-2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+2. **einstieg-routing** — Für ein bestelltes juristisches Memorandum: beantwortet jede Entscheidungsfrage mit belegtem Ergebnis, Subsumtion, Gegen…
 3. **wandelt-erstpruefung-und-mandatsziel** — Für Wandelt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatb…
-4. **memorandum-dokumentenmatrix-und-lueckenliste** — Für Memorandum: Dokumentenmatrix, Lückenliste und Nachforderung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebn…
-5. **rechtliche-internationaler-bezug-und-schnittstellen** — Für Rechtliche: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittst…
-6. **rechtsgebietsneutral-sachverhalt-satz** — Für Rechtsgebietsneutral: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittste…
-7. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
+4. **workflow-kaltstart-und-routing** — Für einen noch unklaren Memo-Auftrag: bestimmt Adressat, zu treffende Entscheidung und tragende Tatsachen aus den vorhan…
+5. **memorandum-dokumentenmatrix-und-lueckenliste** — Für Memorandum: Dokumentenmatrix, Lückenliste und Nachforderung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebn…
+6. **rechtliche-internationaler-bezug-und-schnittstellen** — Für Rechtliche: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittst…
+7. **rechtsgebietsneutral-sachverhalt-satz** — Für Rechtsgebietsneutral: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittste…
 8. **gliederung-mandantenunterlagen-memorandum** — Für Gliederung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schr…
 9. **zitierung-mandantenkommunikation-entscheidungsvorlage** — Für Zitierung: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Man…
 10. **anschluss-routing** — Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Memorandums Ersteller ein juristisches Arbeitsproduk
 
 ## 1. Direktstart
 
-Arbeite als Juristischer Methodenbearbeiter für Sachverhaltsordnung, Anspruchsaufbau, Subsumtion, Gegenprüfung, Zitierkontrolle, verständliche Sprache und versandreife Memos mit Fokus auf entscheidungserhebliche Tatsachen und nachvollziehbare Belegketten.
+Lies die maßgeblichen Unterlagen und formuliere die Entscheidungsfrage in einem Satz. Liefere das Memorandum mit belegtem Sachverhalt, Kurzantwort und begründeter Empfehlung.
 
-Pluginauftrag: Wandelt Mandantenunterlagen in ein juristisches Memorandum mit Vier-Teile-Gliederung — Sachverhalt mit Quellenreferenz; Ein-Satz-Fragen; Ein-Satz-Antworten; rechtliche Ausführungen mit Pinpoint-Zitierung. Optional Piercing-Questions. Rechtsgebietsneutral. Alias Memorandumsmacher.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Haftungsrisiko-Memo: Bearbeite den Fachpunkt im Skill haftungsrisiko-rechtsanwalt-board-pack und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Juristisches: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill juristisches-questions-fristennotiz und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Memo: Fristen und Sofortmaßnahmen: Bearbeite den Fachpunkt im Skill memo-fristen-sofortmassnahmen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Vertragsentscheidungs-Memo: Bearbeite den Fachpunkt im Skill memo-zur-vertragsentscheidung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Haftungsrisiko-Memo](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/memorandums-ersteller/skills/haftungsrisiko-rechtsanwalt-board-pack/FACHINHALT.md)
+3.1.2. [Juristisches: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/memorandums-ersteller/skills/juristisches-questions-fristennotiz/FACHINHALT.md)
+3.1.3. [Memo: Fristen und Sofortmaßnahmen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/memorandums-ersteller/skills/memo-fristen-sofortmassnahmen/FACHINHALT.md)
+3.1.4. [Vertragsentscheidungs-Memo](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/memorandums-ersteller/skills/memo-zur-vertragsentscheidung/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -147,45 +151,44 @@ Ausgangspunkt für dieses Plugin: Anspruchsteller für anspruchsbegründende Tat
 
 ## Skill: `einstieg-routing`
 
-_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Memorandums-Ersteller._
+_Für ein bestelltes juristisches Memorandum: beantwortet jede Entscheidungsfrage mit belegtem Ergebnis, Subsumtion, Gegenargumenten und konkreter Handlungsempfehlung._
 
-# Einstieg und Routing
+# Juristisches Memorandum ausarbeiten
 
 ## Einsatzlage
 
 Erstelle das bestellte Memorandum mit Sachverhalt, entscheidbaren Fragen, zugeordneten Kurzantworten und rechtlichen Ausführungen. Nutze vorhandenen Auftrag und Unterlagen; eine Auswahl weiterer Skills ersetzt die Bearbeitung nicht.
 
-## Fachlandkarte dieses Plugins
-
-- `antworten-interessen-ausfuehrungen-fragen` — Antworten Interessen Ausfuehrungen Fragen
-- `ausfuehrungen-formular-portal-und-einreichung` — Ausfuehrungen Formular Portal und Einreichung
-- `due-diligence-ergebnis-handlungsempfehlung` — DUE Diligence Ergebnis Handlungsempfehlung
-- `fragen-compliance-dokumentation-und-akte` — Fragen Compliance Dokumentation und Akte
-- `gliederung-mandantenunterlagen-memorandum` — Gliederung Mandantenunterlagen Memorandum
-- `haftungsrisiko-rechtsanwalt-board-pack` — Haftungsrisiko Rechtsanwalt Board Pack
-- `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
-- `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
-- `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `mandantenkommunikation-redteam` — Mandantenkommunikation
-- `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
-- `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
-- `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
-
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Memorandums Ersteller sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Lies Auftrag und Unterlagen und formuliere die Entscheidung, die der Adressat treffen muss. Übernimm bestehende Umfangs- und Formatvorgaben.
+2. Trenne gesicherte Tatsachen, fremde Behauptungen und eigene Annahmen. Frage nur nach Lücken, die eine Antwort oder Empfehlung ändern.
+3. Prüfe jede Frage anhand der einschlägigen Normfassung und tragenden Quellen; behandle das stärkste Gegenargument und dessen praktische Folge.
+4. Liefere das ausformulierte Memo mit Kurzantwort und begründeter Empfehlung. Quellenkontrolle und technische Exportnotizen bleiben vom Empfängertext getrennt.
 
 ### Nachlieferungen in das Memo einarbeiten
 
 Fehlt eine tragende Vertragsanlage oder widersprechen sich zwei Fassungen, frage nach dem genau bezeichneten Dokument beziehungsweise Widerspruch. Nach Eingang aktualisiere Sachverhalt, betroffene Kurzantwort und rechtliche Begründung gemeinsam. Weitere gezielte Runden nur bei neuen entscheidenden Lücken; bekannte Angaben nicht erneut aufnehmen.
 
 Beantworte unabhängige Fragen vorläufig und vervollständige nach der Klärung das bestellte Memo. Ein Rechtsmittel- oder Vertragsmemo bleibt ein Memo, sofern kein zusätzlicher Schriftsatz oder Vertrag bestellt ist. Externe Übermittlung bedarf der Freigabe.
+
+## Fachlandkarte dieses Plugins
+
+- `normstruktur-bearbeiten` (Fachthema: antworten-interessen-ausfuehrungen-fragen) — Antworten Interessen Ausfuehrungen Fragen
+- `normstruktur-bearbeiten` (Fachthema: ausfuehrungen-formular-portal-und-einreichung) — Ausfuehrungen Formular Portal und Einreichung
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: due-diligence-ergebnis-handlungsempfehlung) — DUE Diligence Ergebnis Handlungsempfehlung
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: fragen-compliance-dokumentation-und-akte) — Fragen Compliance Dokumentation und Akte
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: gliederung-mandantenunterlagen-memorandum) — Gliederung Mandantenunterlagen Memorandum
+- `auftrag-und-adressat-bearbeiten` (Fachthema: haftungsrisiko-rechtsanwalt-board-pack) — Haftungsrisiko Rechtsanwalt Board Pack
+- `auftrag-und-adressat-bearbeiten` (Fachthema: juristisches-questions-fristennotiz) — Juristisches Questions Fristennotiz
+- `arbeitsprodukt-bearbeiten` (Fachthema: laenge-formate-mandantenfreundliche-fassung) — Laenge Formate Mandantenfreundliche Fassung
+- `arbeitsprodukt-bearbeiten` (Fachthema: mandantenanfrage-schnell) — Mandantenanfrage Schnell
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: mandantenkommunikation-redteam) — Mandantenkommunikation
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: mandantenunterlagen-tatbestand-beweis-und-belege) — Mandantenunterlagen Tatbestand Beweis und Belege
+- `arbeitsprodukt-bearbeiten` (Fachthema: memo-board-pack-besondere-anlaesse-spezial) — Memo Board Pack Besondere Anlaesse Spezial
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: memo-compliance-vorfall-intern) — Memo Compliance Vorfall Intern
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Qualitätsanker
 
@@ -240,6 +243,69 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+---
+
+## Skill: `workflow-kaltstart-und-routing`
+
+_Für einen noch unklaren Memo-Auftrag: bestimmt Adressat, zu treffende Entscheidung und tragende Tatsachen aus den vorhandenen Unterlagen und beginnt die bereits beantwortbaren Fragen._
+
+# Memo-Auftrag und Entscheidungsfragen klären
+
+## Aufgabe
+
+Formuliere aus Auftrag und Unterlagen die Fragen, die das Memorandum beantworten muss. Beginne mit den bereits entscheidbaren Punkten und kläre nur dafür erhebliche Lücken.
+
+## Noch benötigte Angaben
+
+Lies diese Angaben zunächst aus Auftrag und Material. Frage nur nach, soweit eine entscheidende Information fehlt:
+
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
+
+## Arbeitsablauf
+
+1. Lies Auftrag und Unterlagen und formuliere die Entscheidung, die der Adressat treffen muss. Übernimm bestehende Umfangs- und Formatvorgaben.
+2. Trenne gesicherte Tatsachen, fremde Behauptungen und eigene Annahmen. Frage nur nach Lücken, die eine Antwort oder Empfehlung ändern.
+3. Prüfe jede Frage anhand der einschlägigen Normfassung und tragenden Quellen; behandle das stärkste Gegenargument und dessen praktische Folge.
+4. Liefere das ausformulierte Memo mit Kurzantwort und begründeter Empfehlung. Quellenkontrolle und technische Exportnotizen bleiben vom Empfängertext getrennt.
+
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
+
+## Memo-Standardstruktur (CLAUDE.md verbindlich)
+1. **Sachverhalt** (knapp, faktentreu, keine Wertung).
+2. **Frage(n)** (präzise; bei mehreren Anspruchsgrundlagen separat).
+3. **Kurzantwort** (1 Satz; trifft die zentrale Aussage).
+4. **Rechtliche Bewertung** (Gutachtenstil: Obersatz, Definition, Subsumtion, Zwischenergebnis je Tatbestandsmerkmal).
+5. **Gesamtergebnis** (begründete Empfehlung; keine erfundene Erfolgsquote).
+6. **Risiken / offene Punkte** (was kann anders entschieden werden? Was fehlt an Tatsachen?).
+7. **Quellenverzeichnis** (gem. `references/zitierweise.md`; Rspr. vor Lit., neueste zuerst).
+
+## Tipps
+- Umfang nach Entscheidungsbedarf und Auftrag bemessen. Die Kurzantwort knapp halten; komplexe Sachverhalte, Varianten und Beweisfragen so ausführlich prüfen, wie eine belastbare Empfehlung es erfordert.
+- Auslegung nach Savigny-Kanon (Wortlaut, Systematik, Historie, Telos) plus verfassungs-/unionsrechtskonform.
+- Anspruchspyramide: Vertrag → c.i.c. → GoA → dinglich → Delikt → Bereicherung.
+- Offene Punkte nur nennen, wenn sie für das Ergebnis bedeutsam sind. Dokumentation einer Unsicherheit ist keine Haftungsbegrenzung und ersetzt ihre Aufklärung nicht.
 
 ---
 
@@ -345,66 +411,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
 4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
 5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
-
----
-
-## Skill: `workflow-kaltstart-und-routing`
-
-_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Memorandums-Ersteller._
-
-# Kaltstart und Routing
-
-## Aufgabe
-Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
-
-## Kaltstart
-Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
-
-1. Wer fragt in welcher Rolle?
-2. Was ist das gewünschte Ergebnis?
-3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
-4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
-
-## Arbeitsworkflow
-1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
-2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
-3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
-4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
-
-## Output-Standard
-- Kurzbild: worum es geht, was gesichert ist, was offen ist.
-- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
-- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
-- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
-
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
-
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Unsicherheiten und Annahmen ausdrücklich markieren.
-
-## Memo-Standardstruktur (CLAUDE.md verbindlich)
-1. **Sachverhalt** (knapp, faktentreu, keine Wertung).
-2. **Frage(n)** (präzise; bei mehreren Anspruchsgrundlagen separat).
-3. **Kurzantwort** (1 Satz; trifft die zentrale Aussage).
-4. **Rechtliche Bewertung** (Gutachtenstil: Obersatz, Definition, Subsumtion, Zwischenergebnis je Tatbestandsmerkmal).
-5. **Gesamtergebnis** (klare Empfehlung + Wahrscheinlichkeit).
-6. **Risiken / offene Punkte** (was kann anders entschieden werden? Was fehlt an Tatsachen?).
-7. **Quellenverzeichnis** (gem. `references/zitierweise.md`; Rspr. vor Lit., neueste zuerst).
-
-## Tipps
-- Maximal 1 Seite Sachverhalt, sonst Anhang. Memo soll auf 5-10 Seiten lesbar bleiben.
-- Auslegung nach Savigny-Kanon (Wortlaut, Systematik, Historie, Telos) plus verfassungs-/unionsrechtskonform.
-- Anspruchspyramide: Vertrag → c.i.c. → GoA → dinglich → Delikt → Bereicherung.
-- Falle: "Risiken / offene Punkte" weggelassen — gerade hier dokumentieren Sie Haftungsbegrenzung; ein Memo ohne offene Punkte ist verdächtig.
 
 ---
 
@@ -732,10 +738,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -752,7 +755,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** quellengebundene Analyse, Überprüfung oder ausformulierter Argumentationsabschnitt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

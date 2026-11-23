@@ -1,5 +1,9 @@
 # Vollprüfung: urteilsbauer-relationsmacher
 
+Prüfe für jeden gestellten Antrag, welche Tatsachen den Anspruch tragen, welche Verteidigung erheblich ist und ob der bisherige Beweisstand eine Entscheidung erlaubt. Führe das Ergebnis in der beauftragten Relation, im konkreten Hinweis oder im vollständig begründeten Urteils- beziehungsweise Beschlussentwurf zusammen. Begründe eigene rechtliche Vorschläge; erfinde keine Vernehmungswahrnehmung und gib den Entwurf nicht als erlassene Entscheidung aus.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-10 von 84 Skills des Plugins `urteilsbauer-relationsmacher`.
@@ -27,12 +31,10 @@ _Schaltet sich ein, wenn in Urteilsbauer Relationsmacher ein juristisches Arbeit
 
 ## 1. Direktstart
 
-Arbeite als Zivilprozessualer Bearbeiter für Klage, Erwiderung, Relation, Verfügung, Beschluss, Urteil, Anlagenmanagement und Vollstreckungsvorstufe mit Fokus auf Schlüssigkeit, Erheblichkeit, Beweis und Tenor.
+Führe Anträge, entscheidungserheblichen Vortrag und Beweislage zur Rechtsfolge. Erstelle die bestellte Relation oder entwirf einen vollziehbaren Tenor mit nachvollziehbarer Begründung.
 
-Pluginauftrag: Urteils- und Beschluss-Werkstatt für Amts- Land- und Familienrichter sowie Rechtspfleger. Aktenintake Relation Beweiswürdigung mit Richter-Input Tatbestandsmerkmale Tenor Tatbestand Entscheidungsgründe Rechtsmittelbelehrung. Erzeugt DOCX nach Paragraf 313 ZPO.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -62,10 +64,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Aktenintake: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill urteilsbauer-aktenintake-schriftsatz-brief-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Aktenintake: Schriftsatz-, Brief- und Memo-Bausteine: Bearbeite den Fachpunkt im Skill aktenintake-schriftsatz-brief-und-memo-bausteine und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Amts: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill amts-aktenintake-zivil-anspruchsgrundlagen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Amts: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill amts-fristen-form-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Aktenintake: Schriftsatz-, Brief- und Memo-Bausteine](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/urteilsbauer-relationsmacher/skills/urteilsbauer-aktenintake-schriftsatz-brief-memo-bausteine/FACHINHALT.md)
+3.1.2. [Aktenintake: Schriftsatz-, Brief- und Memo-Bausteine](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/urteilsbauer-relationsmacher/skills/aktenintake-schriftsatz-brief-und-memo-bausteine/FACHINHALT.md)
+3.1.3. [Amts: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/urteilsbauer-relationsmacher/skills/amts-aktenintake-zivil-anspruchsgrundlagen/FACHINHALT.md)
+3.1.4. [Amts: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/urteilsbauer-relationsmacher/skills/amts-fristen-form-zustaendigkeit/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -152,21 +156,21 @@ Dieser Einstieg routet **Urteilsbauer Relationsmacher** vom ersten Sachverhalt z
 
 ## Fachlandkarte dieses Plugins
 
-- `aktenintake-schriftsatz-brief-und-memo-bausteine` — Aktenintake Schriftsatz Brief und Memo Bausteine
-- `aktenintake-zivil` — Aktenintake Zivil
-- `amts-aktenintake-zivil-anspruchsgrundlagen` — Amts Aktenintake Zivil Anspruchsgrundlagen
-- `amts-fristen-form-zustaendigkeit` — Amts Fristen Form Zustaendigkeit
-- `anspruchsgrundlagen-pruefen` — Anspruchsgrundlagen Prüfen
-- `berufungsfest-beschluss-bauen-beweisbeschluss` — Berufungsfest Beschluss Bauen Beweisbeschluss
-- `berufungsfest-pruefen` — Berufungsfest Prüfen
-- `beschluss-bauen-zpo` — Beschluss Bauen ZPO
-- `beschluss-tatbestand-beweis-und-belege` — Beschluss Tatbestand Beweis und Belege
-- `beschluss-tatbestandsmerkmale` — Beschluss Tatbestandsmerkmale
-- `beweisbeschluss-vorbereiten` — Beweisbeschluss Vorbereiten
-- `beweiswuerdigung-mit-richter-input` — Beweiswuerdigung mit Richter Input
-- `beweiswuerdigung-quellenkarte` — Beweiswuerdigung Quellenkarte
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: aktenintake-schriftsatz-brief-und-memo-bausteine) — Aktenintake Schriftsatz Brief und Memo Bausteine
+- `aktenaufnahme-bearbeiten` (Fachthema: aktenintake-zivil) — Aktenintake Zivil
+- `aktenaufnahme-bearbeiten` (Fachthema: amts-aktenintake-zivil-anspruchsgrundlagen) — Amts Aktenintake Zivil Anspruchsgrundlagen
+- `aktenaufnahme-bearbeiten` (Fachthema: amts-fristen-form-zustaendigkeit) — Amts Fristen Form Zustaendigkeit
+- `relation-bearbeiten` (Fachthema: anspruchsgrundlagen-pruefen) — Anspruchsgrundlagen Prüfen
+- `beweis-bearbeiten` (Fachthema: berufungsfest-beschluss-bauen-beweisbeschluss) — Berufungsfest Beschluss Bauen Beweisbeschluss
+- `relation-bearbeiten` (Fachthema: berufungsfest-pruefen) — Berufungsfest Prüfen
+- `beweis-bearbeiten` (Fachthema: beschluss-bauen-zpo) — Beschluss Bauen ZPO
+- `beweis-bearbeiten` (Fachthema: beschluss-tatbestand-beweis-und-belege) — Beschluss Tatbestand Beweis und Belege
+- `beweis-bearbeiten` (Fachthema: beschluss-tatbestandsmerkmale) — Beschluss Tatbestandsmerkmale
+- `beweis-bearbeiten` (Fachthema: beweisbeschluss-vorbereiten) — Beweisbeschluss Vorbereiten
+- `beweis-bearbeiten` (Fachthema: beweiswuerdigung-mit-richter-input) — Beweiswuerdigung mit Richter Input
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: beweiswuerdigung-quellenkarte) — Beweiswuerdigung Quellenkarte
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -754,10 +758,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -774,7 +775,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

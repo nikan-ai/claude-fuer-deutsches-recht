@@ -1,5 +1,9 @@
 # Vollprüfung: anlagen-zu-schriftsaetzen
 
+Welche Datei belegt welche Schriftsatzstelle, und ist die richtige Fassung versandfertig? Gleiche die Anlagenreferenzen ab, führe vorhandene Anlagenzeichen fort und erstelle lesbare, nummerierte Versanddateien mit Verzeichnis und Schlusskontrolle. Das Ergebnis ist die beauftragte Versandmappe, nicht der Versand selbst.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-8 von 118 Skills (gekürzt für das Arbeitsfenster) des Plugins `anlagen-zu-schriftsaetzen`.
@@ -9,7 +13,7 @@ Diese Vollprüfung enthält top-8 von 118 Skills (gekürzt für das Arbeitsfenst
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Anlagen Zu Schriftsätzen ein juristisches Arbeitsprodukt tragfähig begründet werden muss; ver…
 2. **bea-versandmappe-endfertigung** — Endfertigung gerichtlicher Schriftsätze und Anlagen für beA und E-Akte: liest zuerst den vorhandenen Aktenordner, prüft …
 3. **anlagen-zu-schriftsaetzen** — Hauptworkflow für gerichtliche Anlagenproduktion: liest Schriftsatz und Aktenordner zuerst, verbindet jede Behauptung mi…
-4. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+4. **einstieg-routing** — Für einen Schriftsatz mit Anlagen: gleicht Beweisthemen, Textverweise, Anlagenkennungen und Dateiinhalte ab und erstellt…
 5. **kaltstart-triage** — Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Sch…
 6. **anlagenkonvolut-konsolidieren** — Konsolidiert mehrere zusammengehörige Belegdateien zu einer gerichtstauglichen Anlage: liest den Bestand zuerst, trennt …
 7. **anlagen-fuer-bea-versand** — Bereitet vorhandene Anlagen tatsächlich für den beA-Versand vor: liest zuerst Schriftsatz und Ordner, setzt den bisherig…
@@ -25,12 +29,10 @@ _Schaltet sich ein, wenn in Anlagen Zu Schriftsätzen ein juristisches Arbeitspr
 
 ## 1. Direktstart
 
-Arbeite als Zivilprozessualer Bearbeiter für Klage, Erwiderung, Relation, Verfügung, Beschluss, Urteil, Anlagenmanagement und Vollstreckungsvorstufe mit Fokus auf Schlüssigkeit, Erheblichkeit, Beweis und Tenor.
+Gleiche sämtliche Anlagenverweise mit den Dateien ab, die tatsächlich vorliegen. Erstelle das richtige Anlagenverzeichnis und, soweit technisch möglich, die geprüfte Versandmappe.
 
-Pluginauftrag: Gerichtsprozess-Dokumentenproduktion bis zur beA-fertigen Versandmappe: liest Schriftsatz und Anlagenordner, führt K/B/AST/AG fort, konvertiert und stempelt jede PDF-Seite, prüft ERVV, Signatur, Dateinamen, Empfaenger und Eingang und liefert Verzeichnis, Manifest und Freigabevermerk.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -60,10 +62,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Anlagen bei Eilantrag und Arrest: Bearbeite den Fachpunkt im Skill anlagen-bei-eilantrag-eu-arrest und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Anlagen in Berufung/Revision: Bearbeite den Fachpunkt im Skill anlagen-berufung-revision-eilantrag-eu-bilder und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Anlagen für beA-Versand: Bearbeite den Fachpunkt im Skill anlagen-fuer-bea-versand und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Portal, beA und Einreichungslogik: Bearbeite den Fachpunkt im Skill anlagen-portal-bea-einreichungslogik und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Anlagen bei Eilantrag und Arrest](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/anlagen-zu-schriftsaetzen/skills/anlagen-bei-eilantrag-eu-arrest/FACHINHALT.md)
+3.1.2. [Anlagen in Berufung/Revision](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/anlagen-zu-schriftsaetzen/skills/anlagen-berufung-revision-eilantrag-eu-bilder/FACHINHALT.md)
+3.1.3. [Anlagen für beA-Versand](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/anlagen-zu-schriftsaetzen/skills/anlagen-fuer-bea-versand/FACHINHALT.md)
+3.1.4. [Portal, beA und Einreichungslogik](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/anlagen-zu-schriftsaetzen/skills/anlagen-portal-bea-einreichungslogik/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -402,31 +406,38 @@ Die Rechts- und Technikanker stehen in `references/BEA-ENDPRODUKTION-RECHT-TECHN
 
 ## Skill: `einstieg-routing`
 
-_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Anlagen zu Schriftsätzen._
+_Für einen Schriftsatz mit Anlagen: gleicht Beweisthemen, Textverweise, Anlagenkennungen und Dateiinhalte ab und erstellt das passende Anlagenverzeichnis._
 
-# Einstieg und Routing
+# Anlagen auswählen, bezeichnen und abgleichen
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Anlagen Zu Schriftsaetzen** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+Wähle aus den Belegen die zum Vortrag passenden Anlagen aus. Gleiche Kennungen, Dateiinhalte und Textverweise ab und erstelle das Anlagenverzeichnis.
+
+## Arbeitsweg
+
+1. Lies zuerst den Schriftsatz oder den konkreten Beweisauftrag. Erfasse die beweisbedürftigen Tatsachen und bereits vergebenen Anlagenkennungen.
+2. Sichere die Originaldateien. Kennzeichne Dubletten, abweichende Fassungen, unvollständige E-Mails und fehlende Anhänge, bevor du Auszüge oder Schwärzungen anfertigst.
+3. Ordne jeder vorgesehenen Anlage Tatsachenbehauptung, Quelle, Beweismittel und gegebenenfalls erforderlichen Beweisantritt zu. Erkläre, wenn ein Beleg die behauptete Tatsache nicht trägt.
+4. Liefere Anlagenverzeichnis und tatsächlich erzeugte Dateien. Prüfe jeden Schriftsatzverweis gegen die Datei sowie Seitenfolge, Lesbarkeit und technische Vorgaben für den vorgesehenen Übermittlungsweg.
 
 ## Fachlandkarte dieses Plugins
 
-- `anlage-fehlerkatalog` — Anlage Fehlerkatalog
-- `anlage-red-anlagen-anlagenkonvolut-sonderfall` — Anlage RED Anlagen Anlagenkonvolut Sonderfall
-- `anlagen-an-assistenz-uebersetzungspflicht` — Anlagen AN Assistenz Übersetzungspflicht
-- `anlagen-aus-datenraum-und-sharepoint` — Anlagen AUS Datenraum und Sharepoint
-- `anlagen-aus-edv-systemen` — Anlagen AUS EDV Systemen
-- `anlagen-aus-mandantenmaterial` — Anlagen AUS Mandantenmaterial
-- `anlagen-bei-berufung-revision` — Anlagen bei Berufung Revision
-- `anlagen-bei-eilantrag-eu-arrest` — Anlagen bei Eilantrag EU Arrest
-- `anlagen-berufung-revision-eilantrag-eu-bilder` — Anlagen Berufung Revision Eilantrag EU Bilder
-- `anlagen-bilder-screenshots` — Anlagen Bilder Screenshots
-- `anlagen-check-zustellung-redaktion-dsgvo` — Anlagen Check Zustellung Redaktion DSGVO
-- `anlagen-duplikate-versionen-hashlog` — Anlagen Duplikate Versionen Hashlog
-- `anlagen-elektronische-dokumente-format` — Anlagen Elektronische Dokumente Format
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anlage-fehlerkatalog) — Anlage Fehlerkatalog
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlage-red-anlagen-anlagenkonvolut-sonderfall) — Anlage RED Anlagen Anlagenkonvolut Sonderfall
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-an-assistenz-uebersetzungspflicht) — Anlagen AN Assistenz Übersetzungspflicht
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-aus-datenraum-und-sharepoint) — Anlagen AUS Datenraum und Sharepoint
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-aus-edv-systemen) — Anlagen AUS EDV Systemen
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-aus-mandantenmaterial) — Anlagen AUS Mandantenmaterial
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-bei-berufung-revision) — Anlagen bei Berufung Revision
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-bei-eilantrag-eu-arrest) — Anlagen bei Eilantrag EU Arrest
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-berufung-revision-eilantrag-eu-bilder) — Anlagen Berufung Revision Eilantrag EU Bilder
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-bilder-screenshots) — Anlagen Bilder Screenshots
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-check-zustellung-redaktion-dsgvo) — Anlagen Check Zustellung Redaktion DSGVO
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-duplikate-versionen-hashlog) — Anlagen Duplikate Versionen Hashlog
+- `arbeitsprodukt-bearbeiten` (Fachthema: anlagen-elektronische-dokumente-format) — Anlagen Elektronische Dokumente Format
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Normenanker
 
@@ -442,14 +453,6 @@ Arbeitsfokus: **Einstieg und Routing**. Prüfe diese Anker am Sachverhalt; ergä
 - `§ 371 Abs. 1 ZPO` — Augenschein.
 
 Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
-
-## Arbeitsweg
-
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Anlagen Zu Schriftsaetzen sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
 
 ## Qualitätsanker
 
@@ -793,10 +796,7 @@ Liefere Versanddatenblatt, Signaturentscheidung, Vorversandcheck, Ersatzeinreich
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 14. Verständlich arbeiten und sichtbar prüfen
@@ -813,7 +813,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

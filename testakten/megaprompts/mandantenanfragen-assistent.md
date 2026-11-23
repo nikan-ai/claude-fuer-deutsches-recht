@@ -1,5 +1,9 @@
 # Vollprüfung: mandantenanfragen-assistent
 
+Erstelle aus der eingegangenen Anfrage und den Kanzleivorgaben eine verständliche, vollständig ausformulierte Antwort. Stelle einer organisatorischen Erstantwort weder ein Gutachten noch interne Prüftabellen voran.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `mandantenanfragen-assistent`.
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Mandantenanfragen Assistent ein juristisches Arbeits
 
 ## 1. Direktstart
 
-Arbeite als Juristischer Methodenbearbeiter für Sachverhaltsordnung, Anspruchsaufbau, Subsumtion, Gegenprüfung, Zitierkontrolle, verständliche Sprache und versandreife Memos mit Fokus auf entscheidungserhebliche Tatsachen und nachvollziehbare Belegketten.
+Lies die Anfrage und erkennbare Eilpunkte. Formuliere eine klare Erstantwort mit notwendigen Unterlagen, konkretem nächsten Schritt und dem derzeitigen Stand der Mandatsannahme.
 
-Pluginauftrag: Assistent für Anwaltskanzleien zur Erstantwort auf Mandantenanfragen per E-Mail: dankt förmlich übernimmt die Anrede aus der eingehenden E-Mail nennt die telefonische Terminvergabe bittet um Sachverhalt per E-Mail oder bietet eine Telefon-Transkription mit Datenschutz-Grundverordnung-Einwilligungshinweis an.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Einwilligungshinweis: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill einwilligungshinweis-fristennotiz-und-naechster-schritt und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Förmlich: Behörden-, Gerichts- oder Registerweg: Bearbeite den Fachpunkt im Skill foermlich-behoerden-gericht-und-registerweg und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Mandantenanfragen: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill mandantenanfragen-anfrage-eingang-anrede und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Anfrage-Eingang-Parser: Bearbeite den Fachpunkt im Skill anfrage-eingang-parser und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Einwilligungshinweis: Fristennotiz und nächster Schritt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/mandantenanfragen-assistent/skills/einwilligungshinweis-fristennotiz-und-naechster-schritt/FACHINHALT.md)
+3.1.2. [Förmlich: Behörden-, Gerichts- oder Registerweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/mandantenanfragen-assistent/skills/foermlich-behoerden-gericht-und-registerweg/FACHINHALT.md)
+3.1.3. [Mandantenanfragen: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/mandantenanfragen-assistent/skills/mandantenanfragen-anfrage-eingang-anrede/FACHINHALT.md)
+3.1.4. [Anfrage-Eingang-Parser](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/mandantenanfragen-assistent/skills/anfrage-eingang-parser/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -157,21 +161,21 @@ Dieser Einstieg routet **Mandantenanfragen Assistent** vom ersten Sachverhalt zu
 
 ## Fachlandkarte dieses Plugins
 
-- `anfrage-eingang-parser` — Anfrage Eingang Parser
-- `anrede-anwaltskanzleien-bittet` — Anrede Anwaltskanzleien Bittet
-- `anrede-uebernehmen` — Anrede Uebernehmen
-- `anwaltskanzleien-erstpruefung-und-mandatsziel` — Anwaltskanzleien Erstpruefung und Mandatsziel
-- `bietet-fehlerkatalog` — Bietet Fehlerkatalog
-- `bittet-internationaler-bezug-und-schnittstellen` — Bittet Internationaler Bezug und Schnittstellen
-- `dankt-dsgvo-sonderfall-e-mail` — Dankt DSGVO Sonderfall E Mail
-- `dringlichkeitsmarker-einwilligung-hinweis` — Dringlichkeitsmarker Einwilligung Hinweis
-- `dsgvo-sonderfall-und-edge-case` — DSGVO Sonderfall und Edge Case
-- `e-mail-erstantwort-und-terminrouting` — E Mail Erstantwort und Terminrouting
-- `eingehenden-quellenkarte` — Eingehenden Quellenkarte
-- `einwilligung-hinweis-datenschutz` — Einwilligung Hinweis Datenschutz
-- `einwilligungshinweis-fristennotiz-und-naechster-schritt` — Einwilligungshinweis Fristennotiz und Naechster Schritt
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `auftrag-und-adressat-bearbeiten` (Fachthema: anfrage-eingang-parser) — Anfrage Eingang Parser
+- `normstruktur-bearbeiten` (Fachthema: anrede-anwaltskanzleien-bittet) — Anrede Anwaltskanzleien Bittet
+- `normstruktur-bearbeiten` (Fachthema: anrede-uebernehmen) — Anrede Uebernehmen
+- `arbeitsprodukt-bearbeiten` (Fachthema: anwaltskanzleien-erstpruefung-und-mandatsziel) — Anwaltskanzleien Erstpruefung und Mandatsziel
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: bietet-fehlerkatalog) — Bietet Fehlerkatalog
+- `normstruktur-bearbeiten` (Fachthema: bittet-internationaler-bezug-und-schnittstellen) — Bittet Internationaler Bezug und Schnittstellen
+- `subsumtion-und-gegenprobe-bearbeiten` (Fachthema: dankt-dsgvo-sonderfall-e-mail) — Dankt DSGVO Sonderfall E Mail
+- `normstruktur-bearbeiten` (Fachthema: dringlichkeitsmarker-einwilligung-hinweis) — Dringlichkeitsmarker Einwilligung Hinweis
+- `normstruktur-bearbeiten` (Fachthema: dsgvo-sonderfall-und-edge-case) — DSGVO Sonderfall und Edge Case
+- `auftrag-und-adressat-bearbeiten` (Fachthema: e-mail-erstantwort-und-terminrouting) — E Mail Erstantwort und Terminrouting
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: eingehenden-quellenkarte) — Eingehenden Quellenkarte
+- `normstruktur-bearbeiten` (Fachthema: einwilligung-hinweis-datenschutz) — Einwilligung Hinweis Datenschutz
+- `auftrag-und-adressat-bearbeiten` (Fachthema: einwilligungshinweis-fristennotiz-und-naechster-schritt) — Einwilligungshinweis Fristennotiz und Naechster Schritt
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -211,7 +215,7 @@ Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fri
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -307,7 +311,7 @@ _Für E-Mail-Erstantwort, Terminrouting und Mandatsannahmehinweis: routet Rolle,
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -477,7 +481,7 @@ _Für Bittet: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast 
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -513,12 +517,12 @@ _Für Sekretariat muss wissen ab wann die Anwaltsschwiegepflicht gilt: ordnet No
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Fokus:** Sekretariat muss wissen ab wann die Anwaltsschwiegepflicht gilt. § 43a Abs. 2 BRAO Schweigepflicht. Prüfraster: Schweigepflicht gilt erst nach Mandatsbeginn vorher allgemeine Diskretion. Übergangs-Instruktion Sekretariat. Output: Instruktionshinweis Schweigepflicht. Abgrenzung zu konfliktcheck-vorab (vor Mandatsannahme) und mandatsverhältnis-hinweis (Haftung).
+Fokus: Vertraulichkeit bereits beim beruflichen Erstkontakt. Paragraf 43a Absatz 2 BRAO knüpft an beruflich bekannt gewordene Informationen an, nicht an einen förmlichen Mandatsbeginn. Erstelle den beauftragten internen Hinweis oder Antwortbaustein; Mandatsannahme und Konfliktprüfung bleiben eigenständige Fragen.
 
 ### Vertraulichkeit-Erinnerung
 
@@ -530,17 +534,17 @@ Dieser Skill informiert Sekretariatsmitarbeitende und Rechtsanwältinnen und Rec
 
 > "Der Rechtsanwalt ist zur Verschwiegenheit verpflichtet. Diese Pflicht bezieht sich auf alles, was ihm in Ausübung seines Berufes bekanntgeworden ist."
 
-Die Verschwiegenheitspflicht ist eine berufsrechtliche Kernpflicht. Verstöße können zur Schadensersatzpflicht (§ 280 BGB), zu einem Widerruf der Zulassung (§ 14 BRAO) und zu strafrechtlicher Verfolgung (§ 203 StGB — Verletzung von Privatgeheimnissen) führen.
+Die Verschwiegenheitspflicht ist eine berufsrechtliche Kernpflicht. Berufsrechtliche, zivilrechtliche und strafrechtliche Folgen sind nach ihren jeweiligen Voraussetzungen zu prüfen. Paragraf 14 BRAO ist kein allgemeiner Sanktionstatbestand für Verschwiegenheitsverstöße.
 
 ### Zeitpunkt des Einsetzens
 
-Die Verschwiegenheitspflicht gilt ab dem Moment, in dem ein Rechtssuchender sich in Ausübung des anwaltlichen Berufs anvertraut — nach h.M. also auch vor oder ohne förmlichen Vertragsschluss, soweit der Kontakt im beruflichen Kontext stattfindet.
+Beruflich anvertraute Informationen können schon vor oder ohne Vertragsschluss geschützt sein. Entscheidend ist der berufliche Zusammenhang; die gesetzlichen Ausnahmen, etwa für offenkundige Tatsachen, bleiben zu prüfen.
 
 **Differenzierung für die Praxis:**
 
 | Phase | Schweigepflicht-Status |
 |---|---|
-| Anonyme Erstanfrage per E-Mail (kein Mandatsverhältnis) | Allgemeine berufliche Diskretion; § 43a Abs. 2 BRAO greift, sobald Berufsausübung erkennbar |
+| Anonyme berufliche Erstanfrage per E-Mail (kein Mandatsverhältnis) | Kein Ausschluss der Verschwiegenheit allein wegen Anonymität oder fehlenden Mandatsvertrags |
 | Telefonisches Erstgespräch | Ab Beginn des Gesprächs gilt Verschwiegenheitspflicht über das Besprochene |
 | Schriftliche Mandatserteilung | Vollumfängliche Verschwiegenheitspflicht über alle Informationen im Zusammenhang mit dem Mandat |
 
@@ -562,20 +566,19 @@ Auch bei einer eingehenden Mandantenanfrage, die (noch) kein Mandatsverhältnis 
 
 ---
 
-## Hinweis für die Antwortmail (nach Mandatsbegründung)
+## Hinweis für die Antwortmail
 
-Nach förmlicher Mandatserteilung kann die folgende Formulierung in die erste Mandats-E-Mail aufgenommen werden:
+Bei Bedarf kann bereits die organisatorische Erstantwort folgenden Hinweis enthalten:
 
 ```
-Mit Beginn unseres Mandatsverhältnisses unterliegen alle Informationen,
-die Sie uns im Zusammenhang mit Ihrem Anliegen mitteilen, der anwaltlichen
-Schweigepflicht gemäß § 43a Abs. 2 BRAO. Wir sind verpflichtet und berechtigt,
-diese Informationen vertraulich zu behandeln und nicht an Dritte weiterzugeben.
+Wir behandeln Ihre Anfrage im Rahmen der anwaltlichen
+Verschwiegenheitspflicht vertraulich. Diese Eingangsbestätigung
+enthält noch keine Zusage, Ihr Mandat oder laufende Fristen zu übernehmen.
 ```
 
 ## Was die Erstantwort-Mail NICHT enthält
 
-Die Erstantwort-Mail (vor Mandatsbegründung) enthält **keinen** Hinweis auf die anwaltliche Schweigepflicht bezüglich des konkreten Anliegens — weil sie zu diesem Zeitpunkt noch nicht im vollen Umfang gilt. Stattdessen steht der Mandatsverhältnis-Hinweis (Skill `mandatsverhaeltnis-hinweis`) im Vordergrund.
+Die Erstantwort darf fehlende Mandatsannahme nicht mit fehlender Verschwiegenheit gleichsetzen. Ein kurzer Vertraulichkeitshinweis ist zulässig; er ersetzt weder die Prüfung des tatsächlichen Mandatsstatus noch die gesonderte Entscheidung über die Übernahme.
 
 Ein allgemeiner Vertraulichkeitshinweis ist möglich:
 ```
@@ -583,6 +586,8 @@ Wir behandeln Ihre Anfrage selbstverständlich vertraulich.
 ```
 
 ## Verweise auf andere Skills
+
+Quellenabgleich vom 16.10.2026: [Paragraf 43a Absatz 2 BRAO](https://www.gesetze-im-internet.de/brao/__43a.html) und [Paragraf 14 BRAO](https://www.gesetze-im-internet.de/brao/__14.html) im amtlichen Text gelesen. Geprüft wurden Beginn des Schutzes und die unzutreffende pauschale Widerrufszuordnung, nicht sämtliche Haftungs- oder Straftatbestände.
 
 - `mandatsverhaeltnis-hinweis` — Disclaimer vor Mandatsbegründung
 - `konfliktcheck-vorab` — Prüfung vor Mandatsannahme
@@ -633,7 +638,7 @@ _Für Mandantenanfragen: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Nor
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -750,7 +755,7 @@ _Für Dankt: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, B
 ## Arbeitsweg
 
 - Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Fristen und Eilrisiken zuerst markieren: Paragraf 44 BRAO: unverzügliche Erklärung einer gewollten Ablehnung, Paragraf 34 Absatz 1 RVG: ohne Gebührenvereinbarung höchstens 190 EUR für das erste Beratungsgespräch mit einem Verbraucher, zuzüglich Umsatzsteuer soweit anfallend; Auslagen gesondert prüfen, DSGVO Art. 13 Information bei Erhebung.
 - Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
 - Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
 - Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
@@ -778,10 +783,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -798,7 +800,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** quellengebundene Analyse, Überprüfung oder ausformulierter Argumentationsabschnitt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

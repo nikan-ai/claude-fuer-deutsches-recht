@@ -1,8 +1,12 @@
 # Vollprüfung: steuerrecht-anwalt-und-berater
 
+Bereite aus den vorhandenen Belegen die beauftragte Steuererklärung oder Anmeldung mit prüfbarer Wertüberleitung vor. Wenn ein Bescheid vorliegt, rekonstruiere, welche Einkünfte, Umsätze, Abzüge oder Haftungstatbestände das Finanzamt welchem Jahr zugeordnet hat und an welcher Stelle Erklärung, Bescheid oder Prüfungsrechnung voneinander abweichen. Prüfe die materielle Steuerfolge und den zulässigen Änderungsweg getrennt. Verfasse die beauftragte Berechnung, Stellungnahme, Einspruchsbegründung oder Klage; fehlende Belege gezielt klären und anschließend in die Endfassung einarbeiten.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
-Diese Vollprüfung verbindet neun Fachmodule des Plugins `steuerrecht-anwalt-und-berater`, einschließlich der belegbasierten Umsatzsteuer-Voranmeldung.
+Diese Vollprüfung enthält top-8 von 239 Skills (gekürzt für das Arbeitsfenster) des Plugins `steuerrecht-anwalt-und-berater`.
 
 ## Inhaltsverzeichnis
 
@@ -12,9 +16,8 @@ Diese Vollprüfung verbindet neun Fachmodule des Plugins `steuerrecht-anwalt-und
 4. **mandat-triage-steuerrecht** — Für Mandat-Triage Steuerrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zustän…
 5. **orientierung** — Ordnet steuerrechtliche Mandate nach Steuerart, Verfahrensstand und Frist, weist die aktuellen Fachanwaltsanforderungen …
 6. **erstgespraech-mandatsannahme** — Für Erstgespräch und Mandatsannahme im Steuerrecht (Beratung und Prozess): ordnet Norm, Beweislast und Gegenargument; Er…
-7. **grunderwerbsteuer-share-deal-grundsteuer-bundesmodell** — Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Er…
-8. **haftungswarn-15a-inso-haftungsbescheid-ao-lst-haftung-42d** — Für Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht): ordnet Norm, Beweislast und Gegenargum…
-9. **umsatzsteuer-voranmeldung-erstellen** — Erstellt Umsatzsteuer-Voranmeldungen aus Belegen und Buchungen. Prüft Zeitraum, Soll- oder Istbesteuerung, Befreiunge…
+7. **umsatzsteuer-voranmeldung-erstellen** — Erstellt Umsatzsteuer-Voranmeldungen aus Belegen und Buchungen. Prüft Zeitraum, Soll- oder Istbesteuerung, Befreiungen, …
+8. **grunderwerbsteuer-share-deal-grundsteuer-bundesmodell** — Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Er…
 
 ---
 
@@ -22,21 +25,19 @@ Diese Vollprüfung verbindet neun Fachmodule des Plugins `steuerrecht-anwalt-und
 
 _Schaltet sich ein, wenn in Steuerrecht Anwalt Und Berater ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge._
 
-# Juristischer Argumentationskern - Steuerrecht Anwalt Und Berater
+# Steuerrecht: den Antrag oder die Berechnung begründen
 
 ## 1. Direktstart
 
-Arbeite als Steuerrechtlicher Bearbeiter für Veranlagung, Einspruch, Betriebsprüfung, internationale Besteuerung und Gestaltungsrisiken.
+Gleiche Erklärung, Prüfungsrechnung und Bescheid ab. Lege offen, welcher Betrag, welche Feststellung oder welche Abgabepflicht sich ändern soll. Erstelle den beauftragten Einspruch, die finanzgerichtliche Klage, die Gegenrechnung oder den steuerlichen Vermerk.
 
-Pluginauftrag: Steuerrecht für Anwalt (anw- FAO Paragraf 9) und Steuerberater (stb-): Einspruch Klage FG Aussenprüfung Selbstanzeige, Grundsteuer, Grunderwerbsteuer, Share Deals, Signing Closing, BWA SuSa Lohnbuchhaltung Jahresabschluss.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
-1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
+1. Lies zuerst Bescheid und Zugangsnachweis, die zugehörige Erklärung sowie die Belege für die strittigen Rechenpositionen. Kläre Steuerart, Zeitraum und Verfahrensstand. Bei Fristgefahr den Sicherungsentwurf zuerst erstellen.
+2. Wähle den Fachweg nach dem konkreten Streitpunkt. Vergleiche bei einer Schätzung die Daten der Finanzbehörde mit der betrieblichen Gegenrechnung. Der BFH verlangt, die Möglichkeit eines inneren Betriebsvergleichs erkennbar zu erwägen. Schätzungsbefugnis und Höhe separat prüfen. [BFH, Urteil vom 15.04.2026, X R 14/24, Rn. 19–33](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650130/).
+3. Benenne die entscheidende Lücke und bearbeite den belegbaren Teil weiter. Nach neuer Auskunft die jeweilige Rechenposition, die Begründung und den Antrag im selben Dokument fortschreiben. Trenne Beleg, Rechtsquelle und Schlussfolgerung.
 
 ## 2. Die tragende These
 
-Formuliere das Ergebnis für Steuerrecht Anwalt Und Berater in einem Satz und nenne darin Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Typische Rechtsfolgen in diesem Arbeitsfeld sind: Einspruch, Änderungsantrag, Aussetzung, Schätzungsangriff, Haftungsabwehr oder Klage.
+Nenne Parteirolle, begehrte oder abzuwehrende Rechtsfolge und den entscheidenden Prüfpunkt. Ein Einspruch greift den bestimmten Bescheid an. Eine Gegenkalkulation vor Bescheiderlass beantwortet die Prüfungsrechnung.
 
 Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
@@ -61,10 +62,9 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. GrESt: Bescheid, Einspruch, AdV und Paragraf 16: Bearbeite den Fachpunkt im Skill grest-bescheid-einspruch-adv-16 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Haftungsbescheid — Paragraf 69 AO Paragraf 71 AO und Verfahren Paragraf 191 AO: Bearbeite den Fachpunkt im Skill haftungsbescheid-69-191-ao und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht): Bearbeite den Fachpunkt im Skill haftungswarn-15a-inso-haftungsbescheid-ao-lst-haftung-42d und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Finanzgerichtsklage — Aufbau Frist und Akteneinsicht Paragraf 78 FGO: Bearbeite den Fachpunkt im Skill finanzgerichtsklage-78-fgo und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+- Grunderwerbsteuer, Haftung oder Klage: Öffne [Bescheid und Rechtsbehelf](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/steuerrecht-anwalt-und-berater/skills/bescheid-rechtsbehelf-haftung-bearbeiten/SKILL.md) und daraus die jeweils passende Vertiefung. Ordne Bescheid, Verfahrensstufe, Antrag und Frist zu.
+- Krise oder Umstrukturierung: Öffne [Unternehmen, Umstrukturierung und Sanierung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/steuerrecht-anwalt-und-berater/skills/unternehmen-umstrukturierung-sanierung-bearbeiten/SKILL.md). Gleiche Beteiligungskette, Stichtage und die Berechnung pro Rechtsträger ab.
+- Außenprüfung: Öffne [Hinzuschätzung und Gegenkalkulation](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/steuerrecht-anwalt-und-berater/skills/hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation/SKILL.md). Weise jede geänderte Annahme mit Beleg und Auswirkung aus.
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -87,8 +87,8 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 
 ## 5. Rechtsprechung und Quellenstatus
 
-5.1. BFH, Urteil vom 04.11.2021 - VI R 22/19: Doppelbesteuerungsabkommen begründen grundsätzlich keine Steuerpflicht, sondern begrenzen vorhandene nationale Besteuerung.
-5.2. BVerfG, Beschluss vom 08.07.2021 - 1 BvR 2237/14 und 1 BvR 2422/17: Vollverzinsung nach AO war ab 2014 verfassungswidrig.
+5.1. [BFH, Urteil vom 04.11.2021, VI R 22/19, Rn. 16–19 und 22–28](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202210043/): Bei konzerninterner Entsendung tatsächliche Kostentragung, Einsatzinteresse, Eingliederung und Weisungen prüfen. Die gezahlte Monatspauschale lässt für sich keine sichere Zuordnung des Arbeitslohns zu. Der BFH verwies den Haftungsfall zurück.
+5.2. [BVerfG, Beschluss vom 08.07.2021, 1 BvR 2237/14 und 1 BvR 2422/17, Tenor](https://www.bundesverfassungsgericht.de/e/rs20210708_1bvr223714.html): Bei der Vollverzinsung nach Paragraf 233a AO Zinszeiträume trennen. Die damals unvereinbare Regelung blieb von 2014 bis Ende 2018 anwendbar. Ab 2019 die gesetzliche Neuregelung und die Bestandskraft des Bescheids prüfen.
 5.3. BFH, Urteil vom 25.06.2025, XI R 17/22: Der erstmalige Umsatzsteuerausweis in einer berichtigten Eingangsrechnung ermöglicht keinen rückwirkenden Vorsteuerabzug. Von der Berichtigung einer bereits rückwirkungsfähigen Rechnung unterscheiden. [Amtlicher Volltext](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520301/).
 5.4. EuGH, Urteil vom 06.07.2006 - C-439/04 und C-440/04: Kittel-Rechtsprechung zum Vorsteuerabzug bei Kenntnis von Umsatzsteuerbetrug.
 
@@ -98,6 +98,8 @@ Normen werden nicht als Dekoration gesammelt. Hinter jedem Anker steht das konkr
 [BFH, Urteil vom 18.06.2025 – X R 19/21](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520256/), Rn. 48–63: Mit zumutbarem Aufwand zuverlässigere Schätzung wählen; eigene Betriebsdaten und Nachkalkulation prüfen. Kein Methodenwahlrecht des Steuerpflichtigen, keine zwingende zweite Kontrollrechnung; alte Prüfungsjahre 2013/2014.
 
 [BFH, Urteil vom 15.04.2026 – X R 14/24](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202650130/), Rn. 28–33: Fehlendes erkennbares Erwägen eines möglichen inneren Betriebsvergleichs ist Methodenfehler. Schätzungsbefugnis bleibt; Hinweise für zweiten Rechtsgang ohne Bindungswirkung, keine Nullzuschätzung.
+
+[BFH, Urteil vom 02.09.2026, IV R 10/24, Rn. 38–50](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202610208/): Beim Formwechsel einer Kapitalgesellschaft in eine Personengesellschaft das übernommene positive steuerbilanzielle Eigenkapital für Paragraf 4 Absatz 4a Satz 2 EStG als Einlage in die Überentnahmerechnung aufnehmen. Die steuerliche Rechnung ändert die zivilrechtliche Identität des formwechselnden Rechtsträgers nicht.
 
 ## 6. Beweislast und Gegenangriff
 
@@ -683,237 +685,6 @@ Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang. Prüfung
 
 ---
 
-## Skill: `grunderwerbsteuer-share-deal-grundsteuer-bundesmodell`
-
-_Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: grunderwerbsteuer-share-deal-grundsteuer-bundesmodell._
-
-# Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG
-
-## Arbeitsbereich
-
-Praxis-Skill zu Grunderwerbsteuer-Tatbestaenden bei Anteilsuebertragungen — Änderung des Gesellschafterbestands § 1 Abs. 2a Personengesellschaft § 1 Abs. 2b Kapitalgesellschaft und § 1 Abs. 3 § 1 Abs. 3a GrEStG. Anwendungsfall M und A-Transaktion mit Immobilienvermoegen — Grunderwerbsteuer-Folge soll vor Closing geklaert werden. Behandelt Beteiligungsschwelle 90 Prozent Beobachtungszeitraum zehn Jahre und Folgewirkung auf den Festschreibungspreis. Output Prüfraster und Anzeigeschreiben § 19 GrEStG. Abgrenzung zu fa-stu-bewertung-immobilien-bewg. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Steuerrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
-- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Triage — kläre vor der Bearbeitung
-
-1. Liegt eine grundstuecksbesitzende Gesellschaft vor — Beteiligungsstruktur und Immobilienwert?
-2. Welche Schwelle wird ueberschritten (§ 1 Abs. 2a Personengesellschaft 90 Prozent in zehn Jahren; § 1 Abs. 2b KapGes 90 Prozent in zehn Jahren)?
-3. Greift Konzernklausel § 6a GrEStG mit Vor- und Nachbehaltensfrist?
-4. Ist die Anzeige § 19 GrEStG binnen zwei Wochen erfolgt?
-5. Welche Steuerlast ergibt sich nach Bemessungsgrundlage § 8 GrEStG?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Rechtsgrundlagen
-
-- **§ 1 GrEStG** — steuerbare Erwerbsvorgaenge.
-- **§ 6a GrEStG** — Konzernklausel.
-- **§ 8 GrEStG** — Bemessungsgrundlage.
-- **§ 17 GrEStG** — gesonderte Feststellung Grundlagen.
-- **§ 19 GrEStG** — Anzeigepflicht.
-
-## Aktuelle Rechtsprechung
-
-- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
-
-## Zentrale Normen
-
-§ 1 GrEStG · § 6a GrEStG · § 8 GrEStG · § 17 GrEStG · § 19 GrEStG · § 11 GrEStG (Steuersatz)
-
-## Abgrenzung zu anderen Skills dieses Plugins
-
-- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
-- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
-- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
-
-> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
-
----
-
-## Skill: `haftungswarn-15a-inso-haftungsbescheid-ao-lst-haftung-42d`
-
-_Für Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: haftungswarn-15a-inso-haftungsbescheid-ao-lst-haftung-42d._
-
-# Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht)
-
-## Arbeitsbereich
-
-Anwaltliche Beratung und Warnschreiben an GmbH-Geschäftsführung bei festgestellter Insolvenzreife nach §§ 17 19 InsO. Anwendungsfall GmbH-GF spricht beim Anwalt vor weil Steuerberater Krisensignale gemeldet hat. Antragspflicht § 15a InsO drei Wochen Zahlungsunfähigkeit sechs Wochen Überschuldung. Strafbarkeit Insolvenzverschleppung § 15a Abs. 4 InsO. GF-Haftung § 15b InsO nach SanInsFoG. Output Beratungsdokumentation Warnschreiben mit Belehrung Eingangsbestätigung. Abgrenzung zu stb-warnschreiben-krisensignale Steuerberater-Pflichthinweis und anw-insolvenzreife-prüfung-17-19-inso Gutachten. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachlicher Kern — Steuerrecht
-- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Haftungswarn an GmbH-Geschäftsführung bei Insolvenzreife (Anwaltliche Sicht)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
-- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
-- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
-- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
-
-## Eingaben
-
-- Mandant (GmbH/UG, vollständige Firma, HRB, Stammkapital, GF mit Vertretungsbefugnis)
-- Anlass (Steuerberater-Hinweis, eigener Anstoß, Gesellschafterbeschluss)
-- Datenlage: Bilanz, BWA, Liquidität — vom Steuerberater oder GF übergeben
-- Bisherige interne Krisenmaßnahmen nach Paragraf 1 StaRUG sowie gegebenenfalls ein tatbestandsgebundener Beraterhinweis nach Paragraf 102 StaRUG
-- Rangrücktritte, Patronate, Bürgschaften bekannt?
-- Mandatsumfang: nur Beratung Antragspflicht oder Vollmandat Sanierung/Antrag?
-- Vergütungsvereinbarung (Stundenhonorar, Pauschale, RVG nach Wert)
-
-## Rechtlicher Rahmen
-
-### Primärnormen
-
-- **§ 15a Abs. 1 Satz 1 InsO** — Insolvenzantragspflicht. Zahlungsunfähigkeit (§ 17 InsO) → drei Wochen. Überschuldung (§ 19 InsO) → sechs Wochen.
-- **§ 15a Abs. 4 InsO** — Strafbarkeit Insolvenzverschleppung (Freiheitsstrafe bis 3 Jahre / Geldstrafe; bei Fahrlässigkeit bis 1 Jahr).
-- **§ 15b InsO** — Zahlungsverbote nach Insolvenzreife. Geschäftsführerhaftung gegen die Gesellschaft (löste § 64 GmbHG a.F. ab; SanInsFoG, 1.1.2021).
-- **§ 19 InsO** — Überschuldung (zweistufig: rechnerisch und Fortbestehensprognose; vgl. `stb-ueberschuldungspruefung-19-inso`).
-- **§ 18 InsO** — Drohende Zahlungsunfähigkeit (24-Monats-Horizont; Antragsrecht, keine Pflicht — Zugangstor StaRUG).
-- Paragraf 1 StaRUG: fortlaufende Überwachungs-, Gegenmaßnahmen- und Berichtspflicht der Geschäftsleiter haftungsbeschränkter Rechtsträger. Paragraf 102 StaRUG betrifft demgegenüber nur den Hinweis bestimmter Berufsträger bei der Jahresabschlusserstellung unter seinen weiteren Voraussetzungen.
-- **§ 64 StBerG / § 43a Abs. 5 BRAO** — bei Honorarrückständen Berücksichtigung; keine Beratung ohne Vergütungsvereinbarung in Hochrisikofällen.
-- **§ 826 BGB / § 823 Abs. 2 BGB i.V.m. § 15a InsO** — Außenhaftung GF gegenüber Neugläubigern bei Insolvenzverschleppung.
-
-## Vorgehen
-
-### Schritt 1 — Sachverhalt klären
-
-- Zahlungsunfähigkeit (§ 17 InsO) oder nur Zahlungsstockung? Liquiditätslücke berechnen (Aktiva I + II vs. Passiva I + II, BGH-Schema). Vgl. `stb-liquiditaetsvorschau-3wochen` oder `liquiditaetsplanung`.
-- Überschuldung (§ 19 InsO): zweistufige Prüfung (Fortbestehensprognose + rechnerischer Status). Vgl. `stb-ueberschuldungspruefung-19-inso`.
-- Drohende Zahlungsunfähigkeit (§ 18 InsO): 24-Monats-Liquidität. Wenn ja → StaRUG-Option offen, **noch keine Pflicht**, aber Strategie-Frage.
-
-### Schritt 2 — Frist-Trigger feststellen
-
-| Tatbestand | Frist § 15a InsO | Trigger |
-|---|---|---|
-| Zahlungsunfähigkeit § 17 | 3 Wochen | objektives Eintreten — nicht subjektive Kenntnis |
-| Überschuldung § 19 | 6 Wochen | objektives Eintreten — nicht subjektive Kenntnis |
-| Drohende Zahlungsunfähigkeit § 18 | keine Pflicht | nur Antragsrecht; StaRUG-Zugang |
-
-Aussagen klar dokumentieren: **wann** ist die Insolvenzreife objektiv eingetreten — nicht wann sie der GF erkannt hat. Wenn umstritten, IDW-S-11-Stichtagsanalyse beauftragen.
-
-### Schritt 3 — Optionen mit dem Mandanten besprechen
-
-1. **Insolvenzantrag** — Regelverfahren, Eigenverwaltung (§ 270b InsO), Schutzschirm (§ 270d InsO).
-2. **StaRUG-Restrukturierungsverfahren** — nur bei drohender Zahlungsunfähigkeit (§ 18 InsO), nicht bei manifester Insolvenzreife.
-3. **Außergerichtliche Sanierung** — nur möglich bei kurzfristiger Stockung (< 3 Wochen) oder gesichertem Kapital-/Liquiditätszufluss.
-4. **Sanierungskonzept nach IDW S 6** als Voraussetzung positiver Fortbestehensprognose.
-5. **Mandatsniederlegung** bei eklatanter Insolvenzverschleppung und Weigerung des GF.
-
-### Schritt 4 — Schriftliche Belehrung
-
-Pflicht aus § 11 BORA (Schriftform-Pflicht bei wichtigen Mandantenhinweisen) und § 49b Abs. 5 BRAO (Belehrung über Honorarauslösung bei Mandatsumfang).
-
-### Schritt 5 — Eigene Aktendokumentation
-
-- Aktennotiz: Sachverhalt, Beratungsinhalt, Empfehlung, Mandantenreaktion.
-- Schriftliche Belehrung samt Eingangsbestätigung.
-- Folge-Schritte (Wiedervorlage; ggf. weitere Honorarvereinbarung).
-- Versendung beA an Mandanten-Anwalt (sofern vorhanden) bzw. Einschreiben.
-
-## Muster — Anwaltliches Belehrungs-/Hinweisschreiben (verkürzt)
-
-```
-[Kanzlei-Briefkopf] [Datum]
-
-PERSÖNLICH UND VERTRAULICH
-
-[Mandant — GmbH, z. Hd. Geschaeftsfuehrer/in Name]
-[Anschrift]
-
-vorab per beA / Einschreiben mit Rueckschein
-
-In dem Mandat [Aktenzeichen] / Beratung zur Insolvenzantragspflicht
-
-Sehr geehrte/r Frau / Herr [Name],
-
-ich nehme Bezug auf unsere Besprechung am [Datum] und auf die mir
-ueberlassenen Unterlagen (Bilanz zum [Stichtag], BWA, SuSa,
-Liquiditaetsuebersicht der Steuerkanzlei [Name]).
-
-Nach einer ersten Pruefung des Sachverhalts ist davon auszugehen, dass
-zum Zeitpunkt [Datum] [Zahlungsunfaehigkeit gemaess § 17 InsO /
-Ueberschuldung gemaess § 19 Abs. 2 InsO] vorliegt. Die Einzelheiten der
-rechtlichen Wuerdigung entnehmen Sie bitte dem beigefuegten Vermerk.
-
-Daraus folgt eine **Pflicht zur Insolvenzantragstellung** gemaess
-§ 15a Abs. 1 Satz 1 InsO. Die Hoechstfrist betraegt
-[drei Wochen ab Eintritt der Zahlungsunfaehigkeit /
-sechs Wochen ab Eintritt der Ueberschuldung].
-
-**Risiken bei Verstoss gegen die Antragspflicht:**
-
-1. Strafrechtliche Verantwortung nach § 15a Abs. 4 InsO
- (Freiheitsstrafe bis zu drei Jahren oder Geldstrafe; bei
- fahrlaessiger Verschleppung bis zu einem Jahr).
-2. Persoenliche zivilrechtliche Haftung gegenueber der Gesellschaft
- gemaess § 15b InsO (verbotene Zahlungen nach Insolvenzreife).
-3. Persoenliche Haftung gegenueber Neuglaeubigern aus § 823 Abs. 2
- BGB i.V.m. § 15a InsO bzw. § 826 BGB (Quotenschaden Altglaeubiger,
-
-**Empfehlung:**
-
-Ich empfehle Ihnen mit Nachdruck:
-
-- saemtliche an Glaeubiger gerichteten Zahlungen unverzueglich auf
- Insolvenzkonformitaet zu pruefen (vgl. § 15b InsO);
-- saemtliche an die Gesellschaft eingehenden Zahlungen auf einem
- gesonderten Konto zu sammeln;
-- den Insolvenzantrag innerhalb der oben genannten Frist zu stellen,
- sofern eine Sanierungsperspektive ausserhalb des Insolvenzverfahrens
- nicht zeitnah belegt werden kann;
-- alternative Verfahrenswege (Eigenverwaltung § 270b InsO,
- Schutzschirm § 270d InsO, StaRUG-Restrukturierung soweit erst
- drohende Zahlungsunfaehigkeit) gegen das Regelinsolvenzverfahren
- abzuwaegen.
-
-Ich stehe zur Mandatsuebernahme für das Insolvenzantragsverfahren oder
-für ein Sanierungsverfahren auf Grundlage einer gesonderten
-Verguetungsvereinbarung zur Verfuegung.
-
-Bitte bestaetigen Sie den Eingang dieses Schreibens und teilen Sie mir
-Ihre Entscheidung binnen drei Werktagen mit. Sollte ich von Ihnen keine
-Reaktion erhalten, gehe ich davon aus, dass Sie meine Beratung nicht
-in Anspruch nehmen wollen, und werde das Mandat in Bezug auf die
-Insolvenzantragstellung niederlegen.
-
-Mit freundlichen Gruessen
-[Unterschrift]
-Rechtsanwalt/-anwaeltin
-```
-
-## Risiken und Red Flags
-
-| Konstellation | Rot | Orange | Grün |
-|---|---|---|---|
-| GF kennt Insolvenzreife, verweigert Antrag | Beihilfe-/Anstiftungsrisiko? Mandat niederlegen | Aufklärung erneut, schriftlich | Antrag wird gestellt |
-| Keine Schriftform der Belehrung | § 11 BORA-Pflichtverstoß, Regressrisiko | mündliche Belehrung dokumentiert | beA + Einschreiben |
-| Anwalt selbst zahlt Honorar aus Mandantenkonto nach Insolvenzreife | § 15b InsO-Pflichtverstoß GF, Risiko Anwaltsregress | nach Verfahrenseröffnung | Honorar vor Insolvenzreife oder als Massevorab |
-| Beratung ohne Aktenlage | Sorgfaltsverstoß; Beweislastumkehr bei Schaden | bei kurzfristigem Hinweis | nach umfassender Akteneinsicht |
-
-## Quellen und Updates
-
-Rechtsstand vor Versand prüfen. Paragraf 15b InsO ersetzt die früheren rechtsformspezifischen Zahlungsverbote. Für Paragraf 19 Absatz 2 InsO gilt seit 01.01.2024 wieder der regelmäßige Zwölfmonatszeitraum; die SanInsKG-Sonderregelung ist ausgelaufen.
-
-> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
-
----
-
 ## Skill: `umsatzsteuer-voranmeldung-erstellen`
 
 _Erstellt Umsatzsteuer-Voranmeldungen aus Belegen und Buchungen. Prüft Zeitraum, Soll- oder Istbesteuerung, Befreiungen, Vorsteuer, Auslandsfälle und Berichtigungen. Liefert eine ELSTER-Tabelle mit Belegzuordnung und bereitet verifizierten XML-Import oder beauftragte lokale Übermittlung mit Eingangsprotokoll vor._
@@ -1064,12 +835,68 @@ Der Nutzer wählt XML-Import, hat das passende Jahresschema bereitgestellt und m
 
 ---
 
+## Skill: `grunderwerbsteuer-share-deal-grundsteuer-bundesmodell`
+
+_Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: grunderwerbsteuer-share-deal-grundsteuer-bundesmodell._
+
+# Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG
+
+## Arbeitsbereich
+
+Praxis-Skill zu Grunderwerbsteuer-Tatbestaenden bei Anteilsuebertragungen — Änderung des Gesellschafterbestands § 1 Abs. 2a Personengesellschaft § 1 Abs. 2b Kapitalgesellschaft und § 1 Abs. 3 § 1 Abs. 3a GrEStG. Anwendungsfall M und A-Transaktion mit Immobilienvermoegen — Grunderwerbsteuer-Folge soll vor Closing geklaert werden. Behandelt Beteiligungsschwelle 90 Prozent Beobachtungszeitraum zehn Jahre und Folgewirkung auf den Festschreibungspreis. Output Prüfraster und Anzeigeschreiben § 19 GrEStG. Abgrenzung zu fa-stu-bewertung-immobilien-bewg. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Liegt eine grundstuecksbesitzende Gesellschaft vor — Beteiligungsstruktur und Immobilienwert?
+2. Welche Schwelle wird ueberschritten (§ 1 Abs. 2a Personengesellschaft 90 Prozent in zehn Jahren; § 1 Abs. 2b KapGes 90 Prozent in zehn Jahren)?
+3. Greift Konzernklausel § 6a GrEStG mit Vor- und Nachbehaltensfrist?
+4. Ist die Anzeige § 19 GrEStG binnen zwei Wochen erfolgt?
+5. Welche Steuerlast ergibt sich nach Bemessungsgrundlage § 8 GrEStG?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 1 GrEStG** — steuerbare Erwerbsvorgaenge.
+- **§ 6a GrEStG** — Konzernklausel.
+- **§ 8 GrEStG** — Bemessungsgrundlage.
+- **§ 17 GrEStG** — gesonderte Feststellung Grundlagen.
+- **§ 19 GrEStG** — Anzeigepflicht.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 1 GrEStG · § 6a GrEStG · § 8 GrEStG · § 17 GrEStG · § 19 GrEStG · § 11 GrEStG (Steuersatz)
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
+
+---
+
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -1086,7 +913,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** nachrechenbare Berechnung mit begründetem Befund und dem bestellten Bericht oder Anspruchsschreiben. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

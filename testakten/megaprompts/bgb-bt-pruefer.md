@@ -1,5 +1,9 @@
 # Vollprüfung: bgb-bt-pruefer
 
+Bestimme aus der vereinbarten Leistung und ihrer Störung, ob Nachbesserung, Zahlung, Rückabwicklung oder Ersatz geschuldet ist. Ordne Kaufmangel, Werkmangel, ausgebliebene Dienstleistung und Gebrauchshindernis ihren unterschiedlichen Rechtsfolgen zu. Lies Verträge und Leistungsnachweise zuerst und begründe daraus das bestellte Gutachten oder Forderungsschreiben.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-8 von 109 Skills (gekürzt für das Arbeitsfenster) des Plugins `bgb-bt-pruefer`.
@@ -9,11 +13,11 @@ Diese Vollprüfung enthält top-8 von 109 Skills (gekürzt für das Arbeitsfenst
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in BGB Bt Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konk…
 2. **kaltstart-triage** — Für BGB BT Kommandocenter: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
 3. **kaufrecht-dauerhafte-bereitstellung-digitaler-elemente-475c** — Für Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente Paragraf 475c BGB: ordnet Norm, Beweislast und Gegenargument…
-4. **kaufrecht-dauerhafte-bereitstellung-digitaler** — Für Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente Paragraf 475c BGB: ordnet Norm, Beweislast und Gegenargument…
-5. **kaufrecht-updates-sicherheitsupdates-327f-475b** — Für Kaufrecht: Updates und Sicherheitsupdates Paragrafen 327f und 475b BGB: ordnet Norm, Beweislast und Gegenargument; E…
-6. **kaufrecht-updates-sicherheitsupdates-327f** — Für Kaufrecht: Updates und Sicherheitsupdates Paragrafen 327f und 475b BGB: ordnet Norm, Beweislast und Gegenargument; E…
-7. **deliktsrecht-haftung-fuer-verrichtungen-paragraph-831** — Für Deliktsrecht: Haftung für Verrichtungen Paragraf 831 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfp…
-8. **deliktsrecht-paragraph-826-sittenwidrige-schaedigung** — Für Deliktsrecht Paragraf 826 BGB: Sittenwidrige Schädigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfpr…
+4. **geschaeftsbesorgung-zahlungsdienste-goa** — Ordnet Geschäftsbesorgung, Auftrag, Geschäftsführung ohne Auftrag und Zahlungsdienste dem passenden Anspruch zu. Erstell…
+5. **kaufrecht-dauerhafte-bereitstellung-digitaler** — Für Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente Paragraf 475c BGB: ordnet Norm, Beweislast und Gegenargument…
+6. **kaufrecht-updates-sicherheitsupdates-327f-475b** — Für Kaufrecht: Updates und Sicherheitsupdates Paragrafen 327f und 475b BGB: ordnet Norm, Beweislast und Gegenargument; E…
+7. **kaufrecht-updates-sicherheitsupdates-327f** — Für Kaufrecht: Updates und Sicherheitsupdates Paragrafen 327f und 475b BGB: ordnet Norm, Beweislast und Gegenargument; E…
+8. **deliktsrecht-haftung-fuer-verrichtungen-paragraph-831** — Für Deliktsrecht: Haftung für Verrichtungen Paragraf 831 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfp…
 
 ---
 
@@ -25,12 +29,10 @@ _Schaltet sich ein, wenn in BGB Bt Prüfer ein juristisches Arbeitsprodukt tragf
 
 ## 1. Direktstart
 
-Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
+Bestimme Vertragstyp, geschuldete Leistung und belegte Störung. Prüfe daraus den Anspruch und formuliere die benötigte Nacherfüllungsaufforderung, Einwendung oder Zahlungsklage.
 
-Pluginauftrag: Großer BGB-BT-Prüfer für Schuldrecht Besonderer Teil: Kauf einschließlich Verbrauchsgüterkauf, Waren mit digitalen Elementen, Updatepflichten und Right-to-Repair-Schnittstellen, außerdem Miete, Werk, Bürgschaft, GoA, Bereicherung, Delikt und Rückabwicklung.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -60,10 +62,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Workflow: Anspruchslandkarte BGB BT: Bearbeite den Fachpunkt im Skill anspruchslandkarte-vertragstypen und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Deliktsrecht: Haftung für Verrichtungen Paragraf 831 BGB: Bearbeite den Fachpunkt im Skill deliktsrecht-haftung-fuer-verrichtungen-paragraph-831 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Kaufvertrag Grundschema Paragraf 433 BGB: Bearbeite den Fachpunkt im Skill kaufvertrag-grundschema-paragraph-433 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Mietvertrag Grundschema Paragraf 535 BGB: Bearbeite den Fachpunkt im Skill mietvertrag-grundschema-paragraph-535 und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Workflow: Anspruchslandkarte BGB BT](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/skills/anspruchslandkarte-vertragstypen/FACHINHALT.md)
+3.1.2. [Deliktsrecht: Haftung für Verrichtungen Paragraf 831 BGB](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/skills/deliktsrecht-haftung-fuer-verrichtungen-paragraph-831/FACHINHALT.md)
+3.1.3. [Kaufvertrag Grundschema Paragraf 433 BGB](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/skills/kaufvertrag-grundschema-paragraph-433/FACHINHALT.md)
+3.1.4. [Mietvertrag Grundschema Paragraf 535 BGB](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/skills/mietvertrag-grundschema-paragraph-535/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -255,6 +259,44 @@ _Für Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente Paragraf 475c BGB:
 - https://www.gesetze-im-internet.de/bgb/__475c.html
 - https://www.gesetze-im-internet.de/bgb/__327.html
 - https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0771
+
+---
+
+## Skill: `geschaeftsbesorgung-zahlungsdienste-goa`
+
+_Ordnet Geschäftsbesorgung, Auftrag, Geschäftsführung ohne Auftrag und Zahlungsdienste dem passenden Anspruch zu. Erstellt ein fallbezogenes Gutachten oder Schreiben; trennt bei nicht autorisierten Zahlungen die sofortige Erstattung vom späteren Ersatzanspruch._
+
+# 1. Zweck und Anwendungsfall
+
+Ordnen Sie zunächst Auftrag, Geschäftsbesorgung, Zahlungsdienst und mögliche Geschäftsführung ohne Auftrag der konkret beanstandeten Handlung zu. Für eine nicht autorisierte Kontobelastung vorrangig die besondere Zahlungsdiensteregel prüfen; allgemeine Geschäftsführung oder Bereicherung ersetzt deren Voraussetzungen nicht.
+
+# 2. Eingaben
+
+Lesen Sie Vertrag, Kundenstatus, Belastungsnachweis, Kundendarstellung, Reklamation, Bankantwort, Sperranzeige und vorhandene Freigabeinformationen. Erfassen Sie je Zahlung Betrag, Empfänger, Zeit, Zustimmungshandlung, Kenntnis der Bank und Rückflüsse. Keine PIN oder TAN verlangen. Nur Angaben nachfordern, die die konkrete Anspruchsprüfung oder das bestellte Schreiben verändern.
+
+# 3. Ablauf und Checkliste
+
+1. Bestimmen Sie die betroffene Leistung und den vereinbarten Zahlungsweg. Bei nicht zahlungsdienstlicher Geschäftsbesorgung deren Vertragspflichten eigenständig prüfen. Kein Mietrechtsraster auf eine Bankreklamation übertragen.
+2. Prüfen Sie Zustimmung nach Paragraf 675j BGB: Anmeldung, Geräteaktivierung und einzelne Zahlungsfreigabe sind verschiedene Vorgänge. Eine bewusst selbst veranlasste Zahlung ist nicht allein wegen Täuschung nicht autorisiert.
+3. Bei nicht autorisierter Zahlung Erstattung und Kontowiederherstellung nach Paragraf 675u BGB unverzüglich, spätestens bis zum Ende des auf Kenntnis oder Anzeige folgenden Geschäftstags prüfen. Angeblich grobe Fahrlässigkeit ist kein selbständiger Ausschluss dieser Pflicht. Die Ausnahme betrifft berechtigten Verdacht betrügerischen Verhaltens des Zahlers mit schriftlicher Mitteilung an die zuständige Behörde.
+4. Nach Paragraf 675w BGB Authentifizierung, Aufzeichnung, Verbuchung, Störungen und unterstützende Bankbeweise prüfen. Ein Erfolgslog allein beweist weder notwendig Zustimmung noch grobe Fahrlässigkeit. Fehlt ein konkreter Freigabetext, genau ihn anfordern und die offenen Tatsachen kenntlich machen.
+5. Einen Schadensersatzanspruch der Bank nach Paragraf 675v BGB gesondert prüfen: Pflicht, Verletzung, subjektiver Vorwurf, Kausalität und Schaden. Haftungsausschlüsse, insbesondere fehlende starke Kundenauthentifizierung und Schäden nach Sperranzeige, vor Betrag und Vergleichsquote behandeln. Keine automatische Verrechnung wegen bloßer Fahrlässigkeitsbehauptung. Eine konkrete Aufrechnung eigenständig prüfen; der EuGH-Tenor enthält kein allgemeines Aufrechnungsverbot.
+6. Nach Paragraf 676b BGB unverzügliche Anzeige nach Feststellung von der Ausschlussfrist unterscheiden. Die 13-Monatsgrenze ist keine Bedenkzeit; ordnungsgemäße Unterrichtung und tatsächlichen Fristbeginn prüfen. Unternehmerabreden nach Paragraf 675e BGB konkret lesen; Absatz 4 nimmt Paragraf 675u nicht allgemein aus. Bei bloß verspäteter Ausführung Paragraf 675s BGB gesondert prüfen, nicht Paragraf 676a als Ausführungsfrist zitieren.
+7. Belastung, endgültige Rückflüsse, vorläufige Gutschriften und Gegenforderungen getrennt rechnen. Bei neuen Belegen Berechnung und rechtliche Begründung im selben Entwurf fortführen. Erstattung nicht als endgültigen Erlass jedes Bankregresses darstellen. Versand und Einreichung nur nach Freigabe.
+
+# 4. Quellenpflicht
+
+[EuGH, Urteil vom 15.10.2026, C-70/25, Tukowiecka, ECLI:EU:C:2026:852](https://curia.europa.eu/juris/document.jsf?docid=328145&doclang=DE), Rn. 31–42, 45–47 und 52, amtlicher Volltext am 16. Oktober 2026 gelesen. Trägt: Zweistufigkeit von unverzüglicher Erstattung und nachfolgender endgültiger Verlusttragung. Trägt nicht: automatische Unautorisiertheit jeder Täuschung, genereller Forderungserlass oder ein allgemeines deutsches Aufrechnungsverbot.
+
+[Quellenkarte mit amtlichem Normabgleich](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/references/eugh-c-70-25-erstattung-und-regress.md); [Paragraf 675s BGB](https://www.gesetze-im-internet.de/bgb/__675s.html), am 16. Oktober 2026 geöffnet und gelesen. Weitere Vertrags- und Verjährungsfragen nur anhand konkret einschlägiger, verifizierter Normen beurteilen. Keine Literaturfundstellen aus Modellwissen.
+
+# 5. Ausgabeformat
+
+Liefern Sie das verlangte Schreiben oder Gutachten vollständig ausformuliert mit Partei, Zahlung, Rechtsfolge und tragenden Tatsachen; keine bloße Normensammlung oder leeren Klauselrümpfe. Ergänzen Sie nur die erforderliche Zahlungsrechnung und interne Belegnotiz. Formatstandard Times New Roman 11 pt, dezimale Gliederung mit Leerzeilen; bei Chat-Ausgabe separaten Exporthinweis verwenden. Nicht autorisierte Zahlung und Bankgegenanspruch müssen im Ergebnis unterscheidbar bleiben.
+
+# 6. Beispiele
+
+Eine Kundin meldet eine von einem Dritten ausgelöste Überweisung. Die Bank hält ihr vor, Zugangsdaten über einen Verkaufslink eingegeben zu haben. Prüfen Sie die unverzügliche Erstattung und anschließend den beweisabhängigen Regress. Behauptet die Bank dagegen, die Kundin habe Betrag und Empfänger bewusst selbst freigegeben, klären Sie diese vorgelagerte Autorisierungsfrage anhand der konkreten Anzeige und Erklärungen; keine der Varianten einfach als bewiesen behandeln.
 
 ---
 
@@ -541,87 +583,9 @@ _Für Deliktsrecht: Haftung für Verrichtungen Paragraf 831 BGB: ordnet Norm, Be
 
 ---
 
-## Skill: `deliktsrecht-paragraph-826-sittenwidrige-schaedigung`
-
-_Für Deliktsrecht Paragraf 826 BGB: Sittenwidrige Schädigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BGB BT Prüfer. Route: deliktsrecht-paragraph-826-sittenwidrige-schaedigung._
-
-# Deliktsrecht § 826 BGB: Sittenwidrige Schädigung
-
-## Arbeitsweg
-
-- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
-- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
-- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
-- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
-- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
-
-## Fachkern: Deliktsrecht § 826 BGB: Sittenwidrige Schädigung
-- **Normen-/Quellenanker:** BGB Besonderer Teil: Kaufrecht, Werk-/Dienstvertrag, Auftrag/Geschäftsbesorgung, Miet-/Leasingnähe, GoA, Bereicherung, Delikt, Verjährung und AGB-Schnittstellen.
-- **Entscheidende Weiche:** Anspruchsgrundlage, Vertragstyp/Mischvertrag, Pflichtverletzung, Vertretenmüssen, Schaden, Einwendung und Beweisfrage sauber trennen.
-- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
-
-## Normanker
-
-- § 826 BGB: vorsätzliche sittenwidrige Schädigung
-- § 138 BGB: Sittenwidrigkeit als Parallelwertung
-- § 823 Abs. 2 BGB: Schutzgesetzverletzung (Abgrenzung)
-- BGH-Rechtsprechung zu § 826 BGB (z.B. Dieselskandal): nur nach Live-Prüfung zitieren
-- § 31 BGB: Organverantwortlichkeit für juristische Personen
-
-## Intake
-
-- Welches Verhalten wird als sittenwidrig bewertet?
-- Hatte der Schädiger Vorsatz bezüglich der Schädigung (auch bedingter Vorsatz)?
-- Ist ein Vermögensschaden entstanden?
-- Ist der Schädiger eine natürliche Person oder eine juristische Person (§ 31 BGB)?
-- Gibt es eine BGH-Linie, die dieses Verhalten erfasst (z.B. arglistige Täuschung, Marktmanipulation)?
-
-## Prüfraster
-
-1. Objektive Sittenwidrigkeit: Verstoß gegen das Anstandsgefühl aller billig und gerecht Denkenden
-2. Schaden: reiner Vermögensschaden oder Verletzung eines nach § 823 Abs. 1 BGB geschützten Guts
-3. Kausalität: sittenwidrige Handlung hat Schaden verursacht
-4. Vorsatz: mindestens bedingter Vorsatz (dolus eventualis); bloße Fahrlässigkeit genügt nicht
-5. Vorsatz auf Schädigungserfolg: Schädiger muss den Schaden als möglich vorausgesehen und in Kauf genommen haben
-6. Bei juristischen Personen: Organzurechnung nach § 31 BGB
-7. Schaden nach §§ 249 ff. BGB: auch entgangener Gewinn (§ 252 BGB)
-8. Verjährung: §§ 195 und 199 BGB
-
-## Fallstricke
-
-- Fahrlässigkeit genügt nicht; mindestens bedingter Vorsatz auf Schädigungserfolg notwendig.
-- Sittenwidrigkeit ist nicht dasselbe wie Rechtswidrigkeit; eigenständige Wertung erforderlich.
-- § 826 BGB schützt auch reinen Vermögensschaden, § 823 Abs. 1 BGB tut das nicht.
-- BGH-Rechtsprechung zum Dieselskandal ist fallbezogen; keine pauschale Übertragung.
-
-## Stoppschilder
-
-- Keine Kommentar-, Aufsatz- oder BeckRS/Juris-Blindzitate.
-- Tragende Gesetzesstände live gegen amtliche/frei zugängliche Quellen prüfen.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarer Quelle verwenden.
-- Bei Unsicherheit die Annahme ausdrücklich markieren und eine Rückfrage oder Quellenprüfung auslösen.
-
-## Anschluss-Skills
-
-- deliktsrecht-paragraph-823-1
-- deliktsrecht-schutzgesetz-paragraph-823-2
-- schadensrecht-paragraphen-249-253
-- workflow-red-team-gegenseite
-
-## Quellen
-
-- https://www.gesetze-im-internet.de/bgb/__826.html
-- https://www.gesetze-im-internet.de/bgb/__138.html
-- https://www.gesetze-im-internet.de/bgb/__823.html
-
----
-
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -638,7 +602,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** vollständig ausformulierte Vertragsfassung oder Verhandlungsantwort mit gesonderter Änderungsübersicht. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

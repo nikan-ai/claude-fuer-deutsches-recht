@@ -1,5 +1,9 @@
 # Vollprüfung: regulatorisches-recht
 
+Kläre, welche Gesellschaft welche Daten schuldet oder welche Vertragsregel angepasst werden muss, und liefere die bestellte Behördenantwort, Stellungnahme oder Vertragsfassung. Für Vorfallhilfe in IKT-Verträgen ist Artikel 30 Absatz 2 Buchstabe f DORA einschlägig. Beim Informationszugang zu Aufsichtsakten tritt der Geheimnisschutz, etwa nach Paragraf 3 Nummer 4 IFG, hinzu. Der vorhandene Anker EuGH, Urteil vom 19.06.2018, Az. C-15/16, Baumeister, fordert eine dokumentbezogene Prüfung zum Zugangszeitpunkt. Er betrifft die damalige MiFID, schafft keinen eigenen Zugang und erlaubt keine pauschale Meldeverweigerung; DORA-Vertragsfragen löst er nicht. Den dokumentierten Quellenstand beibehalten.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `regulatorisches-recht`.
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Regulatorisches Recht ein juristisches Arbeitsproduk
 
 ## 1. Direktstart
 
-Arbeite als Verwaltungsrechtlicher Bearbeiter für Verwaltungsakt, Widerspruch, Klage, Eilrechtsschutz, Ermessen, Satzungen und behördliche Verfahren.
+Gleiche Tätigkeit, Organisation und konkreten Vorgang mit den anwendbaren Aufsichtsvorgaben ab. Begründe die erforderliche Erlaubnis, Meldung oder Position gegenüber der zuständigen Stelle.
 
-Pluginauftrag: Aufsichtsrecht – KWG, ZAG, WpHG, GwG, EnWG, TKG, HeilMWerbG, Umsatzsteuer-Voranmeldung, Inkasso/RDG, Regulator-Feeds, Wochendigest.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. DORA-IKT-Vertragsprüfung: Bearbeite den Fachpunkt im Skill dora-ikt-vertragspruefung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. GwG: Fristen, Form, Zuständigkeit und Rechtsweg: Bearbeite den Fachpunkt im Skill gwg-fristen-form-und-zustaendigkeit und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Interview: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill interview-fristennotiz-aufsichtssanktion und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Regulator: Zahlen, Schwellenwerte und Berechnung: Bearbeite den Fachpunkt im Skill regulator-zahlen-schwellen-und-berechnung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [DORA-IKT-Vertragsprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/skills/dora-ikt-vertragspruefung/FACHINHALT.md)
+3.1.2. [GwG: Fristen, Form, Zuständigkeit und Rechtsweg](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/skills/gwg-fristen-form-und-zustaendigkeit/FACHINHALT.md)
+3.1.3. [Interview: Fristennotiz und nächster Schritt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/skills/interview-fristennotiz-aufsichtssanktion/FACHINHALT.md)
+3.1.4. [Regulator: Zahlen, Schwellenwerte und Berechnung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/skills/regulator-zahlen-schwellen-und-berechnung/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -153,21 +157,21 @@ Dieser Einstieg routet **Regulatorisches Recht** vom ersten Sachverhalt zu Rolle
 
 ## Fachlandkarte dieses Plugins
 
-- `anhoerung-red-team-und-qualitaetskontrolle` — Anhoerung RED Team und Qualitaetskontrolle
-- `anschluss-router` — Anschluss Router
-- `aufsichts-feed-monitor` — Aufsichts Feed Monitor
-- `aufsichtskommunikation-grundregeln` — Aufsichtskommunikation Grundregeln
-- `aufsichtsrecht-erstpruefung-und-mandatsziel` — Aufsichtsrecht Erstpruefung und Mandatsziel
-- `aufsichtssanktion-revision-spezial` — Aufsichtssanktion Revision Spezial
-- `aufsichtsverfahren-anhoerung-gwg` — Aufsichtsverfahren Anhoerung GWG
-- `aufsichtsverfahren-formular-portal-und-einreichung` — Aufsichtsverfahren Formular Portal und Einreichung
-- `dora-ikt-vertragspruefung` — Dora IKT Vertragspruefung
-- `dora-stellvertreter-und-konzern` — Dora Stellvertreter und Konzern
-- `enwg-feeds-heilmwerbg` — ENWG Feeds Heilmwerbg
-- `feeds-compliance-dokumentation-und-akte` — Feeds Compliance Dokumentation und Akte
-- `fristen-risikoampel-mandantenkommunikation` — Fristen Risikoampel Mandantenkommunikation
-- `dokumente-intake` — Dokumente Intake
-- `output-waehlen` — Output Waehlen
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anhoerung-red-team-und-qualitaetskontrolle) — Anhoerung RED Team und Qualitaetskontrolle
+- `regulierungsverfahren-und-rechtsschutz-bearbeiten` (Fachthema: anschluss-router) — Anschluss Router
+- `energie-und-netze-bearbeiten` (Fachthema: aufsichts-feed-monitor) — Aufsichts Feed Monitor
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: aufsichtskommunikation-grundregeln) — Aufsichtskommunikation Grundregeln
+- `energie-und-netze-bearbeiten` (Fachthema: aufsichtsrecht-erstpruefung-und-mandatsziel) — Aufsichtsrecht Erstpruefung und Mandatsziel
+- `energie-und-netze-bearbeiten` (Fachthema: aufsichtssanktion-revision-spezial) — Aufsichtssanktion Revision Spezial
+- `regulierungsverfahren-und-rechtsschutz-bearbeiten` (Fachthema: aufsichtsverfahren-anhoerung-gwg) — Aufsichtsverfahren Anhoerung GWG
+- `regulierungsverfahren-und-rechtsschutz-bearbeiten` (Fachthema: aufsichtsverfahren-formular-portal-und-einreichung) — Aufsichtsverfahren Formular Portal und Einreichung
+- `regulierungsverfahren-und-rechtsschutz-bearbeiten` (Fachthema: dora-ikt-vertragspruefung) — Dora IKT Vertragspruefung
+- `regulierungsverfahren-und-rechtsschutz-bearbeiten` (Fachthema: dora-stellvertreter-und-konzern) — Dora Stellvertreter und Konzern
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: enwg-feeds-heilmwerbg) — ENWG Feeds Heilmwerbg
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: feeds-compliance-dokumentation-und-akte) — Feeds Compliance Dokumentation und Akte
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: fristen-risikoampel-mandantenkommunikation) — Fristen Risikoampel Mandantenkommunikation
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: output-waehlen) — Output Waehlen
 
 ## Arbeitsweg
 
@@ -338,6 +342,7 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Unsicherheiten und Annahmen ausdrücklich markieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -507,6 +512,7 @@ Dieser Arbeitsgang macht **Red-Team Qualitygate** im Bereich **regulatorisches-r
 - **Sanktionsmodell:** Verwaltungsbußgeld vs. Strafbarkeit vs. zivilrechtliche Haftung; bei mehreren Regimen Kumulation und Doppelbestrafungsverbot (Art. 50 GRCh, ne bis in idem; EuGH C-117/20 bpost SA, sofern frei verifizierbar).
 - **Veröffentlichung:** Bei Sanktionen häufig Veröffentlichungspflicht (Pillory-Effekt); Reputationsrisiko separat bewerten.
 - **Kein erfundenes Aktenzeichen:** EuGH-/EuG-Az., BaFin-/BNetzA-Bescheid-Az., DSK-Beschluss-Az. immer live verifizieren.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -677,6 +683,7 @@ Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **regulatorisch
 - **MaRisk / MaComp (BaFin):** Sofortige Meldung wesentlicher Vorfälle; Outsourcing-Anzeigepflicht; jährliche Selbstbeurteilung.
 - **Produktsicherheit (ProdSG, GPSR VO 2023/988):** Meldung gefährliches Produkt unverzüglich, max. 2 Tage; Rückrufkampagne dokumentationspflichtig.
 - **Praxis-Tipp:** Multijurisdiktionale Regulatoren häufig parallel zuständig (z. B. BaFin + BNetzA + LfDI + EU-Kommission) — Anzeige-Kanäle und Sprachfassungen früh abstimmen.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/regulatorisches-recht/references/ki-normen-und-fallpruefung.md). Ordnen Sie Anforderungen nach Akteur, Produkt, Tätigkeit und Zeitpunkt. Weder eine zusätzliche Regulierung noch ein Zertifikat verdrängt automatisch andere gesetzliche Prüfspuren. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -783,10 +790,7 @@ Dieser Dokumenten-Intake für **Regulatorisches Recht** ordnet Anlagen, Register
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -803,7 +807,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** belegter Prüfbericht mit konkreter Nachforderung und den beauftragten Maßnahmen- oder Kommunikationstexten. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

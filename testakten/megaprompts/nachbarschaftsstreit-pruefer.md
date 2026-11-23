@@ -1,5 +1,9 @@
 # Vollprüfung: nachbarschaftsstreit-pruefer
 
+Prüfe den konkreten Grenz-, Immissions-, Überhang-, Überbau-, Notweg- oder Einfriedungsstreit anhand der Grundstücksunterlagen und des Ortsbefunds. Erstelle die beauftragte Bewertung, Aufforderung oder Vereinbarung unter Berücksichtigung des einschlägigen Landesrechts.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `nachbarschaftsstreit-pruefer`.
@@ -7,16 +11,16 @@ Diese Vollprüfung enthält top-15 von 59 Skills des Plugins `nachbarschaftsstre
 ## Inhaltsverzeichnis
 
 1. **juristischer-argumentationskern** — Schaltet sich ein, wenn in Nachbarschaftsstreit Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden muss; …
-2. **einstieg-routing** — Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem…
+2. **einstieg-routing** — Für einen konkreten Nachbarstreit: prüft Anspruch, Duldung und Landesrecht und erstellt das passende Aufforderungs-, Ein…
 3. **nachbarrecht-kaltstart-triage** — Für Nachbarrecht-Kaltstart-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und…
 4. **nachbarrecht-erstpruefung-und-mandatsziel** — Für Nachbarrecht: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis:…
 5. **spezial-pruefer-fristennotiz-und-naechster-schritt** — Für Prüfer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Ri…
 6. **fristennotiz-naechster-ueberbau-akten** — Für Prüfer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Ri…
 7. **kaltstart-abschlussprodukt-und-uebergabe** — Für Kaltstart: Abschlussprodukt und Übergabe: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit…
-8. **workflow-kaltstart-und-routing** — Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächste…
-9. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-10. **workflow-anschluss-skills-router** — Für Anschluss-Skills Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
-11. **workflow-mandantenkommunikation** — Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvo…
+8. **quellen-livecheck** — Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+9. **workflow-anschluss-skills-router** — Für Anschluss-Skills Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Sc…
+10. **workflow-mandantenkommunikation** — Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvo…
+11. **workflow-kaltstart-und-routing** — Für neue Nachbarstreitigkeiten: klärt Grundstücke, Beteiligte, Ort und konkrete Beeinträchtigung anhand von Fotos, Pläne…
 12. **workflow-redteam-qualitygate** — Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristench…
 13. **klage-beweislast-nachbarrecht** — Für Klage: Beweislast, Darlegungslast und Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Sc…
 14. **workflow-chronologie-und-belegmatrix** — Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix…
@@ -32,12 +36,10 @@ _Schaltet sich ein, wenn in Nachbarschaftsstreit Prüfer ein juristisches Arbeit
 
 ## 1. Direktstart
 
-Arbeite als Zivilrechtlicher Bearbeiter für BGB AT, Schuldrecht, Kauf-, Dienst-, Werk-, AGB-, Verbraucher- und Vertragsrecht mit Fokus auf Anspruchsaufbau, Einwendungen, Fristen, Beweislast und versandreife Entwürfe.
+Lies Grenzunterlagen, Fotos und bisherigen Schriftwechsel. Begründe aus Ort, Zeit und konkreter Beeinträchtigung den verlangten Abhilfevorschlag, Anspruch oder Vergleich.
 
-Pluginauftrag: Nachbarrecht und Nachbarschaftsstreit: Überbau, Überhang, Äste/Wurzeln, Grenzbaum, Zaun/Mauer/Hecke, Immissionen, Vertiefung, Notweg, Hammerschlagsrecht, Beweise, Aufforderung, Klage und Vergleich.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -67,10 +69,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Fristen- und Risikoampel: Bearbeite den Fachpunkt im Skill nachbarschaftsstreit-fristen-risiko-mandant und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Anspruchslandkarte BGB-Nachbarrecht: Bearbeite den Fachpunkt im Skill anspruchslandkarte-bgb-aufforderungsschreiben und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Einstweilige Verfügung und Klage: Bearbeite den Fachpunkt im Skill einstweilige-verfuegung-und-klage und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. Prüfer: Fristennotiz und nächster Schritt: Bearbeite den Fachpunkt im Skill fristennotiz-naechster-ueberbau-akten und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Fristen- und Risikoampel](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/nachbarschaftsstreit-pruefer/skills/nachbarschaftsstreit-fristen-risiko-mandant/FACHINHALT.md)
+3.1.2. [Anspruchslandkarte BGB-Nachbarrecht](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/nachbarschaftsstreit-pruefer/skills/anspruchslandkarte-bgb-aufforderungsschreiben/FACHINHALT.md)
+3.1.3. [Einstweilige Verfügung und Klage](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/nachbarschaftsstreit-pruefer/skills/einstweilige-verfuegung-und-klage/FACHINHALT.md)
+3.1.4. [Prüfer: Fristennotiz und nächster Schritt](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/nachbarschaftsstreit-pruefer/skills/fristennotiz-naechster-ueberbau-akten/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -147,39 +151,38 @@ Ausgangspunkt für dieses Plugin: Anspruchsteller für Vertrag, Pflichtverletzun
 
 ## Skill: `einstieg-routing`
 
-_Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Nachbarschaftsstreit-Prüfer._
+_Für einen konkreten Nachbarstreit: prüft Anspruch, Duldung und Landesrecht und erstellt das passende Aufforderungs-, Einigungs- oder beauftragte Prozessdokument._
 
-# Einstieg und Routing
+# Nachbarrechtlichen Anspruch und Lösungsweg prüfen
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Nachbarschaftsstreit Prüfer** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
-
-## Fachlandkarte dieses Plugins
-
-- `aeste-risikoampel-und-gegenargumente` — Aeste Risikoampel und Gegenargumente
-- `akten-und-grundstuecksaufnahme` — Akten und Grundstuecksaufnahme
-- `anschluss-router` — Anschluss Router
-- `anspruchslandkarte-bgb-aufforderungsschreiben` — Anspruchslandkarte BGB Aufforderungsschreiben
-- `aufforderung-beweise-red-grenzbaum` — Aufforderung Beweise RED Grenzbaum
-- `aufforderungsschreiben-nachbar` — Aufforderungsschreiben Nachbar
-- `beweise-red-team-und-qualitaetskontrolle` — Beweise RED Team und Qualitaetskontrolle
-- `beweissicherung-ortstermin-fotos` — Beweissicherung Ortstermin Fotos
-- `drohender-einsturz-einfriedung-zaun` — Drohender Einsturz Einfriedung Zaun
-- `einfriedung-zaun-mauer-hecke` — Einfriedung Zaun Mauer Hecke
-- `einstweilige-verfuegung-und-klage` — Einstweilige Verfuegung und Klage
-- `fristennotiz-naechster-ueberbau-akten` — Fristennotiz Naechster Ueberbau Akten
-- `grenzbaum-grenzanlage-hammerschlags` — Grenzbaum Grenzanlage Hammerschlags
-- `dokumente-intake` — Dokumente Intake
-- `output-waehlen` — Output Waehlen
+Prüfe Anspruch und Duldung im konkreten Nachbarstreit einschließlich des einschlägigen Landesrechts. Arbeite den beauftragten Lösungsweg in ein verständliches Schreiben oder einen Entwurf aus.
 
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Nachbarschaftsstreit Prüfer sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Ordne Grundstücke, Eigentümer, Nutzer und Lage der Störung anhand von Plan, Registerunterlagen und Fotos zu. Trenne eigene Wahrnehmung von Vermutungen über die Ursache.
+2. Erstelle eine Chronologie aus Ereignissen, Beschwerden, Reaktionen und Belegen. Ermittle Dauer, Häufigkeit und konkrete Auswirkungen der Beeinträchtigung.
+3. Prüfe Anspruch und Duldung einschließlich einschlägigen Landesrechts. Vergleiche den rechtlich möglichen Weg mit einer praktischen Einigung und etwaiger Dringlichkeit.
+4. Liefere das beauftragte Schreiben mit konkret beschriebenem Verhalten und Belegen. Ergänze neue Messungen oder Erklärungen an der betroffenen Tatsachenstelle.
+
+## Fachlandkarte dieses Plugins
+
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: aeste-risikoampel-und-gegenargumente) — Aeste Risikoampel und Gegenargumente
+- `grundstuecke-und-beteiligte-bearbeiten` (Fachthema: akten-und-grundstuecksaufnahme) — Akten und Grundstuecksaufnahme
+- `anspruch-und-duldung-bearbeiten` (Fachthema: anschluss-router) — Anschluss Router
+- `arbeitsprodukt-bearbeiten` (Fachthema: anspruchslandkarte-bgb-aufforderungsschreiben) — Anspruchslandkarte BGB Aufforderungsschreiben
+- `arbeitsprodukt-bearbeiten` (Fachthema: aufforderung-beweise-red-grenzbaum) — Aufforderung Beweise RED Grenzbaum
+- `arbeitsprodukt-bearbeiten` (Fachthema: aufforderungsschreiben-nachbar) — Aufforderungsschreiben Nachbar
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: beweise-red-team-und-qualitaetskontrolle) — Beweise RED Team und Qualitaetskontrolle
+- `beweis-und-loesung-bearbeiten` (Fachthema: beweissicherung-ortstermin-fotos) — Beweissicherung Ortstermin Fotos
+- `anspruch-und-duldung-bearbeiten` (Fachthema: drohender-einsturz-einfriedung-zaun) — Drohender Einsturz Einfriedung Zaun
+- `anspruch-und-duldung-bearbeiten` (Fachthema: einfriedung-zaun-mauer-hecke) — Einfriedung Zaun Mauer Hecke
+- `arbeitsprodukt-bearbeiten` (Fachthema: einstweilige-verfuegung-und-klage) — Einstweilige Verfuegung und Klage
+- `anspruch-und-duldung-bearbeiten` (Fachthema: fristennotiz-naechster-ueberbau-akten) — Fristennotiz Naechster Ueberbau Akten
+- `grundstuecke-und-beteiligte-bearbeiten` (Fachthema: grenzbaum-grenzanlage-hammerschlags) — Grenzbaum Grenzanlage Hammerschlags
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: output-waehlen) — Output Waehlen
 
 ## Qualitätsanker
 
@@ -444,43 +447,6 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ---
 
-## Skill: `workflow-kaltstart-und-routing`
-
-_Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Nachbarschaftsstreit-Prüfer._
-
-# Kaltstart und Routing
-
-## Aufgabe
-Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
-
-## Kaltstart
-Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
-
-1. Wer fragt in welcher Rolle?
-2. Was ist das gewünschte Ergebnis?
-3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
-4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
-
-## Arbeitsworkflow
-1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
-2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
-3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
-4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
-
-## Output-Standard
-- Kurzbild: worum es geht, was gesichert ist, was offen ist.
-- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
-- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
-- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
-
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Unsicherheiten und Annahmen ausdrücklich markieren.
-
----
-
 ## Skill: `quellen-livecheck`
 
 _Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Nachbarschaftsstreit-Prüfer._
@@ -590,6 +556,46 @@ Dieser Arbeitsgang macht **Mandantenkommunikation** im Bereich **nachbarschaftss
 - **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
 - **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
 - **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
+
+---
+
+## Skill: `workflow-kaltstart-und-routing`
+
+_Für neue Nachbarstreitigkeiten: klärt Grundstücke, Beteiligte, Ort und konkrete Beeinträchtigung anhand von Fotos, Plänen und Schriftverkehr; sichert fehlende Belege._
+
+# Nachbarstreit aufnehmen und Beweise sichern
+
+## Aufgabe
+
+Rekonstruiere aus Fotos, Plänen und Schriftverkehr, welche Beeinträchtigung von welchem Grundstück ausgeht. Ordne Beteiligte und Belege zu und sichere die noch aufklärbaren Tatsachen.
+
+## Noch benötigte Angaben
+
+Lies diese Angaben zunächst aus Auftrag und Material. Frage nur nach, soweit eine entscheidende Information fehlt:
+
+1. Wer fragt in welcher Rolle?
+2. Was ist das gewünschte Ergebnis?
+3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
+4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
+
+## Arbeitsablauf
+
+1. Ordne Grundstücke, Eigentümer, Nutzer und Lage der Störung anhand von Plan, Registerunterlagen und Fotos zu. Trenne eigene Wahrnehmung von Vermutungen über die Ursache.
+2. Erstelle eine Chronologie aus Ereignissen, Beschwerden, Reaktionen und Belegen. Ermittle Dauer, Häufigkeit und konkrete Auswirkungen der Beeinträchtigung.
+3. Prüfe Anspruch und Duldung einschließlich einschlägigen Landesrechts. Vergleiche den rechtlich möglichen Weg mit einer praktischen Einigung und etwaiger Dringlichkeit.
+4. Liefere das beauftragte Schreiben mit konkret beschriebenem Verhalten und Belegen. Ergänze neue Messungen oder Erklärungen an der betroffenen Tatsachenstelle.
+
+## Output-Standard
+- Kurzbild: worum es geht, was gesichert ist, was offen ist.
+- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
+- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
+- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+
+## Quellenregel
+- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Unsicherheiten und Annahmen ausdrücklich markieren.
 
 ---
 
@@ -733,10 +739,7 @@ Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur R�
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 12. Verständlich arbeiten und sichtbar prüfen
@@ -753,7 +756,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** nachvollziehbarer Projektvermerk mit dem bestellten Leistungs-, Nachtrags-, Anzeige- oder Abstimmungstext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

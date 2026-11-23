@@ -17,6 +17,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzreife-keramikfabrik-cottbus.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzreife-keramikfabrik-cottbus.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzreife-keramikfabrik-cottbus_gesamt.pdf`](gesamt-pdf/insolvenzreife-keramikfabrik-cottbus_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzreife-keramikfabrik-cottbus.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-keramikfabrik-cottbus.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzreife-keramikfabrik-cottbus-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-keramikfabrik-cottbus-einzelpdfs.zip) |
@@ -26,6 +27,16 @@ Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF st
 English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
+
+## Workshop mit späterem Belegeingang
+
+Der Verlängerungsantrag über 90.000 Euro steht noch im Portal, als die Frühschicht ihre Zahlungen disponiert. Arbeiten Sie zunächst mit der Grundakte. Öffnen Sie danach die beiden E-Mails, das Linienprotokoll und das Rückrufjournal im Ordner `Nachlieferung`. Klären Sie für den 11. Mai, wer einen Auftrag tatsächlich freigeben konnte und welche Aussage der angezeigte Rahmen zulässt.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Vollständige Originalakte mit getrennter Nachlieferung herunterladen](https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/docs/workshops/insolvenzreife-nachlieferungen/downloads/keramikfabrik-cottbus-mit-nachlieferung.zip)
 
 ## 1. Arbeitsauftrag
 

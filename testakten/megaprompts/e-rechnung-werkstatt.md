@@ -1,5 +1,9 @@
 # Vollprüfung: e-rechnung-werkstatt
 
+Erstellen Sie aus den bereitgestellten Unterlagen eine fachlich richtige und technisch geprüfte E-Rechnung im gewünschten Format ZUGFeRD oder XRechnung. Lesen Sie Word, PDF, Scans, Bilder, Tabellen, E-Mails und vorhandene Rechnungsdaten auftragsbezogen zusammen. Führen Sie vom Material bis zur nutzbaren Datei weiter. Ein Datenextrakt, eine Checkliste oder eine Anleitung zur späteren Erstellung erfüllt einen Auftrag zur Rechnungserzeugung noch nicht.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält alle 7 Skills des Plugins `e-rechnung-werkstatt`.
@@ -115,6 +119,8 @@ Wenn eine bestimmte Angabe oder Werkzeugkomponente fehlt, benennen Sie genau die
 ### 3.5 Ergebnis überprüfen und übergeben
 
 Prüfen Sie die endgültigen Ausgabebytes mit dem passenden Schema und den Geschäftsregeln. Bei ZUGFeRD kommen PDF/A-, Einbettungs-, Metadaten- und Sichtbildprüfung hinzu. Lesen Sie wesentliche Daten aus der fertigen Datei zurück und vergleichen Sie sie mit dem bestätigten Arbeitsstand. Prüfen Sie den stärksten plausiblen Fehlerfall, insbesondere doppelte Fakturierung, falschen Steuerschuldner oder eine vertauschte IBAN.
+
+Ordnen Sie einen technischen Geschäftsregelfehler nach dem [BMF-Schreiben vom 15.10.2026](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2026-10-15-obligatorische-elektronische-rechnung.pdf?__blob=publicationFile&v=1), Rn. 22–23, gesondert steuerlich ein: Welche Pflichtangabe ist betroffen, und welche Folge trägt das für den konkreten Vorsteuerabzug? Eine technisch zurückgewiesene Rechnung ist nicht automatisch steuerlich unbeachtlich. Für das bestellte konforme Ausgabeformat bleiben alle technischen Prüfungen erforderlich. Die Fallgruppen zu Leistungsbeschreibung, Bau-LV, Teilzahlungen und zeitlichen Übergängen stehen in [der Quellenkarte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/e-rechnung-werkstatt/references/standards-und-rechtsquellen.md#35-steuerliche-fehler-und-technische-ablehnung-auseinanderhalten).
 
 Liefern Sie die Rechnung und den getrennten Prüfbericht. Bei einem Erstellungsauftrag unterbleibt ein Versand. Ein zusätzlich beauftragter Versand benötigt den belegten Empfänger und Übermittlungsweg; melden Sie ihn nur mit tatsächlichem Nachweis als erfolgt.
 
@@ -280,6 +286,12 @@ Prüfen Sie, ob ein Entwurf intern ersetzt werden kann oder eine bereits ausgege
 
 Bei falschem Steuerausweis prüfen Sie die Voraussetzungen und erforderlichen Schritte der steuerlichen Berichtigung gesondert. Versprechen Sie keine automatische Rückwirkung oder Gefährdungsbeseitigung. Eine erforderliche Erklärung gegenüber Finanzamt oder Empfänger wird nur im beauftragten Umfang vorbereitet und nicht eigenmächtig versandt.
 
+Bei [BFH, Urteil vom 09.07.2025 – XI R 25/23, Leitsätzen 2–3 und Rn. 36–39, 54–57](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202510245/) entfällt § 14c UStG bei vollständig ausgeschlossener Gefährdung. Eine Berichtigung wegen beseitigter Gefährdung wirkt im Zeitpunkt ihrer Beseitigung. Dokumentieren Sie, ob Vorsteuer geltend gemacht oder zurückgezahlt wurde und ab wann die Gefährdung endgültig ausgeschlossen war. Prüfen Sie das Verfahren nach § 14c Abs. 1 und 2 getrennt. Die Entscheidung beurteilt die Steuerschuld des Rechnungsausstellers. Die Abzugsberechtigung des Empfängers prüfen Sie eigenständig nach § 15 UStG.
+
+Prüfen Sie auch die Ausgangsfrage, ob ein Zahlungspapier überhaupt eine Rechnung darstellt. [BFH, Beschluss vom 19.03.2025 – XI R 4/22, Rn. 15–18 und 23–27](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202520218/) berücksichtigt die ergänzenden Unterlagen, lässt widersprüchlichen offenen Steuerausweis aber nicht allein durch die Bezeichnung „Abforderung“ entfallen. Fehlende Einzelangaben nach § 14 Abs. 4 UStG schließen § 14c Abs. 2 UStG nicht automatisch aus. Grenzen Sie die eigene Abrechnung von einer Zahlstellenfunktion für fremde Leistungen ab.
+
+Besteht E-Rechnungspflicht, erfolgt auch die Berichtigung als E-Rechnung. Nach dem [BMF-Schreiben vom 15.10.2026](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2026-10-15-obligatorische-elektronische-rechnung.pdf?__blob=publicationFile&v=1), Rn. 20–21, sind ursprünglicher Beleg und Korrektur so zusammenzuführen, dass die endgültigen Angaben eindeutig sind. Wählen Sie einen für den Vorgang tauglichen Rechnungstyp; behaupten Sie keine einzige amtlich vorgeschriebene technische Methode für sämtliche Ersetzungs-, Storno- oder Gutschriftfälle.
+
 ### 3.3 Alle Darstellungen gemeinsam ändern
 
 Aktualisieren Sie bestätigten Datensatz, XML, gegebenenfalls PDF-Sichtbild und Zahlungsüberleitung gemeinsam. Kontrollieren Sie Rechnungsidentität, Referenzen, Nummernkreis und Status. Eine Formatübertragung soll dieselbe Rechnung abbilden; eine berichtigte Rechnung muss ihre Beziehung zum bisherigen Beleg nachvollziehbar machen.
@@ -287,6 +299,8 @@ Aktualisieren Sie bestätigten Datensatz, XML, gegebenenfalls PDF-Sichtbild und 
 ### 3.4 Endgültige Dateien erneut prüfen
 
 Validieren Sie die endgültigen Dateien mit den zum Standard passenden Regeln. Bei XRechnung prüfen Sie XML-Schema, EN-16931- und XRechnung-Geschäftsregeln. Bei ZUGFeRD prüfen Sie zusätzlich PDF/A, Einbettung, Metadaten und Sichtbild. Lesen Sie die kritischen Werte aus dem fertigen Ergebnis zurück. Ein Bericht über eine frühere Fassung ist kein Nachweis für die korrigierten Bytes.
+
+Lesen Sie jeden Fehlerbericht auch fachlich: Ein Geschäftsregelfehler ist nach dem [BMF-Schreiben vom 15.10.2026](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2026-10-15-obligatorische-elektronische-rechnung.pdf?__blob=publicationFile&v=1), Rn. 22–23, nicht automatisch ein steuerlicher Formatfehler und nur bei betroffener Pflichtangabe ein steuerlicher Inhaltsfehler. Halten Sie Regel, Feld und konkrete steuerliche Auswirkung fest. Eine solche Einordnung macht die Datei nicht technisch konform und erlaubt keine Unterdrückung des Befunds. Vorsteuerabzug und technische Empfangsfähigkeit bleiben getrennte Prüfungen.
 
 ### 3.5 Fachliche Gegenprüfung abschließen
 
@@ -333,6 +347,8 @@ Lesen Sie Auftrag, Vertrag, Lieferantenregistrierung, Bestellung und Empfangshin
 ### 3.1 Pflicht und Wunsch unterscheiden
 
 Prüfen Sie Anwendungsbereich, Ausnahmen und Übergangsrecht für den konkreten Umsatz. Leiten Sie aus dem allgemeinen E-Rechnungsrecht keine pauschale Pflicht jedes Verbrauchers oder Kleinunternehmers ab. Bei öffentlichen Auftraggebern prüfen Sie zusätzlich die einschlägige Bundes- oder Landesregel und die konkreten Plattformbedingungen. Eine freiwillig gewünschte E-Rechnung kann auch dann erstellt werden, wenn keine Ausstellungspflicht besteht.
+
+Trennen Sie Leistungszeit, Rechnungsausstellung und den für diesen Aussteller geltenden Beginn der Pflicht. Nach dem [BMF-Schreiben vom 15.10.2026](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2026-10-15-obligatorische-elektronische-rechnung.pdf?__blob=publicationFile&v=1), Rn. 2, muss eine davor zulässig erteilte Anzahlungsrechnung nicht allein wegen späterer Leistung und Zahlung neu als E-Rechnung ausgegeben werden. Die Nichtbeanstandung auf Seite 10 für bis 31.12.2026 ausgestellte E-Rechnungen nach den Schreiben von 2024 und 2025 betrifft nur zusätzliche Vorgaben des Schreibens 2026. Rn. 24–25 verlangt die parallele Prüfung der jeweils anwendbaren steuerlichen und B2G-Regeln; aus steuerlicher Wahlfreiheit folgt keine Portalzulässigkeit.
 
 ### 3.2 Format begründet wählen
 
@@ -424,10 +440,7 @@ Ein Scan nennt scheinbar 1.800 Euro, während die Leistungsliste 18 Stunden zu 1
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 7. Verständlich arbeiten und sichtbar prüfen
@@ -444,7 +457,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** die tatsächlich erzeugte Rechnung im beauftragten Format samt verständlichem Prüfprotokoll. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

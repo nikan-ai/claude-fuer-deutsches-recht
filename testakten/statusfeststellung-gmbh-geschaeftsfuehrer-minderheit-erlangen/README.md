@@ -1,5 +1,7 @@
 # Statusfeststellungsakte GmbH-Geschäftsführer Minderheitsbeteiligung Erlangen
 
+Für die Beratung vor einem zweiten Notartermin gibt es die [dreistufige Gestaltungsakte Neuralis](../neuralis-medtech-erlangen-gestaltungsakte/README.md). Sie beginnt vor dem Statusantrag. Erst danach folgen der Bescheid, eine eng begrenzte Satzungsänderung und die offenen Vorschläge der Berater. Die unten stehenden Downloads enthalten den historischen Verlauf bis zum sozialgerichtlichen Vergleich.
+
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
@@ -13,6 +15,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen_gesamt.pdf`](gesamt-pdf/statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-statusfeststellung-gmbh-geschaeftsfuehrer-minderheit-erlangen-einzelpdfs.zip) |

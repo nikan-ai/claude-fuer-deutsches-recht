@@ -13,6 +13,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-arbeitsrecht-kuendigungsdrama-koerber-werk.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-arbeitsrecht-kuendigungsdrama-koerber-werk.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/arbeitsrecht-kuendigungsdrama-koerber-werk_gesamt.pdf`](gesamt-pdf/arbeitsrecht-kuendigungsdrama-koerber-werk_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-arbeitsrecht-kuendigungsdrama-koerber-werk.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-arbeitsrecht-kuendigungsdrama-koerber-werk.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-arbeitsrecht-kuendigungsdrama-koerber-werk-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-arbeitsrecht-kuendigungsdrama-koerber-werk-einzelpdfs.zip) |
@@ -162,3 +163,13 @@ Arbeitsakte zum Plugin `fachanwalt-arbeitsrecht`.
 - Klageschrift-Entwurf in Arbeit (geplante Einreichung bis 09.06.2025)
 - Parallele Ansprüche (Equal Pay, TzBfG) noch nicht eingeklagt — werden im Kontext der Güteverhandlung angekündigt
 - Nächster Schritt: Klageeinreichung beim ArbG Frankfurt (Oder), Az. wird nach Eingang zugeteilt
+
+## Weitere Unterlagen im Mandat
+
+Der Nachtrag vom 2. Juni dokumentiert, was Stellenplan, Aufgabenverteilung und lokale Freigabeansicht jeweils zeigen. Die Vollakte enthält die bisherige Originalfassung und beide zusätzlichen Belege im Ordner `Nachlieferung`. Die separat angebotenen PDF-Fassungen zeigen den vorherigen Aktenstand.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Vollständige Originalakte mit Nachlieferung herunterladen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/testakten-praxis-v1.0.0/arbeitsrecht-kuendigungsdrama-koerber-werk-mit-nachtrag.zip)

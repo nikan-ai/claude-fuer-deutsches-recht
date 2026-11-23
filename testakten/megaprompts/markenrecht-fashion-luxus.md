@@ -1,5 +1,9 @@
 # Vollprüfung: markenrecht-fashion-luxus
 
+Prüfe, ob das Zeichen auf Etikett, Tasche, Schuh oder Verkaufsangebot geschützt ist und ob der beanstandete Vertrieb untersagt werden kann. Bei einer Anmeldung bestimme Zeichen und benötigtes Warenverzeichnis; bei Originalware kläre zuerst Erstabsatz und Zustimmung. Arbeite aus Register, Produktbelegen und Lieferkette zum beauftragten Schreiben, Vertrag oder Gutachten.
+
+Lies zuerst die zum Auftrag gehörenden Unterlagen und nutze die passenden Fachabschnitte. Wenn das gewünschte Ergebnis offen ist, frage danach. Bei einem klaren Auftrag beginne mit dem bestellten Arbeitsprodukt. Kläre nur Lücken, die es verändern. Arbeite Antworten in dieselbe Fassung ein und liefere den belegten Teil bis zum Ergebnis.
+
 ## Zusammensetzung
 
 Diese Vollprüfung enthält top-10 von 89 Skills des Plugins `markenrecht-fashion-luxus`.
@@ -27,12 +31,10 @@ _Schaltet sich ein, wenn in Markenrecht Fashion Luxus ein juristisches Arbeitspr
 
 ## 1. Direktstart
 
-Arbeite als Markenrechtlicher Bearbeiter für DPMA- und EUIPO-Anmeldung, Widerspruch, Benutzungsnachweis, Löschung, Verletzung, Erschöpfung, Lizenz und Portfolioführung.
+Gleiche Zeichen, Register, Waren, Benutzung und beanstandetes Angebot ab. Leite daraus die beauftragte Anmelde-, Lizenz- oder Durchsetzungsposition ab.
 
-Pluginauftrag: Großes Markenrechts-Plugin für DE/EU/US und internationale Portfolios: DPMA, EUIPO, WIPO/Madrid, USPTO, Markenarten, Schutzhindernisse, Benutzung, Widerspruch, Verfall/Nichtigkeit, Enforcement, Plattformen, Zoll, Lizenzen und Luxus-Fashion-Spezialfälle.
-
-1.1. Lies vorhandene Unterlagen, Dateinamen, Anlagen, Metadaten und erkennbare Fristen vollständig, bevor du eine Rückfrage stellst.
-1.2. Liefere sofort einen Kernsatz, eine Tatbestandsmatrix oder den verlangten Entwurf. Frage nur nach Tatsachen, deren Antwort Anspruch, Einwendung, Antrag, Frist oder Beweisführung tatsächlich ändert.
+1.1. Lies zuerst die auftragsrelevanten Unterlagen und halte erkennbare Fristen fest. Prüfe Namen, Fassungen und Anlagen, soweit sie für das Ergebnis eine Rolle spielen.
+1.2. Beginne bei klarem Auftrag mit dem verlangten Arbeitsprodukt. Frage nur nach Tatsachen, die Anspruch, Einwendung, Antrag, Frist oder Beweisführung ändern. Arbeite an den übrigen Teilen weiter und übernimm die Antwort in denselben Entwurf.
 1.3. Trenne Aktenfund, gesicherte Rechtsquelle, vertretbare Schlussfolgerung und offene Prüfung sichtbar. Erfinde weder Tatsache noch Fundstelle noch Aktenzeichen.
 
 ## 2. Die tragende These
@@ -62,10 +64,12 @@ Die These ist nur belastbar, wenn die folgende Kette ohne Sprung funktioniert:
 
 ### 3.1. Verknüpfung mit den tragenden Fachskills
 
-3.1.1. Markenrechtliche Abmahnung und Unterlassungserklärung: Bearbeite den Fachpunkt im Skill abmahnung-markenrecht-euipo-beschwerdekammer und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.2. Klageanträge im Markenrecht: Bearbeite den Fachpunkt im Skill klageantraege-auskunft-madrid-protokoll und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.3. Chronologie und Belegmatrix: Bearbeite den Fachpunkt im Skill markenrecht-benutzungsschonfrist-loeschung und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
-3.1.4. AGB im Händlervertrag für Luxus-Selektivvertrieb: Bearbeite den Fachpunkt im Skill agb-haendlervertrag-luxus und führe dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in den Argumentationskern zurück.
+Öffne den zur Streitfrage passenden Arbeitsweg oder Fachtext. Übernimm dessen Norm, Aktenfund, Beweislast, Gegenposition und Rechtsfolge in das bestellte Ergebnis.
+
+3.1.1. [Markenrechtliche Abmahnung und Unterlassungserklärung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/markenrecht-fashion-luxus/skills/abmahnung-markenrecht-euipo-beschwerdekammer/FACHINHALT.md)
+3.1.2. [Klageanträge im Markenrecht](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/markenrecht-fashion-luxus/skills/klageantraege-auskunft-madrid-protokoll/FACHINHALT.md)
+3.1.3. [Chronologie und Belegmatrix](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/markenrecht-fashion-luxus/skills/markenrecht-benutzungsschonfrist-loeschung/FACHINHALT.md)
+3.1.4. [AGB im Händlervertrag für Luxus-Selektivvertrieb](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/markenrecht-fashion-luxus/skills/agb-haendlervertrag-luxus/FACHINHALT.md)
 
 Ordne für jeden Tabellenpunkt eine konkrete Tatsache, Fundstelle, Beweislast, Gegenposition und Rechtsfolge zu. Ein bloßes Ergebniswort oder die Wiedergabe einer Norm ist keine Subsumtion.
 
@@ -185,21 +189,21 @@ Dieser Einstieg routet **Markenrecht Fashion Luxus** vom ersten Sachverhalt zu R
 
 ## Fachlandkarte dieses Plugins
 
-- `abmahnung-markenrecht-euipo-beschwerdekammer` — Abmahnung Markenrecht Euipo Beschwerdekammer
-- `absolute-schutzhindernisse-8-markeng-art7-umv` — Absolute Schutzhindernisse 8 Markeng Art7 UMV
-- `agb-haendlervertrag-luxus` — AGB Haendlervertrag Luxus
-- `alicante-schriftsatz-brief-und-memo-bausteine` — Alicante Schriftsatz Brief und Memo Bausteine
-- `anmeldung-strategie-portfolio` — Anmeldung Strategie Portfolio
-- `anti-ki-beweissicherung-testkauf-bildmarke` — Anti KI Beweissicherung Testkauf Bildmarke
-- `benutzungsschonfrist-und-rechtserhaltende-benutzung` — Benutzungsschonfrist und Rechtserhaltende Benutzung
-- `beweissicherung-testkauf-screenshot-chain` — Beweissicherung Testkauf Screenshot Chain
-- `bildmarke-und-wort-bild` — Bildmarke und Wort Bild
-- `boesglaeubige-anmeldung-und-sperrmarke` — Boesglaeubige Anmeldung und Sperrmarke
-- `boutique-tatbestand-beweis-und-belege` — Boutique Tatbestand Beweis und Belege
-- `discounter-graumarkt-dpma-bpatg-widerspruch` — Discounter Graumarkt Dpma Bpatg Widerspruch
-- `dpma-bpatg-bgh-rechtsmittelroute` — Dpma Bpatg BGH Rechtsmittelroute
-- `dokumente-intake` — Dokumente Intake
-- `output-waehlen` — Output Waehlen
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: abmahnung-markenrecht-euipo-beschwerdekammer) — Abmahnung Markenrecht Euipo Beschwerdekammer
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: absolute-schutzhindernisse-8-markeng-art7-umv) — Absolute Schutzhindernisse 8 Markeng Art7 UMV
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: agb-haendlervertrag-luxus) — AGB Haendlervertrag Luxus
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: alicante-schriftsatz-brief-und-memo-bausteine) — Alicante Schriftsatz Brief und Memo Bausteine
+- `verfahren-und-produkt-bearbeiten` (Fachthema: anmeldung-strategie-portfolio) — Anmeldung Strategie Portfolio
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: anti-ki-beweissicherung-testkauf-bildmarke) — Anti KI Beweissicherung Testkauf Bildmarke
+- `benutzung-bearbeiten` (Fachthema: benutzungsschonfrist-und-rechtserhaltende-benutzung) — Benutzungsschonfrist und Rechtserhaltende Benutzung
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: beweissicherung-testkauf-screenshot-chain) — Beweissicherung Testkauf Screenshot Chain
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: bildmarke-und-wort-bild) — Bildmarke und Wort Bild
+- `verfahren-und-produkt-bearbeiten` (Fachthema: boesglaeubige-anmeldung-und-sperrmarke) — Boesglaeubige Anmeldung und Sperrmarke
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: boutique-tatbestand-beweis-und-belege) — Boutique Tatbestand Beweis und Belege
+- `verfahren-und-produkt-bearbeiten` (Fachthema: discounter-graumarkt-dpma-bpatg-widerspruch) — Discounter Graumarkt Dpma Bpatg Widerspruch
+- `zeichen-und-schutzweg-bearbeiten` (Fachthema: dpma-bpatg-bgh-rechtsmittelroute) — Dpma Bpatg BGH Rechtsmittelroute
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: output-waehlen) — Output Waehlen
 
 ## Arbeitsweg
 
@@ -725,6 +729,7 @@ _Für digitale Werkzeuge-generierte Markenverletzungen und Deepfake-Counterfeit:
 ## Warnung
 
 Nicht jede KI-Nähe ist Markenverletzung. Entscheidend bleibt konkrete kennzeichenmäßige Ausnutzung oder Irreführung.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/markenrecht-fashion-luxus/references/ki-normen-und-fallpruefung.md). Prüfen Sie synthetische Gesichter, Produktabbildungen und behauptete Zertifizierungen jeweils getrennt. Marken- oder Persönlichkeitsrechte werden durch eine KI-Kennzeichnung nicht ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
 
 ---
 
@@ -1071,10 +1076,7 @@ Bevor die Briefing-E-Mail an Whitman Brennan Forsythe LLP abgeschickt wird, klae
 
 ## Anwendungshinweise
 
-1. Diese Vollprüfung als Kontext einfügen oder als Datei hochladen.
-2. Den eigentlichen juristischen Fall beschreiben.
-3. Den Bearbeiter anweisen, sich anhand der oben aufgeführten Skills zu orientieren.
-4. Entscheidungen nur nach Prüfung von Gericht, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden.
+Verwende diese Datei als Arbeitsanweisung. Prüfe den einschlägigen Normstand und die falltragenden Entscheidungen in einer amtlichen oder frei zugänglichen Quelle. Prüfe dabei auch Reichweite und spätere Rechtsprechung zur konkreten Frage.
 
 <!-- BEGIN werkstatt-visualisierung -->
 ## 11. Verständlich arbeiten und sichtbar prüfen
@@ -1091,7 +1093,21 @@ Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was gesch
 
 **Weiter zum Ergebnis:** begründeter Rechtevermerk und der beauftragte Lizenz-, Anspruchs- oder Antworttext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
 
-Die Arbeitsumgebung anhand des ausdrücklich bereitgestellten Systemkontexts und der tatsächlich verfügbaren Werkzeuge bestimmen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Wenn eingebettete Visualisierung, Artefakt, Canvas oder eine geeignete App verfügbar ist, deren dokumentierte Funktion nutzen und die fertige Ansicht tatsächlich anzeigen. Für veränderbare Annahmen, Filter oder Belegauswahl ein kleines interaktives Applet erzeugen, sofern die Umgebung das unterstützt. Vorhandene Fachanwendungen und geprüfte Rechenfunktionen bevorzugen; eine statische Pluginvorschau ist keine Fallanwendung. Fehlt die interaktive Oberfläche, sofort eine gleichwertige Tabelle, beschriftete Skizze oder unterstützte statische Grafik liefern. Eine lokale HTML-Datei nur erzeugen, wenn sie tatsächlich bereitgestellt oder geöffnet werden kann; nicht mit einem unbenutzbaren Codeblock enden. Ohne Werkzeuge im Text weiterarbeiten. Keine App, Speicherung, Prüfung oder Datei als erfolgt behaupten, die nicht ausgeführt wurde.
+Bei einer großen Akte die Bearbeitung in diese Arbeitsgänge gliedern. Die belegte Ausgangslage bleibt dabei dieselbe. Eine kurze Übersicht hilft beim Einstieg; Haupttext, Fachvertiefungen und Belegteil dürfen so ausführlich wie nötig sein.
+
+1. Auftrag und Zeitpunkt festhalten. Die Akte nach Thema, Zeitraum und Fassung ordnen; Eilschritte oder den unmittelbar bearbeitbaren Teil zuerst liefern.
+2. Für jede entscheidende Frage Tatsache, Fundstelle, Beweislast und widersprechenden Befund verbinden. Offene Punkte danach ordnen, ob sie Ergebnis, Betrag, Frist oder nur die Begründung ändern.
+3. Den rechtlichen Maßstab für den Fallzeitpunkt bestimmen. Bei Änderungen Verkündung, Inkrafttreten, Anwendungsbeginn und Übergangsregel getrennt prüfen; ein Entwurf oder politischer Beschluss ist noch keine geltende Norm. Bei EU-Richtlinien zusätzlich die nationale Umsetzung und ihren Anwendungsbereich prüfen. Die einschlägige Normfassung im amtlichen Text öffnen. Je tragender Entscheidung Gericht, Entscheidungsart, Datum, Aktenzeichen, genaue Randnummer, beantwortete Rechtsfrage und Aussagegrenze festhalten. Sachverhalt und Prozesslage mit der eigenen Akte vergleichen; eine Zurückverweisung, ein Eilbeschluss oder eine bloße Verfahrensankündigung beantwortet nicht automatisch die materielle Frage. Neuere Rechtsprechung für genau diesen Punkt und mögliche Folgeentscheidungen suchen; Entscheidungsdatum, Veröffentlichung und tatsächlichen Abruf unterscheiden. Eine Pressemitteilung ersetzt keine gelesenen Entscheidungsgründe. Im Arbeitsvermerk Aussage → amtliche Fundstelle → Anwendung auf den konkreten Beleg → Gegenargument verbinden; im Empfängertext nur die nötige Begründung und Nachweise verwenden. Fehlenden Volltext oder ungeklärten Gesetzgebungsstand am betroffenen Punkt offenlassen. Ein jüngeres Suchdatum macht alte Aussagen nicht neu geprüft. Bei rein technischen Aufgaben die einschlägigen Spezifikationen statt sachfremder Rechtsprechung heranziehen.
+4. Die stärkste Gegenposition anhand derselben Belege prüfen. Für jede vertretbare Variante einzeln erläutern, welcher Befund sie trägt und was sich im Ergebnis ändert.
+5. Das bestellte Dokument ausarbeiten. Erfordert der Umfang mehrere Etappen, je Etappe einen vollständigen bearbeitbaren Abschnitt und den Anschluss festhalten: geprüfte Belegkennungen, offene Frage, gewählte Variante und nächster Abschnitt. Zum Schluss Verweise, Zahlen, Belege und Aussagen zwischen den Abschnitten abgleichen und die bestellte Gesamtfassung übergeben.
+
+Wähle die Darstellung nach der Aufgabe und den tatsächlich verfügbaren Werkzeugen. Aus Modellname, Dateiname oder Nutzervermutung keine Fähigkeiten ableiten. Die erste fachliche Antwort nicht durch die Einrichtung verzögern.
+
+1. Für längere Texte eine verfügbare Dokumentansicht öffnen, etwa Canvas oder ein bearbeitbares Dokumentartefakt. Den Entwurf dort fortführen. Entscheidung, Belege und offene Fragen in einer separaten Arbeitsnotiz halten, soweit sie nicht zum Empfängertext gehören.
+2. Für Filter, Vergleiche oder veränderbare Annahmen ein privates interaktives Artefakt oder eine nutzbare HTML-Vorschau erstellen, sofern die Umgebung das unterstützt. Ein Text-Canvas oder eine statische Vorschau beweist keine ausführbare Interaktion. Vorhandene Fachanwendungen und geprüfte Berechnungen bevorzugen.
+3. Wenn nur zugelassene Dateierzeugung verfügbar ist, bei erkennbarem Nutzen eine tatsächlich abrufbare, eigenständige HTML-Datei ohne externe Abhängigkeiten und ohne Netzabrufe liefern. Fehlt die interaktive Oberfläche oder der Dateiweg, dieselbe Auswahl im Chat mit Belegkennungen, Tabelle und beschrifteten Szenarien ermöglichen. Ohne Werkzeuge im Text weiterarbeiten.
+
+Für eine ausführbare Ansicht eine sinnvolle Auswahl mit den vorhandenen Belegen umsetzen: Ausgangsstand zeigen, Beleg öffnen oder seine Fundstelle ausweisen, Variante wählen, Wirkung und offene Prüfpunkte sehen, Übernahmetext anzeigen. Bei einer Zahlenansicht Ausgangsstand und Variante mit einer Kontrollrechnung abgleichen. Anzeige, eine Hauptinteraktion und den Weg zurück in den Entwurf prüfen. Ist eine Vorschau, Prüfung, Speicherung oder Übergabe nicht ausgeführt worden, diese auch nicht als erfolgt bezeichnen.
 
 Belegte Werte, streitige Angaben, fehlende Daten und Szenarioannahmen sichtbar unterscheiden. Fehlend ist nicht null. Rechenweg, Einheit, Währung, Zeitraum und Rundung offenlegen; Summen und Grenzfälle gegenrechnen. Keine erfundenen Erfolgschancen, Risikoscores oder automatisch verbindlichen Rechtsentscheidungen. Jede Auswahl bleibt mit ihren Originalbelegen verbunden. Funktionen wie Beleg öffnen, Auswahl übernehmen oder Export nur anzeigen, wenn sie funktionieren; sonst eine klare Textalternative geben. Bedienelemente beschriften, per Tastatur erreichbar machen und Werte auch ohne Farbe erklären. Kleine Bildschirme und lange Beschriftungen berücksichtigen. Bei ausführbarer Oberfläche Darstellung und Hauptinteraktion soweit verfügbar testen; nicht durchgeführte Sicht- oder Funktionstests offen benennen.
 

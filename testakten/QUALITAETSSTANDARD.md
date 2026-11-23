@@ -24,7 +24,23 @@ Das Gesamt-PDF ersetzt die Einzeldokumente nicht. Es ist die Lesefassung neben d
 - Belege nicht nur behaupten, sondern als Datei, Tabelle, E-Mail, Scan oder Foto anlegen.
 - Juristische Spezialfragen nicht spoilern; die Akte darf neugierig machen, soll aber nicht lösen.
 
+### Seriöse und verständliche Beispielsfälle
+
+Testakten eignen sich für eine professionelle Vorführung vor Mandanten, Unternehmen, Behörden und Fortbildungsgruppen. Sie enthalten keine anrüchigen oder obszönen Darstellungen. Rechtlich erhebliche Grenzfälle werden nüchtern und, soweit erforderlich, abstrakt beschrieben. Die sachliche Benennung eines gesetzlichen Verbots oder eines Vorwurfs ist kein Anlass, dessen Inhalt bildlich oder ausführlich nachzustellen.
+
+Gefahren und Fehlverhalten können Gegenstand der Prüfung sein. Die Unterlagen liefern jedoch keine ausführbaren Schadprogramme, nutzbaren Zugangsdaten oder praktisch umsetzbaren Anleitungen zur Schädigung oder zur Umgehung von Schutzmaßnahmen. Ein technischer Vorfall lässt sich etwa durch ungefährliche Protokollauszüge, neutrale Platzhalter für schädliche Inhalte und nachvollziehbare Folgen belegen. Solche Auslassungen sind als Auslassungen erkennbar; sie dürfen keine entscheidenden Tatsachen erfinden oder verdecken.
+
+Die Lebensnähe entsteht durch verständliche Geschäftsvorgänge: Wer ist beteiligt, welche Leistung oder welches Produkt gibt es, was wurde vereinbart, was ist geschehen, welche Unterlagen widersprechen sich und was soll jetzt entschieden werden? Briefe, Verträge, Rechnungen, Nachrichten und Tabellen tragen diese Tatsachen selbst. Eine Prüfmatrix oder eine kurze Fallzusammenfassung ersetzt die Aktenstücke nicht. Vorwürfe gegen Beteiligte werden für die Testakte erfundenen Personen und Unternehmen zugeordnet; amtliche Stellen und überprüfte Rechtsquellen dürfen korrekt benannt werden.
+
+Vor der Freigabe die tatsächlichen Texte, Bilder, Anlagen und eingebetteten E-Mail-Dateien durchsehen. Eine unauffällige Dateibezeichnung oder eine reine Stichwortsuche belegt weder Verständlichkeit noch einen angemessenen Inhalt. Grundakte, spätere Ermittlungen oder Verfahren sowie gesonderte Vorlagen bleiben als unterschiedliche Bearbeitungsstände erkennbar.
+
 ### Grundakte für die erste Bearbeitung
+
+Der [Fallkatalog mit Eingangspost](../docs/grundakten-lebenswelt/README.md) erschließt die vollständigen Arbeits-ZIPs. Zur Eingangspost gehören je Fall mindestens zwei aufeinander bezogene Unterlagen in unterschiedlichen Formaten. Eine Person schildert einen konkreten Anlass. Eine zweite Unterlage verortet ihn im tatsächlichen Ablauf, etwa durch eine Beobachtung, Buchungszeile oder abweichende Erinnerung. Bezüge zu den vorhandenen Originalen, die Rollen der Beteiligten und der damalige Wissensstand sind je Fall in der Redaktion belegt. Spätere Entwicklungen bleiben außerhalb der ersten Arbeitsrunde.
+
+Die Fassung lässt sich mit `scripts/build-grundakten-lebenswelt.py --dist <Ausgabe> --stage <temporäre-Ablage> --paketieren` aus den fest bezeichneten Ausgangsakten herstellen. `scripts/validate-grundakten-lebenswelt.py <Ausgabe>` öffnet die fertigen Archive, prüft den Erhalt der ursprünglichen Aktenstücke und gleicht die PDF-Seiten und Prüfsummen ab. `scripts/grundakten-lebenswelt-katalog.py --check` prüft die zugehörigen Katalogeinträge und Fallseiten.
+
+Für die [vertieften Fachakten](../docs/grundakten-lebenswelt/Fachakten.md) erhält der Bauaufruf zusätzlich `--vertiefung`. Bei der Abnahme prüft `--vertiefung --vorstand <Verzeichnis-der-veröffentlichten-Ausgangsedition>` auch die bestehenden Unterlagen, die zeitliche Reihenfolge von Nachrichten und die tatsächlich in E-Mails eingebetteten Anlagen.
 
 Fallakten mit ausreichend abgrenzbaren Eingangsunterlagen enthalten im Originalformat-ZIP den Unterordner `Grundakte`. Er bildet die für den ersten Arbeitsauftrag belegbare Sachgrundlage ab, etwa durch Erstkontakt, Verträge, E-Mails, Buchungen, Tabellen, Bilder oder technische Rohdaten. Ein bereits ergangener Ausgangsbescheid kann dazugehören. Ausgearbeitete Rechtsbehelfe, Entscheidungen darüber, gerichtliche Stücke, Lösungstexte und die Gesamt-PDF stehen außerhalb der Grundakte. Bei Mischdokumenten ist ein klar bezeichneter Tatsachenauszug möglich. Prüfen Sie bei E-Mails auch die eingebetteten Anlagen.
 

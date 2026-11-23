@@ -17,6 +17,7 @@ Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den
 
 | Was | Format | Quelle |
 | --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzreife-metallbau-berlin-zehlendorf.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzreife-metallbau-berlin-zehlendorf.zip) |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzreife-metallbau-berlin-zehlendorf_gesamt.pdf`](gesamt-pdf/insolvenzreife-metallbau-berlin-zehlendorf_gesamt.pdf) |
 | Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzreife-metallbau-berlin-zehlendorf.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-metallbau-berlin-zehlendorf.zip) |
 | Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzreife-metallbau-berlin-zehlendorf-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzreife-metallbau-berlin-zehlendorf-einzelpdfs.zip) |
@@ -26,6 +27,16 @@ Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF st
 English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
+
+## Workshop mit späterem Belegeingang
+
+Die Bewertung der Werkhalle hängt von der Zufahrt für schwere Fahrzeuge ab. Die Bewertungsunterlagen aus der Grundakte werden im Ordner `Nachlieferung` durch den E-Mail-Wechsel mit der Gutachterin, ihr Besichtigungsbuch und einen Archivvermerk ergänzt. Vergleichen Sie, was am 20. April und am 18. Mai über eine Veräußerung bekannt war, und rechnen Sie beide Nutzungsvarianten.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+[Vollständige Originalakte mit getrennter Nachlieferung herunterladen](https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/docs/workshops/insolvenzreife-nachlieferungen/downloads/metallbau-berlin-zehlendorf-mit-nachlieferung.zip)
 
 ## 1. Arbeitsauftrag
 
