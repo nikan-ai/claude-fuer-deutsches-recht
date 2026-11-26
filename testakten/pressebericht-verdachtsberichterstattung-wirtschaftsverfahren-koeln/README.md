@@ -1,18 +1,26 @@
 # Juristische Presseberichterstattung — Verdachtsberichterstattung im Wirtschaftsverfahren Köln
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 45 KB) | PDF | [`gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf`](gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip) · [Druckpaket 32](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-32.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf`](gesamt-pdf/pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-pressebericht-verdachtsberichterstattung-wirtschaftsverfahren-koeln-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -37,32 +45,31 @@ Redaktionsakte zu einem geplanten Bericht über ein Wirtschaftsstrafverfahren ge
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_erstgespraech.docx` | Mandatsnotiz Erstgespräch |
 | `02_chronologie_arbeitsstand.docx` | Chronologie Arbeitsstand |
 | `03_sachverhalt_aus_mandantensicht.docx` | Sachverhalt aus Mandantensicht |
 | `04_gegenseite_standpunkt.docx` | Standpunkt der Gegenseite |
 | `05_stellungnahmen_synopse.docx` | Synopse Stellungnahmen |
 | `06_bildredaktion_pruefblatt.docx` | Bildredaktion Prüfblatt |
-| `07_presserechtliche_stellungnahme_verlag.docx` | Presserechtliche Stellungnahme fuer den Verlag |
-| `08_bgh_kriterien_pruefung_verdachtsberichterstattung.docx` | Pruefung nach BGH VI ZR 174/22 und VI ZR 20/22 |
+| `07_presserechtliche_stellungnahme_verlag.docx` | Presserechtliche Stellungnahme für den Verlag |
 | `09_entwurf_naechstes_schreiben.docx` | Entwurf nächstes Schreiben |
 | `10_fristenuebersicht.docx` | Fristenübersicht (Gegendarstellung, Unterlassung, Widerruf) |
-| `11_klagestrategie_lg_koeln.docx` | Klage- und Abwehrstrategie LG Koeln |
+| `11_klagestrategie_lg_koeln.docx` | Klage- und Abwehrstrategie LG Köln |
 | `12_schadensersatzberechnung_geldentschaedigung.docx` | Vorprüfung mögliche Geldentschädigung |
-| `13_egmr_pruefung_art10_emrk.docx` | Prüfung nach Art. 10 EMRK und EGMR-Rechtsprechung |
 | `14_kostenuebersicht_kanzlei.docx` | Kostenübersicht Kanzlei |
-| `csv/headline_varianten.csv` | Headline-Varianten mit Risikobewertung, erweitert |
-| `emails/2026-06-20_pressestelle_lg_koeln_terminmitteilung.eml` | LG Koeln Pressestelle: Terminmitteilung |
+| `2026-07-10_telefonvermerk_loewenstein_stellungnahme.docx` | Telefonvermerk zum angekündigten Eingang der Verteidigerstellungnahme und zur Bildauswahl |
+| `2026-07-13_chat_redaktion_bildauswahl.txt` | Interner Redaktionschat zu Kontaktabzug, Bilddateien und Produktionsstand |
+| `bildredaktion_bestandsnotiz.txt` | Bestandsnotiz der Bildredaktion zu drei vorhandenen Bildquellen und noch fehlenden Dateien |
+| `csv/headline_varianten.csv` | Sechs unbewertete Überschriftenvorschläge der Redaktion |
+| `emails/2026-06-20_pressestelle_lg_koeln_terminmitteilung.eml` | LG Köln Pressestelle: Terminmitteilung |
 | `emails/2026-06-26_verteidiger_hinweis.eml` | Verteidigung: Hinweis auf Unschuldsvermutung |
 | `emails/2026-06-28_rechtsabteilung_hafenstadt_statement.eml` | Rechtsabteilung Hafenstadt Projektbau AG: Stellungnahme |
 | `emails/2026-07-02_chefredaktion_freigabe_anfrage.eml` | Chefredaktion: Bitte um presserechtliche Freigabe |
 | `emails/2026-07-03_verteidigung_fristverlaengerung.eml` | Verteidigung: Bitte um Fristverlängerung |
 | `pdfs/pressemitteilung_auszug.pdf` | Pressemitteilung Auszug Wirtschaftsstrafverfahren |
 | `pdfs/konkurrenzbericht_online_ausgabe_auszug.pdf` | Konkurrenzbericht, Auszug |
-| `pdfs/lg_koeln_terminuebersicht_screenshot.pdf` | Terminuebersicht Landgericht Koeln, Ausdruck |
-| `pdfs/bildmaterial_kontaktabzug_uebersicht.pdf` | Kontaktabzug-Übersicht Bildredaktion |
-| `xlsx/fakten_und_quellenmatrix.xlsx` | Fakten- und Quellenmatrix, Stellungnahmen-Synopse und Headline-Bewertung |
+| `pdfs/lg_koeln_terminuebersicht_screenshot.pdf` | Terminübersicht Landgericht Köln, Ausdruck |
+| `xlsx/fakten_und_quellenmatrix.xlsx` | Quellenbestand, Stellungnahmen-Synopse und unbewertete Überschriftenvorschläge |
 
 ## Arbeitsnotiz
 
-Die Akte ist für Meldung, Hintergrundstück, Headline, Bildprüfung, Verdachtsberichterstattung, Stellungnahmeabfrage und Korrekturreserve gebaut. Sie enthält kein fertiges Artikelergebnis. Ergänzt um presserechtliche Prüfung, BGH- und EGMR-Massstäbe, Klagestrategie sowie eine vorsorgliche Risikoabschätzung zu Unterlassung und Geldentschädigung.
+Der Bestand dokumentiert die Vorbereitung eines Berichts bis zum Redaktionsschluss. Stellungnahmen und interne Vermerke geben die jeweilige Sicht ihres Verfassers wieder. Die Überschriftenvorschläge sind nicht bewertet; ein freigegebener Artikel liegt nicht vor.

@@ -1,18 +1,26 @@
 # Testakte: Insolvenzanfechtung Trave Clean — Beitragszahlung an die Krankenkasse nach Fremdantrag (Lübeck)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 58 KB) | PDF | [`gesamt-pdf/insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -64,6 +72,7 @@ insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck/
 ├── 23_vergleichsannahme_verwalter.docx                     Annahme des Vergleichsvorschlags durch den Verwalter
 ├── 24_feststellungsbeschluss_vergleich_luebeck.docx        Feststellungsbeschluss § 278 VI ZPO
 ├── 25_schlussvermerk_verwalter_luebeck.docx                Aktenvermerk: Abschluss des Anfechtungsverfahrens
+├── 26_anhoerungsverfuegung_ag_luebeck_2026-02-11.docx        Anhörungsverfügung des AG Lübeck zum Fremdantrag mit Zustellungsvermerk vom 13.02.2026
 ├── xlsx/
 │   └── beitragszahlungen_anfechtungszeitraum.xlsx          Tabellarische Beitragszahlungen im Anfechtungszeitraum
 └── eml/
@@ -72,3 +81,19 @@ insolvenzanfechtung-kongruente-deckung-krankenkasse-nach-antrag-luebeck/
     ├── 2026-11-25_vergleichsvorschlag_bkk.eml              Übersendung des Vergleichsvorschlags der Kasse
     └── 2027-01-15_zahlungsbestaetigung_luebeck.eml         Bestätigung Zahlungseingang Vergleichsbetrag
 ```
+
+<!-- BEGIN pruefmaterial-insolvenz -->
+## Vorlagen und Vergleichsmaterial
+
+Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blankovorlagen. Ziehen Sie das Gutachten oder den fallbezogenen Plan erst beim Vergleich der Ergebnisse heran. Die Dateien in dieser Tabelle sind separat von den Aktenarchiven verfügbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlage | Datei |
+| --- | --- |
+| Klagevorlage (Word) | [Datei öffnen](pruefmaterial-insolvenz/Insolvenzanfechtungsklage-Vorlage.docx) |
+| Internes Gutachten (PDF) | [Datei öffnen](pruefmaterial-insolvenz/Internes-Insolvenzanfechtungsgutachten.pdf) |
+
+<!-- END pruefmaterial-insolvenz -->

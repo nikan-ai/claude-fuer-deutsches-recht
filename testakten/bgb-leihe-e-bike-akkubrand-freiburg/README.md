@@ -1,0 +1,50 @@
+# BGB: Geliehenes E-Bike, Ladegerät und Kellerbrand in Freiburg
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bgb-leihe-e-bike-akkubrand-freiburg.zip) · [Druckpaket 09](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-09.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bgb-leihe-e-bike-akkubrand-freiburg_gesamt.pdf`](gesamt-pdf/bgb-leihe-e-bike-akkubrand-freiburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-leihe-e-bike-akkubrand-freiburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-leihe-e-bike-akkubrand-freiburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-leihe-e-bike-akkubrand-freiburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-leihe-e-bike-akkubrand-freiburg-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+Arbeitsakte zu den Plugins `bgb-bt-pruefer`, `versicherungsrecht`.
+
+## Kurzbild
+
+Nachbarin Ruth Ganter leiht Jonas Maier ihr E-Bike für ein Wochenende. Er lädt den Akku im gemeinschaftlichen Keller mit einem älteren Ersatzladegerät; nachts entsteht ein Brand. Frühere Warnanzeige, Ladeanweisung, Stromleiste und Eigentumsschäden werden von Feuerwehr, Gutachter und Versicherern unterschiedlich eingeordnet.
+
+## Aktenstücke
+
+| Datei | Inhalt |
+| --- | --- |
+| `01_uebergabe_e_bike_ladegeraet.docx` | Leihabrede, Warnanzeige und Ladegerät |
+| `02_feuerwehr_einsatzbericht.docx` | Einsatzablauf und gesicherte Teile |
+| `03_brandgutachten_zwischenstand.docx` | Technische Spuren ohne endgültige Ursache |
+| `04_regressankuendigung_versicherung.docx` | Regulierte Schäden und Regressvorbehalt |
+| `05_email_verleiherin_fehler_e17.eml` | Zeitnahe Hinweise zu Fehler und Ersatzladegerät |
+| `06_email_hausverwaltung_aushang.eml` | Hausinformation zum Laden im Keller |
+| `07_signal_chat_ladebeginn.txt` | Chat vom Ladebeginn bis zum Einsatz |
+| `08_schadenpositionen_versicherung.csv` | Eigentümer, Werte und Regulierung |
+| `09_akkulog_stromkreis.csv` | Technische Zeitachse |
+| `10_foto_brandstelle_steinablage.jpg` | Bildanlage der Brandstelle |
+
+## Bearbeitung
+
+Leihabrede, Übergabezustand, technische Spuren, Versicherungsunterlagen und Nachbarschaftskommunikation erlauben eine quellennahe Haftungsprüfung. Brandursache, Sorgfaltsmaßstab und Schadensteilung bleiben offen.

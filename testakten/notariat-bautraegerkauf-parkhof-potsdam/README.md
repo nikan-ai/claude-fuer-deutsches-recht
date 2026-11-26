@@ -1,0 +1,46 @@
+# Bauträgerkauf Parkhof in Potsdam
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-notariat-bautraegerkauf-parkhof-potsdam.zip) · [Druckpaket 30](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-30.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/notariat-bautraegerkauf-parkhof-potsdam_gesamt.pdf`](gesamt-pdf/notariat-bautraegerkauf-parkhof-potsdam_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-notariat-bautraegerkauf-parkhof-potsdam.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-notariat-bautraegerkauf-parkhof-potsdam.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-notariat-bautraegerkauf-parkhof-potsdam-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-notariat-bautraegerkauf-parkhof-potsdam-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+## 1. Vorgang
+
+Julia und Martin König möchten eine Neubauwohnung mit Stellplatz erwerben. Vertriebsunterlagen, ein geänderter Küchenplan und die Vorbereitung eines Notartermins liegen vor; die notarielle Entwurfsbereitstellung ist noch offen. Bearbeitungsstand: 8. September 2026. Zuordnung: `notariat-alltag`. Der Vorgang ist für die Vorbereitung durch Notariatsmitarbeiter bestimmt. Noch nicht eingegangene Nachweise bleiben offen; eine Beurkundung oder Einreichung des vorzubereitenden Geschäfts wird nicht vorweggenommen.
+
+## 2. Unterlagen
+
+- [01_objektunterlagen.docx](01_objektunterlagen.docx)
+- [02_baubeschreibung.docx](02_baubeschreibung.docx)
+- [03_beteiligte.txt](03_beteiligte.txt)
+- [04_grundbuch_rueckfrage.txt](04_grundbuch_rueckfrage.txt)
+- [05_kaeufer.eml](05_kaeufer.eml)
+- [06_vertrieb.eml](06_vertrieb.eml)
+- [07_notariat.eml](07_notariat.eml)
+- [08_technische_antwort.eml](08_technische_antwort.eml)
+
+## 3. Formate und Zugriff
+
+Acht getrennte Unterlagen in DOCX, EML und TXT bilden den Arbeitsordner. Das Gesamt-PDF und das Einzel-PDF-ZIP enthalten dieselben Dokumente. Im Originalformat-ZIP liegen die Eingangsunterlagen im Ordner `Grundakte`. Die PDF-Lesefassung steht als eigener Download bereit. Beide ZIPs enthalten eine README.txt mit dem vorgeschriebenen Hinweis. Entwürfe, die erst aus diesen Unterlagen erstellt werden sollen, sind nicht als Ergebnis vorgegeben.
+
+English: Eight separate source documents for notarial staff preparation. Choose the combined PDF for reading, the individual-PDF ZIP for separate documents or the native-format ZIP for the original working files. Start with the `Grundakte` folder inside the native archive. Outstanding evidence and pending decisions remain open; the documents do not prescribe an outcome.

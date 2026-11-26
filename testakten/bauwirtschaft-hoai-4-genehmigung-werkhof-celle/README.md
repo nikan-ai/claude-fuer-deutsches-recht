@@ -1,0 +1,81 @@
+<!-- decimal-headings -->
+<!-- decimal-anchor --> <a id="hoai-leistungsphase-4-werkhof-uhlenried-in-celle---bauantrag-nachforderung-und-grenzabstand"></a>
+
+# 1. HOAI Leistungsphase 4: Werkhof Uhlenried in Celle - Bauantrag, Nachforderung und Grenzabstand
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+<!-- decimal-anchor --> <a id="akte-komplett-herunterladen"></a>
+
+## 1.1. Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bauwirtschaft-hoai-4-genehmigung-werkhof-celle.zip) · [Druckpaket 06](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-06.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bauwirtschaft-hoai-4-genehmigung-werkhof-celle_gesamt.pdf`](gesamt-pdf/bauwirtschaft-hoai-4-genehmigung-werkhof-celle_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bauwirtschaft-hoai-4-genehmigung-werkhof-celle.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bauwirtschaft-hoai-4-genehmigung-werkhof-celle.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bauwirtschaft-hoai-4-genehmigung-werkhof-celle-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bauwirtschaft-hoai-4-genehmigung-werkhof-celle-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+Autor: Klotzkette. Aktenstand: 2026-09-23. 17 eigenständige Originalunterlagen. Eigenständiger Werkhofneubau mit eingereichtem Plansatz, vermessener Nordgrenze, Nachforderung und noch offener Bauherrenentscheidung. Übungsgebiet: Antragszusammenstellung, Abweichung oder Plananpassung, Landesrecht und Nachreichungsstand.
+
+<!-- decimal-anchor --> <a id="herkunft-und-abgrenzung"></a>
+
+## 1.2. Herkunft und Abgrenzung
+
+Alle Personen, Firmen, Vereins-/Behördenvorgänge, Grundstücke, Anschriften, Planungen und Zahlen wurden für diese Akte neu erfunden. Die Ortsnamen Celle, Hameln und Peine sowie die verlinkten Rechtsquellen sind real. Scheinbar behördliche Schreiben stammen nicht von einer Behörde. Es werden keine echten Identitätsnachweise, Siegel, Stempel oder Bankdaten verwendet. Kontaktadressen verwenden die reservierte Endung .example. Die Akte enthält keine Musterlösung; interne Rubrik und Builder werden nicht als Originalunterlagen ausgeliefert.
+<!-- reserved-example-contacts -->
+
+Die Fälle betreffen Gebäude. Gebäude und Innenräume bilden gemeinsam das Leistungsbild nach Paragraf 34 HOAI; bei Innenraumaufträgen sind Vertragsumfang und abweichende Bewertungen gesondert zu prüfen. Fachplanungsbeiträge sind keine Übernahme anderer Leistungsbilder.
+
+<!-- decimal-anchor --> <a id="originalinventar"></a>
+
+## 1.3. Originalinventar
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Datei | Inhalt |
+| --- | --- |
+| [01_Planervertrag.pdf](01_Planervertrag.pdf) | Planervertrag Werkhof Uhlenried |
+| [02_Entwurfsentscheidung.docx](02_Entwurfsentscheidung.docx) | Entwurfsentscheidung und Betriebsdaten |
+| [03_Lageplan_G01B.pdf](03_Lageplan_G01B.pdf) | Lageplan G-01/B mit vermessener Nordgrenze |
+| [04_Bauzeichnung_G02B.pdf](04_Bauzeichnung_G02B.pdf) | Grundriss und Schnitt G-02/B |
+| [05_Baubeschreibung.docx](05_Baubeschreibung.docx) | Baubeschreibung zum Antrag CE-WU26 |
+| [06_Flaechen.xlsx](06_Flaechen.xlsx) | Rechnende Flächenaufstellung FL-01 mit zwei Hallentiefen |
+| [07_Tragwerksbeitrag.pdf](07_Tragwerksbeitrag.pdf) | Vorbemessung der Hallenkonstruktion |
+| [08_Brandschutzbeitrag.pdf](08_Brandschutzbeitrag.pdf) | Brandschutzbeitrag zum Werkhofantrag |
+| [09_Bauantrag.pdf](09_Bauantrag.pdf) | Bauantrag Neubau Werkhof Uhlenried |
+| [10_Portalquittung.txt](10_Portalquittung.txt) | Technischer Eingangsbeleg vom 02.09.2026 |
+| [11_Nachforderung.pdf](11_Nachforderung.pdf) | Nachforderung zum Bauantrag CE-BA-2026-184 |
+| [12_Vermessung.eml](12_Vermessung.eml) | Nordgrenze und Bezugspunkte G-01/B |
+| [13_Nachbarantwort.eml](13_Nachbarantwort.eml) | Werkhof Nordwand und Lieferzufahrt |
+| [14_Nordvariante_G03.png](14_Nordvariante_G03.png) | Planbild G-03 mit unverändertem und verkürztem Hallenkörper |
+| [15_Entwaesserung.eml](15_Entwaesserung.eml) | Rückhaltung bei verkürzter Halle |
+| [16_Bauherrenstand.eml](16_Bauherrenstand.eml) | Entscheidung zur Nordwand noch offen |
+| [17_Planindex.csv](17_Planindex.csv) | Büro-Planindex mit Versand- und Entscheidungsstand |
+
+<!-- decimal-anchor --> <a id="quellen-und-technische-grenzen"></a>
+
+## 1.4. Quellen und technische Grenzen
+
+[HOAI Anlage 10](https://www.gesetze-im-internet.de/hoai_2013/anlage_10.html), [Paragraf 34 HOAI](https://www.gesetze-im-internet.de/hoai_2013/__34.html) und [Paragraf 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html) wurden am 25.09.2026 gezielt gelesen. Einzelheiten und Zugriffsgrenzen stehen im [Phasenprotokoll](../../bauwirtschaft/references/hoai-4-fachquellen.md). Keine vollständige Landesrechts-, DIN-/ATV- oder Rechtsprechungsprüfung und kein Live-Modelltest. Projektspezifische Maße und Rechenregeln sind keine allgemeinen technischen Normen. Honoraranteile sind keine Baufortschrittsanteile; der HOAI-Leistungsbeschrieb ersetzt keinen Vertrag.
+
+<!-- decimal-anchor --> <a id="reproduktion-und-prüfung"></a>
+
+## 1.5. Reproduktion und Prüfung
+
+`scripts/build-bauwirtschaft-hoai-4-6-akten.py --phase 4` erzeugt ausschließlich diese Originale und Begleitdateien. Die Excel-Autorenschaft erfolgt mit Artifact Tool über den phasenbezogenen Workbook-Builder. `scripts/build-bauwirtschaft-hoai-4-6-qa.py` führt native Neuberechnung, Eingabemutationen und Renderprüfungen aus. `scripts/test-bauwirtschaft-hoai-4-6.py` prüft offline die Originale; `--assets DIR` ergänzt die Prüfung kanonischer Exporte. Der zentrale Gesamt-PDF-Builder wird für die Lesefassung verwendet. Kein vorhandenes Gesamt-PDF wird durch den Originalbuilder gelöscht.

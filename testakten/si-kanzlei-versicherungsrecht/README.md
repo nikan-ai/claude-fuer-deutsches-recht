@@ -1,0 +1,61 @@
+# Das Wasser unter der Spüle
+
+Kleine Testakte für **Versicherungsrecht** im Plugin [KI-native Kanzlei](../../ki-native-kanzlei/README.md). Aktenstand: 7. Oktober 2026. Aktenzeichen: `SI-2026-023`.
+
+## 1 Einstieg
+
+Leitungswasserschaden in Regensburg und Leistungsablehnung wegen angeblich unbeheizter Wohnung.
+
+Deckung, Obliegenheit und Schadenhöhe fachlich trennen; unvollständige Bedingungen und Schätzung als Lücken behandeln. Der fachliche Entwurf in Datei 09 ist absichtlich unvollständig: Er enthält ausdrücklich bestellte, beschriftete Eingabestellen und darf erst nach fachlicher Prüfung finalisiert werden. Er ist keine Musterlösung.
+
+## 2 Zehn Originaldateien
+
+| Datei | Inhalt |
+|---|---|
+| `01_Mandatsanfrage.eml` | Mandatsanfrage |
+| `02_Rueckfragen_und_Honorar.eml` | Fachliche Rückfragen und Honorarstand |
+| `03_Gegenseite_oder_Fachstelle.eml` | Position der Gegenseite oder Fachstelle |
+| `04_Zeitnotiz.eml` | Bestätigte Zeiten und zwei offene Einträge |
+| `05_Vertrags_oder_Stammunterlage.pdf` | Versicherungsschein und vorliegender Bedingungsauszug |
+| `06_Ereignis_oder_Bescheid.pdf` | Schadenfeststellung unter der Küchenspüle |
+| `07_Beleg_und_Nachweis.pdf` | Reise und Kontrollnotiz mit Schadenschätzung |
+| `08_Zeiten_und_Honorar.xlsx` | Erklärte Zeiten und Honorarberechnung |
+| `09_Fachlicher_Dokumententwurf.docx` | Einwendungen gegen die Leistungsablehnung mit auszufüllenden Stellen |
+| `10_Mandats_und_Honorarvermerk.docx` | Interner Mandats und Honorarstand |
+
+Die Akte enthält genau vier E Mails, drei PDF Belege, eine Excel-Arbeitsmappe und zwei Word Dateien. Die Excel-Arbeitsmappe trennt bestätigte Werte, fehlende Angaben und einen noch nicht freigegebenen Rechnungsentwurf. Die vier Zeitzeilen stimmen mit Datei 04 und der Honorargrundlage in Datei 10 überein.
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-si-kanzlei-versicherungsrecht.zip) · [Druckpaket 37](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-37.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/si-kanzlei-versicherungsrecht_gesamt.pdf`](gesamt-pdf/si-kanzlei-versicherungsrecht_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-si-kanzlei-versicherungsrecht.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-si-kanzlei-versicherungsrecht.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-si-kanzlei-versicherungsrecht-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/si-native-kanzlei-v445.33.3/testakte-si-kanzlei-versicherungsrecht-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+## 4 Herkunft und Grenzen
+
+Alle Personen, Unternehmen, Dokumente, Kontaktdaten und Sachverhalte sind erfunden. Reale Städtenamen dienen nur der Einordnung. Genannte Behörden sind keine Urheber tatsächlich ergangener Entscheidungen. Reservierte `.example` Adressen verhindern eine versehentliche Kontaktaufnahme.
+
+<!-- reserved-example-contacts -->
+
+Die Akte ist ein kurzer Einstieg in Mandatsaufnahme, fachliche Dokumentbearbeitung, Zeiterfassung und Honorarsteuerung. Fehlende Originale werden ausdrücklich als fehlend behandelt. Es werden keine tatsächlichen Konten angelegt, Nachrichten versandt oder behördlichen Vorgänge eröffnet. Die Rechtsquellen stehen im [Plugin](../../ki-native-kanzlei/references/rechtsquellen.md); zusätzliche fallbezogene Normen sind in den Entwürfen genannt und vor praktischer Verwendung aktuell zu prüfen.
+
+
+[Alle Testakten](../README.md) · [Startseite](../../README.md) · [Downloadverzeichnis](../../ASSET_INDEX.md)

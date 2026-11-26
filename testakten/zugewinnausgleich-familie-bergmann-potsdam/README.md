@@ -1,0 +1,75 @@
+# 1. Zugewinnausgleich: Familie Bergmann in Potsdam
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-zugewinnausgleich-familie-bergmann-potsdam.zip) · [Druckpaket 46](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-46.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/zugewinnausgleich-familie-bergmann-potsdam_gesamt.pdf`](gesamt-pdf/zugewinnausgleich-familie-bergmann-potsdam_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-zugewinnausgleich-familie-bergmann-potsdam.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-zugewinnausgleich-familie-bergmann-potsdam.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-zugewinnausgleich-familie-bergmann-potsdam-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zugewinnausgleich-familie-bergmann-potsdam-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+[Zugewinn-Plugin](../../zugewinnausgleich/README.md) · [Fachanwalt Familienrecht](../../fachanwalt-familienrecht/README.md) · [Alle Akten](../README.md) · [Download-Index](../../ASSET_INDEX.md)
+
+## 1.1. Familie, Unterlagen und Bearbeitungsstand
+
+Mara und Jonas Bergmann haben 2011 geheiratet und zwei Kinder. Mara ist beim Land Brandenburg angestellt, Jonas betreibt ein kleines Planungsbüro. Seit April 2025 leben sie getrennt; das gemeinsam finanzierte Haus, die Haushaltszahlungen und die Betreuung der Kinder verbinden ihre Alltagsabläufe weiterhin. Der Scheidungsantrag wurde im Sommer 2026 zugestellt. Aktenstand ist der 15. September 2026.
+
+Die Sammlung enthält 118 Quelldateien: 77 Beleg-PDFs, 14 Word-Dokumente, zwölf E-Mails, drei Nachrichtenexporte, acht CSV-Dateien, zwei Excel-Arbeitsmappen und zwei Bildanlagen. Alte Bankauskünfte, 48 monatliche Kontoauszüge mit 481 Bewegungen, Haus und Darlehen, ein kleines geerbtes Grundstück, Geschäftsunterlagen, Fahrzeugbelege, Gold und Kryptowerte bilden den Vermögenshintergrund. Hinzu kommen Schriftverkehr und Ausgaben für Kinder, Ferien und die Unterstützung von Jonas' Mutter. Äußerungen der Beteiligten sind deren jeweilige Darstellung, keine bestätigte Rechtsauffassung.
+
+Diese Akte dient der eigenständigen Rekonstruktion der Vermögensverhältnisse. Sie enthält weder eine fertige Zugewinnberechnung noch eine Lösungsmatrix. Tabellen bilden Konten und betriebliche Aufzeichnungen ab; sie rechnen keine Ausgleichsforderung vor. Kurs- und Preisangaben gehören zum dargestellten Vorgang und sind keine echten historischen Börsendaten. Die beiden Bildanlagen zeigen nachgebildete Kontooberflächen des Falls, keine authentischen Bank- oder Börsenscreenshots.
+
+## 1.2. Drei gleichwertige Fassungen
+
+Wähle eine Variante pro Arbeitsordner. Wer Originaldateien, Gesamt-PDF und Einzel-PDFs gleichzeitig einliest, würde viele Belege mehrfach erfassen.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Fassung | Download | Verwendung |
+| --- | --- | --- |
+| Gesamt-PDF | [Alle Unterlagen in einer Datei](gesamt-pdf/zugewinnausgleich-familie-bergmann-potsdam_gesamt.pdf) | Lesen, Durchsuchen und Ausdrucken |
+| Einzel-PDFs | [Flaches PDF-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zugewinnausgleich-familie-bergmann-potsdam-einzelpdfs.zip) | Jede Unterlage als eigene PDF |
+| Originalformate | [Flaches Akten-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-zugewinnausgleich-familie-bergmann-potsdam.zip) | Word, Excel, E-Mails, CSV, Nachrichten, Bilder und PDFs |
+
+Die Archive enthalten keine Unterordner und keine Markdown-Aktenstücke. Die zweisprachige `README.txt` liegt unmittelbar im ZIP. Die PDFs enthalten keine zusätzliche Hinweisseite; der Hinweis steht hier vor den Downloads. Das Originalformat-ZIP enthält auch das Gesamt-PDF.
+
+## 1.3. Ablage
+
+| Bereich | Vorhandene Unterlagen |
+| --- | --- |
+| [Aktenstücke](aktenstuecke/) | Registerabschriften, Familien- und Gerichtsunterlagen, anwaltliche Schreiben, Vollmacht und Gesprächsnotizen |
+| [Belege](belege/) | Bankarchive, Darlehen, Immobilien- und Fahrzeugunterlagen, Erbschaft, Betriebsunterlagen, Gold, Kryptowerte und Alltagsschreiben |
+| [Kontoauszüge](kontoauszuege/) | Drei getrennte Konten mit monatlichen Auszügen von April 2025 bis zum 8. Juli 2026 |
+| [Zahlenwerk](zahlenwerk/) | Buchungsexporte, Kreditbewegungen, Betriebszahlen, offene Rechnungen, Inventar und Kryptotransaktionen |
+| [Excel](xlsx/) | Bearbeitbare Kontoumsätze und Betriebsunterlagen mit Filtern, Zahlenformaten und nachrechenbaren Summen |
+| [Korrespondenz](korrespondenz/) | E-Mails und Nachrichten der Beteiligten und ihrer Ansprechpartner |
+| [Bildanlagen](bilder/) | Konto- und Kryptobestandsansichten im Erscheinungsbild mobiler Anwendungen |
+
+Kontobuchungen, Rechnungen, Bestätigungen und Tabellen können denselben wirtschaftlichen Vorgang aus unterschiedlichen Perspektiven dokumentieren. Ein Belegverweis in einer CSV-Datei führt zur dazugehörigen Unterlage; er ist keine zusätzliche Vermögensposition. Behauptete Werte, Händlerangebote und gebuchte Bestände bleiben als unterschiedliche Quellengattungen erhalten.
+
+Kontaktangaben dienen ausschließlich der Fallgestaltung. Sie sind keine Aufforderung, Personen oder Einrichtungen anzuschreiben oder Zahlungen auszuführen. Familien- und Gerichtsdokumente sind keine zur Verwendung im Rechtsverkehr bestimmten Urkunden.
+
+## 1.4. English Summary
+
+This German matrimonial-property case follows a family in Potsdam through separation and pending divorce. It includes historical and current bank evidence, a jointly financed home, a sole-trader business, an inherited plot, gold, cryptocurrency, childcare and support for an elderly parent. The material supplies facts and competing party accounts, not a model answer or a completed equalisation calculation.
+
+Choose the combined PDF, a flat ZIP containing one PDF per document, or the flat original-format ZIP. Editable spreadsheets retain source records rather than a legal answer. Financial quotations and mobile-account images are constructed case material, not authentic market records or banking screenshots. Practice files are separate from the installable plugin.
+
+Passend zu: `zugewinnausgleich`, `fachanwalt-familienrecht`, `richter-familiengericht`.

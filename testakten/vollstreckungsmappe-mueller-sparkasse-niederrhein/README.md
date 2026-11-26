@@ -1,29 +1,40 @@
 # Akte: Vollstreckungsmappe Sparkasse Niederrhein gegen Müller
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 67 KB) | PDF | [`gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf`](gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) · [Druckpaket 44](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-44.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf`](gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein` (Akte) | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) |
+| `testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein` (Akte) | [testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ## Mandantenkonstellation
 
@@ -38,13 +49,13 @@ Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das
 
 Dingliche Vollstreckung in das selbstgenutzte Einfamilienhaus Beethovenstrasse 12. Sicherungsgrundschuld 380.000 EUR aus 2017, Notar Dr. Berghoff, URNr 882/2017. Forderung valutiert per 31.3.2026 mit 261.480,73 EUR offen aus Privatdarlehen 4717-8821 zur Sanierung. Bernd und Dorothea Müller sind drei Monate im Rückstand, Kündigung mit Schreiben vom 5.4.2026 erklärt, Kündigung der Grundschuld nach Paragraf 1193 BGB am 12.4.2026.
 
-Skills: `zv-notarielle-urkunde-grundschuld`, `zv-zvg-antrag-glaeubiger`, ggf. `zv-pfueb-bank` (persönliche Vollstreckung parallel).
+Skills: `notarielle-urkunde-grundschuld`, `zvg-antrag-glaeubiger`, gegebenenfalls `pfueb-bank` für die parallele persönliche Vollstreckung.
 
 ### 02 - Einfache Kontopfändung
 
 Aus demselben Privatdarlehen (Restforderung 261.480,73 EUR) wird parallel der Lohnzufluss des Schuldners gepfändet. Bernd Müller bezieht Geschäftsführervergehalt der Müller Küchen GmbH (Drittschuldner) über das Geschäftskonto bei der Postbank, IBAN DE89 1001 0010 0987 6543 21. Dorothea Müller führt ihr Privatkonto bei der DKB, IBAN DE12 1203 0000 5511 2233 00. Beide Konten werden gepfändet, P-Konto-Schutz wird voraussichtlich beantragt.
 
-Skills: `zv-pfueb-bank`, `zv-pfueb-arbeitsentgelt`, `zv-pfaendungstabelle-2025`, `zv-elektronische-zustellung-2027`.
+Skills: `pfueb-bank`, `pfueb-arbeitsentgelt`, `pfaendungstabelle-pfueb-arbeitsentgelt`, `elektronische-zustellung-eu`.
 
 ### 03 - Verpfändung Bitcoin- und Stablecoin-Wallets
 
@@ -55,7 +66,7 @@ Bei der Vermögensauskunft am 22.4.2026 hat Bernd Müller offengelegt, dass er �
 
 Beide Vermögensgegenstände werden vollstreckt - mit unterschiedlichen Mechaniken, die diese Akte gegenüberstellt.
 
-Skills: `zv-mobiliar-gv-auftrag` (self-hosted), `zv-pfueb-mieter-finanzamt` (custodial Drittschuldner), `zv-vermoegensauskunft-gv`, `zv-abwehr-schuldner` (Schuldnerseite Selbstbelastungsverweigerung).
+Skills: `mobiliar-gv-auftrag` für die selbst verwahrte Wallet, `pfueb-802l-arbeit` für den verwahrenden Drittschuldner, `vermoegensauskunft-gv` sowie `abwehr-schuldner` für die Schuldnerseite und mögliche Auskunftsgrenzen.
 
 ## Verzeichnisstruktur
 
@@ -64,7 +75,10 @@ vollstreckungsmappe-mueller-sparkasse-niederrhein/
 - 00_aktenuebersicht.md
 - 01_grundschuld_mueller/
 - 02_kontopfaendung_kuechen-mueller-gmbh/
+  - 04_drittschuldnererklaerung_postbank.md (Erklärung der Postbank nach Paragraf 840 ZPO mit P-Konto-Angaben und Handvermerk)
 - 03_kryptowallets_mueller/
+  - 05_gv_protokoll_ledger_termin_12_06_2026.md (Abschrift des GV-Protokolls zum Pfändungsversuch: Ledger verwahrt, PIN verweigert, Seed-Kapsel angeblich beim Bruder)
+- 04_email_lemm_an_boehringer_ratenangebot.eml (Sparkassen-Mail zu Ratenangebot Müller, Anruf der Ehefrau und Stand der Drittschuldnererklärungen)
 - originale/ (gescannte Schriftstuecke - in dieser Akte nur als Text beschrieben)
 - README.md
 ```

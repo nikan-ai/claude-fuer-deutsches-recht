@@ -1,28 +1,30 @@
-# Auto-generierte Baseline-Rubric (v301).
-# Manuelle Anpassung empfohlen - mindestens 3 weitere fall-spezifische
-# Pass/Fail-Checks hinzufuegen (BAG-Az., Frist-Erwaehnung, spezifische Anlage).
-
-name: "Hochschulrecht Berufung Senat Drittmittel Campus Rheinbogen"
-plugin: "tbd"
-
+name: Hochschulrecht Berufung Senat Drittmittel Campus Rheinbogen
+plugin: hochschulrecht-laender
+description: Fallbezogene Qualitätsprüfung des Berufungsverfahrens mit Listenbildung, Drittmittelbezug, Gremienweg und Grundordnungsänderung.
 checks:
-  - id: r01-readme-vorhanden
+  - id: r01-gesamt-pdf-vorhanden
     check_type: file_exists
-    description: "README.md vorhanden"
-    path: "README.md"
-
-  - id: r02-gesamt-pdf-vorhanden
-    check_type: file_exists
-    description: "Gesamt-PDF gebaut"
-    path: "gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf"
-
-  - id: r03-mindestens-3-aktenstuecke
-    check_type: file_count
-    description: "mindestens 1 Markdown-Aktenstueck"
-    glob: "*.md"
-    min: 1
-
-  - id: r04-fachspezifischer-check-zu-ergaenzen
+    description: Das Gesamt-PDF ist gebaut.
+    path: gesamt-pdf/hochschulrecht-berufung-senat-drittmittel-campus-rheinbogen_gesamt.pdf
+  - id: r02-mandantin-und-listenplatz
+    check_type: text_contains
+    description: Der Auswahlvermerk führt Mandantin und Listenplatz.
+    path: 04-berufungskommission-auswahlvermerk.docx
+    contains: Prof. Dr. Eveline Bornhorst
+  - id: r03-verfahrenschronologie
+    check_type: text_contains
+    description: Die Chronologie enthält die konkrete W3-Denomination.
+    path: 02-zeitstrahl-fristen-und-verfahrensstand.docx
+    contains: W3 Maschinenelement-Konstruktion
+  - id: r04-besprechung-drittmittel
+    check_type: text_contains
+    description: Die Besprechungsunterlage benennt den konkreten Drittmittelkonflikt.
+    path: 14-besprechungsunterlage.pdf
+    contains: Kooperation zwischen Tannwald
+  - id: r05-arbeitsunterlagen
+    check_type: working_file_count
+    description: Die Akte enthält mindestens zehn exportierbare Arbeitsunterlagen.
+    min: 10
+  - id: r06-fachpruefung
     check_type: human_review
-    description: "Fachspezifischer Pass/Fail-Check fuer dieses Mandat fehlt - manuell ergaenzen"
-    note: "Beispiel: Vor jeder Schriftsatz-Ausgabe muss BAG-Az. live verifiziert werden"
+    description: Listenbildung, Befangenheit, Drittmittelbezug, Senatsbefassung und Satzungsänderung sind als getrennte Verfahrensstränge dokumentiert.

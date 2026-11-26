@@ -1,18 +1,26 @@
 # Testakte: Insolvenzanfechtung Vondering Metallform — Grundstücksverkauf und „Vermittlungsprovision" (Mönchengladbach)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 201 KB) | PDF | [`gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladbach-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -77,7 +85,24 @@ insolvenzanfechtung-glaeubigerbenachteiligung-grundstuecksverkauf-moenchengladba
 └── eml/
     ├── 2025-09-29_rheinpark_erstkontakt.eml                Erstkontakt der Erwerberin direkt beim Geschäftsführer aus eigener Ankaufsrecherche
     ├── 2025-11-03_vondering_provision.eml                  E-Mail des Geschäftsführers an den Bruder zur Ausgestaltung der „Provision"
+    ├── 2026-06-24_stefan_vondering_antwort_anfechtung.eml  Antwort des Bruders auf die Anfechtung: Golfclub-Kontakt, behauptete Leistungen, Entreicherung, Ratenangebot
     ├── 2026-09-08_terminsladung_gutachterin.eml            Terminsladung mit mündlicher Gutachtenerläuterung
     ├── 2026-11-24_vergleichsannahme_rheinpark.eml          Vergleichsannahme der Beklagten
     └── 2027-02-02_zahlungseingang_zweite_rate.eml          Bestätigung des vollständigen Zahlungseingangs
 ```
+
+<!-- BEGIN pruefmaterial-insolvenz -->
+## Vorlagen und Vergleichsmaterial
+
+Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blankovorlagen. Ziehen Sie das Gutachten oder den fallbezogenen Plan erst beim Vergleich der Ergebnisse heran. Die Dateien in dieser Tabelle sind separat von den Aktenarchiven verfügbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlage | Datei |
+| --- | --- |
+| Klagevorlage (Word) | [Datei öffnen](pruefmaterial-insolvenz/Insolvenzanfechtungsklage-Vorlage.docx) |
+| Internes Gutachten (PDF) | [Datei öffnen](pruefmaterial-insolvenz/Internes-Insolvenzanfechtungsgutachten.pdf) |
+
+<!-- END pruefmaterial-insolvenz -->

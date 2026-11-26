@@ -1,29 +1,40 @@
 # Akte: Schriftform der Wohnraumkündigung — Pferdedrescher-Riesenstein ./. Eberhart-Wolframshausen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 365 KB) | PDF | [`gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf`](gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) · [Druckpaket 35](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-35.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf`](gesamt-pdf/schriftform-mietkuendigung-bielefeld-online-pferdedrescher_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## ⬇️ Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher` (Akte) | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) |
+| `testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher` (Akte) | [testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schriftform-mietkuendigung-bielefeld-online-pferdedrescher.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 ---
 
@@ -135,6 +146,8 @@ Der BGH bestätigte dieses Argument 2024 als Leitsatz c).
 | `Aufstellung_Kosten_und_Schaeden.xlsx` | Excel | Streitwertberechnung, Verfahrenskosten nach Instanzen, Gesamtschaden Klägerin | Formeln; Gesamtschaden ca. EUR 28.415,90; 4 Abschnitte inkl. Mahnungshistorie-Zeitpunkte |
 | `Mandantengespraech_Eberhart_Notiz.txt` | Text | Roh-Gesprächsnotiz RA Hassenstein-Heepen vom 19.04.2022 | Authentisch chaotisch; zeigt Mandantenperspektive; handschriftlicher Nachtrag von Dez. 2024 |
 | `Chatverlauf_Mieter_Anwalt_2022-04.docx` | Chatbeschreibung | WhatsApp-Chat: Mieter sendet Fotos der Klageschrift an Anwältin (April 2022) | Zeigt Handnotizen des Mieters auf dem Transfervermerk; Beweis für Mandatsanbahnung |
+| `Kontoauszug_Eberhart_Mietzahlungen_2021.csv` | CSV | Onlinebanking-Export des Mieters: Mietzahlungen Januar 2021 bis Februar 2022 | Belegt die 800-Euro-Überweisungen ab Februar 2021 und die Teilzahlung vom 09.02.2022 |
+| `Email_Eberhart_Kontoexport_an_Anwaeltin_2022-04.eml` | E-Mail | Mieter übersendet den Kontoexport an RA Hassenstein-Heepen (21.04.2022) | Eigene Verrechnungsdarstellung des Mieters; bestreitet die Rückstandshöhe von EUR 1.696,31 |
 
 ---
 

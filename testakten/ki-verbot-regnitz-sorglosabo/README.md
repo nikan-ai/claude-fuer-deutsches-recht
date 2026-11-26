@@ -1,0 +1,90 @@
+<a id="testakte-regnitz-sorglosabo-und-der-kundendialog"></a>
+
+# 1. Testakte Regnitz Sorglosabo und der Kundendialog
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-ki-verbot-regnitz-sorglosabo.zip) · [Druckpaket 27](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-27.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/ki-verbot-regnitz-sorglosabo_gesamt.pdf`](gesamt-pdf/ki-verbot-regnitz-sorglosabo_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-ki-verbot-regnitz-sorglosabo.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-ki-verbot-regnitz-sorglosabo.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-ki-verbot-regnitz-sorglosabo-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/testakte-ki-verbot-regnitz-sorglosabo-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+<a id="1-auftrag"></a>
+
+## 1.2. Auftrag
+
+Erstellen Sie für den Vorstand eine begründete Entscheidung über die untersuchten Dialogfunktionen und einen ausformulierten Anbieterbrief. Klären Sie Verhaltenswirkung, wirtschaftliche Angaben und die Reichweite einer behaupteten Korrektur. Der weiterlaufende Terminerinnerungsdienst ist gesondert zu behandeln.
+
+Alle Personen, Organisationen, Anschriften und Vorgänge sind fiktiv. Aktenstand ist der 9. Oktober 2026. E-Mail-Adressen verwenden reservierte .example-Domains.
+
+<!-- reserved-example-contacts -->
+
+<a id="2-unterlagen-und-bearbeitung"></a>
+
+## 1.3. Unterlagen und Bearbeitung
+
+Die Akte enthält sechs Word-Dokumente und deren inhaltsgleiche PDF-Lesefassungen, sechs E-Mails mit echten Anhängen, eine mehrblättrige Arbeitsmappe und einen Chatverlauf. Identische Fassungen und eingebettete Anhänge sind keine unabhängigen Mehrfachbeweise. Die Arbeitsmappe berechnet nachvollziehbare Größen und hält fehlende Daten von Nullwerten getrennt. Sie trifft keine rechtliche Entscheidung.
+
+Lesen Sie zuerst den Auftrag. Verarbeiten Sie danach die widersprüchlichen Belege und führen Sie den ausformulierten Arbeitsentwurf zum bestellten Produkt fort. Noch fehlende Tatsachen gezielt benennen; vorhandene Angaben nicht erneut vollständig erheben. Die Akte enthält keine rechtliche Musterlösung.
+
+<a id="3-downloads"></a>
+
+## 1.4. Downloads
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Fassung | Download |
+|---|---|
+| Originalformate | [Akten-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-ki-verbot-regnitz-sorglosabo.zip) |
+| Einzelne Lesefassungen | [Einzel-PDF-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/testakte-ki-verbot-regnitz-sorglosabo-einzelpdfs.zip) |
+| Gesamte Akte | [Gesamt-PDF](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/ki-verordnung-v445.35.2/ki-verbot-regnitz-sorglosabo_gesamt.pdf) |
+
+<a id="4-einzeldateien"></a>
+
+## 1.5. Einzeldateien
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Datei | Format |
+|---|---|
+| [01_Pruefauftrag.docx](01_Pruefauftrag.docx) | DOCX |
+| [01_Pruefauftrag.pdf](01_Pruefauftrag.pdf) | PDF |
+| [02_Systembeschreibung.docx](02_Systembeschreibung.docx) | DOCX |
+| [02_Systembeschreibung.pdf](02_Systembeschreibung.pdf) | PDF |
+| [03_Gespraechsprotokoll_Rupprecht.docx](03_Gespraechsprotokoll_Rupprecht.docx) | DOCX |
+| [03_Gespraechsprotokoll_Rupprecht.pdf](03_Gespraechsprotokoll_Rupprecht.pdf) | PDF |
+| [04_Anbieterantwort.docx](04_Anbieterantwort.docx) | DOCX |
+| [04_Anbieterantwort.pdf](04_Anbieterantwort.pdf) | PDF |
+| [05_Kontrollnotiz_Betrieb.docx](05_Kontrollnotiz_Betrieb.docx) | DOCX |
+| [05_Kontrollnotiz_Betrieb.pdf](05_Kontrollnotiz_Betrieb.pdf) | PDF |
+| [06_Arbeitsentwurf_Anbieterbrief.docx](06_Arbeitsentwurf_Anbieterbrief.docx) | DOCX |
+| [06_Arbeitsentwurf_Anbieterbrief.pdf](06_Arbeitsentwurf_Anbieterbrief.pdf) | PDF |
+| [07_Auftrag_Behringer.eml](07_Auftrag_Behringer.eml) | EML |
+| [08_Technik_Seibold.eml](08_Technik_Seibold.eml) | EML |
+| [09_Kundengespraech.eml](09_Kundengespraech.eml) | EML |
+| [10_Gutschrift_Buchhaltung.eml](10_Gutschrift_Buchhaltung.eml) | EML |
+| [11_Anbieter_und_Korrektur.eml](11_Anbieter_und_Korrektur.eml) | EML |
+| [12_Kontrollnotiz_und_Mappe.eml](12_Kontrollnotiz_und_Mappe.eml) | EML |
+| [13_Kosten_und_Buchungsabgleich.xlsx](13_Kosten_und_Buchungsabgleich.xlsx) | XLSX |
+| [14_Projektchat.txt](14_Projektchat.txt) | TXT |

@@ -1,18 +1,26 @@
 # Akte: Arbeitsunfähigkeitsbescheinigung im Pflegedienst Bremen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 35 KB) | PDF | [`gesamt-pdf/strafrecht-urkundenfaelschung-au-pflegedienst-bremen_gesamt.pdf`](gesamt-pdf/strafrecht-urkundenfaelschung-au-pflegedienst-bremen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-urkundenfaelschung-au-pflegedienst-bremen_gesamt.pdf`](gesamt-pdf/strafrecht-urkundenfaelschung-au-pflegedienst-bremen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-urkundenfaelschung-au-pflegedienst-bremen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -67,7 +75,7 @@ Mandatsbezug: Nadine Kroll, Pflegefachkraft im ambulanten Dienst
 
 ```
 strafrecht-urkundenfaelschung-au-pflegedienst-bremen/
-├── 01_mandatsnotiz_erstgespraech.docx                     Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `12_eau_datensatzauskunft_aok_2026-06-18.docx` | Auskunft der Krankenkasse über die gespeicherten eAU-Datensätze |
 ├── 02_sachverhalt_chronologie.docx                        Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                       Auszüge aus polizeilichen und staatsanwaltlichen Vermerken
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx              Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -78,10 +86,12 @@ strafrecht-urkundenfaelschung-au-pflegedienst-bremen/
 ├── 09_originalanlage_behoerdenvermerk.pdf                 PDF-Anlage mit behördlichem oder fachlichem Vermerk
 ├── 10_au_dienstplan_anwesenheit_abgleich.csv             Abgleich AU-Bescheinigung, Dienstplan und Anwesenheit je Tag mit Entgeltfortzahlung
 ├── 11_zeugenvernehmung_pdl_hoevels_2026-06-15.docx        Aussage der PDL zur Tourensoftware und zu den Widerspruchstagen
+├── 13_einzelverbindungsnachweis_mobil_kroll_2026-02.csv   Einzelverbindungsnachweis des Mobilanschlusses der Mandantin für den strittigen Zeitraum
 ├── eml/
 │   ├── 01_weserblick_personal_an_kroll_anhoerung_2026-03-12.eml   Anhörung durch die Personalleitung mit Konfrontation der Diskrepanz
 │   ├── 02_aok_an_weserblick_eau_rueckfrage_2026-02-27.eml         eAU-Auskunft der Kasse: Meldung erst ab 06.02.2026
-│   └── 03_praxis_twardon_an_weserblick_dementi_2026-03-18.eml     Dementi der Praxis zur rückwirkenden Bescheinigung
+│   ├── 03_praxis_twardon_an_weserblick_dementi_2026-03-18.eml     Dementi der Praxis zur rückwirkenden Bescheinigung
+│   └── 04_praxis_radtke_an_breuer_benutzerkennung_2026-07-06.eml  Praxismanagerin zu Benutzerkennung MW-02, Rückrufbuch und gelöschter Telefonliste
 ├── whatsapp/
 │   └── chatverlauf.txt                                    Chat Kroll/Kolb zu Krankschreibung trotz gefahrener Touren
 ├── README.md                                              Diese Übersicht

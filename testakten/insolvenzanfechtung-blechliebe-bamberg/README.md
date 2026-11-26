@@ -1,0 +1,86 @@
+# 1. Blechliebe und die letzte Stahllieferung
+
+Ein Bamberger Metallbaubetrieb bezahlt alte Lieferantenrechnungen in Raten und kauft gleichzeitig neues Material gegen Vorauszahlung. Nach der Verfahrenseröffnung verlangt die Verwalterin Geld zurück. Vertrieb, Buchhaltung und Geschäftsführung erinnern sich unterschiedlich an die damaligen Gespräche.
+
+[Startseite](../../README.md) · [Download-Index](../../ASSET_INDEX.md) · [Insolvenzanfechtung](../../insolvenzanfechtung/README.md) · [Testaktenübersicht](../README.md)
+
+## 1.1. Benutzung
+
+Beginnen Sie mit dem Mandatsschreiben. Ordnen Sie anschließend Zahlung, Leistung, Sicherheit und damaliges Wissen anhand der beigefügten Unterlagen. Sie können eine erste anwaltliche Antwort, eine Belegmatrix und die weitere Sachverhaltsaufklärung erarbeiten. Die Akte enthält keine fertige Lösung und keine vorgegebene gerichtliche Entscheidung über die Rückforderung.
+
+Der Bestand umfasst 24 Originalunterlagen und 24 PDF-Seiten: 6 Word-Dateien, 7 PDF-Belege, 7 E-Mails, 2 Excel-Arbeitsmappen und 2 Textdateien. E-Mail-Anlagen enthalten die tatsächlichen Dateien. Die Excel-Arbeitsmappen erläutern Eingaben, Formeln und Reichweite der Zahlen. Aktenstand 21.10.2026. Times New Roman, 11 pt.
+
+<!-- reserved-example-contacts -->
+
+Alle Personen, Unternehmen, Geschäftsadressen, Aktenzeichen und Kontakte sind erfunden; reale Ortsnamen dienen nur als geografischer Rahmen. Kontaktadressen verwenden reservierte .example-Domains.
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-insolvenzanfechtung-blechliebe-bamberg.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-insolvenzanfechtung-blechliebe-bamberg.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/insolvenzanfechtung-blechliebe-bamberg_gesamt.pdf`](gesamt-pdf/insolvenzanfechtung-blechliebe-bamberg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-insolvenzanfechtung-blechliebe-bamberg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzanfechtung-blechliebe-bamberg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-insolvenzanfechtung-blechliebe-bamberg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/insolvenz-arbeitsakten-v1.0.0/testakte-insolvenzanfechtung-blechliebe-bamberg-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+## 1.3. Unterlagen
+
+| Datei | Gegenstand | Seiten |
+| --- | --- | ---: |
+| `01_Mandat_Raban.docx` | Bitte prüfen Sie die Rückforderung von 34140 Euro | 1 |
+| `02_Eroeffnungsbeschluss.pdf` | Eröffnung des Insolvenzverfahrens | 1 |
+| `03_Liefervereinbarung.docx` | Liefervereinbarung für zugeschnittene Stahlbleche | 1 |
+| `04_Rechnung_2025_118.pdf` | Rechnung 2025-118 | 1 |
+| `05_Rechnung_2026_014.pdf` | Rechnung 2026-014 | 1 |
+| `06_Rechnung_2026_032.pdf` | Rechnung 2026-032 | 1 |
+| `07_Mahnung.eml` | Offene Rechnungen BL-208 | 1 |
+| `08_Antwort_Blechliebe.eml` | AW Offene Rechnungen BL-208 | 1 |
+| `09_Ratenvereinbarung.docx` | Vereinbarung über offene Lieferantenrechnungen | 1 |
+| `10_Ratennachfrage.eml` | Mai Rate und Abtretungsblatt | 1 |
+| `11_Notiz_Herold.docx` | Stand der Zahlungen am Freitag | 1 |
+| `12_Schottenbau_Einbehalt.pdf` | Schlussrechnung SB24 und offene Befestigungspunkte | 1 |
+| `13_Sicherungsabtretung.docx` | Sicherungsabtretung einer bezeichneten Kundenforderung | 1 |
+| `14_Lieferanfrage.eml` | Blechliebe braucht sechs Pakete Profile | 1 |
+| `15_Vorkasserechnung_058.pdf` | Rechnung 2026 058 und Ausgabevermerk | 1 |
+| `16_Vorkasse_Bestaetigung.eml` | 2026-058 bezahlt Abholung Dienstag | 1 |
+| `17_Kontoauszug_Auswahl.pdf` | Buchungsbestätigung ausgewählter Überweisungen | 1 |
+| `18_Offene_Posten.xlsx` | Offene Posten Blechliebe | 1 |
+| `19_Zahlungsjournal.xlsx` | Raten und neue Lieferung | 1 |
+| `20_Rueckforderung.docx` | Rückgewähr von Zahlungen der Blechliebe Metallbau GmbH | 1 |
+| `21_Antwort_Kanzlei.eml` | Blechliebe Unterlagen und Auftrag | 1 |
+| `22_Buchhaltung_Anlagen.eml` | Blechliebe Export und meine Buchungen | 1 |
+| `23_Chat_Vertrieb.txt` | Ausschnitt aus dem internen Verkaufschat | 1 |
+| `24_Telefonnotiz_Grell.txt` | Telefonat mit Kunibert Grell | 1 |
+
+Komponentenrelease `insolvenzanfechtung-v1.1.0`.
+
+<!-- BEGIN pruefmaterial-insolvenz -->
+## Vorlagen und Vergleichsmaterial
+
+Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blankovorlagen. Ziehen Sie das Gutachten oder den fallbezogenen Plan erst beim Vergleich der Ergebnisse heran. Die Dateien in dieser Tabelle sind separat von den Aktenarchiven verfügbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlage | Datei |
+| --- | --- |
+| Klagevorlage (Word) | [Datei öffnen](pruefmaterial-insolvenz/Insolvenzanfechtungsklage-Vorlage.docx) |
+| Internes Gutachten (PDF) | [Datei öffnen](pruefmaterial-insolvenz/Internes-Insolvenzanfechtungsgutachten.pdf) |
+
+<!-- END pruefmaterial-insolvenz -->

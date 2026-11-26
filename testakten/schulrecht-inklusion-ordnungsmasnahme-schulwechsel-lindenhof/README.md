@@ -1,18 +1,26 @@
 # Akte Lindenhof-Gymnasium - Inklusion, Ordnungsmaßnahme und Schulwechsel
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 134 KB) | PDF | [`gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf`](gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf`](gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -22,7 +30,6 @@ Schulrecht: 14-jährige Schülerin mit ADHS-/LRS-Nachteilsausgleich, Mobbingvorw
 
 | Datei | Inhalt |
 | --- | --- |
-| `01-mandatsnotiz-und-auftrag.docx` | Erste Lage, Ziel und offene Fragen |
 | `02-zeitstrahl-fristen-und-verfahrensstand.docx` | Chronologie und Fristen |
 | `03-normenkette-livecheck.docx` | Normenkette und Livecheck-Liste |
 | `04-schreiben-schulleitung-unterrichtsausschluss.docx` | Schreiben der Schulleitung zum Unterrichtsausschluss |
@@ -31,12 +38,13 @@ Schulrecht: 14-jährige Schülerin mit ADHS-/LRS-Nachteilsausgleich, Mobbingvorw
 | `07-email-eltern-an-schule.eml` | Elternmail an Schule |
 | `08-klassenchat-auszug.jpg` | Klassenchat-Auszug als Screenshot |
 | `09-klassenkonferenz-protokoll-auszug.pdf` | Protokollauszug Klassenkonferenz |
-| `10-anlagenindex.csv` | Anlagenindex |
+| `10-posteingangsregister-schulakte.csv` | Detailliertes Posteingangs- und Verwahrregister |
 | `11-entwurf-widerspruch-eilantrag.docx` | Entwurf Widerspruch/Eilantrag |
 | `12-offene-punkte.docx` | Offene Punkte und nächste Schritte |
-| `13-anlagenindex.csv` | Anlagenindex |
+| `13-anlagenindex.csv` | Vollständiger Anlagenindex |
 | `14-besprechungsunterlage.pdf` | Besprechungsunterlage |
-| `90-ergaenzende-korrespondenz-und-vollvermerke.docx` | Ausformulierte Korrespondenz, interner Arbeitsvermerk, Entwurfsschreiben und Beweis-/Fristenlogik |
+| `15-antwort-schule-akteneinsicht.eml` | Antwort des Sekretariats: Einsichtstermin, unfertiges Konferenzprotokoll, keine Videodatei bei der Schule |
+| `16-chatverlauf-eltern-elternvertreterin.txt` | Chat-Export Katrin Reben und Nina Rausch: Herkunft des Videos, Protokollauszug, Kündigung der Ganztagsbetreuung |
 
 ## Arbeitsweise
 
@@ -44,5 +52,9 @@ Die Akte eignet sich besonders für `schulrecht-laender`, `fachanwalt-verwaltung
 
 ## Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 - Gesamt-PDF: [`gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf`](./gesamt-pdf/schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof_gesamt.pdf)
-- Akten-ZIP: [`testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip)
+- Akten-ZIP: [`testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-schulrecht-inklusion-ordnungsmasnahme-schulwechsel-lindenhof.zip)

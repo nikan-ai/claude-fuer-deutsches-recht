@@ -1,18 +1,26 @@
 # Testakte: Verständigung nach § 257c StPO — Bandenhehlerei mit Kfz-Teilen (LG Wuppertal)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 59 KB) | PDF | [`gesamt-pdf/strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal_gesamt.pdf`](gesamt-pdf/strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal.zip) · [Druckpaket 41](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-41.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal_gesamt.pdf`](gesamt-pdf/strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -53,10 +61,12 @@ strafrecht-verstaendigung-257c-bandenhehlerei-wuppertal/
 ├── 14_beschlussentwurf_loesung_verstaendigung_2026-06-22.docx Kammerentwurf: Entfallen der Bindung und Verwertungsverbot
 ├── 15_verteidigerschriftsatz_fehling_2026-06-26.docx    Rüge des Belehrungsmangels, § 274 StPO, Angriff auf die Lösungsvoraussetzungen
 ├── 16_stellungnahme_sta_2026-07-01.docx                 Erwiderung der StA zu Lösung, Protokollberichtigung und Verwertungsverbot
+├── 17_telefonvermerk_fehling_sowinski_2026-07-03.docx     Telefonvermerk der Verteidigung: Einlassung des Mandanten zum Chat, Kontosperrung Teilemarkt24, Besprechungstermin
 ├── eml/
 │   ├── 01_fehling_an_sta_sondierung_2026-03-16.eml      Vertrauliche Sondierung der Verteidigung mit Bewährungswunsch
 │   ├── 02_sta_an_fehling_antwort_2026-03-20.eml         Antwort der StA mit Strafrahmenvorstellung und Anregung einer Erörterung
-│   └── 03_fehling_an_kammer_gestaendnisbereitschaft_2026-03-30.eml Mitteilung der Geständnisbereitschaft an die Kammer
+│   ├── 03_fehling_an_kammer_gestaendnisbereitschaft_2026-03-30.eml Mitteilung der Geständnisbereitschaft an die Kammer
+│   └── 04_kammer_hinweis_termine_2026-07-06.eml         Verfügung des Vorsitzenden: neue Termine September 2026, Beiaktenanforderung, Zeugenplanung
 ├── whatsapp/
 │   └── chatverlauf.txt                                  Chat-Export Sowinski/Kranz zum Erwerb des kompletten GLC (Anlage zum Auswertebericht)
 ├── README.md                                            Diese Übersicht

@@ -1,0 +1,54 @@
+# Apothekenrecht: Retaxation und Kühlkette in Bremen
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-apothekenrecht-retaxation-kuehlkette-bremen.zip) · [Druckpaket 03](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-03.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/apothekenrecht-retaxation-kuehlkette-bremen_gesamt.pdf`](gesamt-pdf/apothekenrecht-retaxation-kuehlkette-bremen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-apothekenrecht-retaxation-kuehlkette-bremen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/testakten-praxis-v1.0.0/testakte-apothekenrecht-retaxation-kuehlkette-bremen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-apothekenrecht-retaxation-kuehlkette-bremen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/testakten-praxis-v1.0.0/testakte-apothekenrecht-retaxation-kuehlkette-bremen-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+Arbeitsakte zu den Plugins `apothekenrecht`.
+
+## Kurzbild
+
+Die Adler-Apotheke am Wall gibt zwei Packungen eines hochpreisigen, kühlpflichtigen Biologikums auf elektronisches Rezept ab. Monate später kündigt die HanseMerk BKK eine Vollabsetzung von 59842.18 EUR an: Die Dosierangabe sei unzureichend und ein Temperaturwert auffällig. Verordnung, zwei Logger, ärztliche Bestätigung, Warenfluss und Abrechnung erzählen nicht durchgehend dieselbe Geschichte.
+
+## Aktenstücke
+
+| Datei | Inhalt |
+| --- | --- |
+| `01_e_rezept_abgabeprotokoll.docx` | Vollständiges Abgabeprotokoll mit Verordnung, Wareneingang, Beratung und Abrechnung |
+| `02_grosshandel_lieferschein_freigabe.docx` | Lieferschein des Großhandels mit Chargen-, Preis- und Loggerdaten |
+| `03_retaxationsankuendigung_hansemerk_bkk.docx` | Kassenschreiben mit angekündigter Vollabsetzung und Unterlagenfrist |
+| `04_stellungnahme_rheumatologische_praxis.docx` | Ärztliche Bestätigung zu Verordnung, Dosierung und telefonischer Rückfrage |
+| `05_einspruch_apotheke_retaxation.docx` | Stellungnahme der Apotheke mit Anlagenbezug und wirtschaftlicher Einordnung |
+| `06_abholbeleg_beratung.docx` | Abhol- und Beratungsbeleg der Versicherten |
+| `07_email_nordpharm_qualitaetsfreigabe.eml` | E-Mail der Qualitätssicherung zur Transportfreigabe |
+| `08_email_rechenzentrum_verrechnung.eml` | E-Mail des Rechenzentrums zur drohenden Verrechnung |
+| `09_chat_wareneingang_20_februar.txt` | Interner Chat aus der Stunde zwischen Wareneingang und Freigabe |
+| `10_temperaturprotokoll_kuehlkette.csv` | Rohwerte aus Fahrzeug-, Box- und Apothekenlogger |
+| `11_abrechnung_und_zahlungsfluss.csv` | Einkauf, Auszahlung, Retaxankündigung und Verrechnungsvormerkung |
+| `12_foto_loggeranzeige.jpg` | Mobiltelefonfoto der Loggeranzeige |
+| `13_zuordnung_transportprotokoll.csv` | Dispositionsauszug zu Außenfühler und Boxlogger |
+| `14_korrespondenz_nachlieferung.eml` | Antwort des Großhandels zu Messorten, Siegel und Ende der Transportmessung |
+
+## Bearbeitung
+
+Die Unterlagen erlauben die getrennte Prüfung von Abgabe, Dokumentation, Kühlkette, Formmangel, Retaxationshöhe, Frist und Zahlungsfluss. Sie legen keine rechtliche Bewertung fest.

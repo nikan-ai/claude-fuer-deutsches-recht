@@ -1,12 +1,11 @@
 # 00 Aktenübersicht und Lesepfad — Pellbach Windenergie StaRUG
 
-Diese Akte umfasst 16 Aktenstücke zur Sanierungssteuerproblematik der Pellbach Windenergie GmbH im StaRUG-Restrukturierungsverfahren AG Cottbus 92 RES 14/26.
+Diese Akte umfasst 18 Aktenstücke zur Sanierungssteuerproblematik der Pellbach Windenergie GmbH im StaRUG-Restrukturierungsverfahren AG Cottbus 92 RES 14/26.
 
 ## Lesereihenfolge (Empfehlung)
 
 | Reihenfolge | Aktenstück | Zweck |
 |---|---|---|
-| 1 | 01_mandatsnotiz_geschaeftsfuehrer_pellbach.docx | Erstkontakt, Sachverhalt, steuerliche Problemlage |
 | 2 | 02_starug-anzeige_31_starug_ag_cottbus.docx | Verfahrenseintritt |
 | 3 | 03_restrukturierungsplan_4_ff_starug_eckpunkte.docx | Plan-Eckpunkte und Gruppen |
 | 4 | 04_banken-konsortium_verzichts-und-des-vereinbarung.docx | Quelle des Sanierungsertrags und DES |
@@ -22,10 +21,12 @@ Diese Akte umfasst 16 Aktenstücke zur Sanierungssteuerproblematik der Pellbach 
 | 14 | 14_mandantenbrief_pellbach_glasklar_steuern.docx | Abschlussbrief an Mandantin |
 | 15 | 15_finanzplan_und_liquiditaetsmatrix_2026.csv | Liquidität 2026 |
 | 16 | 16_glaeubigerverzeichnis_starug.csv | Banken-Konsortium und Gläubiger |
+| 17 | 17_email_nordkurland_bank_planvollzug.eml | Planvollzug: Beurkundung, Registeranmeldung, Stundungskonten |
+| 18 | 18_telefonvermerk_finanzamt_cottbus_rueckfragen.md | Sachstand verbindliche Auskunft und Gebühr |
 
 ## Konfliktthemen
 
-1. **Antragstellung § 3a IV EStG vor StaRUG-Plan-Bestätigung.** Im Streitfall Pellbach wird der Antrag rechtzeitig (am 27.05.2026, drei Tage vor Plan-Vorlage) gestellt. Damit ist die Linie FG Koeln 12 K 1413/25 nicht relevant — dafür relevant: Bewertung der DES-Forderungs-Werthaltigkeit.
+1. **Gesonderte Feststellung nach Paragraf 3a Absatz 4 EStG.** Im Fall Pellbach wird der Antrag am 27.05.2026, drei Tage vor Planvorlage, gestellt. Verfahrensweg und Zeitpunkt sind eigenständig zu prüfen. FG Köln 12 K 1413/25 ist kein allgemeiner Fristenanker; die Entscheidung betrifft die materiellen Sanierungsvoraussetzungen und die Sanierungseignung aus Sicht des Schuldenerlasses.
 
 2. **Debt-Equity-Swap-Steuerbehandlung.** Banken-Konsortium übernimmt 35 % Anteile gegen Verzicht auf Forderungen 8 Mio EUR. Werthaltigkeitsgutachten ist Streitpunkt: Vellenbach (RB) sieht Werthaltigkeit ca. 5,2 Mio EUR (Sanierungsertrag-Anteil 2,8 Mio EUR); StB Werner sieht Werthaltigkeit nur 2 Mio EUR (Sanierungsertrag-Anteil 6 Mio EUR).
 

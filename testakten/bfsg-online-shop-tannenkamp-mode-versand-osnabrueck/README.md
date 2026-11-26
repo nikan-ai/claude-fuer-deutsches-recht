@@ -1,18 +1,26 @@
 # Akte: BFSG-Verstoß Tannenkamp Mode-Versand GmbH — Online-Shop Barrierefreiheit Osnabrück
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 424 KB) | PDF | [`gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf`](gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip) · [Druckpaket 09](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-09.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf`](gesamt-pdf/bfsg-online-shop-tannenkamp-mode-versand-osnabrueck_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bfsg-online-shop-tannenkamp-mode-versand-osnabrueck-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -126,12 +134,17 @@ Festgestellte Mängel: fehlende Tastatur-Navigation (CSS `outline: none`), 2.317
 | Datei | Inhalt |
 |---|---|
 | [`emails/2026-03-12_vz_nrw_an_tannenkamp_abmahnung.eml`](emails/2026-03-12_vz_nrw_an_tannenkamp_abmahnung.eml) | VZ NRW — Verstoßmeldung § 33 BFSG, 12.03.2026 |
+| [`emails/2026-03-17_kundenservice_an_it_checkout_screenreader.eml`](emails/2026-03-17_kundenservice_an_it_checkout_screenreader.eml) | Interne Weiterleitung dreier Kundenkontakte zu Screenreader, Tastatur und Checkout, 17.03.2026 |
 | [`emails/2026-03-22_muni_an_kanzlei_anhoerung.eml`](emails/2026-03-22_muni_an_kanzlei_anhoerung.eml) | MüNI LAVES — Anhörungsschreiben, 22.03.2026 |
 | [`emails/2026-04-05_lavendelhaus_design_regressfrage.eml`](emails/2026-04-05_lavendelhaus_design_regressfrage.eml) | Lavendelhaus Design — Haftungsverweigerung, 05.04.2026 |
 | [`emails/2026-04-18_geschaeftsfuehrung_an_kanzlei_kosten.eml`](emails/2026-04-18_geschaeftsfuehrung_an_kanzlei_kosten.eml) | GF Tannenkamp — Kostenfrage, 18.04.2026 |
 | [`emails/2026-05-02_kanzlei_an_muni_stellungnahme.eml`](emails/2026-05-02_kanzlei_an_muni_stellungnahme.eml) | Kanzlei Dr. Friedrichs — Ergänzende Stellungnahme an MüNI, 02.05.2026 |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

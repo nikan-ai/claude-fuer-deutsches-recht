@@ -1,29 +1,40 @@
 # Akte JVEG Zeugenentschädigung – Dr. Sophia Berger / LG Tübingen
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 82 KB) | PDF | [`gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf`](gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-jveg-zeugin-berger-lg-tuebingen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jveg-zeugin-berger-lg-tuebingen.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-jveg-zeugin-berger-lg-tuebingen.zip) · [Druckpaket 24](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-24.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf`](gesamt-pdf/jveg-zeugin-berger-lg-tuebingen_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-jveg-zeugin-berger-lg-tuebingen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-jveg-zeugin-berger-lg-tuebingen.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-jveg-zeugin-berger-lg-tuebingen-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
 ## Direkt-Download
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Akte | Direkt-Download |
 | --- | --- |
-| `testakte-jveg-zeugin-berger-lg-tuebingen` (Akte) | [testakte-jveg-zeugin-berger-lg-tuebingen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-jveg-zeugin-berger-lg-tuebingen.zip) |
+| `testakte-jveg-zeugin-berger-lg-tuebingen` (Akte) | [testakte-jveg-zeugin-berger-lg-tuebingen.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-jveg-zeugin-berger-lg-tuebingen.zip) |
 
 Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
-
 
 **Kurzbezeichnung:** JVEG Zeugin Berger · Internationaler Anreisefall · Vorschuss und Festsetzung
 
@@ -68,6 +79,10 @@ Die Akte beleuchtet typische Probleme des JVEG-Entschädigungsrechts bei interna
 
 ## Dateien in dieser Akte
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Datei | Inhalt |
 |---|---|
 | [README.md](README.md) | Diese Übersicht mit Sachverhalt, Eckdaten, Dateitabelle und Prüffokus |
@@ -79,6 +94,8 @@ Die Akte beleuchtet typische Probleme des JVEG-Entschädigungsrechts bei interna
 | [05_rechner_input_berger.json](05_rechner_input_berger.json) | Eingabeparameter für automatisierten JVEG-Rechner |
 | [06_antwortbaustein.docx](06_antwortbaustein.docx) | Argumentationshilfe und Musterformulierungen zur Reaktion auf Vorschussablehnung |
 | [07_rechner_output_berger.json](07_rechner_output_berger.json) | Berechnungsergebnis des JVEG-Rechners inkl. Warnhinweisen |
+| [08_hotelrechnung_gaestehaus_neckarblick.docx](08_hotelrechnung_gaestehaus_neckarblick.docx) | Hotelrechnung über 197,00 EUR mit Bestätigung, dass günstigere Zimmer belegt waren |
+| [09_email_berger_an_kanzlei_belege.eml](09_email_berger_an_kanzlei_belege.eml) | E-Mail der Zeugin zum Festsetzungsbeschluss, zur BWA-Übersetzung und zu offenen Belegfragen |
 | [berechnung_zeugenentschaedigung_berger.xlsx](berechnung_zeugenentschaedigung_berger.xlsx) | Detailliertes Excel-Rechenblatt: Fahrtkosten, Übernachtung, Verdienstausfall, Zeitversäumnis |
 | [berechnung_zeugenentschaedigung_berger.docx](berechnung_zeugenentschaedigung_berger.docx) | Markdown-Vorschau des Rechenblatts |
 | [ladungsschreiben_lg_tuebingen.docx](ladungsschreiben_lg_tuebingen.docx) | Originalladung des LG Tübingen an Dr. Berger (05.01.2026) |
@@ -135,5 +152,3 @@ Diese Akte zeigt das **JVEG-Entschädigungsrecht** an einem praxisnahen internat
 Die Akte deckt die gesamte Prozesskette ab: Ladung → Vorschussantrag → Ablehnung → Verhandlung → Festsetzungsantrag → Festsetzungsbeschluss → Erinnerung. Sie eignet sich damit als Referenzfall für plugin-gestützte JVEG-Prüfung (jveg-kostenprüfer) und für die manuelle Fehleranalyse.
 
 ---
-
-## Disclaimer

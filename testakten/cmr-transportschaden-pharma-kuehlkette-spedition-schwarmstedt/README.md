@@ -1,18 +1,26 @@
 # Akte: CMR-Transportschaden Pharma Kühlkette / Schwarmstedt Logistik GmbH — Kühlkettenbruch, Art. 29 CMR, Versicherungsstreit, Embargo
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 652 KB) | PDF | [`gesamt-pdf/cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt_gesamt.pdf`](gesamt-pdf/cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt.zip) · [Druckpaket 10](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-10.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt_gesamt.pdf`](gesamt-pdf/cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-cmr-transportschaden-pharma-kuehlkette-spedition-schwarmstedt-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -66,7 +74,6 @@ Arbeitsakte zum Plugin `fachanwalt-transport-speditionsrecht`.
 
 | Nr. | Datei | Inhalt |
 |---|---|---|
-| 01 | [`01_mandatsaufnahme_erstgespraech.docx`](01_mandatsaufnahme_erstgespraech.docx) | Kanzleinotiz Erstgespräch 14.03.2026; Sachverhalt, Vollmacht, Verfahrensübersicht |
 | 02 | [`02_beteiligte_und_vertragsstruktur.docx`](02_beteiligte_und_vertragsstruktur.docx) | Beteiligte (Schwarmstedt, MediVita, HCL Lyon, Petrescu, Behörden), Vertragsstruktur CMR-Kette |
 | 03 | [`03_cmr_haftungsrahmen_art23_art29.docx`](03_cmr_haftungsrahmen_art23_art29.docx) | Rechtsgutachten Art. 23 Abs. 3 CMR vs. Art. 29 CMR; SZR-Berechnung; Verteidigungsstrategie |
 | 04 | [`04_temperaturlogger_auswertung.docx`](04_temperaturlogger_auswertung.docx) | DataTrack 4000 Rohdaten; Temperaturkurve; Sachverständigenbefund Kretschmann; Alarmversagen |
@@ -88,6 +95,7 @@ Arbeitsakte zum Plugin `fachanwalt-transport-speditionsrecht`.
 | 20 | [`20_vergleichsoptionen_und_adr.docx`](20_vergleichsoptionen_und_adr.docx) | Vergleichskorridore; Mediation; § 153a StPO; OWi-Strategien; Verfahrenspyramide |
 | 21 | [`21_beweismittelverzeichnis_zeugen.docx`](21_beweismittelverzeichnis_zeugen.docx) | Urkundenliste; Zeugenverzeichnis; Sachverständige; offene Beweiserhebungsmaßnahmen |
 | 22 | [`22_verfahrensstand_chronologie_ausblick.docx`](22_verfahrensstand_chronologie_ausblick.docx) | Ereignischronologie Jan.–Mai 2026; Fristenübersicht; Risikomatrix; Ausblick 2027 |
+| 23 | [`23_chat_disposition_fahrer_schadensnacht.txt`](23_chat_disposition_fahrer_schadensnacht.txt) | Gesicherter Chat Disposition Warnecke / Fahrer Catalin Petrescu, 13.–14. Januar 2026: Fehler F-27, ausgebliebener App-Alarm, Kühler-Diesel, Annahmeverweigerung Lyon |
 
 ---
 
@@ -118,6 +126,10 @@ Arbeitsakte zum Plugin `fachanwalt-transport-speditionsrecht`.
 | [`eml/2026-01-22_medivita_schadensforderung.eml`](eml/2026-01-22_medivita_schadensforderung.eml) | MediVita Quasdorf an Funkbruch: Formelle Schadensanmeldung 8.208.000 EUR |
 
 ### PDFs
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Datei | Inhalt |
 |---|---|

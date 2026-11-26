@@ -1,18 +1,26 @@
 # BGB BT — Smart-Kühlschrank, digitale Elemente und Reparaturblockade
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 64 KB) | PDF | [`gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf`](gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip) · [Druckpaket 09](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-09.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf`](gesamt-pdf/bgb-bt-smart-kuehlschrank-digital-repair-koeln_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-bt-smart-kuehlschrank-digital-repair-koeln-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -50,7 +58,6 @@ Nach einem OTA-Update im Februar 2026 fällt erst das Eiswürfelmodul aus, spät
 
 | Datei | Inhalt |
 | --- | --- |
-| `01_mandatsnotiz_erstgespraech.docx` | Erstgespräch, Fristen, Ziel der Käuferin |
 | `02_bestellung_rechnung_agb.docx` | Bestellung, Rechnung, AGB-Auszug, Garantieversprechen |
 | `03_produktbeschreibung_vestacool_fr900.docx` | Funktionen, digitale Elemente, Werbeaussagen |
 | `04_update_timeline_firmware_app.docx` | Firmware-/App-Timeline und Warnmeldungen |
@@ -62,6 +69,8 @@ Nach einem OTA-Update im Februar 2026 fällt erst das Eiswürfelmodul aus, spät
 | `10_entwurf_anschreiben_haendler.docx` | anwaltlicher Entwurf an Händler und Hersteller |
 | `11_anspruchsmatrix_arbeitsstand.docx` | Anspruchsmatrix ohne abschließende Lösung |
 | `emails/*.eml` | E-Mail-Verkehr Käuferin, Händler, Hersteller, Werkstatt |
+| `emails/email-hausverwaltung-an-mandantin-wasserschaden.eml` | Hausverwaltung meldet Feuchtigkeitsschaden in der Wohnung darunter und auffällige Stromzählerstände |
 | `tabellen/*.csv` | Kosten, Fristen, Update-/Temperaturlog |
+| `tabellen/entsorgte-lebensmittel-belegliste.csv` | Aufstellung entsorgter Lebensmittel mit teils fehlenden Belegen und geschätzten Beträgen |
 | `xlsx/*.xlsx` | strukturierte Fristen- und Mangelmatrix |
 | `docx/*.docx` | Entwurfsbrief und Reparaturprotokoll |

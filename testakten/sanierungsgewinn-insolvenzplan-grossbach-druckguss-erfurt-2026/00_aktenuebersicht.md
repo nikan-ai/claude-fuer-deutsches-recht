@@ -6,7 +6,6 @@ Diese Akte umfasst 20 Aktenstücke zur Sanierungssteuerproblematik der Grossbach
 
 | Reihenfolge | Aktenstück | Zweck |
 |---|---|---|
-| 1 | 01_mandatsnotiz_steuerberater_engelmeier.docx | Erstkontakt, Sachverhalt, steuerliche Problemlage |
 | 2 | 02_insolvenzantrag_schutzschirm_grossbach.docx | Verfahrensgrundlage |
 | 3 | 03_insolvenzplan_eckpunkte_und_quotenverteilung.docx | Plan-Eckpunkte (gestaltender Teil) |
 | 4 | 04_forderungsverzicht_verzichtsvereinbarung-glaeubigerausschuss.docx | Quelle des Sanierungsertrags |
@@ -26,10 +25,12 @@ Diese Akte umfasst 20 Aktenstücke zur Sanierungssteuerproblematik der Grossbach
 | 18 | 18_szenario_b_steuerlicher_sanierungsgewinn_und_3a_iv_antrag.docx | Hypothese B (Antrag rechtzeitig) |
 | 19 | 19_szenario_c_antrag_verspaetet_und_fg_koeln_linie.docx | Hypothese C (Antrag verspätet, FG-Koeln-Bezug) |
 | 20 | 20_mandantenbrief_grossbach-an-iv-final.docx | Abschlussbrief an IV |
+| 21 | 21_telefonvermerk_weissbrod_fa_erfurt_2026-07-08.md | Telefonvermerk StB Voltz: Eingangsbestätigung FA, Nachforderung Anlage 7c und Stellungnahme Frage 5 |
+| 22 | 22_email_gewerbesteueramt_zwischennachricht_7b.eml | Zwischennachricht Gewerbesteueramt Erfurt: Unterlagenanforderung bis 14.08.2026 |
 
 ## Konfliktthemen
 
-1. **Verspäteter § 3a IV EStG-Antrag.** Stellt der StB den Antrag nach Plan-Bestätigung, wirft das die Frage nach Praeklusion auf. Die Linie des FG Koeln 12 K 1413/25 wird in 12 und 19 vertieft.
+1. **Antrag nach Paragraf 3a Absatz 4 EStG erst nach Planbestätigung.** Verfahrensweg und mögliche Folgen des Zeitpunkts sind anhand des Gesetzes und belastbarer Verfahrensrechtsprechung gesondert zu prüfen. FG Köln 12 K 1413/25 trägt hierzu keine allgemeine verfahrensrechtliche Ausschlusswirkung; die Entscheidung betrifft die materiellen Sanierungsvoraussetzungen.
 2. **Verzahnung mit § 7b GewStG.** Der Parallelantrag muss eigenständig beim Gewerbesteueramt der Stadt Erfurt gestellt werden (07, 09).
 3. **Reichweite des Verlustvortrags.** 12 Mio EUR KSt-Verlust verrechnen mit 38 Mio EUR Sanierungsertrag, es bleiben 26 Mio EUR. Ohne § 3a EStG werden diese 26 Mio EUR steuerpflichtig — die Sanierung scheitert (17).
 4. **Haftung.** IV-Haftung (§ 60 InsO) und StB-Haftung (§ 280 BGB i.V.m. Mandatsvertrag) bei verspätetem Antrag (13).

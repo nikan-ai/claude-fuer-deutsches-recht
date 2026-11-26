@@ -1,18 +1,26 @@
 # Akte: Brandstiftung Lagerhalle Magdeburg-Rothensee
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 33 KB) | PDF | [`gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf`](gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip) · [Druckpaket 40](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-40.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf`](gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -63,7 +71,7 @@ Mandatsbezug: Silvio Brandner, Geschäftsführer der ElbeLager GmbH
 
 ```
 strafrecht-brandstiftung-lagerhalle-magdeburg/
-├── 01_mandatsnotiz_erstgespraech.docx                  Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_brandursachengutachten_2026-06-12.docx` | Brandursachengutachten mit Brandbild, Proben und offenen Punkten |
 ├── 02_sachverhalt_chronologie.docx                     Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                    Auszüge aus polizeilichen und staatsanwaltlichen Vermerken
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx           Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -75,10 +83,12 @@ strafrecht-brandstiftung-lagerhalle-magdeburg/
 ├── 10_brandnacht_ereignisprotokoll.csv                Minutenprotokoll aus Zutrittslog, Video, BMA und Zeugenzeiten (Datenauswertungs-Kern)
 ├── 11_beschuldigtenvernehmung_brandner_2026-05-28.docx Einlassung Brandner: technischer Defekt, war zu Hause
 ├── 12_brandursachengutachten_vorab_2026-05-19.docx     Vorabgutachten: Brandbeschleuniger an Tor 3, technischer Defekt nicht belegt
+├── 14_telefonvermerk_wachmann_naumann_2026-06-04.docx    Telefonat des Verteidigers mit Wachmann Naumann zu Rundgang, Videoausfällen und Werksausweisen
 ├── eml/
 │   ├── 01_bankmahnung_kreditkuendigung_2026-05-06.eml     Letzte Mahnung der Hausbank vor Kreditkündigung (Motiv)
 │   ├── 02_hansemerkur_deckung_inventar_2026-05-20.eml     Versicherer nennt Deckungssummen und fragt Inventarwert ab
-│   └── 03_securitas_uebersendung_logs_2026-05-19.eml      Wachdienst übersendet Zutritts- und Alarmprotokoll der Tatnacht
+│   ├── 03_securitas_uebersendung_logs_2026-05-19.eml      Wachdienst übersendet Zutritts- und Alarmprotokoll der Tatnacht
+│   └── 04_elektro_stoerungshistorie_tor3_2026-06-05.eml   Elektrobetrieb übersendet Einsatzhistorie zum Schaltschrank Tor 3 mit nicht beauftragter Sanierung
 ├── whatsapp/
 │   └── chatverlauf.txt                                  Chat Brandner/Bruder: Versicherung erhöht, Mahnung, Fahrt zur Halle
 ├── README.md                                            Diese Übersicht

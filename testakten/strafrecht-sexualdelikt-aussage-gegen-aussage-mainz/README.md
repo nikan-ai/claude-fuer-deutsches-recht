@@ -1,18 +1,26 @@
 # Akte: Aussage-gegen-Aussage-Verfahren Mainz
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 33 KB) | PDF | [`gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf`](gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip) · [Druckpaket 40](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-40.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf`](gesamt-pdf/strafrecht-sexualdelikt-aussage-gegen-aussage-mainz_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-sexualdelikt-aussage-gegen-aussage-mainz-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -66,7 +74,7 @@ Mandatsbezug: Leonie Hartmann, Geschädigte und Nebenklageinteressentin
 
 ```
 strafrecht-sexualdelikt-aussage-gegen-aussage-mainz/
-├── 01_mandatsnotiz_erstgespraech.docx                     Erstkontakt, Rolle, Sofortfragen und Mandatsziel
+| `13_rechtsmedizinischer_befundbericht_2026-04-07.docx` | Rechtsmedizinischer Befundbericht mit Spurensicherung |
 ├── 02_sachverhalt_chronologie.docx                        Ausformulierter Sachverhalt, Zeitachse und offene Widersprüche
 ├── 03_ermittlungsakte_auszuege.docx                       Auszüge aus polizeilichen und staatsanwaltlichen Vermerken
 ├── 04_beweismittel_und_arbeitsauftraege.xlsx              Beweismittelmatrix mit Belastungs- und Entlastungsrichtungen
@@ -77,10 +85,12 @@ strafrecht-sexualdelikt-aussage-gegen-aussage-mainz/
 ├── 09_originalanlage_behoerdenvermerk.pdf                 PDF-Anlage mit behördlichem oder fachlichem Vermerk
 ├── 10_kontakt_nachrichten_zeitleiste.csv                  Aus mehreren Quellen zusammengeführte Zeitleiste mit objektiven Ankern
 ├── 11_zeugenvernehmung_demir_2026-04-30.docx              Aussage der Freundin zu Sprachnachrichten und Zeitverlauf
+├── 14_zwischennachricht_lg_mainz_zeugenschutz_2026-07-28.docx   Zwischennachricht der Kammer zu Terminplanung, Wartebereich und Videoanlage
 ├── eml/
 │   ├── 01_rechtsmedizin_befunduebersendung_2026-04-08.eml     Übersendung des Untersuchungsbefunds, unspezifische Belastungssymptome
 │   ├── 02_frauennotruf_prozessbegleitung_2026-04-20.eml       Angebot psychosozialer Prozessbegleitung nach Paragraf 406g StPO
-│   └── 03_ladung_zeugin_demir_2026-04-22.eml                  Ladung der Zeugin zur Vernehmung mit Bitte um Sicherung der Nachrichten
+│   ├── 03_ladung_zeugin_demir_2026-04-22.eml                  Ladung der Zeugin zur Vernehmung mit Bitte um Sicherung der Nachrichten
+│   └── 04_taxi_fahrtdaten_funk_mainz_2026-05-06.eml           Fahrtdaten der Taxizentrale mit Bestellzeit, Fahrtverlauf und Fahrerhinweis
 ├── whatsapp/
 │   └── chatverlauf.txt                                    Chat Hartmann/Reimers: freundlicher Verlauf vorher, abrupter Abbruch danach
 ├── README.md                                              Diese Übersicht

@@ -1,18 +1,26 @@
 # Sozialrechtsakte Schwerbehindertenverfahren GdB und Merkzeichen Münster
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 41 KB) | PDF | [`gesamt-pdf/sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster_gesamt.pdf`](gesamt-pdf/sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster_gesamt.pdf`](gesamt-pdf/sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -25,10 +33,9 @@ Helga Bertram, 62, Küchenhilfe in einer Schulkantine in Münster-Hiltrup, hat s
 ## Aktenstruktur
 
 ```
-sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster/
+sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-münster/
 ├── README.md                                          <- diese Übersicht
 ├── rubric.yaml                                        <- Prüfkriterien für die Bearbeitung
-├── 01_mandatsnotiz_fristsache.docx                      <- Erstgespräch, Frist, Auftrag, Kostenhinweis
 ├── 02_bescheid_gdb_ablehnung.docx                       <- Bescheid der Stadt Münster mit Rechtsbehelfsbelehrung
 ├── 03_hausarzt_befundbericht.docx                       <- Hausärztlicher Bericht mit Diagnosen und Medikation
 ├── 04_neurologie_bericht.docx                           <- Neurologischer Facharztbericht mit Elektroneurographie
@@ -39,8 +46,12 @@ sozialrecht-schwerbehindertenverfahren-gdb-merkzeichen-muenster/
 ├── 09_befundanforderung_liste.docx                      <- Interner Arbeitszettel zu Befundanforderungen
 ├── 10_fristen_und_anlagen.csv                         <- Fristenblatt und Eingangsübersicht
 ├── 11_klagestrategie_sg.docx                            <- Interner Vermerk zur Klagestrategie
-├── 12_akteneinsicht_versorgungsaerztliche_stellungnahme.docx <- Übersendungsschreiben und versorgungsärztliche Stellungnahme
+├── 12a_uebersendung_akteneinsicht_stadt_muenster.docx   <- Eigenständiges Übersendungsschreiben zur Akteneinsicht
+├── 12b_versorgungsaerztliche_stellungnahme_2026-06-12.docx <- Gesonderte versorgungsärztliche Stellungnahme
 ├── 13_orthopaedie_befundbericht.docx                    <- Nachgereichter orthopädischer Befund
+├── 14_zwischennachricht_stadt_widerspruch_2026-07-06.docx <- Eingangsbestätigung der Stadt mit Hinweisen zum Verfahrensgang
+├── 15_email_bertram_an_kanzlei_2026-07-16.eml           <- E-Mail der Mandantin zu Fußbefund, Sturz vom 22.04. und Rentenfrage
+├── 16_gehstrecken_handyapp_export.csv                   <- Export der Handy-App mit Wegstrecken, Zeiten und Pausen
 └── gesamt-pdf/                                        <- konsolidierte Lesefassung als PDF
 ```
 

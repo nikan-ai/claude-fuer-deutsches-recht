@@ -1,0 +1,72 @@
+# Betriebskosten 2025: Eigenverwaltung eines Berliner Mietshauses
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lebensakte-betriebskosten-2025-mietshaus-schoeneberg.zip) · [Druckpaket 09](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-lebenswelt-v1.0.0/lesepaket-09.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/betriebskosten-2025-mietshaus-schoeneberg_gesamt.pdf`](gesamt-pdf/betriebskosten-2025-mietshaus-schoeneberg_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-betriebskosten-2025-mietshaus-schoeneberg.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-betriebskosten-2025-mietshaus-schoeneberg.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-betriebskosten-2025-mietshaus-schoeneberg-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-betriebskosten-2025-mietshaus-schoeneberg-einzelpdfs.zip) |
+
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+[Plugin](../../betriebskosten-hausverwaltung/README.md) · [Alle Akten](../README.md) · [Download-Index](../../ASSET_INDEX.md)
+
+## 1. Gegenstand
+
+Die Südquadrat Wohnen GmbH besitzt das gesamte Haus Gotenstraße 73 in Berlin-Schöneberg und führt die Verwaltung selbst. Es gibt keine Eigentümergemeinschaft. Die Mieter einer Vierzimmerwohnung mit 108 m² erhalten im August 2026 ihre Betriebskostenabrechnung für 2025 und wenden sich danach an das Objektbüro. Aktenstand ist der 15. September 2026.
+
+Das Gebäude von 2010 hat acht Wohnungen, eine zentrale Ölheizung mit Warmwasserbereitung, eine Dach-Photovoltaikanlage und sechs separat vermietete Tiefgaragenplätze. Die betroffene Wohnung hat keinen Stellplatz. Die eingegangenen Belege umfassen laufende Dienstleistungen, Gebäudeschäden, Gutschriften, Versicherungszahlungen und die vom Angebot bis zur Grundinstallation im Juni 2026 fortgeführten Unterlagen zur Ladeinfrastruktur. Private Ladegeräte sind bis zu dieser Übergabe noch nicht installiert.
+
+Weitere Vorgänge betreffen zwei Fahrradaktionen, eine Legionellenuntersuchung und Geruchsbelästigungen aus dem Restaurant TAFELGUT im benachbarten Erdgeschoss der Gotenstraße 71. Das Nachbarhaus gehört ebenfalls der Gesellschaft, wird aber unter GO71 getrennt geführt; die acht Wohnungen und 800 Quadratmeter des Mietshauses GO73 ändern sich dadurch nicht. Filterservice, neue Abluftführung, ursprüngliche Rechnung, Storno und berichtigte Rechnung sind getrennte Aktenstücke. Bewohner, Restaurantbetreiber, Verwaltung und Handwerker kommen mit eigenen Nachrichten zu Wort.
+
+Abrechnung und Verwaltungsbuchhaltung sind Unterlagen der Beteiligten, keine fachlich geprüfte Musterlösung. Der Fall ist vom Eigentumswohnungsfall in der Ebersstraße getrennt. Die bereitgestellte Kursmappe von 2024 dient nur als thematischer und gestalterischer Ausgangspunkt; ihre Parteien, Zahlen und Dozentenlösungen wurden nicht in diesen Vorgang übernommen.
+
+## 2. Downloads
+
+Nur eine der drei Fassungen in denselben Arbeitsordner übernehmen, damit Rechnungen und Korrespondenz nicht mehrfach ausgewertet werden.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Fassung | Download |
+| --- | --- |
+| Gesamt-PDF | [Alle Unterlagen lesen](gesamt-pdf/betriebskosten-2025-mietshaus-schoeneberg_gesamt.pdf) |
+| Originalformate | [Akten-ZIP mit Grundakte](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-betriebskosten-2025-mietshaus-schoeneberg.zip) |
+| Einzelne PDFs | [Flaches Einzel-PDF-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-betriebskosten-2025-mietshaus-schoeneberg-einzelpdfs.zip) |
+
+Beide ZIPs enthalten eine zweisprachige `README.txt`, jedoch keine Unterordner. Im Originalformat-ZIP bleiben Tabellen bearbeitbar und E-Mails als EML erhalten. Es enthält kein Markdown. Im Einzel-PDF-ZIP wird jedes Quelldokument getrennt ausgegeben.
+
+English: The property company owns the whole building and handles the accounts internally. This is a separate case from the condominium-management scenario. Download one of the three equivalent formats. The original-format ZIP preserves editable financial records and correspondence; it does not provide a legal solution.
+
+## 3. Unterlagen finden
+
+| Ordner | Inhalt |
+| --- | --- |
+| [Belege](belege/) | Hausservice, Energie, Wasser, Entsorgung, Versicherung, Reparaturen, Grundsteuerbescheide und versandte Abrechnung |
+| [Zahlenwerk](zahlenwerk/) | Belegeingang, Flächen, Verbrauchswerte, Tankbuch, Mietkonto, Sonderbuchungen und Excel-Arbeitsmappe |
+| [Aktenstücke](aktenstuecke/) | Mietvertrag, interne Zuständigkeiten, Leistungsnachweise und Projektunterlagen |
+| [Korrespondenz](korrespondenz/) | Schriftverkehr und Nachrichten aus dem laufenden Objektbetrieb |
+
+Die Grundsteuerunterlagen betreffen das gesamte Mietwohngrundstück. Die Belegsammlung enthält neben Unterlagen aus 2025 auch Vorjahresnachweise und später eingegangene Rechnungen; Rechnungsdatum, Leistungszeitraum und Zahlung sind jeweils gesonderte Angaben.
+
+Die ergänzten Eingänge stehen in `Belegnachtrag_2025_2026.csv`, die zugehörigen Überweisungen der Verwaltung in `Zahlungsdetails_Nachtraege.csv`. Restaurantunterlagen und Nachbarhaus bleiben an ihrer jeweiligen Empfänger- und Objektangabe erkennbar. Die schon versandte Abrechnung und die ursprüngliche Excel-Arbeitsmappe werden nicht nachträglich überschrieben. Die Akte enthält weiterhin keine ausgefüllte rechtliche Bewertungsmatrix.
+
+Kontaktangaben gehören zum dargestellten Vorgang und sind keine Empfehlung oder Aufforderung, Personen anzuschreiben oder Zahlungen auszuführen.
+
+Passend zu: `betriebskosten-hausverwaltung`, `mietrecht`, `fachanwalt-miet-wohnungseigentumsrecht`, `grundsteuerrecht`.

@@ -1,18 +1,26 @@
 # Sanierungsgewinn im Insolvenzplan — Grossbach Druckguss & Präzision GmbH & Co. KG Erfurt (2026)
 
-
 <!-- BEGIN gesamt-pdf-section (autogen) -->
 ## Akte komplett herunterladen
 
-Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen. Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden.
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
+Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner `Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung ist separat abrufbar. Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
 
 | Was | Format | Quelle |
 | --- | --- | --- |
-| Gesamt-PDF (alles in einer Datei, 138 KB) | PDF | [`gesamt-pdf/sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026-einzelpdfs.zip) |
+| **Vollakte mit Eingangspost** | ZIP | [Arbeits-ZIP mit Eingangspost](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/lebensakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip) · [Druckfassungen dieses Falls](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-fachakten-v1.1.0/druckakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip) |
+| Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026_gesamt.pdf`](gesamt-pdf/sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026-einzelpdfs.zip) |
 
-Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht für die Nachbesprechung getrennt bereit.
+
+English: Start with the `Grundakte` folder in the original-format ZIP. It contains the selected intake records. Later procedural documents are outside that folder. Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP. Choose the individual-PDF ZIP to review each document separately.
 
 <!-- END gesamt-pdf-section (autogen) -->
 
@@ -34,8 +42,8 @@ Schwerpunkt-Skills (Auswahl):
 - `/steuerrecht-anwalt-und-berater:stb-sanierungsgewinn-verlustvortrag-sanity-check`
 - `/insolvenzrecht:insol-sanierungsgewinn-3a-estg-im-insolvenzplan`
 - `/insolvenzrecht:insol-sanierungsgewinn-7b-gewstg-im-insolvenzplan-paralleltrack`
-- `/grosskanzlei-corporate-ma:gk-sanierungsgewinn-3a-estg-praxis-fuer-corporate-ma`
-- `/grosskanzlei-corporate-ma:gk-sanierungsgewinn-vorbescheid-und-verbindliche-auskunft`
+- `/grosskanzlei-corporate-ma:krise-und-streit-bearbeiten Thema: gk-sanierungsgewinn-3a-estg-praxis-fuer-corporate-ma`
+- `/grosskanzlei-corporate-ma:krise-und-streit-bearbeiten Thema: gk-sanierungsgewinn-vorbescheid-und-verbindliche-auskunft`
 
 ## Mandantin und Verfahren
 
@@ -54,7 +62,7 @@ Schwerpunkt-Skills (Auswahl):
 | Verlustvortrag KSt | 12.000.000 EUR |
 | Verlustvortrag GewSt | 14.000.000 EUR |
 | Verbleibender Sanierungsertrag nach § 3a III EStG | 26.000.000 EUR (steuerbefreit über § 3a EStG) |
-| Konfliktpunkt | Antrag § 3a IV EStG zu spät gestellt (FG Köln 12 K 1413/25-Linie) |
+| Konfliktpunkt | Antrag auf gesonderte Feststellung nach Paragraf 3a Absatz 4 EStG erst nach Planbestätigung; Verfahrensfolgen gesondert zu prüfen |
 
 ## Aktenzeichen
 
@@ -72,7 +80,7 @@ Q3/2025: Verlust BMW-Kleinserien-Aufträge im Volumen 18 Mio EUR p.a. wegen Mode
 
 ## Steuerlicher Knackpunkt
 
-Der Verlustvortrag von 12 Mio EUR (KSt) reicht nicht aus, den Sanierungsertrag von 38 Mio EUR vollständig zu verbrauchen. Es verbleibt ein Saldo von 26 Mio EUR, der ohne § 3a EStG voll steuerpflichtig wäre und die Sanierung sofort wieder zum Scheitern bringen würde. Der Antrag nach § 3a IV EStG ist daher zwingend rechtzeitig zu stellen. StB Engelmeier hatte ihn erst nach Planbestätigung gestellt — eine offene Frage, ob die Linie des FG Köln, Urteil v. 04.11.2025 — 12 K 1413/25, hier zugunsten der Schuldnerin greift oder das FA Erfurt die Steuerbefreiung versagt.
+Der Verlustvortrag von 12 Mio EUR (KSt) reicht nicht aus, den Sanierungsertrag von 38 Mio EUR vollständig zu verbrauchen. Es verbleibt ein Saldo von 26 Mio EUR, der ohne Paragraf 3a EStG steuerpflichtig sein kann und die Sanierung gefährden würde. Der Antrag auf gesonderte Feststellung nach Paragraf 3a Absatz 4 EStG wurde erst nach Planbestätigung gestellt; die verfahrensrechtlichen Folgen sind eigenständig zu prüfen. FG Köln, Urteil vom 04.11.2025 — 12 K 1413/25, trägt hierzu keine allgemeine verfahrensrechtliche Ausschlusswirkung, sondern betrifft die materiellen Sanierungsvoraussetzungen und die Sanierungseignung im Zeitpunkt des Schuldenerlasses.
 
 ## Aktenstruktur
 
@@ -80,7 +88,6 @@ Der Verlustvortrag von 12 Mio EUR (KSt) reicht nicht aus, den Sanierungsertrag v
 sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026/
 ├── README.md                                                            ← Diese Datei
 ├── 00_aktenuebersicht.md
-├── 01_mandatsnotiz_steuerberater_engelmeier.docx
 ├── 02_insolvenzantrag_schutzschirm_grossbach.docx
 ├── 03_insolvenzplan_eckpunkte_und_quotenverteilung.docx
 ├── 04_forderungsverzicht_verzichtsvereinbarung-glaeubigerausschuss.docx
@@ -99,7 +106,9 @@ sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026/
 ├── 17_szenario_a_kein_steuerlicher_sanierungsgewinn_durch_3a_iii.docx
 ├── 18_szenario_b_steuerlicher_sanierungsgewinn_und_3a_iv_antrag.docx
 ├── 19_szenario_c_antrag_verspaetet_und_fg_koeln_linie.docx
-└── 20_mandantenbrief_grossbach-an-iv-final.docx
+├── 20_mandantenbrief_grossbach-an-iv-final.docx
+├── 21_telefonvermerk_weissbrod_fa_erfurt_2026-07-08.docx
+└── 22_email_gewerbesteueramt_zwischennachricht_7b.eml
 ```
 
 ## Quellennachweis (Rechtsnormen und Rechtsprechung)
@@ -113,7 +122,23 @@ sanierungsgewinn-insolvenzplan-grossbach-druckguss-erfurt-2026/
 - § 89 AO — Verbindliche Auskunft: https://dejure.org/gesetze/AO/89.html
 - § 60 InsO — Haftung des Insolvenzverwalters: https://dejure.org/gesetze/InsO/60.html
 - § 370 AO — Steuerhinterziehung: https://dejure.org/gesetze/AO/370.html
-- FG Köln, Urteil v. 04.11.2025 — 12 K 1413/25 (zur Antragstellung § 3a IV EStG)
+- FG Köln, Urteil vom 04.11.2025 — 12 K 1413/25 (materielle Voraussetzungen des Sanierungsertrags und ex-ante-Sanierungseignung; kein allgemeiner Fristenanker)
 - BFH, Urteil v. 26.02.2003 — II R 19/01 (Verbindlichkeiten bleiben über Liquidation hinaus)
 - FG Köln, Urteil v. 06.03.2012 — 13 K 3006/11, GmbHR 2012, 977 (vorgehend zu BFH I R 34/12) — Liquidation, Rangrücktritt und Steuerausfall mangels Körperschaftsteuersubjekt; relevanter Querverweis für das nachrangige Gesellschafterdarlehen Friedhelm Grossbach (4 Mio EUR), falls der Plan-Pfad scheitert und eine Liquidationslösung diskutiert wird.
 - OFD Frankfurt a. M. (Liquidationsbeschluss kein konkludenter Verzicht)
+
+<!-- BEGIN pruefmaterial-insolvenz -->
+## Vorlagen und Vergleichsmaterial
+
+Für einen eigenständigen Testlauf verwenden Sie die Arbeitsakte und die Blankovorlagen. Ziehen Sie das Gutachten oder den fallbezogenen Plan erst beim Vergleich der Ergebnisse heran. Die Dateien in dieser Tabelle sind separat von den Aktenarchiven verfügbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Unterlage | Datei |
+| --- | --- |
+| Insolvenzplan (Blanko, ODT) | [Datei öffnen](pruefmaterial-insolvenz/insolvenzplan-blanko.odt) |
+| Insolvenzplan Grossbach Druckguss und Präzision GmbH und Co KG | [Datei öffnen](pruefmaterial-insolvenz/insolvenzplan-grossbach-sanierungsgewinn.docx) |
+
+<!-- END pruefmaterial-insolvenz -->
