@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Fuegt in jede testakten/<name>/README.md prominent ganz oben eine
-Akte-komplett-Sektion ein mit zwei Downloads:
+Akte-komplett-Sektion mit drei getrennten Downloadfassungen ein:
 
 1. Gesamt-PDF (im Repo unter gesamt-pdf/<slug>_gesamt.pdf eingecheckt)
-2. Akten-ZIP mit allen Einzeldateien (aus dem GitHub-Release,
-   stabile URL releases/latest/download/testakte-<slug>.zip).
+2. Akten-ZIP mit nativen Originaldateien ohne Markdown.
+3. Einzel-PDF-ZIP mit getrennten PDFs; bestellte Projektordner bleiben erhalten.
 
 Idempotent ueber HTML-Marker. Position: direkt nach dem H1, vor allen
 weiteren Sektionen (insbesondere vor dem Direkt-Download-Block).
+
+Ohne Argumente werden alle Akten bearbeitet und Warnhinweise unmittelbar vor
+Testakten-Downloads auch in Root-, Index- und Plugin-READMEs ergaenzt.
+Optional koennen konkrete Testakten-Namen angegeben werden, um nur deren
+Downloadsektionen zu erneuern.
 """
 from __future__ import annotations
 
@@ -15,7 +20,12 @@ import re
 import sys
 from pathlib import Path
 
+from release_routing import case_asset_url, companion_cases, rewrite_case_asset_urls
 from testakte_einzelpdf_common import expected_arcnames
+from testakte_disclaimer import NOTICE_MARKDOWN
+from testakte_grundakte import selection
+from testakte_download_notices import ensure_download_notices, update_download_readmes
+from testakte_zip_common import preserves_directories, source_zip_includes_gesamt_pdf
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TESTAKTEN_DIR = REPO_ROOT / "testakten"
@@ -31,55 +41,186 @@ SKIP_DIRS = {
 MARKER_BEGIN = "<!-- BEGIN gesamt-pdf-section (autogen) -->"
 MARKER_END = "<!-- END gesamt-pdf-section (autogen) -->"
 
-RELEASE_BASE = (
-    "https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download"
-)
+
+from akteneingang.verweise import central_row
 
 
-def section_block(slug: str, pdf_rel: str | None, size_kb: int | None, has_einzelpdf: bool = False) -> str:
-    zip_url = f"{RELEASE_BASE}/testakte-{slug}.zip"
-    einzel_url = f"{RELEASE_BASE}/testakte-{slug}-einzelpdfs.zip"
+def section_block(slug: str, pdf_rel: str | None, has_einzelpdf: bool = False) -> str:
+    zip_url = case_asset_url(slug, root=REPO_ROOT)
+    einzel_url = case_asset_url(slug, "-einzelpdfs", root=REPO_ROOT)
     einzel_row = (
         f"\n| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-{slug}-einzelpdfs.zip]({einzel_url}) |"
         if has_einzelpdf
         else ""
     )
     einzel_intro = (
-        " Das Einzel-PDF-ZIP liefert jede einzelne Unterlage als separate, sauber gerenderte PDF im Originalordnerlayout — praktisch, wenn nur einzelne Aktenstücke gebraucht werden."
+        " Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene."
         if has_einzelpdf
         else ""
     )
-    if pdf_rel is not None and size_kb is not None:
+    if pdf_rel is not None:
         rows = (
-            f"| Gesamt-PDF (alles in einer Datei, {size_kb} KB) | PDF | [`{pdf_rel}`]({pdf_rel}) |\n"
+            f"| Gesamt-PDF (alles in einer Datei) | PDF | [`{pdf_rel}`]({pdf_rel}) |\n"
             f"| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-{slug}.zip]({zip_url}) |"
             f"{einzel_row}"
         )
+        formats = "drei" if has_einzelpdf else "zwei"
         intro = (
-            "Dieses Aktenpaket gibt es in mehreren Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen."
+            f"Dieses Aktenpaket gibt es in {formats} Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene."
             + einzel_intro
         )
-        trailer = "Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten."
+        if source_zip_includes_gesamt_pdf(TESTAKTEN_DIR / slug):
+            trailer = "Die ZIP-Links laden den zuletzt veröffentlichten Release. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein."
+        else:
+            trailer = "Die ZIP-Links laden den zuletzt veröffentlichten Release. Das Originalformat-ZIP enthält ausschließlich die nativen Aktenstücke und README.txt; das Gesamt-PDF und eine Lösung sind darin nicht enthalten. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein."
     else:
         rows = (
             f"| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-{slug}.zip]({zip_url}) |"
             f"{einzel_row}"
         )
         intro = (
-            "Dieses Aktenpaket gibt es als Akten-ZIP zum Direkt-Download. Es enthält sämtliche Originaldateien (DOCX-Aktenstücke mit Briefkopf, Tabellen, E-Mails, Fotos, PDFs, XLSX) im Originalordnerlayout für eigene Auswertungen."
+            "Dieses Aktenpaket gibt es als Akten-ZIP zum Direkt-Download. Es enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs, aber kein Markdown. Sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene."
             + einzel_intro
         )
-        trailer = "Die ZIP-URLs sind stabil und zeigen immer auf die aktuelle Version."
+        trailer = "Die ZIP-Links laden den zuletzt veröffentlichten Release. Der Repository-Stand kann zwischen Releases bereits neuer sein."
+    english = "English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown."
+    if preserves_directories(Path(slug)):
+        formats = 'drei' if pdf_rel is not None and has_einzelpdf else 'zwei'
+        intro = (f'Diese Projektakte gibt es in {formats} Formaten. Das Originalformat-ZIP erhält die vollständige '
+                 'Unterordnerstruktur nach Leistungsphasen und Arbeitsbereichen. Es enthält bearbeitbare Word- und '
+                 'Excel-Dateien, E-Mails mit Anlagen sowie die übrigen Originalbelege; Markdown wird nicht mitgeliefert.')
+        if pdf_rel is not None:
+            intro += ' Das Gesamt-PDF führt die Unterlagen mit einem Dokumentenregister und navigierbaren Lesezeichen zusammen.'
+        if has_einzelpdf:
+            intro += ' Im Einzel-PDF-ZIP bleibt dieselbe Ordnerstruktur erhalten; jede Originalunterlage liegt als eigene A4-Lesefassung vor.'
+        english = ('English: This project-file edition preserves its subfolders in both ZIP formats. '
+                   'The original-format ZIP contains editable working documents and supporting records, without Markdown.')
+        if slug == 'compliance-hameln-schokolade-charge-k17':
+            intro = ('Öffnen Sie im Originalformat-ZIP zuerst `Grundakte`. Dort liegt der Stand der Entdeckung '
+                     'vom 6. November 2026, 09:25 Uhr. Die späteren Arbeitsstücke stehen in den Ordnern '
+                     '`Interne_Untersuchung`, `Zeugenbefragungen` und `Massnahmen_und_Auswertung`. '
+                     'Das Einzel-PDF-ZIP verwendet dieselbe Ordnerstruktur.')
+            trailer = ('Die Gesamt-PDF mit Lesezeichen führt durch alle Phasen. Für die erste Bearbeitung '
+                       'laden Sie nur die Grundakte aus einem der ZIPs.')
+            english = ('English: Both ZIPs preserve the four case folders. For the first exercise, open only '
+                       '`Grundakte`, which contains the intake records as of 09:25 on 6 November 2026.')
+        if slug == 'fintech-darlehen-vertragsuebernahme-bremen':
+            intro = ('Die Verfahrensakte gibt es in drei Formaten. Beide ZIPs erhalten die getrennten Ordner '
+                     'für Eingang, Klageerwiderung und Korrespondenz. Das Originalformat-ZIP enthält PDF, Word, '
+                     'E-Mail, Text und CSV, aber kein Markdown. Das Einzel-PDF-ZIP enthält jede Unterlage als '
+                     'eigenes PDF. Das Gesamt-PDF enthält auch die Klageerwiderung; sein Register und seine '
+                     'Lesezeichen führen zu den getrennten Arbeitsbereichen.')
+        if slug == 'forderungsmanagement-baeckerei-behaeltertausch-hamburg':
+            intro = ('Öffnen Sie zuerst `Grundakte` mit den Geschäftsunterlagen bis zum 6. November 2026. '
+                     'Die zugestellte Klage und die gerichtlichen Unterlagen stehen getrennt in '
+                     '`01_Gerichtseingang_2026-11-06`. Öffnen Sie '
+                     '`02_Nachlieferung_2026-11-12_und_13` erst für den zweiten Bearbeitungsstand. '
+                     'Beide ZIPs erhalten diese Ordner; das Originalformat-ZIP enthält die nativen Dateien.')
+            trailer = ('Die Lesezeichen im Gesamt-PDF führen zu allen Aktenstücken. '
+                       'Das Originalformat-ZIP enthält weder Gesamt-PDF noch Musterlösung. '
+                       'Die ZIP-Links führen zur veröffentlichten Aktenfassung.')
+            english = ('English: Start with `Grundakte`, then open the court-intake folder. '
+                       'Keep the later delivery separate until the second review. Both ZIPs preserve '
+                       'these folders; the combined PDF provides bookmarks for the complete file.')
+        if slug in {
+            'bav-strategie-konzern-meissner-rheinwerk-ag',
+            'bav-carve-out-rheinbogen-automation',
+            'bav-rentnergesellschaft-rheinhafen-logistik',
+            'bav-pensionskasse-niederrhein-verbund',
+        }:
+            intro = ('Beginnen Sie im Originalformat-ZIP mit `Grundakte`. Dort liegen die beim ersten '
+                     'Auftrag vorhandenen Verträge, Korrespondenzen und Rohdaten. Öffnen Sie `Fortsetzung` '
+                     'erst im zweiten Durchgang: Die nachgereichten Belege können die erste Einschätzung '
+                     'verändern. Beide ZIPs erhalten diese Ordner. Das Originalformat-ZIP enthält '
+                     'bearbeitbare Dokumente; das Einzel-PDF-ZIP bietet die Lesefassungen.')
+            trailer = ('Die Gesamt-PDF führt mit Lesezeichen durch beide Bearbeitungsstände. '
+                       'Sie und eine Musterlösung sind im Originalformat-ZIP nicht enthalten.')
+            english = ('English: Start with `Grundakte` and open `Fortsetzung` only for the second review. '
+                       'Both ZIPs preserve these folders. The original-format ZIP includes editable '
+                       'source records, without a model answer or combined PDF.')
+    if slug in selection()["central"]:
+        intro = ("Entpacken Sie das Akten-ZIP und laden Sie für den ersten Arbeitsauftrag nur den Ordner "
+                 "`Grundakte`. Dort stehen die ausgewählten Eingangsunterlagen und Belege. Falls ein "
+                 "Rechtsbehelf vorzubereiten ist, kann der zugrunde liegende Ausgangsbescheid dazugehören. "
+                 "Die weiteren Aktenstücke liegen außerhalb der Grundakte. Die vollständige Lesefassung "
+                 "ist separat abrufbar.")
+        if has_einzelpdf:
+            intro += " Das Einzel-PDF-ZIP dient der Durchsicht der vollständigen Akte."
+        trailer = ("Die ZIP-Links führen zu den veröffentlichten Aktenfassungen. Die Gesamt-PDF steht "
+                   "für die Nachbesprechung getrennt bereit.")
+        english = ("English: Start with the `Grundakte` folder in the original-format ZIP. It contains "
+                   "the selected intake records. Later procedural documents are outside that folder.")
+    if slug == 'bauunternehmer-einkauf-brandschutztueren-krimpfort':
+        intro = ('Öffnen Sie im Originalformat-ZIP zuerst `Grundakte`. Unter `00_LV_Entstehung` liegen '
+                 'Planung, Markterkundung und LV-Freigabe. In der Grundakte finden Sie außerdem das gemeinsame '
+                 'LV und die vier ersten Angebote mit GAEB-Dateien. Spätere Rückfragen, Nachträge und '
+                 'Verhandlungsunterlagen folgen außerhalb der Grundakte.')
+        trailer = ('Das Einzel-PDF-ZIP enthält die Lesefassungen der einzelnen Dokumente. '
+                   'Die Lesezeichen im Gesamt-PDF führen zu den Aktenstücken.')
+        english = ('English: The original-format ZIP starts with the initial records under `Grundakte`. '
+                   'They include planning, market research, the final bill of quantities and the first four bids. '
+                   'Later correspondence is available outside that folder.')
+    if pdf_rel is not None:
+        if source_zip_includes_gesamt_pdf(TESTAKTEN_DIR / slug):
+            english += " Choose the combined PDF for reading; it is also included in that ZIP."
+        else:
+            english += " Choose the combined PDF for reading; it is deliberately excluded from the original-format ZIP."
+    if has_einzelpdf:
+        english += " Choose the individual-PDF ZIP to review each document separately."
+    if slug not in selection()["central"]:
+        english += " These are practice documents, not an installable plugin. ZIP links refer to the latest published release."
+    if slug in companion_cases():
+        trailer = trailer.replace(
+            "Die ZIP-Links laden den zuletzt veröffentlichten Release.",
+            "Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease.",
+        )
+        english = english.replace(
+            "ZIP links refer to the latest published release.",
+            "ZIP links refer to the case companion release for the stated marketplace version.",
+        )
+    if slug == 'autohaus-boeblingen':
+        intro = ('Öffnen Sie im Akten-ZIP zuerst den Ordner `Grundakte`. Geben Sie die weiteren '
+                 'Ordner erst für den nächsten Arbeitsauftrag hinzu. Das Einzel-PDF-ZIP bewahrt '
+                 'dieselben Aktenstände und enthält jede Unterlage als eigene PDF.')
+        trailer = ('Im Gesamt-PDF führen Lesezeichen zu den Aktenständen und einzelnen Belegen. '
+                   'Die ZIPs enthalten nur die Arbeitsunterlagen und den Herkunftshinweis.')
+        english = ('English: Begin with the initial records in `Grundakte`. Both ZIP editions retain '
+                   'the separate stages. The combined PDF includes bookmarks for individual documents.')
+    if slug == 'neuralis-medtech-erlangen-gestaltungsakte':
+        intro = ('Die Kernakte enthält 37 Belege. Für den Workshop mit zusätzlicher Korrespondenz '
+                 'und einer fortgeschriebenen Arbeitsfassung gibt es die Vollakte mit 43 Belegen. '
+                 'Beginnen Sie bei den Originalunterlagen jeweils im Ordner `Grundakte`.')
+        core_rows = []
+        if pdf_rel is not None:
+            core_rows.append(f"| Gesamt-PDF der Kernakte | PDF | [37 Belege mit Lesezeichen auf 55 Seiten]({pdf_rel}) |")
+        core_rows.append(f"| Akten-ZIP der Kernakte | ZIP | [37 Originalunterlagen in drei Aktenständen]({zip_url}) |")
+        if has_einzelpdf:
+            core_rows.append(f"| Einzel-PDF-ZIP der Kernakte | ZIP | [37 Einzel-PDFs in denselben Ordnern]({einzel_url}) |")
+        rows = "\n".join(core_rows)
+        trailer = ('Das Druckpaket der Vollakte enthält eine Gesamtfassung mit 62 Seiten und ein ZIP mit '
+                   '43 Einzel-PDFs. Die Dateinamen der Einzel-PDFs nennen den Aktenstand.')
+        english = ('The core file contains 37 records in three stages. Choose the combined PDF to read them '
+                   'in order or one of the two core ZIPs to work through the folders. The extended case '
+                   'contains 43 records, available as original files or as a print package.')
+    intake_row = central_row(slug)
+    if intake_row:
+        rows = intake_row + "\n" + rows
     return f"""{MARKER_BEGIN}
 ## Akte komplett herunterladen
 
+[Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
+
 {intro}
+
+{NOTICE_MARKDOWN}
 
 | Was | Format | Quelle |
 | --- | --- | --- |
 {rows}
 
 {trailer}
+
+{english}
 
 {MARKER_END}
 """
@@ -88,16 +229,25 @@ def section_block(slug: str, pdf_rel: str | None, size_kb: int | None, has_einze
 H1_RE = re.compile(r"^# .+$", re.MULTILINE)
 
 
+def normalize_marker_spacing(text: str) -> str:
+    return re.sub(
+        r"(^# .+\n)\n+(?=" + re.escape(MARKER_BEGIN) + r")",
+        r"\1\n",
+        text,
+        count=1,
+        flags=re.MULTILINE,
+    )
+
+
 def inject(readme: Path, slug: str) -> str:
+    from readme_decimal_headings import normalize_decimal_headings
     pdf = readme.parent / "gesamt-pdf" / f"{slug}_gesamt.pdf"
     if pdf.exists():
-        size_kb = max(1, round(pdf.stat().st_size / 1024))
         pdf_rel = f"gesamt-pdf/{slug}_gesamt.pdf"
     else:
-        size_kb = None
         pdf_rel = None
     has_einzelpdf = bool(expected_arcnames(readme.parent))
-    new_section = section_block(slug, pdf_rel, size_kb, has_einzelpdf)
+    new_section = section_block(slug, pdf_rel, has_einzelpdf)
     text = readme.read_text(encoding="utf-8")
 
     # Falls bereits eingefuegt: ersetzen
@@ -106,7 +256,10 @@ def inject(readme: Path, slug: str) -> str:
         re.DOTALL,
     )
     if pat.search(text):
-        new_text = pat.sub(new_section, text, count=1)
+        new_text = ensure_download_notices(
+            normalize_marker_spacing(pat.sub(new_section, text, count=1)), case_readme=True
+        )
+        new_text = rewrite_case_asset_urls(normalize_decimal_headings(new_text), root=REPO_ROOT)
         if new_text == text:
             return "unchanged"
         readme.write_text(new_text, encoding="utf-8")
@@ -129,6 +282,8 @@ def inject(readme: Path, slug: str) -> str:
         else:
             insert_at = end
         new_text = text[:insert_at] + "\n" + new_section + "\n" + text[insert_at:]
+    new_text = normalize_decimal_headings(ensure_download_notices(normalize_marker_spacing(new_text), case_readme=True))
+    new_text = rewrite_case_asset_urls(new_text, root=REPO_ROOT)
     readme.write_text(new_text, encoding="utf-8")
     return "inserted"
 
@@ -137,9 +292,17 @@ def main() -> int:
     if not TESTAKTEN_DIR.exists():
         print(f"Testakten-Verzeichnis nicht gefunden: {TESTAKTEN_DIR}", file=sys.stderr)
         return 1
+    targets = set(sys.argv[1:])
+    known = {sub.name for sub in TESTAKTEN_DIR.iterdir() if sub.is_dir()}
+    unknown = sorted(targets - known)
+    if unknown:
+        print(f"Unbekannte Testakten: {unknown}", file=sys.stderr)
+        return 1
     stats = {"inserted": 0, "updated": 0, "unchanged": 0, "skip": 0}
     for sub in sorted(TESTAKTEN_DIR.iterdir()):
         if not sub.is_dir():
+            continue
+        if targets and sub.name not in targets:
             continue
         if sub.name in SKIP_DIRS:
             stats["skip"] += 1
@@ -164,6 +327,8 @@ def main() -> int:
         f"\nFertig: {stats['inserted']} neu, {stats['updated']} aktualisiert, "
         f"{stats['unchanged']} unveraendert, {stats['skip']} uebersprungen"
     )
+    if not targets:
+        print(f"Downloadhinweise: {update_download_readmes(REPO_ROOT)} weitere READMEs aktualisiert")
     return 0
 
 
