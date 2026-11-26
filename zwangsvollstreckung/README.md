@@ -5,20 +5,67 @@
 
 Plugin Zwangsvollstreckung Paragrafen 704 ff. ZPO: Mahn-/Vollstreckungsbescheid, PfÜB Bank/Arbeit, Paragraf 802l Kontensuche, Vermögensauskunft, Räumung, Paragraf 800 ZPO Notar, Paragraf 201 InsO, ZVG, EU-Kontenpfändung VO 655/2014, Paragraf 765a Härtefall, Schuldnerschutz.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`zwangsvollstreckung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/zwangsvollstreckung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/zwangsvollstreckung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/zwangsvollstreckung-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/zwangsvollstreckung-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/zwangsvollstreckung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/zwangsvollstreckung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Zwangsvollstreckung:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`zwangsvollstreckung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/zwangsvollstreckung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/zwangsvollstreckung/zwangsvollstreckung-werkstatt.md" download><code>zwangsvollstreckung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/zwangsvollstreckung/zwangsvollstreckung-schnellstart.md" download><code>zwangsvollstreckung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Vollstreckungsmappe Sparkasse Niederrhein gegen Müller: [Gesamt-PDF](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip), [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip); Zwangsvollstreckung Mietrückstand und Räumung — Eppendorfer Altbau Grewenig — Vollstreckungsmappe Zweite Runde: [Gesamt-PDF](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/gesamt-pdf/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde_gesamt.pdf), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip), [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`zwangsvollstreckung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/zwangsvollstreckung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`zwangsvollstreckung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/zwangsvollstreckung-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`zwangsvollstreckung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/zwangsvollstreckung-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Vollstreckungsmappe Sparkasse Niederrhein gegen Müller](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/README.md) | [Gesamt-PDF](../testakten/vollstreckungsmappe-mueller-sparkasse-niederrhein/gesamt-pdf/vollstreckungsmappe-mueller-sparkasse-niederrhein_gesamt.pdf) | [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein.zip) | [`testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-vollstreckungsmappe-mueller-sparkasse-niederrhein-einzelpdfs.zip) |
+| [Zwangsvollstreckung Mietrückstand und Räumung — Eppendorfer Altbau Grewenig — Vollstreckungsmappe Zweite Runde](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/README.md) | [Gesamt-PDF](../testakten/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde/gesamt-pdf/zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde_gesamt.pdf) | [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde.zip) | [`testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-2-v445.35.3/testakte-zwangsvollstreckung-mietruekstand-und-raeumung-eppendorfer-altbau-grewenig-vollstreckungsmappe-zweite-runde-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -26,19 +73,19 @@ Freistehendes Cowork-Plugin für die Zwangsvollstreckung nach §§ 704 ff. ZPO a
 
 ## Wofür das Plugin gedacht ist
 
-- Vollstreckung aus allen Titelarten nach § 794 ZPO: Urteil, Versäumnisurteil, Anerkenntnisurteil, Vollstreckungsbescheid, Prozessvergleich, notarielle Unterwerfungsurkunde § 794 Abs. 1 Nr. 5 ZPO, Anwaltsvergleich, Kostenfestsetzungsbeschluss und Tabellenauszug § 201 InsO.
+- Vollstreckung aus rechtskräftigen oder vorläufig vollstreckbaren Endurteilen nach Paragraf 704 ZPO, einschließlich Versäumnis- und Anerkenntnisurteilen; daneben weitere Titel nach Paragraf 794 ZPO und besonderen Vorschriften, etwa Vollstreckungsbescheid, Prozessvergleich, notarielle Unterwerfungsurkunde, Anwaltsvergleich, Kostenfestsetzungsbeschluss oder Tabellenauszug nach Paragraf 201 InsO.
 - Mahn- und Vollstreckungsbescheid online über das zentrale Mahnportal (Barcode-Datensatz, EGVP, beA, beN).
-- Forderungspfändung nach §§ 829, 835 ZPO gegen Bank (Lohn- oder Kontokonto), Arbeitgeber (§ 850 ZPO mit Tabelle 1.7.2025), Mieter (§ 851b ZPO) und Finanzamt (Erstattungsansprüche).
+- Forderungspfändung nach Paragrafen 829 und 835 ZPO gegen Bank, Arbeitgeber (Paragraf 850 ZPO mit Tabelle ab 1. Juli 2026), Mieter und Finanzamt.
 - Kontensuche § 802l ZPO über das Bundeszentralamt für Steuern und Vermögensauskunft beim zuständigen Gerichtsvollzieher nach § 802c ZPO.
 - Mobiliarvollstreckung und Räumungsauftrag § 885 ZPO (vollständig oder Berliner Modell) beim Gerichtsvollzieher.
 - Grundstücksvollstreckung aus notarieller Grundschuldurkunde § 800 ZPO: Zwangsversteigerungsantrag § 15 ZVG, Beitrittsantrag, Sicherungs- vs. Eigentümergrundschuld, Rangverhältnisse.
 - Insolvenz-Folgevollstreckung aus Tabellenauszug § 201 InsO nach Aufhebung des Verfahrens (Restschuldbefreiungsantrag pendent oder versagt).
-- Schuldnerschutz: Erinnerung § 766 ZPO, Vollstreckungsschutz § 765a ZPO, P-Konto-Bescheinigung § 850k ZPO, Räumungsvollstreckungsschutz § 765a ZPO, Drittwiderspruchsklage § 771 ZPO.
-- Reform-Stand 2026/2027: ZVollstrDigitG (BT-Drs. 21/4815, Bundestag 19.3.2026 beschlossen). Inkrafttreten Hauptteile 1.10.2026 (neue ZVFV-Formulare, § 829 Abs. 5 ZPO n.F. mit XML-Antrag als führender Form), Kreditinstitute-Pflicht zum sicheren Übermittlungsweg ab 1.10.2027 (§ 173 Abs. 2 Nr. 1 ZPO n.F., eBO/§ 130a Abs. 4 ZPO). § 840 ZPO erlaubt zusätzlich die Drittschuldnererklärung per Post.
+- Schuldnerschutz: Erinnerung § 766 ZPO, Vollstreckungsschutz § 765a ZPO, P-Konto-Bescheinigung über Erhöhungsbeträge nach Paragraf 903 ZPO, Räumungsvollstreckungsschutz § 765a ZPO, Drittwiderspruchsklage § 771 ZPO.
+- Reform-Stand 2026/2027: Gesetz vom 20. Mai 2026, verkündet am 26. Mai 2026 ([BGBl. 2026 I Nr. 152](https://www.recht.bund.de/bgbl/1/2026/152/regelungstext.pdf?__blob=publicationFile&v=1)). Nach Artikel 18 treten die Hauptteile einschließlich Paragraf 829a ZPO n.F. am 1.10.2026 in Kraft, die PDF-/XML-Regel des Paragrafen 829 Absatz 5 ZPO n.F. am 1.1.2027 und die Pflicht der Kreditinstitute zum sicheren Übermittlungsweg nach Paragraf 173 Absatz 2 Nummer 1 ZPO n.F. am 1.6.2027. PDF oder XML sind möglich; bei gleichzeitiger Übermittlung desselben Formulars ist XML maßgeblich. Paragraf 840 ZPO erlaubt weiterhin die Drittschuldnererklärung per Post.
 
 ## Leitprinzip
 
-Das Plugin arbeitet titelorientiert und drittschuldnerorientiert. Es prüft erst, ob der Titel die richtige Maßnahme trägt (vollstreckbare Ausfertigung, Klausel, Zustellung, Wartefrist, Sicherheitsleistung), dann, ob der Drittschuldner der richtige Ansprechpartner ist (Sitz, Zustellungsweg, Erklärungspflicht, Auskunftsrecht). Erst danach erzeugt es Schriftsätze. Vollstreckungsschutz, P-Konto und Drittwiderspruch werden nicht als Hindernis behandelt, sondern als parallel zu führender Strang mit eigener Aktenlage. Reform-Übergänge (ZVollstrDigitG) werden datumsabhängig gesteuert: bis 30.9.2026 alte ZVFV, ab 1.10.2026 neue ZVFV-Formulare, ab 1.10.2027 sicherer Übermittlungsweg für Kreditinstitute Pflicht.
+Das Plugin arbeitet titelorientiert und drittschuldnerorientiert. Es prüft erst, ob der Titel die richtige Maßnahme trägt (vollstreckbare Ausfertigung, Klausel, Zustellung, Wartefrist, Sicherheitsleistung), dann, ob der Drittschuldner der richtige Ansprechpartner ist (Sitz, Zustellungsweg, Erklärungspflicht, Auskunftsrecht). Erst danach erzeugt es Schriftsätze. Vollstreckungsschutz, P-Konto und Drittwiderspruch werden nicht als Hindernis behandelt, sondern als parallel zu führender Strang mit eigener Aktenlage. Reform-Übergänge (ZVollstrDigitG) werden datumsabhängig gesteuert: ab 1.10.2026 elektronische Antragstellung nach Paragraf 829a ZPO n.F., ab 1.1.2027 PDF-/XML-Regel, ab 1.6.2027 sicherer Übermittlungsweg für Kreditinstitute Pflicht. Die Formularübergänge richten sich gesondert nach Paragraf 6 ZVFV, nicht nach einem pauschalen Formularwechsel am 1.10.2026.
 
 ## Typischer Ablauf
 
@@ -46,65 +93,74 @@ Das Plugin arbeitet titelorientiert und drittschuldnerorientiert. Es prüft erst
 2. Titel-Klausel-Zustellung prüfen: vollstreckbare Ausfertigung, Klausel § 724 ZPO, Zustellungsnachweis § 750 ZPO, Wartefrist § 798 ZPO bei notarieller Urkunde, Sicherheitsleistung.
 3. Vorfeld-Recherche: Vermögensauskunft beim Gerichtsvollzieher, Kontensuche § 802l ZPO über BZSt, Schuldnerverzeichnis § 882c ZPO.
 4. Maßnahme wählen: PfÜB Bank/Arbeitgeber/Mieter/Finanzamt, Mobiliarvollstreckung, Räumung § 885 ZPO, ZVG-Antrag oder Tabellenauszug § 201 InsO.
-5. Schriftsatz erzeugen: ZVFV-Formular (alt bis 30.9.2026 / neu ab 1.10.2026), Drittschuldnerzustellung organisieren, § 840-Erklärung anfordern.
+5. Schriftsatz erzeugen: geltendes ZVFV-Formular unter Beachtung von Paragraf 6 ZVFV verwenden, Drittschuldnerzustellung organisieren, Paragraf 840-Erklärung anfordern.
 6. Schuldnerseite begleiten: Erinnerung, Vollstreckungsschutz, P-Konto-Sockel berechnen, Drittwiderspruch prüfen.
 
 ## Enthaltene Skills
 
 | Skill | Zweck |
 | --- | --- |
-| zv-kommandocenter | Startet die Zwangsvollstreckung und entscheidet, welche Maßnahme und welcher Skill passt. |
-| zv-titel-klausel-zustellung | Prüft vollstreckbare Ausfertigung, Klausel § 724 ZPO und Zustellungsnachweis § 750 ZPO. |
-| zv-mahnbescheid-online | Erstellt den Antrag auf Mahnbescheid über das zentrale Mahnportal mit Barcode-Datensatz und EGVP. |
-| zv-vollstreckungsbescheid-folge | Steuert Vollstreckungsbescheid, Klausel, Zustellung und Übergang zur Zwangsvollstreckung. |
-| zv-pfueb-bank | Entwirft Pfändungs- und Überweisungsbeschluss gegen Bankguthaben mit P-Konto-Behandlung. |
-| zv-pfueb-arbeitsentgelt | Pfändet Arbeitseinkommen § 850 ZPO mit Tabelle 1.7.2025, Unterhalts- und Privilegrang. |
-| zv-pfueb-mieter-finanzamt | Pfändet Mietzinsforderungen § 851b ZPO und Erstattungsansprüche gegen das Finanzamt. |
-| zv-vermögensauskunft-gv | Beauftragt den Gerichtsvollzieher mit Vermögensauskunft § 802c ZPO und Schuldnerverzeichnis. |
-| zv-kontensuche-drittschuldner | Steuert die Kontensuche § 802l ZPO über das Bundeszentralamt für Steuern. |
-| zv-notarielle-urkunde-grundschuld | Vollstreckt aus notarieller Grundschuldurkunde § 800 ZPO inkl. Kündigung § 1193 BGB. |
-| zv-zvg-antrag-gläubiger | Stellt Zwangsversteigerungs- und Beitrittsantrag § 15 ZVG aus Gläubigersicht. |
-| zv-tabellenauszug-201-inso | Vollstreckt aus Tabellenauszug § 201 InsO nach Aufhebung des Insolvenzverfahrens. |
-| zv-mobiliar-gv-auftrag | Erteilt Mobiliarvollstreckungs- und Sachpfändungsauftrag (auch Krypto-Hardware-Wallets). |
-| zv-räumung-885 | Führt Räumungsvollstreckung § 885 ZPO inkl. Berliner Modell und Vollstreckungsschutz. |
-| zv-abwehr-schuldner | Erstellt Erinnerung § 766 ZPO, Vollstreckungsschutz § 765a ZPO und Drittwiderspruch § 771 ZPO. |
-| zv-vollstreckungsschutz-härtefall-765a | Vertiefter Härtefall-Schutz § 765a ZPO (Suizidgefahr, Schwangerschaft, Obdachlosigkeit, Trauerfall); Antragsformular mit Glaubhaftmachung. **NEU** |
-| zv-eu-kontenpfändung-655-2014 | Europäische Kontenpfändung VO (EU) 655/2014 — grenzüberschreitende vorläufige Sicherung von Bankkonten in der EU (außer Dänemark). **NEU** |
-| zv-pfändungstabelle-2025 | Hält die Pfändungstabelle 1.7.2025 bis 30.6.2026 nach § 850c ZPO bereit. Auto-Warnung des Rechners ab 1.6.2026. |
-| zv-elektronische-zustellung-2027 | Steuert sicheren Übermittlungsweg für Kreditinstitute ab 1.10.2027 (ZVollstrDigitG). |
+| kommandocenter | Startet die Zwangsvollstreckung und entscheidet, welche Maßnahme und welcher Skill passt. |
+| titel-klausel-zustellung | Prüft vollstreckbare Ausfertigung, Klausel § 724 ZPO und Zustellungsnachweis § 750 ZPO. |
+| mahnbescheid-online-mobiliar-gv | Erstellt den Antrag auf Mahnbescheid über das zentrale Mahnportal mit Barcode-Datensatz und EGVP. |
+| vollstreckungsbescheid-zv | Steuert Vollstreckungsbescheid, Klausel, Zustellung und Übergang zur Zwangsvollstreckung. |
+| pfueb-bank | Entwirft Pfändungs- und Überweisungsbeschluss gegen Bankguthaben mit P-Konto-Behandlung. |
+| pfueb-arbeitsentgelt | Pfändet Arbeitseinkommen nach Paragraf 850 ZPO mit der Tabelle ab 1. Juli 2026 und trennt Unterhaltspflichten, Sonderbezüge und Privilegierung. |
+| pfueb-802l-arbeit | Pfändet Mietzinsforderungen § 851b ZPO und Erstattungsansprüche gegen das Finanzamt. |
+| vermoegensauskunft-gv | Beauftragt den Gerichtsvollzieher mit Vermögensauskunft nach Paragraf 802c ZPO und Schuldnerverzeichnis. |
+| kontensuche-drittschuldner | Steuert die Kontensuche § 802l ZPO über das Bundeszentralamt für Steuern. |
+| notarielle-urkunde-grundschuld | Vollstreckt aus notarieller Grundschuldurkunde § 800 ZPO inkl. Kündigung § 1193 BGB. |
+| zvg-antrag-glaeubiger | Stellt Zwangsversteigerungs- und Beitrittsantrag nach Paragrafen 15 und 27 ZVG aus Gläubigersicht. |
+| tabellenauszug-201-inso | Vollstreckt aus Tabellenauszug § 201 InsO nach Aufhebung des Insolvenzverfahrens. |
+| mobiliar-gv-auftrag | Erteilt Mobiliarvollstreckungs- und Sachpfändungsauftrag (auch Krypto-Hardware-Wallets). |
+| raeumung-tabellenauszug-inso | Führt Räumungsvollstreckung nach Paragraf 885 ZPO einschließlich beschränkter Räumung und Vollstreckungsschutz. |
+| abwehr-schuldner | Erstellt Erinnerung § 766 ZPO, Vollstreckungsschutz § 765a ZPO und Drittwiderspruch § 771 ZPO. |
+| vollstreckungsschutz-haertefall-765a | Vertiefter Härtefallschutz nach Paragraf 765a ZPO; ausformulierter Antrag mit Glaubhaftmachungsmitteln. |
+| eu-kontenpfaendung-655-2014 | Grenzüberschreitende vorläufige Kontensicherung nach der Verordnung (EU) 655/2014, ausgenommen Dänemark. |
+| pfaendungstabelle-pfueb-arbeitsentgelt | Berechnet nach der vom 1. Juli 2026 bis 30. Juni 2027 geltenden Tabelle und warnt vor ihrem Ablauf. |
+| elektronische-zustellung-eu | Steuert den elektronischen PfÜB-Antrag ab 1. Oktober 2026, den XML-Datensatz ab 1. Januar 2027 und den sicheren Übermittlungsweg für Kreditinstitute ab 1. Juni 2027. |
 
 ## Werkzeug
 
-`werkzeuge/pfaendungsrechner.py` berechnet den pfändbaren Betrag nach § 850c ZPO mit der Tabelle 1.7.2025 bis 30.6.2026 (BGBl. 2025 I Nr. 110 vom 11.4.2025). Hartcodierte Eckwerte: Grundfreibetrag 1.555,00 EUR, Erhöhung erste Unterhaltspflicht 585,23 EUR, jede weitere bis zur 5. Person 326,04 EUR, Vollpfändungsgrenze 4.766,99 EUR, P-Konto-Sockel 1.560,00 EUR. Pfändbarkeitsquote nach § 850c Abs. 3 ZPO unterhaltsabhängig (7/10 / 5/10 / 4/10 / 3/10 / 2/10 / 1/10). CLI: `python pfaendungsrechner.py --netto 4200 --unterhalt 3` gibt den pfändbaren Betrag, den verbleibenden P-Konto-Sockel und die Tabellenherleitung aus.
+`werkzeuge/pfaendungsrechner.py` berechnet den pfändbaren Betrag nach Paragraf 850c ZPO mit der Tabelle vom 1. Juli 2026 bis 30. Juni 2027 (BGBl. 2026 I Nr. 80). Eckwerte: 1.587,40 Euro Grundfreibetrag, 597,42 Euro für die erste und 332,83 Euro für jede weitere berücksichtigte Person, Vollpfändungsgrenze 4.866,30 Euro und P-Konto-Grundbetrag 1.590,00 Euro. Der Rechner behandelt den Mehrbetrag über der Vollpfändungsgrenze centgenau und verlangt bei Paragraf 850d ZPO einen konkreten Selbstbehalt. CLI: `python pfaendungsrechner.py --netto 4200 --unterhalt 3`.
 
 ## Reform ZVollstrDigitG 2026/2027
 
 | Datum | Was ändert sich |
 | --- | --- |
-| bis 30.9.2026 | Alte ZVFV-Formulare bleiben gültig, § 829 ZPO unverändert. |
-| ab 1.10.2026 | Neue ZVFV-Formulare verbindlich, § 829 Abs. 5 ZPO n.F.: XML-Datensatz wird führend. |
-| ab 1.10.2027 | Kreditinstitute müssen sicheren Übermittlungsweg vorhalten (§ 173 Abs. 2 Nr. 1 ZPO n.F., eBO/§ 130a Abs. 4 ZPO). § 840 ZPO-Erklärung weiterhin per Post zulässig. |
+| bis 30.9.2025 | Für bis dahin gestellte Aufträge und Anträge nach [Paragraf 6 Absatz 1 ZVFV](https://www.gesetze-im-internet.de/zvfv_2022/__6.html) dürfen die Formulare der Fassung vom 24. November 2023 weiter genutzt werden. |
+| ab 1.10.2026 | Elektronischer PfÜB-Antrag nach Paragraf 829a ZPO n.F.; kein durch dieses Gesetz angeordneter allgemeiner Wechsel der ZVFV-Formulare. |
+| ab 1.1.2027 | Paragraf 829 Absatz 5 ZPO n.F.: Formulare als PDF oder XML; wird dasselbe Formular zugleich in beiden Formaten übermittelt, ist XML maßgeblich. |
+| ab 1.6.2027 | Kreditinstitute müssen einen sicheren Übermittlungsweg eröffnen (Paragraf 173 Absatz 2 Nummer 1 ZPO n.F.). Die Erklärung nach Paragraf 840 ZPO bleibt per Post zulässig. |
 
 ## Grenzen
 
 Das Plugin trifft keine unüberprüfte Vollstreckungsentscheidung und ersetzt keine fachliche Prüfung. Bei streitigen Rechtsfragen (Klauselgegenklage § 768 ZPO, Vollstreckungsabwehrklage § 767 ZPO, Drittwiderspruch § 771 ZPO), bei Räumung mit Härtefall, bei ZVG-Anträgen mit Rangstreit und bei grenzüberschreitender Vollstreckung (EU-Kontenpfändungsverordnung Nr. 655/2014, EU-Zustellungs-VO 2020/1784) verlangt es ausdrücklich menschliche Freigabe. Reform-Übergänge ZVollstrDigitG sind datumsabhängig gesteuert und müssen bei jedem Antrag gegen das tatsächliche Inkrafttretensdatum laut BGBl-Verkündung gegengeprüft werden.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **60 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `start-chronologie-fristen`, `workflow-kaltstart-und-routing`, `zwangsvollstreckung-erstpruefung-und-mandatsziel` |
-| 2. Unterlagen, Sachverhalt und Quellen | `kontensuche-quellenkarte`, `pfueb-raeumung-schuldnerschutz-beweislast`, `quellen-livecheck`, `raeumung-compliance-dokumentation-und-akte`, `raeumung-tabellenauszug-inso`, `schuldnerschutz-beweislast-und-darlegungslast`, `spezial-kontensuche-livequellen-und-rechtsprechungscheck`, `spezial-vermoegensauskunft-zahlen-schwellen-und-berechnung`, `tabellenauszug-201-inso`, `unterlagen-luecken`, `vermoegensauskunft-gv`, `vermoegensauskunft-vollstreckungsbescheid`, `vollstreckungsbescheid-dokumentenmatrix-und-lueckenliste`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste`, `zwv-pfaendung-konto-vollstreckungsschutz` |
-| 3. Prüfung, Anspruch und Subsumtion | `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `802l-verhandlung-vergleich-und-eskalation`, `titel-klausel-zustellung` |
-| 5. Verfahren, Behörde und Gericht | `arbeit-schriftsatz-brief-und-memo-bausteine`, `mahn-fristen-form-und-zustaendigkeit`, `mahnbescheid-fristennotiz-zv-titel-zv`, `mahnbescheid-online-mobiliar-gv`, `vollstreckungsbescheid-zv`, `vollstreckungsschutz-haertefall-765a`, `vollstreckungstitel-sonderfall-und-edge-case`, `zpo-zwangsvollstreckung-zv-abwehr`, `zvg-antrag-glaeubiger`, `zwv-vollstreckungsschutz-billigkeit-spezial`, `zwv-vollstreckungstitel-bauleiter` |
-| 6. Ergebnis, Schreiben und Kommunikation | `haertefall-mandantenkommunikation-entscheidungsvorlage`, `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `765a-fehlerkatalog`, `mandantenkommunikation-redteam-qualitygate`, `spezial-765a-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `abwehr-schuldner`, `bank-haertefall-inso`, `elektronische-zustellung-eu`, `eu-kontenpfaendung-655-2014`, `inso-internationaler-bezug-und-schnittstellen`, `kommandocenter`, `kontenpfaendung-notar-interessen-online`, `kontensuche-drittschuldner`, `mobiliar-gv-auftrag`, `notar-mehrparteien-konflikt-und-interessen`, `notarielle-urkunde-grundschuld`, `online-abschlussprodukt-und-uebergabe`, `pfaendungstabelle-pfueb-arbeitsentgelt`, `pfueb-802l-arbeit`, `pfueb-arbeitsentgelt`, `pfueb-bank`, `zwv-zwangsversteigerung-grundstueck-spezial` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/juristischer-argumentationskern/SKILL.md), [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/kommandocenter/SKILL.md) |
+| 2. Titelcheck | [`titelcheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/titelcheck-bearbeiten/SKILL.md) |
+| 3. Vollstreckungsweg | [`vollstreckungsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/vollstreckungsweg-bearbeiten/SKILL.md) |
+| 4. Antrag | [`antrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/antrag-bearbeiten/SKILL.md) |
+| 5. Schuldnerschutz und Rang | [`schuldnerschutz-und-rang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/schuldnerschutz-und-rang-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -112,68 +168,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `765a-fehlerkatalog` | Wenn es um 765a Fehlerkatalog in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `802l-verhandlung-vergleich-und-eskalation` | Wenn es um 802L: Verhandlung, Vergleich und Eskalation in Zwangsvollstreckung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `abwehr-schuldner` | Wenn es um Schuldnerabwehr in der Zwangsvollstreckung in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Zwangsvollstreckung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `arbeit-schriftsatz-brief-und-memo-bausteine` | Wenn es um Arbeit: Schriftsatz-, Brief- und Memo-Bausteine in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `bank-haertefall-inso` | Wenn es um Bank: Behörden-, Gerichts- oder Registerweg in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Zwangsvollstreckung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `elektronische-zustellung-eu` | Wenn es um Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eu-kontenpfaendung-655-2014` | Wenn es um Europäische Kontenpfändung (EuKtPVO, VO (EU) 655/2014) in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlag... |
-| `haertefall-mandantenkommunikation-entscheidungsvorlage` | Wenn es um Haertefall: Mandantenkommunikation und Entscheidungsvorlage in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `inso-internationaler-bezug-und-schnittstellen` | Wenn es um InsO: Internationaler Bezug und Schnittstellen in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommandocenter` | Wenn es um Zwangsvollstreckung – Kommandocenter in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kontenpfaendung-notar-interessen-online` | Wenn es um Kontopfändung: Pfändungs- und Überweisungsbeschluss gegen Banken in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung... |
-| `kontensuche-drittschuldner` | Wenn es um Kontensuche und Drittschuldnerermittlung in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kontensuche-quellenkarte` | Wenn es um Kontensuche Quellenkarte in Zwangsvollstreckung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `mahn-fristen-form-und-zustaendigkeit` | Wenn es um Mahn: Fristen, Form, Zuständigkeit und Rechtsweg in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mahnbescheid-fristennotiz-zv-titel-zv` | Wenn es um Mahnbescheid: Fristennotiz und nächster Schritt in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mahnbescheid-online-mobiliar-gv` | Wenn es um Mahnbescheid online in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Mandantenkommunikation in Zwangsvollstreckung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `mobiliar-gv-auftrag` | Wenn es um Mobiliarvollstreckung durch den Gerichtsvollzieher in Zwangsvollstreckung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `notar-mehrparteien-konflikt-und-interessen` | Wenn es um Notar: Mehrparteienkonflikt und Interessenmatrix in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notarielle-urkunde-grundschuld` | Wenn es um Vollstreckung aus notarieller Grundschuldurkunde in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `online-abschlussprodukt-und-uebergabe` | Wenn es um Online: Abschlussprodukt und Übergabe in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pfaendungstabelle-pfueb-arbeitsentgelt` | Wenn es um Pfändungstabelle 1.7.2025 in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `pfueb-802l-arbeit` | Wenn es um PfÜB Mieter, Finanzamt, sonstige Drittschuldner in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pfueb-arbeitsentgelt` | Wenn es um PfÜB Arbeitsentgelt in Zwangsvollstreckung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `pfueb-bank` | Wenn es um PfÜB Bankkonto in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `pfueb-raeumung-schuldnerschutz-beweislast` | Wenn es um Pfueb: Risikoampel, Gegenargumente und Verteidigungslinien in Zwangsvollstreckung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Zwangsvollstreckung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `raeumung-compliance-dokumentation-und-akte` | Wenn es um Raeumung: Compliance-Dokumentation und Aktenvermerk in Zwangsvollstreckung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `raeumung-tabellenauszug-inso` | Wenn es um Räumung Paragraf 885 ZPO / Berliner Räumung Paragraf 885a ZPO in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schuldnerschutz-beweislast-und-darlegungslast` | Wenn es um Schuldnerschutz: Beweislast, Darlegungslast und Substantiierung in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-765a-red-team-und-qualitaetskontrolle` | Wenn es um 765A: Red-Team und Qualitätskontrolle in Zwangsvollstreckung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-kontensuche-livequellen-und-rechtsprechungscheck` | Wenn es um Kontensuche: Livequellen- und Rechtsprechungscheck in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-vermoegensauskunft-zahlen-schwellen-und-berechnung` | Wenn es um Vermoegensauskunft: Zahlen, Schwellenwerte und Berechnung in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Zwangsvollstreckung — Allgemein in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `tabellenauszug-201-inso` | Wenn es um Vollstreckung aus Tabellenauszug Paragraf 201 InsO in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `titel-klausel-zustellung` | Wenn es um Drei-Säulen-Prüfung: Titel, Klausel, Zustellung in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vermoegensauskunft-gv` | Wenn es um Vermögensauskunft in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vermoegensauskunft-vollstreckungsbescheid` | Wenn es um Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung in Zwangsvollstreckung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `vollstreckungsbescheid-dokumentenmatrix-und-lueckenliste` | Wenn es um Vollstreckungsbescheid: Dokumentenmatrix, Lückenliste und Nachforderung in Zwangsvollstreckung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `vollstreckungsbescheid-zv` | Wenn es um Vollstreckungsbescheid und Folgeverfahren in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `vollstreckungsschutz-haertefall-765a` | Wenn es um Vollstreckungsschutz Paragraf 765a ZPO — Härtefall in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlo... |
-| `vollstreckungstitel-sonderfall-und-edge-case` | Wenn es um Vollstreckungstitel: Sonderfall und Edge-Case-Prüfung in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Zwangsvollstreckung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Zwangsvollstreckung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Zwangsvollstreckung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Zwangsvollstreckung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zpo-zwangsvollstreckung-zv-abwehr` | Wenn es um ZPO: Tatbestandsmerkmale, Beweisfragen und Beleglage in Zwangsvollstreckung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `zvg-antrag-glaeubiger` | Wenn es um ZVG-Antrag (Zwangsversteigerung / Zwangsverwaltung) in Zwangsvollstreckung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `zwangsvollstreckung-erstpruefung-und-mandatsziel` | Wenn es um Zwangsvollstreckung: Erstprüfung, Rollenklärung und Mandatsziel in Zwangsvollstreckung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zwv-pfaendung-konto-vollstreckungsschutz` | Wenn es um ZwV: Konto Arbeitseinkommen in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zwv-vollstreckungsschutz-billigkeit-spezial` | Wenn es um ZwV: Vollstreckungsschutz Billigkeit in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zwv-vollstreckungstitel-bauleiter` | Wenn es um ZwV: Vollstreckungstitel Bauleiter in Zwangsvollstreckung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `zwv-zwangsversteigerung-grundstueck-spezial` | Wenn es um Zwv Zwangsversteigerung Grundstueck Spezial in Zwangsvollstreckung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`antrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/antrag-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Antrag: Gerichtsvollzieherauftrag, Pfändungs- und Überweisungsbeschluss, Drittauskunft, Verhaftungsauftrag oder Vollstreckungsschutz passgenau ausfüllen. Vollständige Fachanweisungen und lokale Vorlagen werden ge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/antrag-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fachanwei... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Arbeitsprodukt: Vollstreckungsauftrag, PfÜB-Entwurf, Forderungsaufstellung, Schuldneranschreiben, Erinnerung oder Schutzantrag erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem k... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/juristischer-argumentationskern/SKILL.md) | Schaltet sich ein, wenn in Zwangsvollstreckung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kommandocenter`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/kommandocenter/SKILL.md) | Zwangsvollstreckung vom Titel zur zulässigen Maßnahme oder Abwehr führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Ergebn... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/kommandocenter/SKILL.md) |
+| [`schuldnerschutz-und-rang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/schuldnerschutz-und-rang-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Schuldnerschutz und Rang: Pfändungsgrenzen, P-Konto, Vorpfändung, Priorität, Insolvenz, Drittwiderspruch und Erinnerung kontrollieren. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konk... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/schuldnerschutz-und-rang-bearbeiten/SKILL.md) |
+| [`titelcheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/titelcheck-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Titelcheck: vollstreckbarer Inhalt, Klausel, Zustellung, Rechtskraft, Bedingung, Sicherheitsleistung und Forderungsstand prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/titelcheck-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale Vorlagen werden g... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vollstreckungsweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/vollstreckungsweg-bearbeiten/SKILL.md) | Für Zwangsvollstreckung: Vollstreckungsweg: bewegliche Sache, Forderung, Konto, Arbeitseinkommen, Herausgabe, Räumung, Grundstück oder Auskunft bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=zwangsvollstreckung/skills/vollstreckungsweg-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

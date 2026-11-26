@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "version": "445.36.2",
+  "tag": "qualitaetsrunde-v445.36.2",
+  "plugins": [
+    {
+      "name": "insolvenzanfechtung",
+      "variants": [
+        "native",
+        "portable"
+      ],
+      "prompts": [
+        "insolvenzanfechtung-werkstatt.md",
+        "insolvenzanfechtung-werkstatt.txt",
+        "insolvenzanfechtung-schnellstart.md",
+        "insolvenzanfechtung-schnellstart.txt",
+        "insolvenzanfechtung-hauptproblem.md",
+        "insolvenzanfechtung-hauptproblem.txt"
+      ]
+    }
+  ],
+  "additional_assets": [
+    {
+      "name": "insolvenzanfechtung-tatbestandswerkstaetten.pdf",
+      "source": "docs/werkstattprompts/insolvenzanfechtung/insolvenzanfechtung-tatbestandswerkstaetten.pdf",
+      "evidence": "quality/insolvenzanfechtung/tatbestandswerkstaetten-2026-11-15/umfang.json",
+      "sha256": "4a7b5376946ed544caac8d2d45276b31ca068efce663067979d85dfad9410e0f"
+    },
+    {
+      "name": "insolvenzanfechtung-tatbestandswerkstaetten.zip",
+      "source": "docs/werkstattprompts/insolvenzanfechtung/insolvenzanfechtung-tatbestandswerkstaetten.zip",
+      "evidence": "quality/insolvenzanfechtung/tatbestandswerkstaetten-2026-11-15/umfang.json",
+      "sha256": "1dcb376e308e595c8d4e239ed7b0c016c69c7881c640947999d4f379ef4a716f"
+    }
+  ]
+}

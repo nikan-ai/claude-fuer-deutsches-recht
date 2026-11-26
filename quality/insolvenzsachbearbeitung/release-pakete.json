@@ -1,0 +1,12 @@
+{
+  "version": "445.35.5",
+  "release": "insolvenzsachbearbeitung-v1.1.0",
+  "plugins": [
+    {
+      "name": "insolvenzforderungen-checker"
+    }
+  ],
+  "assets": {
+    "insolvenzforderungen-checker.zip": "6698296a8e4baae3ea756415b8cf55bd0d637c46bfe398123cad197292f5e638"
+  }
+}

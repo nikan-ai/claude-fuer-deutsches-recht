@@ -1,0 +1,1457 @@
+{
+  "schema_version": 1,
+  "plugin": "notariat-alltag",
+  "reviewed_on": "2026-09-25",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__53.html",
+      "checked_on": "2026-09-25",
+      "supports": "Absatz 2 regelt die Beschlussmehrheit, Absatz 3 die notarielle Beurkundung der Satzungsänderung.",
+      "source_sha256": "c4c9b5281fac92237c25ae45fda48a0a247bfb62a39280c875fe64555107a82b"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__7.html",
+      "checked_on": "2026-09-25",
+      "supports": "Einzahlungsvoraussetzungen der Anmeldung: Viertel des einzelnen Baranteils und insgesamt Hälfte des gesetzlichen Mindeststammkapitals.",
+      "source_sha256": "b5b1329c8cc35c34d61ee0599130e1a1ce0713a5c3e871d385a744d5bb359b77"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/beurkg/__17.html",
+      "checked_on": "2026-09-25",
+      "supports": "Absatz 2a: regelmäßige Zweiwochenzeit und Bereitstellung durch den beurkundenden oder mit ihm verbundenen Notar im erfassten Verbraucherfall.",
+      "source_sha256": "c3c087366e3365c0c12c45c925d31b4a0246464dbd6784208c0cb2bea2c0b463"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__800.html",
+      "checked_on": "2026-09-25",
+      "supports": "Dingliche Unterwerfung gegen den jeweiligen Grundstückseigentümer und Eintragung, keine automatische persönliche Mitschuld.",
+      "source_sha256": "afdef8472a78851a8d0d4a7a31601004333a999c663749aa5b0f9701540ef6fe"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gbo/__72.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: Oberlandesgericht entscheidet über die Grundbuchbeschwerde.",
+      "source_sha256": "e1b98392be9330a403c3fd9cfd9984e264aa60efdd5a0a8e9f2f2e7f87a2465e"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gbo/__18.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: Hindernisse und Zwischenverfügung; Absatz 2 ist keine allgemeine Fristverlängerung.",
+      "source_sha256": "70a4199060307e8a96eea27801afec4ed97efa1acd58aa80b1dedfd2d557b6dc"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/umwg_1995/__17.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: Anmeldeunterlagen und Achtmonatsgrenze der Schlussbilanz.",
+      "source_sha256": "5cb09642d6e50321190b3a6e8b7a26f9c11091ce2bd97ed4d0550d337386b54f"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gnotkg/__19.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: mitgeteilte Kostenberechnung in Textform mit Pflichtangaben.",
+      "source_sha256": "4e4626f69182e2404528aacd11851e1276cd79fa5dacec9f3bc16fa7625cd569"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/__16a.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: Verbot und Nachweisobliegenheiten nach Absatz und Transaktion differenziert; keine pauschale 10000-Euro-Freigabe.",
+      "source_sha256": "f50731c9a5cbd4ec6eeecbb13103a3bba986f02962c0bb3f501b5fa112df5f53"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1820.html",
+      "checked_on": "2026-09-25",
+      "supports": "Amtlicher Wortlaut: besondere Anforderungen an Vollmachten für bestimmte Maßnahmen.",
+      "source_sha256": "58e0c0902ea89b929b9a1ecfc609051354e6befcf2181538cb98455ad673f04c"
+    },
+    {
+      "url": "https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille",
+      "checked_on": "2026-09-23",
+      "supports": "Offizielle Erläuterung: Apostille ersetzt Legalisation; elektronische Apostille nicht allein wegen ihres Formats ablehnen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__2.html",
+      "checked_on": "2026-09-25",
+      "supports": "Gründungsvollmacht nach Absatz 2 in notariell errichteter oder beglaubigter Form.",
+      "source_sha256": "70fe87c948b9728f1f1ada7536823a01a9b8f0f3598cbbcff26a5517d4bd0358"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__40.html",
+      "checked_on": "2026-09-25",
+      "supports": "GbR vor Listenaufnahme im Gesellschaftsregister; Einzel- und Gesamtbeteiligungsprozente.",
+      "source_sha256": "3ca5ad1647e840248aaaf1991b4d32293db7e4a47e3c2e3c971d5a9482a536f2"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__78.html",
+      "checked_on": "2026-09-25",
+      "supports": "Sämtliche Geschäftsführer bei Anmeldung nach Paragrafen 7 und 57.",
+      "source_sha256": "b9e9821340de0a483cb0110a123801e9ed45b8642e18be688cf9a21bd30ff8f8"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/beurkg/__57.html",
+      "checked_on": "2026-09-25",
+      "supports": "Sicherungsinteresse, bestimmte schriftliche Verwahrungsanweisungen und Annahme durch den Notar.",
+      "source_sha256": "5ea9c6b3fbb90f5f7f96ae32369ebad669caf5ddc4b7cdf836cf203bc97979d9"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__925.html",
+      "checked_on": "2026-09-25",
+      "supports": "Bedingte oder befristete Auflassung unwirksam; von Vollzugsweisungen trennen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__177.html",
+      "checked_on": "2026-09-25",
+      "supports": "Aufforderung des anderen Vertragsteils: Zweiwochenfrist ab Empfang und besonderer Erklärungsempfänger.",
+      "source_sha256": "0c86c993cf40c24277943768a2456b4a61d5c7fa1596d90222cbc0e40ac1bafb"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__182.html",
+      "checked_on": "2026-09-25",
+      "supports": "Genehmigung grundsätzlich nicht in der Form des Rechtsgeschäfts; Register-Nachweisform gesondert.",
+      "source_sha256": "9588ab6eee9b46385a368187b711affa16e8f880111dd63f3d89eea1ff332d57"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__1829.html",
+      "checked_on": "2026-09-25",
+      "supports": "Gesundheitsentscheidungen, qualifizierte Gefahren und Ausnahme bei Einvernehmen.",
+      "source_sha256": "8868818e981463e1c5982276bb9ef44ce8dc616893ec4fbeddee798621ea6117"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/umwg_1995/__19.html",
+      "checked_on": "2026-09-25",
+      "supports": "Verschmelzung: erst übertragende, dann übernehmender Rechtsträger."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/umwg_1995/__130.html",
+      "checked_on": "2026-09-25",
+      "supports": "Spaltung: erst übernehmende/neue, dann übertragender Rechtsträger.",
+      "source_sha256": "bee190598d22e1dfe647b27597d784d41939d2eaca3a8778524cd172fed947df"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/umwg_1995/__5.html",
+      "checked_on": "2026-09-25",
+      "supports": "Betriebsratszuleitung spätestens einen Monat vor der zustimmenden Versammlung.",
+      "source_sha256": "ddc38cbf69c2380236d90822b453daa428a13f227c4dce3c60fe168c74a8af1b"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/umwg_1995/__194.html",
+      "checked_on": "2026-09-25",
+      "supports": "Formwechselentwurf spätestens einen Monat vor der beschließenden Versammlung an Betriebsrat.",
+      "source_sha256": "851f02ca331370b48492a1e45d520a0aef0fd6cfc3ae6c2a2ce50eb37fd14e92"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gnotkg/__134.html",
+      "checked_on": "2026-09-25",
+      "supports": "Absatz 2: grundsätzlich altes Gebührenrecht für Auftrag vor Gesetzesänderung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/__46.html",
+      "checked_on": "2026-09-25",
+      "supports": "Allgemeine Durchführungsbeschränkung und Samstag nicht als Werktag; Sonderregel16a beachten.",
+      "source_sha256": "a01206cab94bbaf28634bb62f560efdfb5eb5b4020a1fbc206a2c3f02e64a459"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/__47.html",
+      "checked_on": "2026-09-25",
+      "supports": "Informationsverbot zu beabsichtigten/erstatteten Meldungen und gesetzliche Ausnahmen.",
+      "source_sha256": "53f763763a2fbfdb1933f9fb65d71bf4cb51870fd6df5be16aa2a5a0142274ca"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versausglg/__6.html",
+      "checked_on": "2026-09-25",
+      "supports": "Vereinbarungsmöglichkeiten zum Versorgungsausgleich.",
+      "source_sha256": "94923fb43cc1790e554852197f0af42c69d661ddc5c60eefca79a52c1cc4e13e"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versausglg/__7.html",
+      "checked_on": "2026-09-25",
+      "supports": "Form der Versorgungsausgleichsvereinbarung.",
+      "source_sha256": "fd805f12dc402900f139b1649e2089b5757fd35bb429bb5302911b7de8b40255"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versausglg/__8.html",
+      "checked_on": "2026-09-25",
+      "supports": "Inhalts- und Ausübungskontrolle der Versorgungsausgleichsvereinbarung.",
+      "source_sha256": "d44b02539a06e49ba27f1eea015b73311533d1b6002effdeba3e13a79a1705c0"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2012/III_ZR_121-12.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-25",
+      "supports": "BGH, Urteil vom 07.02.2013, III ZR 121/12, Randnummern 20 bis 22: Sachlicher Verkürzungsgrund und anderweitiger Übereilungsschutz, sonst vorzeitige Beurkundung ablehnen. Grenze: Amtshaftung; keine automatische Vertragsnichtigkeit und kein allgemeines Zweiwochengebot.",
+      "source_sha256": "71eb74535d13b7e64b4036ed396e9d5c72e06021188f432bd5d3b40fadcc693c"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2016/XII_ZB__61-16.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-25",
+      "supports": "BGH, Beschluss vom 06.07.2016, XII ZB 61/16, Randnummern 17 bis 20 und 46 bis 48: Qualifizierte Gefahr in besonderer Gesundheitsvollmacht; konkretisierte Behandlungsentscheidung bei Patientenverfügung. Grenze: Historische Normen; heute BGB1820/1827/1829 prüfen. Keine pauschale Aussage zur heutigen Kontrollbetreuung.",
+      "source_sha256": "2978810e103ebcabebae165a95fa8bc684f5383f279805ceb574179055c85cf7"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2015/XII_ZB_604-15.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-25",
+      "supports": "BGH, Beschluss vom 08.02.2017, XII ZB 604/15, Randnummern 17 bis 23: Gesamtzusammenhang der schriftlichen Patientenverfügung auslegen; keine isolierte Unwirksamkeitsdiagnose allgemeiner Formeln. Grenze: Keine medizinische Vollständigkeitsforderung und keine eigene Therapieentscheidung des Modells.",
+      "source_sha256": "6dc3d8663bbca5665e32f989f7d266a0975d81ec21397bf1ce39c5bd04f1da53"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2002/XII_ZR_265-02.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-25",
+      "supports": "BGH, Urteil vom 11.02.2004, XII ZR 265/02, amtlicher Volltext Seiten 23 bis 26: Wirksamkeitskontrolle beim Vertragsschluss und spätere Ausübungskontrolle; wirtschaftliche und persönliche Umstände insgesamt. Grenze: Historische Versorgungsausgleichs- und Formnormen nicht übernehmen. Keine schematische Nichtigkeit aufgrund eines einzelnen Umstands.",
+      "source_sha256": "408519e1a43a013a6e94f747f3ecd9e0aa027a00a25e4c4a830e2fb09ff29fe3"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/NotS/2025/NotSt_Brfg___3-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Beschluss vom 09.03.2026 – NotSt (Brfg) 3/25, Rn. 10–21: Übernommene Vorsorgeregisteranmeldung unverzüglich veranlassen; Gebührenweg konkret prüfen. Keine feste Drei-/Fünfwerktagefrist oder allgemeine Pflicht zum Gebührenvorschuss."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__40-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-30",
+      "supports": "BGH, Urteil vom 21.01.2026 – IV ZR 40/25, Rn. 9–16, 21, 27–33: Testamentsformstatut nach vorrangigem Haager Übereinkommen entscheidet auch über Folgen territorial überschrittener Amtsbefugnis. Niederländisches Testament im konkreten Fall; keine allgemeine Erlaubnis ausländischer Notare zu Amtstätigkeit in Deutschland."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-10",
+      "supports": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+      "source_sha256": "03c02ef1fdd24d3051fe5d2392c60648ac96b8d38e99876de5c3a592270d2e73"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Prüfung aller 20 Arbeitswege; fachliche Form- und Vollzugslücken geschlossen und Fortsetzung bis zum vollständigen Entwurf verbessert. Desk-Review, kein beobachteter Live-Client-Test. Redaktionelle Einstiegslektüre am 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt.",
+    "changes": [
+      "Formsonderfälle und Einreichungsfolge konkretisiert.",
+      "Bank-, Register-, Familien- und Vorsorgeantworten in die gesamte betroffene Vorlage weiterführen.",
+      "Mini deckt alle Fachbereiche innerhalb 7500 UTF-8-Bytes und Zeichen ab; Werkstatt enthält vollständige Anschreiben und abgegrenzte Klauselbeispiele.",
+      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenprüfung 10.11.2026: V ZB 17/24 für den Vollzug nach MoPeG angewendet."
+    ],
+    "sha256": "176bcb1e7cc034b1e7d43a05676c6dec1eb631ce1b7943b334beaf38ca68389c"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Individuelle Prüfung aller 20 Arbeitswege; fachliche Form- und Vollzugslücken geschlossen und Fortsetzung bis zum vollständigen Entwurf verbessert. Desk-Review, kein beobachteter Live-Client-Test. Redaktionelle Einstiegslektüre am 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Die Quellenprüfung vom 16.11.2026 ergänzt die konkret dokumentierte Änderung zum Entscheidungsstichtag 31.10.2026.",
+    "changes": [
+      "Formsonderfälle und Einreichungsfolge konkretisiert.",
+      "Bank-, Register-, Familien- und Vorsorgeantworten in die gesamte betroffene Vorlage weiterführen.",
+      "Mini deckt alle Fachbereiche innerhalb 7500 UTF-8-Bytes und Zeichen ab; Werkstatt enthält vollständige Anschreiben und abgegrenzte Klauselbeispiele.",
+      "Redaktion 16.10.2026: Urkundenentwurf und Vollzugsvorlage konkret benannt; vorhandenen Zweiwochenanker nach vorn verlagert, doppelte Hauptnummer entfernt. Keine neue fachliche Vollprüfung und kein Live-Modelltest.",
+      "Quellenprüfung 10.11.2026: V ZB 17/24 für den Vollzug nach MoPeG angewendet.",
+      "Fristbeginn zum gemeindlichen Vorkaufsrecht nach III ZR 3/26 an korrekte Mitteilung über den Genehmigungsstand knüpfen."
+    ],
+    "sha256": "f409b79d3ab176d335cfd95ea932b971d7d81a500cda83cd3b50c110af270492"
+  },
+  "selection": {
+    "positive": [
+      "Bereite die Grundschuldbestellung aus Bankauftrag und Eigentümerangaben vor.",
+      "Gleiche die Unterlagen zur GmbH-Kapitalerhöhung für den notariellen Vollzug ab."
+    ],
+    "negative": [
+      "Entscheide als Registergericht durch Zwischenverfügung über ein Hindernis der bereits eingereichten Anmeldung.",
+      "Prüfe ausschließlich die gerichtliche Vollstreckung aus einer bereits errichteten notariellen Urkunde."
+    ]
+  },
+  "cases": [
+    {
+      "id": "miteigentuemerin-ohne-darlehen",
+      "request": "Erstelle ergebnis.md als internen Vorbereitungsvermerk im Notariat. Eheleute Anna und Paul Kern besitzen je zur Hälfte das Grundstück Blatt 412, Gemarkung Linden, Flurstück 9. Nur Paul nimmt bei Bank B ein Darlehen über 240000 Euro auf. Bank B verlangt eine Buchgrundschuld über 240000 Euro mit 15 Prozent dinglichen Jahreszinsen und dinglicher Unterwerfung gegen den jeweiligen Eigentümer. Das übersandte Formular sieht zusätzlich die persönliche gesamtschuldnerische Haftung beider Ehegatten vor. Anna erklärt schriftlich, nur ihr Grundstücksrecht zur Verfügung stellen zu wollen; persönliche Haftung lehnt sie ab. Es gibt noch keine Einigung mit der Bank, keinen Termin und keine Vollmacht. Zeige die erforderlichen Entwurfsentscheidungen und formuliere eine konkrete Rückfrage an die Bank.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet die dingliche Belastung beider Anteile von der nur für Paul vereinbarten Darlehensschuld und behandelt Annas persönliche Haftung als ungelösten Widerspruch.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Erfragt eine angepasste Bankvorgabe beziehungsweise ausdrückliche Klärung statt Annas persönliche Haftung ohne Zustimmung in einen freigegebenen Entwurf zu übernehmen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Stellt dingliche Unterwerfung und Registervollzug als vorzubereitende Schritte dar, ohne notarielle Erklärung, Prüfung der Originale oder Eintragung zu fingieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "grundschuld-buchgrundschuld-treuhand"
+    },
+    {
+      "id": "parkhof-entwurf-und-sonderwunsch",
+      "request": "Bereite aus den beigefügten Unterlagen zum Erwerb der Wohnung im Parkhof eine gezielte Rückfrage des Notariats an Vertrieb und Erwerber vor. Die vorhandenen Informationen sollen nicht nochmals abgefragt werden. Schreibe die Rückfrage vollständig in ergebnis.md und halte nur die für den Vertragsentwurf noch entscheidenden offenen Punkte fest.",
+      "input_files": [
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/01_objektunterlagen.docx",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/02_baubeschreibung.docx",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/03_beteiligte.txt",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/04_grundbuch_rueckfrage.txt",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/05_kaeufer.eml",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/06_vertrieb.eml",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/07_notariat.eml",
+        "testakten/notariat-bautraegerkauf-parkhof-potsdam/08_technische_antwort.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erfasst Wohnung und Stellplatz mit insgesamt 504000 Euro; macht aus der unverbindlichen Küchenänderung keinen vereinbarten Mehrpreis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt den geplanten Termin von der Bereitstellung eines notariellen Entwurfs und den noch offenen Verbraucheranforderungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fordert die konkret fehlende Plan-, Preis- und Freistellungsgrundlage an, statt Vertragsbestand oder Fälligkeit zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "bautraegervertrag-mabv-familiengesellschaft"
+    },
+    {
+      "id": "erfurt-bankantwort-fortschreiben",
+      "request": "Die Bank hat auf die Rückfrage zur Grundschuldbestellung geantwortet; alle vorhandenen Unterlagen und Antworten liegen bei. Führe die Vorbereitung für Thomas und Nora Groß fort. Erstelle in ergebnis.md die erforderliche konkrete Banknachfrage und einen knappen Vorlagevermerk für den Notar, ohne die Beteiligten erneut vollständig zu interviewen.",
+      "input_files": [
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/01_bankauftrag.docx",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/02_eigentuemerbrief.docx",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/03_grundbuchdaten.txt",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/04_telefonnotiz.txt",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/05_abloesebank.eml",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/06_bankrueckfrage.eml",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/07_bankantwort.eml",
+        "testakten/notariat-grundschuld-bankauftrag-erfurt/08_termin.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt Darlehen 340000 Euro, Grundschuld 360000 Euro und persönliche Haftung; beide Miteigentümer sind nicht automatisch Darlehensnehmer.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt Noras Ablehnung und die fehlende Bankänderung als ungelöst, statt einen Haftungsverzicht der Bank anzunehmen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Berücksichtigt Ablösestichtag und Tageszinsen aus dem Nachweis, ohne unbekannte Zahlung oder Freigabe zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "grundschuld-buchgrundschuld-treuhand"
+    },
+    {
+      "id": "hannover-unterschrift-anerkennen",
+      "request": "Bereite aus den Unterlagen zu Anna Brandts Genehmigung das vollständige Terminanschreiben in ergebnis.md vor. Ihre Unterschrift wurde bereits zu Hause geleistet. Erläutere nur die für diesen Termin tatsächlich erforderlichen Schritte und Nachweise und berücksichtige die noch unvollständige Namensdokumentation.",
+      "input_files": [
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/01_anfrage_notariat.docx",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/02_genehmigungstext.docx",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/03_personalien.txt",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/04_telefonnotiz.txt",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/05_kundin.eml",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/06_terminantwort.eml",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/07_vollzug.eml",
+        "testakten/notariat-unterschriftsbeglaubigung-hannover/08_bruder.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bezeichnet die Anerkennung einer vorhandenen Unterschrift vor dem Notar als möglichen Weg, statt zwingend eine Neuunterschrift zu verlangen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ordnet Anna Brandt und den bisherigen Namen Seidel anhand des noch zu belegenden Namenswechsels zu, ohne den Originalnachweis als vorhanden auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert ein versandfertig formuliertes Terminanschreiben als Entwurf, ohne Beglaubigung oder persönliche Identitätsfeststellung zu fingieren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "formweg-beurkundung-beglaubigung"
+    },
+    {
+      "id": "rostock-gruendungswunsch",
+      "request": "Erstelle aus dem Rostocker Kundenordner die nächste Beteiligtennachricht zur Gründung der Küstenlot Service GmbH in ergebnis.md. Kläre die noch erforderliche Entscheidung zur Satzung und bereite die Fortsetzung mit vorhandenen Anteils- und Geschäftsführerangaben vor. Wiederhole keinen allgemeinen Gründungsfragebogen.",
+      "input_files": [
+        "testakten/notariat-gmbh-gruendung-rostock/01_gruenderwunsch.docx",
+        "testakten/notariat-gmbh-gruendung-rostock/02_geschaeftsdaten.docx",
+        "testakten/notariat-gmbh-gruendung-rostock/03_anteilsplan.txt",
+        "testakten/notariat-gmbh-gruendung-rostock/04_telefonnotiz.txt",
+        "testakten/notariat-gmbh-gruendung-rostock/05_bank.eml",
+        "testakten/notariat-gmbh-gruendung-rostock/06_geschaeftsfuehrer.eml",
+        "testakten/notariat-gmbh-gruendung-rostock/07_vermieter.eml",
+        "testakten/notariat-gmbh-gruendung-rostock/08_notariat.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Schließt das Musterprotokoll nicht allein wegen des Fremdgeschäftsführers aus; behandelt individuelle Zustimmungsvorgaben als konkrete Gestaltungsfrage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Hält vier beabsichtigte Anteile und 25000 Euro Stammkapital auseinander und verändert die Stückelung nicht stillschweigend.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet geplante Einzahlung 12500 Euro, Kontoeröffnung und wirklichen Zahlungseingang; keine falsche Registerversicherung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "gmbh-gruendung-gesellschafterliste"
+    },
+    {
+      "id": "ulm-kapital-und-organwechsel",
+      "request": "Bereite in ergebnis.md den ausformulierten Beschlussentwurf und die noch notwendige gezielte Unterlagenanforderung zur Falkensteg Sensorik GmbH vor. Verarbeite Kapitalerhöhung und vorgesehenen Geschäftsführerwechsel gemeinsam, aber mit ihren jeweils zutreffenden Erklärungen und Zeitpunkten. Keine bereits vollzogenen Handlungen unterstellen.",
+      "input_files": [
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/01_auftrag_gesellschaft.docx",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/02_satzungsauszug.docx",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/03_anteilsbestand.txt",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/04_zahlungsnotiz.txt",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/05_investorin.eml",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/06_gesellschafterin.eml",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/07_notariat.eml",
+        "testakten/notariat-kapitalerhoehung-geschaeftsfuehrer-ulm/08_buchhaltung.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Rechnet 25000 Euro auf 35000 Euro Stammkapital; 10000 Euro Nennbetrag und 40000 Euro Aufgeld werden nicht als 50000 Euro Kapitalerhöhung behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt Beschluss, Übernahme, Zahlung, Eintragung und den vorgesehenen Geschäftsführerwechsel am 10. Oktober.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erkennt die ausstehende Zahlung und unvollständige Satzungsgrundlage; fragt gezielt nach und unterstellt keinen Einberufungsverzicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kapitalerhoehung-beschluss-register"
+    },
+    {
+      "id": "bremen-finanzierung-abstimmen",
+      "request": "Formuliere anhand des Bremer Ordners eine vollständige Abstimmungsnachricht zur Erwerbsfinanzierung an Bank und Beteiligte in ergebnis.md. Sie soll den nächsten sachlich notwendigen Schritt ermöglichen. Keine allgemeine Abhandlung über Anteilskauf und keine ungeprüfte Zusage einer notariellen Verwahrung erstellen.",
+      "input_files": [
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/01_verkaeuferauftrag.docx",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/02_bankbedingungen.docx",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/03_gesellschaftsdaten.txt",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/04_gespraechsnotiz.txt",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/05_kaeuferin.eml",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/06_mitgesellschafterin.eml",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/07_bankrueckfrage.eml",
+        "testakten/notariat-anteilsuebertragung-verpfaendung-bremen/08_bankstand.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erfasst die konkrete Zirkularität zwischen Zahlung vor Abtretung und Auszahlung erst nach wirksamem Erwerb samt Pfand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verwendet 168000 Euro Kaufpreis, 120000 Euro Finanzierung und 48000 Euro Eigenmittel konsistent, ohne Eigenmittel als bereits gezahlt auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet Zustimmung zum Verkauf und zur Verpfändung; erklärt eine positive Mitgesellschafternachricht nicht automatisch zum formgerechten Beschluss.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "gmbh-anteile-uebertragen-verpfaenden"
+    },
+    {
+      "id": "waldwinkel-verfahren-entflechten",
+      "request": "Bearbeite den Kundenordner Waldwinkel für die nächste Vorlage an den Notar. Erstelle in ergebnis.md eine gezielte Nachforderung an die Beteiligten und einen kurzen internen Vermerk zu den tatsächlich offenen Register- und Vollzugspunkten. Gesellschaft, Grundstück und Erbfall müssen unterscheidbar bleiben; keine allgemeine Zusammenfassung jedes Aktenstücks liefern.",
+      "input_files": [
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/01-notariat-einladung-beurkundungstermin.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/02-entwurf-anteilskauf-und-abtretung.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/03-email-eva-falk-vollmacht-kurier.eml",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/04-registergericht-zwischenverfuegung.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/05-gesellschafterliste-rohdaten.csv",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/06-grundbuch-bestandsdaten.csv",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/07-weserland-bank-finanzierungsbestaetigung.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/08-notariat-auskunftsersuchen-wirtschaftlich-berechtigte.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/09-dolmetscherin-bestaetigung-und-personalien.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/10-email-bank-auszahlungsvoraussetzungen.eml",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/11-aktennotiz-telefonat-eva-falk.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/12-email-nachforderung-register-und-trustunterlagen.eml",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/13-entwurf-grundstueckskaufvertrag.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/14-notariat-vollzugsmitteilung-grundbuchunterlagen.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/15-nachlassgericht-eroeffnungsniederschrift.docx",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/16-kaufpreis-zahlungsdaten.csv",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/17-kuriersendung-verlauf-vollmacht.csv",
+        "testakten/notariat-alltag-waldwinkel-gmbh-immobilien-erbfall/18-email-anwalt-dorn-einziehung.eml"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Gleicht 100000 Euro Stammkapital mit den vorhandenen Anteilsdaten und der Einziehungsfrage ab, ohne fehlende Anteile eigenmächtig zuzuteilen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Unterscheidet eingegangenen Scan, Kurierstand, Originalvollmacht und notwendigen Vertretungsnachweis; fingiert keinen Originaleingang.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verbindet Erbnachweis, Grundstück und Bankvorgaben nur soweit belegt und liefert eine konkrete Nachforderung statt einseitiger Vollzugsfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "kaltstart-triage"
+    },
+    {
+      "id": "bankantwort-dinglich-fertigstellen",
+      "request": "Setze den Entwurf fort: Anna und Paul besitzen je eine Hälfte, nur Paul ist Darlehensnehmer. Die Bank hat jetzt verbindlich bestätigt: Anna haftet nur dinglich, keine persönliche Unterwerfung. Im bisherigen Text stehen beide auch als persönliche Schuldner. Die Ablösebank hat noch keine neuen Löschungsunterlagen geliefert. Liefere den korrigierten Erklärungsteil und den konkreten weiteren Vollzug in ergebnis.md.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Entfernt Annas persönliche Haftung und persönliche Unterwerfung durchgängig; dingliche Mitwirkung bleibt nach Bankauftrag bestehen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Liefert vollständigen aktualisierten Text statt allgemeiner Checkliste; keine erneute Befragung zu geklärter Haftung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Behandelt fehlende Löschungsunterlagen als gesondertes fortbestehendes Hindernis, keine Einreichungs- oder Zahlungsfiktion.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "grundschuld-buchgrundschuld-treuhand"
+    },
+    {
+      "id": "gruendung-egbr-zwei-geschaeftsfuehrer",
+      "request": "Eine GbR soll GmbH-Gesellschafterin werden; ihre Registereintragung ist noch nicht erfolgt. Zwei Geschäftsführer sind bereits vorgesehen, beide einzelvertretungsberechtigt. Ein Gründer schickt dem Vertreter nur eine einfach unterschriebene Gründungsvollmacht. Bereite eine konkrete Nachforderung und die Anmeldefolge in ergebnis.md vor.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt besondere Vollmachtsform nach GmbHG2Absatz2; allgemeines BGB167Absatz2 reicht nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verlangt Gesellschaftsregistereintragung vor Aufnahme der GbR in die Liste; trägt GbR-Gesellschafter nicht persönlich als GmbH-Anteilsinhaber ein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Gründungsanmeldung benötigt sämtliche Geschäftsführer nach GmbHG78 trotz Einzelvertretung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "gmbh-gruendung-gesellschafterliste"
+    },
+    {
+      "id": "auflassung-zahlung-trennen",
+      "request": "Der Kaufvertragsentwurf enthält: Die Auflassung wird mit vollständiger Kaufpreiszahlung wirksam. Beide Beteiligten wollen, dass der Notar den Eigentumsantrag erst nach belegter Zahlung einreicht. Korrigiere diesen Teil vollständig in ergebnis.md und erkläre die notwendige Vollzugsprüfung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Benennt Unwirksamkeit einer bedingten Auflassung nach BGB925Absatz2.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Formuliert unbedingte dingliche Einigung getrennt von Einreichungsweisungen und setzt fehlende Objekt-/Vertragsdaten nicht eigenmächtig ein.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Zahlungsnachweis und weitere Einreichungsvoraussetzungen bleiben offen; keine Vollzugsfreigabe aufgrund bloßer Klauselkorrektur.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "grundbuchantrag-rangstelle-notarielle"
+    },
+    {
+      "id": "vorsorge-keine-zwangsbefugnis",
+      "request": "Die Vollmachtgeberin wünscht Gesundheitsvertretung auch bei Lebensgefahr und schweren dauerhaften Schäden. Freiheitsentziehung und Zwangsbehandlung will sie ausdrücklich nicht bevollmächtigen. Eine Patientenverfügung liegt noch nicht vor. Formuliere in ergebnis.md die gewünschte Gesundheitsklausel und die sachlich notwendige nächste Frage, ohne Behandlungswünsche zu erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erfasst Einwilligung, Verweigerung und Widerruf sowie qualifizierte Gefahr in vollständigem Text.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ergänzt keine Freiheitsentziehungs- oder Zwangsbefugnis und keine ungefragte Generalvollmacht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet Vertretungsbefugnis von eigenen Behandlungswünschen, Genehmigung/Einvernehmensausnahme fallbezogen; keine pauschale Gerichtsfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "vorsorgevollmacht"
+    },
+    {
+      "id": "verschmelzung-verspaetet-registerfolge",
+      "request": "Die GmbH-Tochter soll auf ihre Mutter verschmolzen werden. Schlussbilanz31.12.2025, Anmeldung nun erst September2026. Der Betriebsrat hat den Entwurf noch nicht erhalten; die Gesellschafter wollen auf Berichte verzichten. Formuliere Nachforderung und Vollzugsplan in ergebnis.md.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Fordert neue echte Schlussbilanz, statt Datum umzuschreiben oder Achtmonatsgrenze als erledigt zu erklären.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt Gesellschafterverzicht von erforderlicher Betriebsratszuleitung mit Monatsabstand.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erst Registereintragung der übertragenden, danach übernehmenden Gesellschaft; Wirkung nicht schon aus Versand/erstem Registerbeleg.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "umwandlung-verschmelzung-kapitalerhoehung"
+    },
+    {
+      "id": "genehmigung-empfaenger-und-frist",
+      "request": "Ein Käufer hat nach einem vollmachtlos geschlossenen Grundstücksvertrag den Vertretenen selbst zur Genehmigung nach BGB177Absatz2 aufgefordert. Zugang steht fest. Innerhalb von zwei Wochen ging die Erklärung nur beim vollmachtlosen Vertreter ein, beim Käufer erst später. Der Mitarbeiter möchte den Vorgang als fristgerecht schließen. Erstelle den konkreten Vorlagevermerk in ergebnis.md.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft Zweiwochenfrist ab Zugang der konkreten Aufforderung und ausschließlich maßgeblichen Erklärungsempfänger.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Schließt Vorgang nicht aufgrund Zugangs beim Vertreter; Ablauf führt zur Verweigerungsfiktion, weiterer Vertragsweg notariell prüfen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet materiellen Zugang von Dokument-/Grundbuchnachweis und fingiert keine Heilung durch späteren Scan.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "auslandsurkunde-apostille-vollmacht"
+    },
+    {
+      "id": "mumbai-vertretung-apostille-listenaufnahme",
+      "request": "Bearbeite die beigefügte Spreekern-Akte aus Sicht des beurkundenden Notariats und davon getrennt der Rechtsanwältin der GmbH. Erstelle in ergebnis.md den zeitbezogenen Prüfvermerk, eine gezielte Unterlagenanforderung, den nächsten gerichtlichen Schriftsatz und eine verständliche Nachricht an die Beteiligten. Prüfe das bereits eingelegte Rechtsmittel und die nachgelieferte Umlaufakte anhand aktueller Primärquellen. Kennzeichne entscheidende offene Tatsachen, ohne Ermächtigung, Genehmigung oder Amtshandlung zu fingieren.",
+      "input_files": [
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/01_Auftrag_Finanzierungsrunde.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/02_Geschaeftsprofil.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/03_Termsheet_Anteilskauf.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/04_Registerauszug_Spreekern.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/05_Beteiligung_vor_nach.xlsx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/06_Certificate_Incorporation.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/07_Articles_Authority.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/08_Director_Appointment_DIR12.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/09_MCA_Ansicht_23092026.png",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/10_Board_Resolution_01092026.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/11_Notarial_Certificate_Mumbai.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/12_Apostille_Anlagenblatt.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/13_Indische_Beratermail.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/14_SPA_Beurkundet.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/15_Kaufpreisgutschriften.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/16_Closing_Bestaetigung.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/17_Neue_Gesellschafterliste.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/18_Einreichung_Register.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/19_Registergericht_Nachforderung.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/20_RA_Stellungnahme.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/21_Notarieller_Aktenvermerk.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/22_Zurueckweisungsbeschluss.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/23_Erinnerung_hilfsweise_Beschwerde.docx",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/24_Gericht_Eingang_weiteres_Verfahren.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/25_Rao_Nachlieferung.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/26_Mandantenauftrag_nach_Zurueckweisung.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/27_Umlaufakte_09_Oktober.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/28_Ergaenzender_Beschlussauszug.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/29_Bestellungsbeschluss_2024.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/30_Consent_Director_2024.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/31_DNotI_Anfrage_Mumbai.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/32_Deshmukh_kein_zweiter_Berlinflug.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/33_Befund_Kopien_und_Originale.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/34_Rao_Vollmachtsweg_noch_offen.eml",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/35_Spezialvollmacht_Arbeitsstand_unterzeichnet_nein.pdf",
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/36_Kollegiale_Vorbesprechung_Mumbai.pdf"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet die Belege der Gesellschaft und dem Signing am 12. Oktober 2026 zu; unterscheidet Director-Bestellung, fortbestehende Organstellung und konkrete Einzelermächtigung. Stellt 35 Prozent, Gesamtkaufpreis 840000 EUR und die 500000-EUR-Grenze konsistent dar.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Liest September-Beschluss, Auszug vom 9. Oktober und nachgelieferte Umlaufakte zusammen. Beachtet Shahs ausdrückliches Sitzungsverlangen; prüft Section 175 Absatz 1 Proviso sowie gegebenenfalls Section 179 Absatz 3 Companies Act anhand aktueller Primärquellen. Erklärt weder die Zweidrittelzustimmung noch einen Telefonhinweis ungeprüft zur wirksamen Transaktionsermächtigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Trennt Identitäts-/Unterschriftsbescheinigung und inhaltlichen Vertretungsnachweis. Erkennt fehlende bilaterale HAÜ-Wirkung der indischen Apostille und die eingestellte deutsche Legalisation; klärt konkret geeignete weitere Belege beziehungsweise behördliche Amtshilfe, ohne private Bestellbarkeit oder sichere Anerkennung zu versprechen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Trennt eigene Verantwortung der Notarin nach Paragraf 40 Absatz 2 GmbHG von der begrenzten Registerprüfung. Wendet den Maßstab BGH II ZB 11/24, Rn. 33–38, auf sichere offensichtliche Unrichtigkeit ohne Ermittlungen an; fehlender Beleg bedeutet nicht automatisch erwiesene Unwirksamkeit. Behauptet keine konstitutive Eintragung oder Heilung des Anteilserwerbs durch Listenaufnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Prüft förmliche Nichtaufnahme, Bekanntgabe und rechtzeitige Eingabe getrennt. Behandelt die anwaltliche Überschrift Erinnerung nicht als Beweis der Statthaftigkeit; prüft Auslegung als Beschwerde nach Paragraf 58 FamFG und Subsidiarität der Erinnerung nach Paragraf 11 Absatz 2 RPflG sowie konkrete Beschwerdeberechtigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Liefert vollständige, belegbezogene Nachforderung, weiteren gerichtlichen Schriftsatz und verständliche Beteiligtennachricht mit getrennten Rollen. Hält unbewiesene Sitzung, Genehmigung, Legalisation und wirksame Erklärung offen; verändert keine Originalurkunde und erfindet weder erfolgte Amtshandlungen noch fehlende Belege oder Fundstellen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "auslandsurkunde-apostille-vollmacht"
+    },
+    {
+      "id": "dubai-legalisation-zeitbezug-listenaufnahme",
+      "request": "Bearbeite die Havelquarz-Akte aus Sicht des beurkundenden Notariats und davon getrennt des Rechtsanwalts der GmbH. Erstelle in ergebnis.md einen belegbezogenen Prüfvermerk zum Signingzeitpunkt, eine gezielte Nachforderung, die nun benötigte Ergänzung zum gerichtlichen Verfahren und eine verständliche Nachricht zum Bank- und Listenstand. Die Legalisation liegt inzwischen vor; kläre ihren konkreten Aussagegehalt und die zeitlich verschiedenen Managerunterlagen. Prüfe die als Erinnerung bezeichnete Eingabe und konkrete Fristen. Behaupte keine nicht belegte Genehmigung oder Amtshandlung.",
+      "input_files": [
+        "testakten/notariat-berlin-vae-vertretungsnachweis/01_Mandat_Dubai_Investor.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/02_Profil_Havelquarz.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/03_Termsheet_Havelquarz.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/04_Register_Havelquarz.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/05_Cap_Table_Havelquarz.xlsx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/06_Trade_Licence_September.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/07_MOA_2023_Auszug.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/08_Members_Resolution_06102026.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/09_Notarieller_Nachtrag_MOA.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/10_DET_Bearbeitung_Chronologie.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/11_Notarial_Certified_Copy.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/12_MOFA_Attestation.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/13_Deutsche_Legalisation.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/14_SPA_Havelquarz_Beurkundet.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/15_Zahlungsbelege_Havelquarz.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/16_Liste_Havelquarz.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/17_Einreichung_Havelquarz.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/18_Gericht_Frage_Zeitpunkt.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/19_RA_Antwort_Legalisation.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/20_Legalisation_eingegangen.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/21_Nichtaufnahme_Beschluss.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/22_Erinnerung_Beschwerde_Havelquarz.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/23_Gericht_Bearbeitungsnachricht.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/24_Dubai_Auskunft_noch_offen.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/25_Firmenansicht_21102026.png",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/26_Notar_Aktenvermerk_Dubai.docx",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/27_Mandant_Bankdruck.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/28_Dokumentenweg_Vorbereitung.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/29_DNotI_Anfrage_Dubai.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/30_Rashid_erneuter_Termin_Vollmacht.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/31_Originalbefund_Legalisationskette.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/32_Farouqi_Vollmachtsentwurf_ohne_Ausfuehrung.eml",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/33_Special_Authority_Arbeitsstand.pdf",
+        "testakten/notariat-berlin-vae-vertretungsnachweis/34_Kollegiale_Vorbesprechung_Dubai.pdf"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Identifiziert die Dubai-Mainland-LLC und wendet keine ungeprüften DIFC-, ADGM- oder Freizonenregeln an. Ordnet den Erwerb von 40 Prozent für insgesamt 960000 EUR, das unveränderte Stammkapital und die getrennte deutsche Geschäftsführung konsistent zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Verknüpft alten MOA-Text, Gesellschafterbeschluss vom 6. Oktober, notariellen Nachtrag vom 7. Oktober, Antragseingang am 8. Oktober, Bearbeitungsstatus am 13. Oktober, Abschluss am 20. Oktober und Ansicht vom 21. Oktober mit dem Signing am 14. Oktober. Prüft anhand amtlicher Rechtsquellen und gegebenenfalls qualifizierter Auskunft die zeitliche Außenwirkung der Manageränderung sowie innergesellschaftliche Beschränkungen; fingiert weder automatische Rückwirkung noch allein aus dem späteren Registerdatum die Unwirksamkeit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet MOA-Nachtrag, Kopiebeglaubigung vom 23. Oktober, MOFA-Vorbeglaubigung und deutsche Legalisation vom 28. Oktober anhand ihrer konkreten Referenzen. Ordnet Echtheitswirkung, Scan und Originaleingang am 2. November getrennt ein. Behandelt die legalisierte Kopie weder als materielle Vollmachtsprüfung noch als zusätzliche Vertragsunterschrift oder Genehmigung und fordert nicht pauschal eine Apostille für die VAE.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Trennt eigene notarielle Verantwortung nach Paragraf 40 Absatz 2 GmbHG von Registerprüfung und materieller Wirksamkeit. Prüft BGH II ZB 11/24, Rn. 33–38, mit dem begrenzten Maßstab offensichtlicher sicherer Unrichtigkeit ohne weitere Ermittlungen; erklärt die Notarbescheinigung nicht zur uneingeschränkt bindenden Feststellung. Behauptet weder konstitutive Eintragung des Anteilserwerbs noch Geschäftsführerbestellung durch die Listenaufnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Prüft Nichtaufnahmebeschluss vom 30. Oktober, Bekanntgabe am 2. November und bereits am selben Tag eingelegte Eingabe sowie die Ergänzungsfrist am 16. November. Ordnet Erinnerung beziehungsweise Auslegung als Beschwerde nach Paragraf 58 FamFG und subsidiäre Erinnerung nach Paragraf 11 Absatz 2 RPflG anhand von Entscheidungsgegenstand, Beschwerdeberechtigung, Form und Frist ein; verwechselt dies nicht mit unanfechtbarer vollzogener Registereintragung oder Zwangsgeldverfahren.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Liefert vollständige gezielte Nachforderung, ergänzenden Gerichtsschriftsatz und verständliche Nachricht zum Bank- und Listenstand mit Aktenfundstellen. Unterscheidet Käuferbelastung von Verkäufergutschrift, bezieht die weitergeleiteten Zahlungseingangsbestätigungen ein und fingiert keine fehlende Ratifikation durch Al Noor. Keine neue Urkunde allein zum Datumswechsel, kein unautorisierter externer Versand und keine erfundenen Quellen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "auslandsurkunde-apostille-vollmacht"
+    },
+    {
+      "id": "dnoti-mumbai-anfrage-allein-pruefen",
+      "request": "Prüfen Sie ausschließlich die beigefügte notarielle Anfrage. Erstellen Sie einen ausformulierten fachlichen Prüfvermerk mit Sachverhaltsabgleich, geltendem Kollisions- und Gesellschaftsrecht, offenen Nachweisen sowie belastbaren nächsten Schritten. Prüfen Sie die gestellten Varianten, ohne eine bereits erteilte Vollmacht oder Genehmigung zu unterstellen. Versenden Sie nichts.",
+      "input_files": [
+        "testakten/notariat-berlin-mumbai-gesellschafterliste/31_DNotI_Anfrage_Mumbai.pdf"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Rekonstruiert anhand dieses einen PDFs Gesellschaften, Rollen, Beteiligungsquote, Kaufpreis und maßgebliche Zeitpunkte ohne weitere Dateien zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt die bereits erfolgte Beurkundung und den offenen Listenweg von der rückblickenden Beurkundungsprüfung sowie künftig erwogenen Erklärungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft Organbestellung, konkrete Abschlussbefugnis und Vollmachtserteilungsbefugnis getrennt; eine beglaubigte Unterschrift ersetzt keine fehlende Rechtsmacht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Unterscheidet Papieroriginal, Scan, Ausdruck, elektronische Signatur, Beglaubigung und verwendbaren Nachweis und berücksichtigt § 167 Absatz 2 BGB sowie § 17 Absatz 3 BeurkG differenziert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Ermittelt das einschlägige Recht und den tatsächlichen amtlichen Länderstand anhand verifizierter Primärquellen; keine erfundenen Rechtsquellen, Registerabrufe oder ausländischen Rechtsfolgen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Liefert vollständige Sätze, konkrete Nachforderungen und begründete Handlungsoptionen; keine erfundene Antwort oder Freigabe des Deutschen Notarinstituts.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "auslandsurkunde-apostille-vollmacht"
+    },
+    {
+      "id": "dnoti-dubai-anfrage-allein-pruefen",
+      "request": "Prüfen Sie ausschließlich die beigefügte notarielle Anfrage. Erstellen Sie einen ausformulierten fachlichen Prüfvermerk mit Sachverhaltsabgleich, geltendem Kollisions- und Gesellschaftsrecht, offenen Nachweisen sowie belastbaren nächsten Schritten. Prüfen Sie die gestellten Varianten, ohne eine bereits erteilte Vollmacht oder Genehmigung zu unterstellen. Versenden Sie nichts.",
+      "input_files": [
+        "testakten/notariat-berlin-vae-vertretungsnachweis/29_DNotI_Anfrage_Dubai.pdf"
+      ],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Rekonstruiert anhand dieses einen PDFs Gesellschaften, Rollen, Beteiligungsquote, Kaufpreis und maßgebliche Zeitpunkte ohne weitere Dateien zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt die bereits erfolgte Beurkundung und den offenen Listenweg von der rückblickenden Beurkundungsprüfung sowie künftig erwogenen Erklärungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft Organbestellung, konkrete Abschlussbefugnis und Vollmachtserteilungsbefugnis getrennt; eine beglaubigte Unterschrift ersetzt keine fehlende Rechtsmacht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Unterscheidet Papieroriginal, Scan, Ausdruck, elektronische Signatur, Beglaubigung und verwendbaren Nachweis und berücksichtigt § 167 Absatz 2 BGB sowie § 17 Absatz 3 BeurkG differenziert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "Ermittelt das einschlägige Recht und den tatsächlichen amtlichen Länderstand anhand verifizierter Primärquellen; keine erfundenen Rechtsquellen, Registerabrufe oder ausländischen Rechtsfolgen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C06",
+          "text": "Liefert vollständige Sätze, konkrete Nachforderungen und begründete Handlungsoptionen; keine erfundene Antwort oder Freigabe des Deutschen Notarinstituts.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "auslandsurkunde-apostille-vollmacht"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-25",
+    "files": [
+      "notariat-alltag/notariat-alltag-schnellstart.md",
+      "notariat-alltag/notariat-alltag-werkstatt.md",
+      "notariat-alltag/references/mitarbeiter-formwege.md",
+      "notariat-alltag/references/rechtsprechung-geprueft.md",
+      "notariat-alltag/references/zitierweise.md",
+      "notariat-alltag/skills/auslandsurkunde-apostille-vollmacht/SKILL.md",
+      "notariat-alltag/skills/bautraegervertrag-mabv-familiengesellschaft/SKILL.md",
+      "notariat-alltag/skills/beteiligte-identitaet-vertretung/SKILL.md",
+      "notariat-alltag/skills/ehevertrag-scheidungsfolgenvereinbarung/SKILL.md",
+      "notariat-alltag/skills/formweg-beurkundung-beglaubigung/SKILL.md",
+      "notariat-alltag/skills/geldwaeschepruefung-immobilien/SKILL.md",
+      "notariat-alltag/skills/geschaeftsfuehrer-bestellung-register/SKILL.md",
+      "notariat-alltag/skills/gmbh-anteile-uebertragen-verpfaenden/SKILL.md",
+      "notariat-alltag/skills/gmbh-gruendung-gesellschafterliste/SKILL.md",
+      "notariat-alltag/skills/grundbuchantrag-rangstelle-notarielle/SKILL.md",
+      "notariat-alltag/skills/grundschuld-buchgrundschuld-treuhand/SKILL.md",
+      "notariat-alltag/skills/kaltstart-triage/SKILL.md",
+      "notariat-alltag/skills/kapitalerhoehung-beschluss-register/SKILL.md",
+      "notariat-alltag/skills/kostenrechnung-gnotkg/SKILL.md",
+      "notariat-alltag/skills/nachlassauseinandersetzung-grundbuch/SKILL.md",
+      "notariat-alltag/skills/umwandlung-verschmelzung-kapitalerhoehung/SKILL.md",
+      "notariat-alltag/skills/urkundenentwurf-aendern-abgleichen/SKILL.md",
+      "notariat-alltag/skills/urkundenmappe-zur-freigabe/SKILL.md",
+      "notariat-alltag/skills/vollzug-fristen-wiedervorlage/SKILL.md",
+      "notariat-alltag/skills/vorsorgevollmacht/SKILL.md",
+      "quality/evals/notariat-alltag.json"
+    ],
+    "opening_change": "Konkrete notarielle Vorlage beginnen oder zwischen fallbezogenen Bearbeitungswegen wählen lassen; keine ungefragte Ordnerzusammenfassung.",
+    "norms": [
+      "BeurkG Paragraf 17 Absatz 2a Satz 2 Nummer 2",
+      "BNotO Paragraf 19 Absatz 1",
+      "GmbHG Paragraf 53 Absätze 2 und 3",
+      "GBO Paragrafen 18, 35, 40 und 72",
+      "UmwG Paragrafen 17, 20 und 202",
+      "GNotKG Paragraf 19",
+      "BGB Paragrafen 1816, 1820 und 1827",
+      "GmbHG Paragrafen 2 Absatz 2, 40 und 78",
+      "BGB Paragrafen 925 Absatz 2, 177 Absatz 2, 182 Absatz 2 und 1829",
+      "BeurkG Paragraf 57",
+      "UmwG Paragrafen 5 Absatz 3, 19, 130 und 194 Absatz 2",
+      "GNotKG Paragraf 134 Absatz 2",
+      "VersAusglG Paragrafen 6 bis 8",
+      "GwG Paragrafen 16a, 46 und 47"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 07.02.2013, III ZR 121/12, Randnummern 20 bis 22",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2012/III_ZR_121-12.pdf?__blob=publicationFile&v=1",
+        "application": "Sachlicher Verkürzungsgrund und anderweitiger Übereilungsschutz, sonst vorzeitige Beurkundung ablehnen.",
+        "limit": "Amtshaftung; keine automatische Vertragsnichtigkeit und kein allgemeines Zweiwochengebot.",
+        "source_sha256": "71eb74535d13b7e64b4036ed396e9d5c72e06021188f432bd5d3b40fadcc693c",
+        "checked_on": "2026-09-25",
+        "verification": "official_pdf_relevant_reasons_read"
+      },
+      {
+        "citation": "BGH, Beschluss vom 06.07.2016, XII ZB 61/16, Randnummern 17 bis 20 und 46 bis 48",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2016/XII_ZB__61-16.pdf?__blob=publicationFile&v=1",
+        "application": "Qualifizierte Gefahr in besonderer Gesundheitsvollmacht; konkretisierte Behandlungsentscheidung bei Patientenverfügung.",
+        "limit": "Historische Normen; heute BGB1820/1827/1829 prüfen. Keine pauschale Aussage zur heutigen Kontrollbetreuung.",
+        "source_sha256": "2978810e103ebcabebae165a95fa8bc684f5383f279805ceb574179055c85cf7",
+        "checked_on": "2026-09-25",
+        "verification": "official_pdf_relevant_reasons_read"
+      },
+      {
+        "citation": "BGH, Beschluss vom 08.02.2017, XII ZB 604/15, Randnummern 17 bis 23",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2015/XII_ZB_604-15.pdf?__blob=publicationFile&v=1",
+        "application": "Gesamtzusammenhang der schriftlichen Patientenverfügung auslegen; keine isolierte Unwirksamkeitsdiagnose allgemeiner Formeln.",
+        "limit": "Keine medizinische Vollständigkeitsforderung und keine eigene Therapieentscheidung des Modells.",
+        "source_sha256": "6dc3d8663bbca5665e32f989f7d266a0975d81ec21397bf1ce39c5bd04f1da53",
+        "checked_on": "2026-09-25",
+        "verification": "official_pdf_relevant_reasons_read"
+      },
+      {
+        "citation": "BGH, Urteil vom 11.02.2004, XII ZR 265/02, amtlicher Volltext Seiten 23 bis 26",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2002/XII_ZR_265-02.pdf?__blob=publicationFile&v=1",
+        "application": "Wirksamkeitskontrolle beim Vertragsschluss und spätere Ausübungskontrolle; wirtschaftliche und persönliche Umstände insgesamt.",
+        "limit": "Historische Versorgungsausgleichs- und Formnormen nicht übernehmen. Keine schematische Nichtigkeit aufgrund eines einzelnen Umstands.",
+        "source_sha256": "408519e1a43a013a6e94f747f3ecd9e0aa027a00a25e4c4a830e2fb09ff29fe3",
+        "checked_on": "2026-09-25",
+        "verification": "official_pdf_relevant_reasons_read"
+      },
+      {
+        "citation": "BGH, Beschluss vom 09.03.2026 – NotSt (Brfg) 3/25, Rn. 10–21",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/NotS/2025/NotSt_Brfg___3-25.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-09-30",
+        "application": "Übernommene Vorsorgeregisteranmeldung unverzüglich veranlassen; Gebührenweg konkret prüfen.",
+        "limit": "Keine feste Drei-/Fünfwerktagefrist oder allgemeine Pflicht zum Gebührenvorschuss."
+      },
+      {
+        "citation": "BGH, Urteil vom 21.01.2026 – IV ZR 40/25, Rn. 9–16, 21, 27–33",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__40-25.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-09-30",
+        "application": "Testamentsformstatut nach vorrangigem Haager Übereinkommen entscheidet auch über Folgen territorial überschrittener Amtsbefugnis.",
+        "limit": "Niederländisches Testament im konkreten Fall; keine allgemeine Erlaubnis ausländischer Notare zu Amtstätigkeit in Deutschland."
+      },
+      {
+        "citation": "BGH, Beschluss vom 03.07.2025 – V ZB 17/24, Rn. 6–11, 17–25 und 30",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1",
+        "checked_on": "2026-11-10",
+        "application": "Für die ab 1. Januar 2024 beantragte Umschreibung bei der Alt-GbR zuerst Gesellschaftsregister und danach Voreintragung im Grundbuch prüfen. Registerpublizität zur Vertretung von Grundstückserwerb unterscheiden.",
+        "limit": "Der Beschluss betrifft die rechtsgeschäftliche Übertragung des einzigen Grundstücks an die Gesellschafter. Trotz Bewilligung und Auflassung 2023 ging der Antrag erst im Februar 2024 ein. Die Prüfung der Gesamtrechtsnachfolge und des gutgläubigen Erwerbs richtet sich nach dem konkreten Fall. Die Voreintragungspflicht setzt einen Vollzugsanlass voraus."
+      }
+    ],
+    "remaining_limits": [
+      "Desk-/Quellenprüfung und technische Regressionstests, kein beobachteter Live-Client-Test.",
+      "Vier amtliche BGH-PDFs abgerufen und jeweils genannte Gründe gelesen, keine pauschale Prüfung aller darin zitierten weiteren Entscheidungen.",
+      "EU-Verordnung2016/1191 konnte im aktuellen Abruf wegen Zugriffsschutz nicht erneut im Volltext geprüft werden; keine neue Verifikationsbehauptung dazu. Konkrete Auslandsfälle erfordern Herkunftsstaat-, Dokument- und Formprüfung."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-25",
+    "method": "desk_review",
+    "opening_modes": [
+      "Ohne Material nach Immobilien-, Gesellschafts- oder Beglaubigungsvorgang und gewünschter Vorlage fragen.",
+      "Bei Ordner ohne Auftrag anhand der Korrespondenz zwischen Entwurf, Nachforderung und Vollzug wählen lassen.",
+      "Bei klarem Urkunden- oder Anmeldeauftrag ohne erneutes Aufnahmeinterview beginnen."
+    ],
+    "continuation": "Ausformulierte Bank-, Register-, Bilanz- und Familiennachforderungen mit anschließender vollständiger Aktualisierung aller betroffenen Klauseln, Anlagen und Vollzugsschritte.",
+    "enrichment": "Gründungsvollmacht/eGbR/alle Geschäftsführer, unbedingte Auflassung, Verwahrung, Genehmigungszugang, Registerfolge, Familienkontrolle, Gesundheitsvollmacht und Gebührenübergang vertieft.",
+    "limits": "Individuelle Text- und Quellenprüfung sowie vorbereitete Ergebnisfälle; kein beobachteter Live-Client-Test und keine Garantie automatischer Skillauswahl."
+  },
+  "individual_skill_review": [
+    {
+      "path": "notariat-alltag/skills/auslandsurkunde-apostille-vollmacht/SKILL.md",
+      "sha256": "1a357d7783b3347a3760b38b23611a4c1defe9d02245e62c11dab756d5f4a340",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-11-06"
+    },
+    {
+      "path": "notariat-alltag/skills/bautraegervertrag-mabv-familiengesellschaft/SKILL.md",
+      "sha256": "01b1fbbfe86d135c0441c09dbb38d1ce0db20dad89eb9e0897bcb4c54c1e4c34",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/beteiligte-identitaet-vertretung/SKILL.md",
+      "sha256": "de6e89faee74d9718a8fc089859af7d9ce1e8e3425cd4ac844e7f171ff58b7b6",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/ehevertrag-scheidungsfolgenvereinbarung/SKILL.md",
+      "sha256": "2869d098732fcfdadf71bbac6ff95269d2e55d360221b3355b8a860590fdc1e1",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/formweg-beurkundung-beglaubigung/SKILL.md",
+      "sha256": "d04e56aa91346c464b5e5a1e1516d83eb8e9271f003157aa968520b87a649be3",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/geldwaeschepruefung-immobilien/SKILL.md",
+      "sha256": "4498071912da2661c1b483a3f7d461e8df5e70a4d31455e6cb9da6a7bc95a369",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/geschaeftsfuehrer-bestellung-register/SKILL.md",
+      "sha256": "29ca8987e81816f2d82d943f5aaf6aaec439f7c8c1399a956879aed00c2225ac",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/gmbh-anteile-uebertragen-verpfaenden/SKILL.md",
+      "sha256": "caf6e8fb5b11f252217d4385aabfadca34e45b7e8a878b5340a6e991710a5fa1",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/gmbh-gruendung-gesellschafterliste/SKILL.md",
+      "sha256": "0fc4a90dd03e27989008ad3c9fb8889b082a1f75870d24d45c4ccb6d398f9627",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/grundbuchantrag-rangstelle-notarielle/SKILL.md",
+      "sha256": "6d2da6526ee84d70d3e29ca8f18c26c2f838d818f321d42248bb76dfd34da083",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-11-10"
+    },
+    {
+      "path": "notariat-alltag/skills/grundschuld-buchgrundschuld-treuhand/SKILL.md",
+      "sha256": "0465ef81d6457b2ac0463bdd797701c600c21e2bc6253ed6356d04c5f3782df7",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/kaltstart-triage/SKILL.md",
+      "sha256": "c925e8b4128d83e08a19ec4a6a4c65644484c8b412ff0b368a6a230c57666beb",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/kapitalerhoehung-beschluss-register/SKILL.md",
+      "sha256": "7a2ab445b9d55c4fbdb71272f002367e8ba891b91fbce6ade15c110fa4eb1513",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/kostenrechnung-gnotkg/SKILL.md",
+      "sha256": "917376b04493fe2df485b4897d84b3caa65a069677028f55388766f35e73cd72",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/nachlassauseinandersetzung-grundbuch/SKILL.md",
+      "sha256": "33fb351c980c384f6656ac926a808711f24b0b96107ad062f728a9c4909d8822",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-11-10"
+    },
+    {
+      "path": "notariat-alltag/skills/umwandlung-verschmelzung-kapitalerhoehung/SKILL.md",
+      "sha256": "ab738d8d4fa53141d1f6282f4f275bdcffdf8235413dd659a480efedeb54d05f",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/urkundenentwurf-aendern-abgleichen/SKILL.md",
+      "sha256": "3eebad7e1ecad5ae9074e3b156eed8e3021c845e981cd63adb8ee87195ba0bea",
+      "verdict": "retained",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/urkundenmappe-zur-freigabe/SKILL.md",
+      "sha256": "dff92004ebd1fcb226879a8d0ce69af78d7b505828b4093a9b66e0dd8fae0fe3",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/vollzug-fristen-wiedervorlage/SKILL.md",
+      "sha256": "b584d1a65b56e90793b335f989622b95927e38f330579d00cae655ad74371dab",
+      "verdict": "retained",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    },
+    {
+      "path": "notariat-alltag/skills/vorsorgevollmacht/SKILL.md",
+      "sha256": "75fd5f99c383eb36290c460e594380c2921cbcd807318a9cc32c5aa600e6f8d0",
+      "verdict": "revised",
+      "method": "desk_review",
+      "reviewed_on": "2026-09-25"
+    }
+  ],
+  "source_audit_2026_09_30_zweiter_durchgang": {
+    "date": "2026-09-30",
+    "method": "targeted_primary_source_review",
+    "report": "quality/source-audits/2026-09-30-zweiter-durchgang/notariat-erbe-gesellschaft.md",
+    "scope": "Gezielte Prüfung der im Bericht bezeichneten neuen Entscheidungen und konkret berichtigten Normstellen; keine erneute Vollprüfung sämtlicher Skills, Altanker oder früherer Bewertungsbehauptungen. Bestehende Hashfelder bilden die aktuelle Datei ab; frühere Reviewdaten bleiben historische Prüfangaben. Kein Live-Modelltest.",
+    "files": [
+      "notariat-alltag/notariat-alltag-schnellstart.md",
+      "notariat-alltag/notariat-alltag-werkstatt.md",
+      "notariat-alltag/references/rechtsprechung-geprueft.md",
+      "notariat-alltag/skills/auslandsurkunde-apostille-vollmacht/SKILL.md",
+      "notariat-alltag/skills/vollzug-fristen-wiedervorlage/SKILL.md",
+      "notariat-alltag/skills/vorsorgevollmacht/SKILL.md"
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "source_audit_2026_11_06_auslandsinvestoren": {
+    "date": "2026-11-06",
+    "method": "desk_review",
+    "scope": "Werkstatt-Prompt, Mini-Prompt, Auslandsurkunden-Skill und neue Länderreferenz vollständig redaktionell gelesen. Gezielte neue Quellenprüfung zu Kanada/Indien/VAE, Gesellschafterliste und Rechtsbehelf sowie Companies Act Section 175; keine erneute Volltextprüfung sämtlicher historischer Normen und Altanker.",
+    "files": [
+      "notariat-alltag/notariat-alltag-schnellstart.md",
+      "notariat-alltag/notariat-alltag-werkstatt.md",
+      "notariat-alltag/skills/auslandsurkunde-apostille-vollmacht/SKILL.md",
+      "notariat-alltag/references/auslandsinvestoren-urkundenverkehr.md"
+    ],
+    "file_hashes": {
+      "notariat-alltag/notariat-alltag-schnellstart.md": "cb84fea83066bf73a457ee17ca71be3454329b22c8d634e879d317e1379bc78d",
+      "notariat-alltag/notariat-alltag-werkstatt.md": "1ad9e354eb7b4d6d993eac7567f57b4755578675ccf5719086f2ebcf4613ff73",
+      "notariat-alltag/skills/auslandsurkunde-apostille-vollmacht/SKILL.md": "1a357d7783b3347a3760b38b23611a4c1defe9d02245e62c11dab756d5f4a340",
+      "notariat-alltag/references/auslandsinvestoren-urkundenverkehr.md": "bb3d6e5d82f254dcbe75e15a3aa841f265b1f4449f488f76d353fa90967ac769"
+    },
+    "changes": [
+      "Ausländische Organstellung, Geschäftszeitpunkt und konkrete Abschlussbefugnis von der Echtheitskette getrennt; keine automatische Einzelvertretung eines Director.",
+      "Kanada als Apostillestaat; Indien ohne deutsch-indischen Apostille-Verkehr und ohne deutsche Legalisation; erforderlichen Amtshilfeweg und Firmenprüfungsumfang offen gehalten. VAE als getrennte Legalisationsvariante mit Vorbeglaubigung.",
+      "BGH II ZB 11/24, Rn. 33–38, in Referenz und Werkstatt eingeordnet: begrenzte materielle Registerprüfung bei notariell eingereichter Liste; eigene Verantwortung des Notars bleibt bestehen.",
+      "Abschnitt 16 fortlaufend 16.1 bis 16.6 nummeriert; defekten RPflG-Link korrigiert. Mini auf höchstens 7500 UTF-8-Bytes verdichtet, alle bisherigen Fachzweige und Formunterscheidungen erhalten."
+    ],
+    "sources": [
+      {
+        "url": "https://www.auswaertiges-amt.de/de/-/2570832",
+        "checked_on": "2026-11-06",
+        "supports": "Bilateraler Apostille-Verkehr mit Deutschland; Kanada enthalten, Indien mit Einspruch."
+      },
+      {
+        "url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=41",
+        "checked_on": "2026-11-06",
+        "supports": "Kanada: Inkrafttreten am 11. Januar 2024; Mitgliedschaft und bilateralen Geltungsstand unterscheiden."
+      },
+      {
+        "url": "https://www.hcch.net/en/instruments/conventions/full-text/?cid=41",
+        "checked_on": "2026-11-06",
+        "supports": "Echtheitsfunktion und Einspruch nach Artikel 12; französischer Vorrang in der Schlussformel nach Artikel 15."
+      },
+      {
+        "url": "https://india.diplo.de/in-de/service/2772638-2772638",
+        "checked_on": "2026-11-06",
+        "supports": "Keine Anwendung zwischen Deutschland und Indien, keine Legalisation; im Einzelfall Urkundenüberprüfung über deutsche Behörden/Gerichte."
+      },
+      {
+        "url": "https://uae.diplo.de/ae-de/service/seite-legalisation/1374640",
+        "checked_on": "2026-11-06",
+        "supports": "Deutsch-emiratischer Legalisationsweg und MOFA-Vorbeglaubigung; konkrete Urkunde und Eignung prüfen."
+      },
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf#page=118",
+        "checked_on": "2026-11-06",
+        "supports": "Companies Act 2013, Section 175 Absatz 1: Umlaufverfahren, Mehrheit und Sitzungsverlangen von mindestens einem Drittel; Section 179 Absatz 3 als gesonderte Frage, keine Fallsubsumtion."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/rpflg_1969/__11.html",
+        "checked_on": "2026-11-06",
+        "supports": "Subsidiäre Erinnerung; kein austauschbarer Ersatz für statthafte Beschwerde."
+      },
+      {
+        "url": "https://www.dnoti.de/entscheidungen/details/?cHash=11bd9e8aa72a681096a65cf8a374e3ea&tx_dnotionlineplusapi_decisions%5Bnodeid%5D=6619e2ec-c0b4-41e8-b7cc-80fdbec33dbf",
+        "checked_on": "2026-11-06",
+        "citation": "BGH, Beschluss vom 18. März 2025 – II ZB 11/24, BGHZ 243, 237, Rn. 33–38",
+        "verification": "Originalbeschluss im DNotI-PDF samt Kopf und Randnummern 33–38 gelesen; redaktionelle Urteilsbezeichnung und abweichendes Datum des Vorsatzblatts nicht übernommen. Direkter amtlicher BGH-PDF-Abruf lieferte 403.",
+        "supports": "Bei notariell eingereichter Liste beschränktes materielles Prüfungsrecht auf ohne Ermittlungen sicher feststehende offensichtliche Mängel; Verantwortung des Notars und fehlende uneingeschränkte Bindung an seine Bescheinigung."
+      }
+    ],
+    "limits": [
+      "Desk- und Quellenprüfung; kein beobachteter Modelllauf, kein Client-Test und keine bestätigte automatische Skill-Auswahl.",
+      "Die fremdsprachigen Urkunden, Gesellschaftsdaten und Verfahrenspositionen der Testakten bleiben synthetische Fallannahmen. Keine öffentliche Beglaubigung, Legalisation, Einreichung oder Anerkennung wurde durchgeführt.",
+      "Historische Reviews bleiben mit ihren bisherigen Daten und Aussagen erhalten; nur die drei geänderten Textprüfsummen und das gezielt neu gelesene Individual-Skill-Review sind aktualisiert."
+    ],
+    "synthetic_evaluation_scenarios": {
+      "case_ids": [
+        "mumbai-vertretung-apostille-listenaufnahme",
+        "dubai-legalisation-zeitbezug-listenaufnahme"
+      ],
+      "status": "prepared_not_executed",
+      "description": "Ergebnisprüfaufträge mit nativen synthetischen Fallunterlagen vorbereitet. Kein Modelllauf, keine Erfolgsauswertung und keine Musterlösung in der Testakte."
+    }
+  },
+  "dnoti_case_extension_2026_11_06": {
+    "method": "desk_review",
+    "status": "prepared_not_executed",
+    "scope": "Zwei ausführliche Anfragen als selbständige Ein-Datei-Prüfaufträge; die zehn ergänzenden Aktenstücke wurden auf Chronologie und Rollen abgeglichen. Keine Live-Modellausführung."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "notariat-alltag/notariat-alltag-werkstatt.md",
+      "notariat-alltag/skills/kaltstart-triage/SKILL.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "werkstatt_stichtagsnachpruefung_2026_10_31": {
+    "checked_on": "2026-11-16",
+    "decision_cutoff": "2026-10-31",
+    "scope": "Gezielte fachliche Nachprüfung der geänderten Passagen; frühere Rechts- und Workflowprüfungen bleiben als eigene Prüfstände dokumentiert.",
+    "report": "quality/source-audits/2026-10-31-werkstatt/README.md",
+    "finding": "Fristbeginn zum gemeindlichen Vorkaufsrecht nach III ZR 3/26 an korrekte Mitteilung über den Genehmigungsstand knüpfen.",
+    "path": "notariat-alltag/notariat-alltag-werkstatt.md",
+    "before_sha256": "d7f3de3fdea37a56a1e6d5605d3fb53a05c249d4e3dfb88d8ff643636247336b",
+    "after_sha256": "7f35c2ba767291424d43a99a8a38d3ad5b5d168e53fd8e7e41b3c7c2f59a5354"
+  }
+}

@@ -1,65 +1,49 @@
-Wenn du das hier öffnest, willst du einen Grundstücks-, Grundbuch-, Beurkundungs- oder Erbbaurechtsfall sofort nach Rechtslage, Rang, Form, Vollzug und nächstem Antrag ordnen.
+# Notariatswerkstatt für Mitarbeiter
 
-# Notariat Alltag — Schnellstart
+Erstelle Urkundenentwurf, Nachforderung oder Vollzugsvorlage nach Aktenauftrag. Amtshandlungen und Freigaben bleiben beim Notar.
 
-Ziel: Alltagsplugin für Notariat, Notariatsmitarbeiter und Notare: Beurkundung, Vollzug, Register, Grundbuch, Geldwäsche, Kosten, Fristen und Mandantenkommunikation. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+BeurkG Paragraf 17 Abs. 2a: Zweiwochenzeit ab notarieller Bereitstellung im Verbraucherfall prüfen. BGH, Urteil vom 07.02.2013, III ZR 121/12, Randnummern 20 bis 22: Verkürzung braucht sachlichen Grund und anderweitigen Übereilungsschutz; sonst vorzeitige Beurkundung ablehnen. Keine Vertragsnichtigkeit/allgemeine Notarfrist ableiten; Gründe in Niederschrift vorbereiten.
 
-## 1. Schnellmodus
+## 1. Auftrag beginnen und fortsetzen
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Auftrag, jüngste Nachricht, Entwurf und Belege lesen. Nur entscheidende Lücken erfragen; Antworten in den Entwurf einarbeiten.
 
-## 2. Direktstart
+Person, Rolle und Vertretungsbeleg erfassen. Ausweisscan ersetzt keine Feststellung nach BeurkG Paragraf 10. Namen prüfen; nur abhängige Schritte sperren. Unterschrift, Belehrung, Beglaubigung, UVZ-Nr., Einzahlung, Einreichung nie fingieren. Entwürfe zur notariellen Prüfung. Videoverfahren nur bei gesetzlicher Zulassung, BeurkG Paragrafen 16a und 16c.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 2. Immobilien und Sicherheiten
 
-## 3. Kernroute
+Objekt, Eigentümer, Lasten, Preis und Besitz abgleichen. Beurkundung nach BGB Paragraf 311b Abs. 1. Auflassung unbedingt nach Paragraf 925 Abs. 2, Zahlungsnachweis per Vollzugsweisung. Bewilligung und Rang nach GBO Paragrafen 19, 29, 45 und BGB Paragraf 879. Alt-GbR bei Umschreibungsantrag ab 2024: zuerst Gesellschaftsregister, dann eGbR ins Grundbuch. Vertretung nach Paragraf 707a Absatz 3 BGB und Paragraf 15 HGB getrennt vom Grundstückserwerb nach Paragraf 892 BGB prüfen. [BGH, 03.07.2025, V ZB 17/24, Rn. 6–11, 17–25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2024/V_ZB__17-24.pdf?__blob=publicationFile&v=1).
 
-1. Objekt und Beteiligte: Grundbuchbezirk, Blatt, Flurstück, Eigentümer, Erwerber, Vertretung, Vollmacht und wirtschaftliches Ziel erfassen.
-2. Rechtsgeschäft und Form: Kauf, Übertragung, Belastung, Teilung, Erbbaurecht, Bewilligung, Beurkundung und Genehmigung trennen.
-3. Grundbuch und Rang: Abteilungen I bis III, Vormerkungen, Dienstbarkeiten, Grundpfandrechte, Rangvorbehalte und Löschungsunterlagen prüfen.
-4. Vollzug: Antrag, Bewilligung, Auflassung, Unbedenklichkeitsbescheinigung, Genehmigungen, Fälligkeitsmitteilung und Zwischenverfügung ordnen.
-5. Arbeitsprodukt: Vertragsklausel, Vollzugsliste, Grundbuchanalyse, Zwischenverfügungsantwort, Rangmatrix oder Mandantenbrief erstellen.
-6. Notariat im Alltag: Schenkungsvertrag – Nießbrauch, Wohnrecht, Rückforderung, Pflegeklausel: Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden.
+Bauträger: Baubeschreibung und Sonderwünsche mit Preis/Planstand festlegen. BGB Paragrafen 650u und 650v sowie MaBV Paragraf 3: Sicherung vor Raten prüfen, höchstens sieben Teilbeträge; im Eigentumsfall 30 Prozent bei Erdarbeiten von der Vertragssumme, weitere gesetzliche Sätze vom Rest. Ohne Baupflicht kein MaBV-Ratenplan.
 
-## 4. Fallkarte
+Grundschuld: Betrag, Zinsen, Nebenleistung, Buch/Brief, Rang und Gläubiger mit Bankauftrag abgleichen. Eigentümer ist nicht automatisch persönlicher Schuldner. Bestellung, persönliche Haftung und Unterwerfung nach ZPO Paragraf 794 Abs. 1 Nr. 5 trennen; Paragraf 800 betrifft den jeweiligen Eigentümer. Bankänderungen überall nachführen; Ablöseauflagen erhalten. Verwahrung nach BeurkG Paragraf 57 nur bei Sicherungsinteresse, bestimmten schriftlichen Anweisungen und notarieller Annahme; keine Auszahlung zusagen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 311b; BGB Paragraf 873 und Paragraf 925; BGB Paragraf 883 bis Paragraf 888 |
-| Rechtsprechung | BGH Kernbereichslehre |
-| Tatbestand | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden |
-| Beweislast | Antragsteller für Antrag, Bewilligung, Vertretung und Nachweis; Beteiligte für Rang, Genehmigung, Löschung und entgegenstehende Rechte |
-| Rechtsfolge | Grundbuchanalyse, Vertragsklausel, Vollzugsliste, Bewilligung, Zwischenverfügungsantwort oder Rangmatrix |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 3. Gesellschaft und Register
 
-## 5. Einsatzfelder
+GmbH-Gründung: Satzung, Bestellung und Anmeldung ausformulieren. Musterprotokoll nach GmbHG Paragraf 2 Abs. 1a: höchstens drei Gesellschafter, ein Geschäftsführer, keine Musterabweichung; Fremdgeschäftsführer zulässig. Gründungsvollmacht: Abs. 2, notariell errichtet oder beglaubigt. Bar-GmbH, Paragraf 7 Abs. 2: mindestens Viertel je Anteil, insgesamt Hälfte des gesetzlichen Mindeststammkapitals; Sacheinlagen prüfen. UG nach Paragraf 5a vollständig einzahlen, keine Sacheinlagen. Einzahlung belegen.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Notariat im Alltag: Schenkungsvertrag – Nießbrauch, Wohnrecht, Rückforderung, Pflegeklausel | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Notariat im Alltag: Familiengesellschaft, Poolvertrag, Minderjährige | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Notariat im Alltag: Fristenkalender, Vollzugsmonitor, Wiedervorlage, Eskalation | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Notariat im Alltag: Bauträgervertrag – MaBV, Ratenplan, Abnahmefallen | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Notariat im Alltag: Beschwerde gegen Register- oder Grundbuchentscheidung | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Notariat im Alltag: Ehevertrag, Scheidungsfolgenvereinbarung, Versorgungsausgleich, Belehrung | Objekt, Grundbuchstand, Rechtsgeschäft, Form, Bewilligung, Nachweis, Rang und Vollzugsschritt in einer Aktenlinie verbinden. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Kapitalerhöhung: Mehrheit und Beurkundung nach GmbHG Paragraf 53 Abs. 2 und 3, Übernahme nach Paragraf 55 Absatz 1, Anmeldung nach HGB Paragraf 12. Nennbetrag/Aufgeld, Satzung und Listen trennen. Paragrafen 56, 56a und 57 prüfen. Wirkung ab Eintragung, Paragraf 54 Abs. 3. Sämtliche Geschäftsführer melden nach Paragraf 78 an.
 
-## 6. Anker
+Geschäftsführerwechsel: Satzung, GmbHG Paragrafen 39 und 46 Nr. 5 prüfen. Bestellung, Annahme, Amtsbeginn und Anstellung trennen; Bestellung allein regelmäßig formfrei. Beschluss und Anmeldung mit Versicherungen entwerfen. Vertretung/BGB Paragraf 181 individuell prüfen.
 
-- BGB Paragraf 311b: notarielle Form bei Grundstücksverträgen und Heilung durch Auflassung und Eintragung.
-- BGB Paragraf 873 und Paragraf 925: Einigung, Eintragung und Auflassung beim Grundstückserwerb.
-- BGB Paragraf 883 bis Paragraf 888: Vormerkung, relative Unwirksamkeit und Durchsetzung des gesicherten Anspruchs.
-- BGB Paragraf 1018 ff. und Paragraf 1191 ff.: Dienstbarkeit und Grundschuld als dingliche Belastungen.
-- Paragraf 528 BGB – Rückforderung wegen Verarmung: Schenker kann Geschenk zurückfordern, wenn er nach der Schenkung verarmt. Beschenkte muss nur den noch vorhandenen Wert zurückgeben: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 530 BGB – Widerruf wegen groben Undanks: Widerruf innerhalb 1 Jahr nach Kenntnis des Undanks: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BGH Kernbereichslehre: https://www.bgh.de (BGH XII ZR 265/02)
+Anteile und Satzungszustimmungen prüfen. Verkauf und Abtretung nach GmbHG Paragraf 15 Abs. 3 und 4 beurkunden. Pfandform: BGB Paragraf 1274, GmbHG Paragraf 15 Abs. 3. Erwerb, Zahlung und Pfand koordinieren. Liste nach Paragraf 40 nach wirksamer Änderung. GbR zuvor registrieren. Prozente rechnen.
 
-## 7. Antwortform
+Umwandlung: Verschmelzung, Spaltung und identitätswahrenden Formwechsel trennen. Vertrag, Beschlüsse, Berichte/Verzichte, Bilanz und Anmeldung abstimmen. UmwG Paragraf 17: Schlussbilanz höchstens acht Monate vor Anmeldung; veraltete ersetzen. Verschmelzung, Paragraf 19: erst übertragender, dann übernehmender Rechtsträger. Spaltung, Paragrafen 130/131: umgekehrte Folge. Formwechselwirkung: Paragraf 202. Betriebsratszuleitung nach Paragrafen 5 Abs. 3/194 Abs. 2 trotz Gesellschafterverzicht.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Grundbuchmatrix: Abteilung, laufende Nummer, Recht, Berechtigter, Rang, Löschungsweg, benötigte Urkunde und Risiko; Vollzugsliste: Schritt, Voraussetzung, Verantwortlicher, Dokument, Frist, Rückmeldung und nächster Antrag.
+## 4. Nachlass, Familie, Vorsorge und Ausland
 
-## 8. Stop
+Nachlassgrundstück: Erbnachweis nach GBO Paragraf 35, Voreintragung und Ausnahme nach Paragraf 40 getrennt prüfen. Erbteil und Nachlassgrundstück unterscheiden; BGB Paragrafen 2033 und 2040. Gegenleistung und Mitwirkung aller Berechtigten prüfen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Ehevertrag: BGB Paragrafen 1410, 1585c und VersAusglG Paragrafen 6 bis 8. Trennungs- und Kindesunterhalt nicht mit nachehelichem Unterhalt gleichsetzen. Verzicht, Erwerbs-/Betreuungsplanung und Kompensation zusammen nach BGB Paragrafen 138 und 242 prüfen. Planänderung einarbeiten.
+
+Vorsorge: Außenmacht, Innenweisung, Ersatzvertretung und Patientenverfügung trennen. BGB Paragraf 1820 Abs. 2: ausdrückliche schriftliche Sonderbefugnisse; Gesundheit, Freiheitsentziehung und Zwangsmaßnahmen einzeln klären. Paragraf 1827: Situation/Maßnahmen im Gesamttext konkretisieren, keinen Behandlungswunsch erfinden. Genehmigung/Ausnahme nach Paragraf 1829 Abs. 4 prüfen. Registrierung ersetzt keine Erklärung. Übernommene ZVR-Anmeldung unverzüglich: BGH, 09.03.2026, NotSt (Brfg) 3/25, Rn. 10–21; Gebühr kein Wartegrund, keine starre Tagesfrist.
+
+Ausland: Echtheit/Apostille, Vertretungsmacht, deutsche Form und Übersetzung trennen; Apostille bestätigt keinen Inhalt. Genehmigung nach BGB Paragraf 177 Abs. 2: Zweiwochenfrist und besonderer Empfänger nur nach Aufforderung des anderen Vertragsteils, nicht nach Kanzleierinnerung. Unterschrift vor Notar vollziehen/anerkennen, BeurkG Paragraf 40; Abschrift nach Paragraf 42 bestätigt Vorlagenübereinstimmung. Terminanschreiben mit fehlenden Originalen liefern.
+
+Investor: Amt und Abschlussmacht am Termin aus Register, Satzung und Ermächtigung belegen; Director bedeutet keine automatische Einzelvertretung. Kanada: Apostille seit 11.01.2024. Indien: kein Apostille-Verkehr, keine deutsche Legalisation; Amtshilfeumfang klären. VAE: geeignete öffentliche Urkunden nach Vorbeglaubigung legalisieren. [Länderstand](references/auslandsinvestoren-urkundenverkehr.md) aktuell prüfen. Liste nach Paragraf 40 GmbHG aufnehmen, keine konstitutive Eintragung. Beschwerde nach Paragraf 58 FamFG und subsidiäre Erinnerung nach Paragraf 11 Abs. 2 RPflG unterscheiden.
+
+## 5. Vollzug und fertiges Ergebnis
+
+GwG Paragraf 16a: Zahlungsverbot/Nachweis trennen; keine Bargeldfreigabe unter 10000 Euro. Meldung, besondere Vollzugsfrist und Informationsverbot nach Paragrafen 43, 46, 47 prüfen. GNotKG: Wert, KV-Nummer, Satz, Auslagen, Steuer; Auftragstag nach Paragraf 134 Abs. 2 beachten. GBO Paragraf 18: Zwischenverfügung beantworten; Verlängerung belegen. Beschwerde zum OLG, Paragraf 72.
+
+Liefere das Dokument mit Zuständigkeit/Frist. Amtliche Quellen prüfen. Export: Times New Roman 11 pt, dezimale Gliederung. Namen, Summen, Anlagen prüfen; Originale erhalten. Ohne Dateizugriff Text, keine erfundenen Links.

@@ -1,0 +1,1324 @@
+{
+  "prompt_opening_review_2026_10_16": {
+    "date": "2026-10-16",
+    "batch": 2,
+    "method": "editorial_desk_review",
+    "reading_scope": "Einstiege einzeln redaktionell gelesen; einschlägige Quellenprofil-Passagen und Fortsetzungs-/Abschlussregeln gelesen. Hauptteil nach den ersten 1800 Zeichen zusätzlich mechanisch auf Erhalt geprüft, keine vollständige fachliche Neulektüre behauptet.",
+    "finding": "Der konkrete B2B-Vertrag und sein fertiger Klauseltext eröffnen den Prompt; Ingmar bleibt auf zwingenden Handelsvertreterschutz begrenzt.",
+    "norms_or_source_basis": "Paragrafen 305, 307 und 310 BGB; Artikel 17 und 18 der Richtlinie 86/653/EWG",
+    "selected_anchor_identifiers": [
+      "C-381/98"
+    ],
+    "application_limit": "Vorhandener amtlicher Leitsatzstatus, keine vollständigen Gründe; weder alle HGB-Regeln noch automatische Händleranalogie.",
+    "anchor_exception": null,
+    "source_status": "Vorhandene gelesene Prompt- und Quellenprofile wiederverwendet. Keine neue Online-Verifikation, fachliche Vollprüfung oder Live-Modelltests; frühere Prüfzeitpunkte und Abrufgrenzen gelten unverändert.",
+    "mini": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/corporate-contract-law/corporate-contract-law-schnellstart.md",
+      "status": "changed",
+      "sha256": "c762780ab0d7c1373b07a3001526b91c2dec01356abddf60fad95e79087bec28",
+      "characters": 7115,
+      "utf8_bytes": 7229,
+      "previous_verdict": "revised"
+    },
+    "workshop": {
+      "path": "/Users/klotzkette/Desktop/Codex Projects/legal-work/agenten-digitalrecht/corporate-contract-law/corporate-contract-law-werkstatt.md",
+      "status": "changed",
+      "sha256": "cfddc1b501ac59e583b57a01c3bafc72e37505f70834a21ec476be0c2dc5ee28",
+      "characters": 84209,
+      "utf8_bytes": 85924,
+      "previous_verdict": "revised"
+    },
+    "txt_copies": []
+  },
+  "schema_version": 1,
+  "plugin": "corporate-contract-law",
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__92c.html",
+      "checked_on": "2026-11-14",
+      "supports": "EU/EWR-Tätigkeitsort-Ausnahme und bestimmte Schifffahrtsgeschäfte; Sitz allein nicht maßgeblich.",
+      "audit_source_id": "N10b",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1750168544454&uri=CELEX%3A32016R0679",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlich indexierter Wortlaut des Artikels 28 Absatz 3 Buchstabe a: Ausnahme vom Weisungsprinzip nur für Recht der Union oder der Mitgliedstaaten. Direktabruf weiterhin gesperrt, keine Volltextverifikation."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+      "checked_on": "2026-11-14",
+      "supports": "AGB, Vorformulierung und Aushandeln; kein Nachweis durch Etikett allein.",
+      "audit_source_id": "N01",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__307.html",
+      "checked_on": "2026-11-14",
+      "supports": "Transparenz und unangemessene Benachteiligung; keine Freigabe bestimmter Obergrenzen.",
+      "audit_source_id": "N02",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__310.html",
+      "checked_on": "2026-11-14",
+      "supports": "B2B-Ausnahme lässt Paragraf 308 Nummer 1a/1b bestehen; besondere Finanz- und VOB/B-Bereiche nicht verallgemeinern.",
+      "audit_source_id": "N03",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__309.html",
+      "checked_on": "2026-11-14",
+      "supports": "Personenschäden/grobes Verschulden als verschiedene Fallgruppen; im B2B keine unmittelbare Anwendung behauptet.",
+      "audit_source_id": "N04",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__276.html",
+      "checked_on": "2026-11-14",
+      "supports": "Kein Vorausverzicht auf Vorsatz; konkrete AGB-Caps nicht allein dadurch legitimiert.",
+      "audit_source_id": "N05",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__640.html",
+      "checked_on": "2026-11-14",
+      "supports": "Fiktion nur unter gesetzlichen Voraussetzungen; Vorbehaltsverlust Absatz 3 beschränkt auf Paragraf 634 Nummer 1 bis 3.",
+      "audit_source_id": "N06",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__377.html",
+      "checked_on": "2026-11-14",
+      "supports": "Beiderseitiges Handelsgeschäft, Rüge/Entdeckung, rechtzeitige Absendung, Arglistausnahme.",
+      "audit_source_id": "N07",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__271a.html",
+      "checked_on": "2026-11-14",
+      "supports": "60/30-Tage-Schwellen, öffentliche Schuldner und Abschlags-/Ratenausnahme; übrige AGB-Kontrolle bleibt.",
+      "audit_source_id": "N08",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__648.html",
+      "checked_on": "2026-11-14",
+      "supports": "Freie Bestellerkündigung und Anrechnung; Fünf-Prozent-Vermutung nur nicht erbrachter Leistungsteil.",
+      "audit_source_id": "N09",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__89b.html",
+      "checked_on": "2026-11-14",
+      "supports": "Ausgleich, Jahresvergütung als Höchstgrenze, Vorausverzicht und Jahresfrist; keine Händleranalogie als automatisch.",
+      "audit_source_id": "N10",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__90a.html",
+      "checked_on": "2026-11-14",
+      "supports": "Form, Zweijahresgrenze, Reichweite, Entschädigung; nicht jede Händlerklausel erfasst.",
+      "audit_source_id": "N11",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__348.html",
+      "checked_on": "2026-11-14",
+      "supports": "Herabsetzung nach Paragraf 343 ausgeschlossen unter Handelsgeschäftsvoraussetzungen; AGB-Kontrolle bleibt.",
+      "audit_source_id": "N12",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__350.html",
+      "checked_on": "2026-11-14",
+      "supports": "Formausnahme anhand Handelsgeschäfts des Verpflichteten, nicht Konzernetikett.",
+      "audit_source_id": "N13",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__766.html",
+      "checked_on": "2026-11-14",
+      "supports": "Schriftform, Ausschluss elektronischer Form und Erfüllungstatbestand; Ausnahmen getrennt prüfen.",
+      "audit_source_id": "N14",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__767.html",
+      "checked_on": "2026-11-14",
+      "supports": "Kein automatisches Mitwachsen durch spätere Rechtsgeschäfte des Hauptschuldners.",
+      "audit_source_id": "N15",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__311b.html",
+      "checked_on": "2026-11-14",
+      "supports": "Beurkundung Grundstücksverpflichtungen; keine Mappe als Formersatz.",
+      "audit_source_id": "N16",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschgehg/__2.html",
+      "checked_on": "2026-11-14",
+      "supports": "Angemessene Maßnahmen zusätzlich zu weiteren Geheimnismerkmalen erforderlich.",
+      "audit_source_id": "N17",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gvg/__23.html",
+      "checked_on": "2026-11-14",
+      "supports": "Aktuell allgemeine Wertzuständigkeit 10000 EUR; Ausnahmen/Übergang weiterhin auftragsbezogen.",
+      "audit_source_id": "N18",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61998CJ0381",
+      "checked_on": "2026-09-23",
+      "supports": "Amtliche Seite zunächst mit Inhalt geöffnet; Leitsatz und Metadaten gelesen. Artikel 17 und 18 der Richtlinie 86/653/EWG bei EU-Tätigkeit trotz Drittstaatensitz und dessen Rechtswahl. Keine vollständige Gründeprüfung; spätere Abrufe gesperrt."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_248-13.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-14",
+      "supports": "Sicherungsphase bis/nach Abnahme und reales Aushandeln; keine allgemeine Prozentfreigabe.",
+      "audit_source_id": "J02",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_301-13.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-14",
+      "supports": "Abnahme grundsätzlich; Abrechnungsverhältnis ohne weitere Erfüllung; Vorschussverlangen allein reicht nicht.",
+      "audit_source_id": "J03",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2022/VII_ZR__42-22.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-14",
+      "supports": "Konkrete Einheitspreis-Bauklausel und mögliche Überbelastung bei Mengenminderung; kein zusätzlicher Nachweis bereits eingetretener Minderungen für AGB-Unwirksamkeit.",
+      "audit_source_id": "J04",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Datum=2022&Gericht=bgh&Seite=15&anz=2726&pos=470",
+      "checked_on": "2026-09-23",
+      "supports": "BGH 27.10.2022, IX ZR 213/21: amtlich indexierte Ausschnitte zur kontextbezogenen Insolvenzklausel. Direktabruf 403; keine vollständige Entscheidungsprüfung."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62022CJ0211",
+      "checked_on": "2026-09-23",
+      "supports": "EuGH 29.06.2023, C-211/22: amtliche Metadaten als Mindestpreis-Rechercheanker; Direktdarstellungen gesperrt, keine Gründe oder Randnummern bestätigt."
+    },
+    {
+      "url": "https://uncitral.un.org/en/texts/salegoods/conventions/sale_of_goods/cisg/status",
+      "checked_on": "2026-11-14",
+      "supports": "Staaten/Inkrafttreten und Vorbehalte getrennt; keine Vollprüfung jedes Staates oder jedes Vertragsdatums.",
+      "audit_source_id": "N27b",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__308.html",
+      "checked_on": "2026-11-14",
+      "supports": "Nummer 1a/1b: mehr als 30/15 Tage als Zweifelsgrenzen, keine starren Universalverbote.",
+      "audit_source_id": "N19",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__119.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vorausbeschränkungen der Paragrafen 103–118; keine pauschale Gleichsetzung aller Insolvenzklauseln.",
+      "audit_source_id": "N20",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/inso/__103.html",
+      "checked_on": "2026-11-14",
+      "supports": "Wahlrecht bei beiderseits noch nicht vollständig erfülltem gegenseitigem Vertrag.",
+      "audit_source_id": "N20b",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/zpo/__38.html",
+      "checked_on": "2026-11-14",
+      "supports": "Gerichtsstandsvereinbarung abhängig von Parteien, Fallgruppe und Form, nicht bloß B2B.",
+      "audit_source_id": "N21",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Broschueren/INFO1.pdf?__blob=publicationFile&v=18",
+      "checked_on": "2026-11-14",
+      "supports": "Tatsächliche Rollen, Weisung/Speicherung nur Union/Mitgliedstaatenausnahme, Unterauftragsgenehmigung, Risiko-TOM, Außenhaftung; keine Transferbeschluss- oder 324-Seiten-Vollprüfung.",
+      "audit_source_id": "N25b",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/v1056997-cisg-e-book.pdf",
+      "checked_on": "2026-11-14",
+      "supports": "Anwendungsbereich, Ausschluss, Formvorbehalte und Rüge; keine gesamte Länderpaarprüfung.",
+      "audit_source_id": "N27",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2014/VIII_ZR__26-14.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-14",
+      "supports": "B2B-Bezug über Paragraf 307; Rettungszusatz „soweit gesetzlich zulässig“ genügt nicht.",
+      "audit_source_id": "J05a",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2021/IX_ZR_213-21.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-14",
+      "supports": "Ex-ante-Interessen, Geldleistungsrolle und Ausübungskontrolle; Zurückverweisung keine endgültige Klauselfreigabe.",
+      "audit_source_id": "J06a",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__126.html",
+      "checked_on": "2026-11-14",
+      "supports": "Gesetzliche Schriftform und elektronische Ersetzbarkeit vorbehaltlich anderer gesetzlicher Regel.",
+      "audit_source_id": "N28",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__127.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vereinbarte Form und abweichender Parteiwille.",
+      "audit_source_id": "N29",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__164.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vertretung setzt Handeln im Namen und im Rahmen der Macht voraus.",
+      "audit_source_id": "N30",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__177.html",
+      "checked_on": "2026-11-14",
+      "supports": "Genehmigungsabhängigkeit statt fingierter Vertretungsmacht.",
+      "audit_source_id": "N31",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__181.html",
+      "checked_on": "2026-11-14",
+      "supports": "Insichgeschäft und Ausnahmen.",
+      "audit_source_id": "N32",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gmbhg/__15.html",
+      "checked_on": "2026-11-14",
+      "supports": "Notarielle Übertragung und Verpflichtung von GmbH-Anteilen; keine einfache Unterschrift als Ersatz.",
+      "audit_source_id": "N33",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__311.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vertragsänderung durch Vertrag und vorvertragliche Schutzpflichten.",
+      "audit_source_id": "N34",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__150.html",
+      "checked_on": "2026-11-14",
+      "supports": "Abändernde Annahme als neuer Antrag.",
+      "audit_source_id": "N35",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__611.html",
+      "checked_on": "2026-11-14",
+      "supports": "Geschuldete Tätigkeit statt automatische werkvertragliche Erfolgshaftung.",
+      "audit_source_id": "N36",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__705.html",
+      "checked_on": "2026-11-14",
+      "supports": "Gemeinsame Zweckförderung und Rechtsfähigkeit; Etikett allein nicht entscheidend.",
+      "audit_source_id": "N37",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__31.html",
+      "checked_on": "2026-11-14",
+      "supports": "Rechtearten, Reichweite und Vertragszweck; keine pauschale Rechteübertragung.",
+      "audit_source_id": "N38",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "checked_on": "2026-11-14",
+      "supports": "Besondere Arbeitgeberbefugnisse bei Aufgaben/Weisungen; nicht jeder freie Entwickler automatisch erfasst.",
+      "audit_source_id": "N39",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/urhg/__69g.html",
+      "checked_on": "2026-11-14",
+      "supports": "Zwingende Softwarerechte bleiben neben Geheimnisschutz beachtlich.",
+      "audit_source_id": "N40",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschgehg/__3.html",
+      "checked_on": "2026-11-14",
+      "supports": "Erlaubtes Beobachten/Rückbauen unter den konkreten Voraussetzungen.",
+      "audit_source_id": "N41",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/geschgehg/__5.html",
+      "checked_on": "2026-11-14",
+      "supports": "Berechtigte Offenlegungsinteressen und Arbeitnehmervertretung.",
+      "audit_source_id": "N42",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__341.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vertragsstrafenvorbehalt bei Annahme der Erfüllung.",
+      "audit_source_id": "N43",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/starug/__44.html",
+      "checked_on": "2026-11-14",
+      "supports": "Keine allein aus Restrukturierungsinstrumenten folgende Beendigung; Sonderausnahmen des Absatzes 3.",
+      "audit_source_id": "N44",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__305b.html",
+      "checked_on": "2026-11-14",
+      "supports": "Vorrang individueller Vertragsabrede.",
+      "audit_source_id": "N45",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__306.html",
+      "checked_on": "2026-11-14",
+      "supports": "Gesetzliche Lückenfüllung und Härteausnahme.",
+      "audit_source_id": "N46",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__314.html",
+      "checked_on": "2026-11-14",
+      "supports": "Wichtiger Grund, Abmahnung/Frist, Ausnahmen und angemessene Ausübungsfrist.",
+      "audit_source_id": "N47",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650.html",
+      "checked_on": "2026-11-14",
+      "supports": "Herzustellende bewegliche Sachen grundsätzlich Kaufrecht, nicht automatisch Werkvertrag.",
+      "audit_source_id": "N48",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__241.html",
+      "checked_on": "2026-11-14",
+      "supports": "Leistungs- und Rücksichtnahmepflichten getrennt.",
+      "audit_source_id": "N49",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__145.html",
+      "checked_on": "2026-11-14",
+      "supports": "Bindung an Antrag sofern nicht ausgeschlossen.",
+      "audit_source_id": "N50",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__147.html",
+      "checked_on": "2026-11-14",
+      "supports": "Annahmefristen für Anwesende und Abwesende.",
+      "audit_source_id": "N51",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__631.html",
+      "checked_on": "2026-11-14",
+      "supports": "Werkvertrag schuldet Erfolg.",
+      "audit_source_id": "N52",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__126a.html",
+      "checked_on": "2026-11-14",
+      "supports": "QES und gleichlautende Vertragsdokumente für gesetzliche elektronische Form.",
+      "audit_source_id": "N53",
+      "audit_path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json"
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Nachprüfung vom 14.11.2026, Abschluss am 2026-11-15: Vollständige Datei gelesen; konkrete Einzelprüfpunkte und tatsächlich gelesene amtliche Quellen im Nachprüfungsbericht. Kein Live-Modelltest. Historischer Prüfstand mit ursprünglichem Hash separat erhalten.",
+    "changes": [
+      "vollständig; Abnahmeanker aktualisiert"
+    ],
+    "sha256": "f8e270d69673910302885d90a7ded7d36129f41b4035d262438d28053e6d4fe3",
+    "reviewed_on": "2026-11-14",
+    "method": "desk_review",
+    "full_file_read_in_followup": true,
+    "latest_editorial_scope": "Vollständige Datei gelesen; konkrete Einzelprüfpunkte und tatsächlich gelesene amtliche Quellen im Nachprüfungsbericht.",
+    "historical_review": {
+      "path": "quality/source-audits/2026-11-14-nachpruefung/historical-profiles/corporate-contract-law.json",
+      "field": "mini_review",
+      "sha256": "fe956091ce977ddbdcc8d01fea0d6f77e670a116179e66648fad981bb5b19d45"
+    },
+    "reviewed_on_timezone": "UTC"
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Nachprüfung vom 14.11.2026, Abschluss am 2026-11-15: betroffene vollständige Absätze zu Abnahme, Vertragsstrafe, Exit, Sicherheiten, AGB, DSGVO, internationalen Quellen und Quellenabschluss; keine vollständige neue Gesamtlektüre behauptet Kein Live-Modelltest. Historischer Prüfstand mit ursprünglichem Hash separat erhalten.",
+    "changes": [
+      "betroffene vollständige Absätze zu Abnahme, Vertragsstrafe, Exit, Sicherheiten, AGB, DSGVO, internationalen Quellen und Quellenabschluss; keine vollständige neue Gesamtlektüre behauptet"
+    ],
+    "sha256": "366327a7667d547651c9eca305fa2f4813452ecc05318a1b6d35a2c7f9b3a784",
+    "reviewed_on": "2026-11-14",
+    "method": "desk_review",
+    "full_file_read_in_followup": false,
+    "latest_editorial_scope": "betroffene vollständige Absätze zu Abnahme, Vertragsstrafe, Exit, Sicherheiten, AGB, DSGVO, internationalen Quellen und Quellenabschluss; keine vollständige neue Gesamtlektüre behauptet",
+    "historical_review": {
+      "path": "quality/source-audits/2026-11-14-nachpruefung/historical-profiles/corporate-contract-law.json",
+      "field": "workshop_review",
+      "sha256": "fe956091ce977ddbdcc8d01fea0d6f77e670a116179e66648fad981bb5b19d45"
+    },
+    "reviewed_on_timezone": "UTC"
+  },
+  "focus_review": {
+    "reviewed_on": "2026-11-14",
+    "method": "desk_review",
+    "verdict": "revised",
+    "reason": "Hauptproblem-Prompt und zugehörigen Hauptskill vollständig gelesen. Abnahmeanker anhand des amtlichen Originals VII ZR 301/13 präzisiert; keine Live-Modellausführung.",
+    "changes": [
+      "Amtlichen Abnahmeanker von begrenztem Suchnachweis auf gelesene tragende Gründe umgestellt."
+    ],
+    "prompt_path": "corporate-contract-law/corporate-contract-law-hauptproblem.md",
+    "prompt_sha256": "ff77209391fd0757f866d08cb8aab4b83c5d7d6119f3f067886edeb1102864bc",
+    "skill_path": "corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen/SKILL.md",
+    "skill_sha256": "d5b6abc288e03054162596d607cf8fb6dbde082a0db28f9d6ed89a89ac25d4e2",
+    "reviewed_on_timezone": "UTC"
+  },
+  "prompt_editorial_review": {
+    "date": "2026-09-23",
+    "files": [
+      "corporate-contract-law/corporate-contract-law-schnellstart.md",
+      "corporate-contract-law/corporate-contract-law-werkstatt.md",
+      "corporate-contract-law/corporate-contract-law-hauptproblem.md",
+      "corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen/SKILL.md"
+    ],
+    "opening_change": "Vom konkreten Auftrag und der belegten Fassung zur tatsächlich fehlenden Risikozuordnung; kein ungefragter Bestandsbericht und kein Pflichtdurchlauf aller Fachrouten.",
+    "norms": [
+      "Paragrafen 305, 307, 309 und 310 BGB; Nummer 1a und 1b des Paragrafen 308 gesondert.",
+      "Paragrafen 640 und 648 BGB.",
+      "Paragraf 377 HGB einschließlich Absatz 4.",
+      "Paragrafen 89b, 90a, 348 und 350 HGB.",
+      "Paragrafen 276, 271a, 311b, 766 und 767 BGB; Paragraf 23 GVG."
+    ],
+    "decisions": [
+      {
+        "citation": "EuGH, Urteil vom 09.11.2000, Az. C-381/98, Ingmar, amtlicher Leitsatz",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61998CJ0381",
+        "application": "Rechte aus Artikel 17 und 18 der Richtlinie 86/653/EWG bei Tätigkeit des Vertreters in einem Mitgliedstaat trotz Drittstaatensitz des Unternehmers und entsprechender Rechtswahl.",
+        "limit": "Nur gelesene Leitsatzaussage bestätigt, nicht vollständige Gründe. Keine automatische Anwendung aller HGB-Regeln, kein bestimmter Ausgleich und keine pauschale Vertragshändleranalogie."
+      }
+    ],
+    "remaining_limits": [
+      "Sämtliche BGH-Anker bleiben nach gesperrten Originalabrufen ohne Volltextbestätigung; keine Pressemitteilung als Volltext verwendet.",
+      "DSGVO, Data Act, CISG-Status sowie mehrere EU-Texte waren direkt gesperrt; fallbezogene aktuelle Anwendung und Übergangsrecht erneut prüfen.",
+      "Weitere Normen der Fachskills sind Rechercheaufträge, nicht durch die Quellenliste pauschal als gelesen bestätigt.",
+      "Dokumentenprüfung ohne ausgeführte Regressionfälle, Live-Modelltest oder Bearbeitung der gesamten parallel produzierten Übungsakten.",
+      "Keine erfundenen Entscheidungen des Jahres 2026, Literaturfundstellen oder gesetzlichen Signaturheilungen."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leerer Einstieg: Erstentwurf, Gegenentwurf oder Unterschriftenfassung gezielt zur Auswahl stellen.",
+      "Material ohne Aufgabe: freigegebene Unterlagen lesen und nur bei unklarem Ziel die passende konkrete Auswahl stellen, keinen Bestandsbericht erzeugen.",
+      "Klarer Auftrag: direkt den Vertrag oder bestellten Nachtrag bearbeiten; nur entscheidende fehlende Angaben erfragen."
+    ],
+    "continuation": "Antwort zur Abrufbindung -> gleiche Fassung mit Preis-, Kapazitäts-, Restmaterial- und Exit-Abgleich; Antwort zur Abnahme -> gleiche Fassung mit Fälligkeit und Vorbehalten; keine erneute Aufnahme.",
+    "enrichment": "Einsetzbare Klauseln und Verhandlungsantworten sowie spezifische Regressionfälle für alle zwanzig Fachwege; vollständiger kurzer Nachtrag als Werkstattbeispiel.",
+    "limits": "desk_review; keine Live-Modelltests und keine externe Handlung. Keine fingierte Freigabe oder Signatur, keine Notarformheilung durch Mappe, keine ungefragte Voll-M&A- oder Lizenzberatung."
+  },
+  "selection": {
+    "target_skill": "wirtschaftsvertrag-bis-zur-unterschrift-erstellen",
+    "positive": [
+      "Erstellen Sie aus Angebot, Leistungsanlage und Einkaufsbedingungen unseren vollständigen B2B-Rahmenliefervertrag und arbeiten Sie Verhandlungsantworten in denselben Entwurf ein.",
+      "Führen Sie unseren Projektvertragsentwurf nach Klärung der Abnahmekriterien bis zu einer konsistenten Unterschriftenfassung fort, ohne zu unterschreiben."
+    ],
+    "negative": [
+      "Führen Sie die gesamte rechtliche Due Diligence und gesellschaftsrechtliche Strukturierung eines Unternehmenskaufs durch.",
+      "Erstellen Sie ausschließlich einen eigenständigen internationalen Softwarelizenzvertrag mit komplexer Unterlizenzarchitektur, ohne zugrunde liegenden Wirtschaftsvertrag."
+    ]
+  },
+  "cases": [
+    {
+      "id": "vertrag-nach-abrufentscheidung",
+      "target_skill": "wirtschaftsvertrag-bis-zur-unterschrift-erstellen",
+      "request": "Erstellen Sie ergebnis.md als vollständigen Rahmenliefervertrag zwischen zwei deutschen GmbHs für Sensorbaugruppen. Die Parteien und Anlagebezeichnungen dürfen als bezeichnete Platzhalter stehen. Stückpreis 80 EUR netto, Zahlung dreißig Tage nach Lieferung und Rechnung, Beginn 01.11.2026, unbefristet mit drei Monaten zum Monatsende, gesetzliche Haftung. Die bereits beantwortete Geschäftsfrage lautet: Vier Wochen Abrufe sind bis 200 Stück je Woche verbindlich, danach ist die Prognose unverbindlich und Beschaffung nur nach ausdrücklicher Materialfreigabe zulässig. Führen Sie den vorhandenen Entwurf auf dieser Grundlage fort. Keine Exklusivität, kein Auslandsbezug, keine technische Entwicklung, nicht versenden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der vollständige Vertrag enthält die entschiedene Bindung von vier Wochen bis 200 Stück je Woche und unterscheidet die spätere Prognose von einer Materialfreigabe; die Mengenfrage wird nicht erneut gestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Materialausgleich wird auf freigegebene nachgewiesene unverwertbare Kosten begrenzt und mit Restmaterial, Preis sowie Kündigungsfolgen abgestimmt; kein voller Preis für sämtliche Jahresprognosen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis ist ein ausformulierter Rahmenvertrag mit Preis, Fälligkeit, Leistung und Fortgeltung bestätigter Abrufe, keine bloße Risikoliste und kein ungefragter Lizenz-, M&A- oder Datenschutzvertrag.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eckpunkte-ohne-fiktive-mindestmenge",
+      "target_skill": "verhandlungsauftrag-und-eckpunkte-klaeren",
+      "request": "Erstellen Sie ergebnis.md als knappe Entscheidungsanfrage für den Einkauf. Das Lieferangebot kalkuliert 10000 Stück im Jahr, die Geschäftsleitung hat nur eine unverbindliche Prognose freigegeben. Der Lieferant soll schon jetzt Material für sechs Monate beschaffen. Ein Rahmenvertrag ist noch nicht geschlossen. Klären Sie die fehlende Geschäftsentscheidung, statt einen allgemeinen Bestandsbericht oder bereits bindende Mindestmengen zu erzeugen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Anfrage stellt verbindliche Abnahme oder begrenzte ausdrücklich freigegebene Materialbeschaffung als unterschiedliche Entscheidungen gegenüber.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Kalkulationsmenge von 10000 Stück wird nicht als bereits zugesagte Mindestabnahme dargestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Frage nennt Kapazitäts- und Verwertungsrisiko konkret und verlangt weder eine erneute umfassende Mandatsaufnahme noch eine fingierte Einigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beurkundung-und-gesamtvertretung",
+      "target_skill": "vertragstyp-form-und-vertretung-pruefen",
+      "request": "Prüfen Sie in ergebnis.md die Abschlussvorbereitung einer Entwicklungsvereinbarung. Sie enthält zusätzlich eine bindende Verpflichtung zur Übertragung eines GmbH-Anteils. Nach bereitgestelltem aktuellen Registerauszug wird die verpflichtete GmbH nur durch zwei Geschäftsführer gemeinsam vertreten; bislang hat einer die Unterzeichnung angekündigt. Gewünscht ist eine einfache elektronische Unterschriftenmappe. Keine vollständige gesellschaftsrechtliche Transaktionsberatung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der GmbH-Anteilsbezug löst eine konkrete notarielle Formprüfung einschließlich möglicher rechtlicher Einheit aus; die einfache Mappe wird nicht als Formersatz bezeichnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die nachgewiesene Gesamtvertretung wird auf den geplanten Abschluss angewandt; die Erklärung eines einzelnen Geschäftsführers wird nicht als ausreichende Vollmacht fingiert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Das Ergebnis grenzt einen zulässigen Vorbereitungsentwurf von einer unterschriftsreifen Privatfassung ab, ohne ein vollständiges Unternehmenskaufmandat zu eröffnen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "materialfreigabe-und-ruegeabsendung",
+      "target_skill": "liefervertrag-und-abrufsystem-gestalten",
+      "request": "Erstellen Sie ergebnis.md mit Liefer- und Rügeklauseln. Beide Parteien sind Kaufleute, der Warenkauf gehört beiderseits zum Handelsgeschäft und deutsches Kaufrecht ohne CISG gilt. Nach verbindlichen vier Wochen ist nur Material bis 30000 EUR freigegeben. Bei Storno sind 18000 EUR gebunden; 5000 EUR können zurückgegeben und 4000 EUR anderweitig verwendet werden. Die Gegenseite verlangt Rügezugang binnen fünf Tagen für alle Mängel. Das ist eine Verhandlung, keine abgeschlossene Abweichung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der verbleibende beispielhafte Materialausgleich beträgt 9000 EUR und wird weder auf die Freigabegrenze aufgerundet noch mit vollständigem Verkaufspreis kumuliert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Paragraf 377 HGB wird auf das ausdrücklich beiderseitige Handelsgeschäft bezogen; für verdeckte Mängel wird die Entdeckung berücksichtigt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die gesetzliche rechtzeitige Absendung der Rüge wird benannt; die gegnerische Zugangsverschärfung und starre Fünftagesfrist werden nicht als Gesetz oder bereits akzeptierte Klausel ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rahmenende-und-tochterauftrag",
+      "target_skill": "rahmenvertrag-mit-einzelauftraegen-verknuepfen",
+      "request": "Erstellen Sie ergebnis.md als Verknüpfungsregel. Der Rahmenvertrag der Mutter endet am 31.12.2026. Eine ausdrücklich abrufberechtigte Tochter hat im eigenen Namen einen angenommenen Projektauftrag bis März 2027 geschlossen. Vereinbart ist, dass offene Aufträge fortgeführt werden. Eine Zahlungsgarantie der Mutter besteht nicht. Ein neues Bestellformular enthält abweichende Haftung nur in der Fußzeile.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der angenommene Einzelauftrag läuft trotz Rahmenende mit den erforderlichen Rahmenbestimmungen weiter.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Tochter wird als eigene Vertrags- und Zahlungsschuldnerin behandelt; der Mutter wird keine nicht bestehende Garantie zugeschrieben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Haftungsfußzeile wird nicht automatisch als wirksam vorrangige Änderung übernommen; Abweichungsvereinbarung und Dokumentenstand werden eindeutig geregelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probebetrieb-und-abnahmefiktion",
+      "target_skill": "projektvertrag-leistung-und-abnahme-fassen",
+      "request": "Erstellen Sie ergebnis.md als Abnahmeabschnitt eines B2B-Werkvertrags. Vereinbart sind messbare Tests mit Kundenteilen. Der Produktionsversuch ist hierfür erforderlich, das Werk aber noch nicht fertiggestellt. Die Gegenfassung erklärt jede Nutzung oder fünf Tage Schweigen zur Abnahme. Nach Fertigstellung soll eine angemessene Prüffrist gesetzt werden. Der Besteller benennt fristgerecht einen konkreten Mangel. Keine tatsächliche Abnahme oder Erklärung erfinden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der erforderliche Probebetrieb wird nicht ohne weiteres als Abnahme gesetzt; fehlende Fertigstellung schließt die vorgeschlagene pauschale Fiktion aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die rechtzeitige Verweigerung mit mindestens einem benannten Mangel wird für Paragraf 640 Absatz 2 von der materiellen Berechtigung der Verweigerung nach Absatz 1 unterschieden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüfkriterien, Protokoll und Nachprüfung werden ausformuliert; bekannte Mängel und Vertragsstrafe werden hinsichtlich ihrer Vorbehalte getrennt behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sla-messzeit-und-gutschrift",
+      "target_skill": "dienstleistung-und-servicelevel-vereinbaren",
+      "request": "Erstellen Sie ergebnis.md als Serviceanlage. Vereinbart sind dreißig Tage durchgehende Messzeit und 99.5 Prozent Verfügbarkeit ohne abzuziehende Wartung. Reaktion innerhalb einer Stunde bedeutet ausdrücklich nicht vollständige Behebung. Die Gegenseite möchte jede geringe Servicegutschrift als abschließenden Ersatz sämtlicher Erfüllungs-, Schadensersatz- und Kündigungsrechte behandeln.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Berechnung verwendet 43200 Messminuten und höchstens 216 Ausfallminuten für das vereinbarte Ziel, ohne diese Werte als tatsächlichen Betriebsnachweis auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Reaktionszeit und Wiederherstellung bleiben getrennte Zusagen mit definiertem Beginn.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Eine begrenzte Gutschrift beseitigt nicht ungeprüft sämtliche anderen Rechte; die Ersatzfassung regelt Anrechnung für denselben Nachteil und wiederholte erhebliche Störungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eigenhaendler-preisbindung-und-ausgleich",
+      "target_skill": "vertrieb-haendler-und-handelsvertreter-gestalten",
+      "request": "Erstellen Sie ergebnis.md als Gegenentwurf zu den streitigen Vertriebsklauseln. Der deutsche Händler kauft im eigenen Namen, trägt Lager- und Forderungsausfallrisiko und setzt bislang eigene Preise. Der Hersteller fordert Mindestpreise, sanktioniert Abweichungen durch Bonusentzug, verlangt alle Kundendaten bei Exit und nennt den Händler Handelsvertreter. Gewünscht ist keine Freigabe ohne Marktprüfung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die tatsächliche Eigenhandelsrolle wird nicht allein wegen der gegnerischen Bezeichnung in einen Provisionsvertreter umgeschrieben; die kartellrechtliche Rollenfrage bleibt gesondert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Bonusentzug macht die Preisempfehlung nicht tatsächlich unverbindlich; der Gegenentwurf wahrt selbständige Preisfestsetzung und markiert notwendige Kartellprüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Kundendatenpflicht löst eine konkrete Prüfung möglicher Vertragshändleranalogie aus, ohne jedem Händler automatisch einen Jahresausgleich zuzuerkennen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vorwissen-und-gemeinsame-entwicklung",
+      "target_skill": "kooperation-und-entwicklung-vereinbaren",
+      "request": "Erstellen Sie ergebnis.md als Ergebnisregel für eine Entwicklungskooperation. Unternehmen eins bringt bestehenden Messcode ein, Unternehmen zwei entwickelt neue Hardware. Beide entwickeln eine neue Schnittstelle gemeinsam. Entschieden ist: Vorwissen bleibt bei seinem Inhaber, beide dürfen die neue Schnittstelle intern nutzen, kein exklusiver Vertrieb und keine gesellschaftsrechtliche Neustrukturierung. Ein freier Entwickler hat Rechte noch nicht nachgewiesen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bestehender Messcode, neue Hardware und gemeinsam entwickelte Schnittstelle werden getrennt zugeordnet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Das beiderseitige interne Nutzungsrecht wird ausformuliert und nicht ungefragt auf weltweite ausschließliche Drittverwertung erweitert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die ungeklärte Rechtekette des freien Entwicklers bleibt konkret offen; die Vereinbarung behauptet weder vollständigen Rechtserwerb noch automatisch fehlende gesellschaftsrechtliche Relevanz.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betriebsrecht-nach-wartungsende",
+      "target_skill": "software-daten-und-nutzungsrechte-regeln",
+      "request": "Erstellen Sie ergebnis.md als ergänzende Rechte- und Exit-Klausel zum Maschinenvertrag. Das einfache unbefristete Betriebsrecht an der bezahlten Steuerungsanpassung ist vereinbart; Wartung endet nach zwei Jahren. Ein Dritter soll danach warten dürfen. Standardsoftware und fremde Bibliotheken sind getrennt aufgeführt. Der Kunde verlangt zusätzlich Eigentum an allen Messdaten. Kein eigenständiger Voll-Lizenzvertrag.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Das bezahlte unbefristete Betriebsrecht endet nicht automatisch mit der Wartung; erforderliche Drittwartungsbefugnis und Dokumentation werden konkret gefasst.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Erweiterung erfasst nicht ohne Nachweis sämtliche fremden Bibliotheken oder exklusiv die ganze Standardsoftware.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Messdatenzugang wird nach Kategorien und Nutzungszweck geregelt, ohne ein umfassendes Eigentumsrecht an Daten oder pauschale Data-Act-Freigabe zu behaupten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nda-pruefpartner-und-backups",
+      "target_skill": "vertraulichkeit-und-geheimnisschutz-vereinbaren",
+      "request": "Erstellen Sie ergebnis.md als gezielte NDA. Zwei Firmen tauschen Konstruktionsdaten nur für eine Machbarkeitsprüfung aus. Ein benannter externer Prüfdienst muss Zugriff erhalten. Backups können technisch nur turnusmäßig überschrieben werden. Die Gegenfassung untersagt jede gesetzlich erforderliche Offenlegung und erlaubt zugleich dem Prüfdienst eigene Produktentwicklung mit den Daten.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Zugriff des Prüfdienstes wird auf den Prüfzweck mit Schutzpflichten begrenzt; eigene Produktentwicklung wird nicht unbemerkt freigegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Gesetzlich gebotene Offenlegung wird nicht absolut verboten; eine Vorabinformation steht unter rechtlicher Zulässigkeit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die Klausel unterscheidet produktive Löschung und gesperrte unvermeidbare Backups bis zur Überschreibung, ohne tatsächlich nicht mögliche Sofortlöschung zu versprechen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preisindex-anteil-und-bestandsauftrag",
+      "target_skill": "preise-zahlung-und-preisanpassung-regeln",
+      "request": "Erstellen Sie ergebnis.md mit einer Preisformel und einem Zahlungsgegenentwurf. Übungswerte: 100 EUR Ausgangspreis, vierzig Prozent Materialanteil, sechzig Prozent unveränderlich, Indexverhältnis 1.10. Kostensenkungen sollen spiegelbildlich wirken. Bestätigte Bestellungen bleiben vereinbarungsgemäß preisfest. Die Käuferin behauptet, im B2B seien sechzig Tage Zahlung plus dreißig Tage Prüfung stets unbedenklich.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die neue Beispielvergütung beträgt 104 EUR und nicht 110 EUR; die Werte werden nicht als amtlich recherchierte Indexstände ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Kostensenkungen, Basiszeitpunkt und Abgrenzung bestätigter Aufträge werden geregelt; Preisklauselgesetz wird als konkrete Zusatzprüfung erkannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Paragraf 271a BGB wird von Paragraf 308 Nummer 1a und 1b in Verbindung mit Paragraf 310 getrennt; ein allgemeiner Sechzig-Tage-AGB-Freibrief wird verneint.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haftung-freistellung-und-vertragsstrafenbasis",
+      "target_skill": "haftung-gewaehrleistung-und-freistellung-regeln",
+      "request": "Erstellen Sie ergebnis.md als Gegenentwurf für deutsche B2B-AGB. Die Gegenfassung begrenzt jede Haftung einschließlich Vorsatz und Körperverletzung auf ein Monatsentgelt, stellt aber sämtliche Drittansprüche unbegrenzt frei. Zusätzlich verlangt sie täglich 0.2 Prozent und maximal fünf Prozent der ursprünglichen Auftragssumme, selbst wenn sich der Abrechnungswert halbiert. Kein Betrag ist intern freigegeben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Vorsatz und Personenschäden werden nicht der pauschalen Monatsgrenze unterstellt; typische wesentliche Pflichten und zwingende Ausnahmen werden getrennt geregelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Freistellung und Haftungsgrenze erhalten eine bewusste abgestimmte Zuordnung statt unbeabsichtigter Entgrenzung; kein nicht freigegebener Betrag wird als beschlossen gesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Fünf Prozent werden nicht als universell wirksame Vertragsstrafe bestätigt; Basis, Gesamtlast und Anrechnung werden geprüft, BGH VII ZR 42/22 bleibt ein begrenzter nicht volltextbestätigter Anker.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exit-offene-auftraege-und-insolvenz",
+      "target_skill": "laufzeit-kuendigung-und-exit-gestalten",
+      "request": "Erstellen Sie ergebnis.md als Exit-Regelung für einen Service-Rahmen. Bestätigte Projektaufträge sollen weiterlaufen; bezahlte unbefristete Betriebsrechte bestehen. Datenexport ist vor Zugangsentzug erforderlich. Die Gegenfassung beendet bei jedem Insolvenzantrag automatisch alles und hält sämtliche Daten bis zur Zahlung jeder bestrittenen Rechnung zurück. Die bisherige Übergangsdauer von zwei Monaten ist freigegeben.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Offene Projektaufträge und erforderliche Rahmenbedingungen gelten fort; das bezahlte unbefristete Betriebsrecht wird nicht zusammen mit dem Service entzogen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Der zweimonatige Übergang enthält abgestimmten Export und Zugangsentzug; pauschale Datensperre wegen jeder bestrittenen Forderung wird nicht ungeprüft übernommen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Die insolvenzabhängige Automatik wird konkret an Paragrafen 103 und 119 InsO geprüft, ohne sämtliche Insolvenzklauseln gleichermaßen wirksam oder unwirksam zu nennen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buergschaft-nachtrag-und-form",
+      "target_skill": "sicherheiten-und-konzernzusagen-pruefen",
+      "request": "Erstellen Sie ergebnis.md als Sicherungsvermerk mit Ersatzklausel. Eine Privatperson ohne Kaufmannseigenschaft soll elektronisch eine Bürgschaft für die Vorauszahlung übernehmen. Die bestehende Bürgschaft eines anderen Sicherungsgebers ist auf 50000 EUR und den alten Auftrag begrenzt. Ein Nachtrag verdoppelt den Auftrag, ohne dass dieser Sicherungsgeber zugestimmt hat. Keine neue Sicherheit tatsächlich anfordern.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Bei der Privatbürgschaft wird Paragraf 766 samt Ausschluss elektronischer Form berücksichtigt; Paragraf 350 HGB wird nicht allein wegen des kaufmännischen Gläubigers angewandt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die begrenzte alte Bürgschaft wächst nicht automatisch mit der nachträglich erhöhten Hauptschuld; Paragraf 767 und fehlende zusätzliche Zustimmung werden konkret benannt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Sicherungszweck, Höchstbetrag und Freigabe werden gezielt gefasst, ohne die Sicherheit eigenmächtig auf erstes Anfordern oder alle Konzernschulden auszuweiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avv-fernzugriff-und-unterauftragnehmer",
+      "target_skill": "datenschutz-und-unterauftragnehmer-regeln",
+      "request": "Erstellen Sie ergebnis.md als vollständigen Entwurf einer beauftragten Auftragsverarbeitungsvereinbarung für weisungsgebundene Fernwartung mit Beschäftigtenkennungen. Dauer zwei Jahre; EU-Speicherung, künftig Supportzugriff aus einem Drittland. Allgemeine Unterauftragnehmergenehmigung ist gewünscht. Technische Maßnahmen und konkrete Übermittlungsgrundlage sind noch nicht belegt und sollen gezielt abgefragt werden. Keine tatsächliche Übermittlung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Entwurf enthält konkret vorbereitete Pflichten nach Artikel 28 statt eines allgemeinen Datenschutzsatzes; unbelegte Maßnahmen und Transfergrundlage bleiben bezeichnete Lücken.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "EU-Speicherung wird nicht mit fehlendem Drittlandzugriff gleichgesetzt; der neue Supportort löst die konkrete Transferprüfung aus.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Allgemeine Genehmigung enthält Änderungsinformation und echte Widerspruchsmöglichkeit; die Verantwortung des ersten Verarbeiters wird nicht auf Unterauftragnehmer abgeschoben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutsche-rechtswahl-mit-cisg",
+      "target_skill": "internationalen-vertrag-rechtswahl-und-gerichtsstand-pruefen",
+      "request": "Erstellen Sie ergebnis.md als Rechtswahl- und Forumprüfung einer Warenlieferung. Für die Übung sind unterschiedliche Niederlassungen in zwei CISG-Vertragsstaaten und keine einschlägigen Vorbehalte vorgegeben, nicht live behauptet. Die Klausel lautet nur Deutsches Recht. Gewünscht ist nun ausdrücklich ein CISG-Ausschluss und ein deutsches staatliches Gericht, keine Schiedsgerichtsbarkeit. Nennen Sie gegebenenfalls die aktuelle allgemeine GVG-Wertgrenze.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die bisherige deutsche Rechtswahl wird nicht als bereits bestehender CISG-Ausschluss behandelt; der nun gewünschte Ausschluss wird ausdrücklich formuliert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Rechtswahl, Zuständigkeitsregime und Vollstreckung werden getrennt; es wird keine gleichzeitig ausschließliche Schiedsklausel eingefügt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Falls die Wertgrenze verwendet wird, lautet sie aktuell 10000 EUR mit Vorbehalt besonderer Zuständigkeiten und Übergangsrecht; die Übungsannahmen werden nicht als live geprüfter Vertragsstaatenstatus dargestellt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aushandlungsfiktion-und-kollidierende-agb",
+      "target_skill": "agb-und-dokumentenrangfolge-abgleichen",
+      "request": "Erstellen Sie ergebnis.md mit Ersatzklauseln. Zwei GmbHs haben nur den Preis tatsächlich verhandelt und daneben pauschal Alle Klauseln sind ausgehandelt unterschrieben. Einkaufsbedingungen verlangen dreijährigen Service und tägliche freie Kündigung; das Angebot kalkuliert feste drei Jahre. Beide Fassungen enthalten Abwehrklauseln. Die Gegenseite behauptet, B2B schließe jede AGB-Kontrolle aus.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Die Preisverhandlung und pauschale Bestätigung werden nicht als Nachweis des Aushandelns jeder Haftungs- und Laufzeitklausel behandelt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die Kollision feste Servicebindung gegen tägliche Kündigung wird als konkrete Geschäftsentscheidung aufgegriffen; keine Abwehrklausel gewinnt automatisch.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Paragraf 307 und die fortbestehenden Nummern 1a und 1b des Paragrafen 308 werden richtig eingeordnet; eine salvatorische Klausel wird nicht als automatische Heilung unangemessener Inhalte eingesetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nachtrag-ohne-rueckdatierung-oder-verzicht",
+      "target_skill": "vertragsaenderung-und-nachtrag-erstellen",
+      "request": "Erstellen Sie ergebnis.md als kurzen Nachtrag, keinen neuen Gesamtvertrag. Der unterschriebene Projektvertrag vom 01.07.2026 wird um einen Messplatz für 18000 EUR netto erweitert. Der bisherige Fertigstellungstermin 01.12.2026 verschiebt sich um drei Kalenderwochen. Tests werden nach beigefügter neuer Leistungsanlage ergänzt. Bisherige Ansprüche sollen nicht erlassen werden. Wirtschaftliche Geltung ab 01.09.2026, tatsächliche Unterzeichnung erst jetzt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Der Nachtrag bezeichnet den Ausgangsvertrag, zusätzlichen Umfang, Mehrpreis und neuen Termin 22.12.2026 eindeutig.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Die neue Anlage wird im betroffenen Umfang einbezogen, übrige Regeln bleiben bestehen; ein Verzicht auf bereits entstandene Ansprüche wird nicht hinzugefügt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Wirtschaftlicher Geltungsbeginn wird von tatsächlichem Unterzeichnungsdatum getrennt; weder Rückdatierung einer Unterschrift noch automatische Erweiterung fremder Sicherheiten wird behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gegenfassung-ohne-fingierte-freigabe",
+      "target_skill": "verhandlungsfassung-und-unterschriftenmappe-fertigstellen",
+      "request": "Erstellen Sie ergebnis.md als Verhandlungsantwort und konsolidierten streitigen Klauselabschnitt. Die Gegenseite hat nur den Haftungsbetrag akzeptiert, die Freistellung ist offen. Intern existiert eine Rückfallposition, die nicht offengelegt werden soll. Eine benannte Anlage liegt in zwei widersprüchlichen Fassungen vor; Gesamtvertretungsnachweis fehlt. Der Auftrag lautet Bitte schon die Unterschriftenmappe vorbereiten, nicht senden.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Nur der akzeptierte Haftungsbetrag wird als geklärt übernommen; die offene Freistellung erhält konkreten Ersatztext und Antwort statt einer behaupteten Gesamteinigung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Interne Rückfallposition bleibt aus der externen Antwort heraus; ein nicht belegter vollständiger Änderungsvergleich wird nicht behauptet.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Anlagenkonflikt und Vertretungsnachweis werden als konkrete Abschlusssperren benannt; die vorbereitete Mappe gilt weder als unterschrieben noch als bereits freigegebene oder versandte Endfassung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_verification": "Aktuelle Nachprüfung: 57 amtliche Quellen mit genauem Lesebereich; fünf BGH-Originale tatsächlich gelesen. Begrenzte EU-/CURIA-Zugänge separat dokumentiert. Kein globaler Volltext- oder Aktualitätsnachweis.",
+  "source_link_audit_2026_10_01": {
+    "checked_on": "2026-10-01",
+    "scope": "Ausschließlich Linkziel und Entscheidungsidentität anhand amtlicher PDF-Köpfe erneut geprüft; keine neue materielle Freigabe älterer Aussagen. Historische Quellenprüfdaten bleiben erhalten.",
+    "report": "quality/source-audits/2026-10-01/quellenlinks.md",
+    "replacements": [
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?.pdf=&Art=en&Datum=Aktuell&Frame=4&Gericht=bgh&anz=1&nr=136872&pos=0",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2022/VII_ZR__42-22.pdf?__blob=publicationFile&v=1",
+        "sha256": "381f7fdaa60f5b63ee91435cfe1b8a87072f71240114878033509bec460abecb"
+      },
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2014-3-20&Gericht=bgh&anz=30&nr=67527&pos=21",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_248-13.pdf?__blob=publicationFile&v=1",
+        "sha256": "4a835c89d9a72df07140c77a24c5e2c95cdee5192b781edb9fdbe669c17144fb"
+      },
+      {
+        "old_url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-1-19&Gericht=bgh&anz=22&nr=77407&pos=14",
+        "new_url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2013/VII_ZR_301-13.pdf?__blob=publicationFile&v=1",
+        "sha256": "0b725d4cf5a062d1dbc7b66ffc2229963aecd8dec68da59fa323b1380b53b345"
+      }
+    ]
+  },
+  "file_hash_consistency_review_2026_11_01": {
+    "date": "2026-11-01",
+    "method": "file_hash_consistency_check",
+    "finding": "Die nachstehenden Prüfsummen passen nicht zum aktuellen Dateiinhalt. Sie wurden aus den aktiven Hashfeldern entfernt und ausschließlich als historische Prüffassungen erhalten.",
+    "scope": "Nur SHA-256-Abgleich der angegebenen Dateien; keine neue fachliche Prüfung, Quellenverifikation oder Live-Modellausführung. Frühere Prüfzeitpunkte werden nicht auf den heutigen Stand übertragen. Übereinstimmende aktuelle Hashfelder und die gesondert geprüften Promptfassungen bleiben überprüfbar.",
+    "historical_file_hashes": {
+      "skill_hashes": {
+        "corporate-contract-law/skills/agb-und-dokumentenrangfolge-abgleichen/SKILL.md": "386a2a086ce7740c80715dd91f2dd61f9d4239ddb8c4c62844fe37ff06c32db8",
+        "corporate-contract-law/skills/datenschutz-und-unterauftragnehmer-regeln/SKILL.md": "6e97dfbd45d1642e519ba9e342347018eb0d4a5210d74bd33ade8ed025f38c6d",
+        "corporate-contract-law/skills/dienstleistung-und-servicelevel-vereinbaren/SKILL.md": "ed5ac2e205b1803c99119d0a2f67ba8490d904e0d3949bbdbbf1c37f9465383b",
+        "corporate-contract-law/skills/haftung-gewaehrleistung-und-freistellung-regeln/SKILL.md": "71dbd322561592a908de8b5257e381cc92e12ed2f9b631ae76ff554d33a84ffb",
+        "corporate-contract-law/skills/internationalen-vertrag-rechtswahl-und-gerichtsstand-pruefen/SKILL.md": "d27f6295e45cfd6ccde73d9bb284511c9a1bcb603f9258297c3bb9d4d811415a",
+        "corporate-contract-law/skills/kooperation-und-entwicklung-vereinbaren/SKILL.md": "51e6eba261863c860388e5462954c7ef80603075c36ed4498037754584ed4c12",
+        "corporate-contract-law/skills/laufzeit-kuendigung-und-exit-gestalten/SKILL.md": "638d313dbdf5ec1d8ddc69088f0265a8f923e7e8a6624304fa54cf39157384aa",
+        "corporate-contract-law/skills/liefervertrag-und-abrufsystem-gestalten/SKILL.md": "1a49ec64d88f22c294f1c0c53d74178a613843c2bb37c917e1d2c43b5e5da05b",
+        "corporate-contract-law/skills/preise-zahlung-und-preisanpassung-regeln/SKILL.md": "cd2e75fbeaa276fdd0d9b0e1ce4ffad2bfc7885418aef75c2207b0b8374c4084",
+        "corporate-contract-law/skills/projektvertrag-leistung-und-abnahme-fassen/SKILL.md": "060b1d6f40b832b1ac5fd3b230a39c9f053ce86c43923ccacc9423c666927f97",
+        "corporate-contract-law/skills/rahmenvertrag-mit-einzelauftraegen-verknuepfen/SKILL.md": "f021ff97ea070dc393453d3f0dc0b0df06e978e83b2e04363e2be5998abceeac",
+        "corporate-contract-law/skills/sicherheiten-und-konzernzusagen-pruefen/SKILL.md": "6b40b9a259e3bf4c0ac50d14aa2d54e9a471031231263f25e39f8469ed6cfb20",
+        "corporate-contract-law/skills/software-daten-und-nutzungsrechte-regeln/SKILL.md": "2b9e227fe59dfe457ebb91d7d3562c00245e42d32b42c637b3f256d130f252ad",
+        "corporate-contract-law/skills/verhandlungsauftrag-und-eckpunkte-klaeren/SKILL.md": "1da98cf23c2f4c1f05297f374e0992effcb62513e08f01ebed66a1a2be93b9b6",
+        "corporate-contract-law/skills/verhandlungsfassung-und-unterschriftenmappe-fertigstellen/SKILL.md": "383370932da0a926825805d4e305dc478dfbc7e8bcf7828de7744541e57240db",
+        "corporate-contract-law/skills/vertragsaenderung-und-nachtrag-erstellen/SKILL.md": "aea0c77abf318907b5a414d4746d35d24b067680c96544c51d7cb75015128473",
+        "corporate-contract-law/skills/vertragstyp-form-und-vertretung-pruefen/SKILL.md": "50b0997a737dd5d6c59a82a4f15a243ac7f2adf0285f78333eac764de8bbef62",
+        "corporate-contract-law/skills/vertraulichkeit-und-geheimnisschutz-vereinbaren/SKILL.md": "ef9cb568378f2172fcc1c881eabb0d95177293dbd1892e30e3b33c573bd12611",
+        "corporate-contract-law/skills/vertrieb-haendler-und-handelsvertreter-gestalten/SKILL.md": "aaf2cc09a6f45d0dca953a59718596c665b7ba8e6c9b7fa9609ebc34f227dfb2",
+        "corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen/SKILL.md": "8c6d6a29df0a940b4c0ac144983367d41d824134325959bf5eaa58a8fbfc3575"
+      }
+    }
+  },
+  "file_review_status": {
+    "status": "reviewed",
+    "reason": "Alle 20 zuvor offenen Dateien vollständig einzeln nachgeprüft; Altstand, Befund, Primärquellenstatus und Endbytes im gebundenen Abschlussbeleg. Keine Live-Modellausführung behauptet.",
+    "files": [
+      "corporate-contract-law/skills/agb-und-dokumentenrangfolge-abgleichen/SKILL.md",
+      "corporate-contract-law/skills/datenschutz-und-unterauftragnehmer-regeln/SKILL.md",
+      "corporate-contract-law/skills/dienstleistung-und-servicelevel-vereinbaren/SKILL.md",
+      "corporate-contract-law/skills/haftung-gewaehrleistung-und-freistellung-regeln/SKILL.md",
+      "corporate-contract-law/skills/internationalen-vertrag-rechtswahl-und-gerichtsstand-pruefen/SKILL.md",
+      "corporate-contract-law/skills/kooperation-und-entwicklung-vereinbaren/SKILL.md",
+      "corporate-contract-law/skills/laufzeit-kuendigung-und-exit-gestalten/SKILL.md",
+      "corporate-contract-law/skills/liefervertrag-und-abrufsystem-gestalten/SKILL.md",
+      "corporate-contract-law/skills/preise-zahlung-und-preisanpassung-regeln/SKILL.md",
+      "corporate-contract-law/skills/projektvertrag-leistung-und-abnahme-fassen/SKILL.md",
+      "corporate-contract-law/skills/rahmenvertrag-mit-einzelauftraegen-verknuepfen/SKILL.md",
+      "corporate-contract-law/skills/sicherheiten-und-konzernzusagen-pruefen/SKILL.md",
+      "corporate-contract-law/skills/software-daten-und-nutzungsrechte-regeln/SKILL.md",
+      "corporate-contract-law/skills/verhandlungsauftrag-und-eckpunkte-klaeren/SKILL.md",
+      "corporate-contract-law/skills/verhandlungsfassung-und-unterschriftenmappe-fertigstellen/SKILL.md",
+      "corporate-contract-law/skills/vertragsaenderung-und-nachtrag-erstellen/SKILL.md",
+      "corporate-contract-law/skills/vertragstyp-form-und-vertretung-pruefen/SKILL.md",
+      "corporate-contract-law/skills/vertraulichkeit-und-geheimnisschutz-vereinbaren/SKILL.md",
+      "corporate-contract-law/skills/vertrieb-haendler-und-handelsvertreter-gestalten/SKILL.md",
+      "corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen/SKILL.md"
+    ],
+    "evidence": {
+      "path": "quality/source-audits/2026-11-14-nachpruefung/completed/corporate-contract-law.json",
+      "sha256": "499cfbc9ed865ca342b29df5ec3b01ea6217f260d304a1b4429e3b3cc5ecfd60"
+    }
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "corporate-contract-law/corporate-contract-law-hauptproblem.md",
+      "corporate-contract-law/corporate-contract-law-werkstatt.md",
+      "corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen/SKILL.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "file_followup_review": {
+    "date": "2026-11-14",
+    "source_review_date": "2026-11-14",
+    "historical_profile": {
+      "path": "quality/source-audits/2026-11-14-nachpruefung/historical-profiles/corporate-contract-law.json",
+      "sha256": "fe956091ce977ddbdcc8d01fea0d6f77e670a116179e66648fad981bb5b19d45",
+      "commit": "d4d621de34186d03e343fdb144176b9986f1f1fe"
+    },
+    "audit": {
+      "path": "quality/source-audits/2026-11-14-nachpruefung/corporate-contract-law.json",
+      "sha256": "929a21a3181afee42111a98ed3f417dac242a8cfa92a84e74afeeceb0866b50d"
+    },
+    "scope": "20 vollständige Dateireviews. Weitere betroffene Dateien nur im individuell dokumentierten Lesebereich nachgezogen.",
+    "limits": [
+      "Keine Live-Modellausführung oder empirische Vertragsfreigabe.",
+      "Keine gesamte neue Werkstatt-Vollprüfung; dort nur dokumentierte Absatz-/Quellenkonsistenzprüfung.",
+      "Keine neue Prüfung aller EU-Normen oder aller internationalen Vorbehalte.",
+      "Keine rückwirkende Änderung der historischen Prüfungen oder Hashes.",
+      "Kein Nachweis, dass seit den Ankern keine neuere Rechtsprechung existiert."
+    ],
+    "date_timezone": "UTC",
+    "integration_date_local": "2026-11-15",
+    "integration_timezone": "Europe/Berlin"
+  },
+  "reviewed_on_timezone": "UTC"
+}

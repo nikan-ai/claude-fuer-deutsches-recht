@@ -1,6 +1,6 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Urheberrecht DE/EU Kaltstart und Routing in Urheberrecht DE EU geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Urheberrecht DE/EU Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Urheberrecht DE/EU Kaltstart und Routing
@@ -14,11 +14,9 @@ Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst un
 - tragende Tatsachen aus dem Material.
 - bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Frage nach der konkret fehlenden Originalfassung, Rechteübertragung oder Nutzung, wenn sie das Ergebnis bestimmt. Fehlende Nachweise sind keine Tatsachenannahmen. Nach Eingang prüfe die betroffene Schutz-, Lizenz- oder Verletzungsfrage erneut und arbeite bis zum bestellten Ergebnis weiter; neue entscheidende Widersprüche dürfen weitere kurze Rückfragen auslösen.
 
 Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
-
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
 
 ## Wofür dieser Arbeitsgang da ist
 
@@ -60,11 +58,9 @@ Vor einer belastbaren Ausgabe werden Gesetzesfassungen und tragende Rechtsprechu
 | 6 Beweis und Risiko | Was ist belegt, was nur behauptet, was fehlt, was ist prozessual oder taktisch dringend? |
 | 7 Output | Ergebnis so formulieren, dass es direkt weiterverwendbar ist. |
 
-## Typische Outputs
+## Ergebnis
 
-- Routing-Memo mit 3 bis 7 Anschluss-Skills
-- Dokumenten- und Beweisnachforderung
-- Risikoampel und nächster belastbarer Arbeitsschritt
+Liefere die bestellte Abmahnungsantwort, Lizenzklausel oder begründete Prüfung in vollständigen Sätzen. Eine Liste weiterer Skills oder Nachforderungen ersetzt das Ergebnis nicht. Bei einer entscheidenden Lücke liefere den bearbeitbaren Teil vorläufig und benenne den konkreten Nachweis; nach Klärung wird die Fassung abgeschlossen. Interne Recherchehinweise bleiben vom Empfängertext getrennt. Nutzerdateinamen gehen vor; ohne Vorgabe ist `ergebnis.md` der Standard. Formatierte Texte verwenden soweit möglich Times New Roman 11 pt und dezimale Gliederung.
 
 ## Qualitätsfilter
 
@@ -78,6 +74,8 @@ Vor einer belastbaren Ausgabe werden Gesetzesfassungen und tragende Rechtsprechu
 
 Nach diesem Skill passen häufig `werkhoehe-schoepfungshoehe`, `nutzungsrechte-lizenzkette`, `beweisforensik-versionen`, `redteam-halluzinationsschutz` und `output-builder-urheberrecht`. Bei Musikfällen zusätzlich `musikwerk-melodie-harmonie-rhythmus`, `soundaufnahme-tontraeger` und `sampling-pastiche-remix`. Bei KI-Fällen zusätzlich `ki-output-menschlicher-beitrag`, `ki-training-tdm-optout` und `ki-act-gpai-copyright`.
 
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Prüfen Sie Trainingsbezug, Ausgabeinhalt und Veröffentlichung getrennt. Technische Markierung und redaktionelle Verantwortung beantworten nicht automatisch die urheberrechtliche Nutzungsbefugnis. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
 ## Normen & Rechtsprechung
 
 Konkret zu prüfen:
@@ -87,3 +85,23 @@ Konkret zu prüfen:
 - §§ 15-24 UrhG (Verwertungsrechte)
 - § 97 UrhG (Unterlassung, Schadensersatz)
 - RL (EU) 2019/790 (DSM-RL)
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Urheber- und Medienrecht:** Welche konkrete Nutzung ist durch welches Recht und welchen Nachweis gedeckt?
+
+**Erste Ansicht:** Zeige Schutzgegenstand, Rechtekette, Nutzung, Gebiet, Zeitraum und vertragliche oder gesetzliche Grundlage in einer Rechteübersicht; markiere die ungeklärte Verbindung.
+
+**Sinnvolle Interaktion:** Wähle Nutzung, Territorium oder Fassung und stelle die betroffenen Rechte und Nachweise dar. Eine fehlende Lizenz wird nicht durch eine grafische Freigabe ersetzt.
+
+**Datengrundlage:** Werk oder Schutzrecht, Inhaber, Übertragung, Nutzungsart, Zeitraum, Gebiet und Belegstelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründeter Rechtevermerk und der beauftragte Lizenz-, Anspruchs- oder Antworttext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

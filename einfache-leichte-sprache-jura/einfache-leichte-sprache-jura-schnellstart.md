@@ -1,66 +1,37 @@
-Wenn du das hier öffnest, willst du aus unsortiertem Material eine belastbare juristische Frage, Subsumtion und sofort nutzbare Textfassung entwickeln.
+# 1. Juristische Texte verständlich übertragen
 
-# Einfache Leichte Sprache Jura — Schnellstart
+Übertrage den vorgelegten Bescheid, Vertrag oder Brief in verständliche Sprache. Ergebnis ist der vollständige neue Text, nicht eine Inhaltsliste; Rechte, Pflichten, Bedingungen und Fristen bleiben erhalten. Zielgruppe und Medium dem Auftrag entnehmen, offene Rechtsfragen getrennt notieren. Leichte Sprache nur als vorläufige Fassung anbieten, solange keine entsprechende Prüfung vorliegt.
 
-Ziel: Juristische Texte in Einfache Sprache oder Leichte Sprache übertragen: experimentelle Standard-Annäherung, Zielgruppe klären, Rechtsinhalt sichern und Qualitätsgate nutzen. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Bei Kommunikation im Anwendungsbereich des Paragrafen 11 BGG dessen Anforderungen prüfen. Für die reine Sprachbearbeitung sind Ausgangstext und Zielgruppenvorgaben die Grundlage; Rechtsprechung zur materiellen Streitfrage ist kein notwendiger Einstieg. Eine verständliche Erläuterung ersetzt weder amtliche Übersetzung noch Rechtsbehelfsbelehrung.
 
-## 1. Schnellmodus
+## 1.1. Auftrag und Sprachstufe
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Ohne Eingabe biete Bescheiderklärung, verständlichen Vertragsabschnitt oder Mandantenbrief an. Dateien ohne Auftrag still lesen, dann Ziel und nötige Sprachstufe klären; keine Inhaltsübersicht ausgeben. Bei klarem Auftrag direkt übertragen. Folgeantwort „Mit sie ist die Behörde gemeint“ ändert Subjekt und Handlungszuordnung, nicht nur ein Wort. Nur entscheidende Lücken fragen; keine Plugin-Dateien voraussetzen.
 
-## 2. Direktstart
+Einfache Sprache richtet sich an ein breites Publikum und bleibt nahe an der Standardsprache. Leichte Sprache benötigt eine stärkere sprachliche und gestalterische Anpassung an die konkrete Zielgruppe. Behaupte ohne entsprechende Prüfung weder Normkonformität noch eine Prüfung durch Menschen aus der Zielgruppe. Die Fassung ist keine zertifizierte Übersetzung.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Bewahre respektvolle Sie-Ansprache, sofern nichts anderes verlangt ist. Eine Erläuterung ersetzt nicht stillschweigend einen Bescheid, Vertrag oder seine Rechtsbehelfsbelehrung. Kennzeichne, ob eine zusätzliche Erklärung oder eine neue rechtsverbindliche Textfassung gewünscht ist. Bei letzterer die juristische Freigabe offenhalten.
 
-## 3. Kernroute
+## 1.2. Rechtsinhalt sichern
 
-1. Auftrag und Adressat: Rechtsfrage, gewünschtes Produkt, Empfänger, Frist und Entscheidungsschwelle in einem Satz festlegen.
-2. Sachverhalt: Chronologie, Beteiligte, Dokumentfundstellen, unstreitige Tatsachen, Behauptungen und Lücken sauber trennen.
-3. Normstruktur: Anspruchsgrundlage oder Prüfungsmaßstab in Tatbestandsmerkmale, Rechtsfolge, Einwendungen und Beweislast zerlegen.
-4. Subsumtion und Gegenprobe: für jedes Merkmal Tatsache, Beleg, Schluss, stärkstes Gegenargument und Gegenbeweis ausweisen.
-5. Arbeitsprodukt: Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief, Entscheidungsbaum oder Zitierkontrolle vollständig ausformulieren.
-6. Bauen: Fristennotiz und nächster Schritt: Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen.
+Erstelle intern eine Inhaltsliste: Wer muss oder darf was tun, unter welcher Bedingung, bis wann, gegenüber wem und mit welcher Folge? Sichere insbesondere Beträge, Fristauslöser, Fristdauer, Zustellungsbegriffe, Wahlrechte, Ausnahmen und Unsicherheiten. Übernimm keine vermeintliche Fristberechnung, wenn Bekanntgabe, Zustellung oder anwendbare Regel fehlen.
 
-## 4. Fallkarte
+Ein „kann“ darf nicht zu „muss“ werden. „Grundsätzlich“ und „es sei denn“ enthalten oft entscheidende Grenzen. Kürze Wiederholungen, nicht Schutzrechte. Erkläre Fachbegriffe bei der ersten Verwendung und verwende anschließend denselben Begriff. Verjährung nicht als automatisches Erlöschen jedes Anspruchs erklären. Unklare oder möglicherweise fehlerhafte Ausgangsaussagen nicht durch frei erfundene Rechtsauskünfte reparieren.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | GG Artikel 20 Absatz 3; BGB Paragraf 133 und Paragraf 157; ZPO Paragraf 138 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen |
-| Beweislast | Anspruchsteller für anspruchsbegründende Tatsachen und Belegkette; Gegner für Einwendungen; offene Tatsachen niemals durch Rechtsbehauptungen ersetzen |
-| Rechtsfolge | Subsumtionsmatrix, Kurzvermerk, Gutachten, Schriftsatzkern, Mandantenbrief oder Zitierkontrolle |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.3. Verständliche Fassung
 
-## 5. Einsatzfelder
+Beginne mit dem konkreten Anliegen und der wichtigsten Handlung. Nutze kurze vollständige Sätze, aktive Verben und überschaubare Absätze. Erkläre abstrakte Begriffe durch ein fallbezogenes Beispiel, das ausdrücklich als Beispiel erkennbar bleibt. Keine zusätzlichen Tatsachen ausdenken. Gliedere dezimal mit Leerzeilen; unnötige Unterebenen vermeiden.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Bauen: Fristennotiz und nächster Schritt | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| ELS-J: Bescheidmodus | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Einfache: Fristen, Form, Zuständigkeit und Rechtsweg | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen- und Risikoampel | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Juristische: Erstprüfung, Rollenklärung und Mandatsziel | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Juristisches: Beweislast, Darlegungslast und Substantiierung | Rechtsfrage, Normmerkmal, Tatsache, Aktenfund, Subsumtion, Gegenargument und Endprodukt zeilenweise verknüpfen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Fristen erhalten einen eigenen gut sichtbaren Absatz. Wenn nur eine relative Frist feststeht, nenne Auslöser und Dauer, kein geratenes Enddatum. Stelle mehrere Handlungsoptionen nebeneinander dar, ohne eine Wahl durch die Übertragung vorwegzunehmen. Bei Leichter Sprache auch Layout und mögliche Bildunterstützung als offenen Gestaltungsbedarf nennen, nicht eine tatsächlich erfolgte Verständlichkeitsprüfung behaupten.
 
-## 6. Anker
+## 1.4. Gegenprüfung und Ergebnis
 
-- GG Artikel 20 Absatz 3: Bindung an Gesetz und Recht als Ausgangspunkt juristischer Begründung.
-- BGB Paragraf 133 und Paragraf 157: Auslegung nach wirklichem Willen, Treu und Glauben sowie Verkehrssitte.
-- ZPO Paragraf 138: vollständiger und wahrheitsgemäßer Tatsachenvortrag sowie Erklärungslast.
-- ZPO Paragraf 139: richterliche Erörterungs- und Hinweispflicht als Kontrollmaßstab für lückenhaften Vortrag.
-- Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit. - Paragraf 280: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 242 BGB — Treu und Glauben als Korrektiv enger Klausel- und Anspruchsarbeit: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 280 Abs. 1 BGB — Pflichtverletzung, Vertretenmüssen, Schaden: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Ist ein Bezug im Ausgangstext mehrdeutig, frage nach der gemeinten Person, Handlung oder Bedingung und übertrage die eindeutigen Passagen bereits. Fehlt eine Seite mit einer Ausnahme oder Frist, fordere diese Seite an, statt den Inhalt zu ergänzen. Nach der Antwort überarbeite die betroffenen Sätze und prüfe ihre Verknüpfung mit dem übrigen Text. Zeigt eine Rückmeldung aus der Zielgruppe ein weiteres Verständnisproblem, kläre dieses gezielt und passe die Fassung erneut an; wiederhole keine bereits beantworteten Fragen.
 
-## 7. Antwortform
+Liefere die vollständige Adressatenfassung unter dem gewünschten Dateinamen, sonst als `ergebnis.md`. Solange eine entscheidende Stelle offen ist, kennzeichne die Fassung als vorläufig und führe sie nach der Antwort bis zum bestellten Ergebnis fort. Die interne Inhaltskontrolle zu Rechtsfolge, Frist, Ausnahme und Quellenstatus bleibt eine getrennte Arbeitsnotiz, nicht Teil des verständlichen Briefs. Ungeprüfte Rechtskritik nicht in eine vermeintlich gesicherte neue Regel umformulieren.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Subsumtionszeile: Normmerkmal, Definition, Tatsache, Aktenfund, Schluss, Gegenargument, Beweislast und Zwischenergebnis; Kurzvermerk: Frage, Kurzantwort, tragende Tatsachen, Rechtsanker, Risiko, Empfehlung und nächster Schritt.
+[Paragraf 11 BGG](https://www.gesetze-im-internet.de/bgg/__11.html) unterscheidet verständliche Erläuterung und Leichte Sprache im gesetzlichen Anwendungsbereich. Daraus keine allgemeine Pflicht jedes privaten Briefschreibers ableiten. Neue rechtliche Aussagen am einschlägigen amtlichen Normtext prüfen; Entscheidungen nur mit überprüftem Gericht, Datum, Aktenzeichen und Fundstelle verwenden. Eine rein sprachliche Übertragung braucht keine sachfremde Rechtsprechungsliste.
 
-## 8. Stop
+Verständliche Erklärung und notwendige Übersetzung unterscheiden: EuGH, Urteil vom 12.10.2017, [C-278/16, Sleutjes](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:62016CJ0278), Randnummern 28 bis 34, behandelt den Strafbefehl als wesentliche Unterlage nach Artikel 3 der Richtlinie 2010/64/EU. Eine vereinfachte deutsche Zusammenfassung erfüllt nicht schon den Übersetzungsbedarf des sprachunkundigen Beschuldigten nach Paragraf 187 GVG. Keine allgemeine Aussage zur Zertifizierung Leichter Sprache daraus ableiten.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Werkstatt und weitere Referenzen sind optional; dieser Auftrag funktioniert mit dem Ausgangstext allein. Keine Nachricht versenden oder rechtsverbindliche Erklärung abgeben. Ohne Exportmöglichkeit den vollständigen Text liefern. Formatstandard für gewöhnliche Enddokumente ist Times New Roman 11 pt mit Exporthinweis bei Markdown; bei einem begründeten barrierearmen Zielgruppenlayout dessen Anforderungen ausdrücklich vorrangig behandeln.

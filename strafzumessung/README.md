@@ -5,20 +5,66 @@
 
 Strafzumessung nach deutschem Strafrecht vom Strafbefehl bis zur großen Strafkammer. Paragraf 46 StGB Strafzumessungstatsachen Tagessatz Geldstrafe Freiheitsstrafe Bewährung Paragraf 56 Paragraf 49 Regelbeispiele besonders schwerer Fall Verständigung Paragraf 257c StPO TOA Paragraf 46a Gesamtstrafe Paragraf 55 JGG.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`strafzumessung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/strafzumessung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/strafzumessung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/strafzumessung-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/strafzumessung-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/strafzumessung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/strafzumessung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Strafzumessung:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafzumessung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/strafzumessung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafzumessung/strafzumessung-werkstatt.md" download><code>strafzumessung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafzumessung/strafzumessung-schnellstart.md" download><code>strafzumessung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Strafzumessung Bankert — Untreue, LG Frankfurt / BGH Revision: [Gesamt-PDF](../testakten/strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung/gesamt-pdf/strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung_gesamt.pdf), [`testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung.zip), [`testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafzumessung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/strafzumessung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`strafzumessung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/strafzumessung-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`strafzumessung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/strafzumessung-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Strafzumessung Bankert — Untreue, LG Frankfurt / BGH Revision](../testakten/strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung/README.md) | [Gesamt-PDF](../testakten/strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung/gesamt-pdf/strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung_gesamt.pdf) | [`testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung.zip) | [`testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafzumessung-vermoegensdelikt-bankert-frankfurt-untreue-haupt-und-revisionsverhandlung-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du Strafrahmen, Strafzumessungstatsachen, Geständnis, Vorbelastungen, Einziehung, Bewährung, Nebenfolgen und Rechtsmittelrisiken sauber strukturieren.
@@ -32,7 +78,7 @@ Das Plugin deckt die Strafzumessung vom Strafbefehlsverfahren über die Hauptver
 
 ## Schnellstart
 
-1. Mit `orientierung-strafzumessung-triage` einsteigen.
+1. Mit `orientierung-triage-paragraph-stgb-besonders` und den vorhandenen Feststellungen einsteigen.
 2. Rolle (Strafverteidigung, Staatsanwaltschaft) und Verfahrensstadium (Strafbefehl, Anklage, Hauptverhandlung, Urteil, Berufung, nachträgliche Gesamtstrafe) angeben.
 3. Den vom Triage-Skill empfohlenen Spezial-Skill aktivieren.
 4. Bei Bedarf parallel mit den Plugins `strafbefehl-verteidiger` oder `fachanwalt-strafrecht` arbeiten.
@@ -40,7 +86,7 @@ Das Plugin deckt die Strafzumessung vom Strafbefehlsverfahren über die Hauptver
 ## Enthaltene Skills
 
 ### Block A — Orientierung und Grundlagen
-- `orientierung-strafzumessung-triage` — Einstieg, Triage, Spezial-Skill-Routing.
+- `orientierung-triage-paragraph-stgb-besonders` führt zum passenden Strafzumessungsauftrag.
 - `paragraph-46-stgb-grundsatz-strafzumessung` — § 46 StGB, Schuld als Grundlage.
 - `strafzumessungs-tatsachen-46-ii-stgb` — Katalog § 46 Abs. 2 StGB.
 - `strafrahmen-und-strafzumessungsstufen` — Strafrahmen-Logik vor jeder Zumessung.
@@ -93,7 +139,7 @@ Das Plugin deckt die Strafzumessung vom Strafbefehlsverfahren über die Hauptver
 - **Quellenregel beachten**: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen. Aktenzeichen vor Zitat in **dejure.org** oder **openjur.de** verifizieren. Lizenzierte Datenbanken nur bei vorhandenem Zugang.
 - **Keine Präjudizienbindung** (Ausnahme § 31 BVerfGG). BGH-Linien sind argumentationsstützend, nicht bindend.
 - **Mandantengeheimnis** wahren (§ 43a Abs. 2 BRAO; § 203 StGB).
-- **Früher BGH-Beschluss** zum TOA: BGH, Beschluss vom 20.11.2025 — 4 StR 232/25 (friedensstiftender kommunikativer Prozess).
+- **Aktueller BGH-Anker** zum TOA: BGH, Urteil vom 20.11.2025 — 4 StR 232/25 (friedensstiftender kommunikativer Prozess und eindeutige Verantwortungsübernahme).
 - **BVerfG zur Verständigung**: 2 BvR 2628/10 vom 19.03.2013.
 - **BGH-Belehrungspflicht**: 1 StR 525/11 vom 07.02.2012.
 
@@ -107,23 +153,31 @@ Das Plugin deckt die Strafzumessung vom Strafbefehlsverfahren über die Hauptver
 
 Apache-2.0 OR MIT (siehe Plugin-Root).
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **11 auswählbare Skills**. Die **60 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `orientierung-triage-paragraph-stgb-besonders`, `strafzumessung-erstpruefung-und-mandatsziel`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `besonders-formular-portal-und-einreichung`, `deutschem-tatbestand-beweis-und-belege`, `freiheitsstrafe-compliance-dokumentation-und-akte`, `quellen-livecheck`, `spezial-tagessatz-livequellen-und-rechtsprechungscheck`, `strafbefehl-dokumentenmatrix-und-lueckenliste`, `tagessatz-quellenkarte`, `unterlagen-luecken`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `grossen-risikoampel-und-gegenargumente`, `spezial-grossen-risikoampel-und-gegenargumente`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `haerteausgleich-bei-nachtraeglicher-gesamtstrafenbildung`, `strafzumessungstatsachen-vergleich-eskalation`, `taeter-opfer-ausgleich-46a-stgb-und-schadenswiedergutmachung` |
-| 5. Verfahren, Behörde und Gericht | `freiheitsstrafe-ohne-bewaehrung-vollstreckung`, `iii-stpo-begruendungsanforderungen-strafurteil`, `stgb-schriftsatz-brief-und-memo-bausteine`, `strafrecht-verfahrensstadium-strafbefehl`, `verfahrensstadium-strafbefehl-bis-kammer` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `schwerer-fehlerkatalog`, `spezial-schwerer-red-team-und-qualitaetskontrolle` |
-| 8. Spezialmodule und Schnittstellen | `153a-stpo-iii-bewaehrung-stgb`, `bewaehrung-56-stgb-positive-sozialprognose`, `bewaehrung-auflagen-bewaehrungswiderruf-56f`, `bewaehrung-interessen-deutschem`, `bewaehrungswiderruf-56f-stgb`, `freiheitsstrafe-strafmass-geldstrafe`, `freiheitsstrafe-strafmass-pruefen`, `geldstrafe-grossen-rechtsmittel`, `geldstrafe-tagessatzanzahl-bestimmen`, `geldstrafe-vs-freiheitsstrafe-47-stgb`, `gesamtstrafenbildung-stgb-gestaendnis`, `gestaendnis-und-strafmilderung`, `jgg-jugendstrafe-minder-schwerer`, `minder-schwerer-fall-und-besonders-schwerer-fall`, `nachtraegliche-gesamtstrafenbildung-55-stgb`, `paragraph-46-stgb-grundsatz-strafzumessung`, `rechtsmittel-und-gesamtstrafenfolgen`, `regelbeispiele-rechtsprechung`, ... plus 13 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Tatvorwurf und materielles Recht | [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| 3. Beweis und Aktenanalyse | [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| 4. Anklage und Hauptverhandlung | [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| 5. Entscheidung und Rechtsmittel | [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| 6. Sanktion und Vollstreckung | [`sanktion-und-vollstreckung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) |
+| 7. Geschädigte und besondere Rollen | [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| 8. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 9. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -131,69 +185,22 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 60 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 11 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `153a-stpo-iii-bewaehrung-stgb` | Wenn es um Einstellung gegen Auflage — Paragraf 153a StPO in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Strafzumessung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `besonders-formular-portal-und-einreichung` | Wenn es um Besonders: Formular, Portal und Einreichungslogik in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bewaehrung-56-stgb-positive-sozialprognose` | Wenn es um Strafaussetzung zur Bewaehrung — Paragraf 56 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bewaehrung-auflagen-bewaehrungswiderruf-56f` | Wenn es um Auflagen und Weisungen — Paragrafen 56b, 56c StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bewaehrung-interessen-deutschem` | Wenn es um Bewaehrung: Mehrparteienkonflikt und Interessenmatrix in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bewaehrungswiderruf-56f-stgb` | Wenn es um Bewaehrungswiderruf — Paragraf 56f StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deutschem-tatbestand-beweis-und-belege` | Wenn es um Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Strafzumessung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Strafzumessung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freiheitsstrafe-compliance-dokumentation-und-akte` | Wenn es um Freiheitsstrafe: Compliance-Dokumentation und Aktenvermerk in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `freiheitsstrafe-ohne-bewaehrung-vollstreckung` | Wenn es um Freiheitsstrafe ohne Bewaehrung — Vollstreckung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freiheitsstrafe-strafmass-geldstrafe` | Wenn es um Freiheitsstrafe — Strafmass prüfen in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `freiheitsstrafe-strafmass-pruefen` | Wenn es um Freiheitsstrafe — Strafmass pruefen in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geldstrafe-grossen-rechtsmittel` | Wenn es um Geldstrafe: Zahlen, Schwellenwerte und Berechnung in Strafzumessung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `geldstrafe-tagessatzanzahl-bestimmen` | Wenn es um Tagessatzanzahl der Geldstrafe — Paragraf 40 Abs. 1 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geldstrafe-vs-freiheitsstrafe-47-stgb` | Wenn es um Geldstrafe vs. Freiheitsstrafe — Paragraf 47 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gesamtstrafenbildung-stgb-gestaendnis` | Wenn es um Gesamtstrafenbildung — Paragrafen 53 und 54 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gestaendnis-und-strafmilderung` | Wenn es um Gestaendnis und Strafmilderung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grossen-risikoampel-und-gegenargumente` | Wenn es um Großen: Risikoampel, Gegenargumente und Verteidigungslinien in Strafzumessung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `haerteausgleich-bei-nachtraeglicher-gesamtstrafenbildung` | Wenn es um Haerteausgleich bei nachtraeglicher Gesamtstrafenbildung in Strafzumessung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und... |
-| `iii-stpo-begruendungsanforderungen-strafurteil` | Wenn es um Begruendung der Strafzumessung im Urteil — Paragraf 267 Abs. 3 StPO in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jgg-jugendstrafe-minder-schwerer` | Wenn es um Strafzumessung im Jugendstrafrecht in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `minder-schwerer-fall-und-besonders-schwerer-fall` | Wenn es um Minder schwerer Fall und besonders schwerer Fall in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachtraegliche-gesamtstrafenbildung-55-stgb` | Wenn es um Nachtraegliche Gesamtstrafenbildung — Paragraf 55 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `orientierung-triage-paragraph-stgb-besonders` | Wenn es um Strafzumessung — Orientierung und Triage in Strafzumessung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in Strafzumessung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `paragraph-46-stgb-grundsatz-strafzumessung` | Wenn es um Paragraf 46 StGB — Grundsatz der Strafzumessung in Strafzumessung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Strafzumessung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rechtsmittel-und-gesamtstrafenfolgen` | Wenn es um Rechtsmittel-, Bewährungs- und Gesamtstrafenfolgen nach der Zumessung in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachwe... |
-| `regelbeispiele-rechtsprechung` | Wenn es um Regelbeispiele in der Strafzumessung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regelbeispiele-stgb-strafbefehl` | Wenn es um Regelbeispiele: Internationaler Bezug und Schnittstellen in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `regelbeispiele-strafrahmenwahl` | Wenn es um Chronologie und Belegmatrix in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `schwerer-fehlerkatalog` | Wenn es um Schwerer Fehlerkatalog in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-grossen-risikoampel-und-gegenargumente` | Wenn es um Grossen: Risikoampel, Gegenargumente und Verteidigungslinien in Strafzumessung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-schwerer-red-team-und-qualitaetskontrolle` | Wenn es um Schwerer: Red-Team und Qualitätskontrolle in Strafzumessung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-tagessatz-livequellen-und-rechtsprechungscheck` | Wenn es um Tagessatz: Livequellen- und Rechtsprechungscheck in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stgb-schriftsatz-brief-und-memo-bausteine` | Wenn es um Stgb: Schriftsatz-, Brief- und Memo-Bausteine in Strafzumessung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `strafbefehl-dokumentenmatrix-und-lueckenliste` | Wenn es um Strafbefehl: Dokumentenmatrix, Lückenliste und Nachforderung in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `strafbefehl-stpo-strafmilderung-stgb` | Wenn es um Strafzumessung im Strafbefehlsverfahren — Paragraf 407 StPO in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafkammer-strafzumessung` | Wenn es um Strafkammer: Behörden-, Gerichts- oder Registerweg in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafmilderung-49-stgb-zwingend-fakultativ` | Wenn es um Strafmilderung — Paragraf 49 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafrahmen-und-strafzumessungsstufen` | Wenn es um Strafrahmen und Strafzumessungsstufen in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafrecht-verfahrensstadium-strafbefehl` | Wenn es um Strafrecht: Fristen, Form, Zuständigkeit und Rechtsweg in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafz-aufklaerungshilfe-kronzeuge` | Wenn es um StrafZ: Aufklaerungshilfe in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafz-sicherungsverwahrung-spezial` | Wenn es um StrafZ: Sicherungsverwahrung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafz-strafrahmenmilderung-leitfaden` | Wenn es um StrafZ: Strafrahmenmilderung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafz-strafzumessungstatsachen` | Wenn es um StrafZ: Tatsachen Bauleiter in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafzumessung-erstpruefung-und-mandatsziel` | Wenn es um Strafzumessung: Erstprüfung, Rollenklärung und Mandatsziel in Strafzumessung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafzumessungs-tatsachen-46-ii-stgb` | Wenn es um Strafzumessungstatsachen — Paragraf 46 Abs. 2 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafzumessungstatsachen-vergleich-eskalation` | Wenn es um Strafzumessungstatsachen: Verhandlung, Vergleich und Eskalation in Strafzumessung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `taeter-opfer-ausgleich-46a-stgb-und-schadenswiedergutmachung` | Wenn es um Taeter-Opfer-Ausgleich und Schadenswiedergutmachung — Paragraf 46a StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tagessatz-quellenkarte` | Wenn es um Tagessatz Quellenkarte in Strafzumessung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `tagessatzhoehe-40-ii-stgb-nettotagesverdienst` | Wenn es um Tagessatzhoehe — Paragraf 40 Abs. 2 StGB in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Strafzumessung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verfahrensstadium-strafbefehl-bis-kammer` | Wenn es um Strafzumessung vom Strafbefehl bis zur großen Strafkammer in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `verstaendigung-257c-stpo-strafzumessung` | Wenn es um Verstaendigung im Strafverfahren Paragraf 257c StPO und Strafzumessung in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Strafzumessung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Strafzumessung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Strafzumessung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+English: Complete list of all 11 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) | Strafzumessung: Anklage und Hauptverhandlung: Anklage, Zwischenverfahren, Einlassung, Beweisantrag, Verhandlung und Verständigung bis zum Schriftsatz vorbereiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Strafzumessung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) | Strafzumessung: Beweis und Aktenanalyse: Akteninhalt, Aussage, Sachverständige, digitale Daten und Beweisverwertung mit Widersprüchen und Grenzen auswerten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Strafzumessung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/einstieg-routing/SKILL.md) |
+| [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) | Strafzumessung: Entscheidung und Rechtsmittel: Einstellung, Strafbefehl, Urteil, Strafzumessung, Berufung und Revision mit Form und Frist bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| [`geschaedigte-und-besondere-rollen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) | Strafzumessung: Geschädigte und besondere Rollen: Opferrechte, Nebenklage, Adhäsion, Jugend, Unternehmen und Zeugenbeistand nach der tatsächlichen Rolle bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/juristischer-argumentationskern/SKILL.md) | Strafzumessung von Tatfeststellung bis begründetem Rechtsfolgenvorschlag führen. Verarbeitet vorhandene Unterlagen, prüft entscheidende Fachfragen und führt den Auftrag zum vollständig formulierten Ergebnis. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`sanktion-und-vollstreckung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) | Strafzumessung: Sanktion und Vollstreckung: Strafe, Bewährung, Maßregel, Einziehung, Vollzug und nachträgliche Entscheidungen getrennt prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) |
+| [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) | Strafzumessung: Tatvorwurf und materielles Recht: Tatbestand, Beteiligung, Irrtum, Rechtfertigung, Schuld und Konkurrenz am belegten Geschehen prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Strafzumessung: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Strafzumessung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafzumessung/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

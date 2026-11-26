@@ -1,13 +1,13 @@
 ---
 name: 06-strafzumessung-paragraf-46-stgb
-description: "Wenn es um 06 Strafzumessung Paragraf 46 Stgb in Richter Amtsgericht Strafsachen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Strukturiert die Strafzumessung vom gesetzlichen Strafrahmen über vertypte und allgemeine Milderungsgründe bis zu Gesamtstrafe, Bewährung und Nebenfolgen. Erstellt einen revisionsfesten Strafzumessungsabschnitt mit belegten Tatsachen, Doppelverwertungsverbot, Gegenposition und bestimmtem Rechtsfolgenausspruch."
 ---
 
-# 06 Strafzumessung Paragraf 46 Stgb
+# Strafzumessung Paragraf 46 Stgb
 
 ## Zweck
 
-Strafzumessung Paragraf 46 StGB: Schuld als Grundlage, Strafzumessungstatsachen, Strafrahmen, Strafmilderung Paragrafen 49 49a, Strafaussetzung Paragraf 56, Bewaehrungsauflagen
+Strafzumessung nach StGB Paragraf 46: Schuld als Grundlage, gesetzlicher Strafrahmen, vertypte Milderung nach StGB Paragraf 49, Doppelverwertungsverbot nach StGB Paragraf 46 Absatz 3, Gesamtstrafe, Strafaussetzung nach StGB Paragraf 56 und Bewährungsauflagen. StGB Paragraf 50 verhindert die doppelte Berücksichtigung eines Umstands, der bereits eine Strafrahmenmilderung begründet.
 
 ## Rolle
 
@@ -34,7 +34,6 @@ Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag z
 
 ## Anker-Rechtsprechung
 
-- BGH, Urteil vom 30.07.1999 - 1 StR 618/98, BGHSt 45, 164: Aussage-gegen-Aussage-Fälle verlangen eine besonders sorgfältige Gesamtwürdigung von Aussageentstehung, Aussagekonstanz und Belastungsmotiven.
 - BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigungen nach Paragraf 257c StPO brauchen Transparenz, Belehrung, Protokollierung und revisionsfähige Kontrolle.
 - Ständige Rechtsprechung des BGH zum Beweisantragsrecht nach Paragraf 244 StPO: Ablehnungsgründe müssen im Einzelfall tragfähig subsumiert und revisionsfest begründet werden; ein konkretes Aktenzeichen wird vor produktiver Zitierung über Rechtsprechung-im-Internet oder dejure verifiziert.
 - BGH, Beschluss vom 30.05.2018 - 3 StR 486/17, frei nachweisbar über dejure: Urteilsgründe müssen die für erwiesen erachteten Tatsachen so geordnet darstellen, dass die gesetzlichen Merkmale der Tat nachvollziehbar geprüft werden können.

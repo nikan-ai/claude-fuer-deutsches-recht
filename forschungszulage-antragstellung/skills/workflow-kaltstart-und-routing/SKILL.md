@@ -1,43 +1,58 @@
 ---
 name: workflow-kaltstart-und-routing
-description: "Wenn es um Kaltstart und Routing in Forschungszulage-Antragstellung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung."
 ---
 
-# Kaltstart und Routing
+# 1. Forschungszulagenauftrag bearbeiten
 
-## Aufgabe
-Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
+## 1.1. Aufgabe und Eingaben
 
-## Kaltstart
-Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
+Bestimme aus Anfrage und vorhandenen Unterlagen, ob eine Projektbeschreibung, Kostenrechnung, Beratung oder Antwort auf eine Nachforderung bestellt ist. Lies Projektplan, Bescheinigung, Aufwandsermittlung und bisherige Korrespondenz, bevor du Fragen stellst.
 
-1. Wer fragt in welcher Rolle?
-2. Was ist das gewünschte Ergebnis?
-3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
-4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
+Entnimm Antragsteller, Vorhaben und Wirtschaftsjahre aus dem Material. Frage bekannte Daten nicht erneut ab. BSFZ-Prüfung der FuE-Eigenschaft und Finanzamtsprüfung der Aufwendungen sind getrennte Verfahrensstufen.
 
-## Arbeitsworkflow
-1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
-2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
-3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
-4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
+## 1.2. Fachliche Bearbeitung
 
-## Output-Standard
-- Kurzbild: worum es geht, was gesichert ist, was offen ist.
-- Prüf- oder Bearbeitungsmatrix mit den entscheidenden Punkten.
-- Konkreter nächster Schritt mit Frist, Zuständigkeit und Unterlagen.
-- Bei Außenkommunikation: knapper, sachlicher Textbaustein ohne unnötige Nebenangaben.
+Bei technischen Fragen Ziel, Ausgangslage, Unsicherheit und systematisches Vorgehen prüfen. Fehlt die Beschreibung eines Versuchs, frage nach dem konkreten Arbeitspaket und seinen zeitnahen Unterlagen. Bei Kostenfragen Person, Zeitraum, Tätigkeit und Betrag abgleichen; fehlen Stunden, nach dem betroffenen Nachweis fragen, nicht pauschal den gesamten Jahresaufwand als FuE ansetzen.
 
-<!-- BEGIN ausformulierungspflicht (autogen) -->
-> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
->
-> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
->
-> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
-<!-- END ausformulierungspflicht (autogen) -->
+Bei einer Nachforderung zuerst feststellen, welche Stelle welchen Punkt beanstandet. Neue technische Angaben in den Projekttext, neue Kostenbelege in die betroffene Jahresrechnung einarbeiten. Eine vorhandene Bescheinigung bestätigt nicht sämtliche Kostenpositionen.
 
-## Quellenregel
-- Aktuelle Normen, Behördenhinweise, Gerichtsseiten, Register, Formulare und EU-/Landesrecht live prüfen, wenn sie für das Ergebnis tragend sind.
-- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
-- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
-- Unsicherheiten und Annahmen ausdrücklich markieren.
+## 1.3. Antworten und Endfassung
+
+Gleiche Antworten mit den vorhandenen Belegen ab und korrigiere betroffene Rechnungen oder Textpassagen. Ergibt sich eine neue entscheidende Lücke, stelle eine kurze Anschlussfrage; keine feste Fragenzahl und keine erneute Mandatsaufnahme. Angaben und belegte Tatsachen erkennbar unterscheiden.
+
+Setze die Bearbeitung bis zum bestellten Dokument fort. Bei einem Hindernis liefere den belastbaren Teil vorläufig und benenne den konkret benötigten nächsten Beitrag. Ein Beratungsauftrag verlangt nicht automatisch einen Einspruch oder einen weiteren Antrag.
+
+## 1.4. Quellen
+
+Prüfe aktuelle Normen, Förderquoten, Höchstgrenzen und Portalvorgaben anhand tatsächlich zugänglicher amtlicher Quellen für den maßgeblichen Zeitraum. Entscheidungen nur mit Gericht, Form, Datum, Aktenzeichen und überprüfter Passage verwenden; keine Literaturfundstellen aus Modellwissen. Zusätzliche Quellen- und Abrufvermerke getrennt vom Portaltext oder Mandantenbrief führen.
+
+## 1.5. Ausgabe und Grenzen
+
+Liefere das gewünschte Dokument mit dem vorgegebenen Dateinamen. Tabellen nur für benötigte Berechnungen oder Belegvergleiche, keine Pflichtampel und keine bloße Liste weiterer Skills. Vollständig ausformulierte Sätze statt Gerüste; formatierte Dokumente in Times New Roman 11 pt und dezimaler Gliederung, sonst Exporthinweis.
+
+Einreichung, Abtretung oder andere externe Erklärung nur nach ausdrücklicher Freigabe. Ohne Datei- oder Quellenzugriff die konkrete Lücke nennen und unabhängige Teile weiterbearbeiten. Ohne Export vollständigen Text liefern, keinen Dateilink erfinden.
+
+## 1.6. Beispiel
+
+Das Finanzamt fordert eine Erläuterung zu Personalkosten nach. Ordne die strittigen Personen und Monate zu, frage fehlende Tätigkeitsnachweise gezielt ab und überarbeite nach Eingang Rechnung und Antwortschreiben. Die technische Projektbeschreibung wird nur geändert, soweit die neuen Angaben sie tatsächlich betreffen.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Forschungszulage nach dem FZulG:** Welche belegten Beträge tragen das Ergebnis und welche Annahme verändert es?
+
+**Erste Ansicht:** Zeige Ausgangswerte, Zu- und Abgänge oder Forderungsbestand in einer nachvollziehbaren Tabelle und bei Zeitreihen als Verlauf. Trenne Stichtag, Zeitraum, Fälligkeit und tatsächlichen Geldfluss.
+
+**Sinnvolle Interaktion:** Erlaube bei geeigneter Oberfläche einen Stichtags- oder Szenariowechsel. Nur belegte oder ausdrücklich angenommene Positionen lassen sich ein- oder ausblenden; Rechenergebnis und Begründung zeigen gemeinsam die Differenz zum Ausgangsstand.
+
+**Datengrundlage:** Betrag, Währung, Vorzeichen, Datum, Zuordnungsgrund, Berechnungsregel und Originalfundstelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** nachrechenbare Berechnung mit begründetem Befund und dem bestellten Bericht oder Anspruchsschreiben. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

@@ -1,55 +1,54 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Einigungsvertrag und Vermögensrecht - Allgemeiner Einstieg in Einigungsvertrag und Vermögensrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einigungsvertrag und Vermögensrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
-# Einigungsvertrag und Vermögensrecht - Allgemeiner Einstieg
+# 1 Vermögensvorgang und Auftrag bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+Lies vorhandene Grundbuch-, Zuordnungs-, Enteignungs- und Registerunterlagen sowie den Arbeitsauftrag. Kläre das Ziel nur, soweit es offen ist: Eigentumslage, Altanmeldung, Vermögenszuordnung, Restitution oder bestimmter Entwurf. Keine erneute Aufnahme bereits bekannter Angaben.
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+## 1.1 Objekt und Rechtsträger belegen
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Bestimme das betroffene Grundstück, Gebäude oder Betriebsvermögen und seine Bezeichnung in jeder maßgeblichen Zeitstufe. Eigentümer, Rechtsträger, Nutzer und Verfügungsberechtigten unterscheiden. Prüfe, welcher konkrete Rechtsakt eine Änderung bewirkt haben soll und welche Urkunde dies trägt.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Fehlt die Verbindung zwischen historischen und heutigen Flurstücken, fordere die betreffende Fortführungsunterlage nach. Bei ungeklärter Rechtsnachfolge nach dem fehlenden Register- oder Übertragungsakt fragen. Nach Eingang die Identitäts- und Eigentumsdarstellung überprüfen und die betroffene Begründung aktualisieren. Gleiche Namen, Flächen oder Adressen sind kein vollständiger Nachweis.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.2 Anspruch und Frist zuordnen
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+Trenne Zuordnung nach Einigungsvertrag und VZOG, Restitution nach VermG, Entschädigung, Sachenrechtsbereinigung und Grundbuchberichtigung. Bodenreform, Parteivermögen, Mauergrundstücke und Treuhandverträge verlangen ihre jeweils einschlägige Prüfung. Historische Rechtsbegriffe nicht ungeprüft in heutige Kategorien übertragen.
 
-## Startfragen
+Bei einem Altantrag ursprünglichen Inhalt, bezeichnetes Objekt und Eingangsbeleg prüfen. Bei einem Bescheid Entscheidung und Zustellung vollständig lesen. Fehlende Belege konkret nachfordern und nach Eingang die betroffene Frist oder Bestandskraftfrage neu beurteilen. Eine spätere Urkunde eröffnet nicht automatisch eine versäumte Ausschlussfrist.
 
-1. Wer nutzt das Plugin: Laie, Verband, Kanzlei, Behörde, Unternehmen, Presse, Verwaltung oder Fachabteilung?
-2. Welche Entscheidung steht jetzt an und welche Frist läuft?
-3. Welche Dokumente liegen vor, welche fehlen und welche Quelle muss live geprüft werden?
-4. Welche Behörde, welches Gericht, welches Register oder welcher private Akteur ist betroffen?
-5. Soll am Ende ein Antrag, ein Widerspruch, eine Klage-/Eilantragslinie, ein Dashboard, ein Memo oder ein Schreiben entstehen?
+## 1.3 Nach Klärung die Endfassung liefern
 
-## Workflow
+Frage gezielt nach entscheidenden Lücken und bei neuen Antworten erforderlichenfalls kurz weiter. Bekanntes nicht wiederholen. Bei einem Hindernis tragfähige Teile liefern und den offenen Schluss benennen; nach Klärung die bestellte Beratung, Archivanfrage oder Antragsfassung fertigschreiben.
 
-1. Sachverhalt in Akte, Normpfad, Zuständigkeit, Frist, Beweis und Ziel zerlegen.
-2. Die einschlägige Norm nicht aus dem Gedächtnis final behaupten, sondern als Live-Check gegen amtliche Quelle markieren.
-3. Ablehnungs-, Kosten-, Zuständigkeits- und Beweisrisiken offen in einer Ampel führen.
-4. Bei Mehr-Ebenen-Recht immer Bund, Land, Kommune, EU/international und Spezialgesetz trennen.
-5. Ausgabe mit konkretem nächsten Schritt, offenen Rückfragen und einer kurzen Fassung für Nichtjuristen schließen.
+Eine Nachforderung darf einen ungeklärten Eigentumswechsel nicht als Tatsache darstellen. Auch vollständige Unterlagen ersetzen nicht die Prüfung ihrer rechtlichen Wirkung. Tabellen nur für nachvollziehbare Objekt- oder Rechtswechsel verwenden; keinen internen Statusbericht als Ersatz für das verlangte Dokument ausgeben. Ein Prüfauftrag löst keinen ungefragten Rechtsbehelf aus.
 
-## Typische Ausgaben
+## 1.4 Quellen und Grenzen
 
-- Prüfvermerk mit Normpfad und Live-Check-Liste
-- Fristen- und Zuständigkeitsmatrix
-- Entwurf für Antrag, Widerspruch, Klagebaustein oder Behördenbrief
-- Dashboard-/Tracker-Eintrag mit Status, Risiko und nächster Aktion
+Tragende historische und aktuelle Normfassungen sowie Übergangsrecht anhand amtlicher Quellen prüfen. Entscheidungen nur mit überprüftem Inhalt und Fundstelle verwenden. Quellenstand und Recherchegrenzen getrennt vom Mandantenbrief dokumentieren. Vor Ausgabe Objektidentität, Rechtsnachfolge, Zuständigkeit, Frist und Urkundenform kontrollieren.
 
-## Red Flags
+Archivbestellungen, Anträge, Erklärungen und Grundbuchvollzug nur nach ausdrücklicher Freigabe. Vollständige Sätze und dezimale Gliederung; Exportstandard Times New Roman 11 pt.
 
-- blindes Zitieren nicht verifizierter Rechtsprechung oder alter Gesetzesstände
-- falsche Behörde, falscher Rechtsweg oder unbemerkte Spezialzuständigkeit
-- Gebühren-, Frist-, Präklusions-, Geheimschutz-, Datenschutz- oder Drittbetroffenenproblem
-- politisch klingende Bewertung ohne saubere Rechtsgrundlage und Beleglogik
+Nur zugängliche Unterlagen und Werkzeuge verwenden und unlesbare Teile konkret nachfordern. Technische Hindernisse lassen nur den abhängigen Schluss offen; ohne Export den vollständigen Text liefern. Keine nicht erfolgte Aktenlektüre, Quellenprüfung oder Dateierzeugung behaupten.
 
-## Quellen- und Qualitätsregel
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
 
-Primär mit amtlichen Gesetzestexten, Behördenhinweisen, Gerichtsentscheidungen mit Datum/Aktenzeichen und frei prüfbaren Quellen arbeiten. Literatur, Datenbanken hinter Paywalls und Fundstellen ohne Nutzerquelle nicht behaupten. Wenn Landesrecht, EU-Recht oder ausländisches Recht berührt ist, den Rechtsstand ausdrücklich live prüfen und die Ausgabe als Arbeitsfassung kennzeichnen.
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Einigungsvertrags-, Restitutions- und DDR-Vermögensrecht:** Passen tatsächliche Rechtslage, Urkunden und Register- oder Objektstand zum selben Zeitpunkt zusammen?
+
+**Erste Ansicht:** Zeige Soll- und Ist-Stand von Beteiligten, Rechten, Vertretung und Eintragungen nebeneinander. Verbinde jede Abweichung mit der maßgeblichen Urkunde und dem notwendigen Vollzugsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Person, Recht, Objekt oder Registerstand zeigt die zugehörige Nachweiskette. Änderungen am Schaubild sind Entwurfsszenarien, keine vorgenommenen Registereintragungen.
+
+**Datengrundlage:** Objekt oder Rechtsträger, Registerart, Abrufstand, Rechtsposition, Vertretungsnachweis, Urkundenfundstelle und Vollzugsvoraussetzung. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründeter Vollzugsvermerk und die beauftragte Anmeldung, Liste, Vertragsfassung oder Rückfrage. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

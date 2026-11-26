@@ -5,20 +5,67 @@
 
 Praxisplugin für Grundbuchamt, Grundbuchauszug und grundbuchtaugliche Nachweise: Abteilung I/II/III lesen, Bewilligung, Antrag, Auflassung, Rang, Zwischenverfügung, Beschwerde, Grundschuldbrief, Aufgebot, Dienstbarkeiten, Vormerkung, Vorkaufsrecht, Teilung und Vollzug.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`grundbuchamt-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/grundbuchamt-praxis.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/grundbuchamt-praxis.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/grundbuchamt-praxis-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/grundbuchamt-praxis-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/grundbuchamt-praxis.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/grundbuchamt-praxis.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Grundbuchamt Praxis:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`grundbuchamt-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/grundbuchamt-praxis.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/grundbuchamt-praxis/grundbuchamt-praxis-werkstatt.md" download><code>grundbuchamt-praxis-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/grundbuchamt-praxis/grundbuchamt-praxis-schnellstart.md" download><code>grundbuchamt-praxis-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Haus Altenau - verlorener Grundschuldbrief, Wegerecht und Kaufpreisfälligkeit: [Gesamt-PDF](../testakten/grundbuchamt-briefgrundschuld-wegerecht-altenau-2026/gesamt-pdf/grundbuchamt-briefgrundschuld-wegerecht-altenau-2026_gesamt.pdf), [`testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026.zip), [`testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026-einzelpdfs.zip); Akte Wusterhagen: Mühlenstau, Chaussee und Aufopferung: [Gesamt-PDF](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/gesamt-pdf/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung_gesamt.pdf), [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip), [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`grundbuchamt-praxis.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/grundbuchamt-praxis.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`grundbuchamt-praxis-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/grundbuchamt-praxis-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`grundbuchamt-praxis-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/grundbuchamt-praxis-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Haus Altenau - verlorener Grundschuldbrief, Wegerecht und Kaufpreisfälligkeit](../testakten/grundbuchamt-briefgrundschuld-wegerecht-altenau-2026/README.md) | [Gesamt-PDF](../testakten/grundbuchamt-briefgrundschuld-wegerecht-altenau-2026/gesamt-pdf/grundbuchamt-briefgrundschuld-wegerecht-altenau-2026_gesamt.pdf) | [`testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026.zip) | [`testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-grundbuchamt-briefgrundschuld-wegerecht-altenau-2026-einzelpdfs.zip) |
+| [Akte Wusterhagen: Mühlenstau, Chaussee und Aufopferung](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/README.md) | [Gesamt-PDF](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/gesamt-pdf/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung_gesamt.pdf) | [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip) | [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -26,11 +73,11 @@ Ein Grundbuch-Cockpit für alle, die Auszüge lesen, Urkunden grundbuchtauglich 
 
 ## Wofür dieses Plugin da ist
 
-Dieses Plugin ist ein Praxiswerkzeug. Es fragt zuerst die Lage ab, baut dann eine Dokumenten- und Vollzugsmatrix und erzeugt schließlich das konkrete Arbeitsprodukt: Nachreichung, Beanstandungsantwort, Beschwerdegerüst, Mandantenbrief, Checkliste, Fristenlog oder Vertrags-/Urkundenreview. Es ersetzt keine Berufsträgerentscheidung, aber es verhindert, dass ein formeller Nachweis, ein Rang, eine Abteilung-II-Belastung oder eine Registerfolge in der Hektik untergeht.
+Aus Grundbuchauszug, Bewilligung und Gerichtsschreiben entsteht die beauftragte Nachreichung, Beanstandungsantwort oder Beschwerde. Nachweisform, Rang und Belastungen werden am konkreten Eintragungsziel geprüft; eine Dokumentenübersicht ist nur ein Hilfsmittel, kein zwingendes Zwischenergebnis. Berufsträgerentscheidung und tatsächlicher Grundbuchvollzug bleiben gesondert.
 
 ## Kaltstart
 
-Starte mit dem allgemeinen Skill `grundbuchamt-allgemeiner-kaltstart`. Lade danach möglichst den aktuellen Register- oder Grundbuchauszug, das Gerichtsschreiben, die Anmeldung/Bewilligung, den Vertragsentwurf und vorhandene Anlagen hoch. Das Plugin sortiert erst, dann prüft es.
+Beginne mit dem vorhandenen Grundbuchauszug, der Urkunde oder Zwischenverfügung und dem gewünschten Ergebnis. Bei klarem Auftrag wird das Dokument direkt bearbeitet; nur entscheidende Lücken zu Berechtigung, Nachweis oder Frist werden nachgefragt. Nachgereichte Unterlagen ergänzen gezielt den begonnenen Entwurf, ohne eine neue Aufnahme zu starten.
 
 ## Quellen- und Halluzinationsschutz
 
@@ -55,22 +102,29 @@ Starte mit dem allgemeinen Skill `grundbuchamt-allgemeiner-kaltstart`. Lade dana
 - Beschwerde- oder Eilrechtsschutz-Skizze
 - Liste fehlender Originale, Nachweise und Formmängel
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **7 auswählbare Skills**. Die **65 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `grundbuchamt-maengelmatrix-notariat`, `grundbuchauszug-due-lesen-abteilung`, `grundbuchauszug-lesen-abteilung-i-ii-iii` |
-| 3. Prüfung, Anspruch und Subsumtion | `amtshaftung-und-vollzugsfehler`, `grundbuchamt-nichtigkeitsrisiko-kaufvertrags`, `kaufvertrags-check-grundbuch` |
-| 4. Gestaltung, Strategie und Verhandlung | `auflassungsvormerkung-kaufvertrag`, `reallast-erbbauzins-sanierungsvermerk`, `sanierungsvermerk-und-vorkaufsrechte-kommune` |
-| 5. Verfahren, Behörde und Gericht | `aufgebotsverfahren-famfg`, `familiengerichtliche-genehmigung-grundbuch`, `gbo-antrag-gbr-egbr-genehmigungen`, `grundbuch-vollzugslog-amtswiderspruch`, `grundbuchamt-amtswiderspruch-und-richtigstellung`, `grundbuchamt-vollstreckungsunterwerfung`, `nacherbenvermerk-und-verfuegungsbeschraenkung`, `rechtsprechung-grundbuch-aufgebotsverfahren`, `weg-teilungsgrundbuch-zwischenverfuegung`, `zwischenverfuegung-paragraph-18-gbo` |
-| 6. Ergebnis, Schreiben und Kommunikation | `bestandsverzeichnis-flurstueck-briefrecht`, `briefrecht-abtretung-und-loeschung`, `grundbuchamt-brief-vs-buchrecht-erklaerung`, `grundbuchamt-kommunikation-konkurrierende`, `grundbuchberichtigung-erbfall`, `grundschuldbrief-verlust-aufgebot`, `insolvenzvermerk-zwangsversteigerung-kataster`, `loeschungsbewilligung-bank-nacherbenvermerk` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `grundbuch-qualitygate-vor-vollzug` |
-| 8. Spezialmodule und Schnittstellen | `abteilung-i-eigentum-und-erwerbsgrund`, `abteilung-ii-iii-grundschuld-auflassung`, `abteilung-iii-grundschuld-hypothek-rang`, `auflassung-und-eigentumsumschreibung`, `auslandsurkunden-apostille-baulast-ist`, `baulast-ist-nicht-grundbuch`, `beschwerde-grundbuchsache`, `dienstbarkeit-wegerecht-pruefen`, `elektronischer-rechtsverkehr`, `finanzierung-und-rangstelle`, `gbr-egbr-grundbuch`, `genehmigungen-landwirtschaft-verkehrswert`, `grundbuch-grunderwerbsteuer-unbedenklichkeit`, `grundbuchamt-eilfall-rangverlust-erbbaurecht`, `grundbuchamt-erbbaurecht-schnittstelle`, `grundbuchamt-flurbereinigung-und-umlegung`, `grundbuchamt-gesamtgrundschuld-mithaft`, `grundbuchamt-gesellschaftsrechtliche-vertretung`, ... plus 17 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Objekt und Beteiligte | [`objekt-und-beteiligte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/objekt-und-beteiligte-bearbeiten/SKILL.md) |
+| 3. Rechtsgeschäft und Form | [`rechtsgeschaeft-und-form-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/rechtsgeschaeft-und-form-bearbeiten/SKILL.md) |
+| 4. Grundbuch und Rang | [`grundbuch-und-rang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/grundbuch-und-rang-bearbeiten/SKILL.md) |
+| 5. Vollzug | [`vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/vollzug-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -78,73 +132,18 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 64 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 7 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abteilung-i-eigentum-und-erwerbsgrund` | Wenn es um Abteilung I Eigentum in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `abteilung-ii-iii-grundschuld-auflassung` | Wenn es um Abteilung II nicht übersehen in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `abteilung-iii-grundschuld-hypothek-rang` | Wenn es um Abteilung III Belastungen in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `amtshaftung-und-vollzugsfehler` | Wenn es um Vollzugsfehler und Haftung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufgebotsverfahren-famfg` | Wenn es um Aufgebotsverfahren planen in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auflassung-und-eigentumsumschreibung` | Wenn es um Auflassung und Umschreibung in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `auflassungsvormerkung-kaufvertrag` | Wenn es um Auflassungsvormerkung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auslandsurkunden-apostille-baulast-ist` | Wenn es um Auslandsurkunden beim Grundbuchamt in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `baulast-ist-nicht-grundbuch` | Wenn es um Baulast neben Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beschwerde-grundbuchsache` | Wenn es um Grundbuchbeschwerde in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bestandsverzeichnis-flurstueck-briefrecht` | Wenn es um Bestandsverzeichnis verstehen in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `briefrecht-abtretung-und-loeschung` | Wenn es um Briefrecht übertragen oder löschen in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `dienstbarkeit-wegerecht-pruefen` | Wenn es um Wegerecht prüfen in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `elektronischer-rechtsverkehr` | Wenn es um Elektronischer Grundbuchverkehr in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `familiengerichtliche-genehmigung-grundbuch` | Wenn es um Familien-/Betreuungsgerichtliche Genehmigung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `finanzierung-und-rangstelle` | Wenn es um Finanzierungsgrundschuld und Rang in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gbo-antrag-gbr-egbr-genehmigungen` | Wenn es um Antrag, Bewilligung, Eintragung in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `gbr-egbr-grundbuch` | Wenn es um GbR/eGbR im Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `genehmigungen-landwirtschaft-verkehrswert` | Wenn es um Landwirtschaft und Genehmigungen in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuch-grunderwerbsteuer-unbedenklichkeit` | Wenn es um Unbedenklichkeitsbescheinigung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuch-qualitygate-vor-vollzug` | Wenn es um Quality Gate vor Einreichung in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuch-vollzugslog-amtswiderspruch` | Wenn es um Vollzugslog Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-amtswiderspruch-und-richtigstellung` | Wenn es um Amtswiderspruch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-brief-vs-buchrecht-erklaerung` | Wenn es um Briefrecht vs. Buchrecht erklären in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `grundbuchamt-eilfall-rangverlust-erbbaurecht` | Wenn es um Eilfall Rangverlust in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `grundbuchamt-erbbaurecht-schnittstelle` | Wenn es um Erbbaurecht im Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-flurbereinigung-und-umlegung` | Wenn es um Flurbereinigung/Umlegung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-gesamtgrundschuld-mithaft` | Wenn es um Gesamtgrundschuld in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-gesellschaftsrechtliche-vertretung` | Wenn es um Gesellschaft als Eigentümerin in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-insolvenz-auslaendischer-trustee` | Wenn es um Ausländischer Insolvenzwalter in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-kommunikation-konkurrierende` | Wenn es um Schreiben an das Grundbuchamt in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-konkurrierende-antraege-rangkonflikt` | Wenn es um Konkurrierende Anträge und Rangkonflikt in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `grundbuchamt-maengelmatrix-notariat` | Wenn es um Mängelmatrix Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-nichtigkeitsrisiko-kaufvertrags` | Wenn es um Nichtigkeitsrisiko im Kaufvertragsvollzug in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `grundbuchamt-teilloesung-rangfreigabe` | Wenn es um Teillöschung und Rangfreigabe in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `grundbuchamt-verwalterzustimmung-weg` | Wenn es um WEG-Verwalterzustimmung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchamt-vollstreckungsunterwerfung` | Wenn es um Unterwerfung und Vollstreckung in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchauszug-due-lesen-abteilung` | Wenn es um Grundbuch-DD in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundbuchauszug-lesen-abteilung-i-ii-iii` | Wenn es um Grundbuchauszug richtig lesen in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `grundbuchberichtigung-erbfall` | Wenn es um Grundbuchberichtigung nach Erbfall in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grundschuld-bestellung-buchgrundschuld` | Wenn es um Buchgrundschuld bestellen in Grundbuchamt Praxis geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `grundschuldbrief-verlust-aufgebot` | Wenn es um Verlorener Grundschuldbrief in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `insolvenzvermerk-zwangsversteigerung-kataster` | Wenn es um Insolvenz und ZVG im Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-routing` | Wenn es um Kaltstart Grundbuchamt in Grundbuchamt Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kataster-liegenschaftskarte-abgleich` | Wenn es um Katasterabgleich in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaufvertrags-check-grundbuch` | Wenn es um Kaufvertrag grundbuchseitig prüfen in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `leitungsrecht-und-energieanlagen` | Wenn es um Leitungsrecht und Anlagen in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `loeschungsbewilligung-bank-nacherbenvermerk` | Wenn es um Löschungsbewilligung Bank in Grundbuchamt Praxis geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `nacherbenvermerk-und-verfuegungsbeschraenkung` | Wenn es um Nacherbenvermerk in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `niessbrauch-wohnungsrecht` | Wenn es um Nießbrauch und Wohnungsrecht in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notariat-vollzugsauftrag-grundbuch` | Wenn es um Notariat und Vollzugsauftrag in Grundbuchamt Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `paragraph-gbo-prioritaetsmitteilung` | Wenn es um Paragraf 29 GBO Nachweisform in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `prioritaetsmitteilung-und-rangbescheinigung` | Wenn es um Priorität und Rangbescheinigung in Grundbuchamt Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rangprinzip-und-rangvorbehalt` | Wenn es um Rang und Rangvorbehalt in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `reallast-erbbauzins-sanierungsvermerk` | Wenn es um Reallast und Erbbauzins in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsprechung-grundbuch-aufgebotsverfahren` | Wenn es um Rechtsprechung live verifizieren in Grundbuchamt Praxis geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `sanierungsvermerk-und-vorkaufsrechte-kommune` | Wenn es um Sanierungsvermerk und Kommune in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `teilflaechenkauf-und-vermessung` | Wenn es um Teilflächenkauf in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `testamentsvollstrecker-grundbuch-vollmacht` | Wenn es um Testamentsvollstrecker im Grundbuch in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verlorene-genehmigung-verwalterzustimmung-weg` | Wenn es um Verlorene Genehmigung und Ersatznachweis in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfra... |
-| `vollmacht-vorsorgevollmacht-grundbuch` | Wenn es um Vollmacht grundbuchtauglich machen in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `vorkaufsrecht-wiederkaufsrecht` | Wenn es um Vorkaufs- und Wiederkaufsrechte in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `weg-teilungsgrundbuch-zwischenverfuegung` | Wenn es um WEG und Teileigentum in Grundbuchamt Praxis geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `zwischenverfuegung-paragraph-18-gbo` | Wenn es um Zwischenverfügung beantworten in Grundbuchamt Praxis geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 7 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Grundbuchamt Praxis: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Grundbuchamt Praxis: Arbeitsprodukt: Vertragsklausel, Vollzugsliste, Grundbuchanalyse, Zwischenverfügungsantwort, Rangmatrix oder Mandantenbrief erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`grundbuch-und-rang-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/grundbuch-und-rang-bearbeiten/SKILL.md) | Grundbuchamt Praxis: Grundbuch und Rang: Abteilungen I bis III, Vormerkungen, Dienstbarkeiten, Grundpfandrechte, Rangvorbehalte und Löschungsunterlagen prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/grundbuch-und-rang-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/juristischer-argumentationskern/SKILL.md) | Grundbuchrechtliche Prüfung bis zum begründeten Antrag oder Bescheid führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Erg... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/juristischer-argumentationskern/SKILL.md) |
+| [`objekt-und-beteiligte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/objekt-und-beteiligte-bearbeiten/SKILL.md) | Grundbuchamt Praxis: Objekt und Beteiligte: Grundbuchbezirk, Blatt, Flurstück, Eigentümer, Erwerber, Vertretung, Vollmacht und wirtschaftliches Ziel erfassen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/objekt-und-beteiligte-bearbeiten/SKILL.md) |
+| [`rechtsgeschaeft-und-form-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/rechtsgeschaeft-und-form-bearbeiten/SKILL.md) | Grundbuchamt Praxis: Rechtsgeschäft und Form: Kauf, Übertragung, Belastung, Teilung, Erbbaurecht, Bewilligung, Beurkundung und Genehmigung trennen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/rechtsgeschaeft-und-form-bearbeiten/SKILL.md) |
+| [`vollzug-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/vollzug-bearbeiten/SKILL.md) | Für Immobilien-, Grundbuch- und Notarrecht: Vollzug: Antrag, Bewilligung, Auflassung, Unbedenklichkeitsbescheinigung, Genehmigungen, Fälligkeitsmitteilung und Zwischenverfügung ordnen. Vollständige Fachanweisungen und lokale Vorlagen wer... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=grundbuchamt-praxis/skills/vollzug-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -5,20 +5,66 @@
 
 Plugin für den Nationalen Normenkontrollrat (NKR): Prüfung von Referentenentwürfen Formulierungshilfen und Gesetzentwürfen auf Erfüllungsaufwand Erforderlichkeit Verhältnismäßigkeit One-in-one-out Digitalcheck Mittelstandsfreundlichkeit und Praktikabilitaet im Vollzug.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrollrat-nkr.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/normenkontrollrat-nkr.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/normenkontrollrat-nkr.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/normenkontrollrat-nkr.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Normenkontrollrat (NKR) — Prüfung von Gesetzentwürfen:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/normenkontrollrat-nkr.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/normenkontrollrat-nkr/normenkontrollrat-nkr-werkstatt.md" download><code>normenkontrollrat-nkr-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/normenkontrollrat-nkr/normenkontrollrat-nkr-schnellstart.md" download><code>normenkontrollrat-nkr-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Testakte NKR: Elektronische Erreichbarkeit von Handelsregister-Gesellschaften (ElErrHandRegG 2026): [Gesamt-PDF](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/gesamt-pdf/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026_gesamt.pdf), [`testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip), [`testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`normenkontrollrat-nkr.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/normenkontrollrat-nkr.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`normenkontrollrat-nkr-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`normenkontrollrat-nkr-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/normenkontrollrat-nkr-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Testakte NKR: Elektronische Erreichbarkeit von Handelsregister-Gesellschaften (ElErrHandRegG 2026)](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/README.md) | [Gesamt-PDF](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/gesamt-pdf/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026_gesamt.pdf) | [`testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026.zip) | [`testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -30,14 +76,14 @@ Es bildet den vollständigen Prüfzyklus eines Vorhabens ab: von der **Eingangst
 
 Das Plugin schreibt aus der Sicht des **NKR-Prüfers**, nicht aus Ressortsicht. Es geht **nicht** darum, einen Entwurf zu verteidigen, sondern darum, ihn nach den NKR-Kriterien zu prüfen und ggf. **kritisch zu kommentieren**.
 
-Leitsatz: *"Wenn nicht nötig, dann nicht regeln; wenn nötig, dann so einfach, so digital, so mittelstandsfreundlich und so evaluationsfest wie möglich."*
+Die Prüfung betrifft nachvollziehbar ermittelten Erfüllungsaufwand und methodisch tragfähige Alternativen der Umsetzung. Politische Ziele und Zwecke einer Regelung sind nach Paragraf 1 Absatz 4 NKRG nicht Gegenstand der NKR-Prüfung. Eine Erforderlichkeits- oder Alternativenprüfung darf deshalb nicht als politisches Veto oder umfassende verfassungsrechtliche Freigabe ausgegeben werden.
 
 ## Aufbau
 
-Das Plugin enthält 37 Skills in fünf Clustern:
+Die folgenden fünf Gruppen zeigen eine Auswahl typischer Prüfaufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/normenkontrollrat-nkr.md) zu.
 
 ```
-A — Grundlagen, Verfahren, Mandat (7 Skills)
+1. Grundlagen, Verfahren, Mandat
    nkr-orientierung-und-mandatsaufnahme
    nkr-aufgabe-und-kompetenz-nkrg
    nkr-pruefumfang-was-prueft-der-nkr-nicht
@@ -46,7 +92,7 @@ A — Grundlagen, Verfahren, Mandat (7 Skills)
    nkr-eu-ebene-und-better-regulation
    nkr-evaluation-und-jahresbericht
 
-B — Erfuellungsaufwand-Methodik (8 Skills)
+2. Erfüllungsaufwand-Methodik
    nkr-erfuellungsaufwand-grundbegriff
    nkr-erfuellungsaufwand-buerger-wirtschaft-verwaltung
    nkr-standardkostenmodell-skm
@@ -56,7 +102,7 @@ B — Erfuellungsaufwand-Methodik (8 Skills)
    nkr-fallzahlen-schaetzung-bandbreiten
    nkr-leitfaden-ermittlung-und-darstellung
 
-C — Pruefraster (8 Skills)
+3. Prüfraster
    nkr-erforderlichkeitspruefung-warum-ueberhaupt-regeln
    nkr-alternativen-pruefung-keine-regelung-soft-law
    nkr-verhaeltnismaessigkeit-aus-nkr-sicht
@@ -66,7 +112,7 @@ C — Pruefraster (8 Skills)
    nkr-digital-anschlussfaehigkeit-tauglich
    nkr-one-in-one-out-bilanz-und-buchung
 
-D — Stellungnahme-Drafting (8 Skills)
+4. Stellungnahme entwerfen
    nkr-stellungnahme-aufbau-und-format
    nkr-stellungnahme-grundsatzfeststellung
    nkr-stellungnahme-ergebnis-und-empfehlung
@@ -76,7 +122,7 @@ D — Stellungnahme-Drafting (8 Skills)
    nkr-stellungnahme-mahnender-charakter-grenzen
    nkr-stellungnahme-pressepolitik-und-jahresbericht
 
-E — Spezialfaelle / komplexe Themen (6 Skills)
+5. Spezialfälle / komplexe Themen
    nkr-digitalcheck-und-onlinezugangsgesetz-ozg
    nkr-eu-richtlinien-umsetzung-und-goldplating
    nkr-handelsregister-und-elektronische-zustellung
@@ -88,7 +134,7 @@ E — Spezialfaelle / komplexe Themen (6 Skills)
 ## Methodische Grundlagen (Pflicht-Bezugnahmen)
 
 - **NKRG** vom 14.08.2006 (BGBl. I S. 1866) in der jeweils geltenden Fassung
-- **GGO** insbesondere § 44 (Prüfung der Gesetzesfolgen) und § 45 (Erfüllungsaufwand-Darstellung)
+- GGO insbesondere Paragraf 44 Absatz 4 (Ermittlung und Darstellung des Erfüllungsaufwands) und Paragraf 45 (Beteiligungen innerhalb der Bundesregierung)
 - **Handbuch der Rechtsförmlichkeit (HdR)** als Drafting-Grundlage
 - **Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands** (BMI / NKR)
 - **Standardkostenmodell (SKM)** als NKR-Methodik
@@ -101,11 +147,13 @@ E — Spezialfaelle / komplexe Themen (6 Skills)
 
 Zu diesem Plugin existiert eine vollständige Beispielakte unter [`nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/`](../testakten/nkr-elektronische-erreichbarkeit-handelsregister-gesellschaften-2026/).
 
-**Sachverhalt**: Referentenentwurf des BMJ vom 14.04.2026 zur Verbesserung der elektronischen Erreichbarkeit im Handelsregister eingetragener Gesellschaften (**ElErrHandRegG**). NKR-Prüfung ergibt: Regelung ist erforderlich, Ausgestaltung jedoch zu komplex; geschätzter Erfüllungsaufwand 320 Mio EUR jährlich für die Wirtschaft. Stellungnahme weist die Notwendigkeit positiv aus, kritisiert die konkrete Ausgestaltung und schlägt eine zentrale Lösung vor.
+Fiktives Übungsszenario: Referentenentwurf des BMJ vom 14.04.2026 zur Verbesserung der elektronischen Erreichbarkeit im Handelsregister eingetragener Gesellschaften (ElErrHandRegG). Die Akte setzt einen geschätzten Erfüllungsaufwand von 320 Mio EUR jährlich für die Wirtschaft an. Zu prüfen sind Berechnung und einfachere Umsetzung, nicht die politische Zweckmäßigkeit des Regelungsziels. Die Angaben sind Übungsmaterial, kein Nachweis eines wirklichen Gesetzgebungsvorhabens oder einer amtlichen NKR-Stellungnahme.
 
 Die Akte zeigt sowohl die **mahnende** als auch die **konstruktive** Funktion des NKR.
 
 ## Quellenhygiene
+
+Am 16.10.2026 gelesen: [Paragraf 1 Absätze 3 und 4 NKRG](https://www.gesetze-im-internet.de/nkrg/__1.html) zur methodischen Prüfung und zur Grenze politischer Ziele sowie [GGO, Paragrafen 44 Absatz 4 und 45](https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_21072009_O11313012.htm) zur Aufwandsdarstellung und Ressortbeteiligung. Der Abgleich korrigiert diese Zuständigkeits- und Normzuordnung; er bestätigt nicht pauschal sämtliche Methodenleitfäden, Zeitwerte oder sonstigen Prüfraster.
 
 - Keine erfundenen NKR-Stellungnahme-Aktenzeichen oder Berichte aus Modellwissen.
 - NKRG und methodische Grundlagen werden mit Norm und Stand zitiert; NKR-Jahresberichte allgemein als "NKR-Jahresbericht <Jahr>".
@@ -115,12 +163,12 @@ Die Akte zeigt sowohl die **mahnende** als auch die **konstruktive** Funktion de
 
 ```
 /plugin marketplace add Klotzkette/claude-fuer-deutsches-recht
-/plugin install normenkontrollrat-nkr@claude-fuer-deutsches-recht
+/plugin install normenkontrollrat-nkr@klotzkette-german-legal-skills
 ```
 
 ## Konversationsstil
 
-Erste Antwort knapp. Maximal eine gezielte Rückfrage zur Mandatsaufnahme. Sofort in den Prüfraster-Modus übergehen und einen ersten Stellungnahme-Entwurf liefern, sobald Eckdaten vorliegen. Subsumtion und ausführliche Begründung nur dort, wo der Skill dies ausdrücklich vorsieht (Erforderlichkeit, Verhältnismäßigkeit, Alternativenprüfung).
+Lies Entwurf, Vorblatt und Aufwandsschätzung zuerst. Frage nur nach Angaben, die die beauftragte Stellungnahme oder Berechnung tatsächlich verändern; ein klarer Prüfauftrag benötigt keine erneute Mandatsaufnahme. Liefere das fertige Prüfprodukt mit nachvollziehbarer Begründung. Ergänzte Fallzahlen oder Ressortantworten werden darin verarbeitet; nur neue entscheidende Lücken rechtfertigen weitere Fragen.
 
 ## Verwandte Plugins
 
@@ -128,22 +176,30 @@ Erste Antwort knapp. Maximal eine gezielte Rückfrage zur Mandatsaufnahme. Sofor
 - [`normenkontrolle-bauleitplanung/`](../normenkontrolle-bauleitplanung/) — Anfechtung von Bauleitplänen nach § 47 VwGO (begriffliche Verwandtschaft, nicht inhaltlich).
 - [`buerokratieversteher-entbuerokratisierer/`](../buerokratieversteher-entbuerokratisierer/) — operative Entbürokratisierung in einzelnen Verfahren.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **64 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `orientierung-mandatsaufnahme-praktikabilitaet`, `orientierung-und-mandatsaufnahme` |
-| 2. Unterlagen, Sachverhalt und Quellen | `stellungnahme-mahnender-charakter-grenzen` |
-| 3. Prüfung, Anspruch und Subsumtion | `digital-anschlussfaehigkeit-digitalcheck`, `digitalcheck-und-onlinezugangsgesetz-ozg`, `einmalig-vs-erforderlichkeitspruefung-warum`, `erforderlichkeitspruefung-warum`, `erforderlichkeitspruefung-warum-ueberhaupt-regeln`, `gleichstellungs-gendercheck-handelsregister`, `gleichstellungs-und-gendercheck`, `nachhaltigkeit-klimacheck-one`, `nachhaltigkeit-klimacheck-vereinbarkeit`, `nkr-alternativen-pruefung-keine-regelung-soft-law` |
-| 4. Gestaltung, Strategie und Verhandlung | `evaluierung-befristung-sunset-klausel`, `stellungnahme-evaluationsklausel` |
-| 5. Verfahren, Behörde und Gericht | `evaluierung-befristung-verfahrensgang`, `handelsregister-elektronische-zustellung`, `handelsregister-und-elektronische-zustellung`, `verfahrensgang-referentenentwurf`, `verfahrensgang-referentenentwurf-bis-bundestag` |
-| 6. Ergebnis, Schreiben und Kommunikation | `evaluation-jahresbericht-fallzahlen`, `evaluation-und-jahresbericht`, `nkr-stellungnahme-zum-bundestag-anhoerung`, `stellungnahme-aufbau-ergebnis`, `stellungnahme-aufbau-und-format`, `stellungnahme-ergebnis-und-empfehlung`, `stellungnahme-formulierungshilfe-vs-referentenentwurf`, `stellungnahme-grundsatzfeststellung`, `stellungnahme-pressepolitik-bundestag`, `stellungnahme-pressepolitik-jahresbericht`, `stellungnahme-zum-bundestag-anhoerung` |
-| 8. Spezialmodule und Schnittstellen | `allgemein`, `alternativen-keine-aufgabe-kompetenz`, `alternativen-keine-regelung-soft-law`, `aufgabe-und-kompetenz-nkrg`, `buerokratieabbau-katalog-konkrete`, `buerokratiekosten-vs-erfuellungsaufwand`, `digital-anschlussfaehigkeit-tauglich`, `einmalig-vs-jaehrlich-laufend`, `erfuellungsaufwand-buerger-grundbegriff`, `erfuellungsaufwand-buerger-wirtschaft`, `erfuellungsaufwand-grundbegriff`, `eu-ebene-eu-richtlinien`, `eu-ebene-und-better-regulation`, `eu-richtlinien-umsetzung-und-goldplating`, `fallzahlen-schaetzung-bandbreiten`, `leitfaden-ermittlung`, `leitfaden-ermittlung-und-darstellung`, `mittelstandsfreundlichkeit-kmu-test`, ... plus 14 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Regelungsauftrag | [`regelungsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/regelungsauftrag-bearbeiten/SKILL.md) |
+| 3. Alternativenprüfung | [`alternativenpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/alternativenpruefung-bearbeiten/SKILL.md) |
+| 4. Vorgangsinventar | [`vorgangsinventar-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/vorgangsinventar-bearbeiten/SKILL.md) |
+| 5. Aufwandsrechnung | [`aufwandsrechnung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/aufwandsrechnung-bearbeiten/SKILL.md) |
+| 6. Plausibilisierung | [`plausibilisierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/plausibilisierung-bearbeiten/SKILL.md) |
+| 7. Digital- und Vollzugscheck | [`digital-und-vollzugscheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/digital-und-vollzugscheck-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -151,72 +207,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 63 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `allgemein` | Wenn es um Normenkontrollrat-NKR — Einstieg und Routing in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit... |
-| `alternativen-keine-aufgabe-kompetenz` | Wenn es um NKR-Alternativen-Prüfung — Verzicht, Soft-Law, Vollzug in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `alternativen-keine-regelung-soft-law` | Wenn es um NKR-Alternativen-Prüfung — Verzicht, Soft-Law, Vollzug in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `aufgabe-und-kompetenz-nkrg` | Wenn es um NKR-Aufgabe und Kompetenz nach NKRG in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `buerokratieabbau-katalog-konkrete` | Wenn es um NKR-Buerokratieabbau-Katalog — konkrete Vorschlaege in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sof... |
-| `buerokratiekosten-vs-erfuellungsaufwand` | Wenn es um NKR-Buerokratiekosten vs. Erfuellungsaufwand in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsproduk... |
-| `digital-anschlussfaehigkeit-digitalcheck` | Wenn es um NKR-Digitaltauglichkeit / Digital-Anschlussfaehigkeit in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit S... |
-| `digital-anschlussfaehigkeit-tauglich` | Wenn es um NKR-Digitaltauglichkeit / Digital-Anschlussfaehigkeit in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit S... |
-| `digitalcheck-und-onlinezugangsgesetz-ozg` | Wenn es um NKR-Digitalcheck und Onlinezugangsgesetz (OZG) in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortsc... |
-| `einmalig-vs-erforderlichkeitspruefung-warum` | Wenn es um NKR-Einmalig vs. jaehrlich laufend in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit G... |
-| `einmalig-vs-jaehrlich-laufend` | Wenn es um NKR-Einmalig vs. jaehrlich laufend in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüf... |
-| `erforderlichkeitspruefung-warum` | Wenn es um NKR-Erforderlichkeitspruefung — Warum ueberhaupt regeln in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `erforderlichkeitspruefung-warum-ueberhaupt-regeln` | Wenn es um NKR-Erforderlichkeitspruefung — Warum ueberhaupt regeln in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `erfuellungsaufwand-buerger-grundbegriff` | Wenn es um NKR-Erfuellungsaufwand für Buerger, Wirtschaft und Verwaltung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoamp... |
-| `erfuellungsaufwand-buerger-wirtschaft` | Wenn es um NKR-Erfuellungsaufwand für Buerger, Wirtschaft und Verwaltung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoamp... |
-| `erfuellungsaufwand-grundbegriff` | Wenn es um NKR-Erfuellungsaufwand — Grundbegriff in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eu-ebene-eu-richtlinien` | Wenn es um NKR-EU-Ebene und Better Regulation in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und N... |
-| `eu-ebene-und-better-regulation` | Wenn es um NKR-EU-Ebene und Better Regulation in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und N... |
-| `eu-richtlinien-umsetzung-und-goldplating` | Wenn es um NKR-EU-Richtlinienumsetzung und Goldplating-Vermeidung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `evaluation-jahresbericht-fallzahlen` | Wenn es um NKR-Evaluation und Jahresbericht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kon... |
-| `evaluation-und-jahresbericht` | Wenn es um NKR-Evaluation und Jahresbericht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `evaluierung-befristung-sunset-klausel` | Wenn es um NKR-Evaluierung, Befristung, Sunset-Klausel in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `evaluierung-befristung-verfahrensgang` | Wenn es um NKR-Evaluierung, Befristung, Sunset-Klausel in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `fallzahlen-schaetzung-bandbreiten` | Wenn es um NKR-Fallzahlen — Schaetzung und Bandbreiten in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annah... |
-| `gleichstellungs-gendercheck-handelsregister` | Wenn es um NKR-Gleichstellungs- und Gendercheck in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. A... |
-| `gleichstellungs-und-gendercheck` | Wenn es um NKR-Gleichstellungs- und Gendercheck in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. A... |
-| `handelsregister-elektronische-zustellung` | Wenn es um NKR-Handelsregister und elektronische Zustellung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen,... |
-| `handelsregister-und-elektronische-zustellung` | Wenn es um NKR-Handelsregister und elektronische Zustellung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen,... |
-| `leitfaden-ermittlung` | Wenn es um NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Ri... |
-| `leitfaden-ermittlung-und-darstellung` | Wenn es um NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Ri... |
-| `mittelstandsfreundlichkeit-kmu-test` | Wenn es um NKR-Mittelstandsfreundlichkeit / KMU-Test in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahme... |
-| `nachhaltigkeit-klimacheck-one` | Wenn es um NKR-Nachhaltigkeit, Klimacheck und Vereinbarkeit in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `nachhaltigkeit-klimacheck-vereinbarkeit` | Wenn es um NKR-Nachhaltigkeit, Klimacheck und Vereinbarkeit in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofort... |
-| `nkr-alternativen-pruefung-keine-regelung-soft-law` | Wenn es um NKR-Alternativen-Pruefung — Verzicht, Soft-Law, Vollzug in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `nkr-erfuellungsaufwand-buerger-wirtschaft-verwaltung` | Wenn es um NKR-Erfuellungsaufwand fuer Buerger, Wirtschaft und Verwaltung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoam... |
-| `nkr-pruefumfang-was-prueft-der-nkr-nicht` | Wenn es um NKR-Pruefumfang — was prueft der NKR nicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschrit... |
-| `nkr-stellungnahme-zum-bundestag-anhoerung` | Wenn es um NKR-Stellungnahme zum Bundestag (Anhoerung) in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `nkr-verhaeltnismaessigkeit-aus-nkr-sicht` | Wenn es um NKR-Verhaeltnismaessigkeit aus NKR-Sicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nkr-zusammenarbeit-mit-bundesregierung-und-ressorts` | Wenn es um Verhaltens-Skill für die taegliche Zusammenarbeit zwischen NKR-Sekretariat und Ressorts in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefe... |
-| `one-in-one-out-bilanz-und-buchung` | Wenn es um NKR-One-in-one-out — Bilanz und Buchung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten... |
-| `one-in-out-bilanz-und-buchung` | Wenn es um NKR-One-in-one-out — Bilanz und Buchung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten... |
-| `orientierung-mandatsaufnahme-praktikabilitaet` | Wenn es um NKR-Orientierung und Mandatsaufnahme in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. A... |
-| `orientierung-und-mandatsaufnahme` | Wenn es um NKR-Orientierung und Mandatsaufnahme in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. A... |
-| `praktikabilitaet-vollzug-test` | Wenn es um NKR-Praktikabilitaet im Vollzug in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pruefumfang-was-prueft-der-nicht` | Wenn es um NKR-Prüfumfang — was prüft der NKR nicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritte... |
-| `pruefumfang-was-standardkostenmodell-skm` | Wenn es um NKR-Prüfumfang — was prüft der NKR nicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritte... |
-| `standardkostenmodell-skm` | Wenn es um NKR-Standardkostenmodell (SKM) in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `stellungnahme-aufbau-ergebnis` | Wenn es um NKR-Stellungnahme — Aufbau und Format in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Be... |
-| `stellungnahme-aufbau-und-format` | Wenn es um NKR-Stellungnahme — Aufbau und Format in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Be... |
-| `stellungnahme-ergebnis-und-empfehlung` | Wenn es um NKR-Stellungnahme — Ergebnis und Empfehlung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschri... |
-| `stellungnahme-evaluationsklausel` | Wenn es um NKR-Stellungnahme — Vorschlag einer Evaluationsklausel in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit... |
-| `stellungnahme-formulierungshilfe-vs-referentenentwurf` | Wenn es um NKR-Formulierungshilfe vs. Referentenentwurf in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsproduk... |
-| `stellungnahme-grundsatzfeststellung` | Wenn es um NKR-Stellungnahme — Grundsatzfeststellung in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stellungnahme-mahnender-charakter-grenzen` | Wenn es um NKR-Stellungnahme — Mahnender Charakter und seine Grenzen in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-... |
-| `stellungnahme-pressepolitik-bundestag` | Wenn es um NKR-Stellungnahme — Pressepolitik und Jahresbericht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sof... |
-| `stellungnahme-pressepolitik-jahresbericht` | Wenn es um NKR-Stellungnahme — Pressepolitik und Jahresbericht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sof... |
-| `stellungnahme-zum-bundestag-anhoerung` | Wenn es um NKR-Stellungnahme zum Bundestag (Anhörung) in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschrit... |
-| `verfahrensgang-referentenentwurf` | Wenn es um NKR-Verfahrensgang Referentenentwurf bis Bundestag in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofo... |
-| `verfahrensgang-referentenentwurf-bis-bundestag` | Wenn es um NKR-Verfahrensgang Referentenentwurf bis Bundestag in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofo... |
-| `verhaeltnismaessigkeit-aus-sicht` | Wenn es um NKR-Verhältnismäßigkeit aus NKR-Sicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten.... |
-| `verhaeltnismaessigkeit-sicht-zeitwerttabelle` | Wenn es um NKR-Verhältnismäßigkeit aus NKR-Sicht in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten.... |
-| `zeitwerttabelle-und-fallzahlen` | Wenn es um NKR-Zeitwerttabelle und Fallzahlen in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und K... |
-| `zusammenarbeit-bundesregierung-ressorts` | Wenn es um NKR-Zusammenarbeit mit Bundesregierung und Ressorts in Normenkontrollrat (NKR) — Prüfung von Gesetzentwuerfen geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalatio... |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`alternativenpruefung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/alternativenpruefung-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Alternativenprüfung: Nulloption, Vollzugsverbesserung, Selbstregulierung, Schwelle, Pauschalierung, Genehmigungsfiktion und digitale Standardlösung vergleichen. Vollständ... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/alternativenpruefung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Arbeitsprodukt: Prüfvermerk, Aufwandstabelle, Rückfragenkatalog, Alternativenblatt, Stellungnahme oder Änderungsbitte mit Textvorschlag erstellen. Vollständige Fachanweis... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`aufwandsrechnung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/aufwandsrechnung-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Aufwandsrechnung: Bürger, Wirtschaft und Verwaltung getrennt nach Fallzahl, Häufigkeit, Zeit, Lohnsatz, Sachkosten, Einmal- und Daueraufwand berechnen. Vollständige Facha... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/aufwandsrechnung-bearbeiten/SKILL.md) |
+| [`digital-und-vollzugscheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/digital-und-vollzugscheck-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Digital- und Vollzugscheck: Datenfelder, Registerabruf, Nachweiswiederverwendung, Medienbruch, Zuständigkeit, Personal, Übergang und Kontrollierbarkeit prüfen. Vollständi... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/digital-und-vollzugscheck-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) | Regelungsfolgen bis zur nachrechenbaren Stellungnahme prüfen. Verarbeitet vorhandene Unterlagen, prüft entscheidende Fachfragen und führt den Auftrag zum vollständig formulierten Ergebnis. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/juristischer-argumentationskern/SKILL.md) |
+| [`plausibilisierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/plausibilisierung-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Plausibilisierung: Datenquelle, Bezugsjahr, Bandbreite, Sowieso-Anteil, Doppelzählung, föderale Verteilung und Sensitivität offenlegen. Vollständige Fachanweisungen und l... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/plausibilisierung-bearbeiten/SKILL.md) |
+| [`regelungsauftrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/regelungsauftrag-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Regelungsauftrag: politisches Ziel, Problembeleg, Adressaten, Rechtsform, Federführung, Zeitplan und unverrückbare Vorgaben erfassen. Vollständige Fachanweisungen und lok... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/regelungsauftrag-bearbeiten/SKILL.md) |
+| [`vorgangsinventar-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/vorgangsinventar-bearbeiten/SKILL.md) | Für Normenkontrollrat, Erfüllungsaufwand und bessere Rechtsetzung: Vorgangsinventar: jede neue, geänderte oder entfallende Informations-, Mitwirkungs-, Zahlungs-, Dokumentations- und Kontrollpflicht zeilenweise erfassen. Vollständige Fac... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=normenkontrollrat-nkr/skills/vorgangsinventar-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

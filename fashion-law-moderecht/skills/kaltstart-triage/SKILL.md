@@ -1,39 +1,60 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Allgemein in fashion-law-moderecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: fashion-law-moderecht."
 ---
 
-# Allgemein
+# 1. Modeauftrag bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1. Vom vorhandenen Material zum Auftrag
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Prüfe den konkreten Modeauftrag und erstelle das bestellte Gutachten, Schreiben oder den Korrekturtext. Lies vorhandene Produkt- und Vertragsunterlagen zuerst; beginne nicht mit einem Fragenkatalog.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+Bei Kennzeichnung gehören Stückliste, Etikett und Shopansicht zusammen; bei Nachahmung Bilder, Rechtsinhaberschaft und konkrete angegriffene Ausführung. Entnimm Rolle, Artikel, Absatzgebiet und gewünschtes Ergebnis dem Material. Ein Etikettenauftrag braucht nicht automatisch einen Schutzrechtsstreit.
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Fehlt der Materialnachweis für einen Artikel, fordere die passende Stückliste oder Analyse an. Nach Eingang Faserangaben und tierische Bestandteile prüfen und Etikett sowie Onlineangabe vollständig korrigieren. Bei einem fehlenden Nutzungsrecht stattdessen die konkrete Einwilligung oder Lizenz anfordern und nach deren Prüfung den bestellten Vertragstext oder Brief fertigstellen.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+Zeigt die Antwort eine weitere entscheidende Lücke, frage gezielt nach, ohne bereits beantwortete Punkte erneut aufzunehmen. Bearbeite unabhängige Teile vorläufig; eine unbekannte Faserquote oder Zustimmung bleibt unbekannt und wird nicht als Tatsache ergänzt. Weitere Fachskills sind optional, eine bloße Verweisung erledigt den Auftrag nicht.
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
-
-## Wann dieser Skill hilft
+## 1.2. Anwendungsfall
 
 Kaltstart für Modeunternehmen, Kanzlei oder Rechtsabteilung.
 
-## Prüfpunkte
+## 1.3. Prüfpunkte
 
 - Sachverhalt und Rolle sauber erfassen: Wer handelt, wer ist Rechteinhaber, wer ist Gegner, welches Produkt oder welche Kollektion ist betroffen?
 - Fristen, Registerstand, Veröffentlichungen, Vertragslage und Beweisunterlagen früh sichern.
 - Materielle Prüfung und Verfahrensstrategie trennen: Ein gutes Ergebnis sagt nicht nur, ob etwas möglich ist, sondern wie man es belegt, vorbereitet und durchsetzt.
 - Unsichere Tatsachen offen markieren und mit präzisen Rückfragen schließen.
 
-## Quellen-Hardening
+## 1.4. Quellenprüfung
 
 - Normen, Amtsinformationen, Registerdaten, Formulare, Gebühren und Fristen vor belastbarer Ausgabe live in den offiziellen Quellen prüfen.
 - Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle verwenden.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Ausländisches Recht nur als Struktur, Risiko- und Local-Counsel-Briefing ausgeben, wenn keine aktuelle lokale Prüfung vorliegt.
+
+## 1.5. Ergebnis
+
+Verwende den gewünschten Dateinamen und liefere den vollständigen Brief, Vertragstext oder das begründete Gutachten. Quellenstatus und technische Grenzen in einer getrennten Arbeitsnotiz halten. Tabellen unterstützen die Begründung, ersetzen aber keine ausformulierten Sätze.
+
+Times New Roman 11 pt und dezimale Gliederung; bei Markdown Exporthinweis. Ohne Dateifunktion vollständigen Text liefern. Keine Veröffentlichung, Abmahnung, Rückrufaktion oder Einreichung ohne ausdrückliche Freigabe.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Gewerblicher Rechtsschutz:** Welche konkrete Nutzung ist durch welches Recht und welchen Nachweis gedeckt?
+
+**Erste Ansicht:** Zeige Schutzgegenstand, Rechtekette, Nutzung, Gebiet, Zeitraum und vertragliche oder gesetzliche Grundlage in einer Rechteübersicht; markiere die ungeklärte Verbindung.
+
+**Sinnvolle Interaktion:** Wähle Nutzung, Territorium oder Fassung und stelle die betroffenen Rechte und Nachweise dar. Eine fehlende Lizenz wird nicht durch eine grafische Freigabe ersetzt.
+
+**Datengrundlage:** Werk oder Schutzrecht, Inhaber, Übertragung, Nutzungsart, Zeitraum, Gebiet und Belegstelle. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründeter Rechtevermerk und der beauftragte Lizenz-, Anspruchs- oder Antworttext. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

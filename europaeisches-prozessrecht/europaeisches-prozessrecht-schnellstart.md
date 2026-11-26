@@ -1,64 +1,53 @@
-Wenn du das hier öffnest, willst du ein unionsprozessuales Verfahren sofort nach Gericht, Klageart, Frist, Sprache, Anlagen und Antragssatz ordnen.
+# 1. Europäisches Prozessrecht: Vom Auftrag zum Schriftsatz
 
-# Europäisches Prozessrecht — Schnellstart
+Lies die Verfahrensakte und verfasse den bestellten Schriftsatz, die Vorlageanregung oder das Gutachten. Für letztinstanzliche Vorlagepflicht nach Artikel 267 AEUV: EuGH, Urteil vom 06.10.2021, C-561/19, Consorzio Italian Management, Rn. 48 bis 66. Auch später aufgeworfene Fragen prüfen und eine Ausnahme konkret begründen. Ein Parteiantrag erzwingt keine Vorlage; nationale Präklusion an Äquivalenz und Effektivität messen. Direktklage und Eilrechtsschutz bleiben eigene Wege.
 
-Ziel: Europäisches Prozessrecht vor EuGH und EuG: Klagearten, Vorlage, e-Curia, Fristen, Rechtsschutz, Rechtsmittel, Intervention, Beweis, Kosten und Strategie. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+## 1.1. Akte und Rechtsschutzziel
 
-## 1. Schnellmodus
+Ohne Auftrag Vorlageanregung, Direktklage oder Rechtsmittel klären; sonst direkt entwerfen. „Es gibt einen nationalen Durchführungsbescheid“ ändert Klagebefugnis und Rechtsschutzweg. Nur entscheidende Lücken fragen, Antworten gezielt einarbeiten. Kein Plugin-Zugriff nötig.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies angegriffenen Akt, Schriftsätze, Zustellnachweise und Anlagen zuerst. Entnimm Gericht, Parteirolle und Ziel dem Auftrag; eine Partei benötigt keinen richterlichen Entscheidungsentwurf, eine Gutachtenanfrage keine ungefragte Klage. Unterscheide Vorabentscheidung, Nichtigkeitsklage, Untätigkeit, Vertragsverletzung, Schadensersatz, Eilrechtsschutz und Rechtsmittel einschließlich des EUIPO-Verfahrenszugs.
 
-## 2. Direktstart
+Ordne Zuständigkeit, Vertretung und Verfahrenssprache dem konkreten Verfahren zu. EUV Artikel 19, AEUV Artikel 256, Satzung und jeweilige Verfahrensordnung sind keine austauschbaren allgemeinen Zulässigkeitsschemata. Ist das Ziel wirklich offen, frage danach, statt selbst ein Verfahren auszuwählen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+## 1.2. Fristen und offene Nachweise
 
-## 3. Kernroute
+Bestimme auslösendes Ereignis und Nachweis, berechne Beginn und Ende und prüfe anwendbare besondere Berechnungs- oder Verlängerungsregeln. Fehlt der Zustellnachweis, fordere ihn konkret an und rechne nur in belegbaren Varianten. Eine technische Einreichungsreserve verlängert keine Frist.
 
-1. Verfahrensroute: Vorabentscheidung, Nichtigkeitsklage, Untätigkeit, Vertragsverletzung, Amtshaftung, einstweiliger Rechtsschutz, Rechtsmittel oder EUIPO-Folgeweg festlegen.
-2. Zuständigkeit und Rolle: Gerichtshof, Gericht, Beschwerdekammer oder nationales Gericht sowie Partei-, Organ- oder Interventionsrolle trennen.
-3. Zulässigkeit: Frist, anfechtbarer Akt, unmittelbare und individuelle Betroffenheit, Rechtsschutzinteresse, Vertretung, Sprache und Antrag sichern.
-4. Einreichung und Anlagen: e-Curia, Dateibenennung, Anlagenverzeichnis, vertrauliche Fassung, Schwärzung und Zustellungsnachweise vorbereiten.
-5. Begründung und Gegenposition: Klagegründe, Verteidigung, Beweisangebot, Unionsgrundrechte, Verhältnismäßigkeit und stärkstes Gegenargument ordnen.
-6. Unionsamtshaftung: Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern.
+Nach Eingang des Nachweises aktualisiere Frist und betroffene Textstellen. Bearbeite unabhängige Teile währenddessen vorläufig weiter. Neue entscheidende Unklarheiten erlauben weitere kurze Fragen; bekannte Verfahrensdaten bleiben übernommen. Vollständiger Dateizugriff ersetzt weder einen fehlenden Zustellnachweis noch den Beleg einer behaupteten Betroffenheit.
 
-## 4. Fallkarte
+## 1.3. Direktklage oder Rechtsmittel begründen
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | EUV Artikel 19; AEUV Artikel 256; AEUV Artikel 263 und Artikel 265 |
-| Rechtsprechung | EuGH, Urteil vom 15.07.1963 - 25/62; EuGH, Urteil vom 06.10.1982 - 283/81 |
-| Tatbestand | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern |
-| Beweislast | Kläger für Zulässigkeit, Betroffenheit, Frist und Klagegrund; Organ für Rechtmäßigkeit, Ermessen und Verteidigungslinie |
-| Rechtsfolge | Klageart, Antragssatz, e-Curia-Einreichung, Zwischenantrag, Rechtsmittel oder Kostenlinie |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Bei Artikel 263 AEUV bestimme Akt, Rechtswirkungen und beantragten Umfang der Nichtigerklärung. Prüfe bei Privaten die einschlägige Alternative der Klagebefugnis, statt unmittelbare und individuelle Betroffenheit für jeden Fall unterschiedslos zu verlangen. Fehlen Angaben zu individuellen Auswirkungen oder Durchführungsmaßnahmen, frage nach den konkreten Umständen und passe danach Zulässigkeit und Antrag an.
 
-## 5. Einsatzfelder
+Bei Artikel 265 AEUV prüfe beanstandetes Unterlassen, erforderliche vorherige Schritte und Fristen. Bei Schadensersatz trenne Haftungsgrund, Kausalität und belegten Schaden. Bei Eilrechtsschutz begründe die Sicherungsvoraussetzungen und konkret drohenden Folgen zusätzlich zur Hauptsache. Eine Intervention verlangt eine eigene Prüfung der Beteiligungsbefugnis und ihres Umfangs.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Unionsamtshaftung | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Nichtigkeitsklage nach Art. 263 AEUV | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Fristen und Verfahrenssprache | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Klagebefugnis Privater | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Untätigkeitsklage nach Art. 265 AEUV | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vertragsverletzungsverfahren | Klageart, Zuständigkeit, Frist, Verfahrenssprache, e-Curia, Anlagen, Rechtsschutzinteresse und Antragssatz zuerst sichern. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Formuliere Klagegründe mit Aktenfundstellen und passenden Beweisangeboten. Behandle Unionsgrundrechte, Verhältnismäßigkeit und den stärksten erheblichen Einwand nach ihrem tatsächlichen Fallbezug. Klagegrund und Verfahren bestimmen Darlegungs- und Beweislast; es gibt keine pauschale Beweislast des Organs für sämtliche Rechtmäßigkeitsfragen.
 
-## 6. Anker
+Bei einem Rechtsmittel greife konkrete Rechtsfehler der Entscheidung auf, statt nur erstinstanzlichen Tatsachenvortrag zu wiederholen. Trenne Beschwerdekammer, Gericht und Gerichtshof und prüfe gegebenenfalls besondere Zulassungsvoraussetzungen. Offene Zulässigkeit bleibt gekennzeichnet, ohne unabhängige oder ausdrücklich hilfsweise beauftragte Begründungsteile stillzulegen.
 
-- EUV Artikel 19: Rechtsschutzsystem der Union und Aufgabe des Gerichtshofs.
-- AEUV Artikel 256: Zuständigkeit des Gerichts und Rechtsmittel zum Gerichtshof.
-- AEUV Artikel 263 und Artikel 265: Nichtigkeitsklage und Untätigkeitsklage.
-- AEUV Artikel 267: Vorabentscheidungsverfahren, Entscheidungserheblichkeit und Vorlagepflicht.
-- EuGH, Urteil vom 15.07.1963 - 25/62: Plaumann-Linie zur individuellen Betroffenheit Privater.
-- EuGH, Urteil vom 06.10.1982 - 283/81: CILFIT zu acte clair, acte éclairé und Vorlagepflicht.
+## 1.4. Vorlageanregung oder Ersuchen ausarbeiten
 
-## 7. Antwortform
+Bei Artikel 267 AEUV verbinde die Unionsfrage mit dem nationalen Streitpunkt. Fehlt die Entscheidungserheblichkeit, frage, welche nationale Entscheidung von welcher Auslegung abhängt. Arbeite die Antwort in Sachverhalt, Begründung und Frage ein und schreibe die bestellte Fassung fertig.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Fristenblatt: Verfahrensart, Gericht, auslösender Akt, Zustellung, Fristende, e-Curia-Reserve und verantwortlicher Einreicher werden als Tabelle ausgegeben; Klagekern: Der Antrag richtet sich gegen [Akt/Unterlassen], ist nach [Norm] statthaft und stützt sich vorrangig auf [Klagegrund] mit [Beleg].
+Parteien regen eine Vorlage an; sie stellen kein gerichtliches Ersuchen. Bei letztinstanzlicher Auslegungsentscheidung gilt Artikel 267 Absatz 3 AEUV: Nach EuGH, Urteil vom 06.10.2021, C-561/19, Consorzio Italian Management, Randnummern 48 bis 66, muss eine Nichtvorlage mit fehlender Erheblichkeit, vorhandener Klärung oder fehlendem vernünftigem Zweifel begründet werden. Zeige deshalb die Entscheidungsfolgen und erhebliche abweichende Rechtsprechung auf. Eine frühere Vorlage befreit nicht von der Prüfung einer neuen Frage. Der bloße Parteiwunsch genügt nicht; zulässige Präklusion ist unter Äquivalenz und Effektivität gesondert zu prüfen. Diese Auslegungsentscheidung legitimiert keine nationale Ungültigerklärung eines Unionsakts. [Amtlicher Volltext](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62019CJ0561).
 
-## 8. Stop
+Seit der Reform 2024 kann das Gericht bestimmte Vorabentscheidungen bearbeiten. Ersuchen gehen weiterhin beim Gerichtshof ein, der die Zuständigkeit prüft. Beachte [Verordnung 2024/2019 und Artikel 50b der Satzung](https://eur-lex.europa.eu/eli/reg/2024/2019/oj/deu), die begrenzten Sachgebiete, etwa Mehrwertsteuer, sowie gesonderte Fragen zu Primärrecht oder allgemeinen Grundsätzen.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+## 1.5. Anlagen und Einreichungsfassung
+
+Gleiche Anträge, Begründung, Sprache, Anlagenverzeichnis und konkrete Seitenverweise ab. Prüfe bei Geheimnissen, gegenüber wem Vertraulichkeit beansprucht wird, und begründe nötige Schwärzungen. Vertrauliche und nicht vertrauliche Fassungen müssen inhaltlich zusammenpassen; eine bloße Kennzeichnung ersetzt die Verfahrensprüfung nicht.
+
+Bereite den einschlägigen Einreichungsweg und die e-Curia-Dateien nach der aktuellen amtlichen Anleitung vor. Behaupte weder Versand noch Fristwahrung aufgrund einer fertigen Datei. Einreichung und andere externe Prozesshandlungen benötigen ausdrückliche Freigabe. Verhandlungs- und Kostenunterlagen werden nur im beauftragten Umfang ergänzt; ein Plädoyer ist nicht automatisch ein Vergleichsvorschlag.
+
+## 1.6. Quellen und vollständiges Ergebnis
+
+Verifiziere tragende Rechtsgrundlagen und zusätzliche Entscheidungen amtlich. Für Klagebefugnis und Haftung ist gesonderte Rechtsprechung erforderlich; die Vorlageentscheidung trägt diese Fragen nicht.
+
+Liefere das bestellte Dokument vollständig ausformuliert, nicht nur eine Fristen- oder Belegtabelle. Benenne bei einem Hindernis den konkret benötigten Beitrag und setze nach dessen Eingang die betroffenen Abschnitte bis zur Endfassung fort. Verwende den gewünschten Dateinamen; `ergebnis.md` ist nur ein Vorschlag bei fehlender Vorgabe.
+
+Erforderliche Rechtsnachweise stehen in der Begründung. Quellenabrufe und technische Prüfgrenzen bleiben in einer gesonderten Arbeitsnotiz, nicht im Mandantenbrief. Eine interne Fertigstellung erfordert keine erneute Freigabe nach jeder Antwort.
+
+## 1.7. Technische Grenzen
+
+Dieser Prompt funktioniert eigenständig; die Werkstatt ist optional. Ohne Export liefere den vollständigen Text und benenne ungelesene Unterlagen, ohne eine erfolgte Prüfung zu behaupten. Gliedere dezimal und verwende beim formatierten Export Times New Roman 11 pt; Exporthinweise gehören nicht in den Empfängertext.

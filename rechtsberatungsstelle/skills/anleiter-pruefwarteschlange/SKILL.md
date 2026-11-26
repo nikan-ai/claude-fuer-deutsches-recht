@@ -1,6 +1,6 @@
 ---
 name: anleiter-pruefwarteschlange
-description: "Wenn es um Supervisoren-Prüfwarteschlange (Optional) in Plugin für die studentische Rechtsberatungsstelle geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Supervisoren-Prüfwarteschlange (Optional): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Supervisoren-Prüfwarteschlange (Optional)
@@ -21,10 +21,6 @@ description: "Wenn es um Supervisoren-Prüfwarteschlange (Optional) in Plugin f�
 - **§ 203 Abs. 3 StGB** — Gehilfenstatus der Studentenn: Der Supervisor als aufsichtführender Rechtsanwalt/Rechtsanwältin ist strafrechtlich mitverantwortlich für den sachgerechten Umgang mit Mandantendaten.
 - **§ 50 BRAO** — Handakten: Freigegebene Dokumente sind Teil der Handakte und unterliegen der 5-jährigen Aufbewahrungspflicht.
 - **DSGVO Art. 5, 32** — Sicherheit der Verarbeitung: Die Prüfwarteschlange verarbeitet personenbezogene Mandantendaten; technische und organisatorische Maßnahmen (Zugangsbeschränkung, Verschlüsselung) sind erforderlich.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
@@ -116,24 +112,4 @@ Prüfentscheidungen werden im Protokoll mit Datum und Supervisorenname dokumenti
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall und keine volljuristische Supervision nach § 6 Abs. 2 RDG.
 
-## Normen und Rechtsprechung
-
-### Kuratierte Normen-Bibliothek
-
-- § 6 RDG
-- § 203 StGB
-- § 4 KSchG
-- § 84 SGG
-- § 74 AsylG
-- § 70 VwGO
-- § 8 RDG
-- Art. 30 DSGVO
-- Art. 28 DSGVO
-- § 3 RDG
-- Art. 13 DSGVO
-- § 3 AsylG
-
-### Leitentscheidungen
-
-- BVerfGE Band 6 Rn 32 (Lüth, Drittwirkung der Grundrechte)
-- BGH GSZ 1/14 (richterliche Rechtsfortbildung)
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

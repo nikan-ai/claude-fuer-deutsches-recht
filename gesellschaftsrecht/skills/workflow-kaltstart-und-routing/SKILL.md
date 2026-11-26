@@ -1,36 +1,39 @@
 ---
 name: workflow-kaltstart-und-routing
-description: "Wenn es um Kaltstart und Routing in Gesellschaftsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für neue gesellschaftsrechtliche Aufträge: bestimmt Rechtsform, Mandantenrolle, Vertretung, maßgebliche Fassungen und anstehende Entscheidungen oder Fristen."
 ---
 
-# Kaltstart und Routing
+# Gesellschaftsrechtlichen Auftrag und Vertretung klären
 
 ## Aufgabe
-Nutze diesen Workflow-Skill für Kaltstart und Routing: führt vom ersten Satz oder Dokument in den passenden Arbeitsweg, erkennt Rolle, Ziel, Risiko und Anschluss-Skills.
 
-## Kaltstart
-Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen, die für die nächste Weiche nötig sind:
+Kläre anhand von Auftrag, Satzung und Register, für wen du welche Gesellschaftsmaßnahme bearbeitest. Halte Beteiligte, Vertretung und anstehende Entscheidungen fest.
+
+## Noch benötigte Angaben
+
+Lies diese Angaben zunächst aus Auftrag und Material. Frage nur nach, soweit eine entscheidende Information fehlt:
 
 1. Wer fragt in welcher Rolle?
 2. Was ist das gewünschte Ergebnis?
 3. Gibt es Fristen, Termine, Zustellungen, Zahlungen oder Sanktionen?
 4. Welche Unterlagen, Daten oder Belege liegen bereits vor?
 
-## Arbeitsworkflow
-1. Rolle, Ziel, Frist und Unterlagenlage in höchstens fünf Fragen klären.
-2. Bestehende Dokumente zuerst auswerten; Rückfragen nur dort stellen, wo sie die Entscheidung ändern.
-3. Passende Spezialskills aus diesem Plugin vorschlagen und begründen.
-4. Ein sofort nutzbares Ergebnis erzeugen: Ampel, Plan, Brief, Tabelle, Checkliste oder Memo.
+## Arbeitsablauf
+
+1. Bestimme Gesellschaft, Rechtsform und Mandantenrolle aus Satzung, Register und Auftrag. Ordne Tochtergesellschaften und einzelne Organpersonen eindeutig zu.
+2. Sichere aktuelle Fassungen von Gesellschaftsvertrag, Gesellschafterliste, Register und Beschlüssen. Trenne Bestellungsakt, Vertretungsmacht und registerliche Nachweise.
+3. Wähle den Arbeitsweg nach der anstehenden Maßnahme. Prüfe Beschlusskompetenz, Mehrheit, Form und Vollzug in der richtigen Reihenfolge.
+4. Liefere die beauftragten Entwürfe mit konkreten Unterzeichnern, Anlagen und verbleibenden Vollzugsschritten. Zeige, welche neue Tatsache eine Beschluss- oder Registerfassung ändern würde.
 
 ## Routing-Heuristik Gesellschaftsrecht
-- Gründung GmbH → GmbHG; Mindestkapital 25.000 EUR, Hälfte einzubringen; UG (haftungsbeschränkt) mit 1 EUR.
+- GmbH-Gründung: Mindeststammkapital 25.000 EUR; vor Anmeldung die Einzahlung je Geschäftsanteil und die Gesamtsumme nach [§ 7 Abs. 2 und 3 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__7.html) prüfen. Die pauschale Angabe „Hälfte eingezahlt“ reicht bei mehreren Anteilen oder Sacheinlagen nicht. Für die UG die Sonderregeln des § 5a GmbHG gesondert anwenden.
 - AG → AktG; Mindestkapital 50.000 EUR; Satzungsstrenge Paragraf 23 Abs. 5.
 - Personengesellschaften → Seit 1.1.2024 MoPeG; eGbR mit Eintragung, OHG, KG.
 - Anteilsabtretung GmbH → Paragraf 15 Abs. 3 GmbHG notarielle Form; AG-Aktien grds. formfrei.
 - Gesellschafterversammlung → Paragraf 47 ff. GmbHG, Paragraf 118 ff. AktG; Ladungsfrist, Tagesordnung, Beschlussfähigkeit.
 - Verschmelzung/Spaltung → UmwG; Verschmelzungsbericht Paragraf 8 ff. UmwG.
 - Konzernrecht → Paragraf 15-22 AktG, GmbH-Konzernrecht richterrechtlich; Vertragskonzern Paragraf 291 ff. AktG.
-- Geschäftsführer-Haftung → Paragraf 43 GmbHG, 93 AktG; D&O-Versicherung mit Selbstbehalt.
+- Organhaftung: [§ 43 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__43.html) für GmbH-Geschäftsführer und [§ 93 AktG](https://www.gesetze-im-internet.de/aktg/__93.html) für den AG-Vorstand unterscheiden. Der gesetzliche D&O-Selbstbehalt nach § 93 Abs. 2 Satz 3 AktG betrifft die dort bezeichnete Vorstandsversicherung; ihn nicht pauschal auf jede Geschäftsführerpolice übertragen.
 
 ## Praxis-Hinweis
 - MoPeG (1.1.2024): GbR kann eingetragen werden (eGbR); für Grundbuch- und Registereintrag der GbR-Gesellschafter Eintragung wesentlich.
@@ -46,3 +49,23 @@ Wenn Material vorliegt, arbeite zuerst mit dem Material. Stelle nur Rückfragen,
 - Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
 - Unsicherheiten und Annahmen ausdrücklich markieren.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Gesellschaftsrecht:** Wer kontrolliert wen, wer schuldet wem etwas und welche Zustimmung fehlt?
+
+**Erste Ansicht:** Zeige Beteiligte und Beziehungen als beschriftetes Schaubild. Trenne Kapital, Stimmrechte, Organstellung, Vollmacht, Forderung und wirtschaftliche Zuordnung; erläutere jede verwendete Kante.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann eine Partei oder Transaktion mit ihren Belegen zeigen. Ein veränderter Anteil oder eine alternative Struktur erzeugt eine gesonderte Variante; Kontrolle, Zuständigkeit oder Rechtsfolge werden nicht allein aus einer Prozentzahl abgeleitet.
+
+**Datengrundlage:** Rechtsträger, Rolle, Anteil oder Anspruch, maßgeblicher Zeitpunkt, Beziehungstyp und Urkundenbeleg. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** begründete Strukturentscheidung und die beauftragten Beschluss-, Vertrags- oder Meldetexte. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

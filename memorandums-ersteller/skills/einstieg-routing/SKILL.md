@@ -1,42 +1,67 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Memorandums-Ersteller geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für ein bestelltes juristisches Memorandum: beantwortet jede Entscheidungsfrage mit belegtem Ergebnis, Subsumtion, Gegenargumenten und konkreter Handlungsempfehlung."
 ---
 
-# Einstieg und Routing
+# Juristisches Memorandum ausarbeiten
 
 ## Einsatzlage
 
-Dieser Einstieg routet **Memorandums Ersteller** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
-
-## Fachlandkarte dieses Plugins
-
-- `antworten-interessen-ausfuehrungen-fragen` — Antworten Interessen Ausfuehrungen Fragen
-- `ausfuehrungen-formular-portal-und-einreichung` — Ausfuehrungen Formular Portal und Einreichung
-- `due-diligence-ergebnis-handlungsempfehlung` — DUE Diligence Ergebnis Handlungsempfehlung
-- `fragen-compliance-dokumentation-und-akte` — Fragen Compliance Dokumentation und Akte
-- `gliederung-mandantenunterlagen-memorandum` — Gliederung Mandantenunterlagen Memorandum
-- `haftungsrisiko-rechtsanwalt-board-pack` — Haftungsrisiko Rechtsanwalt Board Pack
-- `juristisches-questions-fristennotiz` — Juristisches Questions Fristennotiz
-- `laenge-formate-mandantenfreundliche-fassung` — Laenge Formate Mandantenfreundliche Fassung
-- `mandantenanfrage-schnell` — Mandantenanfrage Schnell
-- `workflow-mandantenkommunikation` — Mandantenkommunikation Redteam
-- `mandantenunterlagen-tatbestand-beweis-und-belege` — Mandantenunterlagen Tatbestand Beweis und Belege
-- `memo-board-pack-besondere-anlaesse-spezial` — Memo Board Pack Besondere Anlaesse Spezial
-- `memo-compliance-vorfall-intern` — Memo Compliance Vorfall Intern
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+Erstelle das bestellte Memorandum mit Sachverhalt, entscheidbaren Fragen, zugeordneten Kurzantworten und rechtlichen Ausführungen. Nutze vorhandenen Auftrag und Unterlagen; eine Auswahl weiterer Skills ersetzt die Bearbeitung nicht.
 
 ## Arbeitsweg
 
-- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
-- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
-- Fachpfad wählen: zentrale Anker im Memorandums Ersteller sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
-- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
-- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+1. Lies Auftrag und Unterlagen und formuliere die Entscheidung, die der Adressat treffen muss. Übernimm bestehende Umfangs- und Formatvorgaben.
+2. Trenne gesicherte Tatsachen, fremde Behauptungen und eigene Annahmen. Frage nur nach Lücken, die eine Antwort oder Empfehlung ändern.
+3. Prüfe jede Frage anhand der einschlägigen Normfassung und tragenden Quellen; behandle das stärkste Gegenargument und dessen praktische Folge.
+4. Liefere das ausformulierte Memo mit Kurzantwort und begründeter Empfehlung. Quellenkontrolle und technische Exportnotizen bleiben vom Empfängertext getrennt.
+
+### Nachlieferungen in das Memo einarbeiten
+
+Fehlt eine tragende Vertragsanlage oder widersprechen sich zwei Fassungen, frage nach dem genau bezeichneten Dokument beziehungsweise Widerspruch. Nach Eingang aktualisiere Sachverhalt, betroffene Kurzantwort und rechtliche Begründung gemeinsam. Weitere gezielte Runden nur bei neuen entscheidenden Lücken; bekannte Angaben nicht erneut aufnehmen.
+
+Beantworte unabhängige Fragen vorläufig und vervollständige nach der Klärung das bestellte Memo. Ein Rechtsmittel- oder Vertragsmemo bleibt ein Memo, sofern kein zusätzlicher Schriftsatz oder Vertrag bestellt ist. Externe Übermittlung bedarf der Freigabe.
+
+## Fachlandkarte dieses Plugins
+
+- `normstruktur-bearbeiten` (Fachthema: antworten-interessen-ausfuehrungen-fragen) — Antworten Interessen Ausfuehrungen Fragen
+- `normstruktur-bearbeiten` (Fachthema: ausfuehrungen-formular-portal-und-einreichung) — Ausfuehrungen Formular Portal und Einreichung
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: due-diligence-ergebnis-handlungsempfehlung) — DUE Diligence Ergebnis Handlungsempfehlung
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: fragen-compliance-dokumentation-und-akte) — Fragen Compliance Dokumentation und Akte
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: gliederung-mandantenunterlagen-memorandum) — Gliederung Mandantenunterlagen Memorandum
+- `auftrag-und-adressat-bearbeiten` (Fachthema: haftungsrisiko-rechtsanwalt-board-pack) — Haftungsrisiko Rechtsanwalt Board Pack
+- `auftrag-und-adressat-bearbeiten` (Fachthema: juristisches-questions-fristennotiz) — Juristisches Questions Fristennotiz
+- `arbeitsprodukt-bearbeiten` (Fachthema: laenge-formate-mandantenfreundliche-fassung) — Laenge Formate Mandantenfreundliche Fassung
+- `arbeitsprodukt-bearbeiten` (Fachthema: mandantenanfrage-schnell) — Mandantenanfrage Schnell
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: mandantenkommunikation-redteam) — Mandantenkommunikation
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: mandantenunterlagen-tatbestand-beweis-und-belege) — Mandantenunterlagen Tatbestand Beweis und Belege
+- `arbeitsprodukt-bearbeiten` (Fachthema: memo-board-pack-besondere-anlaesse-spezial) — Memo Board Pack Besondere Anlaesse Spezial
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: memo-compliance-vorfall-intern) — Memo Compliance Vorfall Intern
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Qualitätsanker
 
-- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
-- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Normen am einschlägigen Geltungsstand und Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle sichern; `references/quellenhygiene.md` und `references/zitierweise.md` sind optionale Vertiefungen.
+- Spezialskills nur bei Bedarf verwenden. Das fertige Memo wird vollständig ausformuliert, unter dem gewünschten Dateinamen und bei formatiertem Export in Times New Roman 11 Punkt mit dezimaler Gliederung geliefert. Technische Arbeitsnotizen bleiben getrennt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Juristische Methodik und Arbeitstechnik:** Welche Quelle trägt welche Aussage und wo beginnt eine eigene Folgerung?
+
+**Erste Ansicht:** Zeige eine Quellenkarte mit Originalaussage, genauer Fundstelle, zeitlichem und sachlichem Kontext sowie abgeleiteter Aussage. Eine Rezeptions- oder Argumentationslinie braucht belegte Verbindungen.
+
+**Sinnvolle Interaktion:** Eine Auswahl kann Originaltext, Übersetzung und eigene Einordnung gegenüberstellen. Nicht verifizierte Zitate bleiben offen; weder fehlende Textstellen noch historische Übergänge ergänzen.
+
+**Datengrundlage:** Quelle, Fassung, Datum, genaue Textstelle, Aussage, Übertragungsschritt und Aussagegrenze. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** quellengebundene Analyse, Überprüfung oder ausformulierter Argumentationsabschnitt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

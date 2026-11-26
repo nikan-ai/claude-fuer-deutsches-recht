@@ -5,20 +5,67 @@
 
 Nachbarrecht und Nachbarschaftsstreit: Überbau, Überhang, Äste/Wurzeln, Grenzbaum, Zaun/Mauer/Hecke, Immissionen, Vertiefung, Notweg, Hammerschlagsrecht, Beweise, Aufforderung, Klage und Vergleich.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`nachbarschaftsstreit-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/nachbarschaftsstreit-pruefer.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/nachbarschaftsstreit-pruefer.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/nachbarschaftsstreit-pruefer.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/nachbarschaftsstreit-pruefer.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Nachbarschaftsstreit-Prüfer:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`nachbarschaftsstreit-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/nachbarschaftsstreit-pruefer.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-werkstatt.md" download><code>nachbarschaftsstreit-pruefer-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-schnellstart.md" download><code>nachbarschaftsstreit-pruefer-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Nachbarschaftsstreit Rosengartenstraße: [Gesamt-PDF](../testakten/nachbarschaftsstreit-horrorfall-rosengarten/gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf), [`testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip), [`testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip); Akte Wusterhagen: Mühlenstau, Chaussee und Aufopferung: [Gesamt-PDF](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/gesamt-pdf/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung_gesamt.pdf), [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip), [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`nachbarschaftsstreit-pruefer.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/nachbarschaftsstreit-pruefer.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`nachbarschaftsstreit-pruefer-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`nachbarschaftsstreit-pruefer-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/nachbarschaftsstreit-pruefer-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Nachbarschaftsstreit Rosengartenstraße](../testakten/nachbarschaftsstreit-horrorfall-rosengarten/README.md) | [Gesamt-PDF](../testakten/nachbarschaftsstreit-horrorfall-rosengarten/gesamt-pdf/nachbarschaftsstreit-horrorfall-rosengarten_gesamt.pdf) | [`testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-nachbarschaftsstreit-horrorfall-rosengarten.zip) | [`testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-nachbarschaftsstreit-horrorfall-rosengarten-einzelpdfs.zip) |
+| [Akte Wusterhagen: Mühlenstau, Chaussee und Aufopferung](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/README.md) | [Gesamt-PDF](../testakten/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung/gesamt-pdf/preussisches-landrecht-wusterhagen-muehlenstau-aufopferung_gesamt.pdf) | [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung.zip) | [`testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-preussisches-landrecht-wusterhagen-muehlenstau-aufopferung-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -29,14 +76,16 @@ Freistehendes Plugin für Nachbarrecht und eskalierte Grundstückskonflikte: Üb
 ## Start
 
 ```
-/nachbarschaftsstreit-pruefer:allgemein
+/nachbarschaftsstreit-pruefer:juristischer-argumentationskern
 ```
 
-Der Einstieg fragt in kurzer Zeit ab: Grundstücke, Grenze, Bundesland, Streitgegenstand, Gefahr, Beweislage, bisherige Schreiben, gewünschter Ton und Ziel. Danach routet er zu den Spezialskills.
+Vorhandene Fotos, Grundstücksunterlagen und Schreiben werden zuerst ausgewertet. Nur entscheidende Lücken zu Bundesland, Grenze, Gefahr oder Beweis werden nachgefragt. Der Auftrag führt zum vollständigen Aufforderungsschreiben, Vergleich oder Rechtsbehelfsentwurf; ein Foto allein ersetzt keinen gesicherten Grenzverlauf. Nach neuen Messdaten oder einer Nachbarantwort wird am vorhandenen Dokument weitergearbeitet.
 
-## Skills (20)
+## Prüfaufgaben im Nachbarschaftsstreit
 
-| Skill | Zweck |
+Die Tabellen zeigen fachliche Aufgaben. Die [Fachbibliothek](FACHMODULE.md) ordnet die Vertiefungen den [auswählbaren Skills](../skills-index/nachbarschaftsstreit-pruefer.md) zu.
+
+| Thema | Zweck |
 |---|---|
 | `allgemein` | Schöner Einstieg, Fristen-/Gefahrenscan, Routing und Arbeitsplan |
 | `nachbarrecht-kaltstart-triage` | Erstaufnahme des Konflikts mit Bundesland, Grundstück, Beteiligten und Risiko |
@@ -63,22 +112,29 @@ Der Einstieg fragt in kurzer Zeit ab: Grundstücke, Grenze, Bundesland, Streitge
 
 Stand: 05/2026. Kernnormen: BGB §§ 903, 906-923, 823, 862, 1004; Landesnachbarrechtsgesetze und kommunale Satzungen nach Bundesland/Gemeinde.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-router`, `dokumente-intake`, `einstieg-routing`, `kaltstart-abschlussprodukt-und-uebergabe`, `landesnachbarrecht-router`, `nachbarrecht-erstpruefung-und-mandatsziel`, `nachbarrecht-kaltstart-triage`, `workflow-anschluss-skills-router`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `akten-und-grundstuecksaufnahme`, `aufforderung-beweise-red-grenzbaum`, `beweissicherung-ortstermin-fotos`, `fristennotiz-naechster-ueberbau-akten`, `horrorfall-aktenauswertung`, `immissionen-compliance-dokumentation-und-akte`, `klage-beweislast-nachbarrecht`, `mauer-quellenkarte`, `nachbarschaftsstreit-tatbestand-beweis-und-belege`, `quellen-livecheck`, `spezial-mauer-livequellen-und-rechtsprechungscheck`, `spezial-ueberhang-dokumentenmatrix-und-lueckenliste`, `ueberhang-dokumentenmatrix-und-lueckenliste`, `unterlagen-luecken`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `aeste-risikoampel-und-gegenargumente`, `anspruchslandkarte-bgb-aufforderungsschreiben`, `nachbarschaftsstreit-fristen-risiko-mandant`, `spezial-pruefer-fristennotiz-und-naechster-schritt` |
-| 4. Gestaltung, Strategie und Verhandlung | `vergleich-mediation-nachbarschaftsfrieden`, `vergleich-sonderfall-und-edge-case`, `zaun-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `einstweilige-verfuegung-und-klage`, `grenzbaum-schriftsatz-brief-und-memo-bausteine`, `ueberbau-fristen-form-und-zustaendigkeit`, `wurzeln-behoerden-gericht-und-registerweg` |
-| 6. Ergebnis, Schreiben und Kommunikation | `aufforderungsschreiben-nachbar`, `output-waehlen`, `workflow-mandantenkommunikation` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `beweise-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `drohender-einsturz-einfriedung-zaun`, `einfriedung-zaun-mauer-hecke`, `grenzbaum-grenzanlage-hammerschlags`, `hammerschlags-und-leiterrecht`, `hammerschlagsrecht-hecke-immissionen`, `hecke-zahlen-schwellen-und-berechnung`, `immissionen-laerm-landesnachbarrecht`, `laermimmissionen-mediation-vorrang`, `nach-grenzbebauung-ueberhang-spezial`, `nach-mediation-vorrang-leitfaden`, `nach-nachbarrechtsuebersicht-bauleiter`, `notweg-ueberhang-sonderfall-edge`, `notweg-zufahrt-selbsthilfe-eskalationsgrenzen`, `selbsthilfe-und-eskalationsgrenzen`, `ueberbau-ueberhang-aeste-mediation`, `ueberhang-aeste-wurzeln`, `vertiefung-baugrube-stuetzverlust`, `vertiefung-interessen-wurzeln-zaun` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Grundstücke und Beteiligte | [`grundstuecke-und-beteiligte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/grundstuecke-und-beteiligte-bearbeiten/SKILL.md) |
+| 3. Anspruch und Duldung | [`anspruch-und-duldung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/anspruch-und-duldung-bearbeiten/SKILL.md) |
+| 4. Beweis und Lösung | [`beweis-und-loesung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/beweis-und-loesung-bearbeiten/SKILL.md) |
+| 5. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 6. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -86,68 +142,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 59 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `aeste-risikoampel-und-gegenargumente` | Wenn es um Aeste: Risikoampel, Gegenargumente und Verteidigungslinien in Nachbarschaftsstreit-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `akten-und-grundstuecksaufnahme` | Wenn es um Akten- und Grundstücksaufnahme in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `anschluss-router` | Wenn es um Nachbarschaftsstreit-Prüfer — Allgemein in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anspruchslandkarte-bgb-aufforderungsschreiben` | Wenn es um Anspruchslandkarte BGB-Nachbarrecht in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `aufforderung-beweise-red-grenzbaum` | Wenn es um Aufforderung: Mandantenkommunikation und Entscheidungsvorlage in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aufforderungsschreiben-nachbar` | Wenn es um Aufforderungsschreiben an den Nachbarn in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweise-red-team-und-qualitaetskontrolle` | Wenn es um Beweise: Red-Team und Qualitätskontrolle in Nachbarschaftsstreit-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beweissicherung-ortstermin-fotos` | Wenn es um Beweissicherung, Ortstermin und Fotos in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `drohender-einsturz-einfriedung-zaun` | Wenn es um Drohender Einsturz und gefährliche Anlage in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `einfriedung-zaun-mauer-hecke` | Wenn es um Einfriedung, Zaun, Mauer und Hecke in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächst... |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Nachbarschaftsstreit-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstweilige-verfuegung-und-klage` | Wenn es um Einstweilige Verfügung und Klage in Nachbarschaftsstreit-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `fristennotiz-naechster-ueberbau-akten` | Wenn es um Prüfer: Fristennotiz und nächster Schritt in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `grenzbaum-grenzanlage-hammerschlags` | Wenn es um Grenzbaum und Grenzanlage in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `grenzbaum-schriftsatz-brief-und-memo-bausteine` | Wenn es um Grenzbaum: Schriftsatz-, Brief- und Memo-Bausteine in Nachbarschaftsstreit-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und A... |
-| `hammerschlags-und-leiterrecht` | Wenn es um Hammerschlags- und Leiterrecht in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem S... |
-| `hammerschlagsrecht-hecke-immissionen` | Wenn es um Hammerschlagsrecht: Formular, Portal und Einreichungslogik in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hecke-zahlen-schwellen-und-berechnung` | Wenn es um Hecke: Zahlen, Schwellenwerte und Berechnung in Nachbarschaftsstreit-Prüfer geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `horrorfall-aktenauswertung` | Wenn es um Horrorfall-Aktenauswertung in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `immissionen-compliance-dokumentation-und-akte` | Wenn es um Immissionen: Compliance-Dokumentation und Aktenvermerk in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächs... |
-| `immissionen-laerm-landesnachbarrecht` | Wenn es um Immissionen: Lärm, Geruch, Rauch, Licht in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `kaltstart-abschlussprodukt-und-uebergabe` | Wenn es um Kaltstart: Abschlussprodukt und Übergabe in Nachbarschaftsstreit-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klage-beweislast-nachbarrecht` | Wenn es um Klage: Beweislast, Darlegungslast und Substantiierung in Nachbarschaftsstreit-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung un... |
-| `laermimmissionen-mediation-vorrang` | Wenn es um Nach: Laermimmissionen in Nachbarschaftsstreit-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `landesnachbarrecht-router` | Wenn es um Landesnachbarrecht-Router in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mauer-quellenkarte` | Wenn es um Mauer Quellenkarte in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `nach-grenzbebauung-ueberhang-spezial` | Wenn es um Nach: Grenzbebauung Überhang in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nach-mediation-vorrang-leitfaden` | Wenn es um Nach: Mediation Gueteverfahren in Nachbarschaftsstreit-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `nach-nachbarrechtsuebersicht-bauleiter` | Wenn es um Nach: Nachbarrecht-Übersicht in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachbarrecht-erstpruefung-und-mandatsziel` | Wenn es um Nachbarrecht: Erstprüfung, Rollenklärung und Mandatsziel in Nachbarschaftsstreit-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachbarrecht-kaltstart-triage` | Wenn es um Nachbarrecht-Kaltstart-Triage in Nachbarschaftsstreit-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachbarschaftsstreit-fristen-risiko-mandant` | Wenn es um Fristen- und Risikoampel in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nachbarschaftsstreit-tatbestand-beweis-und-belege` | Wenn es um Nachbarschaftsstreit: Tatbestandsmerkmale, Beweisfragen und Beleglage in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `notweg-ueberhang-sonderfall-edge` | Wenn es um Notweg: Internationaler Bezug und Schnittstellen in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `notweg-zufahrt-selbsthilfe-eskalationsgrenzen` | Wenn es um Notweg, Zufahrt und Wegerecht in Nachbarschaftsstreit-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `output-waehlen` | Wenn es um Output wählen in Nachbarschaftsstreit-Prüfer geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `selbsthilfe-und-eskalationsgrenzen` | Wenn es um Selbsthilfe und Eskalationsgrenzen in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-mauer-livequellen-und-rechtsprechungscheck` | Wenn es um Mauer: Livequellen- und Rechtsprechungscheck in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pruefer-fristennotiz-und-naechster-schritt` | Wenn es um Pruefer: Fristennotiz und nächster Schritt in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-ueberhang-dokumentenmatrix-und-lueckenliste` | Wenn es um Ueberhang: Dokumentenmatrix, Lückenliste und Nachforderung in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ueberbau-fristen-form-und-zustaendigkeit` | Wenn es um Ueberbau: Fristen, Form, Zuständigkeit und Rechtsweg in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ueberbau-ueberhang-aeste-mediation` | Wenn es um Überbau-Prüfung in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `ueberhang-aeste-wurzeln` | Wenn es um Überhang, Äste und Wurzeln in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ueberhang-dokumentenmatrix-und-lueckenliste` | Wenn es um Überhang: Dokumentenmatrix, Lückenliste und Nachforderung in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vergleich-mediation-nachbarschaftsfrieden` | Wenn es um Vergleich, Mediation und Nachbarschaftsfrieden in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vergleich-sonderfall-und-edge-case` | Wenn es um Vergleich: Sonderfall und Edge-Case-Prüfung in Nachbarschaftsstreit-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vertiefung-baugrube-stuetzverlust` | Wenn es um Vertiefung Baugrube Stuetzverlust in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vertiefung-interessen-wurzeln-zaun` | Wenn es um Vertiefung: Mehrparteienkonflikt und Interessenmatrix in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-anschluss-skills-router` | Wenn es um Anschluss-Skills Router in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Nachbarschaftsstreit-Prüfer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-mandantenkommunikation` | Wenn es um Mandantenkommunikation in Nachbarschaftsstreit-Prüfer geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Nachbarschaftsstreit-Prüfer geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Nachbarschaftsstreit-Prüfer geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `wurzeln-behoerden-gericht-und-registerweg` | Wenn es um Wurzeln: Behörden-, Gerichts- oder Registerweg in Nachbarschaftsstreit-Prüfer geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `zaun-verhandlung-vergleich-und-eskalation` | Wenn es um Zaun: Verhandlung, Vergleich und Eskalation in Nachbarschaftsstreit-Prüfer geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`anspruch-und-duldung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/anspruch-und-duldung-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Anspruch und Duldung: konkrete Störung, Verantwortlicher, Wesentlichkeit, Ortsüblichkeit, Selbsthilfe, Frist, Verjährung und Landesrecht prüfen. Vollständige Fachanweisungen und lokale Vorlagen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/anspruch-und-duldung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Voll... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Arbeitsprodukt: Aufforderung, Duldungsvereinbarung, Schlichtungsantrag, Beweissicherungsantrag, Klage oder Vergleichsskizze erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gez... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`beweis-und-loesung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/beweis-und-loesung-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Beweis und Lösung: Vermessung, Zeugen, Messung, Gutachten, Ortstermin, technische Abhilfe, Zugang und Kosten ordnen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konk... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/beweis-und-loesung-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/einstieg-routing/SKILL.md) | Für einen konkreten Nachbarstreit: prüft Anspruch, Duldung und Landesrecht und erstellt das passende Aufforderungs-, Einigungs- oder beauftragte Prozessdokument. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/einstieg-routing/SKILL.md) |
+| [`grundstuecke-und-beteiligte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/grundstuecke-und-beteiligte-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Grundstücke und Beteiligte: Grundbuch, Flurstück, Eigentümer, Besitzer, Grenze, Dienstbarkeit, Baulast und Zuständigkeit sichern. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/grundstuecke-und-beteiligte-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/juristischer-argumentationskern/SKILL.md) | Nachbarschaftskonflikt bis zur zulässigen Abhilfe und zum konkreten Schreiben führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbei... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/juristischer-argumentationskern/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Nachbarrecht und Grundstückskonflikte: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) | Für neue Nachbarstreitigkeiten: klärt Grundstücke, Beteiligte, Ort und konkrete Beeinträchtigung anhand von Fotos, Plänen und Schriftverkehr; sichert fehlende Belege. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=nachbarschaftsstreit-pruefer/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

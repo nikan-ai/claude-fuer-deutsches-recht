@@ -5,20 +5,66 @@
 
 Eigenständiges Plugin für deutsches Gebrauchsmusterrecht: GebrMG, DPMA-Anmeldung, Recherche nach Paragraf 7 GebrMG, Abzweigung, Neuheitsschonfrist, Verletzung, Löschung, BPatG-Beschwerde, Lizenz, FTO und Schnellschutz für technische Produkte.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`gebrauchsmusterrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/gebrauchsmusterrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/gebrauchsmusterrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/gebrauchsmusterrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/gebrauchsmusterrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/gebrauchsmusterrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/gebrauchsmusterrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für gebrauchsmusterrecht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`gebrauchsmusterrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/gebrauchsmusterrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gebrauchsmusterrecht/gebrauchsmusterrecht-werkstatt.md" download><code>gebrauchsmusterrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/gebrauchsmusterrecht/gebrauchsmusterrecht-schnellstart.md" download><code>gebrauchsmusterrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Schnellverschluss S-14: Sensorhalter, Gebrauchsmusterabzweigung und Messeoffenbarung: [Gesamt-PDF](../testakten/gebrauchsmusterrecht-schnellverschluss-sensorhalter/gesamt-pdf/gebrauchsmusterrecht-schnellverschluss-sensorhalter_gesamt.pdf), [`testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter.zip), [`testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`gebrauchsmusterrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/gebrauchsmusterrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`gebrauchsmusterrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/gebrauchsmusterrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`gebrauchsmusterrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/gebrauchsmusterrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Schnellverschluss S-14: Sensorhalter, Gebrauchsmusterabzweigung und Messeoffenbarung](../testakten/gebrauchsmusterrecht-schnellverschluss-sensorhalter/README.md) | [Gesamt-PDF](../testakten/gebrauchsmusterrecht-schnellverschluss-sensorhalter/gesamt-pdf/gebrauchsmusterrecht-schnellverschluss-sensorhalter_gesamt.pdf) | [`testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter.zip) | [`testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-gebrauchsmusterrecht-schnellverschluss-sensorhalter-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -26,7 +72,7 @@ Dieses Plugin behandelt das deutsche Gebrauchsmuster als schnelles, ungeprüft e
 
 ## Arbeitsmodus
 
-Der Einstieg ist bewusst niedrigschwellig: Uploads, Bilder, Verträge oder bloße Stichworte reichen. Das Plugin fragt zuerst nach den wenigen Punkten, die wirklich entscheiden: Frist, Produkt, Territorium, Registerstand, Veröffentlichungsdatum, Vertrag und gewünschter Output. Danach schlägt es passende Spezialskills aus diesem Plugin und angrenzenden Plugins vor.
+Aus Gebrauchsmusterschrift, Registerauszug, Produktunterlagen und bekanntem Stand der Technik wird zuerst die konkrete Aufgabe bestimmt: Anmeldung, Rechtsbestandsprüfung, Löschung oder Verletzung. Nur entscheidende fehlende Angaben zu Schutzanspruch, Priorität, Offenbarung oder angegriffenem Produkt werden nachgefragt. Bei klarem Auftrag beginnt unmittelbar der verlangte Entwurf; nachgereichte Belege werden an der betroffenen Anspruchs- oder Merkmalsprüfung eingearbeitet. Die Eintragung ersetzt keine Prüfung der Schutzfähigkeit.
 
 ## Praxisblöcke
 
@@ -52,21 +98,30 @@ Der Einstieg ist bewusst niedrigschwellig: Uploads, Bilder, Verträge oder bloß
 - `patentrecht` und `gebrauchsmusterrecht` für technische Schutzrechte.
 - `produktrecht`, `ecommerce-recht` und `datenschutzrecht` für Produkt-, Shop- und Datenfragen.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **51 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `auslandsroute-kein-beschreibung-zeichnungen`, `gebrauchsmuster-kaltstart-interview`, `kaltstart-triage`, `patent-oder-gebrauchsmuster-route`, `stand-technik-startup-schnellschutz`, `startup-schnellschutz` |
-| 2. Unterlagen, Sachverhalt und Quellen | `auskunft-schadensersatz-geheimhaltung`, `besichtigung-beschlagnahme-und-beweissicherung`, `gutachten-rechtsbestand-insolvenz-verwertung`, `recherche-nach-schutzgegenstand-ausschluesse` |
-| 3. Prüfung, Anspruch und Subsumtion | `anspruchsfassung-gebrauchsmuster`, `cross-license-verletzung-anspruchsmerkmale`, `verletzung-anspruchsmerkmale` |
-| 4. Gestaltung, Strategie und Verhandlung | `china-utility-model-vergleich`, `lizenzvertrag-gebrauchsmuster`, `mandantenmemo-gebrauchsmusterstrategie`, `muendliche-verhandlung-dpma`, `registerstand-aufrechterhaltung-lizenzvertrag` |
-| 5. Verfahren, Behörde und Gericht | `computerprogramm-verfahrensausschluss`, `einstweilige-verfuegung-fto-schutzbereich`, `japan-utility-klageantraege-verletzung`, `klageantraege-verletzung`, `loeschungsantrag-dpma-mandantenmemo`, `neuheitsschonfrist-eigene-offenbarung` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `qualitygate-gebrmg`, `schutzgegenstand-und-ausschluesse` |
-| 8. Spezialmodule und Schnittstellen | `abmahnung-gebrauchsmuster-abzweigung`, `abzweigung-aus-patentanmeldung`, `arbeitnehmererfindung-und-inhaberschaft`, `beschreibung-und-zeichnungen`, `beschwerde-bpatg-besichtigung-beschlagnahme`, `chemie-biotech-china-utility`, `doppelschutz-patent-dpma-anmeldung`, `dpma-anmeldung-formalien`, `fto-und-schutzbereich`, `geheimhaltung-vor-anmeldung`, `insolvenz-und-verwertung`, `local-counsel-loeschung-erwiderung`, `loeschung-erwiderung-inhaber`, `messeveroeffentlichung-prototyp-muendliche`, `neuheit-erfinderischer-patent-gebrauchsmuster`, `prioritaet-anmeldetag-produktlaunch-neuheit`, `produktlaunch-und-neuheit`, `technische-laborbuch-teilloeschung`, ... plus 6 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/kaltstart-triage/SKILL.md) |
+| 2. Schutzweg und Frist | [`schutzweg-und-frist-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzweg-und-frist-bearbeiten/SKILL.md) |
+| 3. Schutzgegenstand | [`schutzgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzgegenstand-bearbeiten/SKILL.md) |
+| 4. Rechtsbestand | [`rechtsbestand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/rechtsbestand-bearbeiten/SKILL.md) |
+| 5. Schutzbereich und Verletzung | [`schutzbereich-und-verletzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzbereich-und-verletzung-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -74,59 +129,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 50 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abmahnung-gebrauchsmuster-abzweigung` | Wenn es um Abmahnung Gebrauchsmuster Verteidigung in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `abzweigung-aus-patentanmeldung` | Wenn es um Abzweigung Aus Patentanmeldung in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anspruchsfassung-gebrauchsmuster` | Wenn es um Anspruchsfassung Gebrauchsmuster in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `arbeitnehmererfindung-und-inhaberschaft` | Wenn es um Arbeitnehmererfindung Und Inhaberschaft in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `auskunft-schadensersatz-geheimhaltung` | Wenn es um Auskunft Schadensersatz Und Rechnungslegung in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `auslandsroute-kein-beschreibung-zeichnungen` | Wenn es um Auslandsroute Kein Eu Gebrauchsmuster in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `beschreibung-und-zeichnungen` | Wenn es um Beschreibung Und Zeichnungen in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `beschwerde-bpatg-besichtigung-beschlagnahme` | Wenn es um Beschwerde Bpatg in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `besichtigung-beschlagnahme-und-beweissicherung` | Wenn es um Besichtigung Beschlagnahme Und Beweissicherung in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `chemie-biotech-china-utility` | Wenn es um Chemie Biotech Und Stoffschutz in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `china-utility-model-vergleich` | Wenn es um China Utility Model Vergleich in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `computerprogramm-verfahrensausschluss` | Wenn es um Computerprogramm Und Verfahrensausschluss in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächst... |
-| `cross-license-verletzung-anspruchsmerkmale` | Wenn es um Vergleich Und Cross License in gebrauchsmusterrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `doppelschutz-patent-dpma-anmeldung` | Wenn es um Doppelschutz Patent Gebrauchsmuster in gebrauchsmusterrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `dpma-anmeldung-formalien` | Wenn es um Dpma Anmeldung Formalien in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `einstweilige-verfuegung-fto-schutzbereich` | Wenn es um Einstweilige Verfuegung Gebrauchsmuster in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `fto-und-schutzbereich` | Wenn es um Fto Und Schutzbereich in gebrauchsmusterrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `gebrauchsmuster-kaltstart-interview` | Wenn es um Gebrauchsmuster Kaltstart Interview in gebrauchsmusterrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `geheimhaltung-vor-anmeldung` | Wenn es um Geheimhaltung Vor Anmeldung in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `gutachten-rechtsbestand-insolvenz-verwertung` | Wenn es um Gutachten Rechtsbestand in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `insolvenz-und-verwertung` | Wenn es um Insolvenz Und Verwertung in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `japan-utility-klageantraege-verletzung` | Wenn es um Japan Utility Model Vergleich in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kaltstart-triage` | Wenn es um Allgemein in gebrauchsmusterrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `klageantraege-verletzung` | Wenn es um Klageantraege Verletzung in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `lizenzvertrag-gebrauchsmuster` | Wenn es um Lizenzvertrag Gebrauchsmuster in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `local-counsel-loeschung-erwiderung` | Wenn es um Local Counsel Briefing Ausland in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `loeschung-erwiderung-inhaber` | Wenn es um Loeschung Erwiderung Inhaber in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `loeschungsantrag-dpma-mandantenmemo` | Wenn es um Loeschungsantrag Dpma in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `mandantenmemo-gebrauchsmusterstrategie` | Wenn es um Mandantenmemo Gebrauchsmusterstrategie in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `messeveroeffentlichung-prototyp-muendliche` | Wenn es um Messeveroeffentlichung Und Prototyp in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `muendliche-verhandlung-dpma` | Wenn es um Muendliche Verhandlung Dpma in gebrauchsmusterrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `neuheit-erfinderischer-patent-gebrauchsmuster` | Wenn es um Neuheit Und Erfinderischer Schritt in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `neuheitsschonfrist-eigene-offenbarung` | Wenn es um Neuheitsschonfrist Eigene Offenbarung in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `patent-oder-gebrauchsmuster-route` | Wenn es um Patent Oder Gebrauchsmuster Route in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `prioritaet-anmeldetag-produktlaunch-neuheit` | Wenn es um Prioritaet Und Anmeldetag in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `produktlaunch-und-neuheit` | Wenn es um Produktlaunch Und Neuheit in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `qualitygate-gebrmg` | Wenn es um Qualitygate Gebrmg in gebrauchsmusterrecht geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `recherche-nach-schutzgegenstand-ausschluesse` | Wenn es um Recherche Nach Paragraph 7 Gebrmg in gebrauchsmusterrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `registerstand-aufrechterhaltung-lizenzvertrag` | Wenn es um Registerstand Fristen Aufrechterhaltung in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schutzgegenstand-und-ausschluesse` | Wenn es um Schutzgegenstand Und Ausschluesse in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `stand-technik-startup-schnellschutz` | Wenn es um Stand Der Technik Belegpaket in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `startup-schnellschutz` | Wenn es um Startup Schnellschutz in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `technische-laborbuch-teilloeschung` | Wenn es um Technische Dokumentation Laborbuch in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `teilloeschung-und-hilfsantraege` | Wenn es um Teilloeschung Und Hilfsantraege in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `uebertragung-sicherheit-us-provisional` | Wenn es um Uebertragung Und Sicherheit in gebrauchsmusterrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `us-provisional-vs-gebrauchsmuster` | Wenn es um Us Provisional Vs Gebrauchsmuster in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verletzung-anspruchsmerkmale` | Wenn es um Verletzung Anspruchsmerkmale in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vernichtung-rueckruf-vorbenutzungsrecht` | Wenn es um Vernichtung Rueckruf Und Entfernung in gebrauchsmusterrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vorbenutzungsrecht` | Wenn es um Vorbenutzungsrecht in gebrauchsmusterrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zoll-und-plattformdurchsetzung` | Wenn es um Zoll Und Plattformdurchsetzung in gebrauchsmusterrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. Vollständige Fachanwe... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Arbeitsprodukt: Anmeldung, Abzweigungserklärung, Rechercheauftrag, Löschungsantrag, Abmahnung, Klage oder Verfügungsantrag erstellen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konk... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/juristischer-argumentationskern/SKILL.md) | Gebrauchsmuster vom technischen Befund zur Verfahrensposition führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/kaltstart-triage/SKILL.md) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: gebrauchsmusterrecht. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/kaltstart-triage/SKILL.md) |
+| [`rechtsbestand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/rechtsbestand-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Rechtsbestand: Recherche, Neuheit, erfinderischen Schritt, Offenbarung, Erweiterung und Löschungsangriff dokumentieren. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Auftrag... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/rechtsbestand-bearbeiten/SKILL.md) |
+| [`schutzbereich-und-verletzung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzbereich-und-verletzung-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Schutzbereich und Verletzung: Anspruch, Beschreibung, Zeichnungen, angegriffene Ausführung, Ausnahmen und Einreden vergleichen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzbereich-und-verletzung-bearbeiten/SKILL.md) |
+| [`schutzgegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzgegenstand-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Schutzgegenstand: technische Lehre, zulässiger Sachanspruch, ausgeschlossene Verfahren und klare Anspruchsmerkmale bestimmen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem konkreten Au... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzgegenstand-bearbeiten/SKILL.md) |
+| [`schutzweg-und-frist-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzweg-und-frist-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Schutzweg und Frist: Eigenanmeldung oder Abzweigung, Priorität, Erledigung der Patentanmeldung, Schonfrist und maximale Schutzdauer sichern. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach d... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/schutzweg-und-frist-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Gebrauchsmusterrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und lokale Vorlagen werden... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=gebrauchsmusterrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

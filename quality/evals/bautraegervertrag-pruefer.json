@@ -1,0 +1,1120 @@
+{
+  "schema_version": 1,
+  "plugin": "bautraegervertrag-pruefer",
+  "reviewed_on": "2026-11-21",
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650u.html",
+      "checked_on": "2026-09-14",
+      "supports": "Baupflicht und Eigentumsverschaffung beim Bauträgervertrag."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650v.html",
+      "checked_on": "2026-09-14",
+      "supports": "Abschlagszahlungen statt Baubeschreibung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo_34cdv/__3.html",
+      "checked_on": "2026-09-14",
+      "supports": "Allgemeine Sicherungsvoraussetzungen vor Geldannahme und baufortschrittsbezogene Raten."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/1999/VII_ZR_310-99.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 22.12.2000, VII ZR 310/99, amtlicher Volltext S. 11–16: Verfrühte erste Rate führte zur Unwirksamkeit des gesamten Zahlungsplans; MaBV-Stufen ersetzen ihn nicht automatisch. Grenze: Vertrag von 1994 und damalige Rechtslage; heutige Fälligkeit zusätzlich nach Paragraf 650v BGB und Paragraf 1 AbschlagsV prüfen, keine automatische Gesamtrückzahlung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2012/VII_ZR_308-12.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Beschluss vom 12.09.2013, VII ZR 308/12, Rn. 6–11: Formularmäßige Abnahmevollmacht für bauträgerbestimmten Erstverwalter wegen ungesicherter Neutralität beanstanden; bloße Widerruflichkeit genügt nicht. Grenze: Kein Verbot jeder unabhängigen Vertreterabnahme oder der Verwalterbestellung; eigene Abnahme und Verjährung gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650u.html",
+      "checked_on": "2026-09-22",
+      "supports": "Absatz 2 schließt nicht sämtliche Verbraucherbauvorschriften aus."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650v.html",
+      "checked_on": "2026-09-22",
+      "supports": "Abschlagszahlungen nur im Umfang zulässiger Vereinbarung nach der Verordnung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo_34cdv/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Allgemeine Voraussetzungen, höchstens sieben Teilbeträge und unterschiedliche Prozentbezugsgrößen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/abschlagsv/BJNR098100001.html",
+      "checked_on": "2026-09-22",
+      "supports": "Paragraf 1: Abschlagsvereinbarungen nach MaBV; Paragraf 650m Absatz 2 und 3 BGB anwendbar."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650m.html",
+      "checked_on": "2026-09-22",
+      "supports": "Fünfprozentige Sicherheit bei erster Verbraucherrate, Erhöhungsfall und Sicherungsformen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo_34cdv/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Allgemeine Sicherungsvoraussetzungen und Ratenbausteine; bei Eigentumsübertragung 40 Prozent des Restes nach erster 30-Prozent-Stufe, nicht 40 Prozent der Vertragssumme."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2017/VII_ZR__46-17A.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-25",
+      "supports": "BGH, Urteil vom 22.02.2018, VII ZR 46/17, Rn. 31–37 und 48–54: Bei behaltenem mangelhaftem Werk Beseitigungsabsicht feststellen: kein kleiner Schadensersatz nach fiktiven Beseitigungskosten, aber zweckgebundener abzurechnender Vorschuss bei geplanter Beseitigung grundsätzlich auch nach Schadensersatzwahl. Grenze: Werkvertragsrecht, keine allgemeine Übertragung auf Kauf oder Delikt; Anspruchsvoraussetzungen und tatsächliche Dispositionen bleiben gesondert zu prüfen. Gelesener Umfang: Rn.31–37,48–54",
+      "verification_status": "wiederverwendeter_auditnachweis",
+      "previous_review": "quality/source-audits/2026-09-25/profile-register.json#BGH-030",
+      "source_sha256": "71b431aa6d7828abd11505b6e8c761de6ab68c371a217e4aec66e85f811e0036"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__203.html",
+      "checked_on": "2026-11-15",
+      "supports": "Tatsächliche Verhandlungen als Hemmungstatbestand; eine einseitige Mängelanzeige oder interne Beschlussfassung genügt für sich nicht.",
+      "verification_status": "gezielte_amtliche_primärquellenprüfung"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__204.html",
+      "checked_on": "2026-11-15",
+      "supports": "Konkrete Rechtsverfolgungstatbestände, insbesondere Klage und Zustellung des Antrags auf selbständiges Beweisverfahren, sowie Nachlauf. Kein Hemmungstatbestand allein durch einen GdWE-Beschluss.",
+      "verification_status": "gezielte_amtliche_primärquellenprüfung"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/woeigg/__9a.html",
+      "checked_on": "2026-11-15",
+      "supports": "Gesetzliche Ausübungsbefugnis von der konkreten vertraglichen Erwerberposition unterscheiden; nicht jede auf Gemeinschaftseigentum bezogene Forderung automatisch der GdWE zuweisen.",
+      "verification_status": "gezielte_amtliche_primärquellenprüfung"
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2022-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=132222",
+      "checked_on": "2026-11-15",
+      "supports": "BGH, Urteil vom 11.11.2022, V ZR 213/21, Rn. 18–35: Auf Mängelbeseitigung gerichtete Erwerberrechte fallen nicht schon unter Paragraf 9a Absatz 2 WEG; gemeinschaftliche Durchsetzung durch Mehrheitsbeschluss bleibt möglich. Anspruchsart und Beschlussumfang prüfen.",
+      "verification_status": "gezielte_amtliche_primärquellenprüfung"
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2023-11&Gericht=bgh&Seite=8&Sort=3&anz=317&nr=135795&pos=249",
+      "checked_on": "2026-11-15",
+      "supports": "BGH, Urteil vom 09.11.2023, VII ZR 241/22, Rn. 32–41: Im dortigen Klauselkontext die für Anspruchsbegründung unterstellte Abnahme nicht ohne Weiteres zum nachteiligen Verjährungsbeginn umdeuten. Tatsächliche spätere Abnahme bleibt gesondert zu prüfen; keine universelle dreißigjährige Mängelhaftung.",
+      "verification_status": "gezielte_amtliche_primärquellenprüfung"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gewo_34cdv/__3.html",
+      "checked_on": "2026-11-21",
+      "supports": "Höchstens sieben Teilbeträge. Erster Baustein nach Erdarbeitsbeginn bei Eigentum 30 Prozent und bei Erbbaurecht 20 Prozent der gesamten Vertragssumme. Weitere Fälligkeitshürden gesondert prüfen."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__650u.html",
+      "checked_on": "2026-11-21",
+      "supports": "Errichtungs-/Umbaupflicht und vom Unternehmer geschuldete Eigentumsübertragung oder Bestellung/Übertragung eines Erbbaurechts nach den konkreten Vertragsverpflichtungen prüfen."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2025/VII_ZR_169-25A.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-21",
+      "supports": "BGH, 29.10.2026 – VII ZR 169/25, Rn. 24–39. Wesentlicher abnahmehindernder Mangel steht der vollständigen Fertigstellung für die Schlussrate entgegen. Den gesamten Ratenplan auf Vorverlegung prüfen. Der Mangelgrad und die Ausdehnung der konkreten Klausel auf die Schlussrate tragen das Ergebnis."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2025/VII_ZR__88-25.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-21",
+      "supports": "BGH, 22.04.2026 – VII ZR 88/25, Rn. 24–28. Bei protokollierten Mängeln die vertragliche Bestimmung zur Schlussrate auslegen. Die dortige Vereinbarung und der Inhalt des Protokolls sind maßgeblich."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2023/VII_ZR_119-23.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-21",
+      "supports": "BGH, 15.10.2026 – VII ZR 119/23, Rn. 24–35, 42–47. Nach gescheiterter Erstverwalterabnahme Vorschuss und Folgeschäden sowie Grenzen der zeitlichen Durchsetzung prüfen. Die 30-Jahres-Grenze nach fehlgeschlagener Abnahme ersetzt keine allgemeine Mängelverjährung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2024/VII_ZR___4-24.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-11-21",
+      "supports": "BGH, 15.10.2026 – VII ZR 4/24, Leitsatz d. Bei unwirksamer Abnahme durch einen bevollmächtigten Sachverständigen Kenntnis und späteren Abnahmewillen würdigen. Eine spätere schlüssige Abnahme bleibt anhand des Erwerberverhaltens zu prüfen."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reviewed_on": "2026-11-21",
+    "reason": "Vertragsart, Urkunde und Leistungspflichten vor der Sachentscheidung klären. Getrennte Prüfprogramme für Errichtung, Umbau, Altbau, Nachzügler, Erbbaurecht, Baugruppe, getrennte Verträge und Bauen auf eigenem Grund führen zur Prüfung des vereinbarten Zahlungs- und Sicherungswegs.",
+    "changes": [
+      "Streitige Einheit und Vertragsfassung zuerst zuordnen.",
+      "Bei fehlendem Leistungsversprechen die entscheidende Klausel erfragen und nach Eingang weiterprüfen.",
+      "Zahlungs- und Mängelbefunde nach Vertragsmodell und Sicherungsweg prüfen."
+    ],
+    "sha256": "f0f4911612cc2fde1dc65cd68df55bf004f6cb996a554e345ea744907ce3ba44",
+    "latest_editorial_scope": "Gezielte Nachprüfung der geänderten Aussagen und Eingangswege. Modellstichproben mit eigenständigen Anfragen sind im datierten Prüfprotokoll beschrieben."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reviewed_on": "2026-11-21",
+    "reason": "Vertragsart, Urkunde und Leistungspflichten vor der Sachentscheidung klären. Getrennte Prüfprogramme für Errichtung, Umbau, Altbau, Nachzügler, Erbbaurecht, Baugruppe, getrennte Verträge und Bauen auf eigenem Grund führen zur Prüfung des vereinbarten Zahlungs- und Sicherungswegs.",
+    "changes": [
+      "Streitige Einheit und Vertragsfassung zuerst zuordnen.",
+      "Bei fehlendem Leistungsversprechen die entscheidende Klausel erfragen und nach Eingang weiterprüfen.",
+      "Zahlungs- und Mängelbefunde nach Vertragsmodell und Sicherungsweg prüfen."
+    ],
+    "sha256": "e20094c6ae194a47f5506dc1ee6161a7effd6d27f76c9ab61c010b6f4bca4034",
+    "latest_editorial_scope": "Gezielte Nachprüfung der geänderten Aussagen und Eingangswege. Modellstichproben mit eigenständigen Anfragen sind im datierten Prüfprotokoll beschrieben."
+  },
+  "selection": {
+    "positive": [
+      "Prüfen Sie die erste Bauträgerrate trotz fehlender Vormerkung.",
+      "Bereiten Sie Vertragsänderungen getrennt für Erwerber, Bauträger und Notar vor.",
+      "Prüfen Sie den zweistufigen Zahlungsplan meines Bauträgerentwurfs.",
+      "Erstellen Sie eine urkundennahe Klauselmatrix mit Ersatzfassungen.",
+      "Wir vertreten den Bauträger. Beantworten Sie die konkret belegten Einwendungen gegen die Rate.",
+      "Für die GdWE sollen Mängelverfolgung und Befugnis des Verwalters geprüft werden; ein Beschluss liegt bislang nur als Entwurf vor."
+    ],
+    "negative": [
+      "Prüfen Sie einen Architektenhonoraranspruch.",
+      "Berechnen Sie Mietminderung in einer Bestandswohnung.",
+      "Berechnen Sie einen Werklohn für einen Dachdecker ohne Grundstückserwerb.",
+      "Entwerfen Sie die Satzung einer Baugenossenschaft."
+    ]
+  },
+  "cases": [
+    {
+      "id": "erste-rate-ohne-vormerkung",
+      "request": "Erstellen Sie ergebnis.md als Zahlungsbefund und Antwortentwurf. Eine Verbraucherin kauft eine neu zu errichtende Eigentumswohnung für 500000 Euro. Nach beurkundetem Vertrag wird Eigentum übertragen; eine Sicherheit nach Paragraf 7 MaBV ist nicht vereinbart. Der Bauträger fordert 150000 Euro nach begonnenen Erdarbeiten. Eine Notarmitteilung bestätigt nur Vertragswirksamkeit und Genehmigungen. Im aktuellen Grundbuch ist die Erwerbervormerkung noch nicht eingetragen. Lastenfreistellungserklärung und Baugenehmigung liegen ordnungsgemäß vor. Noch keine Zahlung erfolgt. Bearbeitungsstand 14.09.2026.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Erkennt, dass die rechnerisch passende 30-Prozent-Rate die fehlende Vormerkung nicht ersetzt.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt bestätigte Notartatsachen von der nicht belegten Eigentumssicherung und gibt keine Zahlungsfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Formuliert eine konkrete Nachweisanforderung und Antwort, ohne einen bereits entstandenen Rückzahlungsanspruch zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "raten-sicherheiten-eigentum-pruefen"
+    },
+    {
+      "id": "zwei-raten-vor-fertigstellung",
+      "request": "Prüfen Sie in ergebnis.md diesen noch nicht unterschriebenen Verbraucherbauträgervertrag: Preis 600000 Euro für Grundstückseigentum und neu errichtetes Haus. Zahlungsplan: 30 Prozent nach Erdarbeiten, 70 Prozent bei Bezugsfertigkeit und Schlüsselübergabe. Fassade und Außenanlagen sollen nach dem Bauzeitenplan erst zwei Monate später fertig werden; beide gehören zum Vertragssoll. Eine alternative Bürgschaft ist nicht vorgesehen. Die allgemeinen Voraussetzungen vor erster Zahlung sollen ausdrücklich eingehalten werden. Gewünscht sind Rechenbefund und konkrete Verhandlungsforderung, keine Klage.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Beanstandet nicht die Zahl zwei allein, sondern das Vorziehen noch nicht erreichter Baufortschrittsbausteine.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt Bezugsfertigkeit und vollständige Fertigstellung und verwendet bei späteren Bausteinen die Restvertragssumme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert eine ausformulierte Korrekturforderung ohne die Großrate allein wegen vollständiger Gesamtsumme freizugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "raten-sicherheiten-eigentum-pruefen",
+      "migration_origin": {
+        "path": "quality/plugin-consolidation/2026-11-15/legacy-evals/bautraegervertragspruefer.json",
+        "case_id": "zwei-raten-vor-fertigstellung",
+        "original_target_skill": "vertragssoll-bearbeiten",
+        "criteria_preserved": true
+      }
+    },
+    {
+      "id": "gdwe-beschluss-ist-keine-hemmung",
+      "target_skill": "abnahme-maengel-weg-pruefen",
+      "request": "Die GdWE beauftragt einen internen Fristenvermerk in ergebnis.md. Für diese Übung ist eine wirksame Abnahme der betroffenen Erwerber am 30.11.2021 und fünfjährige Grundfrist vorgegeben. Am 10.11.2026 zieht die Gemeinschaft konkret bezeichnete Dachmängelbeseitigungsrechte wirksam zur Durchsetzung an sich. Der Verwalter sendet am 12.11.2026 erstmals eine Mängelanzeige. Der Bauträger antwortet nicht. Verhandlungen und gerichtliche Schritte gab es nicht. Der Verwalter meint, der Beschluss habe die Verjährung bereits gehemmt. Stand 15.11.2026. Keine Klage bestellt.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Weist die behauptete Hemmung durch Beschluss und einseitige Anzeige zurück; erfindet weder Antwort noch Verhandlungen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Trennt vorgegebene Abnahme/Grundfrist, Durchsetzungsbefugnis und tatsächlichen Hemmungstatbestand; benennt den nahen Fristablauf und konkret noch fehlende rechtzeitige Schritte.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Verwendet Paragrafen 203 und 204 BGB nur tatbestandsbezogen; Entwurf, Beschluss und anwaltliche Beauftragung werden nicht als Zustellung ausgegeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Liefert den internen Vermerk mit klarer Dringlichkeit und nächstem Entscheidungspunkt, keine ungefragte Klage und keine behauptete Einreichung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bautraeger-antwort-bautenstand",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Wir vertreten die Bauträgerin, nicht den Erwerber. Formulieren Sie in ergebnis.md ausschließlich die Antwort auf dessen Ratenbeanstandung. Für diese Übung sind ein wirksamer, fälligkeitstrennender Zahlungsplan und sämtliche allgemeinen Sicherungsvoraussetzungen einschließlich Verbrauchersicherheit bestätigt. Preis 500000 Euro, erste 150000 Euro bezahlt. Die Rechnung nennt zusätzlich 40 Prozent der Gesamtsumme, also 200000 Euro, für Rohbau. Der neue vollständige Bautenstandsbericht bestätigt den Rohbau, aber noch keinen weiteren Ratenbaustein. Der Erwerber beanstandet allein die Prozentbasis. Keine Klage oder Zahlungsanweisung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Übernimmt die Bauträgerperspektive und würdigt den berechtigten Recheneinwand, statt in eine Erwerberforderung umzuschalten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Rechnet 40 Prozent der verbleibenden 350000 Euro als 140000 Euro; trennt neue Einzelrate, bereits bezahlte 150000 Euro und kumulierten Stand 290000 Euro.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Liefert die bestellte nachvollziehbare Korrekturantwort ohne weitere nicht belegte Bausteine, automatische Vertragsänderung oder Klage.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Behauptet keine neue Rechnung, Versendung oder ausgeführte Zahlung; eine illustrative Ansicht ersetzt nicht den Brief.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nur-beschlussentwurf-kein-paket",
+      "target_skill": "arbeitsprodukt-bearbeiten",
+      "request": "Der Verwalter bittet nur um einen Beschlussentwurf in ergebnis.md für die GdWE Parkhof. Die Ansichziehung konkret dokumentierter Ansprüche auf Beseitigung der Dachmängel M1 und M2 gegen die Parkhof Bauträger GmbH ist Gegenstand der nächsten Versammlung. Noch ist kein Beschluss gefasst. Kanzlei Behrendt soll innerhalb eines Budgets von 3500 Euro prüfen und außergerichtlich tätig werden. Über eine spätere Klage will die Gemeinschaft gesondert entscheiden. Die Abnahmedaten fehlen noch. Bitte keine Mandanteninformation, keine Klage und kein Drei-Dokumente-Paket.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Liefert den beauftragten vollständig formulierten Beschluss mit M1/M2, bezeichnetem Gegner, Vertretung, Budget und auftragsgemäßer Begrenzung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Behandelt den Entwurf nicht als Beschluss und die geplante Beauftragung nicht als Vollmacht, Einreichung oder Verjährungshemmung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Stellt fehlende Abnahmedaten als entscheidende Fristenlücke dar, ohne eine bereits laufende oder gewahrte Frist zu erfinden.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Respektiert die gesonderte Entscheidung über spätere Klage und erzeugt weder ungefragtes Dokumentenpaket noch zusätzliche Prozesshandlung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vertragsart-zuerst-klaeren",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Für meinen „Bauträgervertrag“ will der Anbieter jetzt die erste Rate. Ich kenne nur die Überschrift. Was soll ich ihm antworten?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Fragt gezielt nach dem Wortlaut zu Grundstück/Eigentum oder Erbbaurecht und Baupflicht mit jeweiligem Schuldner sowie zum Stand des Vorhabens. Ein Laie muss keinen Vertragstyp erraten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Hält die Zuordnung und Fälligkeit offen. Gestattet vorläufig eine Bitte um Nachweise. Behauptet weder Zahlbarkeit noch einen gesetzlichen Zahlungsstopp.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Nennt Fälligkeits-/Sicherungsbeleg und eine mögliche laufende Zahlungsfrist, ohne die bloße Rückfrage als Stundung zu behandeln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erbbaurecht-nachgereichte-urkunde",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Fortsetzung zur ersten Rate. Nach Ihrer Rückfrage liegt jetzt die notarielle Urkunde vor. § 2 verpflichtet die Projektgesellschaft zur Bestellung des Erbbaurechts für mich. § 4 verpflichtet dieselbe Gesellschaft zur Errichtung meines neuen Hauses. § 7 vereinbart Zahlung nach § 3 MaBV. Die erste Anforderung nach Beginn der Erdarbeiten beträgt 90.000 Euro bei 300.000 Euro Vertragssumme. Ich erwerbe privat. Freistellungserklärung und Nachweis der grundbuchlichen Sicherung liegen mir nicht vor. Bitte ordnen Sie jetzt ein und prüfen Sie diese Anforderung.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Stellt auf die identische Rechtsträgerin sowie beide konkreten Leistungsversprechen ab und führt die Bauträgerprüfung für das Erbbaurecht fort.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Ermittelt 20 Prozent von 300.000 Euro, also 60.000 Euro. Bezeichnet die Differenz von 30.000 Euro zur Rechnung und unterscheidet Höchstbetrag und tatsächliche Fälligkeit.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft die Voraussetzungen nach § 3 Abs. 1 MaBV und die Verbrauchersicherheit anhand der Unterlagen. Erfindet keinen Freigabe- oder Grundbuchnachweis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neubau-eigentum-zahlung",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Vertrag 2026: Die E-GmbH überträgt meiner Frau und mir das Grundstück und schuldet auf demselben Grundstück die schlüsselfertige Errichtung unseres Hauses. Mit Beginn der Erdarbeiten fordert sie vertragsgemäß nach § 3 MaBV 90.000 Euro einer Gesamtsumme von 300.000 Euro an. Die Notarmitteilung und die Sicherheit für die erste Rate fehlen in unserer Akte. Was ergibt sich?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet den einheitlichen Neubauerwerb dem Bauträgervertrag mit Eigentumsübertragung zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Beziffert den 30-Prozent-Baustein mit 90.000 Euro. Unterscheidet Bautenstand und weitere Fälligkeits-/Sicherungsvoraussetzungen und gibt keine voraussetzungslose Zahlungsfreigabe.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ermittelt bei privatem Hauserwerb 5 Prozent der Gesamtvergütung als Fertigstellungssicherheit (15.000 Euro) und prüft deren Form gesondert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bestand-langjaehrig-ohne-baupflicht",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Baujahr 1998. Ich kaufe die vom Verkäufer seit 20 Jahren bewohnte Wohnung. Der private Verkäufer schuldet nach § 5 unseres Vertrags keinerlei Umbau-, Ausbau- oder sonstige Arbeiten. Die Wohnung soll im vorhandenen Zustand übergeben werden. Im Exposé nennt der Makler das Haus „Bauträgerobjekt“. Das Dach ist jetzt undicht. Welches Prüfprogramm passt?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Begründet den Bestandskauf mit fehlender eigener Baupflicht des Verkäufers. Kaufvertrag, geschuldete Beschaffenheit, Mangel, Haftungsausschluss, Arglist und gegebenenfalls Gemeinschaftseigentum strukturieren die Prüfung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Keine MaBV-Rate und keine pauschale Bauwerkabnahme. Die Werbeüberschrift und das Gebäudealter allein entscheiden nichts.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet den für die Verkäuferhaftung maßgeblichen Zustand bei Gefahrübergang von späteren Schadensursachen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baugruppe-oder-anbieter",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Unsere sechs Mitglieder kaufen das Grundstück gemeinsam durch ihre eGbR. Der Gesellschaftsvertrag weist ihnen Projektentscheidungen, Kostenüberschreitungen und Nachschüsse zu. Die eGbR beauftragt mehrere Firmen selbst. Der unabhängige Projektsteuerer koordiniert gegen Honorar und verspricht den Mitgliedern weder Eigentum noch einen bezugsfertigen Erfolg. Muss ich seine Honorarforderung als erste Bauträgerrate prüfen?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Qualifiziert die echte gemeinschaftliche Bauherrenorganisation anhand von Verträgen, Risiko und Entscheidungsmacht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Steuerungsauftrag und Gesellschaftsrecht, Vertretung, Zahlungsgrund und ggf. Betreuerregime eigenständig. Leitet aus der Bezeichnung keine erste Bauträgerrate ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Ordnet den Honoraranspruch seinem konkreten Schuldner und Vertrag, der geschuldeten Leistung und dem Zahlungszeitpunkt zu.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gu-und-einzelgewerk",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Zwei unabhängige Aufträge: Familie A lässt auf eigenem Grundstück ein komplettes neues Wohnhaus von einem GU schlüsselfertig errichten. Familie B besitzt ebenfalls das Grundstück, vergibt sämtliche Gewerke einzeln und bittet nur um Prüfung des Vertrags mit ihrem Dachdecker. Beide Familien handeln privat. Für wen gilt welches Programm?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Trennt die Vorhaben. Bei A umfassender Verbraucherbauvertrag und dessen Schutzvorschriften. In beiden Aufträgen fehlt die Pflicht des Bauunternehmers zur Rechtsverschaffung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft bei B den Vertrag über das einzelne Gewerk nach Werk-/Bauvertragsrecht. Die private Eigenschaft und der Neubau allein genügen für § 650i BGB nicht.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Leitet für den GU-Auftrag mindestens zwei spezifische vertragliche Verbraucherschutzprüfungen und für das Dachgewerk einen eigenen Werkvertragsprüfpunkt ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getrennter-verkauf-und-umfassender-umbau",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "A verkauft mir ein Grundstück mit leerstehender Fabrik. Nur die Firma B schuldet mir laut zweitem Entwurf deren vollständigen Umbau in Wohnungen. Das Angebot lag als Paket bei A. Im zweiten Vertrag ist die Erwerbsurkunde als aufschiebende Bedingung genannt. Beide Firmen bestreiten, dass sie füreinander einstehen. Ist das ein Bauträgervertrag und welche Unterlagen fehlen?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet beiden Verpflichtungen den jeweiligen Schuldner zu. Prüft geteilte Vertragsstruktur, Kopplungswillen, Formverbund und konkrete Einstandspflichten, erfragt nötige Entwürfe/Verknüpfungsklauseln.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Stellt Bau-/Sanierungspflichten und kaufrechtliche Bestandsfragen gesondert dar. Behauptet weder aus wirtschaftlicher Kopplung noch aus verschiedenen Firmen zwingend das Ergebnis.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Erfragt, welche Abreden den Einzelkauf, die Abhängigkeit vom Umbau, die Vertretung oder eine gegenseitige Einstandspflicht belegen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nachzuegler-erstverwalter",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Eine Bauträgerin verkauft die letzte unbewohnte Neubauwohnung einer WEG an mich. Sie schuldet gemäß Vertrag auch noch die Herstellung des vereinbarten Schallschutzes. Der Erstverwalter hatte das Gemeinschaftseigentum vor meinem Erwerb für die früheren Käufer abgenommen. Ich habe ihn nie bevollmächtigt. Mein Formularvertrag erklärt mich an die damalige Abnahme gebunden. Welche Folgen hat das für meinen Schallschutzmangel?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft die eigene Herstellungsverpflichtung und zusätzlich den Nachzüglererwerb. Trennt Sondereigentum und Gemeinschaftseigentum sowie frühere und eigene Abnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Vertretung, formularmäßige Bindung, Anspruchsinhaber und Verjährungsbeginn gesondert. Unterstellt weder rückwirkende Abnahme noch sicher verjährte Ansprüche.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet durchsetzbare vertragsgemäße Herstellung und Folgen einer späteren wirksamen Abnahme. Würdigt den vereinbarten Schallschutz.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urkunden-widerspruch",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Wir haben zwei Wohnungskaufverträge im selben Haus. UR 101 betrifft Wohnung 1 und ist ein reiner Kauf der gebrauchten Wohnung ohne Baupflicht. UR 102 betrifft Wohnung 2 und verpflichtet den Veräußerer zur Übertragung des Eigentums und zu einem erheblichen Umbau. Die 30-Prozent-Rechnung verlangt die erste Rate für „Wohnung 1 (UR 102)“. Können wir die erste Rate zahlen?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Gleicht Einheit, Urkundenrolle und geschuldete Leistung für beide Vorgänge getrennt ab.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Fordert eine nachvollziehbare Zuordnung/Korrektur und bestätigt die Rechnung vor Klärung nicht. Erläutert die Konsequenz der jeweiligen Zuordnung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft bereits unabhängig von der Rechnung ausgelöste Zahlungsfristen je Urkunde gesondert.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbausoll-und-altbausubstanz",
+      "target_skill": "bautraegerpruefung-steuern",
+      "request": "Die Projektgesellschaft überträgt mir die Altbauwohnung und schuldet nach Anlage 2 die neue Haustechnik, alle Leitungen, den Ausbau des Dachgeschosses sowie die Erneuerung des Dachstuhls. Beim historischen Treppenhaus verspricht sie nur Reinigung. Sie fordert eine Rate für den Dachstuhl, obwohl dieser noch im Altzustand ist. Außerdem bemängele ich eine jahrzehntealte Verfärbung einer Treppenstufe. Wie behandeln Sie die beiden Punkte?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Prüft den Bauträgererwerb mit Umbau anhand der zugesagten Arbeiten und des Umfangs. Unterscheidet Leistungsversprechen für den Dachstuhl und die erhaltene Substanz.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Prüft Bautenstand, Zahlungsplan und Sicherungsweg für die Rate. Beim Treppenhaus Ausgangszustand, Vertragsbeschreibung und etwaige neubaugleiche Gesamtzusage klären, ohne aus der Altverfärbung automatisch einen Werkmangel abzuleiten.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft, ob die Dachstuhlrate gerade den noch ausstehenden Bautenstand voraussetzt und ob ein gebündelter Rechnungsbetrag weitere Leistungen enthält.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schlussrate-wesentlicher-mangel",
+      "target_skill": "raten-sicherheiten-eigentum-pruefen",
+      "request": "Die Verkäuferin errichtet mein Haus und überträgt mir das Grundstück. Wir haben 2024 beurkundet und vereinbart, dass sämtliche Raten einschließlich Schlussrate nach § 3 MaBV auch bei wesentlichen Mängeln zu zahlen seien. Schlüssel habe ich, aber die fest installierte Heizung funktioniert überhaupt nicht, das Haus ist im Winter unbewohnbar. Die Abnahme habe ich deshalb verweigert. Die Firma verlangt gleichwohl die Schlussrate und verweist auf die Klausel. Schulde ich diese jetzt?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Ordnet Grundstücksverschaffung und geschuldete Errichtung als Bauträgervertrag ein. Trennt Übergabe/Schlüssel, vollständige Fertigstellung und Abnahme.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Berücksichtigt einen wesentlichen abnahmehindernden Mangel sowie den Regelungsumfang der auch für die Schlussrate geltenden Klausel. Prüft die Unwirksamkeit des gesamten vorverlegenden Plans nach BGH VII ZR 169/25.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Prüft die Fälligkeit nach Vertrag und gesetzlichen Regeln ohne automatischen MaBV-Ersatzplan oder pauschale Befreiung vom gesamten Werklohn.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbau-buergschaft-statt-ratenplan",
+      "target_skill": "raten-sicherheiten-eigentum-pruefen",
+      "request": "Eine Gesellschaft verkauft mir die Erdgeschosswohnung eines Altbaus und schuldet den vollständigen Umbau. Die erste Vorauszahlung von 80.000 Euro soll laut Vertrag über § 7 MaBV abgesichert sein. Eine Bank bietet eine Bürgschaft von 50.000 Euro für „Fertigstellung“ an. Die Gesellschaft behauptet, mit Beginn der Arbeiten sei meine Zahlung in voller Höhe freigegeben. Genügt das?",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Qualifiziert den Umbau-Bauträgererwerb. Prüft den vereinbarten §-7-Weg anhand des Sicherungszwecks (Rückgewähr), der zeitlichen Geltung und der vollständigen Deckung.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Akzeptiert weder die Fertigstellungssicherheit noch den Beginn der Arbeiten als Ersatz für die vollständige Sicherheit. Gibt die 80.000 Euro nicht frei.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Unterscheidet die Rückgewähr von Vorauszahlungen von der Fertigstellungssicherheit. Fordert Umfang, Zahlungsempfänger und Sicherungsbedingungen aus der Urkunde an.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "prompt_workflow_review": {
+    "date": "2026-11-21",
+    "method": "desk_review",
+    "opening_modes": [
+      "Liegen Vertrag und Auftrag vor, Parteien, Einheit, Leistung und Rechtsverschaffung zuordnen und das passende Prüfprogramm ausführen.",
+      "Ist nur die Bezeichnung bekannt, gezielt nach Schuldnern, Grundstücks- oder Erbbaurecht und Baupflicht fragen.",
+      "Widersprechen sich Urkunde, Einheit, Rechnung oder Nachtrag, Unterlagen je Vorgang ordnen, betroffene Rechtsfolge offenhalten und um Klärung bitten."
+    ],
+    "continuation": "Nach Zugang der fehlenden Klausel die Qualifikation fortschreiben und abhängige Raten-, Abnahme- und Mängelbefunde berichtigen.",
+    "enrichment": "Zehn fachlich benannte Arbeitswege, sechzig vollständig erreichbare Vertiefungen, belegte Raten-/Klausel-/Abnahmeansicht und vollständiger Empfängertext; ursprüngliche drei Testakten weiterhin separat erreichbar.",
+    "limits": "Die redaktionelle Prüfung erfasst die geänderten Einstiege. Das gesonderte Modellprotokoll nennt die geprüften Fälle und seine Grenzen."
+  },
+  "prompt_editorial_review": {
+    "date": "2026-11-21",
+    "files": [
+      "bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md",
+      "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md",
+      "bautraegervertrag-pruefer/README.md",
+      "quality/evals/bautraegervertrag-pruefer.json",
+      "bautraegervertrag-pruefer/references/rechtsprechung-und-rollen.md",
+      "bautraegervertrag-pruefer/skills/gemeinschaft-zieht-maengelrechte-an-sich/FACHINHALT.md"
+    ],
+    "opening_change": "Vertragsart, Urkunde und Leistungspflichten vor der Sachentscheidung klären. Getrennte Prüfprogramme für Errichtung, Umbau, Altbau, Nachzügler, Erbbaurecht, Baugruppe, getrennte Verträge und Bauen auf eigenem Grund führen zur Prüfung des vereinbarten Zahlungs- und Sicherungswegs.",
+    "norms": [
+      "Paragrafen 134, 307, 640 und 641 BGB",
+      "Paragrafen 650u, 650v und 650m Absatz 2 und 3 BGB",
+      "Paragrafen 3, 7 und 12 MaBV",
+      "Paragraf 1 AbschlagsV",
+      "Paragrafen 203, 204 und 634a BGB",
+      "Paragrafen 9a, 18 und 19 WEG"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 22.12.2000, VII ZR 310/99, amtlicher Volltext S. 11–16",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/1999/VII_ZR_310-99.pdf?__blob=publicationFile&v=1",
+        "application": "Verfrühte erste Rate führte zur Unwirksamkeit des gesamten Zahlungsplans; MaBV-Stufen ersetzen ihn nicht automatisch.",
+        "limit": "Vertrag von 1994 und damalige Rechtslage; heutige Fälligkeit zusätzlich nach Paragraf 650v BGB und Paragraf 1 AbschlagsV prüfen, keine automatische Gesamtrückzahlung.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Beschluss vom 12.09.2013, VII ZR 308/12, Rn. 6–11",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2012/VII_ZR_308-12.pdf?__blob=publicationFile&v=1",
+        "application": "Formularmäßige Abnahmevollmacht für bauträgerbestimmten Erstverwalter wegen ungesicherter Neutralität beanstanden; bloße Widerruflichkeit genügt nicht.",
+        "limit": "Kein Verbot jeder unabhängigen Vertreterabnahme oder der Verwalterbestellung; eigene Abnahme und Verjährung gesondert prüfen.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis"
+      },
+      {
+        "citation": "BGH, Urteil vom 22.02.2018, VII ZR 46/17, Rn. 31–37 und 48–54",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2017/VII_ZR__46-17A.pdf?__blob=publicationFile&v=1",
+        "application": "Bei behaltenem mangelhaftem Werk Beseitigungsabsicht feststellen: kein kleiner Schadensersatz nach fiktiven Beseitigungskosten, aber zweckgebundener abzurechnender Vorschuss bei geplanter Beseitigung grundsätzlich auch nach Schadensersatzwahl.",
+        "limit": "Werkvertragsrecht, keine allgemeine Übertragung auf Kauf oder Delikt; Anspruchsvoraussetzungen und tatsächliche Dispositionen bleiben gesondert zu prüfen.",
+        "checked_on": "2026-09-25",
+        "verification_status": "wiederverwendeter_auditnachweis",
+        "previous_review": "quality/source-audits/2026-09-25/profile-register.json#BGH-030",
+        "passages_read": "Rn.31–37,48–54",
+        "evidence_sha256": "71b431aa6d7828abd11505b6e8c761de6ab68c371a217e4aec66e85f811e0036"
+      },
+      {
+        "citation": "BGH, Urteil vom 11.11.2022, V ZR 213/21, Rn. 18–35",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2022-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=132222",
+        "application": "BGH, Urteil vom 11.11.2022, V ZR 213/21, Rn. 18–35: Auf Mängelbeseitigung gerichtete Erwerberrechte fallen nicht schon unter Paragraf 9a Absatz 2 WEG; gemeinschaftliche Durchsetzung durch Mehrheitsbeschluss bleibt möglich. Anspruchsart und Beschlussumfang prüfen.",
+        "limit": "Konkrete Anspruchsart und Beschlussreichweite prüfen; insbesondere kaufrechtliche Nachbesserung und die erläuterte werkvertragliche Linie auseinanderhalten.",
+        "checked_on": "2026-11-15",
+        "verification_status": "gezielte_amtliche_primärquellenprüfung"
+      },
+      {
+        "citation": "BGH, Urteil vom 09.11.2023, VII ZR 241/22, Rn. 32–41",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2023-11&Gericht=bgh&Seite=8&Sort=3&anz=317&nr=135795&pos=249",
+        "application": "BGH, Urteil vom 09.11.2023, VII ZR 241/22, Rn. 32–41: Im dortigen Klauselkontext die für Anspruchsbegründung unterstellte Abnahme nicht ohne Weiteres zum nachteiligen Verjährungsbeginn umdeuten. Tatsächliche spätere Abnahme bleibt gesondert zu prüfen; keine universelle dreißigjährige Mängelhaftung.",
+        "limit": "Unwirksame Erstverwalterklausel und konkrete Vertrags-/Prozesslage; spätere tatsächliche Abnahme eigenständig prüfen.",
+        "checked_on": "2026-11-15",
+        "verification_status": "gezielte_amtliche_primärquellenprüfung"
+      },
+      {
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2025/VII_ZR_169-25A.pdf?__blob=publicationFile&v=1",
+        "citation": "BGH, 29.10.2026 – VII ZR 169/25, Rn. 24–39",
+        "application": "Wesentlicher abnahmehindernder Mangel steht der vollständigen Fertigstellung für die Schlussrate entgegen. Den gesamten Ratenplan auf Vorverlegung prüfen.",
+        "limit": "Der Mangelgrad und die Ausdehnung der konkreten Klausel auf die Schlussrate tragen das Ergebnis."
+      },
+      {
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2025/VII_ZR__88-25.pdf?__blob=publicationFile&v=1",
+        "citation": "BGH, 22.04.2026 – VII ZR 88/25, Rn. 24–28",
+        "application": "Bei protokollierten Mängeln die vertragliche Bestimmung zur Schlussrate auslegen.",
+        "limit": "Die dortige Vereinbarung und der Inhalt des Protokolls sind maßgeblich."
+      },
+      {
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2023/VII_ZR_119-23.pdf?__blob=publicationFile&v=1",
+        "citation": "BGH, 15.10.2026 – VII ZR 119/23, Rn. 24–35, 42–47",
+        "application": "Nach gescheiterter Erstverwalterabnahme Vorschuss und Folgeschäden sowie Grenzen der zeitlichen Durchsetzung prüfen.",
+        "limit": "Die 30-Jahres-Grenze nach fehlgeschlagener Abnahme ersetzt keine allgemeine Mängelverjährung."
+      },
+      {
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2024/VII_ZR___4-24.pdf?__blob=publicationFile&v=1",
+        "citation": "BGH, 15.10.2026 – VII ZR 4/24, Leitsatz d",
+        "application": "Bei unwirksamer Abnahme durch einen bevollmächtigten Sachverständigen Kenntnis und späteren Abnahmewillen würdigen.",
+        "limit": "Eine spätere schlüssige Abnahme bleibt anhand des Erwerberverhaltens zu prüfen."
+      }
+    ],
+    "remaining_limits": [
+      "Desk- und Quellenreview, kein Live-Client- oder Modelltest.",
+      "Weitere ausdrücklich bezeichnete Rechercheentscheidungen zu Nachzüglern und Schäden wurden nicht neu verifiziert; technische Zustandsprüfung bleibt sachverständig.",
+      "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet.",
+      "Vollständige redaktionelle Lektüre der beiden aktuellen Prompts und der zehn aktiven Skills; auftragsbezogener Desk-Review für Erwerber, Bauträger, GdWE und Verwalter. Gezielte amtliche Quellenprüfung allein zu Gemeinschaftsbeschluss, Abnahme und Verjährungshemmung. Keine erneute fachliche Vollprüfung der 60 Fachdateien, kein Live-Modell- oder Clienttest. Frühere Prüfdaten und historische Hashnachweise bleiben unverändert in der Prüfungshistorie erhalten."
+    ]
+  },
+  "source_audit_2026_10_01_breit": {
+    "date": "2026-10-01",
+    "method": "anchor_context_crosscheck_with_selective_primary_review",
+    "report": "quality/source-audits/2026-10-01-breit/privat-sozial.json",
+    "status": "Ankerkontext gelesen; Quellenstatus je Entscheidung im Bericht differenziert.",
+    "registry_changes": [
+      {
+        "action": "registerluecke_geschlossen",
+        "citation": "BGH, Urteil vom 22.02.2018, VII ZR 46/17, Rn. 31–37 und 48–54",
+        "status": "wiederverwendeter_auditnachweis"
+      }
+    ],
+    "limits": "Keine erneute Volltextprüfung aller übernommenen Entscheidungen; keine Vollprüfung aller Normen und Nebenmaterien der Spezialskills."
+  },
+  "prompt_opening_review_2026_10_16": {
+    "batch": 1,
+    "date": "2026-10-16",
+    "scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest.",
+    "reason": "Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht.",
+    "source_status": "Aus vorhandenen Prompt-/Eval-Nachweisen übernommen; Quellenstatus und Quellenprüfdaten unverändert.",
+    "files": [
+      {
+        "path": "bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md",
+        "sha256": "bcebeb69649644311c1784e9af5b263dbd2912c893dccaba3ae1d37ad612b7f4",
+        "reason": "Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht.",
+        "anchor_or_exception": "Paragrafen 650u, 650v BGB, Paragraf 3 MaBV, AbschlagsV; BGH 22.12.2000 VII ZR 310/99: unwirksamer vorverlagerter Ratenplan, keine automatische gesetzliche Ersatzfälligkeit; damaligen Vertrag vom heutigen Recht trennen."
+      },
+      {
+        "path": "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md",
+        "sha256": "79c40018a0cdf44033bea6925e63fdcd212802306de49c087d6986180a9f45c0",
+        "reason": "Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht.",
+        "anchor_or_exception": "Paragrafen 650u, 650v BGB, Paragraf 3 MaBV, AbschlagsV; BGH 22.12.2000 VII ZR 310/99: unwirksamer vorverlagerter Ratenplan, keine automatische gesetzliche Ersatzfälligkeit; damaligen Vertrag vom heutigen Recht trennen."
+      }
+    ]
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md",
+      "bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "historical_reviews_before_consolidation_2026_11_15": {
+    "reviewed_on": "2026-09-23",
+    "mini_review": {
+      "verdict": "revised",
+      "reason": "Vollständig gelesener Erwerber-Mini beginnt mit der konkreten Zahlungspflicht und ungesicherten Vorleistung. Zahlungsplanfolge statt bloßem Recherchevorbehalt; keine automatische Rückzahlung. Quellenprüfung, kein Live-Test. Individuelle Anschlussprüfung am 23.09.2026: fachbezogene Startmodi und konkrete Fortsetzung im kompakten Stand kontrolliert. Redaktionelle Anschlussprüfung 16.10.2026: Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+      "changes": [
+        "Zahlungsplanurteil von 2000 mit historischer Reichweite und heutiger Abschlagsverordnung verbunden.",
+        "Fünfprozentige Verbrauchersicherheit von MaBV-Sicherheit und Lastenfreistellung unterschieden.",
+        "Leerstart: Rate, Urkundenänderung oder Abnahme klären. Dateien: Erwerberunterlagen still lesen; kein Drei-Dokumente-Paket ohne Auftrag. Klarer Auftrag: Zahlungsbefund oder bestellte Texte direkt ausarbeiten.",
+        "Grundbuchnachweis verändert Fälligkeitsprüfung; korrigierter Bautenstand verändert Rate; Schlüsselübergabe nicht mit Abnahme gleichgesetzt.",
+        "16.10.2026: Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht."
+      ],
+      "sha256": "00de2a3c31b9fd9725ca32b68a283603959fac9bdcd0d998d6bb7d965b2a7ece",
+      "reviewed_on": "2026-10-16",
+      "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+    },
+    "workshop_review": {
+      "verdict": "revised",
+      "reason": "Alle zehn Abschnitte einschließlich Baugruppen, technischen Förderunterlagen und Nachzüglern einzeln gelesen. Zahlungsplanunwirksamkeit, Verbrauchersicherheit und Erstverwalterabnahme mit unterschiedlichen Rechtsfolgen präzisiert. Individuelle Anschlussprüfung am 23.09.2026: ergänzte Arbeitswege einschließlich Gegenbelegen, Antwortfolgen, Endprodukten und Freigabegrenzen gelesen. Redaktionelle Anschlussprüfung 16.10.2026: Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht. Keine neue fachliche Vollprüfung oder Live-Ausführung.",
+      "changes": [
+        "Zahlungsplanurteil von 2000 mit historischer Reichweite und heutiger Abschlagsverordnung verbunden.",
+        "Fünfprozentige Verbrauchersicherheit von MaBV-Sicherheit und Lastenfreistellung unterschieden.",
+        "Erstverwalterabnahme anhand Neutralitätssicherung statt pauschalem Vertretungsverbot geprüft.",
+        "Vormerkungskette, Rohbaurate mit Restbezugsgröße, Besitz versus Fertigstellung und empfängerbezogene Erwerbertexte.",
+        "Grundbuchnachweis verändert Fälligkeitsprüfung; korrigierter Bautenstand verändert Rate; Schlüsselübergabe nicht mit Abnahme gleichgesetzt.",
+        "16.10.2026: Zahlungsplan und Vertragsvotum vor abstraktem Bauträgerrecht."
+      ],
+      "sha256": "431d4f9491dca6ef6bc5d46aff5f165eaf3b4d12c9bdb902e9ac5f635d515f8d",
+      "reviewed_on": "2026-10-16",
+      "latest_editorial_scope": "Redaktionelle Lektüre des Einstiegs, der direkten Übergänge und der ausgewählten vorhandenen Ankernachweise; Schlusskontrolle von Struktur, Größen und Spiegeln. Hash identifiziert die ganze Datei, bescheinigt aber keine erneute vollständige Lektüre oder fachliche Vollprüfung des Hauptteils. Kein neuer Primärquellenabruf, kein Live-Modelltest."
+    },
+    "prompt_workflow_review": {
+      "date": "2026-09-23",
+      "method": "desk_review",
+      "opening_modes": [
+        "Leerstart: Rate, Urkundenänderung oder Abnahme klären.",
+        "Dateien: Erwerberunterlagen still lesen; kein Drei-Dokumente-Paket ohne Auftrag.",
+        "Klarer Auftrag: Zahlungsbefund oder bestellte Texte direkt ausarbeiten."
+      ],
+      "continuation": "Grundbuchnachweis verändert Fälligkeitsprüfung; korrigierter Bautenstand verändert Rate; Schlüsselübergabe nicht mit Abnahme gleichgesetzt.",
+      "enrichment": "Vormerkungskette, Rohbaurate mit Restbezugsgröße, Besitz versus Fertigstellung und empfängerbezogene Erwerbertexte.",
+      "limits": "desk review; no live client execution"
+    },
+    "prompt_editorial_review": {
+      "date": "2026-09-22",
+      "files": [
+        "bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md",
+        "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md",
+        "bautraegervertrag-pruefer/README.md",
+        "quality/evals/bautraegervertrag-pruefer.json"
+      ],
+      "opening_change": "Zahlungspflicht, zugesagte Wohnung und Sicherung vor Vorleistung ersetzen den allgemeinen Prüfauftrag.",
+      "norms": [
+        "Paragrafen 134, 307, 640 und 641 BGB",
+        "Paragrafen 650u, 650v und 650m Absatz 2 und 3 BGB",
+        "Paragrafen 3, 7 und 12 MaBV",
+        "Paragraf 1 AbschlagsV"
+      ],
+      "decisions": [
+        {
+          "citation": "BGH, Urteil vom 22.12.2000, VII ZR 310/99, amtlicher Volltext S. 11–16",
+          "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/1999/VII_ZR_310-99.pdf?__blob=publicationFile&v=1",
+          "application": "Verfrühte erste Rate führte zur Unwirksamkeit des gesamten Zahlungsplans; MaBV-Stufen ersetzen ihn nicht automatisch.",
+          "limit": "Vertrag von 1994 und damalige Rechtslage; heutige Fälligkeit zusätzlich nach Paragraf 650v BGB und Paragraf 1 AbschlagsV prüfen, keine automatische Gesamtrückzahlung.",
+          "checked_on": "2026-09-25",
+          "verification_status": "wiederverwendeter_auditnachweis"
+        },
+        {
+          "citation": "BGH, Beschluss vom 12.09.2013, VII ZR 308/12, Rn. 6–11",
+          "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2012/VII_ZR_308-12.pdf?__blob=publicationFile&v=1",
+          "application": "Formularmäßige Abnahmevollmacht für bauträgerbestimmten Erstverwalter wegen ungesicherter Neutralität beanstanden; bloße Widerruflichkeit genügt nicht.",
+          "limit": "Kein Verbot jeder unabhängigen Vertreterabnahme oder der Verwalterbestellung; eigene Abnahme und Verjährung gesondert prüfen.",
+          "checked_on": "2026-09-25",
+          "verification_status": "wiederverwendeter_auditnachweis"
+        },
+        {
+          "citation": "BGH, Urteil vom 22.02.2018, VII ZR 46/17, Rn. 31–37 und 48–54",
+          "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VII_ZS/2017/VII_ZR__46-17A.pdf?__blob=publicationFile&v=1",
+          "application": "Bei behaltenem mangelhaftem Werk Beseitigungsabsicht feststellen: kein kleiner Schadensersatz nach fiktiven Beseitigungskosten, aber zweckgebundener abzurechnender Vorschuss bei geplanter Beseitigung grundsätzlich auch nach Schadensersatzwahl.",
+          "limit": "Werkvertragsrecht, keine allgemeine Übertragung auf Kauf oder Delikt; Anspruchsvoraussetzungen und tatsächliche Dispositionen bleiben gesondert zu prüfen.",
+          "checked_on": "2026-09-25",
+          "verification_status": "wiederverwendeter_auditnachweis",
+          "previous_review": "quality/source-audits/2026-09-25/profile-register.json#BGH-030",
+          "passages_read": "Rn.31–37,48–54",
+          "evidence_sha256": "71b431aa6d7828abd11505b6e8c761de6ab68c371a217e4aec66e85f811e0036"
+        }
+      ],
+      "remaining_limits": [
+        "Desk- und Quellenreview, kein Live-Client- oder Modelltest.",
+        "Weitere ausdrücklich bezeichnete Rechercheentscheidungen zu Nachzüglern und Schäden wurden nicht neu verifiziert; technische Zustandsprüfung bleibt sachverständig.",
+        "Workflow-Anschlussprüfung 23.09.2026: individuelle Text- und Quellenprüfung, keine Live-Client-Ausführung. Frühere Entscheidungsprüfungen und ihre Reichweitengrenzen bleiben unverändert; keine erneute vollständige Rechtsprechungsprüfung behauptet."
+      ]
+    }
+  },
+  "skill_hashes": {
+    "bautraegervertrag-pruefer/skills/abnahme-maengel-weg-pruefen/SKILL.md": "cc8178d14848e4595738b9ac1600e26c8f235e828d5b25c1dadf1e95c7a9a1d2",
+    "bautraegervertrag-pruefer/skills/arbeitsprodukt-bearbeiten/SKILL.md": "18908c50f9b1f7494f191ddaf729cf3526edc72cebb13bff324b8beec4c1ad59",
+    "bautraegervertrag-pruefer/skills/architekt-bearbeiten/SKILL.md": "66618331012aa6a16a248e498a2608442db7b91b1161df80e75cdb8ace754073",
+    "bautraegervertrag-pruefer/skills/bauablauf-bearbeiten/SKILL.md": "a83634564cfef63260fff1532626dda8e90bea4555f38d41ebe51ecef4c97075",
+    "bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md": "fd64659329db4338d6f264cbe13637b6ffb922b09536b3f28cc06358d7066c51",
+    "bautraegervertrag-pruefer/skills/juristischer-argumentationskern/SKILL.md": "d4a376e7bc25c2772aff51b486ea684c05975a06fa1d48c95c3432b92ef18c2d",
+    "bautraegervertrag-pruefer/skills/raten-sicherheiten-eigentum-pruefen/SKILL.md": "37b847782112b8f1ae88f92643f17ee92b98739c79b9eb9b5bb1ce999ef45a07",
+    "bautraegervertrag-pruefer/skills/sonderfaelle-baugruppe-sanierung-pruefen/SKILL.md": "c41627b6b24109d072831670166eaf882824eb679e2e026f4b455f61ee4927e2",
+    "bautraegervertrag-pruefer/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md": "cb721d201cf438fb85ea124256f5f080a8a2fad901eb4a7e325ecb2fb45a10f6",
+    "bautraegervertrag-pruefer/skills/vertragssoll-bearbeiten/SKILL.md": "21e9632a19263f49c14722c89e2a5c5b992fc3ffecb91e9c9a0da9b54c3ac875"
+  },
+  "reviewed_file_hashes": {
+    "bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md": "f0f4911612cc2fde1dc65cd68df55bf004f6cb996a554e345ea744907ce3ba44",
+    "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md": "e20094c6ae194a47f5506dc1ee6161a7effd6d27f76c9ab61c010b6f4bca4034",
+    "bautraegervertrag-pruefer/references/rechtsprechung-und-rollen.md": "18a6871a6dc8a0934a2b9ebea3deb808f66c81904a04e91c70fdd30bf7a79070",
+    "bautraegervertrag-pruefer/skills/gemeinschaft-zieht-maengelrechte-an-sich/FACHINHALT.md": "d65fb5fd1fd04d47bace20ae076f5dd1cc05f862c4ddaa37f9e9aa5363f9e964"
+  },
+  "consolidation_review_2026_11_15": {
+    "date": "2026-11-15",
+    "method": "desk_review",
+    "scope": "Vollständige redaktionelle Lektüre der beiden aktuellen Prompts und der zehn aktiven Skills; auftragsbezogener Desk-Review für Erwerber, Bauträger, GdWE und Verwalter. Gezielte amtliche Quellenprüfung allein zu Gemeinschaftsbeschluss, Abnahme und Verjährungshemmung. Keine erneute fachliche Vollprüfung der 60 Fachdateien, kein Live-Modell- oder Clienttest.",
+    "legacy_profile": {
+      "path": "quality/plugin-consolidation/2026-11-15/legacy-evals/bautraegervertragspruefer.json",
+      "sha256": "0121e9c916ef4f54f0a28e9080b54aa835e8a9f7294c2ca20557aca32f88dd27"
+    },
+    "cases_migrated": [
+      "zwei-raten-vor-fertigstellung"
+    ],
+    "new_cases": [
+      "gdwe-beschluss-ist-keine-hemmung",
+      "bautraeger-antwort-bautenstand",
+      "nur-beschlussentwurf-kein-paket"
+    ],
+    "route_review": "Beide bisherigen Ratenfälle unverändert in Sachverhalt und Kriterien zum neuen Ratenweg zugeordnet. Keiner der bisherigen Fälle zielte auf die drei auslaufenden Router. Deren Fachmaterial ist im Ablauf- bzw. Arbeitsproduktweg erhalten und lokal verknüpft.",
+    "case_status": "Prüfaufträge und Kriterien redaktionell auf aktuelle Arbeitswege abgeglichen; keine Ausführung oder bestandene Modellergebnisse behauptet.",
+    "history": "Frühere Prüfdaten, Quellenstände und historische Hashnachweise unverändert archiviert; neue Hashbindungen gelten nur für die explizit aktuell gelesenen Dateien.",
+    "limits": "Vollständige redaktionelle Lektüre der beiden aktuellen Prompts und der zehn aktiven Skills; auftragsbezogener Desk-Review für Erwerber, Bauträger, GdWE und Verwalter. Gezielte amtliche Quellenprüfung allein zu Gemeinschaftsbeschluss, Abnahme und Verjährungshemmung. Keine erneute fachliche Vollprüfung der 60 Fachdateien, kein Live-Modell- oder Clienttest."
+  },
+  "skill_opening_review_2026_11_16": {
+    "method": "desk_review",
+    "scope": "Konkreter Vertrags- und Belegabgleich im Einstieg, Quellen- und Rollenregeln sowie der getrennte Auftrag für mehrere Dokumente beibehalten."
+  },
+  "modellstichprobe_2026_11_21": {
+    "client": "Codex CLI",
+    "model": "gpt-6.2-astra",
+    "verfahren": "Vollständiger Einstiegstext und synthetische Anfrage in ephemerer Textsitzung, ohne Quelldateien, Erwartungskriterien oder Werkzeugaufrufe. Für jede Antwort wurde die fachliche Einordnung anhand des konkreten Falls gelesen.",
+    "eingaben": {
+      "Hauptskill": {
+        "path": "bautraegervertrag-pruefer/skills/bautraegerpruefung-steuern/SKILL.md",
+        "sha256": "fd64659329db4338d6f264cbe13637b6ffb922b09536b3f28cc06358d7066c51"
+      },
+      "Mini": {
+        "path": "bautraegervertrag-pruefer/bautraegervertrag-pruefer-schnellstart.md",
+        "sha256": "f0f4911612cc2fde1dc65cd68df55bf004f6cb996a554e345ea744907ce3ba44"
+      },
+      "Werkstatt": {
+        "path": "bautraegervertrag-pruefer/bautraegervertrag-pruefer-werkstatt.md",
+        "sha256": "e20094c6ae194a47f5506dc1ee6161a7effd6d27f76c9ab61c010b6f4bca4034"
+      }
+    },
+    "fortsetzung": {
+      "erster_schritt": "vertragsart-zuerst-klaeren",
+      "zweiter_schritt": "erbbaurecht-nachgereichte-urkunde",
+      "verfahren": "Zweiter Aufruf mit der ersten Nutzerfrage und der tatsächlich erzeugten ersten Antwort im Verlauf."
+    },
+    "beobachtungen": [
+      {
+        "case": "baugruppe-oder-anbieter",
+        "entry": "Mini",
+        "observed": "Ordnet die Honorarforderung dem Projektsteuerungsvertrag zu. Prüft zusätzliche Baubetreuung bedingt anhand einer Befugnis zur Verwendung fremder Gelder."
+      },
+      {
+        "case": "bestand-langjaehrig-ohne-baupflicht",
+        "entry": "Werkstatt",
+        "observed": "Wählt Bestandskauf, prüft Zustand bei Übergabe, Haftungsklausel, Kenntnis des Verkäufers und Zuständigkeit für das Dach."
+      },
+      {
+        "case": "erbbaurecht-nachgereichte-urkunde",
+        "entry": "Hauptskill",
+        "observed": "Verwendet §§ 2 und 4 der nachgereichten Urkunde. Bei 300.000 Euro und 20 Prozent sind es höchstens 60.000 Euro vor weiteren Voraussetzungen. Differenz zur Rechnung 30.000 Euro, Verbrauchersicherheit 15.000 Euro."
+      },
+      {
+        "case": "getrennter-verkauf-und-umfassender-umbau",
+        "entry": "Hauptskill",
+        "observed": "Ordnet Kauf und Umbau zunächst A und B zu, fragt nach Kopplungswillen, wechselseitigen Pflichten und in Bezug genommenen Entwürfen."
+      },
+      {
+        "case": "gu-und-einzelgewerk",
+        "entry": "Werkstatt",
+        "observed": "Unterscheidet den Verbraucherbauvertrag des Generalunternehmers vom separaten Dachgewerk. Beide Ausführenden schulden keine Grundstücksübertragung."
+      },
+      {
+        "case": "nachzuegler-erstverwalter",
+        "entry": "Mini",
+        "observed": "Behandelt eigene Herstellungspflicht, fehlende Vollmacht, Formularbindung, mögliche spätere Abnahme, Verjährung und Beschluss der Gemeinschaft gesondert."
+      },
+      {
+        "case": "neubau-eigentum-zahlung",
+        "entry": "Mini",
+        "observed": "Ermittelt für Eigentum 90.000 Euro und unterscheidet den rechnerischen Betrag von den offenen Sicherungs- und Fälligkeitsnachweisen."
+      },
+      {
+        "case": "schlussrate-wesentlicher-mangel",
+        "entry": "Mini",
+        "observed": "Ordnet den Heizungstotalausfall als wesentlich ein und prüft den gesamten Ratenplan mit BGH VII ZR 169/25. Aus der Schlüsselübergabe leitet es keine Fälligkeit ab."
+      },
+      {
+        "case": "umbau-buergschaft-statt-ratenplan",
+        "entry": "Werkstatt",
+        "observed": "Prüft den vereinbarten §-7-Weg, den Rückgewährzweck und den tatsächlichen Bürgschaftstext. Benennt 30.000 Euro Unterdeckung und gibt keine Vorauszahlung frei."
+      },
+      {
+        "case": "umbausoll-und-altbausubstanz",
+        "entry": "Werkstatt",
+        "observed": "Unterscheidet die ausstehende Erneuerung des Dachstuhls von der geschuldeten Reinigung der vorhandenen Treppenstufen. Verlangt den konkreten Ratenplan bei gebündelter Rechnung."
+      },
+      {
+        "case": "urkunden-widerspruch",
+        "entry": "Hauptskill",
+        "observed": "Trennt UR 101 und UR 102, erklärt den Konflikt mit der Wohnungsnummer und verlangt Zuordnung und Prüfung bereits laufender Fristen."
+      },
+      {
+        "case": "vertragsart-zuerst-klaeren",
+        "entry": "Hauptskill",
+        "observed": "Erbittet Eigentums-, Bau- und Zahlungsklauseln sowie Frist. Nennt mögliche Einordnungen und gibt vorab weder einen Vertragstyp noch eine Zahlung frei."
+      }
+    ],
+    "grenzen": "Stichprobe von Textantworten mit einem Modell. Keine GUI-Installation oder Bewertung durch zwei unabhängige Prüfmodelle. Beide Claude-Manifeste bestanden die strenge CLI-Prüfung. Die Textgenerierung von Claude konnte mit der vorhandenen Anmeldung nicht ausgeführt werden."
+  }
+}

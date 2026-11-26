@@ -5,20 +5,56 @@
 
 Super-Plugin zur GOÄ: private Arztrechnungen prüfen, erstellen, begründen, beanstanden und prozessual verwerten.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`goae-gebuehrenordnung-aerzte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/goae-gebuehrenordnung-aerzte.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/goae-gebuehrenordnung-aerzte.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/goae-gebuehrenordnung-aerzte.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/goae-gebuehrenordnung-aerzte.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für GOÄ Gebührenordnung für Ärzte:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`goae-gebuehrenordnung-aerzte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/goae-gebuehrenordnung-aerzte.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-werkstatt.md" download><code>goae-gebuehrenordnung-aerzte-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-schnellstart.md" download><code>goae-gebuehrenordnung-aerzte-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`goae-gebuehrenordnung-aerzte.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/goae-gebuehrenordnung-aerzte.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`goae-gebuehrenordnung-aerzte-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`goae-gebuehrenordnung-aerzte-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/goae-gebuehrenordnung-aerzte-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,11 +63,11 @@ Super-Plugin zur GOÄ: private Arztrechnungen prüfen, erstellen, begründen, be
 ## Wofür dieses Plugin da ist
 Gebührenordnung für Ärzte mit Schwellenwerten, Steigerungssätzen, Analogabrechnung, Zielleistungsprinzip, Auslagen, Wahlleistungen, PKV/Beihilfe und Honorarstreit.
 
-Das Plugin ist als Arbeitswerkzeug gedacht: Es startet mit einem Kaltstart-Interview, sortiert Unterlagen, prüft Fristen und routet dann in Spezial-Skills. Es soll Anfänger an die Hand nehmen und Profis schnell zu belastbaren Outputs bringen.
+Aus Arztrechnung, Leistungsnachweis und Erstattungsbescheid entsteht eine positionsbezogene Prüfung oder das beauftragte Schreiben. Ein klarer Auftrag benötigt kein Kaltstart-Interview; nur entscheidende fehlende Angaben zu Leistung, Vereinbarung oder Begründung werden nachgefragt. Nachgereichte Belege ändern gezielt die betroffene Rechnungsposition und den begonnenen Entwurf.
 
 ## Typischer Workflow
-1. **Allgemein-Skill starten:** Rolle, Ziel, Frist, Unterlagen und gewünschtes Ergebnis klären.
-2. **Dokumente einlesen:** Verträge, Bescheide, Rechnungen, Tabellen, Registerdaten, Behördenpost oder Screenshots strukturieren.
+1. Rechnung und Auftrag lesen: Gebührennummer, Faktor, Begründung, Leistungsdatum und gewünschtes Ergebnis aus den vorhandenen Unterlagen entnehmen.
+2. Entscheidende Lücken klären: Fehlende Honorarvereinbarung, Leistungsdokumentation oder Erstattungsbegründung gezielt benennen; unabhängige Positionen weiterprüfen.
 3. **Spezial-Skill wählen:** Das Plugin schlägt den passenden Skill vor und erklärt, welches Ergebnis damit entsteht.
 4. **Live-Quellen prüfen:** Normtext, Behördenseite, EU-Text, Formular oder frei zugängliche Rechtsprechung aktualisieren.
 5. **Output erzeugen:** Memo, Antrag, Stellungnahme, Vertragsklausel, Berechnung, Checkliste oder Mandantenbrief.
@@ -57,22 +93,30 @@ Dieses Plugin soll keine nicht prüfbaren Fundstellen produzieren. Bei unsichere
 ## Lizenz
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **66 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `analogabrechnung-intake`, `kaltstart-goae-rechnung-pruefen`, `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `abtretung-factoring-arzthonorar-datenschutz`, `arzthonorarprozess-dokumentenplan`, `beihilfe-einwendungen-belegarzt-konsiliararzt`, `belegarzt-und-konsiliararzt-abrechnung`, `gutachten-atteste-bescheinigungen` |
-| 3. Prüfung, Anspruch und Subsumtion | `analoge-bewertung-abrechnung-telemedizin`, `goae-6-gebuehren-fuer-andere-leistungen-analogbewertung`, `livecheck-goae-text-und-reformstand`, `plausibilitaetscheck-rechnung-mathematisch`, `verjaehrung-aerztlicher-honoraranspruch` |
-| 5. Verfahren, Behörde und Gericht | `faelligkeit-verzug-mahnung-honorarklage`, `igel-aufklaerung-klageerwiderung`, `klageerwiderung-honorarprozess` |
-| 6. Ergebnis, Schreiben und Kommunikation | `arztbrief-begruendung-nachfordern`, `op-komplexe-patientenbrief-einwendung`, `patientenbrief-und-einwendung-formulieren` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `red-team-goae-rechnung-halluzinationscheck` |
-| 8. Spezialmodule und Schnittstellen | `5b-standardtarif-gebuehren-andere-6a`, `abrechnung-telemedizin-videosprechstunde-goae`, `abschnitt-a-beratungen-und-untersuchungen`, `abschnitt-b-c-abtretung-factoring`, `abschnitt-c-nichtgebietsbezogene-sonderleistungen`, `anwendungsbereich-berufliche-abweichende`, `arbeitsunfaehigkeitsbescheinigung-privatpatient`, `auslandsbehandlung-deutsche-goae-anwendung`, `begruendung-ueber-schwellenwert-redigieren`, `berufsrecht-ueberhoehte-liquidation`, `ersatz-auslagen-faelligkeit-rechnungspflicht`, `erstattung-pkv-faelligkeit-verzug`, `gebuehrenrahmen-schwellenwert-ampel`, `goae-2-abweichende-vereinbarung-honorarvereinbarung`, `goae-3-verguetungen-gebuehren-entschaedigungen-auslagen`, `goae-5-bemessung-gebuehrenrahmen-2-3-1-8-1-15-schwelle`, `goae-5a-bemessung-im-basistarif`, `goae-6a-stationaere-minderung-25-prozent-15-prozent`, ... plus 27 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/kaltstart-triage/SKILL.md) |
+| 2. Rechnung und Behandlung | [`rechnung-und-behandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/rechnung-und-behandlung-bearbeiten/SKILL.md) |
+| 3. Ziffernkette | [`ziffernkette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/ziffernkette-bearbeiten/SKILL.md) |
+| 4. Faktor und Betrag | [`faktor-und-betrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/faktor-und-betrag-bearbeiten/SKILL.md) |
+| 5. Sonderweg | [`sonderweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/sonderweg-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -80,74 +124,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 65 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `5b-standardtarif-gebuehren-andere-6a` | Wenn es um GOÄ Paragraf 5b Standardtarif PKV in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `abrechnung-telemedizin-videosprechstunde-goae` | Wenn es um Abrechnung Telemedizin Videosprechstunde GOÄ in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `abschnitt-a-beratungen-und-untersuchungen` | Wenn es um Abschnitt A Beratungen und Untersuchungen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `abschnitt-b-c-abtretung-factoring` | Wenn es um Abschnitt B Grundleistungen Zuschläge in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `abschnitt-c-nichtgebietsbezogene-sonderleistungen` | Wenn es um Abschnitt C nichtgebietsbezogene Sonderleistungen in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `abtretung-factoring-arzthonorar-datenschutz` | Wenn es um Abtretung Factoring Arzthonorar Datenschutz in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `analogabrechnung-intake` | Wenn es um Analogabrechnung Intake Paragraf 6 GOÄ in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `analoge-bewertung-abrechnung-telemedizin` | Wenn es um Analoge Bewertung neue Verfahren Innovation in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `anwendungsbereich-berufliche-abweichende` | Wenn es um GOÄ Paragraf 1 Anwendungsbereich berufliche Leistungen in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `arbeitsunfaehigkeitsbescheinigung-privatpatient` | Wenn es um Arbeitsunfähigkeitsbescheinigung Privatpatient in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `arztbrief-begruendung-nachfordern` | Wenn es um Arztbrief Begründung nachfordern in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `arzthonorarprozess-dokumentenplan` | Wenn es um Arzthonorarprozess Dokumentenplan in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `auslandsbehandlung-deutsche-goae-anwendung` | Wenn es um Auslandsbehandlung deutsche GOÄ Anwendung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `begruendung-ueber-schwellenwert-redigieren` | Wenn es um Begründung über Schwellenwert redigieren in GOÄ Gebührenordnung für Ärzte geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `beihilfe-einwendungen-belegarzt-konsiliararzt` | Wenn es um Beihilfe Einwendungen und Differenzbetrag in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `belegarzt-und-konsiliararzt-abrechnung` | Wenn es um Belegarzt und Konsiliararzt Abrechnung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `berufsrecht-ueberhoehte-liquidation` | Wenn es um Berufsrecht überhöhte Liquidation in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `ersatz-auslagen-faelligkeit-rechnungspflicht` | Wenn es um GOÄ Paragraf 10 Ersatz von Auslagen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `erstattung-pkv-faelligkeit-verzug` | Wenn es um Erstattung PKV vs Honoraranspruch Patient in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `faelligkeit-verzug-mahnung-honorarklage` | Wenn es um Fälligkeit Verzug Mahnung Honorarklage in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `gebuehrenrahmen-schwellenwert-ampel` | Wenn es um Gebührenrahmen Schwellenwert Ampel in GOÄ Gebührenordnung für Ärzte geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-2-abweichende-vereinbarung-honorarvereinbarung` | Wenn es um GOÄ Paragraf 2 abweichende Vereinbarung Honorarvereinbarung in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `goae-3-verguetungen-gebuehren-entschaedigungen-auslagen` | Wenn es um GOÄ Paragraf 3 Vergütungen Gebühren Entschädigungen Auslagen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfr... |
-| `goae-5-bemessung-gebuehrenrahmen-2-3-1-8-1-15-schwelle` | Wenn es um GOÄ Paragraf 5 Bemessung Gebührenrahmen 2.3 1.8 1.15 Schwelle in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollf... |
-| `goae-5a-bemessung-im-basistarif` | Wenn es um GOÄ Paragraf 5a Bemessung im Basistarif in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-6-gebuehren-fuer-andere-leistungen-analogbewertung` | Wenn es um GOÄ Paragraf 6 Gebühren für andere Leistungen Analogbewertung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollf... |
-| `goae-6a-stationaere-minderung-25-prozent-15-prozent` | Wenn es um GOÄ Paragraf 6a stationäre Minderung 25 Prozent 15 Prozent in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `goae-8-wegegeld` | Wenn es um GOÄ Paragraf 8 Wegegeld in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-9-reiseentschaedigung` | Wenn es um GOÄ Paragraf 9 Reiseentschädigung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-12-faelligkeit-und-rechnungspflicht` | Wenn es um GOÄ Paragraf 12 Fälligkeit und Rechnungspflicht in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-14-zahlung-durch-oeffentliche-leistungstraeger` | Wenn es um GOÄ Paragraf 14 Zahlung durch öffentliche Leistungsträger in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `goae-entschaedigungen-wegegeld` | Wenn es um GOÄ Paragraf 7 Entschädigungen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-reform-referentenentwuerfe-beobachten` | Wenn es um GOÄ Reform Referentenentwürfe beobachten in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `goae-selbstaendige-aerztliche-bemessung` | Wenn es um GOÄ Paragraf 4 selbständige ärztliche Leistung Zielleistungsprinzip in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschrit... |
-| `gutachten-atteste-bescheinigungen` | Wenn es um Gutachten Atteste Bescheinigungen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `igel-aufklaerung-klageerwiderung` | Wenn es um IGeL Aufklärung Kosteninformation in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kaltstart-goae-rechnung-pruefen` | Wenn es um Kaltstart GOÄ Rechnung prüfen in GOÄ Gebührenordnung für Ärzte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um GOÄ Gebührenordnung für Ärzte — Allgemein in GOÄ Gebührenordnung für Ärzte geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klageerwiderung-honorarprozess` | Wenn es um Klageerwiderung Honorarprozess in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `kosmetische-leistungen-medizinische-indikation` | Wenn es um Kosmetische Leistungen medizinische Indikation in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `laborleistungen-hoechstsatz-leistungskette` | Wenn es um Laborleistungen und Höchstsatz Besonderheiten in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `leistungskette-zielleistung-keine-aufspaltung` | Wenn es um Leistungskette Zielleistung keine Aufspaltung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `livecheck-goae-text-und-reformstand` | Wenn es um Livecheck GOÄ Text und Reformstand in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `m-iii-mandantenmail-patient-materialkosten` | Wenn es um M III M IV Labor Delegation Speziallabor in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `mandantenmail-patient-freundlich-klar` | Wenn es um Mandantenmail Patient freundlich klar in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `materialkosten-auslagen-abgrenzung-10-goae` | Wenn es um Materialkosten Auslagen Abgrenzung Paragraf 10 GOÄ in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `mehrfachansatz-ausschluesse-minderjaehrige` | Wenn es um Mehrfachansatz Ausschlüsse Nebeneinanderberechnung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `minderjaehrige-einwilligung-rechnung-schuldner` | Wenn es um Minderjährige Einwilligung Rechnung Schuldner in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `notfall-behandlung-ausserhalb-sprechstunde` | Wenn es um Notfall Behandlung außerhalb Sprechstunde in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `op-komplexe-patientenbrief-einwendung` | Wenn es um OP-Komplexe Narkose Assistenz Zuschläge in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `patientenbrief-und-einwendung-formulieren` | Wenn es um Patientenbrief und Einwendung formulieren in GOÄ Gebührenordnung für Ärzte geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenl... |
-| `plausibilitaetscheck-rechnung-mathematisch` | Wenn es um Plausibilitätscheck Rechnung mathematisch in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `psychotherapie-psychiatrie-radiologie` | Wenn es um Psychotherapie Psychiatrie Gesprächsleistungen in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `radiologie-schnittbild-zielleistung` | Wenn es um Radiologie Schnittbild Zielleistung in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `rechnung-pdf-reform-referentenentwuerfe` | Wenn es um GOÄ Rechnung aus PDF extrahieren in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `red-team-goae-rechnung-halluzinationscheck` | Wenn es um Red-Team GOÄ Rechnung Halluzinationscheck in GOÄ Gebührenordnung für Ärzte geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sachverstaendigenfragen-goae-streit` | Wenn es um Sachverständigenfragen GOÄ Streit in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `schlichtungsstelle-aerztekammer-stationaere` | Wenn es um Schlichtungsstelle Ärztekammer Honorarstreit in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `stationaere-privataerztliche-liquidation` | Wenn es um Stationäre privatärztliche Liquidation in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `steigerungssatz-begruendung-individuell-patientenbezogen` | Wenn es um Steigerungssatz Begründung individuell patientenbezogen in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tabellenexport-pruefliste-verjaehrung` | Wenn es um Tabellenexport GOÄ Prüfliste in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `verjaehrung-aerztlicher-honoraranspruch` | Wenn es um Verjährung ärztlicher Honoraranspruch in GOÄ Gebührenordnung für Ärzte geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wahlleistungsvereinbarung-krankenhaus-goae` | Wenn es um Wahlleistungsvereinbarung Krankenhaus GOÄ in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `wegegeld-besuch-zahnaerztliche-schnittstelle` | Wenn es um Wegegeld Besuch mehrere Patienten in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `zahnaerztliche-schnittstelle-goz-goae` | Wenn es um Zahnärztliche Schnittstelle GOZ GOÄ in GOÄ Gebührenordnung für Ärzte geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Arbeitsprodukt: korrigierte Rechnung, Ziffern- und Faktormatrix, Begründungstext, Einwendung, Zahlungsaufforderung oder Klagebaustein erstellen. Vollständige Fachanweisungen und lokale Vor... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`faktor-und-betrag-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/faktor-und-betrag-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Faktor und Betrag: Leistungsgruppe, Schwellen- und Höchstsatz, individuelle Begründung, Punktzahl, Punktwert, Minderung und Rechenweg kontrollieren. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/faktor-und-betrag-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/juristischer-argumentationskern/SKILL.md) | GOÄ-Rechnung bis zur nachgerechneten Stellungnahme prüfen. Verarbeitet vorhandene Unterlagen, prüft entscheidende Fachfragen und führt den Auftrag zum vollständig formulierten Ergebnis. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/kaltstart-triage/SKILL.md) | Für GOÄ Gebührenordnung für Ärzte — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/kaltstart-triage/SKILL.md) |
+| [`rechnung-und-behandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/rechnung-und-behandlung-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Rechnung und Behandlung: Arzt, Zahlungspflichtiger, Behandlungsdatum, Leistung, Diagnosebezug, Rechnung, Fälligkeit und Einwendung erfassen. Vollständige Fachanweisungen und lokale Vorlage... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/rechnung-und-behandlung-bearbeiten/SKILL.md) |
+| [`sonderweg-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/sonderweg-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Sonderweg: Honorarvereinbarung, Wahlleistung, Auslagen, Wegegeld, Basistarif, Beihilfe oder PKV-Erstattung getrennt bewerten. Vollständige Fachanweisungen und lokale Vorlagen werden geziel... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/sonderweg-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`ziffernkette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/ziffernkette-bearbeiten/SKILL.md) | Für Privatärztliches Gebührenrecht nach der GOÄ: Ziffernkette: Leistungsinhalt, Ausschlüsse, Zielleistung, Nebeneinanderberechnung, Analogansatz und Dokumentation positionsweise prüfen. Vollständige Fachanweisungen und lokale Vorlagen we... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=goae-gebuehrenordnung-aerzte/skills/ziffernkette-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Jurastudium geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Jurastudium."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Jurastudium** vom ersten Sachverhalt zu Rollen, Fristen
 
 ## Fachlandkarte dieses Plugins
 
-- `ag-vorbereitung-examens-prognose` — AG Vorbereitung Examens Prognose
-- `anschluss-router` — Anschluss Router
-- `examens-prognose` — Examens Prognose
-- `examensvorbereitung-fragen` — Examensvorbereitung Fragen
-- `fall-zusammenfassung-gliederungs-baukasten` — Fall Zusammenfassung Gliederungs Baukasten
-- `gliederungs-baukasten` — Gliederungs Baukasten
-- `gutachten-uebung` — Gutachten Uebung
-- `gutachtenstil-internationaler-bezug-und-schnittstellen` — Gutachtenstil Internationaler Bezug und Schnittstellen
-- `juristisches-schreiben` — Juristisches Schreiben
-- `juristisches-schreiben-jus` — Juristisches Schreiben JUS
-- `jus-klausurtraining-leitfaden` — JUS Klausurtraining Leitfaden
-- `jus-referendariat-stationen-staatsexamen` — JUS Referendariat Stationen Staatsexamen
-- `jus-staatsexamen-vorbereitung-spezial` — JUS Staatsexamen Vorbereitung Spezial
-- `dokumente-intake` — Dokumente Intake
-- `output-waehlen` — Output Waehlen
+- `fallfrage-bearbeiten` (Fachthema: ag-vorbereitung-examens-prognose) — AG Vorbereitung Examens Prognose
+- `fallfrage-bearbeiten` (Fachthema: anschluss-router) — Anschluss Router
+- `fallfrage-bearbeiten` (Fachthema: examens-prognose) — Examens Prognose
+- `fallfrage-bearbeiten` (Fachthema: examensvorbereitung-fragen) — Examensvorbereitung Fragen
+- `arbeitsprodukt-bearbeiten` (Fachthema: fall-zusammenfassung-gliederungs-baukasten) — Fall Zusammenfassung Gliederungs Baukasten
+- `fallfrage-bearbeiten` (Fachthema: gliederungs-baukasten) — Gliederungs Baukasten
+- `arbeitsprodukt-bearbeiten` (Fachthema: gutachten-uebung) — Gutachten Uebung
+- `arbeitsprodukt-bearbeiten` (Fachthema: gutachtenstil-internationaler-bezug-und-schnittstellen) — Gutachtenstil Internationaler Bezug und Schnittstellen
+- `subsumtion-bearbeiten` (Fachthema: juristisches-schreiben) — Juristisches Schreiben
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: juristisches-schreiben-jus) — Juristisches Schreiben JUS
+- `fallfrage-bearbeiten` (Fachthema: jus-klausurtraining-leitfaden) — JUS Klausurtraining Leitfaden
+- `fallfrage-bearbeiten` (Fachthema: jus-referendariat-stationen-staatsexamen) — JUS Referendariat Stationen Staatsexamen
+- `fallfrage-bearbeiten` (Fachthema: jus-staatsexamen-vorbereitung-spezial) — JUS Staatsexamen Vorbereitung Spezial
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: output-waehlen) — Output Waehlen
 
 ## Arbeitsweg
 
@@ -41,23 +41,22 @@ Dieser Einstieg routet **Jurastudium** vom ersten Sachverhalt zu Rollen, Fristen
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
 
-## Normen und Rechtsprechung
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
 
-### Kuratierte Normen-Bibliothek
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
 
-- § 242 StGB
-- § 35 VwVfG
-- § 15 StGB
-- § 1 StGB
-- § 70 VwGO
-- Art. 3 GG
-- § 32 StGB
-- § 16 StGB
-- § 2 HRG
-- § 4 HRG
-- § 7 HRG
-- § 15 HRG
+**Leitfrage für Juristische Ausbildung und Falllösung:** An welcher Weichenstellung entscheidet sich die Falllösung und warum?
 
-### Leitentscheidungen
+**Erste Ansicht:** Zeige einen kleinen Lösungsweg mit Sachverhaltsankern, Voraussetzungen und alternativen Folgen. Veranschauliche zuerst genau den Punkt, an dem das Verständnis fehlt.
 
-- BGH VI ZR 116/12
+**Sinnvolle Interaktion:** Bei einer Übung die Antwort des Lernenden abwarten und nur die betroffene Weiche erläutern; die verlangte Lösungstiefe beachten. Ein Aufgabenmodus darf nicht versehentlich die Musterlösung offenlegen.
+
+**Datengrundlage:** Aufgabe, Ausbildungsstand, belegter Sachverhalt, Bearbeitungsziel und gewünschte Lösungstiefe. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** die angeforderte Erklärung, Übungsrückmeldung oder vollständig begründete Falllösung. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

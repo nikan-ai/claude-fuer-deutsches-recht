@@ -1,9 +1,17 @@
 ---
 name: kommandocenter
-description: "Wenn es um Kommandocenter in Kanzlei-Allgemein geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Kanzleivorgang vom Eingang bis zur kontrollierten Erledigung führen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angaben fort."
 ---
 
-# Kommandocenter
+# Kanzleivorgang vom Eingang bis zur kontrollierten Erledigung führen
+
+Ordne Nachricht, Mandant, Akte, Auftrag, Zustellung und Zuständigkeit zu; sichere unmittelbar drohende Fristen vor weiterer Bearbeitung.
+
+**Entscheidung im Arbeitsablauf:** Trenne Aufnahme, juristische Bearbeitung, Kosten, Dokumentproduktion und Versandkontrolle. Ein Sendeprotokoll oder Aktenstatus ersetzt keine Prüfung der richtigen Datei und des tatsächlichen Eingangs.
+
+**Bis zum Ergebnis weiterarbeiten:** Erstelle das beauftragte Schreiben oder den erledigungsfähigen Arbeitsvorgang samt verantwortlicher Folgehandlung; interne Organisation bleibt außerhalb des Empfängertextes. Eine geänderte Endfassung verlangt erneuten Inhalts-, Signatur- und Anlagenabgleich; eine ausbleibende Eingangsbestätigung löst rechtzeitige Klärung aus.
+
+[Arbeitsweg und konkrete Quellenkarten](../../references/hauptworkflow-und-rechtsprechung.md) vertiefen die Entscheidung und benennen den jeweiligen Quellenstatus. Nutze bestehende Fachschritte bedarfsgerecht und arbeite deren Ergebnis in denselben Entwurf ein.
 
 ## Arbeitsweg
 
@@ -74,9 +82,9 @@ Immer mit dieser Struktur starten:
 
 ## Jetzt
 
-1.
-2.
-3.
+1. Sofortmaßnahme mit Verantwortlichem
+2. Folgeschritt mit Frist
+3. Abschlusskontrolle mit Freigabestatus
 ```
 
 ## Anfängerfreundlichkeit
@@ -112,3 +120,22 @@ Immer mit dieser Struktur starten:
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
 
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Kanzleibetrieb und Mandatssteuerung:** Wie wird aus dem vorhandenen Material ein für den Empfänger verwendbares Ergebnis?
+
+**Erste Ansicht:** Zeige die kurze Verarbeitungskette von Eingangsdatei über konkrete Änderung bis zum Ergebnis. Bei Texten nutze eine verständliche Vorher-nachher-Ansicht; bei Dokumentpaketen einen nachvollziehbaren Anlagen- oder Versionsstand.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Absatz, Datei oder Zielgruppe soll genau die betroffene Ausgabe fortschreiben. Zeige eine echte Vorschau nur, wenn die Datei tatsächlich erzeugt und geöffnet wurde.
+
+**Datengrundlage:** Eingangsdatei und Fassung, Empfänger, gewünschtes Ergebnis, Änderung, Beleg oder Vorlage und tatsächlicher Exportstatus. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** die fertige angeforderte Datei oder, bei fehlendem Export, ihr vollständig verwendbarer Inhalt. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

@@ -5,20 +5,67 @@
 
 Großes Versicherungsrecht-Plugin für VVG, VAG, europäische Versicherungsaufsicht, Lebensversicherung, BU, PKV, Rechtsschutz, Kreditversicherung, D&O, Cyber, Sach- und Haftpflichtdeckung.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`versicherungsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/versicherungsrecht.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/versicherungsrecht.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/versicherungsrecht-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/versicherungsrecht-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/versicherungsrecht.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/versicherungsrecht.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Versicherungsrecht:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`versicherungsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/versicherungsrecht.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/versicherungsrecht/versicherungsrecht-werkstatt.md" download><code>versicherungsrecht-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/versicherungsrecht/versicherungsrecht-schnellstart.md" download><code>versicherungsrecht-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Brandstiftung Lagerhalle Magdeburg-Rothensee: [Gesamt-PDF](../testakten/strafrecht-brandstiftung-lagerhalle-magdeburg/gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf), [`testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip), [`testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`versicherungsrecht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/versicherungsrecht.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`versicherungsrecht-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/versicherungsrecht-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`versicherungsrecht-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/versicherungsrecht-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [BGB: Geliehenes E-Bike, Ladegerät und Kellerbrand in Freiburg](../testakten/bgb-leihe-e-bike-akkubrand-freiburg/README.md) | [Gesamt-PDF](../testakten/bgb-leihe-e-bike-akkubrand-freiburg/gesamt-pdf/bgb-leihe-e-bike-akkubrand-freiburg_gesamt.pdf) | [`testakte-bgb-leihe-e-bike-akkubrand-freiburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bgb-leihe-e-bike-akkubrand-freiburg.zip) | [`testakte-bgb-leihe-e-bike-akkubrand-freiburg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bgb-leihe-e-bike-akkubrand-freiburg-einzelpdfs.zip) |
+| [Brandstiftung Lagerhalle Magdeburg-Rothensee](../testakten/strafrecht-brandstiftung-lagerhalle-magdeburg/README.md) | [Gesamt-PDF](../testakten/strafrecht-brandstiftung-lagerhalle-magdeburg/gesamt-pdf/strafrecht-brandstiftung-lagerhalle-magdeburg_gesamt.pdf) | [`testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg.zip) | [`testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafrecht-brandstiftung-lagerhalle-magdeburg-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du einen Deckungsanspruch prüfen und gegen die Ablehnung des Versicherers durchsetzen.
@@ -33,7 +80,7 @@ Großes, praxisnahes Versicherungsrecht-Plugin für Deckung, Ablehnung, Vertrags
 
 ## Startlogik
 
-Beginne mit dem allgemeinen Skill. Er fragt Rolle, Ziel, Fristen, Unterlagen, Eskalationsniveau und gewünschten Output ab. Danach schlägt er nur die Spezial-Skills vor, die zum Fall passen.
+Starten Sie mit `vers-kaltstart-routing` und Police, Versicherungsbedingungen, Schadensunterlagen sowie vorhandener Korrespondenz. Das Plugin trennt Deckung, Leistung, Obliegenheiten und Vermittlerhaftung anhand des Auftrags. Nur entscheidende Lücken werden nachgefragt; das beauftragte Anspruchsschreiben, die Deckungsanfrage oder die Prüfung wird anschließend vollständig ausgearbeitet und mit Folgeangaben fortgeführt.
 
 ## Quellenhygiene
 
@@ -42,25 +89,35 @@ Normtexte werden aus amtlichen Quellen geprüft. Rechtsprechung wird nur mit Ger
 ## Installation in der Plugin-Umgebung
 
 1. ZIP herunterladen (Link oben).
-2. Plugin-Menü öffnen, `Install from .zip` wählen und die Datei auswählen.
-3. Fertig. Skills sind sofort verfügbar.
+2. Plugin-Menü öffnen, `Upload plugin` wählen und die Datei auswählen.
+3. Plugin aktivieren und eine neue Aufgabe öffnen; den passenden Skill ausdrücklich auswählen.
 
 > **Hinweis:** Für den ZIP-Upload muss das Archiv direkt `.claude-plugin/plugin.json`, `skills/`, `assets/` und `references/` im ZIP-Root enthalten. Nicht das komplette Repository-ZIP aus "Code → Download ZIP" verwenden.
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **65 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `vers-dokumentenintake-police-avb-nachtraege`, `vers-kaltstart-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `bu-abstrakte-konkrete-verweisung`, `bu-berufsbild-bu-nachpruefung-datenschutz`, `datenschutz-schweigepflicht-gesundheitsdaten`, `idd-vertrieb-beratung-dokumentation`, `versicherungsmakler-haftung-deckungsluecke` |
-| 3. Prüfung, Anspruch und Subsumtion | `bu-nachpruefung-anerkenntnis-leistungseinstellung`, `d-o-claims-made-innenhaftung-43-gmbhg`, `direktanspruch-pflichtversicherung-eiopa`, `kreditversicherung-obliegenheiten-limit-pruefung`, `lebensversicherung-ueberschussbeteiligung-bewertungsreserven` |
-| 4. Gestaltung, Strategie und Verhandlung | `dora-cyber-abfindung-entschaedigungsquittung`, `rechtsschutz-vorvertraglichkeit-schadenereignis`, `vergleich-abfindung-entschaedigungsquittung` |
-| 5. Verfahren, Behörde und Gericht | `rechtsabteilung-rechtsschutzversicherung-im-massenverfahren`, `sachverstaendigenverfahren-versicherung`, `vers-fristen-verjaehrung-klagefrist-fallkalender` |
-| 8. Spezialmodule und Schnittstellen | `betriebshaftpflicht-versicherungsfall-serienschaden`, `betriebsunterbrechung-sachschaden-trigger`, `cyberversicherung-ransomware-d-o`, `deckungsprozess-vvg-rechtsabteilung`, `eiopa-grenzueberschreitender-vertrieb`, `elementarschaden-starkregen-ueberschwemmung`, `gewerbe-betriebsschliessung-infektionsschutz`, `hausrat-einbruchdiebstahl-idd-vertrieb`, `internationales-versicherungsprogramm-master-local-policy`, `kfz-haftpflicht-kasko-grobe-krankentagegeld`, `kfz-kasko-grobe-fahrlaessigkeit-entwendung`, `krankentagegeld-berufsunfaehigkeit-abgrenzung`, `kreditausfallversicherung-warenkredit`, `lebensversicherung-bezugsrecht-widerruf-aenderung`, `lebensversicherung-rueckkaufswert`, `nachhaltigkeit-taxonomie-sfdr-versicherungsprodukt`, `pkv-kostenerstattung-private`, `private-krankenversicherung-beitragsanpassung-treuhaender`, ... plus 28 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Vertrag und Sparte | [`vertrag-und-sparte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/vertrag-und-sparte-bearbeiten/SKILL.md) |
+| 3. Versicherungsfall | [`versicherungsfall-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/versicherungsfall-bearbeiten/SKILL.md) |
+| 4. Obliegenheiten | [`obliegenheiten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/obliegenheiten-bearbeiten/SKILL.md) |
+| 5. Deckung und Regulierung | [`deckung-und-regulierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/deckung-und-regulierung-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -68,73 +125,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 64 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `betriebshaftpflicht-versicherungsfall-serienschaden` | Wenn es um Betriebshaftpflicht: Versicherungsfall und Serienschaden in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risik... |
-| `betriebsunterbrechung-sachschaden-trigger` | Wenn es um Betriebsunterbrechung: Sachschaden-Trigger in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `bu-abstrakte-konkrete-verweisung` | Wenn es um BU: abstrakte und konkrete Verweisung in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bu-berufsbild-bu-nachpruefung-datenschutz` | Wenn es um BU: Berufsbild und 50-Prozent-Prüfung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `bu-nachpruefung-anerkenntnis-leistungseinstellung` | Wenn es um BU: Anerkenntnis, Nachprüfung, Leistungseinstellung in Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `cyberversicherung-ransomware-d-o` | Wenn es um Cyberversicherung: Ransomware, DORA, Sanktionen in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `d-o-claims-made-innenhaftung-43-gmbhg` | Wenn es um D&O: Claims-made, Innenhaftung und Organstreit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `datenschutz-schweigepflicht-gesundheitsdaten` | Wenn es um Gesundheitsdaten, Schweigepflicht und Versicherer in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `deckungsprozess-vvg-rechtsabteilung` | Wenn es um Deckungsprozess und Gerichtsstand Paragraf 215 VVG in Versicherungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `direktanspruch-pflichtversicherung-eiopa` | Wenn es um Direktanspruch in Pflichtversicherung Paragraf 115 VVG in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `dora-cyber-abfindung-entschaedigungsquittung` | Wenn es um DORA für Versicherer und Vermittler in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `eiopa-grenzueberschreitender-vertrieb` | Wenn es um EIOPA und grenzüberschreitender Versicherungsvertrieb in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `elementarschaden-starkregen-ueberschwemmung` | Wenn es um Elementarschaden: Starkregen und Überschwemmung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `gewerbe-betriebsschliessung-infektionsschutz` | Wenn es um Betriebsschließungsversicherung und Infektionsschutz in Versicherungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `hausrat-einbruchdiebstahl-idd-vertrieb` | Wenn es um Hausrat: Einbruchdiebstahl und Entschädigungsgrenzen in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `idd-vertrieb-beratung-dokumentation` | Wenn es um IDD/VVG-Vertrieb: Beratung und Dokumentation in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `internationales-versicherungsprogramm-master-local-policy` | Wenn es um Internationale Versicherungsprogramme: Master und Local Policy in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigk... |
-| `kfz-haftpflicht-kasko-grobe-krankentagegeld` | Wenn es um Kfz-Haftpflicht: Regress bei Alkohol, Flucht, Obliegenheit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Ris... |
-| `kfz-kasko-grobe-fahrlaessigkeit-entwendung` | Wenn es um Kfz-Kasko: Entwendung, Unfall, grobe Fahrlässigkeit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `krankentagegeld-berufsunfaehigkeit-abgrenzung` | Wenn es um Krankentagegeld vs. Berufsunfähigkeit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sch... |
-| `kreditausfallversicherung-warenkredit` | Wenn es um Kreditausfallversicherung und Warenkreditversicherung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `kreditversicherung-obliegenheiten-limit-pruefung` | Wenn es um Kreditversicherung: Limitprüfung und Obliegenheiten in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `lebensversicherung-bezugsrecht-widerruf-aenderung` | Wenn es um Lebensversicherung: Bezugsrecht, Widerruf, Änderung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken un... |
-| `lebensversicherung-rueckkaufswert` | Wenn es um Lebensversicherung: Rückkaufswert, Abschlusskosten, Widerspruch in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten... |
-| `lebensversicherung-ueberschussbeteiligung-bewertungsreserven` | Wenn es um Überschussbeteiligung und Bewertungsreserven in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächs... |
-| `nachhaltigkeit-taxonomie-sfdr-versicherungsprodukt` | Wenn es um Nachhaltigkeit bei Versicherungsprodukten in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `pkv-kostenerstattung-private` | Wenn es um PKV: Kostenerstattung und medizinische Notwendigkeit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `private-krankenversicherung-beitragsanpassung-treuhaender` | Wenn es um PKV: Beitragsanpassung und Treuhänder in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `produkthaftpflicht-rueckrufkosten` | Wenn es um Produkthaftpflicht und Rückrufkosten in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `rechtsabteilung-betriebsunterbrechung` | Wenn es um Rechtsabteilung: Betriebsunterbrechung und Lieferkettenausfall in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `rechtsabteilung-cyberversicherung-nach-ransomware` | Wenn es um Rechtsabteilung: Cyberversicherung nach Ransomware in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `rechtsabteilung-d-umwelthaftpflicht` | Wenn es um Rechtsabteilung: D&O-Deckung bei Organhaftung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `rechtsabteilung-idd-vertrieb-und-provisionskonflikt` | Wenn es um Rechtsabteilung: IDD-Vertrieb und Provisionskonflikt in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `rechtsabteilung-rechtsschutzversicherung-im-massenverfahren` | Wenn es um Rechtsabteilung: Rechtsschutzversicherung im Massenverfahren in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, R... |
-| `rechtsschutz-deckungszusage-erfolgsaussicht` | Wenn es um Rechtsschutz: Deckungszusage und Stichentscheid in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `rechtsschutz-erfolgsaussicht-mutwilligkeit` | Wenn es um Rechtsschutz: Erfolgsaussicht und Mutwilligkeit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nä... |
-| `rechtsschutz-vorvertraglichkeit-schadenereignis` | Wenn es um Rechtsschutz: Vorvertraglichkeit und Schadenereignis in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `reiseversicherung-ruecktritt-abbruch-krankheit` | Wenn es um Reiseversicherung: Rücktritt, Abbruch, Krankheit in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und n... |
-| `restschuldversicherung-widerruf` | Wenn es um Restschuldversicherung und Verbraucherdarlehen in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `rueckversicherung-cut-through-und-fronting` | Wenn es um Rückversicherung, Cut-through und Fronting in Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sachverstaendigenverfahren-versicherung` | Wenn es um Sachverständigenverfahren in der Versicherung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `solvency-ii-scr-orsa-aufsichtsrecht` | Wenn es um Solvency II, SCR und ORSA für Versicherer in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `subrogation-regress-transportversicherung` | Wenn es um Regress und Legalzession Paragraf 86 VVG in Versicherungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `transportversicherung-ware-lagerung` | Wenn es um Transportversicherung: Ware, Lagerung, Lieferkette in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `umwelthaftpflicht-umweltschadenversicherung` | Wenn es um Umwelthaftpflicht und Umweltschadenversicherung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `unfallversicherung-invaliditaet-vers` | Wenn es um Private Unfallversicherung: Invalidität, Fristen, Gliedertaxe in Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vag-bafin-aufsicht-beschwerde-missstand` | Wenn es um VAG/BaFin-Aufsicht: Beschwerde und Missstand in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächs... |
-| `vergleich-abfindung-entschaedigungsquittung` | Wenn es um Vergleich, Abfindung und Entschädigungsquittung in Versicherungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `vers-deckungsablehnung-redteam` | Wenn es um Deckungsablehnung Red-Team in Versicherungsrecht geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vers-dokumentenintake-police-avb-nachtraege` | Wenn es um Police, AVB, Nachträge und Maklerakte lesbar machen in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vers-fristen-verjaehrung-klagefrist-fallkalender` | Wenn es um Fristenkalender für Versicherungsfälle in Versicherungsrecht geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vers-kaltstart-routing` | Wenn es um Versicherungsrecht: Kaltstart, Rollenklärung und Triage in Versicherungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vers-ombudsmann-versicherungsbetrug` | Wenn es um Ombudsmann, BaFin-Beschwerde oder Klage? in Versicherungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `versicherungsbetrug-verdachtsfall-kooperation-strafrecht` | Wenn es um Verdacht Versicherungsbetrug und Kooperation mit Strafrecht in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Ri... |
-| `versicherungsmakler-haftung-deckungsluecke` | Wenn es um Versicherungsmaklerhaftung bei Deckungslücken in Versicherungsrecht geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `versicherungsprodukt-agb-betriebshaftpflicht` | Wenn es um Versicherungsbedingungen als AGB prüfen in Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `versicherungssumme-unterversicherung-taxwert` | Wenn es um Versicherungssumme, Unterversicherung und Taxwert in Versicherungsrecht geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vvg-anzeigepflicht-ruecktritt-arglist` | Wenn es um Vorvertragliche Anzeigepflicht Paragraf 19 VVG in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `vvg-arglist-taeuschung-anfechtung` | Wenn es um Arglistanfechtung des Versicherers in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vvg-falligkeit-14-abschlagszahlung` | Wenn es um Fälligkeit und Abschlagszahlung Paragraf 14 VVG in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachw... |
-| `vvg-gefahrerhoehung-mehrfachversicherung` | Wenn es um Gefahrerhöhung Paragrafen 23–27 VVG in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `vvg-obliegenheit-28-quotelung-kausalitaet` | Wenn es um Obliegenheitsverletzung Paragraf 28 VVG und Quotierung in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `vvg-versicherung-wohngebaeude-leitungswasser` | Wenn es um Versicherung für fremde Rechnung Paragrafen 43–48 VVG in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und... |
-| `wohngebaeude-leitungswasser-sturm-hagel-brand` | Wenn es um Wohngebäudeversicherung: Leitungswasser, Sturm, Brand in Versicherungsrecht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und... |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Versicherungsrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Versicherungsrecht: Arbeitsprodukt: Deckungsmemo, Anspruchsschreiben, Ablehnungsschreiben, Vergleichsvorschlag oder Klageentwurf formulieren. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`deckung-und-regulierung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/deckung-und-regulierung-bearbeiten/SKILL.md) | Versicherungsrecht: Deckung und Regulierung: Leistungsentscheidung, Quote, Regress, Verjährung und Prozessrisiko ausarbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/deckung-und-regulierung-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/juristischer-argumentationskern/SKILL.md) | Versicherungsfall bis zum belastbaren Leistungs- oder Ablehnungsschreiben prüfen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeitete... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/juristischer-argumentationskern/SKILL.md) |
+| [`obliegenheiten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/obliegenheiten-bearbeiten/SKILL.md) | Versicherungsrecht: Obliegenheiten: vorvertragliche Anzeige, Gefahrerhöhung, Schadenanzeige, Mitwirkung und Rechtsfolgenbelehrung prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/obliegenheiten-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Versicherungsrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`versicherungsfall-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/versicherungsfall-bearbeiten/SKILL.md) | Versicherungsrecht: Versicherungsfall: Eintritt, Anzeige, Schadenhöhe, Kausalität, Ausschluss und Beweislast ordnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/versicherungsfall-bearbeiten/SKILL.md) |
+| [`vertrag-und-sparte-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/vertrag-und-sparte-bearbeiten/SKILL.md) | Versicherungsrecht: Vertrag und Sparte: Versicherungsart, Versicherungsnehmer, versicherte Person, Risiko, Laufzeit und Bedingungen erfassen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=versicherungsrecht/skills/vertrag-und-sparte-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

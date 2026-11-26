@@ -1,42 +1,99 @@
-
+# Verbraucherinsolvenz und Schuldenbereinigung
 
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
 Verbraucherinsolvenz und Schuldenbereinigung nach InsO: außergerichtlicher Einigungsversuch, Schuldenbereinigungsplan, Antrag, Restschuldbefreiung, P-Konto, ehemalige Selbstständige und lebensnahe Verfahrensführung.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`verbraucherinsolvenz-schuldenbereinigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/verbraucherinsolvenz-schuldenbereinigung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/verbraucherinsolvenz-schuldenbereinigung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/verbraucherinsolvenz-schuldenbereinigung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/verbraucherinsolvenz-schuldenbereinigung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Verbraucherinsolvenz und Schuldenbereinigung:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verbraucherinsolvenz-schuldenbereinigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/verbraucherinsolvenz-schuldenbereinigung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-werkstatt.md" download><code>verbraucherinsolvenz-schuldenbereinigung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-schnellstart.md" download><code>verbraucherinsolvenz-schuldenbereinigung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Akte Reimers: Verbraucherinsolvenz, ehemaliger Geschäftsführer und Schuldenbereinigungsplan: [Gesamt-PDF](../testakten/verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung/gesamt-pdf/verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung_gesamt.pdf), [`testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung.zip), [`testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`verbraucherinsolvenz-schuldenbereinigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/verbraucherinsolvenz-schuldenbereinigung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`verbraucherinsolvenz-schuldenbereinigung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`verbraucherinsolvenz-schuldenbereinigung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/verbraucherinsolvenz-schuldenbereinigung-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+[Grundakten für Insolvenzrecht mit Eingangspost, Rückfragen und Belegen](https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/docs/grundakten-lebenswelt/Fachakten.md#insolvenzrecht)
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Akte Reimers: Verbraucherinsolvenz, ehemaliger Geschäftsführer und Schuldenbereinigungsplan](../testakten/verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung/README.md) | [Gesamt-PDF](../testakten/verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung/gesamt-pdf/verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung_gesamt.pdf) | [`testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung.zip) | [`testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-verbraucherinsolvenz-reimers-ehemaliger-gf-schuldenbereinigung-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
+
+[Oberordner Insolvenzrecht – alle eigenständigen Plugins nach Aufgabe](../insolvenzrecht-plugins/README.md)
+
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **7 auswählbare Skills**. Die **70 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `abschluss-und-neustart`, `kaltstart-schuldenbild-glaeubiger-sofortschutz`, `rechtsprechungsradar-nachtragsverteilung-schufa-neustart` |
-| 2. Unterlagen, Sachverhalt und Quellen | `datenschutz-und-schamfreie-akte`, `formularcheck-insolvenzantrag`, `konto-sperre-und-sozialleistungen`, `p-konto-sofortschutz`, `schufa-und-auskunfteien`, `unterlagen-und-schuldeninventar`, `verbraucherinsolvenz-belegchaos-strukturieren`, `verbraucherinsolvenz-pfaendungsschutzkonto` |
-| 3. Prüfung, Anspruch und Subsumtion | `buergschaften-und-mithaftung` |
-| 4. Gestaltung, Strategie und Verhandlung | `familienbudget-und-haushaltsplan`, `gerichtlicher-schuldenbereinigungsplan`, `muster-schuldenbereinigungsplan`, `planablehnung-und-naechster-schritt`, `schuldenbereinigungsplan-quote`, `vergleich-waehrend-insolvenz` |
-| 5. Verfahren, Behörde und Gericht | `anlagenpaket-fuer-gericht`, `antrag-insolvenzgericht`, `aussergerichtlicher-einigungsversuch`, `gerichtliche-nachforderung`, `neue-schulden-waehrend-verfahren`, `restschuldbefreiungsantrag`, `verbraucherinsolvenz-aussergerichtl-schuldenbereinigung`, `verfahrenskostenstundung`, `vollstreckung-stoppen` |
-| 6. Ergebnis, Schreiben und Kommunikation | `kommunikation-mit-glaeubigern`, `musterbrief-glaeubiger`, `treuhaender-kommunikation` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `hausrat-und-wertgegenstaende`, `red-team-antrag`, `red-team-obliegenheiten`, `red-team-plan` |
-| 8. Spezialmodule und Schnittstellen | `arbeit-wechsel-und-mehrverdienst`, `ausland-und-eu-schulden`, `auto-und-arbeitsweg`, `bescheinigung-305-inso`, `deliktforderung-und-302-inso`, `eigenverwaltung-nicht-verbraucher`, `erbschaft-schenkung-gewinn`, `geschaeftsfuehrer-altlasten`, `glaeubiger-mit-sicherheiten`, `glaeubigerliste-richtig-bauen`, `inkasso-und-titulierte-forderungen`, `insolvenzeroeffnung-wirkungen`, `krankenversicherung-und-beitraege`, `krankheit-pflege-behinderung`, `lohnpfaendung-und-arbeitgeber`, `mietkaution-und-genossenschaftsanteil`, `obliegenheiten-295-inso`, `privatdarlehen-familie`, ... plus 17 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. Schuldenbild und Verfahrenswahl | [`schuldenbild-verfahrenswahl-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbild-verfahrenswahl-bearbeiten/SKILL.md) |
+| 3. Sofortschutz, Konto, Arbeit und Wohnen | [`sofortschutz-konto-wohnen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/sofortschutz-konto-wohnen-bearbeiten/SKILL.md) |
+| 4. Forderungen, Sicherheiten und Sonderschulden | [`forderungen-sonderschulden-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/forderungen-sonderschulden-bearbeiten/SKILL.md) |
+| 5. Schuldenbereinigung und Vergleich | [`schuldenbereinigung-vergleich-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbereinigung-vergleich-bearbeiten/SKILL.md) |
+| 6. Antrag, Verfahrenskosten und Eröffnung | [`antrag-kosten-eroeffnung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/antrag-kosten-eroeffnung-bearbeiten/SKILL.md) |
+| 7. Obliegenheiten, Restschuldbefreiung und Neustart | [`obliegenheiten-restschuldbefreiung-neustart-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/obliegenheiten-restschuldbefreiung-neustart-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -45,78 +102,18 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 69 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 7 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abschluss-und-neustart` | Wenn es um Abschluss Und Neustart in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `anlagenpaket-fuer-gericht` | Wenn es um Anlagenpaket für Gericht in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `antrag-insolvenzgericht` | Wenn es um Antrag Insolvenzgericht in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `arbeit-wechsel-und-mehrverdienst` | Wenn es um Arbeit Wechsel Und Mehrverdienst in Verbraucherinsolvenz und Schuldenbereinigung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `ausland-und-eu-schulden` | Wenn es um Ausland Und EU Schulden in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `aussergerichtlicher-einigungsversuch` | Wenn es um Aussergerichtlicher Einigungsversuch in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `auto-und-arbeitsweg` | Wenn es um Auto Und Arbeitsweg in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bescheinigung-305-inso` | Wenn es um Bescheinigung 305 Inso in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `buergschaften-und-mithaftung` | Wenn es um Buergschaften Und Mithaftung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-und-schamfreie-akte` | Wenn es um Datenschutz Und Schamfreie Akte in Verbraucherinsolvenz und Schuldenbereinigung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `deliktforderung-und-302-inso` | Wenn es um Deliktforderung Und 302 Inso in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eigenverwaltung-nicht-verbraucher` | Wenn es um Eigenverwaltung Nicht Verbraucher in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erbschaft-schenkung-gewinn` | Wenn es um Erbschaft Schenkung Gewinn in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `familienbudget-und-haushaltsplan` | Wenn es um Familienbudget Und Haushaltsplan in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formularcheck-insolvenzantrag` | Wenn es um Formularcheck Insolvenzantrag in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlag... |
-| `gerichtliche-nachforderung` | Wenn es um Gerichtliche Nachforderung in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gerichtlicher-schuldenbereinigungsplan` | Wenn es um Gerichtlicher Schuldenbereinigungsplan in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `geschaeftsfuehrer-altlasten` | Wenn es um Geschäftsführer Altlasten in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `glaeubiger-mit-sicherheiten` | Wenn es um Glaeubiger Mit Sicherheiten in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `glaeubigerliste-richtig-bauen` | Wenn es um Glaeubigerliste Richtig Bauen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausrat-und-wertgegenstaende` | Wenn es um Hausrat Und Wertgegenstaende in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `inkasso-und-titulierte-forderungen` | Wenn es um Inkasso Und Titulierte Forderungen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `insolvenzeroeffnung-wirkungen` | Wenn es um Insolvenzeroeffnung Wirkungen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-schuldenbild-glaeubiger-sofortschutz` | Wenn es um Kaltstart Schuldenbild Glaeubiger Sofortschutz in Verbraucherinsolvenz und Schuldenbereinigung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortsc... |
-| `kommunikation-mit-glaeubigern` | Wenn es um Kommunikation Mit Glaeubigern in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `konto-sperre-und-sozialleistungen` | Wenn es um Konto Sperre Und Sozialleistungen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `krankenversicherung-und-beitraege` | Wenn es um Krankenversicherung Und Beitraege in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `krankheit-pflege-behinderung` | Wenn es um Krankheit Pflege Behinderung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lohnpfaendung-und-arbeitgeber` | Wenn es um Lohnpfaendung Und Arbeitgeber in Verbraucherinsolvenz und Schuldenbereinigung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `mietkaution-und-genossenschaftsanteil` | Wenn es um Mietkaution Und Genossenschaftsanteil in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `muster-schuldenbereinigungsplan` | Wenn es um Muster Schuldenbereinigungsplan in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `musterbrief-glaeubiger` | Wenn es um Musterbrief Glaeubiger in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `neue-schulden-waehrend-verfahren` | Wenn es um Neue Schulden Waehrend Verfahren in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `obliegenheiten-295-inso` | Wenn es um Obliegenheiten 295 Inso in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `p-konto-sofortschutz` | Wenn es um P Konto Sofortschutz in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `planablehnung-und-naechster-schritt` | Wenn es um Planablehnung Und Naechster Schritt in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und... |
-| `privatdarlehen-familie` | Wenn es um Privatdarlehen Familie in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `rechtsprechungsradar-nachtragsverteilung-schufa-neustart` | Wenn es um Rechtsprechungsradar: Nachtragsverteilung, SCHUFA und Neustart in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte m... |
-| `red-team-antrag` | Wenn es um Red Team Antrag in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `red-team-obliegenheiten` | Wenn es um Red Team Obliegenheiten in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `red-team-plan` | Wenn es um Red Team Plan in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `restschuldbefreiungsantrag` | Wenn es um Restschuldbefreiungsantrag in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schufa-und-auskunfteien` | Wenn es um Schufa Und Auskunfteien in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `schuldenbereinigungsplan-quote` | Wenn es um Schuldenbereinigungsplan Quote in Verbraucherinsolvenz und Schuldenbereinigung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `schuldnerberatung-workflow` | Wenn es um Schuldnerberatung Workflow in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `schuldnerin-mit-immobilie` | Wenn es um Schuldnerin Mit Immobilie in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `selbststaendigkeit-beendet` | Wenn es um Selbststaendigkeit Beendet in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `steuerschulden-und-strafsteuer` | Wenn es um Steuerschulden Und Strafsteuer in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-bussgeld-und-insolvenz` | Wenn es um Strafbefehl Bussgeld Und Insolvenz in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `treuhaender-kommunikation` | Wenn es um Treuhaender Kommunikation in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `unterhaltsschulden` | Wenn es um Unterhaltsschulden in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unterlagen-und-schuldeninventar` | Wenn es um Unterlagen Und Schuldeninventar in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `unternehmerische-restforderungen` | Wenn es um Unternehmerische Restforderungen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucher-oder-regelinsolvenz` | Wenn es um Verbraucher Oder Regelinsolvenz in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucherinsolvenz-3-jahres-restschuldbefreiung` | Wenn es um Verbraucherinsolvenz: 3-Jahres-Restschuldbefreiung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucherinsolvenz-aussergerichtl-schuldenbereinigung` | Wenn es um Aussergerichtlicher Schuldenbereinigungsplan nach Paragrafen 305 InsO in Verbraucherinsolvenz und Schuldenbereinigung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit... |
-| `verbraucherinsolvenz-belegchaos-strukturieren` | Wenn es um Schuldnerberatungsstelle: Strukturierung des Belegchaos in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Antr... |
-| `verbraucherinsolvenz-nachtraegliche-glaeubiger` | Wenn es um Verbraucherinsolvenz: Nachtraegliche Gläubiger nach Restschuldbefreiung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoamp... |
-| `verbraucherinsolvenz-pfaendungsschutzkonto` | Wenn es um Verbraucherinsolvenz: Pfaendungsschutzkonto P-Konto in Verbraucherinsolvenz und Schuldenbereinigung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen... |
-| `verbraucherinsolvenz-treuhaender-rolle` | Wenn es um Verbraucherinsolvenz: Rolle des Treuhaenders in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucherinsolvenz-unterhalt-und-insolvenz` | Wenn es um Verbraucherinsolvenz und eheliche Unterhaltspflicht in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verbraucherinsolvenz-versagungsgruende` | Wenn es um Verbraucherinsolvenz: Versagungsgruende in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verfahrenskostenstundung` | Wenn es um Verfahrenskostenstundung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vergleich-waehrend-insolvenz` | Wenn es um Vergleich Waehrend Insolvenz in Verbraucherinsolvenz und Schuldenbereinigung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `verjaehrung-und-alttitel` | Wenn es um Verjaehrung Und Alttitel in Verbraucherinsolvenz und Schuldenbereinigung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `versagung-restschuldbefreiung` | Wenn es um Versagung Restschuldbefreiung in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vollstreckung-stoppen` | Wenn es um Vollstreckung Stoppen in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `vorzeitige-restschuldbefreiung` | Wenn es um Vorzeitige Restschuldbefreiung: Kosten, Gläubigerbefriedigung, Anträge und Timing. in Verbraucherinsolvenz und Schuldenbereinigung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein di... |
-| `wohnung-miete-energie` | Wenn es um Wohnung Miete Energie in Verbraucherinsolvenz und Schuldenbereinigung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 7 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`antrag-kosten-eroeffnung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/antrag-kosten-eroeffnung-bearbeiten/SKILL.md) | Insolvenzantrag, Bescheinigung, Anlagen, Kostenstundung und gerichtliche Nachforderungen vervollständigen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/antrag-kosten-eroeffnung-bearbeiten/SKILL.md) |
+| [`forderungen-sonderschulden-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/forderungen-sonderschulden-bearbeiten/SKILL.md) | Forderungsberechtigung, Titel, Sicherheiten, Delikts-, Steuer- und Unterhaltsschulden prüfen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/forderungen-sonderschulden-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/juristischer-argumentationskern/SKILL.md) | Verbraucherinsolvenz von der Schuldenübersicht zum vollständigen Antrag führen. Wertet vorhandene Unterlagen aus, entscheidet die fachlichen Weichen und liefert vollständigen Schuldenbereinigungsplan oder Antragssatz mit richtiger Verfah... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`obliegenheiten-restschuldbefreiung-neustart-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/obliegenheiten-restschuldbefreiung-neustart-bearbeiten/SKILL.md) | Obliegenheiten, Versagungsrisiken, Nachtragsverteilung und wirtschaftlichen Neustart begleiten. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/obliegenheiten-restschuldbefreiung-neustart-bearbeiten/SKILL.md) |
+| [`schuldenbereinigung-vergleich-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbereinigung-vergleich-bearbeiten/SKILL.md) | Außergerichtlichen Einigungsversuch, Quote, gerichtlichen Schuldenbereinigungsplan und Gläubigerkommunikation ausarbeiten. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbereinigung-vergleich-bearbeiten/SKILL.md) |
+| [`schuldenbild-verfahrenswahl-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbild-verfahrenswahl-bearbeiten/SKILL.md) | Schulden, Haushalt und Unterlagen erfassen und Verbraucher- oder Regelverfahren abgrenzen. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/schuldenbild-verfahrenswahl-bearbeiten/SKILL.md) |
+| [`sofortschutz-konto-wohnen-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/sofortschutz-konto-wohnen-bearbeiten/SKILL.md) | Pfändungsschutz, Konto, Existenzsicherung, Arbeit, Wohnung und geschützte Vermögenswerte sichern. Die vollständigen Fachanweisungen werden passend zum konkreten Vorgang gelesen und gemeinsam umgesetzt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=verbraucherinsolvenz-schuldenbereinigung/skills/sofortschutz-konto-wohnen-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

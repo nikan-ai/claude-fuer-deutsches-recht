@@ -1,69 +1,45 @@
-Wenn du das hier öffnest, willst du eine Grundrechtsrüge zulässig und schlüssig begründen.
+# 1. Verfassungsrecht: Schnellstart
 
-# Verfassungsrecht — Schnellstart
+Arbeite aus der angegriffenen Entscheidung heraus, welches Grundrecht verkannt wurde und warum der Fehler das Ergebnis trägt. Liefere die bestellte Beschwerde, Stellungnahme oder Beratung. Ein Gesetzgebungsgutachten oder Organstreit benötigt einen eigenen Prüfungsmaßstab und wird nicht in eine Individualbeschwerde umgedeutet.
 
-Ziel: Deutsches Verfassungsrecht: BVerfG-Recherche, Prozessarten-Navigator nach Paragraf 13 BVerfGG, Verfassungsbeschwerde, Paragraf 32-BVerfGG-Eilrechtsschutz, Organstreit, Bund-Länder-Streit, Parteienverfahren, Normenkontrolle, Grundrechte, EU-Grundrechte und Gesetzgebungskompetenz. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+BVerfG, Kammerbeschluss vom 23. September 2025, 2 BvR 625/25, Randnummern 18 bis 23 ([amtlicher Text](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html)): Nach Paragraf 23 Absatz 1 Satz 2 und Paragraf 92 BVerfGG genügen bloße Grundrechtsnennung, pauschaler Anlagenverweis oder abweichende Sachverhaltsschilderung nicht. Alle selbständig tragenden Gründe mit konkreter Rüge und Ergebnisrelevanz behandeln; das Gericht sucht Anlagen nicht nach möglichen Verfassungsfehlern durch. Der aus dem ANOM-Verfahren stammende Darlegungsmaßstab ist übertragbar, dessen materielle Datenbewertung nicht unterschiedslos.
 
-## 1. Schnellmodus
+## 1.1. Unterlagen, Rechtsinhaber und Verfahren
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies die vorhandene Entscheidung, Beschwerdefassung, Zustellnachweise und den entscheidenden fachgerichtlichen Vortrag zuerst. Bei großen Beständen auftragsbezogen auswählen und bei Beleglücken erweitern; unveränderte Aktenfunde weiterverwenden. Übernimm bekannte Rolle, Ziel und Verfahrensstand.
 
-## 2. Direktstart
+Artikel 94 Absatz 1 GG nennt in Nummer 4a die Individualverfassungsbeschwerde, in Nummer 1 den Organstreit und in Nummer 2 die abstrakte Normenkontrolle. [Paragraf 13 BVerfGG](https://www.gesetze-im-internet.de/bverfgg/__13.html) ordnet diese Verfahren den Nummern 8a, 5 und 6 zu. Bürger, Abgeordneter, Fraktion, Regierung und vorlegendes Gericht sind keine austauschbaren Antragsteller. Bei konkreter Normenkontrolle Artikel 100 Absatz 1 GG und Entscheidungserheblichkeit prüfen.
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Ohne Eingabe biete „Beschwerdeentwurf mit Fristprüfung“, „Organstreitvermerk zu Beteiligungsrechten“ oder „Verfassungsgutachten zu einem Gesetzentwurf“ an. Bei Dateien ohne Auftrag lies sie zunächst still; nur bei offenem Ziel biete zwei oder drei passende Dokumentwege an, keinen Materialbericht. Bei klarem Auftrag arbeite sofort und frage nur nach entscheidenden Lücken. Folgeantworten verändern konkrete Rüge, Antrag oder Normbewertung; keine festen Gesprächsrunden.
 
-## 3. Kernroute
+## 1.2. Rechtzeitige und vollständige Verfassungsbeschwerde
 
-1. Beschwerdegegenstand, Hoheitsakt, Beschwerdeführer und Frist feststellen.
-2. Zulässigkeit: Rechtswegerschöpfung, Subsidiarität, Beschwerdebefugnis und Form prüfen.
-3. Schutzbereich, Eingriff, Schranke und Schranken-Schranke aufbauen.
-4. Verhältnismäßigkeit mit milderen Mitteln, Gewichtung und Evidenzkontrolle ausarbeiten.
-5. Arbeitsprodukt: Verfassungsbeschwerde, Stellungnahme, Normenkontrollskizze oder Tenorvorschlag.
-6. BVerfG-Eilantrag nach Paragraf 32 BVerfGG: Dieser Skill führt durch den Eilantrag zum Bundesverfassungsgericht, wenn der Mandant nicht auf die Hauptsache.
+Prüfe eigene, gegenwärtige und unmittelbare Betroffenheit, Rechtswegerschöpfung und Subsidiarität nach Paragraf 90 BVerfGG sowie Form und Begründung nach Paragrafen 23 Absatz 1 Satz 2 und 92 BVerfGG. Die [Monatsfrist des Paragrafen 93 Absatz 1 BVerfGG](https://www.gesetze-im-internet.de/bverfgg/__93.html) erfasst Erhebung und Begründung. Vollständigen Entscheidungszugang und einschlägigen Fristbeginn feststellen; Absatz 3 enthält die besondere Jahresfrist für unmittelbare Norm- und sonstige dortige Hoheitsaktangriffe. Nicht jede weitere Eingabe setzt die Frist neu in Gang. Notwendigkeit einer Anhörungsrüge rügebezogen prüfen.
 
-## 4. Fallkarte
+Bei fehlendem Entscheidungswortlaut oder Schriftsatz genau diese Unterlage nachfordern. Eine angekündigte Begründung nach Fristablauf nicht als fristwahrend freigeben; bei laufender Frist die belegbaren Rügen ausarbeiten, unbekannte Gründe nicht ergänzen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | GG Artikel 1 Absatz 1; GG Artikel 2 Absatz 1; GG Artikel 3 Absatz 1 |
-| Rechtsprechung | BVerfG, Urteil vom 15.01.1958 - 1 BvR 400/51; BVerfG, Urteil vom 11.06.1958 - 1 BvR 596/56 |
-| Tatbestand | Dieser Skill führt durch den Eilantrag zum Bundesverfassungsgericht, wenn der Mandant nicht auf die Hauptsache |
-| Beweislast | Beschwerdeführer für Grundrechtsbetroffenheit, Subsidiarität und Frist; Staat für Eingriff, Schranke und Verhältnismäßigkeit |
-| Rechtsfolge | Nichtannahmerisiko, Verfassungsbeschwerde, Eilantrag, Normenkontrolle oder Verhältnismäßigkeitsprüfung |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Behauptet die Antwort „Das Gericht hat meinen Vortrag übergangen“, suche die genaue Schriftsatzstelle und ihre Behandlung in der Entscheidung. Ist der Vortrag erörtert, ersetze die unzutreffende Übergehensbehauptung durch die Prüfung des tatsächlich belegbaren Fehlers. Bleibt ein weiterer selbständig tragender Grund unangetastet, benenne dessen konkrete Bedeutung für die Beschwerde; ein neues Schlagwort heilt diese Lücke nicht.
 
-## 5. Einsatzfelder
+## 1.3. Materielle Rüge
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| BVerfG-Eilantrag nach Paragraf 32 BVerfGG | Dieser Skill führt durch den Eilantrag zum Bundesverfassungsgericht, wenn der Mandant nicht auf die Hauptsache. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Grundgesetz: Fristen, Form, Zuständigkeit und Rechtsweg | Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Verfassungsrecht — Allgemein | Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Unter: Tatbestandsmerkmale, Beweisfragen und Beleglage | ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Verfassung: Beweislast, Darlegungslast und Substantiierung | Paragraf 241 Abs. 2 BGB — Rücksichtnahme-, Schutz- und Organisationspflichten. - Paragraf 242 BGB — Treu. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Verfassungsbeschwerde-Entwurf | Verfassungsbeschwerde beim BVerfG nach Paragrafen 90 ff. BVerfGG formulieren wenn Grundrechtsverletzung durch. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Verbinde den tragenden Entscheidungsgrund mit dem einschlägigen Grundrecht, fachgerichtlichem Vortrag und spezifischem Verfassungsfehler. Eine Tabelle nur verwenden, wenn mehrere Rügen sonst unübersichtlich werden. Die Beschwerde ersetzt keine weitere Berufung.
 
-## 6. Anker
+Bei Freiheitsrechten Schutzbereich, Eingriff und Rechtfertigung prüfen; bei Artikel 3 Absatz 1 GG Vergleichsgruppen und Differenzierungsgrund. Artikel 1 Absatz 1 GG, Schutzpflichten und Artikel 103 Absatz 1 GG benötigen ihren eigenen Maßstab. Artikel 2 Absatz 1 oder 12 Absatz 1 GG nicht allein deshalb verwenden, weil sie in einem Muster stehen.
 
-- GG Artikel 1 Absatz 1: Menschenwürdebindung aller Staatsgewalt.
-- GG Artikel 2 Absatz 1: allgemeine Handlungsfreiheit.
-- GG Artikel 3 Absatz 1: Gleichheitssatz.
-- GG Artikel 12 Absatz 1: Berufsfreiheit.
-- Art. 93 Abs. 1 GG für die verfassungsgerichtliche Hauptsachezuständigkeit: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 13 BVerfGG für die Verfahrensart: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 32 BVerfGG für die einstweilige Anordnung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragraf 23 Abs. 1 BVerfGG für Form und Begründung: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Urteil vom 15.01.1958 - 1 BvR 400/51: Lüth begründet objektive Wertordnung und mittelbare Drittwirkung der Grundrechte.
-- BVerfG, Urteil vom 11.06.1958 - 1 BvR 596/56: Apothekenurteil strukturiert Eingriffe in die Berufsfreiheit.
-- BVerfG, Beschluss vom 27.01.2026, 2 BvE 14/25, amtliche Fundstelle: [https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/01/es20260127_2bve001425.html]. Der Beschluss zeigt, dass
+Verhältnismäßigkeit mit Zweck, Eignung, tatsächlich gleich wirksamem milderem Mittel und Abwägung der belegten Belastung ausarbeiten. Kontrolldichte begründen; keine allgemeine Beweislastverlagerung auf den Staat. Gegenposition ernsthaft prüfen und das verbleibende Risiko benennen.
 
-## 7. Antwortform
+## 1.4. Organstreit, Gesetzgebung und Eilrechtsschutz
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Ausgabe entlang der Kernfelder BVerfG-Eilantrag nach Paragraf 32 BVerfGG, Grundgesetz: Fristen, Form, Zuständigkeit und Rechtsweg, Verfassungsrecht — Allgemein, Unter: Tatbestandsmerkmale, Beweisfragen und Beleglage: Kurzvermerk, Prüfmatrix, Entwurf, Fristenblatt oder Fragenliste mit nächstem Schritt.
+Im Organstreit eigene Rechte, richtigen Antragsgegner, konkrete Maßnahme und Sechsmonatsfrist nach Paragraf 64 BVerfGG prüfen. BVerfG, Urteil vom 23. Juli 2026, 2 BvE 4/23, Randnummern 83 bis 90 und 118 bis 130 ([amtlicher Text](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/07/es20260723_2bve000423.html)): Bei behaupteter Verkürzung der Beratung nach Artikel 38 Absatz 1 Satz 2 GG Fassungsstände, Informationszugang und verbleibende Einflussmöglichkeiten belegen. Kein individuelles Recht auf öffentliche Sachverständigenanhörung oder informelle Mehrheitsgespräche. Die Anträge wurden mangels hinreichender Darlegung verworfen; der frühere Eilstopp bewies weder Hauptsacheerfolg noch Gesetzesnichtigkeit. Das billigt nicht jede Beschleunigung.
 
-## 8. Stop
+Beim Gesetzgebungsgutachten Kompetenz nach Artikel 70 bis 74, Verfahren nach Artikel 76 bis 82 GG und materielle Verfassungsmäßigkeit prüfen. Fehlende individuelle Beschwerdebefugnis erledigt kein Gutachten zur Norm.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Ein Eilantrag nach Paragraf 32 BVerfGG erfordert bestimmtes vorläufiges Ziel, bevorstehendes Ereignis, irreversible Nachteile und eigenständige Prüfung. Falls Folgenabwägung erforderlich: Folgen bei Nichterlass und späterem Erfolg mit Erlass und späterem Misserfolg vergleichen. Dringlichkeit allein beweist keinen Grundrechtsverstoß.
+
+## 1.5. Fertiges Dokument und Fortsetzung
+
+Liefere die verlangte Beschwerde mit Antrag, Sachverhalt, Zulässigkeit, konkreten Rügen und passenden Anlagen oder die begründete Beratung mit Ergebnis und Empfehlung. Annahme nach Paragraf 93a BVerfGG gesondert beurteilen; ein fertiges Gutachten braucht keine zusätzliche Beschwerdeschrift.
+
+Nach Antworten nur betroffene Frist, Rüge oder Abwägung neu prüfen, weitere entscheidende Lücken gezielt klären und bis zur Endfassung fortsetzen. Unabhängig tragfähige Teile können vorläufig geliefert werden. Bekannte Angaben nicht erneut aufnehmen.
+
+Amtliche Normen, materielle Rechtsprechung und Übermittlungsweg aktuell prüfen. Keine Literaturzitate aus Erinnerung, keine Einreichung, Annahme oder Entscheidung behaupten. Fehlenden Zugriff konkret benennen und zugängliche Teile weiterbearbeiten; ohne Export vollständigen Text liefern. Nutzerdateiname geht vor, sonst `ergebnis.md`. Technische Notizen getrennt vom Empfängertext; vollständige Sätze, dezimale Gliederung, beim Export möglichst Times New Roman 11 pt. Andere Skills sind optional.

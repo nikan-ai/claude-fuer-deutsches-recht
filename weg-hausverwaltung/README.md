@@ -1,51 +1,163 @@
-# WEG- und Hausverwaltung
+<!-- decimal-anchor --> <a id="weg--und-hausverwaltung"></a>
+
+# 1. WEG- und Hausverwaltung
 
 <!-- BEGIN direkt-loslegen (autogen) -->
-## Was ist das hier?
+<!-- decimal-anchor --> <a id="was-ist-das-hier"></a>
 
-Operatives WEG- und Hausverwaltungs-Plugin für Beschlüsse, Eigentümerversammlung, Protokoll, Beschlusssammlung, Wirtschaftsplan, Jahresabrechnung, Hausgeld, Sonderumlage, Betriebskosten, Handwerker, bauliche Veränderungen, Steckersolar, Wallbox, Verwalter, Beirat und Anwalt-Eskalation.
+## 1.1. Was ist das hier?
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+WEG-Hausverwaltung von Belegen und Bankbewegungen über Jahresabrechnung, Eigentümerrückfragen und Mietüberleitung bis zu Beschlüssen, Handwerkeraufträgen und Schadenfällen einschließlich Diebstahl und Bettwanzen.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-## Downloads
+<!-- decimal-anchor --> <a id="welche-datei-wofür--which-file-should-i-use"></a>
+
+## 1.2. Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`weg-hausverwaltung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/weg-hausverwaltung.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/weg-hausverwaltung.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-werkstatt.md) · [TXT herunterladen / Download TXT](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-werkstatt.txt) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-schnellstart.md) · [TXT herunterladen / Download TXT](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-schnellstart.txt) |
+| Schwerpunkt-Prompt | Eigenständiger, eng abgegrenzter Mandatsauftrag bis 7500 Zeichen. Der zugehörige Fachskill ist auch im Plugin vorhanden. | Standalone workflow for one demanding practice problem, up to 7500 characters. Its corresponding skill is also part of the plugin. | <a href="https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.md" download>MD herunterladen / Download MD</a> · [TXT herunterladen / Download TXT](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.txt) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/weg-hausverwaltung.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+<!-- decimal-anchor --> <a id="in-30-sekunden-starten"></a>
+
+## 1.3. In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/weg-hausverwaltung.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für WEG- und Hausverwaltung:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
+
+<!-- decimal-anchor --> <a id="downloads"></a>
+
+## 1.4. Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`weg-hausverwaltung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/weg-hausverwaltung.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/weg-hausverwaltung/weg-hausverwaltung-werkstatt.md" download><code>weg-hausverwaltung-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/weg-hausverwaltung/weg-hausverwaltung-schnellstart.md" download><code>weg-hausverwaltung-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Bauträgervertrag Birkenpfuhl — Verbraucherprüfung Quendel / Übelacker-Strohmeyer: [Gesamt-PDF](../testakten/bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung/gesamt-pdf/bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung_gesamt.pdf), [`testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung.zip), [`testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung-einzelpdfs.zip); WEG Hohenzollernhof — Hausverwaltung unter Druck: [Gesamt-PDF](../testakten/weg-hausverwaltung-hohenzollernhof/gesamt-pdf/weg-hausverwaltung-hohenzollernhof_gesamt.pdf), [`testakte-weg-hausverwaltung-hohenzollernhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-weg-hausverwaltung-hohenzollernhof.zip), [`testakte-weg-hausverwaltung-hohenzollernhof-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-weg-hausverwaltung-hohenzollernhof-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`weg-hausverwaltung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/weg-hausverwaltung.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown / identisches TXT | [`weg-hausverwaltung-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-schnellstart.md) · [`weg-hausverwaltung-schnellstart.txt`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-schnellstart.txt) |
+| Großer Prompt (Werkstatt) | Markdown / identisches TXT | [`weg-hausverwaltung-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-werkstatt.md) · [`weg-hausverwaltung-werkstatt.txt`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-werkstatt.txt) |
+| Schwerpunkt-Prompt (Hauptproblem) | Markdown / identisches TXT | <a href="https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.md" download>weg-hausverwaltung-hauptproblem.md</a> · [`weg-hausverwaltung-hauptproblem.txt`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.txt) |
+| Zugeordnete Testakten | PDF / ZIP | [8 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+<!-- decimal-anchor --> <a id="zugeordnete-testakten"></a>
+
+## 1.5. Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Bauträgervertrag Birkenpfuhl - Wohnung 4.27](../testakten/bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung/README.md) | [Gesamt-PDF](../testakten/bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung/gesamt-pdf/bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung_gesamt.pdf) | [`testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung.zip) | [`testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-bautraegervertrag-birkenpfuhl-quendel-verbraucherpruefung-einzelpdfs.zip) |
+| [Betriebskosten 2025: Vermietete Eigentumswohnung in Berlin-Schöneberg](../testakten/betriebskosten-2025-weg-schoeneberg/README.md) | [Gesamt-PDF](../testakten/betriebskosten-2025-weg-schoeneberg/gesamt-pdf/betriebskosten-2025-weg-schoeneberg_gesamt.pdf) | [`testakte-betriebskosten-2025-weg-schoeneberg.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-pflegerecht-v1.0.0/testakte-betriebskosten-2025-weg-schoeneberg.zip) | [`testakte-betriebskosten-2025-weg-schoeneberg-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-betriebskosten-2025-weg-schoeneberg-einzelpdfs.zip) |
+| [WEG Hohenzollernhof — Hausverwaltung unter Druck](../testakten/weg-hausverwaltung-hohenzollernhof/README.md) | [Gesamt-PDF](../testakten/weg-hausverwaltung-hohenzollernhof/gesamt-pdf/weg-hausverwaltung-hohenzollernhof_gesamt.pdf) | [`testakte-weg-hausverwaltung-hohenzollernhof.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-hausverwaltung-hohenzollernhof.zip) | [`testakte-weg-hausverwaltung-hohenzollernhof-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-hausverwaltung-hohenzollernhof-einzelpdfs.zip) |
+| [1. Kastanienhof und die offene Kellertür](../testakten/weg-kastanienhof-kellerdiebstahl/README.md) | [Gesamt-PDF](../testakten/weg-kastanienhof-kellerdiebstahl/gesamt-pdf/weg-kastanienhof-kellerdiebstahl_gesamt.pdf) | [`testakte-weg-kastanienhof-kellerdiebstahl.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-kastanienhof-kellerdiebstahl.zip) | [`testakte-weg-kastanienhof-kellerdiebstahl-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-kastanienhof-kellerdiebstahl-einzelpdfs.zip) |
+| [1. Kleinhausen](../testakten/weg-kleinhausen/README.md) | [Gesamt-PDF](../testakten/weg-kleinhausen/gesamt-pdf/weg-kleinhausen_gesamt.pdf) | [`testakte-weg-kleinhausen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-kleinhausen.zip) | [`testakte-weg-kleinhausen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-kleinhausen-einzelpdfs.zip) |
+| [1. Lindenhof und die zweite Abrechnungsfassung](../testakten/weg-lindenhof-jahresabrechnung-2025/README.md) | [Gesamt-PDF](../testakten/weg-lindenhof-jahresabrechnung-2025/gesamt-pdf/weg-lindenhof-jahresabrechnung-2025_gesamt.pdf) | [`testakte-weg-lindenhof-jahresabrechnung-2025.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-lindenhof-jahresabrechnung-2025.zip) | [`testakte-weg-lindenhof-jahresabrechnung-2025-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-lindenhof-jahresabrechnung-2025-einzelpdfs.zip) |
+| [1. Sonnenwinkel und die ungeklärte Befallsquelle](../testakten/weg-sonnenwinkel-bettwanzen/README.md) | [Gesamt-PDF](../testakten/weg-sonnenwinkel-bettwanzen/gesamt-pdf/weg-sonnenwinkel-bettwanzen_gesamt.pdf) | [`testakte-weg-sonnenwinkel-bettwanzen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-sonnenwinkel-bettwanzen.zip) | [`testakte-weg-sonnenwinkel-bettwanzen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-sonnenwinkel-bettwanzen-einzelpdfs.zip) |
+| [1. Spreebogen und das weitergereichte Hausgeld](../testakten/weg-spreebogen-mieterumlage-belege/README.md) | [Gesamt-PDF](../testakten/weg-spreebogen-mieterumlage-belege/gesamt-pdf/weg-spreebogen-mieterumlage-belege_gesamt.pdf) | [`testakte-weg-spreebogen-mieterumlage-belege.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-weg-spreebogen-mieterumlage-belege.zip) | [`testakte-weg-spreebogen-mieterumlage-belege-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-weg-spreebogen-mieterumlage-belege-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
-Wenn du das hier öffnest, willst du eine fristlose Kündigung wegen Zahlungsverzug rechtssicher aussprechen oder abwehren.
+<!-- decimal-headings -->
+<!-- decimal-anchor --> <a id="abrechnungen-und-alltagsfälle-vollständig-bearbeiten"></a>
+
+## 1.6. Abrechnungen und Alltagsfälle vollständig bearbeiten
+
+Die bestehende WEG-Werkstatt führt die Belegkette bis zum fertigen Ergebnis: Lieferantenrechnung, Leistungsnachweis, Bankbewegung, Verteilungsschlüssel, Einzelabrechnung, Beschluss und Antwort an den Eigentümer. Für vermietete Einheiten folgt eine eigene Prüfung der mietrechtlichen Umlage. Rücklagen, Verwaltungsvergütung, Reparaturen und Hausgeld werden nicht unverändert an Mieter weitergereicht.
+
+Die 93 vorhandenen Skills bleiben erhalten. Aktualisierte Fachrouten behandeln insbesondere Sollvorschüsse und Istzahlungen, Belegeinsicht, gemischte Hausmeisterkosten, notwendige Sicherungsmaßnahmen, Versicherungen und Bettwanzen. Der neue Hauptproblem-Prompt bündelt die Bearbeitung eines Abrechnungsvorgangs; Werkstatt und Mini führen auch durch die weiteren Verwaltungsaufgaben.
+
+| Arbeitsform | Passender Einstieg |
+| --- | --- |
+| Einzelabrechnung und Eigentümerrückfrage | Hauptproblem-Prompt als [Markdown](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.md) oder [Text](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-hauptproblem.txt) mit den zugehörigen Belegen verwenden. |
+| Vielseitige Verwaltungsanfrage | [Mini-Prompt](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-schnellstart.md) für den konkreten Auftrag laden. |
+| Mehrstufige Abrechnung oder Schadenakte | [Werkstatt-Prompt](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/weg-hausverwaltung-werkstatt.md) mit vorhandener Korrespondenz und Rechnungen verwenden. |
+| Werkstatt bearbeiten oder ausdrucken | [Word-Datei](./assets/weg-hausverwaltung-werkstatt.docx) oder [PDF-Lesefassung](./assets/weg-hausverwaltung-werkstatt.pdf). |
+
+Alle drei Prompts stehen zusätzlich als unveränderte UTF-8-Textdateien bereit. Ein Einstieg genügt; die drei Fassungen brauchen nicht gemeinsam in denselben Auftrag geladen zu werden.
+
+<!-- decimal-anchor --> <a id="einfach-einsteigen-und-weitere-verwaltungsfälle-bearbeiten"></a>
+
+## 1.7. Einfach einsteigen und weitere Verwaltungsfälle bearbeiten
+
+- **[Kleinhausen – einfacher Einstieg](../testakten/weg-kleinhausen/README.md):** fünf Wohnungen mit gleichen Anteilen, ein übersichtliches Abrechnungsjahr, normale Belege und freundliche Rückfragen. Eine bearbeitbare Tabelle und fünf Einzelabrechnungen ermöglichen die praktische Bearbeitung weniger kleiner Übertragungsfehler.
+- [Lindenhof](../testakten/weg-lindenhof-jahresabrechnung-2025/README.md): acht Eigentümereinheiten, Jahresabrechnung 2025, Rücklage, Einzelabrechnungen und Rückfragen nach dem Versand.
+- [Spreebogen](../testakten/weg-spreebogen-mieterumlage-belege/README.md): vermietete Eigentumswohnung, Kostenüberleitung, Heiz- und CO2-Unterlagen, Belegeinsicht und Mietereinwendungen.
+- [Kastanienhof](../testakten/weg-kastanienhof-kellerdiebstahl/README.md): Kellerdiebstahl, beschädigte Schließanlage, getrennte Versicherungsfragen und ein Kameraangebot.
+- [Sonnenwinkel](../testakten/weg-sonnenwinkel-bettwanzen/README.md): Befund, Behandlung, Nachkontrolle, Terminprobleme und streitige Kostenzuordnung ohne vorschnelle Verursacherbehauptung.
+
+Die bisherige große Akte Hohenzollernhof und die bereits zugeordneten Fälle bleiben verfügbar. Die neuen Arbeitsunterlagen enthalten keine Musterlösung; Nachweise, Entwürfe und Aussagen der Beteiligten sind selbst auszuwerten.
+
+<!-- decimal-anchor --> <a id="quellenstand-und-überprüfte-grenzen"></a>
+
+## 1.8. Quellenstand und überprüfte Grenzen
+
+Rechtsstand der Überarbeitung: 2. Oktober 2026. Die [WEG-Referenz](./references/rechtsstand-oktober-2026.md) ordnet amtlich geprüfte Entscheidungen nach ihrer konkreten Aussage und Reichweite ein. Aktuelle Anker betreffen unter anderem Handwerkerangebote, Kostenschlüssel und Schäden am Sondereigentum. Die Werkstatt unterscheidet die jeweils einschlägige Normfassung von erst später eintretenden Kostenfolgen.
+
+[Prüfunterlagen](../quality/source-audits/weg-hausverwaltung-2026-10-02/) trennen Quellenlektüre, redaktionelle Gegenlese, technische Kontrollen und tatsächliche Anwendungsproben. Eine technische Prüfung ersetzt keine rechtliche Bewertung des späteren Einzelfalls. Historische Rechtsprechung wird mit WEMoG, DSGVO und der seit 2025 möglichen elektronischen Belegbereitstellung abgeglichen.
+
+
+Aus Rechnungen, Bankbewegungen, Abrechnungsfassungen und Eigentümerrückfragen entstehen abgestimmte Zahlen, verständliche Antwortbriefe und konkrete Verwaltungsschritte.
 Operatives Plugin für Wohnungseigentümergemeinschaften, Hausverwaltungen, Verwaltungsbeiräte und anwaltliche Begleitung. Der Schwerpunkt liegt nicht auf abstrakter Dogmatik, sondern auf den täglichen Vorgängen: Eigentümerversammlung vorbereiten, Beschlussvorlagen schreiben, Beschlüsse protokollieren, Beschlusssammlung pflegen, Wirtschaftsplan und Jahresabrechnung prüfen, Hausgeld und Sonderumlagen verfolgen, Betriebskosten/Nebenkosten kontrollieren, Handwerker beauftragen, Erhaltungsmaßnahmen steuern, Restaurant- und Hausordnungskonflikte sortieren, E-Mobilität/Steckersolar/PV beschlussreif machen und rechtliche Eskalationen rechtzeitig erkennen.
 
 Das Plugin arbeitet paralegal-praktisch: Es erstellt keine "Rechtsberatung aus dem Nichts", sondern strukturiert Akten, formuliert Beschluss- und Anschreibenentwürfe, baut Prüfmatrizen, markiert Fristen, trennt kaufmännische Verwaltung von Rechtsfragen und schlägt bei Risiko den passenden Anwalts- oder Gerichtspfad vor.
 
-## Installation in der Plugin-Umgebung
+<!-- decimal-anchor --> <a id="installation-in-der-plugin-umgebung"></a>
+
+## 1.9. Installation in der Plugin-Umgebung
 
 1. ZIP herunterladen.
-2. Plugin-Umgebung -> **Customize Plugins** -> **Install from .zip** -> Datei wählen.
-3. Fertig. Skills sind sofort verfügbar.
+2. Plugin-Umgebung -> **Customize → Plugins** -> **Upload plugin** -> Datei wählen.
+3. Plugin aktivieren und eine neue Aufgabe öffnen; den passenden Skill ausdrücklich auswählen.
 
 > Für den ZIP-Upload muss das Archiv direkt `.claude-plugin/plugin.json`, `skills/` und `references/` im ZIP-Root enthalten. Nicht das komplette Repository-ZIP aus "Code -> Download ZIP" verwenden.
 
-## Quellen- und Rollenregel
+<!-- decimal-anchor --> <a id="quellen--und-rollenregel"></a>
+
+## 1.10. Quellen- und Rollenregel
 
 - Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle.
 - Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Bei streitigen Beschlüssen, Verjährung, Anfechtung, Schadensersatz, Verwalterhaftung oder gerichtlichen Schritten immer anwaltliche Eskalation markieren.
 - Verwaltungspraxis, kaufmännische Kontrolle und juristische Bewertung werden sichtbar getrennt.
 
-## Enthaltene Skills
+<!-- decimal-anchor --> <a id="enthaltene-skills"></a>
+
+## 1.11. Enthaltene Skills
 
 | Skill | Zweck |
 | --- | --- |
-| `weg-hausverwaltung-allgemein` | Einstieg, Triage, Upload-Erkennung und Workflow-Routing im WEG-/Hausverwaltungsalltag. |
+| `kaltstart-triage` | Einstieg, Unterlagensichtung und Wahl des Fachwegs im WEG-/Hausverwaltungsalltag. |
 | `rechtsstand-mai-2026-faktenbank` | Quellen-Gate mit WEG/BGB/BetrKV-Ankern und frei verifizierten BGH-Linien. |
 | `mandat-objekt-triage` | Objekt, Gemeinschaft, Rollen, Verwaltervertrag, Teilungserklärung, Fristen und Aktenlage erfassen. |
 | `grossakte-konfliktlandkarte` | Große unübersichtliche Verwaltungsakten clustern, priorisieren und in passende Spezial-Skills routen. |
@@ -74,7 +186,9 @@ Das Plugin arbeitet paralegal-praktisch: Es erstellt keine "Rechtsberatung aus d
 | `datenschutz-dokumentenfreigabe` | DSGVO, Eigentümerlisten, Belegeinsicht, Schwärzungen, Cloud-Freigaben. |
 | `eskalation-anwalt-amtsgericht` | Wann Anwalt, Amtsgericht, Beschlussklage, Hausgeldklage oder einstweiliger Rechtsschutz nötig wird. |
 
-## Typische Workflows
+<!-- decimal-anchor --> <a id="typische-workflows"></a>
+
+## 1.12. Typische Workflows
 
 **Eigentümerversammlung:** `grossakte-konfliktlandkarte` -> `eigentuemerversammlung-vorbereiten` -> `einladung-tagesordnung-fristen` -> `beschlussvorlagen-erstellen` -> `protokollwerkstatt-top-marathon` -> `beschlussanfechtung-risiko`.
 
@@ -84,128 +198,71 @@ Das Plugin arbeitet paralegal-praktisch: Es erstellt keine "Rechtsberatung aus d
 
 **Alltagskonflikt:** `grossakte-konfliktlandkarte` -> `hausordnung-tauben-fahrrad-kinder-weihnachtsbaum` oder `gewerbe-restaurant-geruch-laerm-hof` -> `eigentuemerkommunikation-beschwerde` -> bei hartem Konflikt `eskalation-anwalt-amtsgericht`.
 
-## Grenzen
+<!-- decimal-anchor --> <a id="grenzen"></a>
+
+## 1.13. Grenzen
 
 Das Plugin ersetzt keine anwaltliche Beratung, keine WEG-Spezialkanzlei, keine Steuerberatung und keine technische Bauleitung. Es hilft, die Verwaltung so zu dokumentieren, dass Anwälte, Beiräte, Verwalter und Eigentümer sauber weiterarbeiten können.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **15 auswählbare Skills**. Die **93 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
-## Orientierung nach Arbeitslogik
+<!-- decimal-anchor --> <a id="orientierung-nach-arbeitslogik"></a>
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+## 1.14. Orientierung nach Arbeitslogik
+
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `dokumente-intake`, `einstieg-routing`, `kaltstart-triage`, `mandat-belege-fristen`, `mandat-objekt-triage`, `marketing-akquise-neue-weg-mandate`, `operatives-erstpruefung-und-mandatsziel`, `weg-operatives-erstpruefung-rollenklaerung-mandatsziel`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `bauliche-formular-portal-und-einreichung`, `beschluesse-dokumentenmatrix-und-lueckenliste`, `chronologie-und-belegmatrix`, `datenschutz-betroffenenrechte-auskunft`, `datenschutz-betroffenenrechte-auskunft-loeschung-weg`, `datenschutz-datenpanne-meldung-72h`, `datenschutz-dokumentenfreigabe`, `datenschutz-vvt-tom-avv-hausverwaltung`, `grossakte-konfliktlandkarte`, `jahresabrechnung-quellenkarte`, `quellen-livecheck`, `rechtsstand-mai-2026-faktenbank`, `sonderumlage-compliance-dokumentation-und-akte`, `spezial-beschluesse-dokumentenmatrix-und-lueckenliste`, `spezial-jahresabrechnung-livequellen-und-rechtsprechungscheck`, `unterlagen-luecken`, `weg-bauliche-formular-portal-einreichungslogik`, `weg-beschluesse-dokumentenmatrix-lueckenliste-nachforderung`, ... plus 4 weitere |
-| 3. Prüfung, Anspruch und Subsumtion | `beschlussanfechtung-risiko`, `eigentuemerversammlung-risikoampel-und-gegenargumente`, `fristen-und-risikoampel`, `marketing-website-impressum-tmg-bewertungen`, `marketing-website-impressum-tmg-und-bewertungen`, `wegh-verwalterhaftung-spezial` |
-| 4. Gestaltung, Strategie und Verhandlung | `abrechnung-ist-plan-mieterschnittstelle`, `weg-wirtschaftsplan-hausgeld`, `wegh-wirtschaftsplan-jahresabrechnung`, `wegh-wirtschaftsplan-jahresabrechnung-leitfaden`, `wirtschaftsplan-jahresabrechnung-28-weg`, `wirtschaftsplan-verhandlung-vergleich-und-eskalation` |
-| 5. Verfahren, Behörde und Gericht | `beschlusssammlung-protokoll`, `beschlusssammlung-schriftsatz-brief-und-memo-bausteine`, `beschlussvorlagen-erstellen`, `einladung-tagesordnung-fristen`, `eskalation-anwalt-amtsgericht`, `hausverwaltungs-fristen-form-und-zustaendigkeit`, `protokoll-behoerden-gericht-und-registerweg`, `top-generator-emotion-zu-beschluss`, `weg-beschlusssammlung-formfehler`, `weg-eigentuemerversammlung-einladung-beschluss`, `weg-protokoll-behoerden-gerichts-registerweg`, `wegh-bauliche-veraenderung-beschluss-spezial` |
-| 6. Ergebnis, Schreiben und Kommunikation | `eigentuemerkommunikation-beschwerde`, `marketing-newsletter-eigentuemerkommunikation`, `output-waehlen` |
-| 8. Spezialmodule und Schnittstellen | `bad-umbau-bodengleiche-dusche-sondereigentum`, `bad-umbau-bodengleiche-dusche-sondereigentum-gemeinschaft`, `barrierefreie-einladung-protokoll-versammlung`, `bauliche-veraenderung-aufzug-treppenlift-20`, `bauliche-veraenderung-aufzug-treppenlift-20-abs-2-weg`, `bauliche-veraenderungen-20-weg`, `bautraegeralteanlage-abnahme-maengel-gdwe`, `beirat-controlling-verwalter`, `betriebskosten-interessen`, `betriebskosten-mehrparteien-konflikt-und-interessen`, `betriebskosten-nebenkostenabrechnung`, `bfsg-hausverwalter-website-portal-2025`, `digitale-versammlung-screenreader-untertitel`, `e-mobilitaet-steckersolar-kellerstrom`, `eigentuemerversammlung-vorbereiten`, `erhaltung-modernisierung-baumaengel`, `gewerbe-restaurant-geruch-laerm-hof`, `handwerker-beauftragung-vergabe`, ... plus 17 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/juristischer-argumentationskern/SKILL.md), [`wirtschaftsplan-jahresabrechnung-28-weg`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Gemeinschaft und Gegenstand | [`gemeinschaft-und-gegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/gemeinschaft-und-gegenstand-bearbeiten/SKILL.md) |
+| 3. Beleg und Bank | [`beleg-und-bank-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beleg-und-bank-bearbeiten/SKILL.md) |
+| 4. Abrechnung und Eigentümerkonto | [`abrechnung-und-eigentuemerkonto-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/abrechnung-und-eigentuemerkonto-bearbeiten/SKILL.md) |
+| 5. Fassung und Antwort | [`fassung-und-antwort-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/fassung-und-antwort-bearbeiten/SKILL.md) |
+| 6. Mietüberleitung | [`mietueberleitung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/mietueberleitung-bearbeiten/SKILL.md) |
+| 7. Beschlussarbeit | [`beschlussarbeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beschlussarbeit-bearbeiten/SKILL.md) |
+| 8. Maßnahme und Pflicht | [`massnahme-und-pflicht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/massnahme-und-pflicht-bearbeiten/SKILL.md) |
+| 9. Diebstahl und Befall | [`diebstahl-und-befall-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/diebstahl-und-befall-bearbeiten/SKILL.md) |
+| 10. Rechtsschutz und Output | [`rechtsschutz-und-output-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/rechtsschutz-und-output-bearbeiten/SKILL.md) |
+| 11. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 12. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
 <!-- BEGIN SKILLS-OVERVIEW (auto-generated) -->
 
-## Alle Skills im Überblick
+<!-- decimal-anchor --> <a id="alle-skills-im-überblick"></a>
 
-Automatisch generierte Komplett-Liste aller 93 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+## 1.15. Alle Skills im Überblick
 
-| Skill | Beschreibung |
-| --- | --- |
-| `abrechnung-ist-plan-mieterschnittstelle` | Wenn es um Abrechnung, Ist/Plan und Mieterschnittstelle in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `bad-umbau-bodengleiche-dusche-sondereigentum` | Wenn es um Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt... |
-| `bad-umbau-bodengleiche-dusche-sondereigentum-gemeinschaft` | Wenn es um Bad Umbau Bodengleiche Dusche Sondereigentum Gemeinschaft in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `barrierefreie-einladung-protokoll-versammlung` | Wenn es um Barrierefreie Einladungen, Protokolle und Abrechnungen in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `bauliche-formular-portal-und-einreichung` | Wenn es um Bauliche Formular Portal Und Einreichung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bauliche-veraenderung-aufzug-treppenlift-20` | Wenn es um Bauliche Veränderung: Aufzug und Treppenlift nach Paragraf 20 Abs. 2 Nr. 2 WEG in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitspro... |
-| `bauliche-veraenderung-aufzug-treppenlift-20-abs-2-weg` | Wenn es um Aufzug-Nachrüstung und Treppenlift als privilegierte bauliche Veränderung nach Paragraf 20 Abs in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoa... |
-| `bauliche-veraenderungen-20-weg` | Wenn es um Bauliche Veränderungen nach Paragraf 20 WEG in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `bautraegeralteanlage-abnahme-maengel-gdwe` | Wenn es um Bauträger-Altanlage: Abnahme, Mängel und GdWE in WEG- und Hausverwaltung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `beirat-controlling-verwalter` | Wenn es um Beirat: Controlling und Verwalterbegleitung in WEG- und Hausverwaltung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `beschluesse-dokumentenmatrix-und-lueckenliste` | Wenn es um Beschluesse Dokumentenmatrix Und Lückenliste in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `beschlussanfechtung-risiko` | Wenn es um Beschlussanfechtung Risiko in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `beschlusssammlung-protokoll` | Wenn es um Beschlusssammlung und Protokoll in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `beschlusssammlung-schriftsatz-brief-und-memo-bausteine` | Wenn es um Beschlusssammlung Schriftsatz Brief Und Memo Bausteine in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und A... |
-| `beschlussvorlagen-erstellen` | Wenn es um Beschlussvorlagen Erstellen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `betriebskosten-interessen` | Wenn es um Betriebskosten: Mehrparteienkonflikt und Interessenmatrix in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `betriebskosten-mehrparteien-konflikt-und-interessen` | Wenn es um Betriebskosten Mehrparteien Konflikt Und Interessen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `betriebskosten-nebenkostenabrechnung` | Wenn es um Betriebskosten und Nebenkosten in der WEG-Verwaltung in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Sc... |
-| `bfsg-hausverwalter-website-portal-2025` | Wenn es um BFSG: Barrierefreiheitspflicht für Verwalter-Websites und Eigentümer-Portale in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-,... |
-| `chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `datenschutz-betroffenenrechte-auskunft` | Wenn es um Datenschutz: Betroffenenrechte – Auskunft, Löschung, Widerspruch im WEG in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-betroffenenrechte-auskunft-loeschung-weg` | Wenn es um Betroffenenrechte nach DSGVO Art in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-datenpanne-meldung-72h` | Wenn es um Datenpanne: 72-Stunden-Meldepflicht für die Hausverwaltung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `datenschutz-dokumentenfreigabe` | Wenn es um Datenschutz und Dokumentenfreigabe in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `datenschutz-vvt-tom-avv-hausverwaltung` | Wenn es um Datenschutz: VVT, TOM und AVV für die Hausverwaltung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `digitale-versammlung-screenreader-untertitel` | Wenn es um Digitale Versammlung: Screenreader, Untertitel und Barrierefreiheit in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `e-mobilitaet-steckersolar-kellerstrom` | Wenn es um E-Mobilität, Steckersolar und Kellerstrom in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eigentuemerkommunikation-beschwerde` | Wenn es um Eigentümerkommunikation und Beschwerden in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eigentuemerversammlung-risikoampel-und-gegenargumente` | Wenn es um Eigentuemerversammlung Risikoampel Und Gegenargumente in WEG- und Hausverwaltung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eigentuemerversammlung-vorbereiten` | Wenn es um Eigentümerversammlung Vorbereiten in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `einladung-tagesordnung-fristen` | Wenn es um Einladung, Tagesordnung und Fristen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `erhaltung-modernisierung-baumaengel` | Wenn es um Erhaltung, Modernisierung und Baumängel in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `eskalation-anwalt-amtsgericht` | Wenn es um Eskalation: Anwalt und Amtsgericht in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gewerbe-restaurant-geruch-laerm-hof` | Wenn es um Gewerbe, Restaurant, Geruch, Lärm und Hofnutzung in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `grossakte-konfliktlandkarte` | Wenn es um Großakte und Konfliktlandkarte in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `handwerker-beauftragung-vergabe` | Wenn es um Handwerkerbeauftragung und Vergabe in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handwerker-internationaler-bezug-und-schnittstellen` | Wenn es um Handwerker Internationaler Bezug Und Schnittstellen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausgeld-sonderumlage-liquiditaet` | Wenn es um Hausgeld, Sonderumlage und Liquidität in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `hausgeld-zahlen-schwellen-und-berechnung` | Wenn es um Hausgeld Zahlen Schwellen Und Berechnung in WEG- und Hausverwaltung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `hausordnung-tauben-fahrrad-kinder` | Wenn es um Hausordnung: Tauben, Fahrrad, Kinder, Weihnachtsbaum in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risi... |
-| `hausordnung-tauben-fahrrad-kinder-weihnachtsbaum` | Wenn es um Hausordnung Tauben Fahrrad Kinder Weihnachtsbaum in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hausverwaltungs-fristen-form-und-zustaendigkeit` | Wenn es um Hausverwaltungs Fristen Form Und Zuständigkeit in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `heizung-schaden-versicherung-notmassnahme` | Wenn es um Heizung, Schaden, Versicherung, Notmaßnahme in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jahresabrechnung-quellenkarte` | Wenn es um Jahresabrechnung Quellenkarte in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `kaltstart-triage` | Wenn es um WEG- und Hausverwaltung — Allgemein in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kfw-foerderung-pflegekasse-bafa-barriere` | Wenn es um KfW, Pflegekasse und BAFA: Förderung für Barrierefreiheits-Maßnahmen koordinieren in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit... |
-| `kfw-foerderung-pflegekasse-bafa-barriere-koordination` | Wenn es um Kfw Foerderung Pflegekasse Bafa Barriere Koordination in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandat-belege-fristen` | Wenn es um Hausverwaltungs: Fristen, Form, Zuständigkeit und Rechtsweg in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandat-objekt-triage` | Wenn es um Mandat- und Objekt-Triage in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `marketing-akquise-neue-weg-mandate` | Wenn es um Marketing: Akquise neuer WEG-Verwaltungsmandate in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und... |
-| `marketing-newsletter-eigentuemerkommunikation` | Wenn es um Marketing: Newsletter und Eigentümerkommunikation in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `marketing-website-impressum-tmg-bewertungen` | Wenn es um Marketing: Website-Impressum, DDG und Bewertungsmanagement in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten... |
-| `marketing-website-impressum-tmg-und-bewertungen` | Wenn es um Marketing Website Impressum Tmg Und Bewertungen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `operatives-erstpruefung-und-mandatsziel` | Wenn es um Operatives Erstpruefung Und Mandatsziel in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-waehlen` | Wenn es um Output wählen in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `protokoll-behoerden-gericht-und-registerweg` | Wenn es um Protokoll Behoerden Gericht Und Registerweg in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `protokollwerkstatt-top-marathon` | Wenn es um Protokollwerkstatt für TOP-Marathons in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `rampe-handlauf-tuerverbreiterung` | Wenn es um Rampe, Handlauf, Türverbreiterung im Gemeinschaftsbereich in WEG- und Hausverwaltung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollf... |
-| `rampe-handlauf-tuerverbreiterung-gemeinschaftsbereich` | Wenn es um Rampe Handlauf Tuerverbreiterung Gemeinschaftsbereich in WEG- und Hausverwaltung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `rechtsstand-mai-2026-faktenbank` | Wenn es um Rechtsstand Mai 2026 — Faktenbank WEG/Hausverwaltung in WEG- und Hausverwaltung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sonderumlage-compliance-dokumentation-und-akte` | Wenn es um Sonderumlage Compliance Dokumentation Und Akte in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `spezial-beschluesse-dokumentenmatrix-und-lueckenliste` | Wenn es um Beschluesse: Dokumentenmatrix, Lückenliste und Nachforderung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-jahresabrechnung-livequellen-und-rechtsprechungscheck` | Wenn es um Jahresabrechnung: Livequellen- und Rechtsprechungscheck in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `steckersolar-wallbox-barrierefreiheit` | Wenn es um Steckersolar, Wallbox, Barrierefreiheit und Co. in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken u... |
-| `stoerung-hausordnung-mieter-eigentuemer` | Wenn es um Störung, Hausordnung, Mieter und Eigentümer in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `top-generator-emotion-zu-beschluss` | Wenn es um TOP-Generator - von Emotion zu Beschluss in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verwalterpflichten-26-27-weg` | Wenn es um Verwalterpflichten Paragrafen 26. 27 WEG in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näch... |
-| `weg-bauliche-formular-portal-einreichungslogik` | Wenn es um Bauliche: Formular, Portal und Einreichungslogik in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `weg-beschluesse-dokumentenmatrix-lueckenliste-nachforderung` | Wenn es um Beschlüsse: Dokumentenmatrix, Lückenliste und Nachforderung in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `weg-beschlusssammlung-formfehler` | Wenn es um Beschlusssammlung: Schriftsatz-, Brief- und Memo-Bausteine in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung u... |
-| `weg-eigentuemerversammlung-einladung-beschluss` | Wenn es um Eigentuemerversammlung: Risikoampel, Gegenargumente und Verteidigungslinien in WEG- und Hausverwaltung geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofor... |
-| `weg-handwerker-internationaler-bezug-schnittstellen` | Wenn es um Handwerker: Internationaler Bezug und Schnittstellen in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `weg-hausgeld-zahlen-schwellenwerte-berechnung` | Wenn es um Hausgeld: Zahlen, Schwellenwerte und Berechnung in WEG- und Hausverwaltung geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `weg-operatives-erstpruefung-rollenklaerung-mandatsziel` | Wenn es um Operatives: Erstprüfung, Rollenklärung und Mandatsziel in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `weg-protokoll-behoerden-gerichts-registerweg` | Wenn es um Protokoll: Behörden-, Gerichts- oder Registerweg in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `weg-sonderumlage-compliance-dokumentation-aktenvermerk` | Wenn es um Sonderumlage: Compliance-Dokumentation und Aktenvermerk in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `weg-tatbestand-beweis-und-belege` | Wenn es um Weg Tatbestand Beweis Und Belege in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `weg-tatbestandsmerkmale-beweisfragen-beleglage` | Wenn es um WEG: Tatbestandsmerkmale, Beweisfragen und Beleglage in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `weg-wirtschaftsplan-hausgeld` | Wenn es um Wirtschaftsplan: Verhandlung, Vergleich und Eskalation in WEG- und Hausverwaltung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `wegh-bauliche-veraenderung-beschluss-spezial` | Wenn es um WEGh: Bauliche Veraenderung WEG in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wegh-eigentuemerversammlung-bauleiter` | Wenn es um WEGh: Eigentuemerversammlung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wegh-verwalterhaftung-spezial` | Wenn es um WEGh: Verwalterhaftung in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wegh-wirtschaftsplan-jahresabrechnung` | Wenn es um WEG: Wirtschaftsplan und Jahresabrechnung in WEG- und Hausverwaltung geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `wegh-wirtschaftsplan-jahresabrechnung-leitfaden` | Wenn es um Wegh Wirtschaftsplan Jahresabrechnung Leitfaden in WEG- und Hausverwaltung geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `wirtschaftsplan-jahresabrechnung-28-weg` | Wenn es um Wirtschaftsplan und Jahresabrechnung in WEG- und Hausverwaltung geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `wirtschaftsplan-verhandlung-vergleich-und-eskalation` | Wenn es um Wirtschaftsplan Verhandlung Vergleich Und Eskalation in WEG- und Hausverwaltung geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in WEG- und Hausverwaltung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in WEG- und Hausverwaltung geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
+Automatisch generierte Komplett-Liste aller 15 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
+
+English: Complete list of all 15 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`abrechnung-und-eigentuemerkonto-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/abrechnung-und-eigentuemerkonto-bearbeiten/SKILL.md) | WEG- und Hausverwaltung: Abrechnung und Eigentümerkonto: Verteilbare Jahreskosten gegen beschlossene Sollvorschüsse rechnen; offene Vorschüsse, Rücklagenbeiträge und spätere Ausgleichszahlungen getrennt verfolgen. Jede Einzelabrechnung a... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/abrechnung-und-eigentuemerkonto-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`beleg-und-bank-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beleg-und-bank-bearbeiten/SKILL.md) | WEG- und Hausverwaltung: Beleg und Bank: Leistung, Rechnung, Zahlung, Buchungsjahr und Konto verbinden; Betriebskonto, Rücklagenkonto und Umbuchungen abstimmen. Ein Angebot ist keine Rechnung, ein Kontotransfer kein neuer Aufwand und ein... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beleg-und-bank-bearbeiten/SKILL.md) |
+| [`beschlussarbeit-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beschlussarbeit-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Beschlussarbeit: Beschlusskompetenz, Einberufung, Tagesordnung, Bestimmtheit, Mehrheit, Verkündung, Niederschrift und Beschlusssammlung lückenlos prüfen. Vollständige Fachanweisungen und l... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/beschlussarbeit-bearbeiten/SKILL.md) |
+| [`diebstahl-und-befall-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/diebstahl-und-befall-bearbeiten/SKILL.md) | WEG- und Hausverwaltung: Diebstahl und Befall anhand belegter Tatsachen klären, private Gegenstände und Gemeinschaftsmaßnahmen trennen. Bettwanzen fachkundig feststellen, Zugang und Kosten eines Ausbruchs prüfen; keine Schuldzuweisung au... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/diebstahl-und-befall-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/einstieg-routing/SKILL.md) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: WEG- und Hausverwaltung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/einstieg-routing/SKILL.md) |
+| [`fassung-und-antwort-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/fassung-und-antwort-bearbeiten/SKILL.md) | WEG- und Hausverwaltung: Fassung und Antwort: Versandte Vorfassung, Rückfrage, ergänzter Nachweis und Korrektur nachvollziehbar verbinden. Anschreiben, Abrechnung, Belegliste, Zugangstermin und Beschlussvorlage je Empfänger passend zusam... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/fassung-und-antwort-bearbeiten/SKILL.md) |
+| [`gemeinschaft-und-gegenstand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/gemeinschaft-und-gegenstand-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Gemeinschaft und Gegenstand: Einheit, Gemeinschafts- oder Sondereigentum, Gemeinschaftsordnung, Beteiligte, Vertretung und konkretes Verwaltungsziel feststellen. Vollständige Fachanweisung... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/gemeinschaft-und-gegenstand-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/juristischer-argumentationskern/SKILL.md) | WEG-Verwaltungsvorgang bis zum wirksamen Beschluss oder Anspruchstext führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Er... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/juristischer-argumentationskern/SKILL.md) |
+| [`massnahme-und-pflicht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/massnahme-und-pflicht-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Maßnahme und Pflicht: Erhaltung, bauliche Veränderung, privilegierte Maßnahme, Verwalterhandlung, Handwerkerauftrag, Versicherung und Kostenfolge trennen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/massnahme-und-pflicht-bearbeiten/SKILL.md) |
+| [`mietueberleitung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/mietueberleitung-bearbeiten/SKILL.md) | WEG- und Hausverwaltung: Mietüberleitung: Auftrag und Mietvertrag prüfen, Kostenarten bereinigen, Hausmeisteranteile belegen, Wärme und CO2 für das betreffende Jahr rechnen sowie Vorauszahlungen, Zugang, Fristen und Belegeinsicht gesonde... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/mietueberleitung-bearbeiten/SKILL.md) |
+| [`rechtsschutz-und-output-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/rechtsschutz-und-output-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Rechtsschutz und Output: Monats- und Zweimonatsfrist, Klagegegner, Amtsgericht, Antrag, Begründungsstoff und sofort nutzbaren Beschluss-, Protokoll-, Abrechnungs- oder Schriftsatzentwurf e... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/rechtsschutz-und-output-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für Wohnungseigentums- und Hausverwaltungsrecht: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`wirtschaftsplan-jahresabrechnung-28-weg`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md) | Erstellt oder prüft Wirtschaftsplan, Jahresabrechnung und Vermögensbericht einer GdWE; trennt Sollvorschüsse, Zahlungen und Nachschüsse und formuliert Abrechnungsbeschluss oder Eigentümerbrief. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/workflow-kaltstart-und-routing/SKILL.md) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: WEG- und Hausverwaltung. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=weg-hausverwaltung/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

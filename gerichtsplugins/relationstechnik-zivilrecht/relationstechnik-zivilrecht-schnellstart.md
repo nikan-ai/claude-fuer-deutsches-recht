@@ -1,67 +1,43 @@
-Wenn du das hier öffnest, willst du aus einer Akte sofort eine prozessfähige Route bauen: Zuständigkeit, Frist, Antrag, Tatsachenvortrag, Beweis und nächste Verfügung.
+# 1. Zivilrelation aus dem Streitstoff entwickeln
 
-# Relationstechnik Zivilrecht — Schnellstart
+Erarbeite die bestellte Station, Relation oder den Beweisbeschluss: Was trägt die Klage, welche Einwendung ist erheblich, was muss bewiesen werden? Bei behaupteter Zahlung Paragraf 362 BGB und bei Beweiswürdigung Paragraf 286 ZPO trennen. BGH, Beschluss vom 17.11.2022, Az. V ZR 25/22, schützt erheblichen Zeugenbeweis vor vorweggenommener Würdigung; er kehrt keine Beweislast um. Vorhandener Anker aus amtlich indizierten Rn. 10 bis 11, kein neu gelesener Volltext.
 
-Ziel: Relationstechnik Zivilrecht: Klägerstation, Beklagtenstation, Beweisstation und Entscheidungsstation mit Schlüssigkeit, Erheblichkeit, Beweislast, Hinweisen und Urteilsvotum. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Ohne Eingabe biete Einzelstation, Gesamtvotum oder Beweisbeschluss an. Dateien ohne Auftrag still lesen und nur passende zwei oder drei Ziele erfragen; keine Aktenzusammenfassung. Klaren Auftrag unmittelbar ausarbeiten. Folgeantworten stationsbezogen einarbeiten, ohne Neustart und ohne lokale Skills vorauszusetzen.
 
-## 1. Schnellmodus
+„Das Geld ging an einen Dritten.“ Kläre dessen behauptete Empfangsbefugnis, bevor du einen Beweisbeschluss allein zum Geldfluss fertigstellst; eine offene Erheblichkeitsfrage darf nicht durch Beweisaufnahme ersetzt werden. „Der Zeuge kennt nur eine spätere Erzählung.“ Ändere Wahrnehmungsgrundlage und Würdigung, nicht rückwirkend den Inhalt des Parteivortrags. „Die Zahlung betrifft Rechnung zwei.“ Ordne sie nur dieser Forderung zu und aktualisiere Restbetrag und Nebenforderungen. Die Klägerstation bleibt unverändert, soweit die Anspruchsentstehung davon nicht berührt ist.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Leite aus Klage und Erwiderung ab, ob der Zahlungsanspruch schlüssig ist, eine behauptete Zahlung erheblich wäre und welcher Übergabevorgang noch aufzuklären ist. Lies dazu zuerst Anträge, Replik und vorhandene Protokolle mit. Formuliere die angeforderte Station, das Votum oder den Beweisbeschluss. Halte Parteien, Verfahrensstand und Aktenstellen fest; fehlende Seiten gezielt nachfordern, statt ihren Inhalt zu unterstellen. Der Entwurf ersetzt keine richterliche Entscheidung.
 
-## 2. Direktstart
+## 1.1. Klägerstation
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Prüfe Zulässigkeitsfragen soweit entscheidungserheblich und anschließend den Klägervortrag unter Wahrunterstellung auf Schlüssigkeit. Ordne jedes Anspruchsmerkmal einer vorgetragenen Tatsache zu. Dass der Gegner widerspricht oder ein Beleg fehlt, macht einen ansonsten vollständigen Vortrag nicht unschlüssig. Fehlenden Vortrag nicht durch eine vermutete Zeugenaussage ersetzen. Bei mehreren Forderungen gesonderte Anspruchs- und Betragswege führen.
 
-## 3. Kernroute
+## 1.2. Beklagtenstation und Replik
 
-1. Prozessroute: Gericht, Rechtsweg, Zuständigkeit, Streitwert, Frist, Einreichungsweg und Verfahrensstand sichern.
-2. Antrag und Streitgegenstand: Klageziel, Lebenssachverhalt, Haupt- und Hilfsanträge, Nebenforderungen und Erledigung trennen.
-3. Relation: Klägerstation auf Schlüssigkeit, Beklagtenstation auf Erheblichkeit, Replik auf Durchschlag und Beweisstation auf Beweislast prüfen.
-4. Beweis: Beweisthema, Beweismittel, Substantiierung, Beweislast, Beweiswürdigung und Beweisbeschluss aus der Akte entwickeln.
-5. Arbeitsprodukt: Klageschrift, Klageerwiderung, Hinweisverfügung, Beschluss, Urteil, Tenor, Anlagenverzeichnis oder Fristenblatt erstellen.
-6. 04 Klage Antrag Auslegen: Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen.
+Unterscheide Bestreiten eines Anspruchsmerkmals, rechtshindernden oder rechtsvernichtenden Vortrag und Einreden. Prüfe jeweils, ob der Vortrag bei Wahrunterstellung das Ergebnis ändern würde. Die bloße Bezeichnung „unbegründet“ ersetzt keinen erheblichen tatsächlichen Gegenvortrag. Für Erklärungslast und Bestreiten mit Nichtwissen ZPO Paragraf 138 anhand der konkreten Wahrnehmungs- und Handlungssphäre prüfen.
 
-## 4. Fallkarte
+Die Replik kann einen neuen Streitpunkt schaffen oder eine Einwendung entkräften; sie darf nicht stillschweigend als bewiesen behandelt werden. Beispiel Erfüllung: Ein entstandener Zahlungsanspruch und dessen Erlöschen nach BGB Paragraf 362 sind verschiedene Prüfungsschritte. Der behauptete Zahlungsvorgang muss nach Zeitpunkt, Betrag, Empfänger und Zuordnung konkretisiert werden, bevor seine Bedeutung bewertet wird.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | ZPO Paragraf 253; ZPO Paragraf 130, Paragraf 130a und Paragraf 130d; ZPO Paragraf 138 |
-| Rechtsprechung | BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395; BGH, Urteil vom 18.04.2013 - III ZR 156/12, NJW 2013, 2201 |
-| Tatbestand | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen |
-| Beweislast | Kläger für schlüssigen Vortrag und Beweisangebot; Beklagter für erhebliche Einwendungen; Gericht führt über Hinweise und Beweisbeschluss |
-| Rechtsfolge | Klage, Erwiderung, Relation, Hinweisverfügung, Beweisbeschluss, Urteil, Tenor oder Anlagenverzeichnis |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+## 1.3. Beweisstation
 
-## 5. Einsatzfelder
+Nimm nur streitige und erhebliche Tatsachen in das Beweisprogramm auf. Ordne jeder Tatsache die einschlägige Beweislastregel, vorhandene Angebote und die Folge eines offenbleibenden Befunds zu. Eine Partei ist nicht allein deshalb für alles beweisbelastet, weil sie Klägerin ist. Gesetzliche Sonderregeln und Beweiserleichterungen getrennt prüfen; Sachnähe oder sekundäre Darlegungslast nicht automatisch zur vollständigen Beweislastumkehr erklären.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| 04 Klage Antrag Auslegen | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 12 Beweisbedürftige Tatsachen Isolieren | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 13 Beweislastverteilung Prüfen | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 14 Beweismittel Würdigen | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 15 Beweisstation Votum | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| 01 Akte Erstdurchsicht Zivil | Antrag, Streitgegenstand, Schlüssigkeit, Erheblichkeit, Beweislast, Verfügung und Tenor in eine Relation bringen. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Formuliere ein Beweisthema als Tatsachenfrage, nicht als Rechtsfrage „Besteht der Anspruch?“. Bei Zeugen konkreten Vorgang und Wahrnehmung zuordnen. Vorhandene Urkunden anhand ihres Inhalts würdigen: Eine Überweisungsanweisung beweist nicht ohne Weiteres den Eingang beim Gläubiger. Vernehmungen oder Begutachtungen, die noch nicht stattgefunden haben, dürfen keine scheinbaren Ergebnisse erhalten.
 
-## 6. Anker
+## 1.4. Entscheidung oder weiterer Schritt
 
-- ZPO Paragraf 253: Mindestinhalt der Klageschrift und bestimmter Antrag.
-- ZPO Paragraf 130, Paragraf 130a und Paragraf 130d: Schriftsatzform, elektronische Einreichung und Ersatzeinreichung.
-- ZPO Paragraf 138: Wahrheitspflicht, Erklärungslast und Bestreiten.
-- ZPO Paragraf 139: gerichtliche Hinweispflicht und Prozessleitung.
-- Paragraf 138 ZPO für Vortrag, Paragraf 286 ZPO für Überzeugungsbildung, Paragraf 287 ZPO für Schadensschätzung, Paragraf 296 ZPO für Verspätung und Paragraf 313 ZPO für Urteilsaufbau: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- Paragrafen 253, 256, 263, 264, 269, 286, 287, 296, 313 ZPO bilden den Pflichtstamm für Antrag, Feststellung, Klageänderung, Rücknahme, Beweiswürdigung, Schätzung, Präklusion: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
-- BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395: Rechtliches Gehör verlangt, dass entscheidungserheblicher Vortrag erkennbar zur Kenntnis genommen und erwogen wird
-- BGH, Urteil vom 18.04.2013 - III ZR 156/12, NJW 2013, 2201: Nach Erledigung vor Rechtshängigkeit bleibt die materielle Kostenerstattungsklage neben Paragraf 269 Abs. 3 Satz 3 ZPO möglich
-- BGH, Urteil vom 13.07.2004 - VI ZR 136/03: Freie Beweiswürdigung nach Paragraf 286 ZPO verlangt eine umfassende, widerspruchsfreie Würdigung des Prozessstoffs
+Beachte bei einem angebotenen Zeugen Artikel 103 Absatz 1 GG und Paragraf 286 ZPO: BGH, Beschluss vom 17.11.2022, V ZR 25/22, Rn. 10 bis 11 ([amtliche Entscheidung](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__25-22.pdf?__blob=publicationFile&v=1)), beanstandet das Übergehen erheblichen Zeugenbeweises aufgrund einer schon aus anderen Umständen gewonnenen Überzeugung. Eine fehlende Quittung rechtfertigt deshalb nicht, die konkret unter Zeugenbeweis gestellte Barzahlung vorab zu verwerfen. Aussagewürdigung und Beweislast bleiben offen; unerhebliche Beweise müssen nicht erhoben werden.
 
-## 7. Antwortform
+### 1.4.1. Ergänzungen stationsbezogen verarbeiten
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Relationszeile: Anspruch, Klägertatsache, Bestreiten, Einwendung, Replik, Beweislast, Beweismittel und Entscheidung als Tabelle; Hinweisverfügung: Das Gericht weist darauf hin, dass [Punkt] bisher nicht schlüssig/erheblich/beweisbelegt ist; Frist bis [Datum].
+Fehlt ein im Schriftsatz in Bezug genommener Zahlungsbeleg, frage nach genau dieser Anlage. Nach Eingang nicht automatisch Erfüllung annehmen, sondern Betrag, Empfänger und Zuordnung mit dem Vortrag abgleichen und die betroffene Beklagten- beziehungsweise Beweisstation aktualisieren. Bei einem nachgereichten Protokoll nur tatsächlich dokumentierte Aussagen würdigen.
 
-## 8. Stop
+Neue entscheidende Widersprüche gezielt klären; bereits beantwortete Fragen nicht wiederholen. Eine Nachfrage beim Auftraggeber ist kein gerichtlicher Hinweis und ersetzt kein Gehör. Nach Ergänzung das bestellte Votum oder den Entscheidungsentwurf vervollständigen; bleibt Beweis offen, den dafür erforderlichen vorläufigen Stand und gegebenenfalls Beschlussentwurf liefern.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+### 1.4.2. Ergebnis ausformulieren
+
+Unterscheide nach abgeschlossener Beweisaufnahme positive Feststellung, negative Feststellung und nicht aufklärbaren Streitpunkt. Erst dann eine Beweislastentscheidung begründen. Fehlt noch eine erhebliche Beweiserhebung, keinen fertigen Urteilsausgang vortäuschen; stattdessen den erforderlichen Beweisbeschluss vorbereiten. Bei ergänzungsbedürftigem Vortrag einen konkreten Hinweis mit betroffenem Merkmal und Gelegenheit zur Stellungnahme entwerfen, nicht pauschal „weiter vortragen“ verlangen.
+
+Das Votum erklärt, welche Station welche Rechtsfolge trägt. Tenor, Nebenentscheidungen und Gründe nur soweit durch den Stand gedeckt ausformulieren; Anträge und Beträge auf Widersprüche kontrollieren. Keine Normenliste unabhängig vom Fall abarbeiten. Tragende Normen und Rechtsprechung amtlich verifizieren und mit Fundstelle nennen. Dezimal gliedern, Export in Times New Roman 11 pt. Weitere Stationsskills und Referenzen sind optional; die vollständige Relationslogik ist in diesem Mini enthalten.
+
+Der gewünschte Dateiname geht vor. Technische Prüf- und Abrufnotizen getrennt vom förmlichen Entwurf halten; keine Zustellung, Verfügung oder sonstige Amtshandlung eigenmächtig ausführen. Ohne Export vollständigen Text liefern, keinen Dateilink erfinden.

@@ -1,35 +1,62 @@
 ---
 name: kaltstart-triage
-description: "Wenn es um Kaltstart Internal Investigation in Internal Investigations Praxis geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. Auswahlstichwort: Kaltstart Triage; Arbeitsfeld: Internal Investigations Praxis."
+description: "Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
-# Kaltstart Internal Investigation
+# 1. Interne Untersuchung auftragsbezogen bearbeiten
 
-## Direktstart: lesen, entscheiden, liefern
+## 1.1 Zweck
 
-Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+Prüfe den konkreten Untersuchungsanlass und verfasse den bestellten Untersuchungsplan, Interviewleitfaden oder Bericht. Bereite Sicherungs- und Untersuchungsmaßnahmen vor, ohne sie eigenmächtig auszulösen.
 
-- Frist oder Sofortrisiko.
-- erkannte Rolle, Zielrichtung und Verfahrensstand.
-- tragende Tatsachen aus dem Material.
-- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+## 1.2 Eingaben
 
-Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+Lies Auftrag, Hinweis, bisherige Berichte und vorliegende Belege zuerst. Entnimm Mandant, Auftraggeber, betroffene Personen, Zeitraum, Fragestellung und Empfänger aus diesen Unterlagen. Übernimm bereits geklärte Angaben; frage nur entscheidende Lücken nach.
 
-Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+## 1.3 Bearbeitung und Fortsetzung
 
-Arbeitsmodus: Liefere zuerst einen nutzbaren Zwischenstand in höchstens sieben Sätzen und dann den nächsten konkreten Schritt. Frage nur nach, wenn Frist, Zuständigkeit, Beweis, Betrag oder Rechtsfolge sonst nicht belastbar bestimmbar sind. Tabellen nur für Fristen, Belege, Beträge, Varianten oder Streitstoff.
+1. Grenze Auftrag und Befugnisse ab. Prüfe Interessenkonflikte und bestimme, wer neue Datenquellen, Personen oder Zeiträume freigeben muss. Eine neue Verdachtsangabe erweitert die Untersuchung nicht automatisch.
+2. Bei drohender Löschung bereite einen rechtlich begrenzten Sicherungsvorschlag vor. Trenne Sicherung und Auswertung und prüfe Rechtsgrundlage, Verhältnismäßigkeit, Beteiligungsrechte und Zugriffskreis. Kein automatischer Löschstopp und keine vollständige Kopie aller Konten.
+3. Formuliere überprüfbare Tatsachenfragen und suche auch entlastende Belege. Fehlt etwa eine Zahlungsfreigabe oder die Herkunft einer Datei, fordere genau den entsprechenden Nachweis an. Behauptung, Suchtreffer und Interviewaussage sind nach ihrer tatsächlichen Aussagekraft zu beurteilen.
+4. Gleiche neue Angaben mit der bisherigen Beweislage ab. Überarbeite die betroffene Feststellung und schreibe das bestellte Dokument weiter. Ergibt sich ein neuer entscheidender Widerspruch, frage gezielt nach, ohne bereits beantwortete Punkte zu wiederholen.
+5. Bleibt eine zulässige Erhebung oder ein Beleg aus, liefere die unabhängig bearbeitbaren Teile vorläufig und benenne den konkret benötigten nächsten Beitrag. Nach Klärung setze bis zur Endfassung fort.
 
-## Ziel
+## 1.4 Fachliche Grenzen und Quellen
 
-Erzwinge eine prüfbare Arbeitsspur: Sachverhalt, Norm, Tatbestandsmerkmal, Subsumtion, Gegenargument, Beleg und Ergebnis werden getrennt.
+Prüfe Organpflichten, Arbeitsrecht, Datenschutz und Hinweisgeberschutz nach der konkreten Maßnahme. Insbesondere Paragraf 26 BDSG ist bei Beschäftigtendaten nicht als pauschale Untersuchungserlaubnis zu behandeln. Interne Mitwirkungspflichten, Selbstbelastungsrisiken und strafprozessuale Rechte sind gesondert zu beurteilen.
 
-## Arbeitsprogramm
+Schweigen im Interview ist kein Schuldeingeständnis. Verändere keine Originalbelege und rekonstruiere keine fehlenden Aussagen. Ein anwaltlicher Auftrag garantiert keinen Beschlagnahmeschutz; Mandat, Gewahrsam und Verfahren müssen geprüft werden.
 
-- Anlass, Mandant, Auftraggeber und mögliche Betroffene klären.
-- Untersuchungsziel eng formulieren.
-- Sofort Legal Hold, Datenfreeze und Kommunikationsdisziplin setzen.
+Verifiziere tragende Normen amtlich. Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarem Aussagegehalt; keine unverifizierten Literatur- oder Datenbankzitate. Zitierhinweise in `references/zitierweise.md` sind optional nutzbar.
 
-## Ausgabe
+## 1.5 Ausgabe
 
-Erzeuge Untersuchungsplan, Interviewleitfaden, Risikoampel, Board Memo oder Verteidigungsdossier. Nenne Rechtsprechung nur, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle live vorliegen; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+Liefere das bestellte Dokument vollständig ausformuliert. Ein Bericht trennt Feststellungen, entlastende Umstände und Unsicherheit; ein Interviewleitfaden enthält konkrete, ergebnisoffene Fragen. Interne Quellen- und Zugriffsvermerke stehen getrennt vom Empfängerbrief.
+
+Nutzerdateinamen gehen vor; ohne Vorgabe kann `ergebnis.md` verwendet werden. Formatierte Dokumente nutzen soweit möglich Times New Roman 11 Punkt und dezimale Gliederung. Datenerhebung, Befragung, Kündigung, Anzeige und Weitergabe benötigen ausdrückliche Freigabe.
+
+## 1.6 Beispiel
+
+Ein Hinweis behauptet eine unzulässige Beraterzahlung, Rechnung und Vertrag liegen vor. Prüfe Leistung, Zahlungsfluss und Freigabe und fordere nur die fehlenden entscheidenden Belege an. Nach Eingang aktualisiere die Feststellung und vervollständige den beauftragten Bericht, ohne den Vorwurf vorweg als erwiesen darzustellen.
+
+Ohne zugängliche Datei oder Quelle benenne die konkrete Prüfgrenze und bearbeite unabhängige Teile. Ohne Export liefere Text; weitere Skills sind keine Voraussetzung.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 2. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Unternehmensinterne Untersuchungen:** Was ist tatsächlich bekannt, wer behauptet etwas und welche Daten werden für die Untersuchung benötigt?
+
+**Erste Ansicht:** Zeige einen belegten Ereignisverlauf und die Verbindung zwischen Behauptung, Quelle und noch ungeklärter Frage. Trenne Beobachtung, Schlussfolgerung, Verdacht und widerlegenden Befund.
+
+**Sinnvolle Interaktion:** Eine Auswahl auf Zeitraum, Vorgang oder Quelle darf zusammengehörige Belege öffnen. Bei Schwärzungen Original, Arbeitskopie, Zweck und verbleibenden Personenbezug getrennt halten; verdeckter Text ist nicht schon technisch entfernt.
+
+**Datengrundlage:** Ereignis, Herkunft, Rolle der Person, Aussagequalität, Zeitpunkt, Originalfundstelle und zulässiger Bearbeitungsumfang. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** Untersuchungsplan oder belegter Zwischenbericht und die beauftragte Antwort, Befragung oder Maßnahme. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

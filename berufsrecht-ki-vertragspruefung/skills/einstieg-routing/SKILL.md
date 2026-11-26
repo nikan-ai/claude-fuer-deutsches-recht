@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in anwaltlichem Berufsrecht und Vertragsprüfung geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Berufsrecht Ki Vertragspruefung** vom ersten Sachverhal
 
 ## Fachlandkarte dieses Plugins
 
-- `ai-act-rollen-kanzlei-provider-deployer-api` — AI ACT Rollen Kanzlei Provider Deployer API
-- `anbietern-belehrung-sonderfall-edge` — Anbietern Belehrung Sonderfall Edge
-- `anbietern-schriftsatz-brief-memo-bausteine` — Anbietern Schriftsatz Brief Memo Bausteine
-- `art-50-ki-vo-schriftsatz-marketing-chatbot` — ART 50 KI VO Schriftsatz Marketing Chatbot
-- `avv-grenzpruefung-brki-anbieter-eu` — AVV Grenzpruefung Brki Anbieter EU
-- `avv-grenzpruefung-datenschutz` — AVV Grenzpruefung Datenschutz
-- `belehrung-abschlussprodukt-uebergabe` — Belehrung Abschlussprodukt Übergabe
-- `belehrung-abschlussprodukt-und-uebergabe` — Belehrung Abschlussprodukt und Übergabe
-- `berufsrecht-sonderfall-edge-case` — Berufsrecht Sonderfall Edge Case
-- `berufsrecht-sonderfall-und-edge-case` — Berufsrecht Sonderfall und Edge Case
-- `berufsrechtliche-bnoto-interessen-brao` — Berufsrechtliche Bnoto Interessen BRAO
-- `bnoto-interessen` — Bnoto Interessen
-- `bnoto-mehrparteien-konflikt-und-interessen` — Bnoto Mehrparteien Konflikt und Interessen
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `aussenauftritt-und-kanzleipraxis-bearbeiten` (Fachthema: ai-act-rollen-kanzlei-provider-deployer-api) — AI ACT Rollen Kanzlei Provider Deployer API
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anbietern-belehrung-sonderfall-edge) — Anbietern Belehrung Sonderfall Edge
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anbietern-schriftsatz-brief-memo-bausteine) — Anbietern Schriftsatz Brief Memo Bausteine
+- `verschwiegenheit-und-daten-bearbeiten` (Fachthema: art-50-ki-vo-schriftsatz-marketing-chatbot) — ART 50 KI VO Schriftsatz Marketing Chatbot
+- `verschwiegenheit-und-daten-bearbeiten` (Fachthema: avv-grenzpruefung-brki-anbieter-eu) — AVV Grenzpruefung Brki Anbieter EU
+- `verschwiegenheit-und-daten-bearbeiten` (Fachthema: avv-grenzpruefung-datenschutz) — AVV Grenzpruefung Datenschutz
+- `verguetung-und-vermoegenspflichten-bearbeiten` (Fachthema: belehrung-abschlussprodukt-uebergabe) — Belehrung Abschlussprodukt Übergabe
+- `verguetung-und-vermoegenspflichten-bearbeiten` (Fachthema: belehrung-abschlussprodukt-und-uebergabe) — Belehrung Abschlussprodukt und Übergabe
+- `berufszugang-und-organisation-bearbeiten` (Fachthema: berufsrecht-sonderfall-edge-case) — Berufsrecht Sonderfall Edge Case
+- `kammer-und-berufsverfahren-bearbeiten` (Fachthema: berufsrecht-sonderfall-und-edge-case) — Berufsrecht Sonderfall und Edge Case
+- `mandat-und-interessenkollision-bearbeiten` (Fachthema: berufsrechtliche-bnoto-interessen-brao) — Berufsrechtliche Bnoto Interessen BRAO
+- `mandat-und-interessenkollision-bearbeiten` (Fachthema: bnoto-interessen) — Bnoto Interessen
+- `mandat-und-interessenkollision-bearbeiten` (Fachthema: bnoto-mehrparteien-konflikt-und-interessen) — Bnoto Mehrparteien Konflikt und Interessen
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,24 @@ Dieser Einstieg routet **Berufsrecht Ki Vertragspruefung** vom ersten Sachverhal
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+Für den KI-bezogenen Teil dieses Arbeitsschritts gilt die [fachbezogene Normen- und Fallprüfung](../../references/ki-normen-und-fallpruefung.md). Vergleichen Sie beworbene vollautomatische Rechtsberatung mit vertraglich zugesagter bloßer Entwurfshilfe. Ermitteln Sie, wer Zwecke und Änderungen bestimmt; Gewährleistung, Verschwiegenheit und Anbieterrolle werden nicht durch eine gemeinsame Vertragsüberschrift ersetzt. Dokumentieren Sie den Gegenbeleg und übernehmen Sie nur die tatsächlich tragfähige Rechtsfolge in das bestellte Arbeitsprodukt.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Berufsrecht der rechts- und wirtschaftsberatenden Berufe:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

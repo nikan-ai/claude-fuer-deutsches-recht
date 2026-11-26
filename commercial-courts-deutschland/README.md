@@ -5,20 +5,56 @@
 
 Commercial-Courts-Plugin für englischsprachige Wirtschaftsverfahren in Deutschland: Zuständigkeit, Wahlklauseln, Klage, Case Management, Beweis, Geheimnisschutz, Wortprotokoll/Transcript, Rechtsmittel, BGH, Kosten, Vollstreckung und bilingualer Schriftsatz-/Hearing-Workflow.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`commercial-courts-deutschland.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/commercial-courts-deutschland.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/commercial-courts-deutschland.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/commercial-courts-deutschland-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/commercial-courts-deutschland-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/commercial-courts-deutschland.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/commercial-courts-deutschland.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für commercial-courts-deutschland:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`commercial-courts-deutschland.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/commercial-courts-deutschland.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/commercial-courts-deutschland/commercial-courts-deutschland-werkstatt.md" download><code>commercial-courts-deutschland-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/commercial-courts-deutschland/commercial-courts-deutschland-schnellstart.md" download><code>commercial-courts-deutschland-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`commercial-courts-deutschland.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/commercial-courts-deutschland.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`commercial-courts-deutschland-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/commercial-courts-deutschland-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`commercial-courts-deutschland-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/commercial-courts-deutschland-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -42,7 +78,7 @@ Es unterstützt insbesondere:
 
 ## Kaltstart
 
-Der Einstieg fragt zuerst:
+Der Einstieg liest vorhandene Vertragsklauseln, Schriftsätze und Anlagen. Er klärt nur, was für die beauftragte Prozesshandlung noch entscheidend fehlt:
 
 1. Deutsch, Englisch oder zweisprachig?
 2. Commercial Court, Commercial Chamber, Schiedsgericht oder anderes Forum?
@@ -50,7 +86,7 @@ Der Einstieg fragt zuerst:
 4. Was ist die nächste Prozesshandlung?
 5. Welche Anlagen und Fristen liegen vor?
 
-Danach routet er in die passenden Spezialskills.
+Bei klarem Forum und Auftrag beginnt direkt der passende Fachskill und liefert den ausformulierten Schriftsatz oder das verlangte Memo. Antworten und neue Unterlagen werden anschließend gezielt eingearbeitet, ohne die Fallaufnahme neu zu beginnen.
 
 ## Typische Outputs
 
@@ -66,6 +102,8 @@ Danach routet er in die passenden Spezialskills.
 - Board Briefing DE/EN
 
 ## Quellenhygiene
+
+Gezielt geprüft am 16.10.2026: [Paragraf 119b GVG](https://www.gesetze-im-internet.de/gvg/__119b.html) eröffnet Commercial Courts nicht pauschal für alle gesellschaftsrechtlichen Streitigkeiten. Die Norm verlangt insbesondere den gesetzlichen Gegenstandsbereich, einen Streitwert ab 500.000 Euro, die landesrechtliche Einrichtung und die erforderliche Parteivereinbarung. Streitigkeiten über Wirksamkeit oder Rechtmäßigkeit von Gesellschafter- oder Organbeschlüssen sind ausgenommen. Die einschlägige Landesverordnung, ein konkreter Standort und dessen Geschäftsverteilung wurden hier nicht neu geprüft.
 
 Vor produktiver Verwendung müssen Bundesrecht, Landesrecht und Gerichtsseite live geprüft werden. Dieses Plugin nennt keine erfundenen Commercial-Court-Standorte und keine Paywall-Fundstellen. Rechtsprechung wird nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle ausgegeben.
 
@@ -125,8 +163,8 @@ Vor produktiver Verwendung müssen Bundesrecht, Landesrecht und Gerichtsseite li
 | `contract-interpretation-de-en` | Erklärt und prüft englische Vertragsbegriffe unter deutschem Recht: reasonable efforts, best endeavours, indemnity, warranty, termination, material adverse change. |
 | `english-legal-writing-for-german-courts` | Verbessert englische Schriftsätze für deutsche Gerichte: klar, zpo-tauglich, ohne US-Discovery-Duktus, mit sauberem Tatsachenvortrag und Beweisangebot. |
 | `bilingual-client-board-briefing` | Erstellt bilinguale Board- und Mandantenbriefings zu Commercial-Court-Verfahren: risk, timeline, budget, settlement range, next decisions. |
-| `bundle-index-electronic-filing` | Organisiert elektronisches Bundle, Anlagenindex, beA/ERV-Dateinamen, PDF/A, Lesezeichen, Übersetzungen und Exhibit References. |
-| `bea-erv-english-pleadings` | Prüft beA/ERV-Einreichung englischer Schriftsätze: Dateiformat, Signatur, Anlagen, Fristen, Empfangsbekenntnis und Kanzlei-Workflow. |
+| `bundle-index-electronic-filing` | Organisiert elektronisches Anlagenpaket, Anlagenindex, beA/ERV-Dateinamen, zulässige PDF-Formate, Lesezeichen, Übersetzungen und Anlagenverweise. |
+| `bea-erv-english-pleadings` | Bereitet englische Gerichtsschriftsätze für den elektronischen Rechtsverkehr vor: Sprachgrundlage, PDF-Anlagen, Signatur, Eingangsbestätigung und Vorgehen bei Störungen. |
 | `protective-measures-confidential-exhibits` | Plant Schutzmaßnahmen für vertrauliche Anlagen: redactions, confidentiality club, restricted access, sealed bundles und Verhandlungsorganisation. |
 | `mediation-settlement-window` | Findet Vergleichsfenster, Mediation, judicial settlement signals und Prozessvergleichsstrategie in Commercial-Court-Verfahren. |
 | `arbitration-clause-conflict-check` | Prüft Konflikte zwischen Schieds-, Gerichtsstands-, Escalation- und Commercial-Court-Klauseln. |
@@ -143,21 +181,29 @@ Vor produktiver Verwendung müssen Bundesrecht, Landesrecht und Gerichtsseite li
 
 Apache-2.0 OR MIT. Siehe Repository-Stammverzeichnis.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **8 auswählbare Skills**. Die **59 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `claim-intake-chamber-vs-conference`, `commercial-court-kaltstart-interview`, `kaltstart-triage` |
-| 3. Prüfung, Anspruch und Subsumtion | `limitation-and-tolling-check`, `zustandigkeit-119b-gvg-check` |
-| 5. Verfahren, Behörde und Gericht | `englische-verfahrenssprache-late-submissions`, `klageschrift-english-limitation-tolling` |
-| 6. Ergebnis, Schreiben und Kommunikation | `bilingual-client-board-briefing` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `redteam-commercial-court-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `appeal-and-revision-614-zpo`, `arbitration-clause-bea-erv`, `bea-erv-english-pleadings`, `bgh-english-bilingual-client`, `bundle-index-case-management`, `case-management-conference`, `commercial-chamber-vs-commercial-court`, `confidentiality-trade-contract-interpretation`, `contract-interpretation-de-en`, `costs-court-counterclaim-setoff`, `counterclaim-setoff-claim-amendment`, `cross-border-default-judgment`, `default-judgment-and-nonappearance`, `defence-answer-director-officer`, `director-officer-liability-dispute`, `document-production-earn-out`, `earn-out-accounting-dispute`, `enforcement-translation-english-legal`, ... plus 30 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/kaltstart-triage/SKILL.md) |
+| 2. Forumcheck | [`forumcheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/forumcheck-bearbeiten/SKILL.md) |
+| 3. Parteiwille | [`parteiwille-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/parteiwille-bearbeiten/SKILL.md) |
+| 4. Pleading und Case Management | [`pleading-und-case-management-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/pleading-und-case-management-bearbeiten/SKILL.md) |
+| 5. Geheimnisse und Beweis | [`geheimnisse-und-beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/geheimnisse-und-beweis-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -165,66 +211,19 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 57 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 8 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `appeal-and-revision-614-zpo` | Wenn es um Appeal and Revision in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `arbitration-clause-bea-erv` | Wenn es um Arbitration Clause Conflict in commercial-courts-deutschland geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bea-erv-english-pleadings` | Wenn es um Bea Erv English Pleadings in commercial-courts-deutschland geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `bgh-english-bilingual-client` | Wenn es um BGH in English in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Mandantennachricht oder Entscheidungsvorlage. |
-| `bilingual-client-board-briefing` | Wenn es um Bilingual Board Briefing in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `bundle-index-case-management` | Wenn es um Bundle and Filing in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `case-management-conference` | Wenn es um Case Management Conference in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `claim-intake-chamber-vs-conference` | Wenn es um Claim Intake in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `commercial-chamber-vs-commercial-court` | Wenn es um Commercial Chamber oder Commercial Court in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `commercial-court-kaltstart-interview` | Wenn es um Kaltstart-Interview in commercial-courts-deutschland geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `confidentiality-trade-contract-interpretation` | Wenn es um Confidentiality and Trade Secrets in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `contract-interpretation-de-en` | Wenn es um Contract Interpretation DE/EN in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `costs-court-counterclaim-setoff` | Wenn es um Costs and Budget in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `counterclaim-setoff-claim-amendment` | Wenn es um Counterclaim and Set-off in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `cross-border-default-judgment` | Wenn es um Cross-Border Jurisdiction in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `default-judgment-and-nonappearance` | Wenn es um Default and Nonappearance in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `defence-answer-director-officer` | Wenn es um Statement of Defence in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `director-officer-liability-dispute` | Wenn es um D&O Disputes in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `document-production-earn-out` | Wenn es um Document Production in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `earn-out-accounting-dispute` | Wenn es um Earn-out Disputes in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `enforcement-translation-english-legal` | Wenn es um Enforcement in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `englische-verfahrenssprache-late-submissions` | Wenn es um Verfahrenssprache Englisch in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `english-legal-writing-for-german-courts` | Wenn es um English Legal Writing in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `evidence-map-exhibits-translation` | Wenn es um Evidence Map ZPO/Common Law in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `exhibits-translation-608-zpo` | Wenn es um Exhibits und Übersetzung in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `expert-evidence-finance-banking` | Wenn es um Expert Evidence in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `finance-banking-dispute` | Wenn es um Finance Disputes in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `forumwahl-court-glossary` | Wenn es um Forumwahl gegenüber Schiedsgericht in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `glossary-commercial-court-de-en` | Wenn es um Commercial Court Glossary in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `governing-law-hearing-script` | Wenn es um Governing Law in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `hearing-script-english-advocacy` | Wenn es um English Hearing Advocacy in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `interim-relief-issues-list` | Wenn es um Interim Relief in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `issues-list-and-roadmap` | Wenn es um Issues List in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `judgment-publication-jurisdiction-clause` | Wenn es um Judgment Publication in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `jurisdiction-clause-drafting-de-en` | Wenn es um Klauselgestaltung DE/EN in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `kaltstart-triage` | Wenn es um Commercial Courts Deutschland — Allgemein in commercial-courts-deutschland geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `klageschrift-english-limitation-tolling` | Wenn es um Statement of Claim in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `late-submissions-296-zpo` | Wenn es um Late Submissions in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `limitation-and-tolling-check` | Wenn es um Limitation and Tolling in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `local-rules-mediation-settlement` | Wenn es um Local Rules in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `mediation-settlement-window` | Wenn es um Mediation and Settlement Window in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `post-ma-pre-litigation` | Wenn es um Post-M&A Warranty Claims in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `pre-litigation-notice-and-standstill` | Wenn es um Pre-Litigation und Standstill in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `procedural-calendar-protective-measures` | Wenn es um Procedural Calendar in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `protective-measures-confidential-exhibits` | Wenn es um Confidential Exhibits in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `public-hearing-appeal-revision` | Wenn es um Öffentlichkeit und Presse in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `redteam-commercial-court-qualitygate` | Wenn es um Red-Team Quality Gate in commercial-courts-deutschland geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ruegelose-einlassung-service-abroad` | Wenn es um Rügelose Einlassung in commercial-courts-deutschland geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `service-abroad-hague-eu` | Wenn es um Service Abroad in commercial-courts-deutschland geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `settlement-court-shareholder-board` | Wenn es um Settlement in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `shareholder-board-dispute` | Wenn es um Shareholder and Board Disputes in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `supply-chain-third-party` | Wenn es um Supply Chain Disputes in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `third-party-notice-607-zpo` | Wenn es um Third Party Notice in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `verbatim-transcript-video-hearing` | Wenn es um Verbatim Transcript in commercial-courts-deutschland geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `video-hearing-128a-284-zpo` | Wenn es um Video Hearing in commercial-courts-deutschland geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `witness-preparation-zustandigkeit-119b` | Wenn es um Witness Preparation in commercial-courts-deutschland geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
-| `zustandigkeit-119b-gvg-check` | Wenn es um Zuständigkeit und Eingangstor in commercial-courts-deutschland geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweisfragen. |
+English: Complete list of all 8 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Hand... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Arbeitsprodukt: englische oder bilinguale Klage, Erwiderung, CMC-Bundle, Schutzantrag, Hearing Note oder Revisionsbriefing erstellen. Vollständige Fachanweisungen und lokale V... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`forumcheck-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/forumcheck-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Forumcheck: Bundesland, Landesverordnung, sachlicher Katalog, Streitwert, Ausschluss, örtlicher Bezug und internationale Zuständigkeit prüfen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/forumcheck-bearbeiten/SKILL.md) |
+| [`geheimnisse-und-beweis-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/geheimnisse-und-beweis-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Geheimnisse und Beweis: Schutzantrag, Zugangsgruppe, exhibits, document production, witnesses, experts und Transcript steuern. Vollständige Fachanweisungen und lokale Vorlagen... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/geheimnisse-und-beweis-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/juristischer-argumentationskern/SKILL.md) | Commercial-Court-Streit vom Vertrag zur zuständigen Verfahrensroute führen. Nutzt vorhandene Falldaten, entscheidet die maßgeblichen rechtlichen Abzweigungen und verbindet passende Fachprüfungen mit einem vollständig ausgearbeiteten Erge... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/kaltstart-triage/SKILL.md) | Für Commercial Courts Deutschland — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/kaltstart-triage/SKILL.md) |
+| [`parteiwille-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/parteiwille-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Parteiwille: Gerichtsstands- und Sprachvereinbarung, Klageantrag, Zustimmung, rügelose Einlassung oder Verweisungstatbestand dokumentieren. Vollständige Fachanweisungen und lo... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/parteiwille-bearbeiten/SKILL.md) |
+| [`pleading-und-case-management-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/pleading-und-case-management-bearbeiten/SKILL.md) | Für Commercial Courts und Commercial Chambers in Deutschland: Pleading und Case Management: claim, defence, counterclaim, Zeitplan, Themenliste, Beweis, Übersetzung und Organisationstermin vorbereiten. Vollständige Fachanweisungen und lo... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=commercial-courts-deutschland/skills/pleading-und-case-management-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

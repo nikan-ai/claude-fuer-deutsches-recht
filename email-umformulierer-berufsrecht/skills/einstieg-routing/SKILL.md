@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in E-Mail-Umformulierer geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Email Umformulierer Berufsrecht** vom ersten Sachverhal
 
 ## Fachlandkarte dieses Plugins
 
-- `allgemeine-sonderfall-edge-case` — Allgemeine Sonderfall Edge Case
-- `anrede-und-grussformeln` — Anrede und Grussformeln
-- `berufliche-fristennotiz-emotionale` — Berufliche Fristennotiz Emotionale
-- `berufliche-fristennotiz-naechster-schritt` — Berufliche Fristennotiz Naechster Schritt
-- `berufsrechtskonform-verhandlung-vergleich-und-eskalation` — Berufsrechtskonform Verhandlung Vergleich und Eskalation
-- `bora-internationaler-bezug-und-schnittstellen` — BORA Internationaler Bezug und Schnittstellen
-- `bora-konformitaetspruefung` — BORA Konformitaetspruefung
-- `bora-konformitaetspruefung-brao-email` — BORA Konformitaetspruefung BRAO Email
-- `brao-interessen-fokus-formuliert` — BRAO Interessen Fokus Formuliert
-- `brao-konformitaetspruefung` — BRAO Konformitaetspruefung
-- `chronologie-und-belegmatrix` — Chronologie und Belegmatrix
-- `edge-case-verhandlung-bora-international` — Edge Case Verhandlung BORA International
-- `email-berufsrecht-berufliche-korrespondenz` — Email Berufsrecht Berufliche Korrespondenz
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `varianten-endfassung-bearbeiten` (Fachthema: allgemeine-sonderfall-edge-case) — Allgemeine Sonderfall Edge Case
+- `adressat-sprachfassung-bearbeiten` (Fachthema: anrede-und-grussformeln) — Anrede und Grussformeln
+- `frist-forderung-bitte-bearbeiten` (Fachthema: berufliche-fristennotiz-emotionale) — Berufliche Fristennotiz Emotionale
+- `frist-forderung-bitte-bearbeiten` (Fachthema: berufliche-fristennotiz-naechster-schritt) — Berufliche Fristennotiz Naechster Schritt
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: berufsrechtskonform-verhandlung-vergleich-und-eskalation) — Berufsrechtskonform Verhandlung Vergleich und Eskalation
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: bora-internationaler-bezug-und-schnittstellen) — BORA Internationaler Bezug und Schnittstellen
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: bora-konformitaetspruefung) — BORA Konformitaetspruefung
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: bora-konformitaetspruefung-brao-email) — BORA Konformitaetspruefung BRAO Email
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: brao-interessen-fokus-formuliert) — BRAO Interessen Fokus Formuliert
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: brao-konformitaetspruefung) — BRAO Konformitaetspruefung
+- `ausgangsmail-auftrag-bearbeiten` (Fachthema: chronologie-und-belegmatrix) — Chronologie und Belegmatrix
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: edge-case-verhandlung-bora-international) — Edge Case Verhandlung BORA International
+- `berufsrecht-vertraulichkeit-bearbeiten` (Fachthema: email-berufsrecht-berufliche-korrespondenz) — Email Berufsrecht Berufliche Korrespondenz
+- `ausgangsmail-auftrag-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `ausgangsmail-auftrag-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Email Umformulierer Berufsrecht** vom ersten Sachverhal
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Berufsrecht der rechts- und wirtschaftsberatenden Berufe:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

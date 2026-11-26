@@ -1,6 +1,6 @@
 ---
 name: einstieg-routing
-description: "Wenn es um Einstieg und Routing in Fachanwalt Verwaltungsrecht geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten."
+description: "Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht."
 ---
 
 # Einstieg und Routing
@@ -11,21 +11,21 @@ Dieser Einstieg routet **Fachanwalt Verwaltungsrecht** vom ersten Sachverhalt zu
 
 ## Fachlandkarte dieses Plugins
 
-- `amtshaftung-paragraf-839-bgb-art-34-gg` — Amtshaftung Paragraf 839 BGB ART 34 GG
-- `anfechtungs-risikoampel-und-gegenargumente` — Anfechtungs Eilrechtsschutz ABS
-- `anhoerung-paragraf-28-vwvfg` — Anhoerung Paragraf 28 Vwvfg
-- `anordnung-quellenkarte` — Anordnung Quellenkarte
-- `drittanfechtung-umwelt` — Drittanfechtung
-- `eilrechtsschutz-paragraf-80-vwgo` — Eilrechtsschutz Paragraf 80 Vwgo
-- `einstweilige-verhandlung-vergleich-und-eskalation` — Einstweilige Fachanwalt Kanzlei
-- `ermessen-paragraf-40-vwvfg` — Ermessen Paragraf 40 Vwvfg
-- `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme FA Vwgo
-- `workflow-mandantenkommunikation` — FA Verwaltungsrecht Mandant Redteam Gate
-- `einstieg-schnelltriage-fallrouting` — FA Verwaltungsrecht Start Chronologie Fristen
-- `klagefrist-paragraf-58-vwgo-bverwg-4-c-1-19` — Klagefrist Paragraf 58 Vwgo Bverwg 4 C 1 19
-- `kommunalrecht-paragraf-2-go` — Kommunalrecht Paragraf 2 GO
-- `anschluss-routing` — Anschluss Routing
-- `dokumente-intake` — Dokumente Intake
+- `materielle-rechtmaessigkeit-bearbeiten` (Fachthema: amtshaftung-paragraf-839-bgb-art-34-gg) — Amtshaftung Paragraf 839 BGB ART 34 GG
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: anfechtungs-risikoampel-und-gegenargumente) — Anfechtungs Eilrechtsschutz ABS
+- `materielle-rechtmaessigkeit-bearbeiten` (Fachthema: anhoerung-paragraf-28-vwvfg) — Anhoerung Paragraf 28 Vwvfg
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anordnung-quellenkarte) — Anordnung Quellenkarte
+- `zulaessigkeit-bearbeiten` (Fachthema: drittanfechtung-umwelt) — Drittanfechtung
+- `eilrechtsschutz-bearbeiten` (Fachthema: eilrechtsschutz-paragraf-80-vwgo) — Eilrechtsschutz Paragraf 80 Vwgo
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: einstweilige-verhandlung-vergleich-und-eskalation) — Einstweilige Fachanwalt Kanzlei
+- `materielle-rechtmaessigkeit-bearbeiten` (Fachthema: ermessen-paragraf-40-vwvfg) — Ermessen Paragraf 40 Vwvfg
+- `verwaltungshandeln-bearbeiten` (Fachthema: erstgespraech-mandatsannahme) — Erstgespraech Mandatsannahme FA Vwgo
+- `arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten` (Fachthema: workflow-mandantenkommunikation) — FA Verwaltungsrecht Mandant Redteam Gate
+- `zulaessigkeit-bearbeiten` (Fachthema: einstieg-schnelltriage-fallrouting) — FA Verwaltungsrecht Start Chronologie Fristen
+- `zulaessigkeit-bearbeiten` (Fachthema: rechtsbehelfsbelehrung-jahresfrist-vwgo) — Rechtsbehelfsbelehrung und Jahresfrist prüfen
+- `materielle-rechtmaessigkeit-bearbeiten` (Fachthema: kommunalrecht-paragraf-2-go) — Kommunalrecht Paragraf 2 GO
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: anschluss-routing) — Anschluss Routing
+- `unterlagen-und-quellen-auswerten-bearbeiten` (Fachthema: dokumente-intake) — Dokumente Intake
 
 ## Arbeitsweg
 
@@ -40,3 +40,23 @@ Dieser Einstieg routet **Fachanwalt Verwaltungsrecht** vom ersten Sachverhalt zu
 - Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
 - Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
 - Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.
+
+<!-- BEGIN werkstatt-visualisierung -->
+## 1. Verständlich arbeiten und sichtbar prüfen
+
+Bei komplexem Material zuerst verständlich machen, wer beteiligt ist, was geschehen ist und welche Entscheidung ansteht. Vorhandene Unterlagen auswerten und Fachbegriffe beim ersten Gebrauch kurz erklären. Danach das erste nutzbare Arbeitsergebnis liefern. Die Fachansicht und ihre Beispiele an den konkreten Auftrag, Empfänger und Bearbeitungsstand anpassen; daraus entsteht kein Auftrag für ein zusätzliches Verfahren oder andere Unterlagen. Eine passende Visualisierung direkt erstellen, wenn sie Vergleich, Ablauf, Mengen oder Zusammenhänge verständlicher macht; nicht erst allgemein anbieten oder eine Auswahl aus Werkzeugnamen verlangen. Einfache Einzelfragen knapp beantworten. Anfangs eine zentrale Ansicht mit verständlichen Beschriftungen und kurzem Befund zeigen; weitere Details nach Bedarf öffnen.
+
+**Leitfrage für Verwaltungsrecht:** Welche Verfahrensfrage ist jetzt entscheidungsreif und welcher Beleg fehlt für die nächste Handlung?
+
+**Erste Ansicht:** Zeige Verfahrensstand und Frist als kurze Zeitachse; ordne Streitpunkte in einer Tabelle nach Vortrag, Gegenposition, Beleg, Rechtsmaßstab und nächstem Arbeitsschritt.
+
+**Sinnvolle Interaktion:** Eine Auswahl eines Streitpunkts zeigt die tragenden Belegstellen und den zugehörigen Entwurfsabschnitt. Alternative Tatsachenannahmen bleiben getrennt; ein Klick entscheidet keine streitige Rechtsfrage.
+
+**Datengrundlage:** Verfahrensrolle, Antrag oder Ziel, Ereignis und Zugang, streitige Tatsache, Beleg, Rechtsquelle und offener Punkt. Je tragendem Wert die Datei und Seite, Tabellenblatt/Zelle, Zeile oder Belegkennung mitführen.
+
+**Weiter zum Ergebnis:** das verlangte ausformulierte Schreiben, der Schriftsatz, Bescheid, Entscheidungsentwurf oder Vermerk. Die Ansicht ist ein Arbeitsmittel auf diesem Weg.
+
+Nutze eine tatsächlich verfügbare Visualisierung oder Fachanwendung; bei geeigneter interaktiver Oberfläche direkt ein Applet erstellen oder die vorhandene Anwendung verwenden. Ohne diese Fähigkeit eine verständliche Tabelle oder Skizze liefern. Belege und Annahmen trennen, fehlende Werte nicht als null behandeln. Auswahl und neue Angaben im selben Arbeitsprodukt fortschreiben und dieses ausformulieren. Keine Datenübermittlung, Speicherung oder erfolgreiche Funktion behaupten, die nicht stattfand.
+
+Bei interaktiver Arbeit die [lokalen Regeln für Oberfläche, Belege und Fortsetzung](../../references/arbeitsoberflaeche-und-visualisierung.md) lesen.
+<!-- END werkstatt-visualisierung -->

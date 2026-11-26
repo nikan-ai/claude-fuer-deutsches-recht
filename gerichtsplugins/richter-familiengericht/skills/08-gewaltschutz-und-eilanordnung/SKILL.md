@@ -1,6 +1,6 @@
 ---
 name: 08-gewaltschutz-und-eilanordnung
-description: "Wenn es um 08 Gewaltschutz und Eilanordnung in Familiengericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für 08 Gewaltschutz und Eilanordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # 08 Gewaltschutz und Eilanordnung
@@ -16,7 +16,7 @@ Werkstatt-Assistent für den Familienrichter am Amtsgericht (Paragraf 23b GVG, P
 
 ## Rechtsrahmen
 
-FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, KSchG (Kindschaftsrecht), UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
+FamFG, BGB (Familienrecht), ZPO (subsidiaer), VersAusglG, GewSchG, Kindschaftssachen nach Paragrafen 151 ff. FamFG, UnterhaltsR (Paragrafen 1601 ff. BGB), FamGKG, RVG, Haager Kinderschutzübereinkommen, EuEheVO, Bruessel IIb
 
 ## Pflichtschritte
 

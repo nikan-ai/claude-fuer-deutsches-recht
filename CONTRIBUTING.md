@@ -7,8 +7,11 @@ Beiträge sind willkommen – insbesondere zu neuen Rechtsgebieten, aktuelleren 
 - [ ] Sprache deutsch.
 - [ ] Zitierweise nach [`references/zitierweise.md`](./references/zitierweise.md).
 - [ ] Methodik nach [`references/methodik-buergerliches-recht.md`](./references/methodik-buergerliches-recht.md).
-- [ ] Skill-Frontmatter vollständig und validatorfest (`name`, `description`, optional `allowed-tools`).
+- [ ] Skill-Frontmatter vollständig und validatorfest (ausschließlich `name` und `description`).
 - [ ] Skills sind kanzleitauglich (reproduzierbar, mit Quellenpflicht, mit Fristlogik wo relevant).
+- [ ] Höchstens 21 aktive Skills einschließlich eines klar erkennbaren Hauptskills, der den Gesamtworkflow bis zum bestellten Ergebnis führt; Werkstatt-Prompt, Mini-Prompt und passende Testakten nach [AGENTS.md](./AGENTS.md).
+- [ ] Verständliche Skill-Namen mit konkretem Fachgegenstand und Tätigkeit oder Arbeitsprodukt; keine abgeschnittenen Wörter oder nummerierten Ersatznamen. Hauptworkflow und Namensverständlichkeit am Inhalt geprüft, nicht nur Syntax und Dateiexistenz.
+- [ ] Testakten tatsächlich durchgesehen: verständlicher Sachverhalt, seriöse Darstellung, keine obszönen Inhalte oder praktisch gefährlichen Anleitungen; Bearbeitungsstände und Grundakte nach dem [Qualitätsstandard](./testakten/QUALITAETSSTANDARD.md) getrennt.
 - [ ] Keine Mandantendaten / personenbezogene Daten im Beispiel.
 - [ ] `node scripts/validate-plugin-structure.mjs` läuft fehlerfrei.
 - [ ] `python3 scripts/validate-yaml-frontmatter.py` läuft fehlerfrei.

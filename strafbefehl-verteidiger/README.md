@@ -5,38 +5,85 @@
 
 Freistehendes Strafbefehls-Plugin für Verteidigung gegen Strafbefehl, Einspruch, Akteneinsicht, Tagessätze, Nebenfolgen, Pflichtverteidigung, Wiedereinsetzung, Einstellung, Zeugenstrategie und Hauptverhandlung.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`strafbefehl-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/strafbefehl-verteidiger.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/strafbefehl-verteidiger.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/strafbefehl-verteidiger-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/strafbefehl-verteidiger-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/strafbefehl-verteidiger.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/strafbefehl-verteidiger.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Strafbefehl-Verteidiger:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafbefehl-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/strafbefehl-verteidiger.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafbefehl-verteidiger/strafbefehl-verteidiger-werkstatt.md" download><code>strafbefehl-verteidiger-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/strafbefehl-verteidiger/strafbefehl-verteidiger-schnellstart.md" download><code>strafbefehl-verteidiger-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | LUMEN Studios GmbH — Insolvenz- und Wirtschaftsstrafverfahren: [Gesamt-PDF](../testakten/lumen-studios-insolvenz-strafverfahren/gesamt-pdf/lumen-studios-insolvenz-strafverfahren_gesamt.pdf), [`testakte-lumen-studios-insolvenz-strafverfahren.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lumen-studios-insolvenz-strafverfahren.zip), [`testakte-lumen-studios-insolvenz-strafverfahren-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-lumen-studios-insolvenz-strafverfahren-einzelpdfs.zip); Strafbefehl – Ladendiebstahl und Fahrerflucht: [Gesamt-PDF](../testakten/strafbefehl-ladendiebstahl-fahrerflucht/gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf), [`testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip), [`testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`strafbefehl-verteidiger.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/strafbefehl-verteidiger.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`strafbefehl-verteidiger-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/strafbefehl-verteidiger-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`strafbefehl-verteidiger-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/strafbefehl-verteidiger-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [LUMEN Studios GmbH — Insolvenz- und Wirtschaftsstrafverfahren](../testakten/lumen-studios-insolvenz-strafverfahren/README.md) | [Gesamt-PDF](../testakten/lumen-studios-insolvenz-strafverfahren/gesamt-pdf/lumen-studios-insolvenz-strafverfahren_gesamt.pdf) | [`testakte-lumen-studios-insolvenz-strafverfahren.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-lumen-studios-insolvenz-strafverfahren.zip) | [`testakte-lumen-studios-insolvenz-strafverfahren-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-lumen-studios-insolvenz-strafverfahren-einzelpdfs.zip) |
+| [Strafbefehl – Ladendiebstahl und Fahrerflucht](../testakten/strafbefehl-ladendiebstahl-fahrerflucht/README.md) | [Gesamt-PDF](../testakten/strafbefehl-ladendiebstahl-fahrerflucht/gesamt-pdf/strafbefehl-ladendiebstahl-fahrerflucht_gesamt.pdf) | [`testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-strafbefehl-ladendiebstahl-fahrerflucht.zip) | [`testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-strafbefehl-ladendiebstahl-fahrerflucht-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du einen Strafbefehl verteidigen: Einspruchsfrist, Beschränkung, Akteneinsicht, Tagessätze, Fahrverbot, Nebenfolgen, Beweisrisiko und Hauptverhandlungstaktik.
 Ein freistehender Strafbefehls-Assistent für Kanzleien: vom Fristnotruf über Akteneinsicht und Einspruch bis zur beschränkten Rechtsfolgenstrategie oder Hauptverhandlung.
 
-Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugins, keine externen Agenten und keine besonderen Repo-Dateien außerhalb seines eigenen Ordners. Wenn Register, Kanzleisoftware, beA, E-Mail, Datenraum oder Aktenexport fehlen, arbeitet es mit manuellen Uploads oder mit einem klar gekennzeichneten Simulationsmodus.
+Dieses Plugin benötigt keine anderen Plugins. Ohne Anschluss an Register oder Kanzleisoftware werden bereitgestellte Unterlagen ausgewertet und fehlende Aktenbestandteile gezielt angefordert. Ein ausdrücklich bestellter Übungsmodus verwendet erkennbar fiktive Daten; diese ersetzen niemals Belege im echten Mandat.
 
 ## Schnellstart
 
 1. Plugin aktivieren oder die ZIP aus dem Release installieren.
-2. Mit `strafbefehl-kommandocenter` starten.
+2. Mit `strafbefehl-quality-gate-akteneinsicht`, dem Einstieg in die Mandatssteuerung, starten.
 3. Frist, Zustellung, Aktenzeichen, vorhandene Unterlagen und Mandantenziel nennen.
-4. Fehlende Unterlagen nicht raten lassen, sondern mit der passenden Vorlage nachfordern oder Simulation ausdrücklich aktivieren.
+4. Fehlende Unterlagen nachfordern und fristbezogene Entwürfe auf belegter Grundlage weiterbearbeiten. Simulation nur für einen getrennten, ausdrücklich beauftragten Übungsfall verwenden.
 5. Vor Versand oder Termin immer das Qualitätstor laufen lassen.
 
 ## Enthaltene Skills
 
-- `strafbefehl-kommandocenter` - Strafbefehl-Kommandocenter
+- `strafbefehl-quality-gate-akteneinsicht` - Strafbefehl-Kommandocenter
 - `strafbefehl-aktenanlage` - Aktenanlage Strafbefehl
 - `strafbefehl-fristen-einspruch` - Frist und Einspruch nach § 410 StPO
 - `strafbefehl-akteneinsicht-147` - Akteneinsicht
@@ -86,22 +133,30 @@ Dieses Plugin ist **vollständig freistehend**. Es erwartet keine anderen Plugin
 - Fristen, Rechtsmittel, Aussageverhalten und Nebenfolgen werden sichtbar geprüft.
 - Jede Ausgabe muss so gestaltet sein, dass eine Berufsträgerin oder ein Berufsträger sie sofort prüfen, kürzen, freigeben oder verwerfen kann.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **10 auswählbare Skills**. Die **61 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
+
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `anschluss-routing`, `dokumente-intake`, `einstieg-routing`, `start-chronologie-fristen`, `strafbefehls-erstpruefung-und-mandatsziel`, `workflow-kaltstart-und-routing` |
-| 2. Unterlagen, Sachverhalt und Quellen | `aktenanlage-fehlerkatalog`, `akteneinsicht-behoerden-gericht-und-registerweg`, `deal-beweislast-einspruch`, `pflichtverteidigung-quellenkarte`, `quellen-livecheck`, `spezial-pflichtverteidigung-livequellen-und-rechtsprechungscheck`, `strafbefehl-aktenanlage`, `strafbefehl-akteneinsicht-147`, `strafbefehl-dokumentenmatrix-und-lueckenliste`, `strafbefehl-einspruch-aktenanlage`, `strafbefehl-quality-gate-akteneinsicht`, `strafbefehl-rechtsprechungsrecherche`, `unterlagen-luecken`, `verteidiger-formular-portal-und-einreichung`, `workflow-chronologie-und-belegmatrix`, `workflow-unterlagen-lueckenliste` |
-| 3. Prüfung, Anspruch und Subsumtion | `einspruch-risikoampel-und-gegenargumente`, `stbv-strafbefehl-pruefung-bauleiter`, `strafbefehl-inhalt-409-pruefung`, `workflow-fristen-und-risikoampel` |
-| 4. Gestaltung, Strategie und Verhandlung | `einstellung-153a-hauptverhandlung`, `hauptverhandlung-international-schnittstellen`, `strafbefehl-hauptverhandlung-vorbereitung`, `verteidigung-wiedereinsetzung-zeugenstrategie`, `zeugen-befragungsstrategie-strafbefehl`, `zeugenstrategie-mehrparteien-konflikt-und-interessen` |
-| 5. Verfahren, Behörde und Gericht | `einspruchsentscheidung-und-folgen`, `stbv-einspruch-strafbefehl-fahrerlaubnis`, `strafbefehl-einspruch-beschraenkung`, `strafbefehl-fristen-einspruch` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-waehlen` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `mandantenkommunikation-redteam-qualitygate`, `spezial-aktenanlage-red-team-und-qualitaetskontrolle`, `workflow-redteam-qualitygate` |
-| 8. Spezialmodule und Schnittstellen | `einstellung-fahrerlaubnis`, `fahrerlaubnis-mandantenentscheidung`, `nebenfolgen-fahrerlaubnis-strafbefehl`, `nebenfolgen-strafbefehl-strafbefehls`, `rechtsmittel-tagessaetze-geldstrafe`, `stbv-fahrerlaubnis-bei-strafbefehl-spezial`, `stbv-strafbefehl-abwesenheit-vertretung`, `stbv-strafbefehl-auslaendischer-mandant-spezial`, `strafbefehl-abwesenheit-vertretung`, `strafbefehl-deal-verstaendigung`, `strafbefehl-einlassung-deal-verstaendigung`, `strafbefehl-pflichtverteidiger`, `strafbefehl-polizeifilmerei-201-kug`, `strafbefehl-quality-gate`, `strafbefehl-tagessaetze-geldstrafe`, `strafbefehl-wiedereinsetzung`, `strafbefehl-zulaessigkeit-407`, `tagessaetze-verstaendigung-sonderfall`, ... plus 2 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/juristischer-argumentationskern/SKILL.md), [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/workflow-kaltstart-und-routing/SKILL.md) |
+| 2. Tatvorwurf und materielles Recht | [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| 3. Beweis und Aktenanalyse | [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| 4. Anklage und Hauptverhandlung | [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| 5. Entscheidung und Rechtsmittel | [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| 6. Sanktion und Vollstreckung | [`sanktion-und-vollstreckung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -109,69 +164,21 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 60 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 10 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `aktenanlage-fehlerkatalog` | Wenn es um Aktenanlage Fehlerkatalog in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `akteneinsicht-behoerden-gericht-und-registerweg` | Wenn es um Akteneinsicht: Behörden-, Gerichts- oder Registerweg in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `anschluss-routing` | Wenn es um Anschluss-Routing in Strafbefehl-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `deal-beweislast-einspruch` | Wenn es um Deal: Beweislast, Darlegungslast und Substantiierung in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `dokumente-intake` | Wenn es um Dokumentenintake in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einspruch-risikoampel-und-gegenargumente` | Wenn es um Einspruch: Risikoampel, Gegenargumente und Verteidigungslinien in Strafbefehl-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einspruchsentscheidung-und-folgen` | Wenn es um Einspruchsentscheidung, Beschränkung und Nebenfolgen beim Strafbefehl in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- u... |
-| `einstellung-153a-hauptverhandlung` | Wenn es um Einstellung des Strafbefehlsverfahrens in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `einstellung-fahrerlaubnis` | Wenn es um Einstellung: Compliance-Dokumentation und Aktenvermerk in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem... |
-| `einstieg-routing` | Wenn es um Einstieg und Routing in Strafbefehl-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `fahrerlaubnis-mandantenentscheidung` | Wenn es um Fahrerlaubnis: Mandantenkommunikation und Entscheidungsvorlage in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `hauptverhandlung-international-schnittstellen` | Wenn es um Hauptverhandlung: Internationaler Bezug und Schnittstellen in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `mandantenkommunikation-redteam-qualitygate` | Wenn es um Mandantenkommunikation in Strafbefehl-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `nebenfolgen-fahrerlaubnis-strafbefehl` | Wenn es um Nebenfolgen Fahrerlaubnis im Strafbefehl in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `nebenfolgen-strafbefehl-strafbefehls` | Wenn es um Nebenfolgen: Verhandlung, Vergleich und Eskalation in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `output-waehlen` | Wenn es um Output wählen in Strafbefehl-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `pflichtverteidigung-quellenkarte` | Wenn es um Pflichtverteidigung Quellenkarte in Strafbefehl-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `quellen-livecheck` | Wenn es um Rechtsquellen-Livecheck in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsmittel-tagessaetze-geldstrafe` | Wenn es um Rechtsmittel nach Urteil im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-aktenanlage-red-team-und-qualitaetskontrolle` | Wenn es um Aktenanlage: Red-Team und Qualitätskontrolle in Strafbefehl-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `spezial-pflichtverteidigung-livequellen-und-rechtsprechungscheck` | Wenn es um Pflichtverteidigung: Livequellen- und Rechtsprechungscheck in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `start-chronologie-fristen` | Wenn es um Strafbefehl-Verteidiger — Allgemein in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `stbv-einspruch-strafbefehl-fahrerlaubnis` | Wenn es um StBV: Einspruch Strafbefehl in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stbv-fahrerlaubnis-bei-strafbefehl-spezial` | Wenn es um StBV: Fahrerlaubnis Strafbefehl in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stbv-strafbefehl-abwesenheit-vertretung` | Wenn es um StBV: Strafbefehl-Prüfung in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stbv-strafbefehl-auslaendischer-mandant-spezial` | Wenn es um StBV: Strafbefehl Ausländer in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stbv-strafbefehl-pruefung-bauleiter` | Wenn es um StBV: Strafbefehl-Pruefung in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-abwesenheit-vertretung` | Wenn es um Abwesenheit in der Hauptverhandlung — Paragraf 411 Abs. 2 StPO in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `strafbefehl-aktenanlage` | Wenn es um Aktenanlage im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-akteneinsicht-147` | Wenn es um Akteneinsicht im Strafbefehlsverfahren — Paragraf 147 StPO in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächs... |
-| `strafbefehl-deal-verstaendigung` | Wenn es um Verstaendigung im Strafbefehlsverfahren — Paragraf 257c StPO in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-dokumentenmatrix-und-lueckenliste` | Wenn es um Strafbefehl: Dokumentenmatrix, Lückenliste und Nachforderung in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `strafbefehl-einlassung-deal-verstaendigung` | Wenn es um Beweis und Einlassung im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-einspruch-aktenanlage` | Wenn es um Gegen: Fristen, Form, Zuständigkeit und Rechtsweg in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-einspruch-beschraenkung` | Wenn es um Beschraenkter Einspruch gegen den Strafbefehl — Paragraf 410 Abs. 2 StPO in Strafbefehl-Verteidiger geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt m... |
-| `strafbefehl-fristen-einspruch` | Wenn es um Frist und Einspruch nach Paragraf 410 StPO in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-hauptverhandlung-vorbereitung` | Wenn es um Hauptverhandlung nach Einspruch — Paragraf 411 StPO in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `strafbefehl-inhalt-409-pruefung` | Wenn es um Strafbefehlsinhalt prüfen — Paragraf 409 StPO in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-pflichtverteidiger` | Wenn es um Pflichtverteidiger im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-polizeifilmerei-201-kug` | Wenn es um Strafbefehl Nach Polizeifilmerei in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-quality-gate` | Wenn es um Quality Gate — Strafbefehl-Mandat in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-quality-gate-akteneinsicht` | Wenn es um Strafbefehl-Verteidiger — Kommandocenter in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `strafbefehl-rechtsprechungsrecherche` | Wenn es um Rechtsprechungsrecherche im Strafbefehlsverfahren in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `strafbefehl-tagessaetze-geldstrafe` | Wenn es um Tagessaetze und Geldstrafe — Paragrafen 40 bis 43 StGB in Strafbefehl-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und A... |
-| `strafbefehl-wiedereinsetzung` | Wenn es um Wiedereinsetzung nach versaeumter Einspruchsfrist — Paragraf 44 StPO in Strafbefehl-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert eine Fristen- und Risikoampel mit Sofortsch... |
-| `strafbefehl-zulaessigkeit-407` | Wenn es um Zulaessigkeit des Strafbefehls — Paragraf 407 StPO in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `strafbefehls-erstpruefung-und-mandatsziel` | Wenn es um Strafbefehls: Erstprüfung, Rollenklärung und Mandatsziel in Strafbefehl-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `tagessaetze-verstaendigung-sonderfall` | Wenn es um Tagessaetze: Schriftsatz-, Brief- und Memo-Bausteine in Strafbefehl-Verteidiger geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anl... |
-| `unterlagen-luecken` | Wenn es um Unterlagen und Lücken in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verstaendigung-sonderfall-und-edge-case` | Wenn es um Verstaendigung: Sonderfall und Edge-Case-Prüfung in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verteidiger-formular-portal-und-einreichung` | Wenn es um Verteidiger: Formular, Portal und Einreichungslogik in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `verteidigung-wiedereinsetzung-zeugenstrategie` | Wenn es um Verteidigung: Tatbestandsmerkmale, Beweisfragen und Beleglage in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `wiedereinsetzung-zahlen-schwellen-und-berechnung` | Wenn es um Wiedereinsetzung: Zahlen, Schwellenwerte und Berechnung in Strafbefehl-Verteidiger geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfra... |
-| `workflow-chronologie-und-belegmatrix` | Wenn es um Chronologie und Belegmatrix in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Chronologie mit Belegmatrix und Widerspruchsliste. |
-| `workflow-fristen-und-risikoampel` | Wenn es um Fristen- und Risikoampel in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-kaltstart-und-routing` | Wenn es um Kaltstart und Routing in Strafbefehl-Verteidiger geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-redteam-qualitygate` | Wenn es um Red-Team Qualitygate in Strafbefehl-Verteidiger geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-unterlagen-lueckenliste` | Wenn es um Unterlagen- und Lückenliste in Strafbefehl-Verteidiger geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert eine Dokumentenmatrix mit Nachforderungsliste. |
-| `zeugen-befragungsstrategie-strafbefehl` | Wenn es um Zeugen-Befragungsstrategie in der Hauptverhandlung in Strafbefehl-Verteidiger geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `zeugenstrategie-mehrparteien-konflikt-und-interessen` | Wenn es um Zeugenstrategie: Mehrparteienkonflikt und Interessenmatrix in Strafbefehl-Verteidiger geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 10 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`anklage-und-hauptverhandlung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Anklage und Hauptverhandlung: Anklage, Zwischenverfahren, Einlassung, Beweisantrag, Verhandlung und Verständigung bis zum Schriftsatz vorbereiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`beweis-und-aktenanalyse-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Beweis und Aktenanalyse: Akteninhalt, Aussage, Sachverständige, digitale Daten und Beweisverwertung mit Widersprüchen und Grenzen auswerten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/einstieg-routing/SKILL.md) | Nach erster Sichtung des Strafbefehls: bewertet vollständigen oder beschränkten Einspruch anhand der Akte, persönlichen Folgen und Risiken und erstellt das beauftragte Schreiben. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/einstieg-routing/SKILL.md) |
+| [`entscheidung-und-rechtsmittel-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Entscheidung und Rechtsmittel: Einstellung, Strafbefehl, Urteil, Strafzumessung, Berufung und Revision mit Form und Frist bearbeiten. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/juristischer-argumentationskern/SKILL.md) | Strafbefehl bis zum fristgerechten Verteidigungsergebnis bearbeiten. Verarbeitet vorhandene Unterlagen, prüft entscheidende Fachfragen und führt den Auftrag zum vollständig formulierten Ergebnis. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/juristischer-argumentationskern/SKILL.md) |
+| [`sanktion-und-vollstreckung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) | Für Strafrecht und Strafverfahren: Sanktion und Vollstreckung: Strafe, Bewährung, Maßregel, Einziehung, Vollzug und nachträgliche Entscheidungen getrennt prüfen. Vollständige Fachanweisungen und lokale Vorlagen werden gezielt nach dem ko... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md) |
+| [`tatvorwurf-und-materielles-recht-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Tatvorwurf und materielles Recht: Tatbestand, Beteiligung, Irrtum, Rechtfertigung, Schuld und Konkurrenz am belegten Geschehen prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Strafbefehl-Verteidiger: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`workflow-kaltstart-und-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/workflow-kaltstart-und-routing/SKILL.md) | Bei Eingang eines Strafbefehls: prüft Zustellung, Frist, Tatvorwurf und Rechtsfolgen und bereitet die beauftragte Fristwahrung sowie Akteneinsicht vor. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=strafbefehl-verteidiger/skills/workflow-kaltstart-und-routing/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -1,6 +1,6 @@
 ---
 name: 09-beschluss-familiensache-paragraf-38-famfg
-description: "Wenn es um Beschluss in Familiensachen nach Paragraf 38 FamFG in Familiengericht geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt."
+description: "Für Beschluss in Familiensachen nach Paragraf 38 FamFG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
 ---
 
 # Beschluss in Familiensachen nach Paragraf 38 FamFG
@@ -36,8 +36,8 @@ Dieser Skill formt den entscheidungsreifen Aktenstand in einen familiengerichtli
 
 ## Leitentscheidungen
 
-- BGH, Beschluss vom 15.02.2017, XII ZB 201/16: Familiengerichtliche Entscheidungen müssen die tragenden Berechnungsschritte nachvollziehbar erkennen lassen.
-- BGH, Beschluss vom 18.01.2017, XII ZB 118/16: Beschlüsse im Versorgungsausgleich brauchen anrechtsbezogene Tenorierung und nachvollziehbare Begründung.
+- BGH, Beschluss vom 24.04.2024 - XII ZB 282/23: Für urteilsersetzende Beschlüsse in Ehesachen und Familienstreitsachen sind Erlass- und Verkündungsweg nach FamFG Paragraf 38 und ZPO Paragraf 311 verfahrensabhängig zu unterscheiden; bei einer Beschwerdeentscheidung ohne mündliche Verhandlung kann die Übergabe an die Geschäftsstelle genügen.
+- BGH, Beschluss vom 23.06.2010 - XII ZB 82/10: Die Rechtsbehelfsbelehrung nach FamFG Paragraf 39 muss Rechtsbehelf, zuständiges Gericht mit Anschrift, Form, Frist und einen bestehenden Anwaltszwang aus sich heraus verständlich angeben.
 
 ## Arbeitsprodukt
 

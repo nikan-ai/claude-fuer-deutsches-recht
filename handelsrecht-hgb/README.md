@@ -5,20 +5,67 @@
 
 Reines HGB-Plugin für Handelsrecht: Kaufmann, Handelsregister, Firma, Prokura, Handlungsvollmacht, Handelsgeschäfte, Handelskauf, Handelsvertreter, Makler, Kommission, Fracht, Spedition, Lager, Handelsbücher sowie OHG/KG einschließlich MoPeG-Statuswechsel von GbR zu OHG.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`handelsrecht-hgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/handelsrecht-hgb.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/handelsrecht-hgb.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/handelsrecht-hgb-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/handelsrecht-hgb-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/handelsrecht-hgb.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/handelsrecht-hgb.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Handelsrecht HGB:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`handelsrecht-hgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/handelsrecht-hgb.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/handelsrecht-hgb/handelsrecht-hgb-werkstatt.md" download><code>handelsrecht-hgb-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/handelsrecht-hgb/handelsrecht-hgb-schnellstart.md" download><code>handelsrecht-hgb-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | Handelsrecht HGB — Elbwerft Solar: eGbR, OHG-Statuswechsel, KG und Handelskauf: [Gesamt-PDF](../testakten/handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona/gesamt-pdf/handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona_gesamt.pdf), [`testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona.zip), [`testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona-einzelpdfs.zip); Akte Nordstern MedTech Vertrieb - Provision, Buchauszug und Ausgleich: [Gesamt-PDF](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf), [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip), [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`handelsrecht-hgb.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/handelsrecht-hgb.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`handelsrecht-hgb-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/handelsrecht-hgb-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`handelsrecht-hgb-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/handelsrecht-hgb-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [2 zugeordnete Akten](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Handelsrecht HGB — Elbwerft Solar: eGbR, OHG-Statuswechsel, KG und Handelskauf](../testakten/handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona/README.md) | [Gesamt-PDF](../testakten/handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona/gesamt-pdf/handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona_gesamt.pdf) | [`testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona.zip) | [`testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona-einzelpdfs.zip) |
+| [Akte Nordstern MedTech Vertrieb - Provision, Buchauszug und Ausgleich](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/README.md) | [Gesamt-PDF](../testakten/handelsvertreterrecht-provisionsausgleich-nordstern-medtech/gesamt-pdf/handelsvertreterrecht-provisionsausgleich-nordstern-medtech_gesamt.pdf) | [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech.zip) | [`testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-handelsvertreterrecht-provisionsausgleich-nordstern-medtech-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -44,23 +91,30 @@ Das Plugin ist bewusst **kein** Gesellschaftsrechts-Fachanwaltsplugin, sondern e
 
 `handelsrecht-hgb-kommanditgesellschaft-egbr-statuswechsel-altona` zeigt eine wachsende Solartechnik-GbR, die durch kaufmännischen Geschäftsbetrieb und Register-/Finanzierungsdruck in OHG/KG-Strukturen rutscht. Dazu kommen Prokura, Handelskauf, § 377 HGB, Firmenfortführung und ein Streit um Kommanditistenhaftung.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **57 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `kaltstart-triage` |
-| 2. Unterlagen, Sachverhalt und Quellen | `livequellen-hgb`, `prozessuale-beweisfragen-rechtsabteilung`, `register-gutachten-klage`, `registerakte-handelsstreit`, `workflow-handelsbrauch-beweis` |
-| 3. Prüfung, Anspruch und Subsumtion | `kg-haftung-ohg-vertretung`, `ohg-vertretung-und-haftung`, `unternehmenskauf-hgb-haftung`, `workflow-hgb-erstpruefung` |
-| 4. Gestaltung, Strategie und Verhandlung | `frachtvertrag-paragraphen-speditionsvertrag`, `handelsvertreterausgleich-paragraph`, `hgb-compliance-geschaeftsbriefe-impressum`, `sanierung-krise-jahresabschluss-grundlagen`, `speditionsvertrag-paragraphen-453-466-hgb`, `workflow-verhandlung-handelsstreit` |
-| 5. Verfahren, Behörde und Gericht | `handelskauf-fristenampel-hgb`, `handelsregister-paragraphen-8-16-hgb`, `international-cisg-handelsregister`, `rechtsabteilung-prokura-registerbeanstandung`, `registerbeanstandung-und-beschwerde`, `registerpublizitaet-paragraph-scheinkaufmann` |
-| 6. Ergebnis, Schreiben und Kommunikation | `handlungsvollmacht-paragraph-geschaeftsbriefe`, `kaufmaennisches-bestaetigungsschreiben` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `hgb-red-team` |
-| 8. Spezialmodule und Schnittstellen | `anfanger-erklaerung-handelsbrauch`, `firma-paragraphen-firmenfortfuehrung`, `firmenfortfuehrung-paragraphen-21-25-hgb`, `formkaufmann-paragraph-gmbh-co`, `gmbh-und-co-kg-hgb`, `handelsbuecher-paragraph-handelsgeschaefte`, `handelsgeschaefte-paragraphen-343-344`, `handelskauf-paragraphen-handelsmakler`, `handelsmakler-paragraphen-93-104-hgb`, `handelsvertreter-paragraph-provision`, `handelsvertreter-provision`, `handlungsgehilfen-und-wettbewerbsverbot`, `jahresabschluss-hgb-grundlagen`, `kannkaufmann-paragraphen-kaufmaennisches`, `kaufmann-paragraph-kg-begriff`, `kg-begriff-kommanditist`, `kommission-paragraphen-ladenvollmacht`, `ladenvollmacht-paragraph-56-hgb`, ... plus 13 weitere |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/juristischer-argumentationskern/SKILL.md), [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/kaltstart-triage/SKILL.md) |
+| 2. Status und Register | [`status-und-register-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/status-und-register-bearbeiten/SKILL.md) |
+| 3. Vertretung | [`vertretung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/vertretung-bearbeiten/SKILL.md) |
+| 4. Geschäft | [`geschaeft-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/geschaeft-bearbeiten/SKILL.md) |
+| 5. Leistungsstörung | [`leistungsstoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/leistungsstoerung-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -68,65 +122,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 56 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `anfanger-erklaerung-handelsbrauch` | Wenn es um Anfänger-Erklärung HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `firma-paragraphen-firmenfortfuehrung` | Wenn es um Firma Paragrafen 17 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `firmenfortfuehrung-paragraphen-21-25-hgb` | Wenn es um Firmenfortführung Paragrafen 21-25 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `formkaufmann-paragraph-gmbh-co` | Wenn es um Formkaufmann Paragraf 6 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `frachtvertrag-paragraphen-speditionsvertrag` | Wenn es um Frachtvertrag Paragrafen 407 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `gmbh-und-co-kg-hgb` | Wenn es um GmbH & Co. KG HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsbuecher-paragraph-handelsgeschaefte` | Wenn es um Handelsbücher Paragraf 238 HGB in Handelsrecht HGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `handelsgeschaefte-paragraphen-343-344` | Wenn es um Handelsgeschäfte Paragrafen 343. 344 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelskauf-fristenampel-hgb` | Wenn es um Handelskauf-Fristenampel in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelskauf-paragraphen-handelsmakler` | Wenn es um Handelskauf Paragrafen 373-381 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsmakler-paragraphen-93-104-hgb` | Wenn es um Handelsmakler Paragrafen 93-104 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsregister-paragraphen-8-16-hgb` | Wenn es um Handelsregister Paragrafen 8 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsvertreter-paragraph-provision` | Wenn es um Handelsvertreter Paragraf 84 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsvertreter-provision` | Wenn es um Handelsvertreter Provision in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handelsvertreterausgleich-paragraph` | Wenn es um Handelsvertreterausgleich Paragraf 89b HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handlungsgehilfen-und-wettbewerbsverbot` | Wenn es um Handlungsgehilfen und Wettbewerbsverbot in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `handlungsvollmacht-paragraph-geschaeftsbriefe` | Wenn es um Handlungsvollmacht Paragraf 54 HGB in Handelsrecht HGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `hgb-compliance-geschaeftsbriefe-impressum` | Wenn es um HGB Compliance Geschäftsbriefe in Handelsrecht HGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `hgb-red-team` | Wenn es um HGB Red-Team in Handelsrecht HGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `international-cisg-handelsregister` | Wenn es um Internationaler Bezug und CISG-Schnittstelle in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `jahresabschluss-hgb-grundlagen` | Wenn es um Jahresabschluss HGB Grundlagen in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaltstart-triage` | Wenn es um HGB Kommandocenter in Handelsrecht HGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `kannkaufmann-paragraphen-kaufmaennisches` | Wenn es um Kannkaufmann Paragrafen 2. 3 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaufmaennisches-bestaetigungsschreiben` | Wenn es um Kaufmännisches Bestätigungsschreiben in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kaufmann-paragraph-kg-begriff` | Wenn es um Kaufmann Paragraf 1 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kg-begriff-kommanditist` | Wenn es um KG Begriff und Kommanditist in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kg-haftung-ohg-vertretung` | Wenn es um Kommanditistenhaftung Paragrafen 171. 172 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `kommission-paragraphen-ladenvollmacht` | Wenn es um Kommission Paragrafen 383 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ladenvollmacht-paragraph-56-hgb` | Wenn es um Ladenvollmacht Paragraf 56 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lagergeschaeft-paragraphen-maengelruege` | Wenn es um Lagergeschäft Paragrafen 467 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `livequellen-hgb` | Wenn es um Livequellen HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `maengelruege-paragraph-377-hgb` | Wenn es um Mängelrüge Paragraf 377 HGB in Handelsrecht HGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `ohg-anmeldung-begriff` | Wenn es um OHG Anmeldung und Statuswechsel Paragraf 106 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ohg-begriff-und-entstehung-paragraph-105` | Wenn es um OHG Begriff und Entstehung Paragraf 105 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ohg-gesellschafterwechsel-prokura` | Wenn es um OHG Gesellschafterwechsel in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `ohg-vertretung-und-haftung` | Wenn es um OHG Vertretung und Haftung in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prokura-paragraphen-48-53-hgb` | Wenn es um Prokura Paragrafen 48-53 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `prozessuale-beweisfragen-rechtsabteilung` | Wenn es um Prozessuale HGB-Beweisfragen in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-handelskauf-maengelruege-nach-377-hgb` | Wenn es um Rechtsabteilung: Handelskauf-Mängelrüge nach Paragraf 377 HGB in Handelsrecht HGB geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-kaufmaennisches` | Wenn es um Rechtsabteilung: Kaufmännisches Bestätigungsschreiben im Konzernalltag in Handelsrecht HGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpu... |
-| `rechtsabteilung-kommissionsgeschaeft-und-plattformhaendler` | Wenn es um Rechtsabteilung: Kommissionsgeschäft und Plattformhändler in Handelsrecht HGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risike... |
-| `rechtsabteilung-lagerhalter-unternehmenskauf` | Wenn es um Rechtsabteilung: Lagerhalter- und Speditionshaftung in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `rechtsabteilung-prokura-registerbeanstandung` | Wenn es um Rechtsabteilung: Prokura und Grundstücksgeschäft in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `register-gutachten-klage` | Wenn es um Output Register/Gutachten/Klage in Handelsrecht HGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
-| `registerakte-handelsstreit` | Wenn es um Registerakte und Lückenliste in Handelsrecht HGB geht: ordnet Akteninhalt, Belege, Lücken und Nachforderungen; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `registerbeanstandung-und-beschwerde` | Wenn es um Registerbeanstandung und Beschwerde in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `registerpublizitaet-paragraph-scheinkaufmann` | Wenn es um Registerpublizität Paragraf 15 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `sanierung-krise-jahresabschluss-grundlagen` | Wenn es um HGB in Krise und Sanierung in Handelsrecht HGB geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `scheinkaufmann-und-rechtsschein` | Wenn es um Scheinkaufmann und Rechtsschein in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `speditionsvertrag-paragraphen-453-466-hgb` | Wenn es um Speditionsvertrag Paragrafen 453 ff. HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `stille-gesellschaft-zweigniederlassung` | Wenn es um Stille Gesellschaft Paragraf 230 HGB in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `unternehmenskauf-hgb-haftung` | Wenn es um Unternehmenskauf HGB-Haftung in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-handelsbrauch-beweis` | Wenn es um Handelsbrauch und Beweis in Handelsrecht HGB geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-hgb-erstpruefung` | Wenn es um HGB Erstprüfung in Handelsrecht HGB geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `workflow-verhandlung-handelsstreit` | Wenn es um Verhandlung im Handelsstreit in Handelsrecht HGB geht: entwickelt Verhandlungsziel, Vergleichskorridor und Eskalationspfad; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `zweigniederlassung-und-niederlassung` | Wenn es um Zweigniederlassung und Niederlassung in Handelsrecht HGB geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Handelsrecht HGB: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Handelsrecht HGB: Arbeitsprodukt: Registeranmeldung, Vertragsklausel, Rüge, Provisionsabrechnung, Buchauszugsverlangen, Kündigung oder Klageentwurf erstellen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`geschaeft-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/geschaeft-bearbeiten/SKILL.md) | Handelsrecht HGB: Geschäft: Vertragstyp, beiderseitiges Handelsgeschäft, Handelsbrauch, kaufmännisches Bestätigungsschreiben und AGB einordnen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/geschaeft-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/juristischer-argumentationskern/SKILL.md) | Handelsrechtlichen Vorgang vom Geschäft zum Anspruch bearbeiten. Wertet vorhandene Unterlagen aus, entscheidet die fachlichen Weichen und liefert beziffertes Forderungs- oder Abwehrschreiben, Vertragsklausel oder Klageentwurf mit chronol... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/juristischer-argumentationskern/SKILL.md) |
+| [`kaltstart-triage`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/kaltstart-triage/SKILL.md) | Für HGB Kommandocenter: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/kaltstart-triage/SKILL.md) |
+| [`leistungsstoerung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/leistungsstoerung-bearbeiten/SKILL.md) | Handelsrecht HGB: Leistungsstörung: Lieferung, Untersuchung, Rüge, Fixtermin, Zurückbehaltung, Provision, Ausgleich oder Transporthaftung mit Belegen verbinden. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/leistungsstoerung-bearbeiten/SKILL.md) |
+| [`status-und-register-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/status-und-register-bearbeiten/SKILL.md) | Handelsrecht HGB: Status und Register: Kaufmann, Unternehmensträger, Firma, Eintragung, Bekanntmachung und Vertrauenslage bestimmen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/status-und-register-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Handelsrecht HGB: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`vertretung-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/vertretung-bearbeiten/SKILL.md) | Handelsrecht HGB: Vertretung: Organ, Prokura, Handlungsvollmacht, Rechtsschein, Umfang und Nachweis der Vertretungsmacht prüfen. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=handelsrecht-hgb/skills/vertretung-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

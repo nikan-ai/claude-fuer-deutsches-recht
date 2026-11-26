@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "plugin": "produktrecht",
+  "reviewed_on": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R0988",
+      "checked_on": "2026-09-14",
+      "supports": "Artikel 9 Absatz 8: Korrektur und Meldung; Artikel 35: direkte Information erreichbarer Verbraucher; Artikel 36: konkrete Rückrufanzeige ohne Risikoverharmlosung."
+    },
+    {
+      "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_107-08.pdf?__blob=publicationFile&v=1",
+      "checked_on": "2026-09-22",
+      "supports": "BGH, Urteil vom 16. Juni 2009, VI ZR 107/08, Randnummern 15 bis 24 und 27 bis 31. Anwendung: Sicherheitskonstruktion nach praktisch verfügbarer, erprobter und zumutbarer Alternative prüfen; bloße Branchenüblichkeit oder Warnung genügt nicht. Grenze: Airbagfall; keine Haftung wegen nur theoretischer Lösung, kein Kausalitätsbeweis, keine GPSR- oder KI-VO-Auslegung."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/prodhaftg/__3.html",
+      "checked_on": "2026-09-22",
+      "supports": "Fehlerbegriff und berechtigte Sicherheitserwartung."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/deu",
+      "checked_on": "2026-09-23",
+      "supports": "Amtlicher Ausgangstext, Artikel 35 bis 37 erneut gelesen: Verbraucherinformation, Rückrufanzeige und Abhilfe einschließlich Wahl und Ausnahmen. EUR-Lex weist eine konsolidierte Fassung vom 29.05.2026 aus; deren Abruf war technisch gesperrt. Keine vollständige Prüfung dieser Konsolidierung behauptet."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/prodhaftg/__3.html",
+      "checked_on": "2026-09-23",
+      "supports": "Erneut gelesener Fehlermaßstab: berechtigte Sicherheitserwartung unter Berücksichtigung von Darbietung, erwartbarem Gebrauch und Inverkehrbringen. Kein Nachweis des konkreten technischen Fehlers."
+    },
+    {
+      "url": "https://publications.europa.eu/resource/celex/62024TJ0523.ENG.html",
+      "checked_on": "2026-11-14",
+      "supports": "EuG, Urt. v. 11.11.2026 – Az. T-523/24, Kerry und Kerry Ingredients (UK)/Kommission, ECLI:EU:T:2026:744, Rn. 80–85, 195–201, 222–225. Sicherheitsnachweis bei Zulassung/Verlängerung von Raucharoma-Primärprodukten und begrenzte Bedeutung der Übergangsfrist. Grenze: Keine allgemeine Rückruf-Beweislast, keine Schokoladen-/Süßstoffentscheidung; Rechtskraft nicht geprüft.",
+      "verification_status": "Amtlicher Volltext in den dokumentierten Passagen gelesen; keine pauschale Prüfung übriger Quellen.",
+      "read_passages": "Englischer amtlicher Volltext: Kopf, Rn. 79–89, 195–201, 219–225, 240–245, 300–307 und Tenor",
+      "sha256": "da648c64034e32dd8f68973bdf03888d3e82b6f5a5b44de673feffeef0f0fa7d"
+    },
+    {
+      "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=316758&doclang=EN",
+      "checked_on": "2026-11-16",
+      "supports": "EuGH, Urteil vom 05.11.2026, C-395/25, Orkla Care, ECLI:EU:C:2026:945, Rn. 44–56, 64–71, 85–99 und 109–112 Gefahrstoffverpackung im konkreten Zielmarkt nach Fotos vor und nach Öffnung, vertrauter Lebensmittelaufmachung und Wirkung auf Kinder und schutzbedürftige Personen prüfen. Art. 35 Abs. 2 CLP. Die Vorabentscheidung entscheidet nicht über eine bestimmte Verpackungsfreigabe, GPSR-Meldung, Rückrufpflicht oder Haftung.",
+      "verification_status": "Amtlicher englischer Volltext und Tenor geprüft."
+    }
+  ],
+  "mini_review": {
+    "verdict": "revised",
+    "reason": "Am 2026-09-23 vollständig gelesen und individuell ergänzt: Markteinführung, Sicherheitsvorfall und Haftung als kurze Startauswahl; neue Charge, Rückläufer und Updatefassung ändern gezielt den bestehenden Rückruf- und Maßnahmenentwurf. Vorhandene rechtliche Grenzen erhalten. 2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests. Die bezeichnete Quellen- und Workflowpassage wurde am 16.11.2026 gezielt nachgeprüft.",
+    "changes": [
+      "VI ZR 107/08 in Sicherheits- und Haftungsprüfung integriert.",
+      "Nicht überprüfte Entscheidungslisten durch konkreten Maßstab und Grenzen ersetzt.",
+      "2026-09-23: Stilles Lesen bei Dateien ohne Auftrag und unmittelbare Bearbeitung bei klarer Aufgabe; konkrete Fortschreibung von Chargenumfang, Außenbestand und Abhilfenachweis ergänzt.",
+      "2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+      "Gefahrstoffverpackung im konkreten Zielmarkt nach Fotos vor und nach Öffnung, vertrauter Lebensmittelaufmachung und Wirkung auf Kinder und schutzbedürftige Personen prüfen."
+    ],
+    "sha256": "b05e95564f33d4362b902a276e7d23e46ce2b85dc7d3ac47f79029e2ad231326",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "workshop_review": {
+    "verdict": "revised",
+    "reason": "Am 2026-09-23 vollständig gelesen und fachlich vertieft: Aussagekraft von Prüfmustern, Feldfehler und Fehlanwendung, erreichbare Updategruppen, Mengenabgleich, Abhilfeauswahl und Rückrufwirksamkeit. Technische Hypothesen und Sicherheitsfreigabe bleiben nachweisgebunden; keine Live-Ausführung. 2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests. 14.11.2026: gezielte amtliche Volltextprüfung und fachliche Gegenlese ausschließlich der ergänzten Entscheidungsfälle; keine erneute Gesamtprüfung der Altquellen oder Live-Modellprüfung. Die Quellenprüfung vom 16.11.2026 ergänzt die konkret dokumentierte Änderung zum Entscheidungsstichtag 31.10.2026. Die bezeichnete Quellen- und Workflowpassage wurde am 16.11.2026 gezielt nachgeprüft.",
+    "changes": [
+      "VI ZR 107/08 in Sicherheits- und Haftungsprüfung integriert.",
+      "Nicht überprüfte Entscheidungslisten durch konkreten Maßstab und Grenzen ersetzt.",
+      "2026-09-23: Vorserie/Serienstand und abweichende Prüfbedingungen, Defektursache versus Unfallfolge sowie Installation versus Updateangebot unterschieden.",
+      "2026-09-23: Rückläufer ohne Doppelzählung, Händler- und Endkundenbestände, konkrete Rückgabewege, Abhilfealternativen und Wirksamkeitskontrolle mit fertigem Rückruftext verbunden.",
+      "2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+      "14.11.2026: gezielte amtliche Volltextprüfung und fachliche Gegenlese ausschließlich der ergänzten Entscheidungsfälle; keine erneute Gesamtprüfung der Altquellen oder Live-Modellprüfung. Anker: kerry.",
+      "Entscheidung über Raucharoma vom November bei Oktoberprüfung aus der damaligen Entscheidungsgrundlage ausnehmen.",
+      "Gefahrstoffverpackung im konkreten Zielmarkt nach Fotos vor und nach Öffnung, vertrauter Lebensmittelaufmachung und Wirkung auf Kinder und schutzbedürftige Personen prüfen."
+    ],
+    "sha256": "afa4b659c1383d06e8f4deb7658d406590a0e886b8b563baade252eb0021d0f2",
+    "reviewed_on": "2026-10-16",
+    "method": "desk_review",
+    "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+  },
+  "selection": {
+    "positive": [
+      "Entwirf Rückruf und Maßnahmenplan für unsere gefährliche Produktcharge.",
+      "Prüfe eine Launch-Freigabe anhand von Sicherheitsprüfung und Reklamationen."
+    ],
+    "negative": [
+      "Prüfe ausschließlich die CE-Kennzeichnung als irreführende Werbeaussage in einer Wettbewerberabmahnung, ohne technische Sicherheitsbewertung.",
+      "Fordere wegen eines rein kosmetischen Mangels ohne Sicherheitsrisiko kaufrechtliche Nacherfüllung vom Händler."
+    ]
+  },
+  "cases": [
+    {
+      "id": "klapphocker-rueckruf-reichweite",
+      "request": "Erstelle ergebnis.md als internen Maßnahmenplan und Entwurf einer Rückrufanzeige. Hersteller H vertreibt in Deutschland den nicht elektrischen Klapphocker Sitzklar, Charge K24, über seinen Webshop. Die Charge steht auf der Unterseite. 1000 Stück wurden hergestellt; 200 liegen noch im eigenen Lager, 800 wurden an namentlich und per E-Mail bekannte Privatkunden ausgeliefert. Ein bestätigter Fertigungsfehler lässt das Gelenk bei normalem Sitzen brechen; ein Kunde erlitt einen Armbruch. Alle 1000 Stück sind betroffen. H bietet kostenlose Abholung und volle Kaufpreiserstattung; eine sichere Reparatur steht noch nicht bereit. Produktfoto und gebührenfreie Hotline werden vor Veröffentlichung ergänzt. Die Anwendbarkeit der GPSR ohne verdrängendes Spezialrecht ist für diesen Auftrag vorgegeben. Die Geschäftsführung möchte lediglich den Shop sperren und einen kleinen Websitehinweis 'vorsorglicher Austausch' setzen.",
+      "input_files": [],
+      "deliverables": [
+        "ergebnis.md"
+      ],
+      "criteria": [
+        {
+          "id": "C01",
+          "text": "Unterscheidet die Sperrung der 200 Lagerstücke von dem erforderlichen Vorgehen für die 800 ausgelieferten Hocker.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C02",
+          "text": "Plant direkte unverzügliche Information der bekannten Käufer und behandelt einen Websitehinweis nicht als ausreichenden Ersatz.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C03",
+          "text": "Beschreibt Gelenkbruch, Verletzungsgefahr, sofortigen Nutzungsstopp und kostenlose Abhilfe klar, ohne den Rückruf als bloß vorsorglichen Austausch zu verharmlosen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C04",
+          "text": "Bereitet die gesonderte Behördeninformation vor und markiert Foto sowie Hotline als noch zu ergänzende Veröffentlichungselemente, ohne Meldung oder Rückruf als durchgeführt auszugeben.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        }
+      ],
+      "target_skill": "produkt-und-rolle-bearbeiten"
+    }
+  ],
+  "prompt_editorial_review": {
+    "date": "2026-09-22",
+    "method": "desk_review",
+    "files": [
+      "produktrecht/README.md",
+      "produktrecht/produktrecht-werkstatt.md",
+      "produktrecht/produktrecht-schnellstart.md",
+      "quality/evals/produktrecht.json"
+    ],
+    "opening_change": "Gefährliche Charge, Softwarezustand und erforderliche Korrektur oder Haftungsreaktion bestimmen.",
+    "norms": [
+      "Paragrafen 1 und 3 ProdHaftG",
+      "Paragraf 823 BGB",
+      "Artikel 5 und 9 GPSR"
+    ],
+    "decisions": [
+      {
+        "citation": "BGH, Urteil vom 16. Juni 2009, VI ZR 107/08, Randnummern 15 bis 24 und 27 bis 31",
+        "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2008/VI_ZR_107-08.pdf?__blob=publicationFile&v=1",
+        "application": "Sicherheitskonstruktion nach praktisch verfügbarer, erprobter und zumutbarer Alternative prüfen; bloße Branchenüblichkeit oder Warnung genügt nicht.",
+        "limit": "Airbagfall; keine Haftung wegen nur theoretischer Lösung, kein Kausalitätsbeweis, keine GPSR- oder KI-VO-Auslegung."
+      },
+      {
+        "citation": "EuG, Urt. v. 11.11.2026 – Az. T-523/24, Kerry und Kerry Ingredients (UK)/Kommission, ECLI:EU:T:2026:744, Rn. 80–85, 195–201, 222–225",
+        "url": "https://publications.europa.eu/resource/celex/62024TJ0523.ENG.html",
+        "application": "Sicherheitsnachweis bei Zulassung/Verlängerung von Raucharoma-Primärprodukten und begrenzte Bedeutung der Übergangsfrist.",
+        "limit": "Keine allgemeine Rückruf-Beweislast, keine Schokoladen-/Süßstoffentscheidung; Rechtskraft nicht geprüft.",
+        "checked_on": "2026-11-14"
+      },
+      {
+        "citation": "EuGH, Urteil vom 05.11.2026, C-395/25, Orkla Care, ECLI:EU:C:2026:945, Rn. 44–56, 64–71, 85–99 und 109–112",
+        "application": "Gefahrstoffverpackung im konkreten Zielmarkt nach Fotos vor und nach Öffnung, vertrauter Lebensmittelaufmachung und Wirkung auf Kinder und schutzbedürftige Personen prüfen.",
+        "limit": "Art. 35 Abs. 2 CLP. Die Vorabentscheidung entscheidet nicht über eine bestimmte Verpackungsfreigabe, GPSR-Meldung, Rückrufpflicht oder Haftung.",
+        "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=316758&doclang=EN",
+        "checked_on": "2026-11-16",
+        "verification_status": "Amtlicher englischer Volltext und Tenor geprüft."
+      }
+    ],
+    "remaining_limits": [
+      "Neue Produkthaftungsrichtlinie, Reparaturumsetzung und sämtliche produktbezogenen Sonderregime nicht vollständig neu verifiziert.",
+      "Desk-/Quellenreview, kein Live-Client- oder Modelltest. Bestehende Auswahl- und Ergebnisfälle unverändert erhalten.",
+      "2026-09-23: Frühere Quellenprüfung vom 2026-09-22 als datierten Prüfstand erhalten. BGH-Direktabruf VI ZR 107/08 erneut versucht, technisch fehlgeschlagen; keine heutige Volltextverifikation. ProdHaftG Paragraf 3 und GPSR-Ausgangstext Artikel 35 bis 37 gelesen. Die von EUR-Lex ausgewiesene Konsolidierung vom 29.05.2026 war wegen technischer Zugriffssperre nicht auswertbar; aktueller Konsolidierungsvergleich bleibt offen. Keine technische Begutachtung oder neue Vollprüfung der Sonderregime."
+    ]
+  },
+  "prompt_workflow_review": {
+    "date": "2026-09-23",
+    "method": "desk_review",
+    "opening_modes": [
+      "Leere Eingabe: Markteinführung, Sicherheitsvorfall mit Rückruf oder Haftung und Regress anbieten.",
+      "Dateien ohne Aufgabe: Produkt- und Prüfunterlagen still lesen und ausschließlich das gewünschte Ergebnis klären.",
+      "Klarer Auftrag: direkt Sicherheitsprüfung oder bestellten Text bearbeiten; nur entscheidende Umfangs-, Rollen- oder Nachweislücken erfragen."
+    ],
+    "continuation": "Nachweis desselben fehlerhaften Gelenks in Charge K25 ändert Identifikation, Mengen und Kontaktkreis in rueckrufanzeige.md und massnahmenplan.md beziehungsweise Nutzerpfad; Rückläufer und wirksame Updates verändern den Maßnahmenstand ohne erneute Aufnahme bekannter Vertriebsdaten.",
+    "enrichment": "Prüfmuster und Feldfehler abgeglichen, alternative Schadensursachen offengehalten, Updateversorgung nach Erreichbarkeit und Installation getrennt, Rücklaufmengen abgestimmt sowie Abhilfe und Verbraucherhandlung konkret ausformuliert; Abschluss nach belegter Wirksamkeit statt beliebiger Rücklaufquote.",
+    "limits": "desk review; no live client execution"
+  },
+  "ki_normen_vertiefung": {
+    "date": "2026-10-09",
+    "method": "desk_review",
+    "reference": "produktrecht/references/ki-normen-und-fallpruefung.md",
+    "focus": "Bestimmen Sie Produktrechtsakt, Sicherheitsfunktion und vorgeschriebenes Bewertungsverfahren. Ein CE-Zeichen nach einem Produktrechtsakt darf nicht ohne Prüfung als vollständiger Nachweis aller KI-Systemanforderungen erscheinen.",
+    "limits": "Keine vollständige Prüfung nicht KI-bezogener Inhalte; kein Live-Client-Test."
+  },
+  "visual_workflow_review": {
+    "method": "desk_review",
+    "date": "2026-11-16",
+    "scope": "Fachlich zugeordnete Darstellung, mehrstufige Aktenbearbeitung und Übergabe aus tatsächlich verfügbaren Oberflächen; Fachtext außerhalb des Zusatzes bytegleich.",
+    "files": [
+      "produktrecht/produktrecht-werkstatt.md"
+    ],
+    "limits": "Keine erneute Rechtsquellenverifikation und kein Live-Modelltest. Bereits offene Prüfungen bleiben offen.",
+    "pending_prior_changes": []
+  },
+  "source_audit_2026_11_14": {
+    "date": "2026-11-14",
+    "method": "targeted_primary_source_review",
+    "report": "quality/source-audits/2026-11-14/verfassungs-europa-produkt.md",
+    "workshop_path": "produktrecht/produktrecht-werkstatt.md",
+    "before_sha256": "2ef9b8a2bd290fcc867ceca33faf1737035084fb24b55c21ac37eeedbfd1b1b1",
+    "after_sha256": "89d6510b3539a77a646ec1d8772dfb6e667f23e6287a855c11f01b85dc7f57f3",
+    "previous_workshop_review": {
+      "verdict": "revised",
+      "reason": "Am 2026-09-23 vollständig gelesen und fachlich vertieft: Aussagekraft von Prüfmustern, Feldfehler und Fehlanwendung, erreichbare Updategruppen, Mengenabgleich, Abhilfeauswahl und Rückrufwirksamkeit. Technische Hypothesen und Sicherheitsfreigabe bleiben nachweisgebunden; keine Live-Ausführung. 2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests.",
+      "changes": [
+        "VI ZR 107/08 in Sicherheits- und Haftungsprüfung integriert.",
+        "Nicht überprüfte Entscheidungslisten durch konkreten Maßstab und Grenzen ersetzt.",
+        "2026-09-23: Vorserie/Serienstand und abweichende Prüfbedingungen, Defektursache versus Unfallfolge sowie Installation versus Updateangebot unterschieden.",
+        "2026-09-23: Rückläufer ohne Doppelzählung, Händler- und Endkundenbestände, konkrete Rückgabewege, Abhilfealternativen und Wirksamkeitskontrolle mit fertigem Rückruftext verbunden.",
+        "2026-10-16, redaktioneller Einstiegsreview: Produktfehler, Sicherheitsmaßnahmen und Ergebnis früh getrennt; verfügbare sichere Alternative statt bloßer Branchenüblichkeit. Lektüre des Einstiegs, der zugeordneten Anker und der geänderten Stellen; keine neue fachliche Ganztextprüfung oder Live-Modelltests."
+      ],
+      "sha256": "2ef9b8a2bd290fcc867ceca33faf1737035084fb24b55c21ac37eeedbfd1b1b1",
+      "reviewed_on": "2026-10-16",
+      "method": "desk_review",
+      "review_scope": "Redaktioneller Einstieg und Änderungsabgleich; übriger fachlicher Hauptteil nicht vollständig neu geprüft."
+    },
+    "decisions": [
+      {
+        "citation": "EuG, Urt. v. 11.11.2026 – Az. T-523/24, Kerry und Kerry Ingredients (UK)/Kommission, ECLI:EU:T:2026:744, Rn. 80–85, 195–201, 222–225",
+        "url": "https://publications.europa.eu/resource/celex/62024TJ0523.ENG.html",
+        "application": "Sicherheitsnachweis bei Zulassung/Verlängerung von Raucharoma-Primärprodukten und begrenzte Bedeutung der Übergangsfrist.",
+        "limit": "Keine allgemeine Rückruf-Beweislast, keine Schokoladen-/Süßstoffentscheidung; Rechtskraft nicht geprüft.",
+        "read_passages": "Englischer amtlicher Volltext: Kopf, Rn. 79–89, 195–201, 219–225, 240–245, 300–307 und Tenor",
+        "checked_on": "2026-11-14",
+        "sha256": "da648c64034e32dd8f68973bdf03888d3e82b6f5a5b44de673feffeef0f0fa7d"
+      }
+    ],
+    "scope": "14.11.2026: gezielte amtliche Volltextprüfung und fachliche Gegenlese ausschließlich der ergänzten Entscheidungsfälle; keine erneute Gesamtprüfung der Altquellen oder Live-Modellprüfung.",
+    "limits": "Bestehende Prüfstände und offene Dateireviews unverändert erhalten. Aktive Skills, Mini-Prompt und Testakten in diesem Teilauftrag nicht geändert."
+  },
+  "werkstatt_stichtagsnachpruefung_2026_10_31": {
+    "checked_on": "2026-11-16",
+    "decision_cutoff": "2026-10-31",
+    "scope": "Gezielte fachliche Nachprüfung der geänderten Passagen; frühere Rechts- und Workflowprüfungen bleiben als eigene Prüfstände dokumentiert.",
+    "report": "quality/source-audits/2026-10-31-werkstatt/README.md",
+    "finding": "Entscheidung über Raucharoma vom November bei Oktoberprüfung aus der damaligen Entscheidungsgrundlage ausnehmen.",
+    "path": "produktrecht/produktrecht-werkstatt.md",
+    "before_sha256": "89d6510b3539a77a646ec1d8772dfb6e667f23e6287a855c11f01b85dc7f57f3",
+    "after_sha256": "fac8ddae499432d198956266b46c9cda3ae5c267bbea952e12c87047c06f79ba"
+  }
+}

@@ -3,22 +3,68 @@
 <!-- BEGIN direkt-loslegen (autogen) -->
 ## Was ist das hier?
 
-Baukastensystem für IP-Lizenzverträge deutsches und internationales Recht. 32 Skills: Urheber Patent Marken Design Gebrauchsmuster Geschäftsgeheimnis Know-how; Klausel-Bausteine, Quellcode-Escrow, Insolvenz-Klausel, Sicherungslizenz, TT-GVO, DSGVO, Quellensteuer, Output DE EN bilingual.
+IP-Lizenzverträge für Urheberrecht, Patente, Marken, Designs, Gebrauchsmuster, Geschäftsgeheimnisse und Know-how gestalten. Rechte, Vergütung, Quellcode-Escrow, Insolvenz und internationale Schnittstellen abstimmen; deutsche und englische Fassungen erstellen.
 
-Dieses Plugin gehört zum Marketplace mit 234 Plugins für deutsches Recht. Es bündelt die zugehörigen Skills, Prüfraster, Vorlagen und Arbeitsroutinen in einem installierbaren Plugin-ZIP. Die zwei Markdown-Prompts sind vollwertige Ein-Datei-Starts für den Fall, dass kein Plugin-Setup genutzt werden soll: Werkstatt für den ausführlichen Arbeitsmodus, Schnellstart für den kompakten Einstieg.
+Dieses Plugin gehört zum Marketplace mit 315 Plugins. Für die Installation nimm das Einzel-ZIP. Ohne Installation genügt zum Einstieg einer der beiden eigenständigen Markdown-Prompts: Schnellstart für den Kernvorgang, Werkstatt für die ausführliche Bearbeitung. Die Prompts ersetzen nicht sämtliche Spezialskills und Hilfsdateien des Plugins.
 
-Schneller Weg: Für eine erste Ergebnisrichtung den Schnellstart laden, für einen tragfähigen Arbeitsmodus die Werkstatt. Beide Prompts sollen mit einem konkreten Arbeitsprodukt beginnen, nur eng nachfragen und nicht in einer Materialinventur hängen bleiben.
+## Welche Datei wofür? / Which file should I use?
+
+| Bestandteil | Deutsch | English | Wo? / Where? |
+| --- | --- | --- | --- |
+| Plugin-ZIP | Installiert das vollständige Plugin mit Skills, Referenzen und Hilfsdateien. | Installs the complete plugin with its skills, references and supporting files. | [`lizenzvertragsersteller.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/lizenzvertragsersteller.zip) |
+| Skills | Arbeitsabläufe für einzelne Aufgaben. Wähle bei einem klaren Auftrag den passenden Skill ausdrücklich; die automatische Auswahl ist nicht garantiert. Einzeldownloads enthalten nur die jeweilige Markdown-Datei. | Focused task workflows. Select a known skill explicitly; automatic selection is not guaranteed. An individual download contains only that Markdown file. | [Skill-Liste öffnen / Open skill list](../skills-index/lizenzvertragsersteller.md) |
+| Werkstatt-Prompt | Ausführliche eigenständige Markdown-Datei für komplexe oder mehrstufige Vorgänge. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Detailed standalone Markdown file for complex or multi-step matters. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/lizenzvertragsersteller-werkstatt.md) |
+| Schnellstart / Mini-Prompt | Kompakte eigenständige Markdown-Datei für einen schnellen ersten Arbeitsstand. Sie ist kein Skill und nicht im Plugin-ZIP enthalten. | Compact standalone Markdown file for a fast first work product. It is not a skill and is not included in the plugin ZIP. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/lizenzvertragsersteller-schnellstart.md) |
+| Testakten | Separate Übungsunterlagen in PDF- und Originalformaten; sie werden nicht mit dem Plugin installiert. | Separate practice files in PDF and original formats; they are not installed with the plugin. | [Testakten-Übersicht / Test-file index](../testakten/README.md) |
+
+Links mit „MD herunterladen / Download MD“ starten einen Dateidownload. Navigationslinks zu README- und Übersichtsseiten bleiben dagegen als GitHub-Seiten geöffnet.
+
+Links labelled “MD herunterladen / Download MD” start a file download. Navigation links to README and index pages remain normal GitHub pages.
+
+Die Skill-Liste bildet den Quellbestand ab. Im installierten Paket werden umfangreiche Spezialserien teilweise über einen Fachrouter bei Bedarf geladen und erscheinen dann nicht als eigene auswählbare Skills. Beim manuellen Einsatz eines einzelnen Skills müssen zusätzlich benötigte Referenzen oder Werkzeuge verfügbar sein.
+
+The skill index lists the source collection. In the installed package, some specialist series are accessed through a topic router rather than separate menu entries. A standalone skill may need additional reference files or tools. Choose one entry point, then add only what the matter requires.
+
+Direktnavigation: [30-Sekunden-Start](#in-30-sekunden-starten) · [Startseite](../README.md) · [Plugin-Katalog](../README.md#was-ist-drin) · [Skill-Gesamtübersicht](../SKILLS.md) · [Skills dieses Plugins](../skills-index/lizenzvertragsersteller.md) · [Plugin-Dateien](.) · [Download-Index](../ASSET_INDEX.md) · [Installation](../INSTALLATION_EINFACH.md) · [Testakten](../testakten/README.md)
+
+## In 30 Sekunden starten
+
+| Ausgangslage | Schnellster Weg |
+| --- | --- |
+| Plugin installiert | Passenden Fachskill in der [alphabetisch sortierten Skill-Liste](../skills-index/lizenzvertragsersteller.md) wählen und den untenstehenden Startsatz mit dem Arbeitsordner absenden. |
+| Noch keine Installation | Den Schnellstart unten als Markdown herunterladen und mit den Unterlagen in einer freigegebenen Arbeitsoberfläche bereitstellen. |
+| Umfangreicher oder mehrstufiger Vorgang | Die Werkstatt laden; sie führt tiefer durch Fachrouten, Gegenposition und Endprodukt. |
+
+Startsatz für Lizenzvertragsersteller:
+
+> Sichte den ausgewählten Ordner intern, ohne seine Inhalte ungefragt aufzulisten. Lies die für den Auftrag tragenden Unterlagen; ergänze die Lektüre gezielt bei offenen Belegfragen. Beginne mit folgendem Arbeitsschritt: einen fachbezogenen Erststand mit Ergebnisrichtung, Kernbeleg und nächstem Dokument. Wenn bereits ein konkretes Dokument verlangt ist, beginne unmittelbar damit. Frage gezielt nach entscheidenden offenen Punkten und arbeite an den unabhängigen Teilen weiter. Verarbeite die Antwort im bestehenden Entwurf; weitere Rückfragen nur bei neuen entscheidenden Lücken.
+
+Bei einem Folgewunsch den bisherigen Aktenstand fortführen. Bereits festgestellte Tatsachen, Berechnungen und Quellen nicht erneut abfragen oder ohne Anlass neu aufbauen.
 
 ## Downloads
 
 | Was | Format | Direkt-Download |
 | --- | --- | --- |
-| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`lizenzvertragsersteller.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/lizenzvertragsersteller.zip) |
-| Großer Prompt (Werkstatt) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/lizenzvertragsersteller/lizenzvertragsersteller-werkstatt.md" download><code>lizenzvertragsersteller-werkstatt.md</code></a> |
-| Kleiner Prompt (Schnellstart) | Markdown | <a href="https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/lizenzvertragsersteller/lizenzvertragsersteller-schnellstart.md" download><code>lizenzvertragsersteller-schnellstart.md</code></a> |
-| Testakte(n) als ZIP | ZIP | [`alle-testakten.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten.zip) und [`alle-testakten-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-testakten-einzelpdfs.zip) (zentrale Sammlung) |
+| Plugin als Komplett-ZIP (Hauptweg) | ZIP | [`lizenzvertragsersteller.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/paketpflege-20261122-v445.36.9/lizenzvertragsersteller.zip) |
+| Kompakter Prompt (Schnellstart) | Markdown | [`lizenzvertragsersteller-schnellstart.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/lizenzvertragsersteller-schnellstart.md) |
+| Großer Prompt (Werkstatt) | Markdown | [`lizenzvertragsersteller-werkstatt.md`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/lizenzvertragsersteller-werkstatt.md) |
+| Zugeordnete Testakten | PDF / ZIP | [eine zugeordnete Akte](#zugeordnete-testakten) mit Gesamt-PDF, Originaldateien und Einzel-PDFs |
 
-> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 234 Plugins. Wer alle Plugins auf einmal will, nimmt `alle-plugins-megazip.zip`. Wer nur einzelne Werkstatt- oder Schnellstart-Prompts will, nimmt die Markdown-Downloads.
+> Marketplace-Hinweis: Dieses Plugin gehört zum Marketplace mit 315 Plugins. Das Sammelpaket [`alle-plugins-megazip.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/alle-plugins-megazip.zip) enthält seinen veröffentlichten Stand, nicht zwingend spätere Einzelpakete. Alle Einzeldateien stehen im [Download-Index](../ASSET_INDEX.md); Werkstatt und Schnellstart bleiben direkte Markdown-Downloads.
+
+## Zugeordnete Testakten
+
+Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP mit einzelnen PDFs erreichbar.
+
+> Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
+>
+> This test case file was generated with AI and is an experiment. Use at your own responsibility and risk.
+
+| Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
+| --- | --- | --- | --- |
+| [Softwarelizenz für Pumpenfenster in Bremen](../testakten/vertragserstellung-softwarelizenz-pumpen-bremen/README.md) | [Gesamt-PDF](../testakten/vertragserstellung-softwarelizenz-pumpen-bremen/gesamt-pdf/vertragserstellung-softwarelizenz-pumpen-bremen_gesamt.pdf) | [`testakte-vertragserstellung-softwarelizenz-pumpen-bremen.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/grundakten-sammlung-v1.0.0/testakte-vertragserstellung-softwarelizenz-pumpen-bremen.zip) | [`testakte-vertragserstellung-softwarelizenz-pumpen-bremen-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.35.3/testakte-vertragserstellung-softwarelizenz-pumpen-bremen-einzelpdfs.zip) |
+
+[Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
 
 Wenn du das hier öffnest, willst du deinen Fall strukturieren, die einschlägigen Normen prüfen und ein verwertbares Arbeitsprodukt erhalten.
@@ -27,9 +73,9 @@ Baukastensystem für IP-Lizenzverträge nach deutschem und internationalem Recht
 ## Was deckt das Plugin ab?
 
 ### IP-Typen
-- **Urheberrecht und Software** (UrhG; $$ 31, 32, 32a, 69a-g)
+- **Urheberrecht und Software** (UrhG; Paragrafen 31, 32, 32a, 69a-g)
 - **Patente** (PatG; TT-GVO-Konformität)
-- **Marken** (MarkenG $ 30; DPMA/EUIPO; Qualitätskontrolle)
+- **Marken** (MarkenG Paragraf 30; DPMA/EUIPO; Qualitätskontrolle)
 - **Geschmacksmuster / Design** (DesignG; EU-VO 6/2002)
 - **Gebrauchsmuster** (GebrMG; Schnellschuss-Strategie neben Patent)
 - **Geschäftsgeheimnisse / Know-how** (GeschGehG; Reverse-Engineering-Verbot)
@@ -54,21 +100,23 @@ Baukastensystem für IP-Lizenzverträge nach deutschem und internationalem Recht
 - Vertragsdauer + Kündigung + Folgen
 - Vertraulichkeit + NDA-Interimsphase
 - Source-Code-Escrow
-- Insolvenzfestigkeit ($ 103 InsO)
+- Insolvenzfestigkeit (Paragraf 103 InsO)
 - Sicherungslizenz / Pfandrecht an Immaterialgütern
 
 ### Compliance-Schichten
-- Kartellrecht (TT-GVO EU 316/2014)
+- Kartellrecht (TTBER EU 2026/877; Skill-Slug aus Kompatibilitätsgründen unverändert)
 - Exportkontrolle (Dual-Use VO EU 2021/821; AWG/AWV; Sanktionen)
 - Datenschutz (DSGVO Art. 28, 44 ff., 26)
 - Steuern + Quellensteuer + DBA
 
 ### Output-Module
-- Vertrag DE (Fertigentwurf, 20 Paragraphen, Anlagen A-E)
+- Vertrag DE (vollständiger Fertigentwurf im beauftragten Umfang mit den tatsächlich benötigten Anlagen)
 - Vertrag EN (Licence Agreement, English Law oder German Law)
 - Bilingual DE/EN (side-by-side + Massgeb-Klausel)
 
 ## Workflow
+
+Die Übersicht ist eine Auswahl von Arbeitsschritten, kein Pflichtdurchlauf aller neun Stationen. Lies vorhandenen Vertrag, Rechtebestand und Verhandlungsstand zuerst. Ein klarer Auftrag für Lizenzklausel, Vertragsänderung oder Gesamtvertrag beginnt beim passenden Baustein; nur entscheidende Lücken zu Rechten, Rolle und Nutzungsumfang werden nachgefragt. Nach Antworten wird derselbe Entwurf vervollständigt, nicht erneut ein Dashboard aufgebaut.
 
 ```
 1. einstieg-routing                          (Dashboard, Sofort-Triage)
@@ -90,7 +138,9 @@ Baukastensystem für IP-Lizenzverträge nach deutschem und internationalem Recht
 
 Konvention: siehe `references/quellenhygiene.md`, `references/zitierweise.md`, `references/leitentscheidungen-anker.md`.
 
-## 32 Skills auf einen Blick
+## Vertragsbausteine auf einen Blick
+
+Die Übersicht ordnet die Vertragsarbeit; die [vollständige Skill-Liste](../skills-index/lizenzvertragsersteller.md) enthält zusätzlich alle Fachvertiefungen und die abschließende Dokumentenprüfung.
 
 | Gruppe | Skills |
 |---|---|
@@ -105,22 +155,30 @@ Konvention: siehe `references/quellenhygiene.md`, `references/zitierweise.md`, `
 
 Apache-2.0 OR MIT — Auswahl beim Empfänger.
 
+<!-- BEGIN FACHMODULE-NAVIGATION -->
+
+Das Plugin bietet **9 auswählbare Skills**. Die **33 vollständigen Fachmodule** und ihre Hilfsdateien bleiben in der [Fachbibliothek](FACHMODULE.md) zugänglich. Wählen Sie den Arbeitsweg nach dem gewünschten Ergebnis; er führt zu den passenden Vertiefungen.
+
+<!-- END FACHMODULE-NAVIGATION -->
 
 <!-- BEGIN SKILLS-LOGIC (auto-generated) -->
 
 ## Orientierung nach Arbeitslogik
 
-Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabetische Komplettliste bleibt darunter erhalten.
+Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Ein Klick auf einen Skill lädt seine Markdown-Datei; die alphabetische Komplettliste bleibt darunter erhalten.
+
+English: Skills are grouped by typical work phase. Clicking a skill downloads its Markdown file; the complete alphabetical list remains below.
 
 | Arbeitsphase | Typische Skills |
 | --- | --- |
-| 1. Einstieg und Fallrouting | `einstieg-routing`, `mandat-intake-und-konfliktpruefung` |
-| 2. Unterlagen, Sachverhalt und Quellen | `datenschutz-dsgvo-im-lizenzvertrag`, `steuern-quellensteuer-und-dba-lizenz` |
-| 3. Prüfung, Anspruch und Subsumtion | `klausel-haftung-gewaehrleistung-indemnification` |
-| 4. Gestaltung, Strategie und Verhandlung | `klausel-exklusivitaet-sole-non-exclusive`, `klausel-lizenzgegenstand-und-anlage-ip-liste`, `klausel-lizenzumfang-territorium-zeit-feld`, `klausel-mindestlizenzen-meldungen-audit`, `klausel-rechtswahl-gerichtsstand-schiedsklausel`, `klausel-unterlizenzen-sublicensing`, `klausel-verbesserungen-grant-back`, `klausel-verguetung-pauschale-royalty-tiered`, `klausel-vertragsdauer-kuendigung-rueckwirkung`, `klausel-vertraulichkeit-und-nda-interimsphase`, `output-vertrag-deutsch-fertigentwurf`, `output-vertrag-englisch-fertigentwurf`, `transaktionsstruktur-visualisieren-ascii` |
-| 6. Ergebnis, Schreiben und Kommunikation | `output-zweisprachig-bilingual-deutsch-englisch` |
-| 7. Kontrolle, Qualität und Gegenprüfung | `exportkontrolle-dual-use-eu-2021-821` |
-| 8. Spezialmodule und Schnittstellen | `escrow-quellcode-verwahrer-vereinbarung`, `insolvenz-fortbestand-paragraf-103-inso-lizenz`, `ip-identifikation-und-bestandsaufnahme`, `kartellrecht-tt-gvo-eu-316-2014`, `lizenz-gebrauchsmuster-gebrmg`, `lizenz-geschaeftsgeheimnis-knowhow-geschgehg`, `lizenz-geschmacksmuster-design-designg`, `lizenz-marke-markeng`, `lizenz-patent-patg`, `lizenz-urheberrecht-und-software-urhg`, `parteienrolle-klaeren-lizenzgeber-nehmer-sicherheiten-verwahrer`, `sicherungslizenz-pfandrecht-an-immaterialguetern` |
+| 1. Auftrag und bewährte Fachwerkzeuge | [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/einstieg-routing/SKILL.md), [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/juristischer-argumentationskern/SKILL.md) |
+| 2. IP und Rechtekette | [`ip-und-rechtekette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/ip-und-rechtekette-bearbeiten/SKILL.md) |
+| 3. Lizenzgrant | [`lizenzgrant-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/lizenzgrant-bearbeiten/SKILL.md) |
+| 4. Wirtschaft und Kontrolle | [`wirtschaft-und-kontrolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/wirtschaft-und-kontrolle-bearbeiten/SKILL.md) |
+| 5. Risiko und Bestand | [`risiko-und-bestand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/risiko-und-bestand-bearbeiten/SKILL.md) |
+| 6. Arbeitsprodukt | [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| 7. Unterlagen und Quellen auswerten | [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| 8. Arbeitsprodukt ausarbeiten und kontrollieren | [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-LOGIC (auto-generated) -->
 
@@ -128,41 +186,20 @@ Diese Navigation ordnet die Skills nach typischen Arbeitsschritten. Die alphabet
 
 ## Alle Skills im Überblick
 
-Automatisch generierte Komplett-Liste aller 32 Skills in diesem Plugin. Beschreibungen stammen aus dem `description`-Feld der jeweiligen SKILL.md.
+Automatisch generierte Komplett-Liste aller 9 Skills in diesem Plugin. Jeder Skillname und der Downloadlink laden den unveränderten Inhalt der zugehörigen `SKILL.md` als Markdown-Datei. Der eindeutige Dateiname enthält Plugin und Skill; Beschreibungen stammen aus dem jeweiligen `description`-Feld.
 
-| Skill | Beschreibung |
-| --- | --- |
-| `datenschutz-dsgvo-im-lizenzvertrag` | Wenn es um Datenschutz — DSGVO im Lizenzvertrag in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `einstieg-routing` | Wenn es um Anwalts-Dashboard Lizenzvertragsersteller in Lizenzvertragsersteller geht: klärt Rolle, Ziel, Frist, Unterlagen und den passenden nächsten Fachskill; liefert eine Tatbestands- oder Anspruchsmatrix mit Gegenargumenten. |
-| `escrow-quellcode-verwahrer-vereinbarung` | Wenn es um Escrow / Quellcode-Verwahrer-Vereinbarung in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `exportkontrolle-dual-use-eu-2021-821` | Wenn es um Exportkontrolle — Dual-Use und Lizenz in Lizenzvertragsersteller geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `insolvenz-fortbestand-paragraf-103-inso-lizenz` | Wenn es um Insolvenz-Fortbestand der Lizenz ($ 103 InsO) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und... |
-| `ip-identifikation-und-bestandsaufnahme` | Wenn es um IP-Identifikation und Bestandsaufnahme in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `kartellrecht-tt-gvo-eu-316-2014` | Wenn es um Kartellrecht — TT-GVO (EU) 316/2014 in Lizenzvertragsersteller geht: rechnet Schwellen, Beträge, Varianten und Kontrollannahmen durch; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfragen. |
-| `klausel-exklusivitaet-sole-non-exclusive` | Wenn es um Klausel Exklusivitaet — sole, exclusive, non-exclusive in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Ri... |
-| `klausel-haftung-gewaehrleistung-indemnification` | Wenn es um Klausel Haftung, Gewaehrleistung, Indemnification in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken... |
-| `klausel-lizenzgegenstand-und-anlage-ip-liste` | Wenn es um Klausel Lizenzgegenstand + Anlage A in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert einen Einreichungsplan mit Form-, Portal- und Nachweischeck. |
-| `klausel-lizenzumfang-territorium-zeit-feld` | Wenn es um Klausel Lizenzumfang — Territorium, Zeit, Feld in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausel-mindestlizenzen-meldungen-audit` | Wenn es um Klausel Mindestlizenzen, Meldungen, Audit in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und näc... |
-| `klausel-rechtswahl-gerichtsstand-schiedsklausel` | Wenn es um Klausel Rechtswahl, Gerichtsstand, Schiedsklausel in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausel-unterlizenzen-sublicensing` | Wenn es um Klausel Unterlizenzen (Sub-Licensing) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächste... |
-| `klausel-verbesserungen-grant-back` | Wenn es um Klausel Verbesserungen (Grant-Back) in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausel-verguetung-pauschale-royalty-tiered` | Wenn es um Klausel Vergütung — Pauschale, Royalty, Tiered in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Berechnungstabelle mit Schwellen, Annahmen und Kontrollfra... |
-| `klausel-vertragsdauer-kuendigung-rueckwirkung` | Wenn es um Klausel Vertragsdauer und Kuendigung in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `klausel-vertraulichkeit-und-nda-interimsphase` | Wenn es um Klausel Vertraulichkeit + NDA-Interimsphase in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Beweislast- und Substantiierungsmatrix. |
-| `lizenz-gebrauchsmuster-gebrmg` | Wenn es um Lizenz Gebrauchsmuster (GebrMG) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Verhandlungs- oder Eskalationslinie mit Optionen. |
-| `lizenz-geschaeftsgeheimnis-knowhow-geschgehg` | Wenn es um Lizenz Geschäftsgeheimnis / Know-how (GeschGehG) in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `lizenz-geschmacksmuster-design-designg` | Wenn es um Lizenz Design (DesignG / EU-Verordnung) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert eine Schnittstellenkarte mit Kollisions-, Zuständigkeits- und Nachweis... |
-| `lizenz-marke-markeng` | Wenn es um Lizenz Marke (MarkenG) in Lizenzvertragsersteller geht: zerlegt Ergebnis, Frist, Zuständigkeit, Beweislast und Gegenposition; liefert eine Gegenprüfung mit Fehler-, Beweis- und Fristencheck. |
-| `lizenz-patent-patg` | Wenn es um Lizenz Patent (PatG) in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `lizenz-urheberrecht-und-software-urhg` | Wenn es um Lizenz Urheberrecht / Software ($$ 31 ff. UrhG) in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `mandat-intake-und-konfliktpruefung` | Wenn es um Mandatsannahme und Konfliktpruefung in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-vertrag-deutsch-fertigentwurf` | Wenn es um Output: Lizenzvertrag in deutscher Sprache in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-vertrag-englisch-fertigentwurf` | Wenn es um Output: Licence Agreement in English in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `output-zweisprachig-bilingual-deutsch-englisch` | Wenn es um Output: Zweisprachiger Lizenzvertrag DE/EN in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `parteienrolle-klaeren-lizenzgeber-nehmer-sicherheiten-verwahrer` | Wenn es um Parteienrollen klären in Lizenzvertragsersteller geht: ordnet Sachverhalt, Norm, Beweislast, Gegenargumente und nächsten Schritt; liefert ein direkt nutzbares Arbeitsprodukt mit Prüfpunkten, Risiken und nächstem Schritt. |
-| `sicherungslizenz-pfandrecht-an-immaterialguetern` | Wenn es um Sicherungslizenz und Pfandrecht an Immaterialguetern in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `steuern-quellensteuer-und-dba-lizenz` | Wenn es um Steuern und Quellensteuer — Lizenz in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
-| `transaktionsstruktur-visualisieren-ascii` | Wenn es um Transaktionsstruktur visualisieren — ASCII in Lizenzvertragsersteller geht: prüft Frist, Form, Zuständigkeit, Rechtsweg und Sofortmaßnahmen; liefert eine Fristen- und Risikoampel mit Sofortschritten. |
+English: Complete list of all 9 skills in this plugin. Both links in each row download the unchanged `SKILL.md` content as a Markdown file with a unique plugin-and-skill filename.
+
+| Skill | Beschreibung | Markdown-Download |
+| --- | --- | --- |
+| [`arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Arbeitsprodukt ausarbeiten und kontrollieren: Den verlangten Text oder die Berechnung fertigstellen, Gegenposition, Quellenstatus und offene Punkte prüfen und die nächste Handlung erklären... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md) |
+| [`arbeitsprodukt-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Arbeitsprodukt: Term Sheet, IP Schedule, Lizenzvertrag, Clause Mark-up, TTBER-Matrix, Royalty-Modell oder Closing Checklist erstellen. Vollständige Fachanweisungen und lokale Vorlagen werd... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/arbeitsprodukt-bearbeiten/SKILL.md) |
+| [`einstieg-routing`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/einstieg-routing/SKILL.md) | Für Anwalts-Dashboard Lizenzvertragsersteller: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/einstieg-routing/SKILL.md) |
+| [`ip-und-rechtekette-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/ip-und-rechtekette-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: IP und Rechtekette: Schutzgegenstand, Register, Inhaber, Vorrechte, Mitarbeiter- oder Auftragnehmerrechte, Drittkomponenten und Belastungen feststellen. Vollständige Fachanweisungen und lo... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/ip-und-rechtekette-bearbeiten/SKILL.md) |
+| [`juristischer-argumentationskern`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/juristischer-argumentationskern/SKILL.md) | Lizenzvertrag aus Rechtekette und Nutzung vollständig entwerfen. Verarbeitet vorhandene Unterlagen, verbindet entscheidende Fachprüfungen und belegte Quellen, erstellt das beauftragte Ergebnis und führt denselben Vorgang nach neuen Angab... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/juristischer-argumentationskern/SKILL.md) |
+| [`lizenzgrant-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/lizenzgrant-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Lizenzgrant: Recht, Nutzungsart, Territorium, Feld, Dauer, Exklusivität, Unterlizenz, Übertragbarkeit, Updates und Verbesserungen präzisieren. Vollständige Fachanweisungen und lokale Vorla... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/lizenzgrant-bearbeiten/SKILL.md) |
+| [`risiko-und-bestand-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/risiko-und-bestand-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Risiko und Bestand: Gewährleistung, Freistellung, Haftung, Geheimnis, Kartellrecht, Change of Control, Insolvenz, Kündigung und Nachwirkung ordnen. Vollständige Fachanweisungen und lokale... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/risiko-und-bestand-bearbeiten/SKILL.md) |
+| [`unterlagen-und-quellen-auswerten-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Unterlagen und Quellen auswerten: Akte, Belege, Chronologie, Recherche und entscheidende Lücken für den konkreten Fachauftrag nachvollziehbar erschließen. Vollständige Fachanweisungen und... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/unterlagen-und-quellen-auswerten-bearbeiten/SKILL.md) |
+| [`wirtschaft-und-kontrolle-bearbeiten`](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/wirtschaft-und-kontrolle-bearbeiten/SKILL.md) | Für IP-Lizenzverträge und Technologieverwertung: Wirtschaft und Kontrolle: Fee, royalty base, Mindestbetrag, Währung, Steuer, Report, Audit, Forecast und Zahlungsfolge rechnen. Vollständige Fachanweisungen und lokale Vorlagen werden gezi... | [MD herunterladen / Download MD](https://klotzkette.github.io/claude-fuer-deutsches-recht/download.html?path=lizenzvertragsersteller/skills/wirtschaft-und-kontrolle-bearbeiten/SKILL.md) |
 
 <!-- END SKILLS-OVERVIEW (auto-generated) -->

@@ -1,63 +1,39 @@
-Wenn du das hier öffnest, willst du einen zivilrechtlichen Anspruch, Vertrag, AGB-Klausel oder Verbraucherfall sofort nach Anspruchsgrundlage, Einwendung, Beweislast und Arbeitsprodukt ordnen.
+# 1. Verschwiegenheit passend zum Austausch gestalten
 
-# Nda Verschwiegenheit Generator Checker — Schnellstart
+Entwirf oder prüfe die Verschwiegenheitsvereinbarung: Welche Informationen darf der Empfänger zu welchem Zweck nutzen, wem darf er sie zugänglich machen und was gilt nach Ende des Austauschs? Eine NDA zur Prüfung einer Kooperation regelt nicht ohne Auftrag bereits deren Durchführung.
 
-Ziel: Allgemeiner NDA-Ersteller und NDA-Prüfer für deutsche und internationale Verschwiegenheitsvereinbarungen: Entwurf, Redline, GeschGehG, HinSchG, AGB, Arbeitsrecht, M&A, Forschung, Software, Datenraum und Verletzungsreaktion. Arbeite sofort am konkreten Fall. Wenn Unterlagen, Dateien oder ein Ordner vorhanden sind, werte sie ohne Vorfrage aus. Liefere ganze Sätze und beende jede Ausgabe mit Ergebnisrichtung, Risiko und nächstem Schritt.
+Paragraf 2 GeschGehG verlangt tatsächliche angemessene Geheimhaltungsmaßnahmen. BAG, Urteil vom 17.10.2024, Az. 8 AZR 172/23, begrenzt umfassende nachvertragliche Mitarbeiter-Schweigepflichten. Schutzgegenstand und Dauer konkret regeln; kein pauschales Verbot langfristiger Unternehmens-NDAs daraus ableiten. Vertraglicher Schutz kann weiter reichen als der gesetzliche Geheimnisbegriff; Quelle unten.
 
-## 1. Schnellmodus
+Ohne Eingabe biete kurz an: „Neue NDA entwerfen, fremde Verschwiegenheitsklauseln prüfen oder auf eine konkrete Weitergabe reagieren?“ Bei Dateien ohne Aufgabe lies sie still und kläre nur das gewünschte Ergebnis. Bei klarem Auftrag direkt entwerfen oder prüfen, ohne Materialreferat und ohne Pflichtfolge mehrerer Gesprächsrunden. Nur entscheidende Lücken erfragen; bereitgestellter Text genügt auch ohne Datei- und Werkzeugzugriff.
 
-Starte mit dem Arbeitsprodukt, nicht mit einer Inventarliste. Wenn Dateien oder ein Ordner vorhanden sind, lies zuerst die Unterlagen und liefere sofort ein Lagebild mit Fundstellenlinie, Frist, Risiko und nächstem Schritt. Frage höchstens zwei Punkte nach, und nur wenn der nächste Schritt sonst falsch würde. Tabellen nur für Fristen, Belege, Beträge, Tatbestandsmerkmale oder Varianten.
+Lies Sachverhalt, vorhandenen Entwurf und Informationsbeschreibung zuerst. Bestimme einseitigen oder gegenseitigen Austausch, Rollen, Länder und Zweck aus diesen Unterlagen. Offene Parteienangaben als Platzhalter kennzeichnen, nicht erfinden.
 
-## 2. Direktstart
+## 1.1. Schutzgegenstand und Nutzung
 
-1. Vorhandene Unterlagen zuerst öffnen, lesen und als Beleglinie ordnen: Datum, Absender, Dokument, Kerntatsache, Lücke.
-2. Mandat in einem Satz festlegen: Wer will welches Ergebnis, gegen wen oder gegenüber welcher Stelle.
-3. Engpass sichern: Frist, Form, Zuständigkeit, Beweislast, Kosten oder Vollzugsfolge zuerst prüfen.
-4. Nur bei leerer Materiallage höchstens vier Kaltstartfragen stellen; sonst sofort Kurzvermerk, Prüfmatrix, Entwurf, Berechnung oder Entscheidungsvorschlag liefern.
+Definiere vertrauliche Informationen anhand der tatsächlich ausgetauschten Kategorien und Übermittlungsformen. Trenne bereits öffentliches Wissen, belegte Vorkenntnis, unabhängige Entwicklung und rechtmäßig von Dritten erhaltene Informationen. Regle, wie mündliche Offenlegungen erkennbar geschützt und später dokumentiert werden können. Nicht jede Information wird allein durch ihre Bezeichnung im Vertrag zum gesetzlichen Geschäftsgeheimnis; [Paragraf 2 GeschGehG](https://www.gesetze-im-internet.de/geschgehg/__2.html) verlangt insbesondere angemessene Geheimhaltungsmaßnahmen.
 
-## 3. Kernroute
+Formuliere die erlaubte Nutzung konkret: Prüfung, Verhandlung oder Durchführung welcher Zusammenarbeit? Produktentwicklung, Wettbewerbsanalyse, Training technischer Modelle oder Patentverwendung nicht stillschweigend mitfreigeben. Zugang nur für benannte Funktionen mit tatsächlichem Kenntnisbedarf vorsehen; externe Berater und Konzernunternehmen nicht pauschal gleichsetzen.
 
-1. Anspruchsziel: Leistung, Zahlung, Nacherfüllung, Rücktritt, Minderung, Schadensersatz, Unterlassung oder Vertragsfassung bestimmen.
-2. Anspruchsgrundlage: Vertragstyp, Zustandekommen, Form, Vertretung, Einbeziehung und AGB-Kontrolle in der richtigen Reihenfolge prüfen.
-3. Leistungsstörung: Pflichtverletzung, Mangel, Fristsetzung, Vertretenmüssen, Schaden und Kausalität mit Belegen verbinden.
-4. Einwendungen: Erfüllung, Aufrechnung, Verjährung, Ausschluss, Widerruf, Anfechtung und treuwidriges Verhalten getrennt abarbeiten.
-5. Beweis und Textprodukt: Anspruchsmatrix, Redline, Mahnung, Rücktritt, Klageentwurf, Mandantenbrief oder Vergleichsvorschlag erstellen.
-6. Beweisprotokoll Verletzung: Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten.
+## 1.2. Verpflichtungen vollziehbar machen
 
-## 4. Fallkarte
+Bei vorformulierten Pflichten Paragrafen 307 und 310 BGB prüfen. [BAG, Urteil vom 17. Oktober 2024, 8 AZR 172/23](https://www.bundesarbeitsgericht.de/entscheidung/8-azr-172-23/), Randnummern 25 bis 27 und 31 bis 39, verlangt konkret dargelegte Schutzmaßnahmen und beanstandet die unbegrenzte formularmäßige Schweigepflicht eines ausgeschiedenen Arbeitnehmers über alle internen Vorgänge. Bei Mitarbeiter-NDAs Schutzgegenstand und Nachwirkung eingrenzen; die Entscheidung nicht als generelles Verbot langfristiger Unternehmens-NDAs behandeln. Vertragliche Vertraulichkeit kann über den gesetzlichen Geheimnisbegriff hinausgehen.
 
-| Punkt | Sofortgriff |
-| --- | --- |
-| Normenanker | BGB Paragraf 104 bis Paragraf 185; BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286; BGB Paragraf 305 bis Paragraf 310 |
-| Rechtsprechung | aus Akte und belastbarer Quelle ableiten |
-| Tatbestand | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten |
-| Beweislast | Anspruchsteller für Vertrag, Pflichtverletzung, Mangel, Schaden und Kausalität; Gegner für Einwendungen, Ausschluss, Erfüllung und Verjährung |
-| Rechtsfolge | Anspruchsmatrix, Klauselprüfung, Mahnung, Rücktritt, Minderung, Klageentwurf, Redline oder Vergleich |
-| Quellenstatus | Aktenfund, Normtext, Profilanker oder sicher belegte Entscheidung offen kennzeichnen; unsichere Aktenzeichen nicht ergänzen |
+Paragraf 3 Absatz 1 Nummer 2 GeschGehG für Untersuchung und Rückbau von Mustern berücksichtigen. Paragraf 5 GeschGehG sowie Paragrafen 6, 7 und 33 HinSchG begrenzen Schweigepflichten gegenüber geschützten Meldungen und Offenlegungen; gesetzliche Voraussetzungen prüfen statt jede Weitergabe freizugeben. Eine neue Vertragsstrafe nach Paragrafen 339 ff. BGB nur nach Entscheidung des Auftraggebers gestalten.
 
-## 5. Einsatzfelder
+Ordne Schutzmaßnahmen, Weitergabe, Dokumentation und Vorfallmeldung einer verantwortlichen Partei zu. Stimmen die verlangten Maßnahmen mit Datenraum und Übermittlungsweg überein? Vertragliche Geheimhaltung und Datenschutzvereinbarung nicht verwechseln. Zwingende Offenlegungen und geschützte Meldungen gesondert prüfen; eine uneingeschränkte Schweigepflicht gegenüber Gerichten oder Behörden nicht ungeprüft formulieren.
 
-| Feld | Sofortgriff | Ausgabe |
-| --- | --- | --- |
-| Beweisprotokoll Verletzung | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Catch All Klausel Arbeitsvertrag | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Haftungsbegrenzung und Carve Outs | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Laufzeit und Nachwirkungsfrist | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Schadensersatz und Beweislast | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
-| Vertragsstrafe Hamburger Brauch | Anspruchsgrundlage, Vertragsschluss, Pflichtverletzung oder Mangel, Einwendung, Frist, Beweislast und Rechtsfolge sauber abschichten. | Ergebnisbaustein mit Beleg, Risiko und nächstem Schritt |
+Trenne Vertragslaufzeit, Nutzungsende und Dauer der Geheimhaltung. Regle Rückgabe oder Löschung einschließlich Sicherungskopien und zulässiger Aufbewahrung; für verbleibende Kopien Zweckbindung und Schutz fortführen. Begründe, welche Informationen eine längere Behandlung benötigen. Keine automatische Lizenz, Abschlussverpflichtung oder Wettbewerbsbeschränkung als Nebenfolge einschleusen.
 
-## 6. Anker
+## 1.3. Entwurf und Gegenprüfung
 
-- BGB Paragraf 104 bis Paragraf 185: Geschäftsfähigkeit, Willenserklärung, Zugang, Anfechtung, Stellvertretung und Zustimmung.
-- BGB Paragraf 241, Paragraf 280, Paragraf 281 und Paragraf 286: Pflichtverletzung, Schadensersatz, Fristsetzung und Verzug.
-- BGB Paragraf 305 bis Paragraf 310: Einbeziehung, Transparenz, Inhaltskontrolle und Klauselverbote.
-- BGB Paragraf 312 ff. und Paragraf 355 ff.: Verbrauchervertrag, Fernabsatz, Widerruf und Rückabwicklung.
-- Arbeite primär mit: GeschGehG Paragrafen 2-5, 6-8, 10-13, 16-20, 23; HinSchG Paragrafen 35-39; BGB Paragrafen 133, 157, 305-310, 339-343, 307; HGB Paragraf 90; StGB Paragraf 203: im Sachverhalt als tragenden Norm- oder Verfahrensanker prüfen.
+Ist unklar, ob der Empfänger Informationen nur bewerten oder bereits für die Entwicklung verwenden darf, frage nach dieser Nutzung. Bei unklarer Weitergabe kläre die konkret benötigten Berater oder Konzernfunktionen. Formuliere die gesicherten Teile bereits aus; die fehlende Antwort darf nicht als Zustimmung zu weitergehender Nutzung erscheinen.
 
-## 7. Antwortform
+Nach der Antwort passe Zweckbindung, Empfängerkreis und betroffene Folgepflichten gemeinsam an. Ergibt sich etwa aus einer erlaubten Weitergabe zusätzlicher Bedarf für Archivierung oder Löschung, frage dazu gezielt weiter und vervollständige anschließend die bestellte Fassung. Keine erneute Aufnahme bereits geklärter Angaben.
 
-Lagebild: drei bis sieben Sätze. Prüfung: Tatbestandsmerkmale mit Belegen, Beweislast und Gegenargument. Ergebnis: klare Empfehlung mit Rechtsfolge und Quellenstatus. Anschluss: Frist, fehlender Beleg, nächstes Dokument. Typische Ausgabe: Anspruchsmatrix: Anspruchsgrundlage, Tatbestandsmerkmal, Tatsache, Beleg, Gegenargument, Beweislast und Rechtsfolge als Tabelle ausgeben; Klauselprüfung: Einbeziehung, Transparenz, Leitbildabweichung, unangemessene Benachteiligung und Ersatzfolge getrennt bewerten.
+Beispiel: „Der Berater darf den Algorithmus testen, aber nicht an sein Entwicklungsteam geben.“ Ändere im bereits benannten Dokument, etwa `nda-entwurf.md`, erlaubten Test, Empfängerbindung und Rückgabe seiner Testauswertungen; eine zusätzliche Produktlizenz entsteht nicht. „Die Zeichnung war schon im öffentlichen Katalog“ verlangt dagegen Prüfung der konkreten veröffentlichten Version und Anpassung von Schutzumfang oder Verletzungsvorwurf. Behalte den Nutzerpfad; ohne Schreibzugriff gib den aktualisierten vollständigen Klauseltext dafür aus, ohne eine gespeicherte Datei zu behaupten.
 
-## 8. Stop
+Liefere vollständigen Vertrag oder ausformulierte Ersatzklauseln mit Präambel, Definitionen, Pflichten, Laufzeit und Schlussregelungen. Prüfe die Empfängersicht: Kann die Pflicht technisch erfüllt werden, sind erlaubte Empfänger erreichbar, widersprechen Löschung und Archivierung einander? Unverhandelte Vertragsstrafen oder unbegrenzte Haftung als Entscheidungspunkt behandeln, nicht als selbstverständlich gültigen Standard.
 
-Stoppe bei ungeklärter Frist, fehlender Vollmacht, fehlendem Kernbeleg oder Entscheidung mit hohem Haftungsrisiko und gib zuerst eine Lückenliste aus. Für Vertiefung den Werkstatt-Prompt desselben Plugins verwenden.
+Verwende den gewünschten Dateinamen und trenne Verhandlungsnotizen vom Vertragstext. Eine reine Prüfungsfrage wird mit einer begründeten Bewertung beantwortet; ein bestellter Entwurf nicht durch eine Risikotabelle ersetzt. Versand, Unterzeichnung und Offenlegung von Informationen nur nach Freigabe.
+
+Optional vertieft `zweckbindung-und-permitted-purpose` den Nutzungszweck; ohne Zugriff gelten die vorstehenden Kernregeln. Weitere Rechtsanker nur nach amtlicher Prüfung, ohne Literatur-Blindzitate. Bei unklarer Rechtswahl Varianten kennzeichnen. Ohne Export den fertigen Text liefern; kein DOCX oder Änderungsmodus vortäuschen. Export: Times New Roman, 11 pt, dezimale Gliederung.

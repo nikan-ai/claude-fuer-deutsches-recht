@@ -1,6 +1,6 @@
 ---
 name: klage-aus-eigenem-skill
-description: "Wenn es um Klagewerkstatt — Laufzeit aus eigenem Skill in Forderungsmanagement — Klagewerkstatt geht: erstellt den passenden Entwurf aus Sachverhalt, Norm, Beweis und Antrag; liefert einen verwertbaren Entwurf mit Anträgen, Begründung und Anlagenlogik."
+description: "Für Klagewerkstatt — Laufzeit aus eigenem Skill: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik."
 ---
 
 # Klagewerkstatt — Laufzeit aus eigenem Skill
@@ -17,12 +17,6 @@ description: "Wenn es um Klagewerkstatt — Laufzeit aus eigenem Skill in Forder
 ## Zentrale Normen
 
 Paragraf 253 ZPO (Klageschrift) — Paragrafen 130, 130a, 130d ZPO (Schriftsatz, elektronisches Dokument, beA-Pflicht) — Paragraf 23 Nummer 1 GVG und Paragraf 71 Absatz 1 GVG (allgemeine Wertzuständigkeit) — Paragraf 23 Nummer 2a GVG (Wohnraummietsachen ausschließlich Amtsgericht) — Paragrafen 12, 13, 29, 29c, 38 ZPO (örtliche Zuständigkeit) — VO (EU) 1215/2012 (Brüssel Ia, internationale Zuständigkeit) — Paragrafen 286, 288, 280 BGB (Verzug, Verzugszinsen, Verzugsschaden) — RVG VV (Rechtsanwaltsvergütung)
-
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -117,7 +111,6 @@ Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
 
 ---
-<!-- AUDIT 27.05.2026 bundle_004 -->
 **Halluzinations-Audit 27.05.2026**
 
 <!-- BEGIN ausformulierungspflicht (autogen) -->
@@ -127,3 +120,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 >
 > **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
 <!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
